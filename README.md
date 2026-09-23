@@ -18,10 +18,15 @@ Each desk uses the same governance architecture—10 stages, 7 hard checkpoints 
 
 ## Telegram delivery
 
-Telegram push delivery is prepared but inactive until a BotFather token and channel username are stored as repository secrets:
+Public Telegram endpoints:
+
+- Channel: [`@DEDLMarketBrief`](https://t.me/DEDLMarketBrief)
+- Publishing bot: [`@DEDLMarketBriefBot`](https://t.me/DEDLMarketBriefBot)
+
+Automated push delivery activates after the bot is made a channel administrator with permission to post messages and these values are stored as repository secrets:
 
 - `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHANNEL_ID`
+- `TELEGRAM_CHANNEL_ID` (use `@DEDLMarketBrief`)
 
 The token must never be committed to the repository.
 
