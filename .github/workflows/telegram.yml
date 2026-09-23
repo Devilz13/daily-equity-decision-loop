@@ -1,0 +1,37 @@
+name: Push latest edition to Telegram
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - issues.json
+      - 'issues/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post daily digest when Telegram is configured
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          SITE_URL: https://devilz13.github.io/daily-equity-decision-loop/
+        run: |
+          if [ -z "$BOT_TOKEN" ] || [ -z "$CHANNEL_ID" ]; then
+            echo "Telegram is not configured; skipping push."
+            exit 0
+          fi
+          DATE=$(node -p "require('./issues.json').latest")
+          TITLE=$(node -p "require('./issues.json').issues[0].title")
+          TEXT="DEDL Market Brief — ${DATE}%0A${TITLE}%0A%0AUS · Singapore · Global%0AResearch begins 08:00 SGT.%0A%0A${SITE_URL}%0A%0AAI-generated research. Not investment advice."
+          curl --fail --silent --show-error \
+            --request POST \
+            --data "chat_id=${CHANNEL_ID}" \
+            --data "text=${TEXT}" \
+            "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage"
+
