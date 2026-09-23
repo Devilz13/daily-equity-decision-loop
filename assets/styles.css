@@ -83,6 +83,17 @@ section { scroll-margin-top: 90px; }
 .check { padding:11px 12px; border:1px solid var(--line); border-radius:9px; background:#09151c; font-size:.74rem; color:#bdd0d6; }
 .check b { color:var(--amber); margin-right:7px; }
 .archive-table { border:1px solid var(--line); border-radius:14px; overflow:hidden; background:var(--panel); }
+.refinery-card { border:1px solid var(--line); border-radius:16px; background:var(--panel); overflow:hidden; }
+.table-scroll { overflow-x:auto; }
+.matrix { width:100%; min-width:960px; border-collapse:collapse; }
+.matrix th,.matrix td { padding:12px 14px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+.matrix th { background:#09151c; color:var(--muted); font:600 .68rem "SFMono-Regular",Consolas,monospace; text-transform:uppercase; letter-spacing:.07em; }
+.matrix td { color:#bdcdd2; font-size:.78rem; }
+.matrix td:first-child { color:var(--mint); font-family:"SFMono-Regular",Consolas,monospace; }
+.matrix td:nth-child(2) { color:var(--ink); font-weight:700; }
+.matrix tbody tr:last-child td { border-bottom:0; }
+.matrix-note { margin:0; padding:16px 18px; border-top:1px solid var(--line); color:var(--muted); font-size:.78rem; }
+.matrix-note strong { color:var(--amber); }
 .archive-row { display:grid; grid-template-columns:125px 110px 1fr 110px; gap:18px; align-items:center; padding:15px 18px; border-bottom:1px solid var(--line); text-decoration:none; }
 .archive-row:last-child { border-bottom:0; }
 .archive-row:hover { background:rgba(103,223,198,.035); }
@@ -136,4 +147,3 @@ section { scroll-margin-top: 90px; }
   .footer { flex-direction:column; }
   .report-body { overflow-x:auto; }
 }
-
