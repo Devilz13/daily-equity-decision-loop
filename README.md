@@ -1,20 +1,20 @@
 # DEDL Market Brief
 
-Public, AI-generated daily equity research newsletter for three independent market desks:
+Public, AI-generated daily equity research newsletter covering:
 
 - United States
 - Singapore
-- Global, excluding the US and Singapore
+- Global markets outside the US and Singapore
 
-Each desk uses the same governance architecture—10 stages, 7 hard checkpoints and an independent 12-rule discovery refinery—but market definitions and data sources are versioned separately.
+The public edition contains dated, source-linked facts, estimates, AI interpretation and coarse research outcomes. Proprietary research mechanics, thresholds, scoring, portfolio controls, holdings, trades, risk limits and approval decisions are private and must not be committed to this repository.
 
 ## Publication rules
 
 - New research starts at 08:00 Asia/Singapore.
-- Every dated edition is retained under `issues/YYYY/MM/DD/`.
-- Corrections are published as new records or explicit addenda; old editions are not silently rewritten.
-- The public repository must never contain portfolio balances, transaction records, personal identifiers, Telegram chat IDs, API keys or bot tokens.
-- Research may produce approval tickets but can never place trades.
+- Every dated edition is retained under `issues/YYYY/MM/DD/` or another dated issue path.
+- Corrections and privacy redactions are labelled rather than presented as new research.
+- The public repository must never contain private methodology, portfolio balances, transaction records, personal identifiers, Telegram chat IDs, API keys or bot tokens.
+- The newsletter publishes research observations only and cannot place trades.
 
 ## Telegram delivery
 
@@ -23,12 +23,12 @@ Public Telegram endpoints:
 - Channel: [`@DEDLMarketBrief`](https://t.me/DEDLMarketBrief)
 - Publishing bot: [`@DEDLMarketBriefBot`](https://t.me/DEDLMarketBriefBot)
 
-Automated push delivery activates after the bot is made a channel administrator with permission to post messages and these values are stored as repository secrets:
+Automated delivery uses repository secrets:
 
 - `TELEGRAM_BOT_TOKEN`
-- `TELEGRAM_CHANNEL_ID` (use `@DEDLMarketBrief`)
+- `TELEGRAM_CHANNEL_ID`
 
-The token must never be committed to the repository.
+Credentials must never be committed to the repository.
 
 ## AI and liability notice
 
