@@ -57,12 +57,14 @@ section { scroll-margin-top: 90px; }
 .section-head { display: flex; justify-content: space-between; gap: 24px; align-items: end; margin-bottom: 24px; }
 .section-head h2 { margin: 3px 0 0; font-size: clamp(1.8rem,3.2vw,3rem); line-height: 1.05; letter-spacing: -.045em; }
 .section-head p { margin: 0; color: var(--muted); max-width: 490px; font-size: .9rem; }
-.market-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+.market-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; }
 .market { min-height: 330px; padding: 22px; border: 1px solid var(--line); border-radius: 16px; background: linear-gradient(155deg,rgba(16,35,46,.96),rgba(9,20,27,.98)); box-shadow: 0 24px 70px rgba(0,0,0,.25); position: relative; overflow: hidden; }
 .market::before { content:""; position:absolute; inset:0 0 auto; height:2px; background:var(--market); }
 .market.us { --market: var(--mint); }
 .market.sg { --market: var(--amber); }
 .market.global { --market: var(--blue); }
+.market.reit { --market: #d6bf78; }
+.market.fund { --market: #b6a6ed; }
 .market-top { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
 .market h3 { margin: 9px 0 0; font-size: 1.45rem; letter-spacing: -.035em; }
 .flag { font-size: 1.25rem; }

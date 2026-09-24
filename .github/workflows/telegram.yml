@@ -27,7 +27,9 @@ jobs:
           fi
           DATE=$(node -p "require('./issues.json').latest")
           TITLE=$(node -p "require('./issues.json').issues[0].title")
-          TEXT="DEDL Market Brief — ${DATE}%0A${TITLE}%0A%0AUS · Singapore · Global%0AResearch begins 08:00 SGT.%0A%0A${SITE_URL}%0A%0AAI-generated research. Not investment advice."
+          DESKS=$(node -p "require('./issues.json').issues[0].markets.join(' · ')")
+          ISSUE_PATH=$(node -p "require('./issues.json').issues[0].path")
+          TEXT="DEDL Market Brief — ${DATE}%0A${TITLE}%0A%0A${DESKS}%0AResearch begins 08:00 SGT.%0A%0A${SITE_URL}${ISSUE_PATH}%0A%0AAI-generated research. Not investment advice."
           curl --fail --silent --show-error \
             --request POST \
             --data "chat_id=${CHANNEL_ID}" \

@@ -5,6 +5,8 @@ Public, AI-generated daily equity research newsletter covering:
 - United States
 - Singapore
 - Global markets outside the US and Singapore
+- Direct listed REITs and property trusts
+- Accessible investment funds and ETFs
 
 The public edition contains dated, source-linked facts, estimates, AI interpretation and coarse research outcomes. Proprietary research mechanics, thresholds, scoring, portfolio controls, holdings, trades, risk limits and approval decisions are private and must not be committed to this repository.
 
