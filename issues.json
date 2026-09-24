@@ -5,6 +5,20 @@
   "latest": "2026-09-24",
   "issues": [
     {
+      "number": 5,
+      "date": "2026-09-24",
+      "title": "Five-desk evening research run",
+      "status": "watch-only",
+      "path": "issues/2026/09/24-evening/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ]
+    },
+    {
       "number": 4,
       "date": "2026-09-24",
       "title": "REIT and Fund coverage added",
