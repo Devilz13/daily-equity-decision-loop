@@ -2,8 +2,16 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-09-24",
+  "latest": "2026-09-25",
   "issues": [
+    {
+      "number": 6,
+      "date": "2026-09-25",
+      "title": "No material change; source dates maintained",
+      "status": "no material change",
+      "path": "issues/2026/09/25/",
+      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"]
+    },
     {
       "number": 5,
       "date": "2026-09-24",
