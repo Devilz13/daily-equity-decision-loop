@@ -15,6 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Post sourced daily digest when Telegram is configured
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
