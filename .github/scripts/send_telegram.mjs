@@ -1,9 +1,18 @@
 import { readFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 
 const issueIndex = JSON.parse(readFileSync('issues.json', 'utf8'));
 const issue = issueIndex.issues?.[0];
 if (!issue || !/^issues\/\d{4}\/\d{2}\/[\w-]+\/$/.test(issue.path)) {
   throw new Error('The latest issue metadata is missing or its path is invalid.');
+}
+
+if (process.env.GITHUB_EVENT_NAME === 'push') {
+  const previous = JSON.parse(execFileSync('git', ['show', 'HEAD^:issues.json'], { encoding: 'utf8' }));
+  if (previous.issues?.[0]?.number === issue.number) {
+    process.stdout.write('The latest issue number is unchanged; no duplicate Telegram message sent.\n');
+    process.exit(0);
+  }
 }
 
 const siteUrl = 'https://devilz13.github.io/daily-equity-decision-loop/';
