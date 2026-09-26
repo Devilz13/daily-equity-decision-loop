@@ -2,15 +2,59 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-09-25",
+  "latest": "2026-09-26",
   "issues": [
+    {
+      "number": 7,
+      "date": "2026-09-26",
+      "title": "Weekend evidence refresh; desk statuses unchanged",
+      "status": "no status change",
+      "path": "issues/2026/09/26/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 007 keeps all five desk statuses unchanged while refreshing SOXX and RACK sponsor observations to 24 September.",
+        "market_note": "US CACI WATCH; Singapore S63 WATCH; Global RHM NOT SELECTED; direct REIT AJBU WATCH; Funds SOXX WATCH and RACK NOT SELECTED. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Putin says Ukraine settlement proposals remain on the table",
+            "date": "2026-09-25",
+            "context": "Reuters reports public diplomatic language, but no negotiated ceasefire; European security and energy uncertainty remains.",
+            "source": "https://www.reuters.com/world/putin-says-all-ukraine-peace-proposals-table-russia-must-weigh-its-interests-2026-09-25/"
+          },
+          {
+            "title": "Taiwan rejects Xi comments after Trump–Xi talks",
+            "date": "2026-09-25",
+            "context": "Taiwan’s response shows that high-level US–China engagement did not remove the core cross-strait dispute.",
+            "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/taiwan-denounces-xi-s-comments-to-trump-as-distortion-of-facts"
+          },
+          {
+            "title": "Russia and Iran foreign ministers call for diplomacy",
+            "date": "2026-09-25",
+            "context": "The statement is a de-escalation signal, not verified evidence of a ceasefire or restored shipping access.",
+            "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/25/russian-iranian-foreign-ministers-say-only-diplomatic-solution-to-conflict-around-iran"
+          }
+        ]
+      }
+    },
     {
       "number": 6,
       "date": "2026-09-25",
       "title": "No material change; source dates maintained",
       "status": "no material change",
       "path": "issues/2026/09/25/",
-      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"]
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ]
     },
     {
       "number": 5,
