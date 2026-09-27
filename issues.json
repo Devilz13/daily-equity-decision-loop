@@ -5,6 +5,98 @@
   "latest": "2026-09-27",
   "issues": [
     {
+      "number": 9,
+      "date": "2026-09-27",
+      "title": "Sunday global economic events outlook",
+      "status": "week ahead",
+      "path": "issues/2026/09/27-global-outlook/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 009 maps the week ahead across labour, inflation, AI, cyber, aviation, defence, logistics and energy; the five market-desk statuses are unchanged.",
+        "market_note": "US CACI WATCH; Singapore S63 WATCH; Global RHM NOT SELECTED; direct REIT AJBU WATCH; Funds SOXX WATCH and RACK NOT SELECTED. Calendar addendum only; no trade was placed.",
+        "headlines": [
+          {
+            "title": "US and China establish an AI safety channel",
+            "date": "2026-09-26",
+            "context": "AP reports new AI-incident and military-crisis communication work, though major strategic disputes remain unresolved.",
+            "source": "https://www.wral.com/news/ap/e8f85-china-and-the-us-agree-to-set-up-a-new-ai-safety-channel-and-to-keep-talking-on-trade-military/"
+          },
+          {
+            "title": "Trump rejects Iran's conditional Hormuz proposal",
+            "date": "2026-09-26",
+            "context": "AP reports the rejection left the key energy-shipping route constrained and recent indirect diplomacy without an agreement.",
+            "source": "https://www.wral.com/news/ap/c529a-saudi-arabia-says-it-intercepts-another-houthi-launched-missile-and-other-mideast-developments/"
+          }
+        ],
+        "event_updates": [
+          {
+            "name": "US growth, inflation and labour cluster",
+            "date": "2026-09-30",
+            "update": "BEA releases GDP and PCE data Wednesday; BLS releases September employment Friday.",
+            "source": "https://www.bea.gov/news/schedule"
+          },
+          {
+            "name": "OPEC+ oil-supply meeting",
+            "date": "2026-10-04",
+            "update": "OPEC confirms its next voluntary-adjustment-country and JMMC meetings for Sunday.",
+            "source": "https://www.opec.org/pr-detail/613-6-september-2026.html"
+          }
+        ],
+        "week_ahead": {
+          "days": [
+            {
+              "day": "Monday",
+              "date": "2026-09-28",
+              "items": [
+                "BOJ July-meeting minutes and August services-price data",
+                "AI4IA, OASec and AutoML events begin"
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "date": "2026-09-29",
+              "items": [
+                "US August JOLTS labour-demand release",
+                "ICAO aviation-safety forum and Cyber Security World Asia"
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "date": "2026-09-30",
+              "items": [
+                "US GDP, corporate-profit and PCE releases",
+                "Micron fiscal Q4 results",
+                "ADEX defence exhibition opens in Baku"
+              ]
+            },
+            {
+              "day": "Thursday",
+              "date": "2026-10-01",
+              "items": [
+                "BOJ Tankan and Summary of Opinions",
+                "China National Day holiday begins",
+                "US ISM Manufacturing PMI"
+              ]
+            },
+            {
+              "day": "Friday",
+              "date": "2026-10-02",
+              "items": [
+                "US September employment report",
+                "ADEX final day; verify announced agreements"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "number": 8,
       "date": "2026-09-27",
       "title": "Sunday fund evidence refresh; desk statuses unchanged",
