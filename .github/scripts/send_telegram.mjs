@@ -18,8 +18,17 @@ if (process.env.GITHUB_EVENT_NAME === 'push') {
 const siteUrl = 'https://devilz13.github.io/daily-equity-decision-loop/';
 const brief = issue.telegram;
 const headlines = brief?.headlines ?? [];
+const eventUpdates = brief?.event_updates ?? [];
+const weekAhead = brief?.week_ahead ?? null;
 if (!Array.isArray(headlines) || headlines.length > 3) {
   throw new Error('Supply zero to three world-watch headlines.');
+}
+
+if (!Array.isArray(eventUpdates) || eventUpdates.length > 2) {
+  throw new Error('Supply zero to two verified event updates.');
+}
+if (weekAhead && (!Array.isArray(weekAhead.days) || weekAhead.days.length !== 5)) {
+  throw new Error('A week-ahead brief must include Monday through Friday.');
 }
 
 const oneLine = (value, max, label) => {
@@ -52,6 +61,35 @@ if (headlines.length === 0) {
     }
     lines.push(`${index + 1}. ${title} · ${date}`, context, source);
   });
+}
+
+if (eventUpdates.length) {
+  lines.push('', 'CONFERENCE & RELEASE WATCH');
+  eventUpdates.forEach((item) => {
+    const name = oneLine(item.name, 70, 'event name');
+    const date = oneLine(item.date, 30, 'event update date');
+    const update = oneLine(item.update, 150, 'event update');
+    const source = oneLine(item.source, 300, 'event source');
+    const url = new URL(source);
+    if (url.protocol !== 'https:' || url.username || url.password) throw new Error('Event source must be a public HTTPS URL.');
+    lines.push(`${name} · ${date}`, update, source);
+  });
+}
+
+if (weekAhead) {
+  if (new Date(`${issue.date}T00:00:00Z`).getUTCDay() !== 0) throw new Error('Week-ahead briefs belong to Sunday issues.');
+  lines.push('', 'WEEK AHEAD · MON–FRI');
+  const weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  weekAhead.days.forEach((day, index) => {
+    if (day.day !== weekdays[index] || !/^\d{4}-\d{2}-\d{2}$/.test(day.date)) throw new Error('Week-ahead day/date is invalid.');
+    const expected = new Date(`${issue.date}T00:00:00Z`);
+    expected.setUTCDate(expected.getUTCDate() + index + 1);
+    if (day.date !== expected.toISOString().slice(0, 10)) throw new Error('Week-ahead date does not match the coming week.');
+    if (!Array.isArray(day.items) || day.items.length > 3) throw new Error('Supply zero to three events per day.');
+    const summary = day.items.length ? day.items.map((item) => oneLine(item, 140, 'week-ahead item')).join('; ') : 'No verified major event scheduled';
+    lines.push(`${day.day} ${day.date}: ${summary}`);
+  });
+  lines.push('Dates and direct source links: full issue. Events can change.');
 }
 
 lines.push('', 'MARKET SNAPSHOT', oneLine(brief?.market_note ?? `${issue.status}: ${issue.markets.join(' · ')}`, 350, 'market note'), '', `Full issue: ${siteUrl}${issue.path}`, '', 'OpenAI-generated research and news summary. Verify sources. Not investment advice.');
