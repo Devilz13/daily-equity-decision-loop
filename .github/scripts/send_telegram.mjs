@@ -20,12 +20,16 @@ const brief = issue.telegram;
 const headlines = brief?.headlines ?? [];
 const eventUpdates = brief?.event_updates ?? [];
 const weekAhead = brief?.week_ahead ?? null;
+const issueDay = new Date(`${issue.date}T00:00:00Z`).getUTCDay();
 if (!Array.isArray(headlines) || headlines.length > 3) {
   throw new Error('Supply zero to three world-watch headlines.');
 }
 
 if (!Array.isArray(eventUpdates) || eventUpdates.length > 2) {
   throw new Error('Supply zero to two verified event updates.');
+}
+if (eventUpdates.length && issueDay !== 0) {
+  throw new Error('Conference and economic-event updates belong to the Sunday outlook.');
 }
 if (weekAhead && (!Array.isArray(weekAhead.days) || weekAhead.days.length !== 5)) {
   throw new Error('A week-ahead brief must include Monday through Friday.');
@@ -64,7 +68,7 @@ if (headlines.length === 0) {
 }
 
 if (eventUpdates.length) {
-  lines.push('', 'CONFERENCE & RELEASE WATCH');
+  lines.push('', 'GLOBAL ECONOMIC EVENTS');
   eventUpdates.forEach((item) => {
     const name = oneLine(item.name, 70, 'event name');
     const date = oneLine(item.date, 30, 'event update date');
@@ -77,7 +81,7 @@ if (eventUpdates.length) {
 }
 
 if (weekAhead) {
-  if (new Date(`${issue.date}T00:00:00Z`).getUTCDay() !== 0) throw new Error('Week-ahead briefs belong to Sunday issues.');
+  if (issueDay !== 0) throw new Error('Week-ahead briefs belong to Sunday issues.');
   lines.push('', 'WEEK AHEAD · MON–FRI');
   const weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   weekAhead.days.forEach((day, index) => {
