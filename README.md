@@ -13,6 +13,7 @@ The public edition contains dated, source-linked facts, estimates, AI interpreta
 ## Publication rules
 
 - New research starts at 08:00 Asia/Singapore.
+- Sunday editions include a sourced global economic events outlook for the coming week, spanning policy, industry, AI, cybersecurity, energy, transport, logistics, space, security and other material economic developments.
 - Every dated edition is retained under `issues/YYYY/MM/DD/` or another dated issue path.
 - Corrections and privacy redactions are labelled rather than presented as new research.
 - The public repository must never contain private methodology, portfolio balances, transaction records, personal identifiers, Telegram chat IDs, API keys or bot tokens.
