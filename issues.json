@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-09-26",
+  "latest": "2026-09-27",
   "issues": [
+    {
+      "number": 8,
+      "date": "2026-09-27",
+      "title": "Sunday fund evidence refresh; desk statuses unchanged",
+      "status": "no status change",
+      "path": "issues/2026/09/27/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 008 keeps all five desk statuses unchanged while adding CACI contract evidence and refreshing SOXX and RACK to the 25 September close.",
+        "market_note": "US CACI WATCH; Singapore S63 WATCH; Global RHM NOT SELECTED; direct REIT AJBU WATCH; Funds SOXX WATCH and RACK NOT SELECTED. No trade was placed.",
+        "headlines": [
+          {
+            "title": "US and China establish an AI safety channel",
+            "date": "2026-09-26",
+            "context": "AP reports new AI-incident and military-crisis communication work, though major strategic disputes remain unresolved.",
+            "source": "https://www.wral.com/news/ap/e8f85-china-and-the-us-agree-to-set-up-a-new-ai-safety-channel-and-to-keep-talking-on-trade-military/"
+          },
+          {
+            "title": "German and Russian foreign ministers hold rare UN meeting",
+            "date": "2026-09-26",
+            "context": "The meeting restored direct contact but produced no reported breakthrough on Ukraine or wider European security tensions.",
+            "source": "https://www.wral.com/news/ap/2e7fa-german-russian-foreign-ministers-have-rare-meeting-at-un/"
+          },
+          {
+            "title": "Trump rejects Iran's conditional Hormuz proposal",
+            "date": "2026-09-26",
+            "context": "AP reports the rejection left the key energy-shipping route constrained and recent indirect diplomacy without an agreement.",
+            "source": "https://www.wral.com/news/ap/c529a-saudi-arabia-says-it-intercepts-another-houthi-launched-missile-and-other-mideast-developments/"
+          }
+        ]
+      }
+    },
     {
       "number": 7,
       "date": "2026-09-26",
