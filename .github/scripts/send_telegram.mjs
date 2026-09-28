@@ -42,17 +42,31 @@ const oneLine = (value, max, label) => {
   return value.trim();
 };
 
+const escapeHtml = (value) => value
+  .replaceAll('&', '&amp;')
+  .replaceAll('<', '&lt;')
+  .replaceAll('>', '&gt;')
+  .replaceAll('"', '&quot;');
+
+const sectionTitle = (value) => `<b><u>${escapeHtml(value)}</u></b>`;
+const subtitle = (value) => `<u>${escapeHtml(value)}</u>`;
+const sourceLink = (value) => `<a href="${escapeHtml(value)}">${escapeHtml(value)}</a>`;
+
 const lines = [
-  `DEDL Market Brief · Issue ${String(issue.number).padStart(3, '0')} · ${issue.date}`,
+  escapeHtml(`DEDL Market Brief · Issue ${String(issue.number).padStart(3, '0')} · ${issue.date}`),
   '',
-  'THE BIG PICTURE',
-  oneLine(brief?.summary ?? issue.title, 330, 'summary'),
+  sectionTitle('THE BIG PICTURE'),
   '',
-  'WORLD WATCH',
+  '',
+  escapeHtml(oneLine(brief?.summary ?? issue.title, 330, 'summary')),
+  '',
+  sectionTitle('WORLD WATCH'),
+  '',
+  '',
 ];
 
 if (headlines.length === 0) {
-  lines.push(brief ? 'No major new development verified by this issue’s cutoff.' : 'No world-watch brief supplied for this edition; see the full report.');
+  lines.push(escapeHtml(brief ? 'No major new development verified by this issue’s cutoff.' : 'No world-watch brief supplied for this edition; see the full report.'));
 } else {
   headlines.forEach((item, index) => {
     const title = oneLine(item.title, 130, 'headline title');
@@ -63,26 +77,32 @@ if (headlines.length === 0) {
     if (url.protocol !== 'https:' || url.username || url.password) {
       throw new Error('Headline source must be a public HTTPS URL.');
     }
-    lines.push(`${index + 1}. ${title} · ${date}`, context, source);
+    lines.push(
+      subtitle(`${index + 1}. ${title} · ${date}`),
+      escapeHtml(context),
+      sourceLink(source),
+    );
+    if (index < headlines.length - 1) lines.push('');
   });
 }
 
 if (eventUpdates.length) {
-  lines.push('', 'GLOBAL ECONOMIC EVENTS');
-  eventUpdates.forEach((item) => {
+  lines.push('', sectionTitle('GLOBAL ECONOMIC EVENTS'), '', '');
+  eventUpdates.forEach((item, index) => {
     const name = oneLine(item.name, 70, 'event name');
     const date = oneLine(item.date, 30, 'event update date');
     const update = oneLine(item.update, 150, 'event update');
     const source = oneLine(item.source, 300, 'event source');
     const url = new URL(source);
     if (url.protocol !== 'https:' || url.username || url.password) throw new Error('Event source must be a public HTTPS URL.');
-    lines.push(`${name} · ${date}`, update, source);
+    lines.push(subtitle(`${name} · ${date}`), escapeHtml(update), sourceLink(source));
+    if (index < eventUpdates.length - 1) lines.push('');
   });
 }
 
 if (weekAhead) {
   if (issueDay !== 0) throw new Error('Week-ahead briefs belong to Sunday issues.');
-  lines.push('', 'WEEK AHEAD · MON–FRI');
+  lines.push('', sectionTitle('WEEK AHEAD · MON–FRI'), '', '');
   const weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   weekAhead.days.forEach((day, index) => {
     if (day.day !== weekdays[index] || !/^\d{4}-\d{2}-\d{2}$/.test(day.date)) throw new Error('Week-ahead day/date is invalid.');
@@ -90,13 +110,27 @@ if (weekAhead) {
     expected.setUTCDate(expected.getUTCDate() + index + 1);
     if (day.date !== expected.toISOString().slice(0, 10)) throw new Error('Week-ahead date does not match the coming week.');
     if (!Array.isArray(day.items) || day.items.length > 3) throw new Error('Supply zero to three events per day.');
-    const summary = day.items.length ? day.items.map((item) => oneLine(item, 140, 'week-ahead item')).join('; ') : 'No verified major event scheduled';
-    lines.push(`${day.day} ${day.date}: ${summary}`);
+    const items = day.items.length
+      ? day.items.map((item) => `• ${escapeHtml(oneLine(item, 140, 'week-ahead item'))}`)
+      : ['No verified major event scheduled'];
+    lines.push(subtitle(`${day.day} ${day.date}`), ...items);
+    if (index < weekAhead.days.length - 1) lines.push('');
   });
-  lines.push('Dates and direct source links: full issue. Events can change.');
+  lines.push('', 'Dates and direct source links: full issue. Events can change.');
 }
 
-lines.push('', 'MARKET SNAPSHOT', oneLine(brief?.market_note ?? `${issue.status}: ${issue.markets.join(' · ')}`, 350, 'market note'), '', `Full issue: ${siteUrl}${issue.path}`, '', 'OpenAI-generated research and news summary. Verify sources. Not investment advice.');
+const fullIssueUrl = `${siteUrl}${issue.path}`;
+lines.push(
+  '',
+  sectionTitle('MARKET SNAPSHOT'),
+  '',
+  '',
+  escapeHtml(oneLine(brief?.market_note ?? `${issue.status}: ${issue.markets.join(' · ')}`, 350, 'market note')),
+  '',
+  `Full issue: ${sourceLink(fullIssueUrl)}`,
+  '',
+  'OpenAI-generated research and news summary. Verify sources. Not investment advice.',
+);
 const message = lines.join('\n');
 if (message.length > 4096) throw new Error('Telegram message exceeds its 4,096-character limit.');
 
@@ -111,7 +145,7 @@ if (process.argv.includes('--dry-run')) {
     const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ chat_id: channel, text: message, link_preview_options: { is_disabled: true } }),
+      body: JSON.stringify({ chat_id: channel, text: message, parse_mode: 'HTML', link_preview_options: { is_disabled: true } }),
     });
     const result = await response.json();
     if (!response.ok || !result.ok) throw new Error(`Telegram rejected the message (HTTP ${response.status}).`);
