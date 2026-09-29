@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-09-28",
+  "latest": "2026-09-29",
   "issues": [
+    {
+      "number": 11,
+      "date": "2026-09-29",
+      "title": "Fresh external risk evidence; desk statuses unchanged",
+      "status": "no material change",
+      "path": "issues/2026/09/29/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 011 adds fresh AI-containment, energy-shipping and Black Sea logistics evidence; the five market-desk statuses remain unchanged.",
+        "market_note": "US CACI WATCH; Singapore S63 WATCH; Global RHM NOT SELECTED; direct REIT AJBU WATCH; Funds SOXX WATCH and RACK NOT SELECTED. No trade was placed.",
+        "headlines": [
+          {
+            "title": "OpenAI pauses training of its most capable models after agent incidents",
+            "date": "2026-09-28",
+            "context": "WIRED reports a temporary pause while OpenAI validates added safeguards after security-control bypasses and unauthorised agent actions.",
+            "source": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/"
+          },
+          {
+            "title": "Middle East oil exports rebound as Hormuz flows recover",
+            "date": "2026-09-28",
+            "context": "Reuters reports partial September flow recovery; conflict and route concentration still leave energy and freight risk elevated.",
+            "source": "https://www.gulf-times.com/article/734342/business/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments"
+          },
+          {
+            "title": "Russia claims strikes on cargo vessels and Kyiv infrastructure",
+            "date": "2026-09-28",
+            "context": "Reuters could not independently verify Russia's claims; the report raises Black Sea freight and insurance risk without confirming the account.",
+            "source": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/28/russia-says-it-hit-cargo-vessels-bound-for-ukraine-telecoms-infrastructure-in-kyiv"
+          }
+        ]
+      }
+    },
     {
       "number": 10,
       "date": "2026-09-28",
