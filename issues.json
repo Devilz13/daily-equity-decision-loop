@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-09-29",
+  "latest": "2026-09-30",
   "issues": [
+    {
+      "number": 12,
+      "date": "2026-09-30",
+      "title": "Fund evidence refreshed; desk statuses unchanged",
+      "status": "no material change",
+      "path": "issues/2026/09/30/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 012 refreshes SOXX and RACK to 28 Sep and adds ST Engineering partnership evidence; all five desk outcomes remain unchanged.",
+        "market_note": "US CACI WATCH; Singapore S63 WATCH; Global RHM NOT SELECTED; direct REIT AJBU WATCH; Funds SOXX WATCH and RACK NOT SELECTED. No trade was placed.",
+        "headlines": [
+          {
+            "title": "RBA raises cash-rate target to 4.60%",
+            "date": "2026-09-29",
+            "context": "Australia's central bank tightened by 25 basis points as elevated inflation, energy costs and domestic capacity pressures persisted.",
+            "source": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
+          },
+          {
+            "title": "US technology executives agree voluntary AI safety standards",
+            "date": "2026-09-29",
+            "context": "Reuters reports commitments on independent audits and unintended system access; the accord is voluntary rather than binding regulation.",
+            "source": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+          },
+          {
+            "title": "Oil settles lower as Middle East exports recover",
+            "date": "2026-09-29",
+            "context": "Reuters reports Brent fell 2.6% and WTI 3.5%; improving flows eased pressure while conflict and route risks remained unresolved.",
+            "source": "https://www.reuters.com/business/energy/oil-prices-rise-second-session-continued-middle-east-supply-concern-2026-09-29/"
+          }
+        ]
+      }
+    },
     {
       "number": 11,
       "date": "2026-09-29",
