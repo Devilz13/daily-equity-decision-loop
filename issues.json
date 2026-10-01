@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-09-30",
+  "latest": "2026-10-01",
   "issues": [
+    {
+      "number": 13,
+      "date": "2026-10-01",
+      "title": "Fresh daily review; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/01/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 013 starts without inherited names. Full current-universe coverage was not reproducible, so all five desks report DATA INCOMPLETE and no prior candidate is carried forward.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "US inflation rises less than expected while spending surges",
+            "date": "2026-09-30",
+            "context": "Reuters reports August PCE inflation at 3.4% year on year and consumer spending up 0.9%, easing immediate rate-hike expectations.",
+            "source": "https://www.reuters.com/markets/us/us-inflation-rises-less-than-expected-august-consumer-spending-surges-2026-09-30/"
+          },
+          {
+            "title": "Oil rises as US–Iran talks stall and fuel stocks tighten",
+            "date": "2026-09-30",
+            "context": "Reuters reports Brent at US$103.50 and WTI at US$90.42; recovering Gulf crude flows only partly offset tight product markets.",
+            "source": "https://www.reuters.com/business/energy/oil-climbs-after-trump-denies-he-is-willing-ease-sanctions-iran-2026-09-30/"
+          },
+          {
+            "title": "NATO urges Russia to stop nuclear threats over Kaliningrad",
+            "date": "2026-09-30",
+            "context": "Reuters reports NATO's response to Russian warnings; the exchange raises Baltic risk but does not establish that an attack occurred.",
+            "source": "https://www.reuters.com/world/nato-alliance-is-defensive-russia-should-stop-nuclear-threat-rutte-says-2026-09-30/"
+          }
+        ]
+      }
+    },
     {
       "number": 12,
       "date": "2026-09-30",
