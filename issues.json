@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-01",
+  "latest": "2026-10-02",
   "issues": [
+    {
+      "number": 14,
+      "date": "2026-10-02",
+      "title": "Fresh daily review; no universe certified",
+      "status": "data incomplete",
+      "path": "issues/2026/10/02/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 014 begins without inherited names. Complete current-universe coverage was not reproducible, so all five desks report DATA INCOMPLETE and no security is certified.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Global government bond yields reach multi-year peaks",
+            "date": "2026-10-01",
+            "context": "Reuters reports the US 10-year yield reached 5.34%, its highest since 2002, as inflation and public-debt concerns pressured bonds.",
+            "source": "https://www.reuters.com/business/finance/why-are-world-bond-markets-selling-off-again-2026-10-01/"
+          },
+          {
+            "title": "Oil jumps as fuel supply and Middle East risks intensify",
+            "date": "2026-10-01",
+            "context": "Reuters reports Brent settled at US$102.31 amid Chinese fuel-export restrictions and reports of additional US forces heading to the region.",
+            "source": "https://www.reuters.com/business/energy/oil-prices-barely-changed-investors-assess-us-iran-peace-talks-gulf-exports-2026-10-01/"
+          },
+          {
+            "title": "Eritrea severs diplomatic ties with Ethiopia",
+            "date": "2026-10-01",
+            "context": "Reuters reports a reciprocal diplomatic rupture as fighting in northern Ethiopia raises concern over wider regional instability.",
+            "source": "https://www.reuters.com/world/africa/explosions-heard-overnight-ethiopias-capital-diplomatic-sources-say-2026-10-01/"
+          }
+        ]
+      }
+    },
     {
       "number": 13,
       "date": "2026-10-01",
