@@ -16,6 +16,7 @@ The public edition contains dated, source-linked facts, estimates, AI interpreta
 - Sunday editions include a sourced global economic events outlook for the coming week, spanning policy, industry, AI, cybersecurity, energy, transport, logistics, space, security and other material economic developments.
 - Every dated edition is retained under `issues/YYYY/MM/DD/` or another dated issue path.
 - Corrections and privacy redactions are labelled rather than presented as new research.
+- Every material event and covered security uses a public teaching layer: what happened, evidenced cause, transmission path, direct and conditional effects, confirming or contradicting signals, and the condition for the next research decision. Uncertain causality must be labelled.
 - The public repository must never contain private methodology, portfolio balances, transaction records, personal identifiers, Telegram chat IDs, API keys or bot tokens.
 - The newsletter publishes research observations only and cannot place trades.
 
