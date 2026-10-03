@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-02",
+  "latest": "2026-10-03",
   "issues": [
+    {
+      "number": 15,
+      "date": "2026-10-03",
+      "title": "Fresh daily review; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/03/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 015 reports DATA INCOMPLETE across all five desks because complete current-universe coverage was not reproducible; no security is certified.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "US payroll growth slows to 29,000 in September",
+            "date": "2026-10-02",
+            "context": "BLS reports little change in payrolls and 4.2% unemployment; revisions, wages and inflation will shape what the signal means for policy.",
+            "source": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+          },
+          {
+            "title": "G7 coordinates a 100-million-barrel energy-stock release",
+            "date": "2026-10-02",
+            "context": "The four-month release aims to ease fuel scarcity; delivery, product mix and physical inventories will determine how much reaches consumers.",
+            "source": "https://www.pm.gc.ca/en/news/statements/2026/10/02/g7-leaders-statement-global-energy-security-and-market-stability"
+          },
+          {
+            "title": "Runway construction advances on disputed Antelope Reef",
+            "date": "2026-10-02",
+            "context": "Reuters reports visible construction; the economic implication remains unconfirmed until operational use or material regional responses emerge.",
+            "source": "https://www.reuters.com/world/china/chinese-work-gathering-pace-antelope-reef-south-china-sea-latest-satellite-2026-10-02/"
+          }
+        ]
+      }
+    },
     {
       "number": 14,
       "date": "2026-10-02",

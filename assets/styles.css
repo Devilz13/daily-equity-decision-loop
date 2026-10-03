@@ -152,7 +152,9 @@ section { scroll-margin-top: 90px; }
 
 /* Issue fact sheets and public interpretation */
 .report-body .table-title { margin: 20px 0 8px; font-size: .93rem; letter-spacing: 0; color: var(--ink); }
-.report-body .table-wrap { width: 100%; }
+.report-body .table-wrap { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.report-body .table-wrap > table { min-width: 700px; }
+.report-body .table-wrap > .world-table { min-width: 1100px; }
 .report-body .fact-sheet, .report-body .thesis-table { width: 100%; table-layout: fixed; border: 1px solid var(--line); border-collapse: separate; border-spacing: 0; border-radius: 10px; overflow: hidden; background: var(--panel); }
 .report-body .fact-sheet th:first-child { width: 34%; }
 .report-body .fact-sheet tbody th { color: #d5e4e6; font-size: .875rem; font-weight: 650; text-align: left; }
