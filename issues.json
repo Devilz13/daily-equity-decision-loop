@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-04",
+  "latest": "2026-10-05",
   "issues": [
+    {
+      "number": 17,
+      "date": "2026-10-05",
+      "title": "Weekend evidence changed; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/05/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 017 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks Brazil's runoff, OPEC+'s November hold and Germany's new Ukraine support.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Brazil's presidential election heads toward an October 25 runoff",
+            "date": "2026-10-04",
+            "context": "Reuters projected no first-round majority; final TSE results, coalitions and executable fiscal policy are the next evidence.",
+            "source": "https://www.reuters.com/world/americas/brazilians-head-polls-high-stakes-polarized-election-2026-10-04/"
+          },
+          {
+            "title": "OPEC+ keeps November production targets steady",
+            "date": "2026-10-04",
+            "context": "The official target is unchanged; actual output, exports, inventories and refined-product supply will determine the economic effect.",
+            "source": "https://www.opec.org/pr-detail/1891616-4-october-2026.html"
+          },
+          {
+            "title": "Germany announces further Ukraine energy and military support",
+            "date": "2026-10-04",
+            "context": "Funding and reported contracts matter only as disbursement, delivery and restored energy or industrial capacity become verifiable.",
+            "source": "https://www.bundesregierung.de/breg-de/aktuelles/pk-merz-kyjiw-2455620"
+          }
+        ]
+      }
+    },
     {
       "number": 16,
       "date": "2026-10-04",
