@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-05",
+  "latest": "2026-10-06",
   "issues": [
+    {
+      "number": 18,
+      "date": "2026-10-06",
+      "title": "NVIDIA infrastructure feature; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/06/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 018 reports DATA INCOMPLETE across all five desks; no security is certified. A separate source-linked feature maps NVIDIA's buyback, cash generation and AI-infrastructure chain.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. Feature securities and ETFs are references only. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Foxconn quarterly revenue rises 47% as AI-server demand strengthens",
+            "date": "2026-10-05",
+            "context": "The result is a current rack-manufacturing demand signal; utilisation, margins and order durability remain separate questions.",
+            "source": "https://www.reuters.com/world/china/foxconn-third-quarter-revenue-jumps-47-yy-beats-market-forecast-2026-10-05/"
+          },
+          {
+            "title": "Global borrowing costs stay near multi-year highs",
+            "date": "2026-10-05",
+            "context": "Higher sovereign yields raise discount rates and funding costs for governments and capital-intensive infrastructure projects.",
+            "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/"
+          },
+          {
+            "title": "India markets price a possible rate increase",
+            "date": "2026-10-05",
+            "context": "The Reuters poll is an expectation, not an outcome; the RBI decision and guidance will determine the policy signal.",
+            "source": "https://www.reuters.com/world/india/markets-bet-rbi-rate-hike-inflation-pressure-builds-2026-10-05/"
+          }
+        ]
+      }
+    },
     {
       "number": 17,
       "date": "2026-10-05",
