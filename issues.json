@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-07",
+  "latest": "2026-10-08",
   "issues": [
+    {
+      "number": 20,
+      "date": "2026-10-08",
+      "title": "Rates and route risk; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/08/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 020 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks India's rate increase, the Fed minutes and renewed Yemen-Saudi escalation.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "India raises its policy rate to 5.50%",
+            "date": "2026-10-07",
+            "context": "The RBI raised rates by 25 basis points and shifted to calibrated tightening; future moves remain dependent on inflation and growth.",
+            "source": "https://www.reuters.com/world/india/india-raises-policy-rate-by-25-bps-first-hike-nearly-four-years-2026-10-07/"
+          },
+          {
+            "title": "Fed minutes pair inflation concern with Treasury-market stress planning",
+            "date": "2026-10-07",
+            "context": "The minutes explain September's rate increase and discuss market-functioning tools; they do not constitute a new rate decision.",
+            "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+          },
+          {
+            "title": "Airport attacks accompany renewed Yemen-Saudi escalation",
+            "date": "2026-10-07",
+            "context": "Civilian aviation was hit and fighting intensified near Bab el-Mandeb; verified operations and shipping transits are the next evidence.",
+            "source": "https://www.reuters.com/world/middle-east/houthis-launch-missiles-yemens-aden-airport-fighting-intensifies-2026-10-07/"
+          }
+        ]
+      }
+    },
     {
       "number": 19,
       "date": "2026-10-07",
