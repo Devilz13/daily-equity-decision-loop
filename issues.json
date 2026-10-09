@@ -7,7 +7,7 @@
     {
       "number": 21,
       "date": "2026-10-09",
-      "title": "Sanctions, labour and energy shift; five desks data incomplete",
+      "title": "Sanctions, route risk and energy shift; five desks data incomplete",
       "status": "data incomplete",
       "path": "issues/2026/10/09/",
       "markets": [
@@ -18,7 +18,7 @@
         "FUNDS"
       ],
       "telegram": {
-        "summary": "Issue 021 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks Iran shipping sanctions, US skilled-labour restrictions and Qatar energy recovery.",
+        "summary": "Issue 021 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks Iran shipping sanctions, verified Hormuz tanker-route risk, US skilled-labour restrictions and Qatar energy recovery.",
         "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
         "headlines": [
           {
@@ -26,6 +26,12 @@
             "date": "2026-10-08",
             "context": "Legal and compliance risk increased around named vessels; realised effects depend on enforcement and verified cargo flows.",
             "source": "https://home.treasury.gov/news/press-releases/sb0653"
+          },
+          {
+            "title": "Hormuz tanker-route risk escalates; mine reports remain attributed",
+            "date": "2026-10-08",
+            "context": "UKMTO and Reuters support higher route risk and lower transits; the mine/explosion angle remains attributed to Iranian state-media reporting until independently corroborated.",
+            "source": "https://www.reuters.com/business/energy/hormuz-transits-lowest-over-two-months-after-attacks-data-shows-2026-10-08/"
           },
           {
             "title": "US suspends major technology employers from the PERM process",
