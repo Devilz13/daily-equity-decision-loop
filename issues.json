@@ -2,8 +2,46 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-08",
+  "latest": "2026-10-09",
   "issues": [
+    {
+      "number": 21,
+      "date": "2026-10-09",
+      "title": "Sanctions, labour and energy shift; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/09/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 021 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks Iran shipping sanctions, US skilled-labour restrictions and Qatar energy recovery.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "US Treasury targets 17 vessels linked to Iranian petroleum trade",
+            "date": "2026-10-08",
+            "context": "Legal and compliance risk increased around named vessels; realised effects depend on enforcement and verified cargo flows.",
+            "source": "https://home.treasury.gov/news/press-releases/sb0653"
+          },
+          {
+            "title": "US suspends major technology employers from the PERM process",
+            "date": "2026-10-08",
+            "context": "The action affects employer-sponsored permanent residency, not H-1B status; scope, duration and litigation are the next evidence.",
+            "source": "https://www.reuters.com/business/us-suspending-permanent-residency-program-for-microsoft-vance-says-2026-10-08/"
+          },
+          {
+            "title": "Shell partially restarts Qatar's Pearl GTL plant",
+            "date": "2026-10-08",
+            "context": "Limited production is returning, but delivered supply still depends on repairs, secure shipping and verified cargo volumes.",
+            "source": "https://www.reuters.com/business/energy/shell-partially-restarts-pearl-gas-to-liquids-plant-qatar-2026-10-08/"
+          }
+        ]
+      }
+    },
     {
       "number": 20,
       "date": "2026-10-08",
