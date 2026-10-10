@@ -18,6 +18,7 @@
         "FUNDS"
       ],
       "telegram": {
+        "delivery_revision": "2026-10-10-resend-1",
         "summary": "Issue 022 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks US record highs, oil and Treasury-yield pressure, Singapore's lower STI close and gold's defensive bid.",
         "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
         "headlines": [
@@ -36,7 +37,7 @@
           {
             "title": "Pimco warns the US 10-year yield could approach 6%",
             "date": "2026-10-09",
-            "context": "Reuters reported the 10-year yield was up almost 120 basis points in 2026 and near last week's highest level since 2002; the 6% point remains a risk scenario, not an observed level.",
+            "context": "Reuters reported the 10-year yield was up almost 120 bps in 2026 and near last week's high; 6% remains a risk scenario, not an observed level.",
             "source": "https://www.reuters.com/markets/us/us-10-year-treasury-yield-risks-hitting-6-first-time-since-2000-pimcos-ivascyn-2026-10-09/"
           }
         ]
