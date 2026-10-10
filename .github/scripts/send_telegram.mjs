@@ -9,8 +9,11 @@ if (!issue || !/^issues\/\d{4}\/\d{2}\/[\w-]+\/$/.test(issue.path)) {
 
 if (process.env.GITHUB_EVENT_NAME === 'push') {
   const previous = JSON.parse(execFileSync('git', ['show', 'HEAD^:issues.json'], { encoding: 'utf8' }));
-  if (previous.issues?.[0]?.number === issue.number) {
-    process.stdout.write('The latest issue number is unchanged; no duplicate Telegram message sent.\n');
+  const previousIssue = previous.issues?.[0];
+  const previousDeliveryRevision = previousIssue?.telegram?.delivery_revision ?? null;
+  const currentDeliveryRevision = issue.telegram?.delivery_revision ?? null;
+  if (previousIssue?.number === issue.number && previousDeliveryRevision === currentDeliveryRevision) {
+    process.stdout.write('The latest issue number and Telegram delivery revision are unchanged; no duplicate Telegram message sent.\n');
     process.exit(0);
   }
 }
