@@ -38,12 +38,6 @@
             "date": "2026-10-09",
             "context": "Reuters reported the 10-year yield was up almost 120 basis points in 2026 and near last week's highest level since 2002; the 6% point remains a risk scenario, not an observed level.",
             "source": "https://www.reuters.com/markets/us/us-10-year-treasury-yield-risks-hitting-6-first-time-since-2000-pimcos-ivascyn-2026-10-09/"
-          },
-          {
-            "title": "Singapore STI closes 0.2% lower",
-            "date": "2026-10-09",
-            "context": "The Business Times reported the STI fell 11.07 points to 5,401.89 amid mixed regional trading; one index close is not a complete SGX security screen.",
-            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-open-higher-oil-slips-telecoms-hit-spacex-spectrum-deal/"
           }
         ]
       }
@@ -810,3 +804,4 @@
     }
   ]
 }
+
