@@ -2,8 +2,52 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-09",
+  "latest": "2026-10-10",
   "issues": [
+    {
+      "number": 22,
+      "date": "2026-10-10",
+      "title": "Records, oil and yield pressure; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/10/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "summary": "Issue 022 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks US record highs, oil and Treasury-yield pressure, Singapore's lower STI close and gold's defensive bid.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "US equities finish a record-setting week with Friday gains",
+            "date": "2026-10-09",
+            "context": "AP reported gains for the S&P 500, Dow and Nasdaq while Brent remained above US$100 and the 10-year Treasury yield ended near 5.24%.",
+            "source": "https://apnews.com/article/stocks-markets-oil-ai-bonds-5d0f953dbf96febb0690c1aef23fa8a9"
+          },
+          {
+            "title": "Oil eases but the geopolitical premium remains above US$100 Brent",
+            "date": "2026-10-09",
+            "context": "Reuters reported Brent down 1% to US$103.30 after US comments reduced immediate Iran-attack fears, while energy prices continued to pressure currencies and yields.",
+            "source": "https://www.reuters.com/business/sterling-ticks-high-dollar-dips-lower-oil-prices-2026-10-09/"
+          },
+          {
+            "title": "Pimco warns the US 10-year yield could approach 6%",
+            "date": "2026-10-09",
+            "context": "Reuters reported the 10-year yield was up almost 120 basis points in 2026 and near last week's highest level since 2002; the 6% point remains a risk scenario, not an observed level.",
+            "source": "https://www.reuters.com/markets/us/us-10-year-treasury-yield-risks-hitting-6-first-time-since-2000-pimcos-ivascyn-2026-10-09/"
+          },
+          {
+            "title": "Singapore STI closes 0.2% lower",
+            "date": "2026-10-09",
+            "context": "The Business Times reported the STI fell 11.07 points to 5,401.89 amid mixed regional trading; one index close is not a complete SGX security screen.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-open-higher-oil-slips-telecoms-hit-spacex-spectrum-deal/"
+          }
+        ]
+      }
+    },
     {
       "number": 21,
       "date": "2026-10-09",
