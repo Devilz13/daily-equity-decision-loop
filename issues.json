@@ -2,8 +2,102 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-10",
+  "latest": "2026-10-11",
   "issues": [
+    {
+      "date": "2026-10-11",
+      "number": 23,
+      "title": "Sunday risk outlook; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/11/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-11-v1",
+        "summary": "Issue 023 reports DATA INCOMPLETE across all five desks; no security is certified. Sunday watch tracks Riyadh airport escalation, Taiwan maritime pressure, RBI rupee support and the 12-16 Oct policy/earnings watch list.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Houthi strike shuts Riyadh airport",
+            "date": "2026-10-10",
+            "context": "Airport operations and Saudi airspace risk rose after a deadly Houthi strike; watch cancellations, retaliation and oil/freight risk.",
+            "source": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/"
+          },
+          {
+            "title": "US warns on Taiwan maritime pressure",
+            "date": "2026-10-10",
+            "context": "US warning adds Taiwan supply-line risk; watch patrol activity, blockade signals, shipping insurance and semiconductor logistics.",
+            "source": "https://www.reuters.com/world/china/us-says-chinese-actions-off-taiwan-are-deeply-destabilising-2026-10-10/"
+          },
+          {
+            "title": "RBI acts to defend the rupee",
+            "date": "2026-10-10",
+            "context": "RBI is rationing dollar demand as oil and global yields pressure the rupee; watch reserves, USD/INR and importer funding.",
+            "source": "https://www.reuters.com/world/india/india-central-bank-takes-steps-support-rupee-opens-dollar-window-oil-companies-2026-10-10/"
+          }
+        ],
+        "event_updates": [
+          {
+            "date": "2026-10-14",
+            "name": "Singapore MAS policy review",
+            "update": "Reuters poll says all surveyed analysts expect tightening; oil and food shocks are key risks.",
+            "source": "https://www.reuters.com/world/asia-pacific/singapore-poised-tighten-monetary-policy-amid-strong-growth-rising-inflation-2026-10-09/"
+          },
+          {
+            "date": "2026-10-13",
+            "name": "US big-bank earnings",
+            "update": "Citigroup, JPMorgan and Wells Fargo start the large-bank read-through; watch credit, deposits and guidance.",
+            "source": "https://apnews.com/article/stocks-markets-oil-ai-bonds-5d0f953dbf96febb0690c1aef23fa8a9"
+          }
+        ],
+        "week_ahead": {
+          "days": [
+            {
+              "day": "Monday",
+              "date": "2026-10-12",
+              "items": [
+                "IMF-World Bank Annual Meetings open in Bangkok.",
+                "RBI dollar window for state oil importers begins.",
+                "AUSA Annual Meeting opens in Washington."
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "date": "2026-10-13",
+              "items": [
+                "US big-bank earnings begin; watch credit, deposits and guidance."
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "date": "2026-10-14",
+              "items": [
+                "MAS policy review; Reuters poll expects tightening."
+              ]
+            },
+            {
+              "day": "Thursday",
+              "date": "2026-10-15",
+              "items": [
+                "World Bank Development Committee events continue; watch debt and infrastructure signals."
+              ]
+            },
+            {
+              "day": "Friday",
+              "date": "2026-10-16",
+              "items": [
+                "IMF-World Bank plenary; review oil, FX and yield spillovers."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "number": 22,
       "date": "2026-10-10",
@@ -805,4 +899,3 @@
     }
   ]
 }
-
