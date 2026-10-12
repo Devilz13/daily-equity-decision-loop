@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-11",
+  "latest": "2026-10-12",
   "issues": [
+    {
+      "date": "2026-10-12",
+      "number": 24,
+      "title": "Energy, debt and infrastructure risk; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/12/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-12-v1",
+        "summary": "Issue 024 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks renewed Riyadh airport attacks, Yandex data-centre outages and the energy-and-debt agenda in Bangkok.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Riyadh airport hit again as Gulf risk rises",
+            "date": "2026-10-11",
+            "context": "A second attack injured people and reinforced Saudi aviation risk; watch airspace restrictions, retaliation, Gulf equities and oil.",
+            "source": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-over-saudi-airports-after-deadly-riyadh-attack-2026-10-11/"
+          },
+          {
+            "title": "Third Yandex data centre taken offline",
+            "date": "2026-10-11",
+            "context": "A drone attack fully shut a Yandex data centre after two earlier strikes; physical resilience and service continuity are now exposed.",
+            "source": "https://www.reuters.com/world/europe/russias-yandex-says-data-centre-vladimir-area-shut-down-after-drone-attack-2026-10-11/"
+          },
+          {
+            "title": "Energy shock and debt dominate Bangkok meetings",
+            "date": "2026-10-11",
+            "context": "IMF-World Bank meetings open with oil, inflation and debt risks elevated; watch forecasts, crisis aid and sovereign funding signals.",
+            "source": "https://www.reuters.com/world/china/middle-east-war-high-debt-levels-dominate-imf-world-bank-meetings-bangkok-2026-10-11/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-11",
       "number": 23,
