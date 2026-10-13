@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-12",
+  "latest": "2026-10-13",
   "issues": [
+    {
+      "date": "2026-10-13",
+      "number": 25,
+      "title": "Oil, breadth and AI labour risk; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/13/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-13-v1",
+        "summary": "Issue 025 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks higher oil and dollar pressure, Riyadh airport disruption and the IMF's AI growth-and-labour warning.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Oil and dollar rise as Wall Street turns mixed",
+            "date": "2026-10-12",
+            "context": "Brent reached about US$106.52 and the dollar an 18-month high; higher energy costs keep inflation and rate risk elevated.",
+            "source": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-10-12/"
+          },
+          {
+            "title": "Riyadh airport closure extended",
+            "date": "2026-10-12",
+            "context": "Authorities extended Riyadh airport's closure until Saturday; watch airline capacity, freight, insurance and regional activity.",
+            "source": "https://www.reuters.com/world/middle-east/skies-over-saudi-capital-riyadh-largely-empty-after-deadly-houthi-strikes-2026-10-12/"
+          },
+          {
+            "title": "IMF sees AI growth support and labour disruption",
+            "date": "2026-10-12",
+            "context": "AI investment supports global growth near 3%, but officials warned of job, education and inequality disruption, especially for graduates.",
+            "source": "https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-12",
       "number": 24,
