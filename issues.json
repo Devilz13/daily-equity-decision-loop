@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-13",
+  "latest": "2026-10-14",
   "issues": [
+    {
+      "date": "2026-10-14",
+      "number": 26,
+      "title": "AI repricing, banks and policy; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/14/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-14-v1",
+        "summary": "Issue 026 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks softer global markets, mixed US bank results, the IMF outlook and the MAS statement still pending at cutoff.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Stocks soften as yields and dollar ease",
+            "date": "2026-10-13",
+            "context": "The Dow, S&P 500 and Nasdaq edged lower; the US 10-year yield fell to 5.22% and chip weakness persisted.",
+            "source": "https://www.reuters.com/world/asia-pacific/global-markets-wrapup-1-2026-10-13/"
+          },
+          {
+            "title": "IMF raises growth view but maps AI and oil downside",
+            "date": "2026-10-13",
+            "context": "The IMF sees 3.1% global growth in 2026, while adverse oil and AI-productivity scenarios show material downside risk.",
+            "source": "https://www.reuters.com/world/china/imf-says-ai-investment-propping-up-global-growth-war-debt-threaten-outlook-2026-10-13/"
+          },
+          {
+            "title": "MAS statement remained pending at cutoff",
+            "date": "2026-10-14",
+            "context": "The official MAS page still listed the policy statement as upcoming at 08:00 SGT; poll expectations are not a decision.",
+            "source": "https://www.mas.gov.sg/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-13",
       "number": 25,
