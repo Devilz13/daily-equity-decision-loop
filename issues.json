@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-14",
+  "latest": "2026-10-15",
   "issues": [
+    {
+      "date": "2026-10-15",
+      "number": 27,
+      "title": "Hot inflation tests AI financing; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/15/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-15-v1",
+        "summary": "Issue 027 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks hot US inflation, AI credit stress, Singapore’s unchanged monetary policy and global debt pressure.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Hot US inflation drives a technology selloff",
+            "date": "2026-10-14",
+            "context": "The Nasdaq fell 1.88%, the S&P 500 lost 1.11% and the chip index dropped 4.3% as rate-hike expectations increased.",
+            "source": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/"
+          },
+          {
+            "title": "MAS unexpectedly leaves policy settings unchanged",
+            "date": "2026-10-14",
+            "context": "MAS kept the S$NEER band’s appreciation rate, width and centre unchanged while retaining an appreciating policy path.",
+            "source": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26"
+          },
+          {
+            "title": "Higher rates expose AI infrastructure financing risk",
+            "date": "2026-10-14",
+            "context": "Debt-heavy AI builders sold off and default-insurance costs rose, sharpening scrutiny of capex returns and refinancing.",
+            "source": "https://www.reuters.com/business/ai-infrastructure-firms-slump-us-rate-hike-bets-rise-2026-10-14/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-14",
       "number": 26,
