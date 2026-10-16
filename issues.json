@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-15",
+  "latest": "2026-10-16",
   "issues": [
+    {
+      "date": "2026-10-16",
+      "number": 28,
+      "title": "Defensive rotation meets strong AI demand; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/16/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-16-v1",
+        "summary": "Issue 028 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks defensive rotation, persistent chip weakness, TSMC’s record result and broadening US producer inflation.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "US indexes rebound but chips decline again",
+            "date": "2026-10-15",
+            "context": "The Dow rose 1.08% and S&P 500 gained 0.33%, while semiconductors fell for a seventh session and defensive sectors led.",
+            "source": "https://www.reuters.com/business/nasdaq-futures-dive-1-ai-rout-deepens-debt-concerns-2026-10-15/"
+          },
+          {
+            "title": "TSMC posts record profit and robust AI demand",
+            "date": "2026-10-15",
+            "context": "Q3 profit rose 69% to T$763.1 billion; TSMC sees demand exceeding supply but is planning prudently for 2027.",
+            "source": "https://www.reuters.com/world/asia-pacific/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-14/"
+          },
+          {
+            "title": "US producer inflation rises sharply",
+            "date": "2026-10-15",
+            "context": "September PPI rose 1.3% month-on-month and 6.3% annually as energy, services and freight costs increased.",
+            "source": "https://www.reuters.com/business/us-producer-prices-post-largest-increase-4-12-years-september-2026-10-15/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-15",
       "number": 27,
