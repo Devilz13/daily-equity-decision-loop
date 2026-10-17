@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-16",
+  "latest": "2026-10-17",
   "issues": [
+    {
+      "date": "2026-10-17",
+      "number": 29,
+      "title": "AI debt, oil and index risk; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/17/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-17-v1",
+        "summary": "Issue 029 reports DATA INCOMPLETE across all five desks; no security is certified. World Watch tracks renewed AI debt stress, Brent near US$110, Singapore’s modest gain and Indonesia’s MSCI shock.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Technology falls as AI debt stress persists",
+            "date": "2026-10-16",
+            "context": "The Nasdaq lost 2.19%, chips declined for an eighth session and CoreWeave’s bond yields moved above 15%.",
+            "source": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/"
+          },
+          {
+            "title": "Brent settles near US$110 on supply fears",
+            "date": "2026-10-16",
+            "context": "Brent rose 3.7% to US$109.86 as risks around Yanbu, Hormuz and Russian refining tightened the energy outlook.",
+            "source": "https://www.reuters.com/business/autos-transportation/oil-edges-down-investors-weigh-possible-us-sanctions-shadow-fleet-2026-10-16/"
+          },
+          {
+            "title": "Indonesia suffers an MSCI classification shock",
+            "date": "2026-10-16",
+            "context": "Jakarta stocks fell as much as 11.4% after MSCI set a path toward standalone status and potential forced outflows.",
+            "source": "https://www.reuters.com/world/asia-pacific/jakarta-stocks-plunge-11-msci-set-drop-indonesia-indexes-2026-10-16/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-16",
       "number": 28,
