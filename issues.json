@@ -2,8 +2,102 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-17",
+  "latest": "2026-10-18",
   "issues": [
+    {
+      "date": "2026-10-18",
+      "number": 30,
+      "title": "Sunday outlook: earnings, China and policy; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/18/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-18-v1",
+        "summary": "Issue 030 reports DATA INCOMPLETE across all five desks; no security is certified. Sunday watch tracks the IMF warning, tighter European financing, US–Ukraine support risk and the 19–23 Oct data, policy and AI-earnings calendar.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "IMF members warn on war and financing spillovers",
+            "date": "2026-10-17",
+            "context": "The IMFC linked disrupted trade routes, energy and food pressure, rising yields and rapid technology change to greater financial vulnerability.",
+            "source": "https://www.reuters.com/markets/asia/imf-members-call-increased-support-countries-amid-negative-risks-war-spillovers-2026-10-17/"
+          },
+          {
+            "title": "US–Ukraine rift reaches energy and connectivity",
+            "date": "2026-10-17",
+            "context": "The dispute now spans refinery strikes, waived Russia sanctions, intelligence support and disruption to Ukraine's Starshield service.",
+            "source": "https://www.reuters.com/world/europe/trump-zelenskiy-rift-threatens-vital-support-kyiv-2026-10-17/"
+          },
+          {
+            "title": "ECB says bond selloff is tightening financing",
+            "date": "2026-10-17",
+            "context": "Lagarde said higher long-term rates will slow euro-zone growth, while policymakers remain alert to energy inflation spreading further.",
+            "source": "https://www.reuters.com/business/finance/ecbs-lagarde-says-bond-selloff-will-slow-inflation-2026-10-17/"
+          }
+        ],
+        "event_updates": [
+          {
+            "date": "2026-10-17",
+            "name": "IMF-World Bank meetings close",
+            "update": "Members agreed that conflict, route disruption, energy costs and rising yields leave global risks tilted down.",
+            "source": "https://www.reuters.com/markets/asia/imf-members-call-increased-support-countries-amid-negative-risks-war-spillovers-2026-10-17/"
+          },
+          {
+            "date": "2026-10-21",
+            "name": "Meta Q3 results",
+            "update": "Meta confirmed results after Wednesday's close; focus is profit and cash generation relative to AI capex.",
+            "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
+          }
+        ],
+        "week_ahead": {
+          "days": [
+            {
+              "day": "Monday",
+              "date": "2026-10-19",
+              "items": [
+                "China Q3 GDP, retail sales, industrial output and fixed-asset investment."
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "date": "2026-10-20",
+              "items": [
+                "China loan prime rates and US September housing starts."
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "date": "2026-10-21",
+              "items": [
+                "Bank Indonesia policy decision under currency and MSCI pressure.",
+                "Meta, Lam Research and Texas Instruments results."
+              ]
+            },
+            {
+              "day": "Thursday",
+              "date": "2026-10-22",
+              "items": [
+                "Turkey policy decision and US initial jobless claims."
+              ]
+            },
+            {
+              "day": "Friday",
+              "date": "2026-10-23",
+              "items": [
+                "Final US October consumer sentiment.",
+                "Last trading session before Brazil's 25 October presidential runoff."
+              ]
+            }
+          ]
+        }
+      }
+    },
     {
       "date": "2026-10-17",
       "number": 29,
