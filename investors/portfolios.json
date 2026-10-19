@@ -319,7 +319,291 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "chris-hohn",
+      "name": "Chris Hohn",
+      "firm": "TCI Fund Management Ltd",
+      "cik": "0001647251",
+      "focus": "Concentrated long-term ownership, business quality, activism and capital allocation",
+      "color": "mint",
+      "philosophy": [
+        {
+          "title": "Focused ownership and engagement",
+          "basis": "Publicly observed activist governance practice; research interpretation",
+          "text": "Study whether shareholder engagement, operating discipline and improved capital allocation can improve returns. This is an analytical lens, not TCI's complete internal process.",
+          "source": "https://www.sec.gov/edgar/browse/?CIK=1647251"
+        },
+        {
+          "title": "Durable cash-producing franchises",
+          "basis": "Inferred from reported holdings; not a manager statement",
+          "text": "Reported holdings emphasize payments, ratings, transportation networks and installed-base industrial services. We will test moat durability rather than assume it from portfolio membership.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000007/0001647251-26-000007-index.htm"
+        },
+        {
+          "title": "Concentration also raises drawdown risk",
+          "basis": "REDL counter-hypothesis",
+          "text": "A strong franchise can still be a poor purchase if expectations are too high or activism fails. Compare engagements against non-engaged peers and discontinued investments.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000007/0001647251-26-000007-index.htm"
+        }
+      ],
+      "research_questions": [
+        "Can recurring cash flow and capital allocation explain returns independent of sector and size?",
+        "Does public engagement precede measurable ROIC, governance or cash-flow improvements?",
+        "What happens when the holding is expensive, when the activist thesis fails, or when the position is exited?",
+        "Would a matched quality-business control portfolio do just as well without activism?"
+      ],
+      "manager_process_note": "REDL experimental questions; NOT TCI's unpublished rules. Only public filing facts are attributed to TCI.",
+      "filings": [
+        {
+          "period": "2026-06-30",
+          "filed": "2026-08-14",
+          "form": "13F-HR",
+          "source": "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000007/0001647251-26-000007-index.htm",
+          "information_table": "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000007/Form13fInfoTable.xml",
+          "holdings": [
+            {
+              "ticker": "GE",
+              "name": "GE Aerospace",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 17725354000,
+              "shares": null,
+              "theme": "Aerospace aftermarket and installed base"
+            },
+            {
+              "ticker": "V",
+              "name": "Visa",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 10462232000,
+              "shares": null,
+              "theme": "Global payments network"
+            },
+            {
+              "ticker": "MCO",
+              "name": "Moody's",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 6492168000,
+              "shares": null,
+              "theme": "Credit ratings, analytics and data"
+            },
+            {
+              "ticker": "SPGI",
+              "name": "S&P Global",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 5735018000,
+              "shares": null,
+              "theme": "Ratings, indices and financial data"
+            },
+            {
+              "ticker": "CP",
+              "name": "Canadian Pacific Kansas City",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 3925912000,
+              "shares": null,
+              "theme": "Freight rail network"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet Class C",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 3511683000,
+              "shares": null,
+              "theme": "Search, advertising and cloud"
+            },
+            {
+              "ticker": "FER",
+              "name": "Ferrovial",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 1434612000,
+              "shares": null,
+              "theme": "Transport infrastructure concessions"
+            },
+            {
+              "ticker": "CNI",
+              "name": "Canadian National Railway",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 1124535000,
+              "shares": null,
+              "theme": "Freight rail network"
+            },
+            {
+              "ticker": "GOOGL",
+              "name": "Alphabet Class A",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 878058000,
+              "shares": null,
+              "theme": "Search, advertising and cloud"
+            },
+            {
+              "ticker": "MLM",
+              "name": "Martin Marietta Materials",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 758423000,
+              "shares": null,
+              "theme": "Quarries and construction materials"
+            },
+            {
+              "ticker": "VMC",
+              "name": "Vulcan Materials",
+              "instrument": "Reported U.S. security; verify class against SEC table",
+              "value_usd": 721890000,
+              "shares": null,
+              "theme": "Quarries and construction materials"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dev-kantesaria",
+      "name": "Dev Kantesaria",
+      "firm": "Valley Forge Capital Management, LP",
+      "cik": "0001697868",
+      "focus": "Concentrated compounding businesses, recurring economics and barriers to entry",
+      "color": "amber",
+      "philosophy": [
+        {
+          "title": "Pricing power and limited competition",
+          "basis": "REDL inference from concentrated holdings",
+          "text": "Ratings, decision scores, payments and lithography suggest an emphasis on businesses with difficult-to-replicate advantages; this is a hypothesis, not a verified quote.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000005/0001697868-26-000005-index.htm"
+        },
+        {
+          "title": "Quality of compounding",
+          "basis": "REDL hypothesis; not a published numerical rule",
+          "text": "Test whether reinvestment returns, recurring revenue, retention, pricing power and incremental margins predict future free cash flow without paying excessive valuation multiples.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000005/0001697868-26-000005-index.htm"
+        },
+        {
+          "title": "Avoid mistaking business quality for entry quality",
+          "basis": "REDL adversarial test",
+          "text": "Even very strong moats can disappoint if valuations compress. Compare price paid, cash yield and returns from high-quality stocks versus quality-neutral matched peers.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000005/0001697868-26-000005-index.htm"
+        }
+      ],
+      "research_questions": [
+        "Can high ROIC and recurring cash flow forecast multi-year business results after valuation controls?",
+        "Are rating and network businesses resilient across recession, regulation and interest-rate regimes?",
+        "When is an exceptional business too expensive to buy?",
+        "Do actual exits and reductions show when the hypothesis no longer applies?"
+      ],
+      "manager_process_note": "REDL experimental questions inferred from publicly disclosed holdings; NOT a claim about Valley Forge's internal screens.",
+      "filings": [
+        {
+          "period": "2026-06-30",
+          "filed": "2026-08-14",
+          "form": "13F-HR",
+          "source": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000005/0001697868-26-000005-index.htm",
+          "information_table": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000005/form13finfotable_20260630.xml",
+          "holdings": [
+            {
+              "ticker": "FICO",
+              "name": "Fair Isaac Corporation",
+              "instrument": "Reported equity security",
+              "value_usd": 803114389,
+              "shares": 672186,
+              "theme": "Credit scores and decision software"
+            },
+            {
+              "ticker": "SPGI",
+              "name": "S&P Global",
+              "instrument": "Reported equity security",
+              "value_usd": 620678901,
+              "shares": 1524036,
+              "theme": "Ratings, indices and financial data"
+            },
+            {
+              "ticker": "MCO",
+              "name": "Moody's",
+              "instrument": "Reported equity security",
+              "value_usd": 596580789,
+              "shares": 1317188,
+              "theme": "Credit ratings, analytics and data"
+            },
+            {
+              "ticker": "MA",
+              "name": "Mastercard",
+              "instrument": "Reported equity security",
+              "value_usd": 547463702,
+              "shares": 1065934,
+              "theme": "Global payments network"
+            },
+            {
+              "ticker": "ASML",
+              "name": "ASML Holding",
+              "instrument": "Reported equity security",
+              "value_usd": 340359364,
+              "shares": 171083,
+              "theme": "Semiconductor lithography"
+            },
+            {
+              "ticker": "V",
+              "name": "Visa",
+              "instrument": "Reported equity security",
+              "value_usd": 158843122,
+              "shares": 462978,
+              "theme": "Global payments network"
+            },
+            {
+              "ticker": "INTU",
+              "name": "Intuit",
+              "instrument": "Reported equity security",
+              "value_usd": 49347792,
+              "shares": 189072,
+              "theme": "Financial software / data ecosystem"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "research_journal": []
+  "research_journal": [],
+  "redl": {
+    "name": "Redesigning Equity Decision Loop",
+    "status": "Experimental, separate from production DEDL",
+    "principle": "Study documented processes, propose falsifiable candidate rules, test against contemporaneous non-holdings and exited positions, and permit only independently validated, approved revisions to a future DEDL version. Do not retrofit daily DEDL judgments.",
+    "bias_controls": [
+      {
+        "title": "Survivorship and selection",
+        "failure": "Only observing famous living winners",
+        "control": "Add failed funds, former star managers, fund closures and matched non-held candidate stocks; keep delisted tickers."
+      },
+      {
+        "title": "Disclosure and hindsight",
+        "failure": "Treating a June 30 filing as known on June 30",
+        "control": "Use SEC acceptance timestamp as earliest knowable holdings; wait for filing publication in simulated strategies."
+      },
+      {
+        "title": "Unobserved trades and assets",
+        "failure": "Assuming U.S. 13F equals complete portfolio and every change is a discretionary trade",
+        "control": "Mark 13F partial coverage, corporate actions, options and shares adjusted for splits; no inferred execution prices."
+      },
+      {
+        "title": "Market regime and factor mimicry",
+        "failure": "Misreading simple quality/momentum/sector effects as manager-specific alpha",
+        "control": "Matched industry, size, quality, valuation and momentum controls across inflation, credit and growth regimes."
+      },
+      {
+        "title": "Overfitting",
+        "failure": "Searching thousands of thresholds until historical winners fit",
+        "control": "Register hypotheses and falsification criteria first; hold out subsequent time periods, log rejected experiments."
+      },
+      {
+        "title": "Realistic replication",
+        "failure": "Backtesting without commissions, taxes, spreads or turnover",
+        "control": "Model delayed signals, feasible liquidity, SG investor taxes/FX and transaction costs; compare buy-and-hold and benchmarks."
+      }
+    ],
+    "promotion_states": [
+      "Observed",
+      "Hypothesis",
+      "Mechanised",
+      "Historical test",
+      "Out-of-sample test",
+      "Independent review",
+      "Approved for future DEDL revision"
+    ],
+    "candidate_rules": [],
+    "experiments": []
+  }
 }
