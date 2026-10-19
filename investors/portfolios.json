@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "updated_at": "2026-10-19",
-  "disclosure_note": "13F snapshot of reportable US securities as of June 30, 2026, filed August 14, 2026. Not live holdings, not full portfolios, not a trading feed. Weights are a percentage of reported 13F value and may include different share classes, warrants or unusual securities. No private DEDL mechanics or owner data.",
+  "disclosure_note": "13F snapshot of reportable US securities as of June 30, 2026, filed August 14, 2026. Not live holdings, not full portfolios, not a trading feed. Weights are a percentage of reported 13F value and may include different share classes, warrants or unusual securities. No private DEDL mechanics or owner data. Holdings with null values are intentionally withheld pending line-by-line SEC verification; totals can be confirmed independently of the constituent rows.",
   "future_updates": "Append future quarter records only after verifying an SEC filing. Keep original snapshots immutable in version history; compare share counts, not fluctuations in reported market value. Add more investors by appending their objects. Do not infer a person's motive from an individual position.",
   "investors": [
     {
@@ -366,91 +366,103 @@
               "ticker": "GE",
               "name": "GE Aerospace",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 17725354000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Aerospace aftermarket and installed base"
+              "theme": "Aerospace aftermarket and installed base",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "V",
               "name": "Visa",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 10462232000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Global payments network"
+              "theme": "Global payments network",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "MCO",
               "name": "Moody's",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 6492168000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Credit ratings, analytics and data"
+              "theme": "Credit ratings, analytics and data",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "SPGI",
               "name": "S&P Global",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 5735018000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Ratings, indices and financial data"
+              "theme": "Ratings, indices and financial data",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "CP",
               "name": "Canadian Pacific Kansas City",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 3925912000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Freight rail network"
+              "theme": "Freight rail network",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "GOOG",
               "name": "Alphabet Class C",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 3511683000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Search, advertising and cloud"
+              "theme": "Search, advertising and cloud",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "FER",
               "name": "Ferrovial",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 1434612000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Transport infrastructure concessions"
+              "theme": "Transport infrastructure concessions",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "CNI",
               "name": "Canadian National Railway",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 1124535000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Freight rail network"
+              "theme": "Freight rail network",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "GOOGL",
               "name": "Alphabet Class A",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 878058000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Search, advertising and cloud"
+              "theme": "Search, advertising and cloud",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "MLM",
               "name": "Martin Marietta Materials",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 758423000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Quarries and construction materials"
+              "theme": "Quarries and construction materials",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "VMC",
               "name": "Vulcan Materials",
               "instrument": "Reported U.S. security; verify class against SEC table",
-              "value_usd": 721890000,
+              "value_usd": null,
               "shares": null,
-              "theme": "Quarries and construction materials"
+              "theme": "Quarries and construction materials",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             }
-          ]
+          ],
+          "reported_total_usd": 52769884000
         }
       ]
     },
@@ -500,59 +512,67 @@
               "ticker": "FICO",
               "name": "Fair Isaac Corporation",
               "instrument": "Reported equity security",
-              "value_usd": 803114389,
-              "shares": 672186,
-              "theme": "Credit scores and decision software"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Credit scores and decision software",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "SPGI",
               "name": "S&P Global",
               "instrument": "Reported equity security",
-              "value_usd": 620678901,
-              "shares": 1524036,
-              "theme": "Ratings, indices and financial data"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Ratings, indices and financial data",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "MCO",
               "name": "Moody's",
               "instrument": "Reported equity security",
-              "value_usd": 596580789,
-              "shares": 1317188,
-              "theme": "Credit ratings, analytics and data"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Credit ratings, analytics and data",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "MA",
               "name": "Mastercard",
               "instrument": "Reported equity security",
-              "value_usd": 547463702,
-              "shares": 1065934,
-              "theme": "Global payments network"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Global payments network",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "ASML",
               "name": "ASML Holding",
               "instrument": "Reported equity security",
-              "value_usd": 340359364,
-              "shares": 171083,
-              "theme": "Semiconductor lithography"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Semiconductor lithography",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "V",
               "name": "Visa",
               "instrument": "Reported equity security",
-              "value_usd": 158843122,
-              "shares": 462978,
-              "theme": "Global payments network"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Global payments network",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             },
             {
               "ticker": "INTU",
               "name": "Intuit",
               "instrument": "Reported equity security",
-              "value_usd": 49347792,
-              "shares": 189072,
-              "theme": "Financial software / data ecosystem"
+              "value_usd": null,
+              "shares": null,
+              "theme": "Financial software / data ecosystem",
+              "verification_status": "Pending line-by-line comparison to SEC information table"
             }
-          ]
+          ],
+          "reported_total_usd": 3116388059
         }
       ]
     }
