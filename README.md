@@ -51,3 +51,11 @@ The public [investor library](investors/) tracks source-linked, dated SEC 13F se
 - This **public** library is context and education only. Private DEDL screening rules, thresholds, scoring, portfolio details, exceptions and execution decisions remain strictly outside this repository and should never be embedded in investor JSON, HTML or client-side JavaScript.
 - Adding an investor must not seed or bias the five independent daily public candidate-discovery desks.
 
+
+## REDL research extensions
+
+REDL (Redesigning Equity Decision Loop) is a research proposal, not an active modification of the private production DEDL framework. It investigates attributable investor philosophies and historical decisions, registers falsifiable hypotheses, tests out-of-sample and proposes separately approved version changes only after independent validation.
+
+The initial public library includes Brad Gerstner / Altimeter, Li Lu / Himalaya, Chris Hohn / TCI and Dev Kantesaria / Valley Forge. Dated SEC 13F totals are provided. Hohn and Kantesaria's constituent amounts and share counts are **intentionally pending line-by-line SEC verification** and must not be inferred from market prices or portfolio totals.
+
+Bias control requirements: sample unsuccessful funds and closed managers, track delisted and exited securities, use filings only after actual SEC publication, match industry/size/factor controls, account for share-class and split changes, separate contemporaneous evidence from hindsight, register negative experiments, and model costs/turnover. The private production DEDL criteria, scoring and capital actions are not published.
