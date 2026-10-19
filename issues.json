@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-18",
+  "latest": "2026-10-19",
   "issues": [
+    {
+      "date": "2026-10-19",
+      "number": 31,
+      "title": "AI debt can build—or break—capacity; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/19/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-19-v1",
+        "summary": "Issue 031 reports DATA INCOMPLETE across all five desks; no security is certified. The public AI-debt lens separates productive infrastructure financing from liquidity risk, while oil eases, regional tensions rise and China data remains pending.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Oil eases as Russian fuel supply may increase",
+            "date": "2026-10-19",
+            "context": "Brent fell 1.3% to US$108.43 before cutoff after a US sanctions waiver, but supply, enforcement and conflict effects remain uncertain.",
+            "source": "https://www.reuters.com/business/energy/oil-slips-trumps-sanction-waiver-may-lead-more-russian-fuel-supplies-2026-10-18/"
+          },
+          {
+            "title": "Middle East markets split as Egypt weighs support",
+            "date": "2026-10-18",
+            "context": "Saudi Arabia rose 0.8%, Qatar fell 2% and Egypt lost 2.6% as Cairo considered military support for Saudi Arabia.",
+            "source": "https://www.reuters.com/world/middle-east/oil-lifts-saudi-bourse-egypt-tumbles-regional-tensions-2026-10-18/"
+          },
+          {
+            "title": "China growth data remains pending after cutoff",
+            "date": "2026-10-19",
+            "context": "A Reuters poll expected 4.4% Q3 growth, but GDP and September activity data were due at 10:00 SGT—after publication.",
+            "source": "https://www.reuters.com/world/china/chinas-q3-gdp-growth-set-pick-up-exports-power-ahead-2026-10-18/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-18",
       "number": 30,
