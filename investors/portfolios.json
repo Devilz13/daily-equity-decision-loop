@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-19",
+  "disclosure_note": "13F snapshot of reportable US securities as of June 30, 2026, filed August 14, 2026. Not live holdings, not full portfolios, not a trading feed. Weights are a percentage of reported 13F value and may include different share classes, warrants or unusual securities. No private DEDL mechanics or owner data.",
+  "future_updates": "Append future quarter records only after verifying an SEC filing. Keep original snapshots immutable in version history; compare share counts, not fluctuations in reported market value. Add more investors by appending their objects. Do not infer a person's motive from an individual position.",
+  "investors": [
+    {
+      "slug": "brad-gerstner",
+      "name": "Brad Gerstner",
+      "firm": "Altimeter Capital Management, LP",
+      "cik": "0001541617",
+      "focus": "Technology platforms and long-duration growth",
+      "color": "mint",
+      "philosophy": [
+        {
+          "title": "Market leadership and durable economics",
+          "basis": "Firm-described investment process",
+          "text": "Altimeter describes research into future market leaders, addressable markets, management teams, competitive moats, unit economics and reasonable valuation.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1830232/000114036120028756/nt10017539x2_s1.htm"
+        },
+        {
+          "title": "Research across public and private markets",
+          "basis": "Firm-described investment process",
+          "text": "The firm describes fundamental, bottom-up work and a long time horizon spanning public and private technology businesses.",
+          "source": "https://www.altimeter.com/"
+        },
+        {
+          "title": "Capital discipline and shareholder returns",
+          "basis": "Gerstner's published letter",
+          "text": "His 2022 Meta letter challenged excessive operating expenditure and requested greater discipline around large growth investments.",
+          "source": "https://medium.com/@alt.cap/time-to-get-fit-an-open-letter-from-altimeter-to-mark-zuckerberg-and-the-meta-board-of-392d94e80a18"
+        }
+      ],
+      "research_questions": [
+        "Can the company dominate a large market while sustaining attractive unit economics?",
+        "Does management convert growth spending into operating cash and durable competitive advantage?",
+        "Are downstream customers economically capable of paying for AI infrastructure?",
+        "At today's valuation, what must go right and what would invalidate the thesis?"
+      ],
+      "manager_process_note": "Questions above are a DEDL research interpretation, NOT Altimeter's unpublished rules or a mechanical DEDL score.",
+      "filings": [
+        {
+          "period": "2026-06-30",
+          "filed": "2026-08-14",
+          "form": "13F-HR",
+          "source": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000008/0001541617-26-000008-index.htm",
+          "information_table": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000008/xslForm13F_X02/2026altimeterq2.xml",
+          "holdings": [
+            {
+              "ticker": "AMAT",
+              "name": "Applied Materials",
+              "instrument": "Common stock",
+              "value_usd": 189389850,
+              "shares": 261950,
+              "theme": "Semiconductor equipment"
+            },
+            {
+              "ticker": "AMZN",
+              "name": "Amazon",
+              "instrument": "Common stock",
+              "value_usd": 578058158,
+              "shares": 2425351,
+              "theme": "Cloud / platform"
+            },
+            {
+              "ticker": "ARM",
+              "name": "Arm Holdings",
+              "instrument": "Sponsored ADS",
+              "value_usd": 582194012,
+              "shares": 1641972,
+              "theme": "Chip architecture"
+            },
+            {
+              "ticker": "CBRS",
+              "name": "Cerebras Systems",
+              "instrument": "Class A stock",
+              "value_usd": 1596733177,
+              "shares": 7225037,
+              "theme": "AI accelerators"
+            },
+            {
+              "ticker": "CRWV",
+              "name": "CoreWeave",
+              "instrument": "Class A stock",
+              "value_usd": 604575601,
+              "shares": 6073695,
+              "theme": "AI infrastructure / credit"
+            },
+            {
+              "ticker": "GOOGL",
+              "name": "Alphabet Class A",
+              "instrument": "Class A stock",
+              "value_usd": 62604076,
+              "shares": 175180,
+              "theme": "Platform / cloud"
+            },
+            {
+              "ticker": null,
+              "name": "Grab Holdings warrant",
+              "instrument": "Warrant (not ordinary shares)",
+              "value_usd": 150586,
+              "shares": 3502000,
+              "theme": "Other instruments"
+            },
+            {
+              "ticker": "HOOD",
+              "name": "Robinhood Markets",
+              "instrument": "Class A stock",
+              "value_usd": 90221013,
+              "shares": 899691,
+              "theme": "Fintech platform"
+            },
+            {
+              "ticker": "KLAC",
+              "name": "KLA",
+              "instrument": "Common stock",
+              "value_usd": 174457773,
+              "shares": 578230,
+              "theme": "Semiconductor equipment"
+            },
+            {
+              "ticker": "LRCX",
+              "name": "Lam Research",
+              "instrument": "Common stock",
+              "value_usd": 170766686,
+              "shares": 394080,
+              "theme": "Semiconductor equipment"
+            },
+            {
+              "ticker": "META",
+              "name": "Meta Platforms",
+              "instrument": "Class A stock",
+              "value_usd": 763252318,
+              "shares": 1354990,
+              "theme": "Digital platform"
+            },
+            {
+              "ticker": "MSFT",
+              "name": "Microsoft",
+              "instrument": "Common stock",
+              "value_usd": 473019948,
+              "shares": 1268082,
+              "theme": "Cloud / platform"
+            },
+            {
+              "ticker": "MU",
+              "name": "Micron Technology",
+              "instrument": "Common stock",
+              "value_usd": 241846841,
+              "shares": 209520,
+              "theme": "Memory"
+            },
+            {
+              "ticker": "QCOM",
+              "name": "Qualcomm",
+              "instrument": "Common stock",
+              "value_usd": 347865327,
+              "shares": 1882490,
+              "theme": "Mobile / edge chips"
+            },
+            {
+              "ticker": "NVDA",
+              "name": "NVIDIA",
+              "instrument": "Common stock",
+              "value_usd": 1883565023,
+              "shares": 9413589,
+              "theme": "AI accelerators"
+            },
+            {
+              "ticker": "SNOW",
+              "name": "Snowflake",
+              "instrument": "Common stock",
+              "value_usd": 490230625,
+              "shares": 1926250,
+              "theme": "Data platform"
+            },
+            {
+              "ticker": "SNPS",
+              "name": "Synopsys",
+              "instrument": "Common stock",
+              "value_usd": 62602803,
+              "shares": 140343,
+              "theme": "Chip design software"
+            },
+            {
+              "ticker": null,
+              "name": "Space Exploration Technologies",
+              "instrument": "Class A stock; public ticker unverified",
+              "value_usd": 303530227,
+              "shares": 1776485,
+              "theme": "Space technology"
+            },
+            {
+              "ticker": "TSM",
+              "name": "Taiwan Semiconductor Manufacturing",
+              "instrument": "Sponsored ADS",
+              "value_usd": 682617068,
+              "shares": 1429355,
+              "theme": "Foundry"
+            },
+            {
+              "ticker": "UBER",
+              "name": "Uber Technologies",
+              "instrument": "Common stock",
+              "value_usd": 531995271,
+              "shares": 7372440,
+              "theme": "Mobility platform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "li-lu",
+      "name": "Li Lu",
+      "firm": "Himalaya Capital Management LLC",
+      "cik": "0001709323",
+      "focus": "Business ownership, economic moats and disciplined valuation",
+      "color": "amber",
+      "philosophy": [
+        {
+          "title": "Businesses, not ticker symbols",
+          "basis": "Firm-stated philosophy",
+          "text": "Himalaya describes long-term ownership of high-quality businesses with significant moats, growth potential and trustworthy management.",
+          "source": "https://www.himcap.com/"
+        },
+        {
+          "title": "Patience and concentration",
+          "basis": "Li Lu's published investing analogy",
+          "text": "The firm publishes Li Lu's fat-pitch analogy: most opportunities can be passed over; act decisively when an unusually strong opportunity appears.",
+          "source": "https://www.himcap.com/"
+        },
+        {
+          "title": "Margin of safety and limits of knowledge",
+          "basis": "Public lecture notes",
+          "text": "Li Lu's Columbia discussion emphasizes understanding a business, knowing what one does not know, and requiring a margin of safety.",
+          "source": "https://www.valueinvestingworld.com/2010/06/tariq-alis-notes-from-li-lus-2010.html"
+        }
+      ],
+      "research_questions": [
+        "Could we explain this business as if we owned all of it?",
+        "Is its economic moat observable in cash flows and competitive behavior?",
+        "What does management do when circumstances become adverse?",
+        "Is the valuation sufficiently conservative given what is uncertain?"
+      ],
+      "manager_process_note": "Questions above are a DEDL research interpretation, NOT Himalaya's unpublished rules or a mechanical DEDL score.",
+      "filings": [
+        {
+          "period": "2026-06-30",
+          "filed": "2026-08-14",
+          "form": "13F-HR",
+          "source": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000022/0002043585-26-000022-index.htm",
+          "information_table": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000022/xslForm13F_X02/13fhciq226.xml",
+          "holdings": [
+            {
+              "ticker": "GOOGL",
+              "name": "Alphabet Class A",
+              "instrument": "Class A stock",
+              "value_usd": 908899121,
+              "shares": 2543300,
+              "theme": "Platform / cash flow"
+            },
+            {
+              "ticker": "GOOG",
+              "name": "Alphabet Class C",
+              "instrument": "Class C stock",
+              "value_usd": 866117829,
+              "shares": 2451300,
+              "theme": "Platform / cash flow"
+            },
+            {
+              "ticker": "AAPL",
+              "name": "Apple",
+              "instrument": "Common stock",
+              "value_usd": 32003216,
+              "shares": 110600,
+              "theme": "Consumer ecosystem"
+            },
+            {
+              "ticker": "BRK.B",
+              "name": "Berkshire Hathaway Class B",
+              "instrument": "Class B stock",
+              "value_usd": 554591244,
+              "shares": 1108318,
+              "theme": "Diversified businesses"
+            },
+            {
+              "ticker": "CROX",
+              "name": "Crocs",
+              "instrument": "Common stock",
+              "value_usd": 107018900,
+              "shares": 887093,
+              "theme": "Consumer brands"
+            },
+            {
+              "ticker": "EWBC",
+              "name": "East West Bancorp",
+              "instrument": "Common stock",
+              "value_usd": 358399151,
+              "shares": 2776351,
+              "theme": "Banking"
+            },
+            {
+              "ticker": "PDD",
+              "name": "PDD Holdings",
+              "instrument": "Sponsored ADS",
+              "value_usd": 820858157,
+              "shares": 10761119,
+              "theme": "Commerce platform"
+            },
+            {
+              "ticker": "TME",
+              "name": "Tencent Music Entertainment",
+              "instrument": "Sponsored ADS",
+              "value_usd": 55033481,
+              "shares": 6590836,
+              "theme": "Music / subscription"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "research_journal": []
+}
