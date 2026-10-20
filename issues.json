@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-19",
+  "latest": "2026-10-20",
   "issues": [
+    {
+      "date": "2026-10-20",
+      "number": 32,
+      "title": "AI rebound lacks credit and breadth confirmation; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/20/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-20-v1",
+        "summary": "Issue 032 reports DATA INCOMPLETE across all five desks; no security is certified. AI and chip prices rebounded, but weak market breadth, distressed neocloud yields and uncertain hyperscaler liabilities prevent a clean risk reset.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "AI equities rebound without broad confirmation",
+            "date": "2026-10-19",
+            "context": "Nasdaq gained 1.11% and semiconductors rose 1.6%, but seven S&P sectors fell and declining issues outnumbered advancers.",
+            "source": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+          },
+          {
+            "title": "S&P flags uncertain hyperscaler AI liabilities",
+            "date": "2026-10-19",
+            "context": "S&P made no rating changes but said guarantees and unrated transactions may leave major platforms with more AI-linked debt than is visible.",
+            "source": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/"
+          },
+          {
+            "title": "China growth beats while property weakens",
+            "date": "2026-10-19",
+            "context": "Q3 GDP rose 4.5%, but fixed-asset investment fell 7.2% and property investment declined 20.6% in January–September.",
+            "source": "https://www.reuters.com/world/asia-pacific/view-chinas-economic-growth-accelerates-45-third-quarter-2026-10-19/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-19",
       "number": 31,
