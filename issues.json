@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-20",
+  "latest": "2026-10-21",
   "issues": [
+    {
+      "date": "2026-10-21",
+      "number": 33,
+      "title": "Rotation, AI earnings and public REDL ledger; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/21/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-21-v1",
+        "summary": "Issue 033 reports DATA INCOMPLETE across all five desks; no security is certified. Value and defensives led as AI awaited earnings proof, while the new public REDL ledger records delayed, primary-source investor disclosures only.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Value and defensives lead as technology pauses",
+            "date": "2026-10-20",
+            "context": "The Dow rose 1.05% and the S&P 500 0.31%, while the Nasdaq slipped 0.03%; healthcare and small caps led the rotation.",
+            "source": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-dip-oil-prices-climb-earnings-loom-2026-10-20/"
+          },
+          {
+            "title": "China holds loan prime rates unchanged",
+            "date": "2026-10-20",
+            "context": "The PBOC kept the one-year LPR at 3.00% and five-year LPR at 3.50%, extending its policy hold to 17 months.",
+            "source": "https://www.reuters.com/business/finance/china-leaves-loan-rates-steady-17th-consecutive-month-2026-10-20/"
+          },
+          {
+            "title": "REDL public filing ledger launches",
+            "date": "2026-10-21",
+            "context": "The new ledger follows four investors through primary filings only; no new disclosure was verified at the cutoff and filings are delayed.",
+            "source": "https://www.sec.gov/edgar/browse/?CIK=0001541617&owner=exclude"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-20",
       "number": 32,
