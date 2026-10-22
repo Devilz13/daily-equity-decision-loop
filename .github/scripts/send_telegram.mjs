@@ -3,7 +3,7 @@ import { execFileSync } from 'node:child_process';
 
 const issueIndex = JSON.parse(readFileSync('issues.json', 'utf8'));
 const issue = issueIndex.issues?.[0];
-if (!issue || !/^issues\/\d{4}\/\d{2}\/[\w-]+\/$/.test(issue.path)) {
+if (!issue || !/^issues\/\d{4}\/\d{2}\/[\w-]+\/(?:[\w-]+\/)?$/.test(issue.path)) {
   throw new Error('The latest issue metadata is missing or its path is invalid.');
 }
 
