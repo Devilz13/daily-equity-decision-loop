@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-21",
+  "latest": "2026-10-22",
   "issues": [
+    {
+      "date": "2026-10-22",
+      "number": 34,
+      "title": "AI earnings support demand; cash conversion remains the test",
+      "status": "data incomplete",
+      "path": "issues/2026/10/22/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-22-v1",
+        "summary": "Issue 034 reports DATA INCOMPLETE across all five desks; no security is certified. AI earnings lifted technology, but Meta’s cash deficit and capex step-up show that demand evidence has not removed financing and execution risk.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "AI earnings lift Wall Street",
+            "date": "2026-10-21",
+            "context": "Nasdaq rose 1.05% as SpaceX gained 7.8% and Super Micro rose 9.6% after its AI-server outlook exceeded estimates.",
+            "source": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/"
+          },
+          {
+            "title": "Meta raises spending while free cash flow turns negative",
+            "date": "2026-10-21",
+            "context": "Meta raised its capex range to US$135–145B while Q3 free cash flow turned to a US$2.12B deficit despite better-than-expected revenue.",
+            "source": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
+          },
+          {
+            "title": "Singapore banks lead STI higher",
+            "date": "2026-10-21",
+            "context": "STI gained 0.6% to 5,437.99; DBS, OCBC and UOB rose, while gainers outnumbered losers 334 to 214.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-end-higher-led-gains-local-banks-sti-0-6"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-21",
       "number": 33,
