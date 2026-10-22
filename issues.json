@@ -6,6 +6,46 @@
   "issues": [
     {
       "date": "2026-10-22",
+      "number": 35,
+      "title": "SPECIAL REPORT: Market selloff does not establish a crash",
+      "status": "risk-off; broad crash unconfirmed",
+      "path": "issues/2026/10/22/special-market-selloff/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-22-special-v1",
+        "summary": "SPECIAL REPORT — Market selloff ≠ confirmed crash. US opening snapshot: Dow -0.13%, S&P 500 -0.81%, Nasdaq -1.48% (Reuters, 22 Oct). A tech-led decline is real; claims of a system-wide crash are not established by these numbers. Check evolving breadth, credit, oil and rates before drawing conclusions.",
+        "market_note": "Gold later fell ~1.4% to US$4,084.25/oz (Reuters snapshot). Rising oil adds inflation and higher-for-longer rate risk; tech selling also reflects AI spending/earnings concerns. Watch Fed Oct 27-28, USD, yields, spreads, breadth and follow-through. No trade conclusion; DEDL desks remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Wall Street opens lower; tech weakness leads",
+            "date": "2026-10-22",
+            "context": "Reuters opening: Dow -0.13%, S&P -0.81%, Nasdaq Composite -1.48%; Tesla/Meta AI-spending concerns and rising oil weigh. These are opening, not closing, returns.",
+            "source": "https://www.marketscreener.com/news/wall-st-opens-lower-as-ai-jitters-return-oil-rises-ce785cdedb8ef325"
+          },
+          {
+            "title": "Gold drops as oil-fuelled inflation worries intensify",
+            "date": "2026-10-22",
+            "context": "Reuters reported spot gold down 1.4% to US$4,084.25/oz; oil/rate expectations pressure non-yielding bullion. Separate timestamp from equity opening.",
+            "source": "https://www.reuters.com/world/india/gold-drops-over-1-oil-rally-reinforces-higher-for-longer-rate-outlook-2026-10-22/"
+          },
+          {
+            "title": "Next major scheduled policy catalyst",
+            "date": "2026-10-27 to 2026-10-28",
+            "context": "The Federal Reserve lists a two-day FOMC meeting on Oct 27–28. Rate guidance may alter yields, dollar and risk appetite; direction is uncertain.",
+            "source": "https://www.federalreserve.gov/newsevents/2026-october.htm"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-22",
       "number": 34,
       "title": "AI earnings support demand; cash conversion remains the test",
       "status": "data incomplete",
