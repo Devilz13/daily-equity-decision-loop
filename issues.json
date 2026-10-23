@@ -2,8 +2,42 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-22",
+  "latest": "2026-10-23",
   "issues": [
+    {
+      "date": "2026-10-23",
+      "number": 36,
+      "title": "AI cash bills meet a market that demands proof",
+      "status": "data incomplete",
+      "path": "issues/2026/10/23/",
+      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
+      "telegram": {
+        "delivery_revision": "2026-10-23-v1",
+        "summary": "Issue 036 reports DATA INCOMPLETE across all five desks; no security is certified. The AI-led selloff is a material funding and valuation warning, but it does not by itself establish a system-wide crash.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "AI doubts trigger technology selloff",
+            "date": "2026-10-22",
+            "context": "Nasdaq fell 2.60% and the semiconductor index 6.7%; Meta dropped 7.0% and Tesla 3.1% as investors reassessed AI spending.",
+            "source": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/"
+          },
+          {
+            "title": "Oil rises as Treasury yields fall",
+            "date": "2026-10-22",
+            "context": "Brent settled 4.0% higher at US$113.17 while the US 10-year yield fell 19.3 basis points to 4.953% amid a safety bid.",
+            "source": "https://www.marketscreener.com/news/stocks-drop-as-meta-fans-ai-worries-treasuries-gain-ce785cdede89f223"
+          },
+          {
+            "title": "Singapore shares and banks retreat",
+            "date": "2026-10-22",
+            "context": "The STI fell 0.4% to 5,415.14 as DBS, OCBC and UOB declined; gainers trailed losers 198 to 410.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-end-lower-local-banks-decline-sti-down-0-4"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-22",
       "number": 35,
