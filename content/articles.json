@@ -1053,5 +1053,328 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-10-23-europe-open-delayed",
+    "title": "Europe opening context — delayed, sector prices unverified",
+    "summary": "Published 49 minutes after the London opening target. Thursday’s close and overnight evidence frame the risk; current sector prices and breadth were unavailable, so every sector is labelled as a data gap.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-23T07:49:00Z",
+    "updated_at": "2026-10-23T07:49:00Z",
+    "cutoff_at": "2026-10-23T07:49:00Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse-calendar",
+        "title": "London Stock Exchange business days calendar",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T07:47:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "euronext-calendar",
+        "title": "2026 Holiday Calendar for Euronext cash and derivatives markets",
+        "publisher": "Euronext",
+        "url": "https://live.euronext.com/en/resources/trading-hours-holidays",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T07:47:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "europe-close",
+        "title": "Europe’s STOXX 600 slips as mixed earnings and rising oil sour mood",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://au.investing.com/news/stock-market-news/europes-stoxx-600-slips-as-mixed-earnings-and-rising-oil-sour-mood-4707039",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-10-23T07:47:00Z",
+        "type": "secondary"
+      },
+      {
+        "id": "asia-friday",
+        "title": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/7b47ef3b037bfba4e34f685329b9b963",
+        "published_at": "2026-10-23T03:54:30Z",
+        "accessed_at": "2026-10-23T07:47:00Z",
+        "type": "secondary"
+      },
+      {
+        "id": "oil-friday",
+        "title": "Oil little changed as supply concern lingers amid Houthi attacks on Saudi Arabia",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/oil-little-changed-as-supply-concern-lingers-amid-houthi-attacks-on-saudi-arabia-ce785cdede8bff23",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T07:47:00Z",
+        "type": "secondary"
+      },
+      {
+        "id": "lse-hours",
+        "title": "London Stock Exchange main-market hours and LSE 24 launch",
+        "publisher": "London Stock Exchange Group",
+        "url": "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-to-launch-lse-24",
+        "published_at": "2026-07-21",
+        "accessed_at": "2026-10-23T07:47:00Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "This opening context is delayed: it was published at 08:47 London time, after the 08:00 London cash open. It does not report live Friday index or sector prices.",
+        "kind": "fact",
+        "source_ids": [
+          "lse-calendar",
+          "euronext-calendar",
+          "lse-hours"
+        ]
+      },
+      {
+        "text": "On Thursday 22 October, the STOXX 600 fell nearly 1%; Reuters cited mixed earnings, higher oil and rising French bond yields as pressures. This is the prior close, not Friday’s move.",
+        "kind": "fact",
+        "source_ids": [
+          "europe-close"
+        ]
+      },
+      {
+        "text": "Friday morning’s AP report described Asian equities as mostly lower, with technology weakness and higher oil among the wider market pressures.",
+        "kind": "fact",
+        "source_ids": [
+          "asia-friday"
+        ]
+      },
+      {
+        "text": "Reuters reported oil was little changed in early Asian trade after a 4% rise on Thursday, with supply disruption concerns still present.",
+        "kind": "fact",
+        "source_ids": [
+          "oil-friday"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The cited European close linked losses to a combination of mixed company reports, oil prices and French sovereign yields; overnight Asian weakness adds a risk signal but does not prove Friday European prices followed.",
+        "transmission": "Higher energy costs can weigh on energy-using businesses and household demand; higher sovereign yields may tighten financing conditions, while energy producers can respond differently. These are channels to check, not measured Friday sector effects.",
+        "confidence": "inference",
+        "alternatives": "Company-specific earnings, currency moves, positioning and local policy can offset or outweigh the broad risk signals.",
+        "source_ids": [
+          "europe-close",
+          "asia-friday",
+          "oil-friday"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Risk pressure persists",
+        "outcome": "If higher oil and weak technology sentiment persist, European risk appetite could remain cautious.",
+        "trigger": "Friday cash-market breadth weakens and updated company guidance confirms cost or demand pressure.",
+        "invalidation": "Broad participation improves, oil supply concerns ease or earnings updates offset the risk.",
+        "horizon": "Rest of the 23 October European session.",
+        "source_ids": [
+          "europe-close",
+          "asia-friday",
+          "oil-friday"
+        ]
+      },
+      {
+        "name": "Local earnings support dispersion",
+        "outcome": "Company and sector-specific results could produce divergence even if the headline index remains pressured.",
+        "trigger": "Fresh earnings and index sector data show resilient guidance or gains outside technology.",
+        "invalidation": "Weakness broadens across sectors and earnings outlooks deteriorate.",
+        "horizon": "Rest of the 23 October session and next European open.",
+        "source_ids": [
+          "europe-close"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Refresh live European index and 11-sector breadth and verify constituent exchanges before the delayed opening context is treated as a session read.",
+        "due_at": "2026-10-23T15:00:00+01:00",
+        "confirms": "Official cash-market prices and breadth establish whether Thursday’s risk carried into Friday.",
+        "contradicts": "Verified Friday breadth or earnings moves diverge from the overnight risk narrative.",
+        "source_ids": [
+          "lse-calendar",
+          "euronext-calendar",
+          "europe-close",
+          "asia-friday"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-23T07:49:00Z"
+    },
+    "material_reason": "Due opening context, published late with the actual delay stated. The official calendars establish a normal weekday session for London and the Euronext venues covered; they do not establish all European exchanges or individual instrument halts. No live Friday prices, sector breadth, volatility or volume were independently accessible at the cutoff. All 11 sector entries therefore remain explicit data gaps. The existing 08:00 SGT overall news edition is unaffected.",
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse-calendar",
+            "lse-hours"
+          ]
+        },
+        {
+          "name": "Euronext Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo and Paris cash-market calendar",
+          "status": "verified-session",
+          "source_ids": [
+            "euronext-calendar"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious opening risk context, not a measured Friday European sentiment reading.",
+        "indicators": "Thursday’s nearly 1% STOXX 600 decline, oil and French-yield concerns in the prior close report; AP-described Asian weakness Friday morning. Friday European price breadth and volatility were unavailable.",
+        "source_ids": [
+          "europe-close",
+          "asia-friday",
+          "oil-friday"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "Delayed opening context (08:47 Europe/London; 07:47 UTC): current sector prices, breadth and volume could not be independently verified. No Friday sector direction is asserted.",
+          "implication": "Thursday’s market-wide stress may affect this sector through its own earnings, input-cost and financing exposures; direction remains unconfirmed.",
+          "watchpoint": "Refresh official index/constituent prices, advance-decline breadth, turnover and company disclosures at the next read.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "If European weakness confirms a global earnings or energy-cost shock, US risk appetite may also be pressured; local US breadth could diverge.",
+          "trigger": "US premarket and cash breadth weaken while oil remains elevated and earnings guidance deteriorates.",
+          "invalidation": "US breadth improves, oil eases or US company guidance offsets the risk.",
+          "source_ids": [
+            "europe-close",
+            "asia-friday",
+            "oil-friday"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "European demand and financing signals may matter to Asian exporters and banks, but local policy and index composition differ.",
+          "trigger": "European cash weakness coincides with new Asian export, earnings or credit evidence.",
+          "invalidation": "Asian breadth and local disclosures diverge from European risk signals.",
+          "source_ids": [
+            "europe-close",
+            "asia-friday"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Sustained energy costs or tighter global funding could affect Singapore importers, banks and property trusts through different channels.",
+          "trigger": "Oil remains elevated and verified Singapore company or rate evidence confirms cost or funding pass-through.",
+          "invalidation": "Local disclosures show hedging, pass-through or resilient funding and breadth.",
+          "source_ids": [
+            "europe-close",
+            "asia-friday",
+            "oil-friday"
+          ]
+        }
+      ]
+    }
   }
 ]
