@@ -61,6 +61,6 @@ node scripts/check-history.mjs <previous-commit-sha>
 
 Pages publishes only `dist/`, assembled from approved assets, the existing homepage/issue index/edition HTML and validated new public records. Templates, tests, scripts and repository metadata are not uploaded. This is an artifact boundary, not permission to store secrets in a public repository. Both Pages and PR validation run the build/checks. Existing Telegram delivery remains triggered only by `issues.json` changes, using its existing secrets.
 
-The initial Lighthouse reports contain reviewed, dated observations and explicit sector data gaps. Other empty sections do not mean no news or no events. No fabricated seed news, card rate, discount, prediction or operational military intelligence is permitted. See [Lighthouse operations](LIGHTHOUSE.md) for the active periodic research heartbeat and its limits.
+The initial Lighthouse reports contain reviewed, dated observations and explicit sector data gaps. Other empty sections do not mean no news or no events. No fabricated seed news, card rate, discount, prediction or operational military intelligence is permitted. See [Lighthouse operations](LIGHTHOUSE.md) for the session-boundary market-read schedule and its limits.
 
 References: [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages), [scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).

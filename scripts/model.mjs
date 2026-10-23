@@ -1,6 +1,6 @@
 import {validateMarketRead} from './market-read.mjs';
 export const channels = {
-  markets: {name:'Markets', cadence:'Daily opens & closes · all sectors · material-event updates', description:'The Lighthouse: market movements, evidenced causes, sentiment and cross-market scenarios. Additional to the full 08:00 SGT news edition.'},
+  markets: {name:'Markets', cadence:'Session opens & closes · four market desks', description:'The Lighthouse: opening and closing reads for LSE-anchored Europe, NYSE-anchored US, the Japan-open to India-close Asia basket, and separate SGX sessions. Material developments enter the next scheduled read; additional to the full 08:00 SGT news edition.'},
   military: {name:'Military', cadence:'3 shorts / week', description:'Public regional exercises, defence policy, capability development and strategic implications.'},
   parliament: {name:'Parliament', cadence:'2–3 shorts / week', description:'Parliamentary developments, legislation and the route from policy to economic effects.'},
   conflict: {name:'Conflict', cadence:'Material events only · maximum 5 / week', description:'Verified escalation, de-escalation, humanitarian impact, sanctions and trade disruption. No quota to fill.'}
