@@ -1,0 +1,18 @@
+name: Editorial review checklist
+on:
+  schedule:
+    # 08:17 Asia/Singapore; avoids the busy top of the UTC hour.
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate public records and report cadence gaps
+        run: node scripts/editorial-check.mjs

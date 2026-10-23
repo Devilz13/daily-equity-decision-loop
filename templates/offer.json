@@ -1,0 +1,17 @@
+{
+  "id": "replace-with-source-id",
+  "name": "REPLACE: official offer title",
+  "category": "Dining",
+  "cards": [],
+  "apps": [],
+  "benefit": "REPLACE: amount, redemption limit and minimum spend",
+  "eligibility": "REPLACE: eligibility, redemption method, exclusions and stock limits",
+  "source_url": null,
+  "terms_url": null,
+  "starts_at": null,
+  "expires_at": null,
+  "verified_at": null,
+  "review_due_at": null,
+  "reviewed_public": false,
+  "corrections": []
+}

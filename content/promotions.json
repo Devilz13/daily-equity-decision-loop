@@ -1,0 +1,10 @@
+{
+  "integration": {
+    "mode": "local",
+    "site_url": null,
+    "repository_url": null,
+    "note": "Integrated into DEDL from the original Singapore Promotions and Cards brief. No separate deployed site or reusable repository was located."
+  },
+  "offers": [],
+  "cards": []
+}

@@ -1,5 +1,9 @@
 # DEDL Market Brief
 
+The public site now includes an [editorial overview](https://devilz13.github.io/daily-equity-decision-loop/briefing/), Markets / Military / Parliament / Conflict desks, Global / US / Europe / Asia coverage, accessible REDL and DEDL lenses, a [daily Singapore focal dashboard](https://devilz13.github.io/daily-equity-decision-loop/singapore/) and [Singapore Promotions & Cards](https://devilz13.github.io/daily-equity-decision-loop/promotions/).
+
+See [the editorial workflow](docs/EDITORIAL.md) for data templates, review requirements, corrections, cadence, known content gaps and the safe daily checklist. Build with `node scripts/build.mjs`; validate with `node --test` and `node scripts/check-site.mjs`. GitHub Pages publishes the generated `dist/` artifact, never the entire checkout. The original editions and Telegram issue index remain intact.
+
 Public, AI-generated daily equity research newsletter covering:
 
 - United States
