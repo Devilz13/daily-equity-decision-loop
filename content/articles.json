@@ -1057,7 +1057,7 @@
   {
     "id": "2026-10-23-europe-open-delayed",
     "title": "Europe opening context — delayed, sector prices unverified",
-    "summary": "Published 49 minutes after the London opening target. Thursday’s close and overnight evidence frame the risk; current sector prices and breadth were unavailable, so every sector is labelled as a data gap.",
+    "summary": "Delayed Europe opening context; a correction clarifies AP’s mixed-to-rebounding Asia report. Current European sector prices and breadth remain unverified, so all 11 sector groups are labelled as data gaps.",
     "channel": "markets",
     "regions": [
       "europe"
@@ -1070,7 +1070,7 @@
     ],
     "format": "market-open",
     "published_at": "2026-10-23T07:49:00Z",
-    "updated_at": "2026-10-23T07:49:00Z",
+    "updated_at": "2026-10-23T08:52:36Z",
     "cutoff_at": "2026-10-23T07:49:00Z",
     "status": "published",
     "sources": [
@@ -1103,11 +1103,11 @@
       },
       {
         "id": "asia-friday",
-        "title": "Asian shares slip as sharp drops for AI stocks overwhelm markets worldwide and oil prices jump",
+        "title": "Asian shares mostly rebound from AI-related losses, while oil prices jump",
         "publisher": "Associated Press",
         "url": "https://apnews.com/article/7b47ef3b037bfba4e34f685329b9b963",
         "published_at": "2026-10-23T03:54:30Z",
-        "accessed_at": "2026-10-23T07:47:00Z",
+        "accessed_at": "2026-10-23T08:52:36Z",
         "type": "secondary"
       },
       {
@@ -1147,7 +1147,7 @@
         ]
       },
       {
-        "text": "Friday morning’s AP report described Asian equities as mostly lower, with technology weakness and higher oil among the wider market pressures.",
+      "text": "Correction: AP’s indexed Friday report described Asian shares as mostly rebounding from AI-related losses; its preview reported Japan’s Nikkei down 0.3% and South Korea’s Kospi up 0.3%, indicating mixed country-level closes rather than broad regional weakness. The full AP page was inaccessible at this review, so this correction relies on AP’s indexed article preview.",
         "kind": "fact",
         "source_ids": [
           "asia-friday"
@@ -1163,7 +1163,7 @@
     ],
     "causation": [
       {
-        "explanation": "The cited European close linked losses to a combination of mixed company reports, oil prices and French sovereign yields; overnight Asian weakness adds a risk signal but does not prove Friday European prices followed.",
+      "explanation": "The cited European close linked losses to mixed company reports, oil prices and French sovereign yields. AP’s indexed Friday report described Asia as mostly rebounding with divergent national closes, which weakens any inference that broad Asian weakness carried into Europe; Friday European prices remain unverified.",
         "transmission": "Higher energy costs can weigh on energy-using businesses and household demand; higher sovereign yields may tighten financing conditions, while energy producers can respond differently. These are channels to check, not measured Friday sector effects.",
         "confidence": "inference",
         "alternatives": "Company-specific earnings, currency moves, positioning and local policy can offset or outweigh the broad risk signals.",
@@ -1212,13 +1212,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-10-23T08:52:36Z",
+        "reason": "The AP article’s indexed headline and preview did not support the earlier description of Asian equities as mostly lower.",
+        "change": "Corrected the Asia summary to AP’s mostly-rebounding description, with its reported Nikkei (-0.3%) and Kospi (+0.3%) closes showing country-level divergence. The AP page could not be opened directly, so the correction is explicitly based on its indexed preview. No Friday European sector direction is inferred.",
+        "source_ids": [
+          "asia-friday"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-10-23T07:49:00Z"
+      "reviewed_at": "2026-10-23T08:52:36Z"
     },
     "material_reason": "Due opening context, published late with the actual delay stated. The official calendars establish a normal weekday session for London and the Euronext venues covered; they do not establish all European exchanges or individual instrument halts. No live Friday prices, sector breadth, volatility or volume were independently accessible at the cutoff. All 11 sector entries therefore remain explicit data gaps. The existing 08:00 SGT overall news edition is unaffected.",
     "market_read": {
@@ -1244,7 +1253,7 @@
       ],
       "sentiment": {
         "assessment": "Cautious opening risk context, not a measured Friday European sentiment reading.",
-        "indicators": "Thursday’s nearly 1% STOXX 600 decline, oil and French-yield concerns in the prior close report; AP-described Asian weakness Friday morning. Friday European price breadth and volatility were unavailable.",
+      "indicators": "Thursday’s nearly 1% STOXX 600 decline, oil and French-yield concerns in the prior close report; AP’s indexed Friday report described Asia as mostly rebounding with mixed country-level closes. Friday European price breadth and volatility were unavailable.",
         "source_ids": [
           "europe-close",
           "asia-friday",
@@ -1378,3 +1387,4 @@
     }
   }
 ]
+
