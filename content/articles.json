@@ -1147,7 +1147,7 @@
         ]
       },
       {
-      "text": "Correction: AP’s indexed Friday report described Asian shares as mostly rebounding from AI-related losses; its preview reported Japan’s Nikkei down 0.3% and South Korea’s Kospi up 0.3%, indicating mixed country-level closes rather than broad regional weakness. The full AP page was inaccessible at this review, so this correction relies on AP’s indexed article preview.",
+        "text": "Correction: AP’s indexed Friday report described Asian shares as mostly rebounding from AI-related losses; its preview reported Japan’s Nikkei down 0.3% and South Korea’s Kospi up 0.3%, indicating mixed country-level closes rather than broad regional weakness. The full AP page was inaccessible at this review, so this correction relies on AP’s indexed article preview.",
         "kind": "fact",
         "source_ids": [
           "asia-friday"
@@ -1163,7 +1163,7 @@
     ],
     "causation": [
       {
-      "explanation": "The cited European close linked losses to mixed company reports, oil prices and French sovereign yields. AP’s indexed Friday report described Asia as mostly rebounding with divergent national closes, which weakens any inference that broad Asian weakness carried into Europe; Friday European prices remain unverified.",
+        "explanation": "The cited European close linked losses to mixed company reports, oil prices and French sovereign yields. AP’s indexed Friday report described Asia as mostly rebounding with divergent national closes, which weakens any inference that broad Asian weakness carried into Europe; Friday European prices remain unverified.",
         "transmission": "Higher energy costs can weigh on energy-using businesses and household demand; higher sovereign yields may tighten financing conditions, while energy producers can respond differently. These are channels to check, not measured Friday sector effects.",
         "confidence": "inference",
         "alternatives": "Company-specific earnings, currency moves, positioning and local policy can offset or outweigh the broad risk signals.",
@@ -1253,7 +1253,7 @@
       ],
       "sentiment": {
         "assessment": "Cautious opening risk context, not a measured Friday European sentiment reading.",
-      "indicators": "Thursday’s nearly 1% STOXX 600 decline, oil and French-yield concerns in the prior close report; AP’s indexed Friday report described Asia as mostly rebounding with mixed country-level closes. Friday European price breadth and volatility were unavailable.",
+        "indicators": "Thursday’s nearly 1% STOXX 600 decline, oil and French-yield concerns in the prior close report; AP’s indexed Friday report described Asia as mostly rebounding with mixed country-level closes. Friday European price breadth and volatility were unavailable.",
         "source_ids": [
           "europe-close",
           "asia-friday",
@@ -1385,6 +1385,489 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-10-23-europe-close",
+    "title": "Europe close (delayed): energy, weak surveys and France risk; breadth gaps remain",
+    "summary": "Delayed catch-up published at 00:02 SGT on 24 October for the 23 October LSE-anchored close. Evidence points to energy-cost pressure, softer euro-area activity and French political uncertainty. The FTSE close feeds conflict; regional breadth and most sector returns remain unverified. All 11 sector groups and the political-post gap are stated explicitly.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-23T16:02:40Z",
+    "updated_at": "2026-10-23T16:02:40Z",
+    "cutoff_at": "2026-10-23T15:57:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse-calendar",
+        "title": "2026 business days and trading calendar (undated page)",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "euronext-calendar",
+        "title": "Trading hours and holidays: cash-market calendar",
+        "publisher": "Euronext",
+        "url": "https://www.euronext.com/en/trading/trading-hours-holidays",
+        "published_at": "2025-11-07",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "bme-calendar",
+        "title": "Trading calendar 2026",
+        "publisher": "BME Exchange",
+        "url": "https://www.bolsasymercados.es/en/bme-exchange/trading/trading-calendar.html",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "xetra-calendar",
+        "title": "Trading calendar and hours 2026",
+        "publisher": "Deutsche Börse Cash Market",
+        "url": "https://www.cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "six-calendar",
+        "title": "Trading, currency and holiday calendar 2026",
+        "publisher": "SIX Group",
+        "url": "https://www.six-group.com/en/market-data/news-tools/trading-currency-holiday-calendar.html",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "ftse-history",
+        "title": "FTSE 100 Index historical prices",
+        "publisher": "Financial Times Markets Data",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "lse-index",
+        "title": "FTSE 100 index overview and market-data coverage",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/indices/ftse-100",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "ftse-alt",
+        "title": "FTSE 100 historical prices, conflicting secondary feed",
+        "publisher": "Investors' Chronicle Markets Data",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "euro-pmi",
+        "title": "Euro zone growth slows to 4-month low amid rising costs and French strife, survey shows",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/euro-zone-growth-slows-4-month-low-amid-rising-costs-and-french-strife-survey-shows",
+        "published_at": "2026-10-23T11:36:00+01:00",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "france-pmi",
+        "title": "French business activity contracts in October amid political, financial pressures, PMI shows",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/default/francepmi-contraction-inattendue-de-lactivit-conomique-en-octobre-les-pressions-2026-10-23/",
+        "published_at": "2026-10-23T08:17:16Z",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "germany-pmi",
+        "title": "German business activity growth softens in October, PMI shows",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/german-business-activity-growth-softens-october-pmi-shows-2026-10-23/",
+        "published_at": "2026-10-23T07:33:30Z",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "reuters-europe",
+        "title": "European stocks on track for weekly loss as Kering drops",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/europe/stoxx-600-extends-fall-kering-slumps-oil-climbs-2026-10-23/",
+        "published_at": "2026-10-23T07:30:32Z",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "uk-data",
+        "title": "Oil hits five-month high as global stocks wobble on AI fears; retail sales in Great Britain fall as shoppers cut back",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/business/live/2026/oct/23/global-stocks-fall-ai-fears-grow-british-retail-sales-fall-business-live-latest-news",
+        "published_at": "2026-10-23T14:39:21Z",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      },
+      {
+        "id": "fr-ministry",
+        "title": "Journée de mobilisation du samedi 24 octobre 2026",
+        "publisher": "French Ministry of the Interior",
+        "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/journee-de-mobilisation-du-samedi-24-octobre-2026",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "primary"
+      },
+      {
+        "id": "uk-sector",
+        "title": "UK stocks set for weekly declines as oil prices soar",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://in.marketscreener.com/news/uk-stocks-set-for-weekly-declines-as-oil-prices-soar-ce785cdfd888f420",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-23T15:57:57Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Official calendars show regular weekday sessions on 23 October for LSE, Euronext, BME, Xetra and SIX, with no listed holiday or early-close exception for those covered venues. This is a partial European basket review.",
+        "kind": "fact",
+        "source_ids": [
+          "lse-calendar",
+          "euronext-calendar",
+          "bme-calendar",
+          "xetra-calendar",
+          "six-calendar"
+        ]
+      },
+      {
+        "text": "FT Markets Data listed a 23 October FTSE 100 close of 10,670.25, while Investors' Chronicle listed 10,713.80; the LSE index overview did not expose a 23 October record in its indexed data. The UK benchmark is unreconciled and no verified close direction is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "ftse-history",
+          "ftse-alt",
+          "lse-index"
+        ]
+      },
+      {
+        "text": "The euro-area flash composite PMI fell to 51.9 in October from 53.1 in September, below the Reuters poll expectation of 52.7; France's composite PMI was 48.4, indicating contraction, while German growth softened.",
+        "kind": "fact",
+        "source_ids": [
+          "euro-pmi",
+          "france-pmi",
+          "germany-pmi"
+        ]
+      },
+      {
+        "text": "Reuters' morning report linked the cautious European tone to higher oil, AI-related equity weakness and uncertainty in France; a late-afternoon Guardian update reported Brent above $115 and European indices lower before the LSE close.",
+        "kind": "fact",
+        "source_ids": [
+          "reuters-europe",
+          "uk-data"
+        ]
+      },
+      {
+        "text": "The French Interior Ministry published measures ahead of Saturday's planned mobilisation. This establishes planned government action, not market impact.",
+        "kind": "fact",
+        "source_ids": [
+          "fr-ministry"
+        ]
+      },
+      {
+        "text": "No directly verifiable politician or party social post with a public URL and timestamp was confirmed in this pass; political-post sentiment is a gap.",
+        "kind": "fact",
+        "source_ids": [
+          "fr-ministry"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Flash surveys and reporting support a plausible cost-and-demand channel: higher energy prices coincided with slower euro-area activity, while France returned to contraction amid political and financial pressure. This is macro context, not a demonstrated cause of a closing index move.",
+        "transmission": "If Brent stays elevated, energy users, transport and consumer firms can face margin or demand pressure; weaker activity may alter rate expectations and risk premia. Verify sector prices, yields and guidance at the next open.",
+        "confidence": "inference",
+        "alternatives": "Earnings, AI valuation repricing, currencies and country-specific news can produce divergent returns; missing closing breadth prevents region-wide attribution.",
+        "source_ids": [
+          "euro-pmi",
+          "france-pmi",
+          "reuters-europe",
+          "uk-data"
+        ]
+      },
+      {
+        "explanation": "France's official preparations for Saturday's mobilisation establish a policy and transport watchpoint, but do not show protests caused the session's equity moves.",
+        "transmission": "Only confirmed disruption to transport, retail, tourism or business operations would create a direct near-term earnings or activity channel.",
+        "confidence": "uncertain",
+        "alternatives": "The event may pass without material disruption; investors may remain focused on sovereign funding, energy or earnings.",
+        "source_ids": [
+          "fr-ministry",
+          "reuters-europe"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Energy and political-risk pressure persists",
+        "outcome": "European risk appetite could remain fragile if high energy costs and weak activity continue together.",
+        "trigger": "Brent stays high, another survey weakens, or corroborated reporting shows French sovereign-spread stress.",
+        "invalidation": "Energy prices retreat, surveys stabilize and verified breadth improves.",
+        "horizon": "Next Europe session, Monday 26 October 2026.",
+        "source_ids": [
+          "euro-pmi",
+          "reuters-europe",
+          "uk-data"
+        ]
+      },
+      {
+        "name": "Selective stabilization",
+        "outcome": "Earnings support and easing energy costs could limit downside even if France remains weak.",
+        "trigger": "Company results beat expectations and participation improves while oil eases.",
+        "invalidation": "Guidance deteriorates or weakness broadens beyond technology and consumer names.",
+        "horizon": "Next one to three Europe sessions.",
+        "source_ids": [
+          "reuters-europe",
+          "euro-pmi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "At Monday's Europe open, reconcile FTSE closes against exchange/index-provider records; obtain verified STOXX, DAX, CAC, IBEX and SMI marks, breadth, volume, volatility and sector data.",
+        "due_at": "2026-10-26T07:45:00+00:00",
+        "confirms": "Independent records agree and show persistent cross-sector weakness.",
+        "contradicts": "Verified closes or opening breadth show stabilization.",
+        "source_ids": [
+          "ftse-history",
+          "ftse-alt",
+          "lse-index"
+        ]
+      },
+      {
+        "signal": "Track direct public posts by named French officials, parties and candidates around Saturday's mobilisation; verify announced actions against official records and corroborated reporting.",
+        "due_at": "2026-10-26T07:45:00+00:00",
+        "confirms": "A verified statement is followed by official measures or documented operating effects.",
+        "contradicts": "No verified policy action or material disruption emerges.",
+        "source_ids": [
+          "fr-ministry",
+          "reuters-europe"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-23T16:02:40Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-23",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange (UK)",
+          "status": "verified-session",
+          "source_ids": [
+            "lse-calendar"
+          ]
+        },
+        {
+          "name": "Euronext (Paris, Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo)",
+          "status": "verified-session",
+          "source_ids": [
+            "euronext-calendar"
+          ]
+        },
+        {
+          "name": "Xetra (Germany)",
+          "status": "verified-session",
+          "source_ids": [
+            "xetra-calendar"
+          ]
+        },
+        {
+          "name": "BME Exchange (Spain)",
+          "status": "verified-session",
+          "source_ids": [
+            "bme-calendar"
+          ]
+        },
+        {
+          "name": "SIX Swiss Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "six-calendar"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious and selective, based on intraday reporting and weaker activity surveys; final Europe-wide breadth is unresolved. No direct politician or party post was verified, so such posts are not used as a sentiment proxy.",
+        "indicators": "Reuters morning STOXX/luxury snapshot; late-afternoon reported declines and Brent above $115; Europe, France and Germany flash PMIs; UK consumer confidence at a six-month low. Closing breadth, final volatility and direct social posts remain gaps.",
+        "source_ids": [
+          "reuters-europe",
+          "uk-data",
+          "euro-pmi",
+          "france-pmi",
+          "germany-pmi"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Reuters reported AI-related technology weakness and pressure on European chipmakers; no European technology-sector close or breadth was verified.",
+          "implication": "AI-capex repricing can affect hardware and software differently; regional attribution is unavailable.",
+          "watchpoint": "Verify technology close, semiconductor breadth, volume and guidance Monday.",
+          "source_ids": [
+            "reuters-europe",
+            "uk-data"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No reliable Europe-wide communication-services close, breadth or turnover series was verified.",
+          "implication": "Telecom, media and platform exposures differ; global technology headlines do not establish a group move.",
+          "watchpoint": "Check the group index and company disclosures Monday.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Reuters reported Kering fell sharply after results and luxury shares were weaker in the morning; this is not a final sector return.",
+          "implication": "Luxury demand and FX matter; UK consumer confidence does not represent all Europe.",
+          "watchpoint": "Verify luxury, retail, auto and travel breadth.",
+          "source_ids": [
+            "reuters-europe",
+            "uk-data"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "The Guardian reported UK retail-sales and consumer-confidence data; these are demand indicators, not a sector close.",
+          "implication": "Higher fuel and utility costs may redirect household spending; pricing and mix may cushion some firms.",
+          "watchpoint": "Check staples returns, guidance, input costs and volumes.",
+          "source_ids": [
+            "uk-data"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Reuters and the Guardian reported elevated oil, with Brent above $115 in a late-afternoon update; European energy-sector close was not verified.",
+          "implication": "Crude may support producers but raise costs for refiners, utilities, transport and households.",
+          "watchpoint": "Verify settlement and energy-sector returns.",
+          "source_ids": [
+            "reuters-europe",
+            "uk-data"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Weak French activity and political/financial pressure were reported; bank-sector close, breadth and final sovereign yields were unavailable.",
+          "implication": "Sovereign spreads and credit expectations can affect funding; this session's sector effect is unquantified.",
+          "watchpoint": "Check bank returns, French-German spreads, funding and credit disclosures.",
+          "source_ids": [
+            "france-pmi",
+            "euro-pmi"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified European health-care close, breadth or market-moving company disclosure was confirmed.",
+          "implication": "Defensive demand alone does not establish outperformance.",
+          "watchpoint": "Retrieve sector close and material filings.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Reuters reported an intraday decline in UK aerospace/defence shares; no final European industrials close or breadth was verified.",
+          "implication": "Fuel, orders, freight and government budgets affect subgroups differently.",
+          "watchpoint": "Check industrials index and filings.",
+          "source_ids": [
+            "uk-sector"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified regional materials close, breadth, turnover or constituent panel was available.",
+          "implication": "Metals, mining and chemicals have different demand and energy exposures.",
+          "watchpoint": "Check miners, chemicals, building materials and commodity data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No European property-sector close, listed-property breadth or yield comparison was verified.",
+          "implication": "Rates and sovereign spreads affect financing, but no close response is established.",
+          "watchpoint": "Check property indices, government yields and refinancing.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No European utilities close, breadth or company-level pricing evidence was verified.",
+          "implication": "Fuel pass-through, regulation and financing can offset one another.",
+          "watchpoint": "Check utility returns, power prices, fuel costs and tariffs.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Higher energy costs and softer European demand could pressure Asian exporters and energy importers if signals persist.",
+          "trigger": "Brent stays elevated and Monday evidence confirms weaker demand.",
+          "invalidation": "Oil retreats or Asian exporters report firm demand.",
+          "source_ids": [
+            "euro-pmi",
+            "uk-data",
+            "reuters-europe"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Persistent oil costs could help some energy-linked firms while raising costs for transport, utilities and consumers; European demand may affect exporters.",
+          "trigger": "Verified oil prices and SGX disclosures show the transmission.",
+          "invalidation": "Fuel costs ease or Singapore sector data diverges.",
+          "source_ids": [
+            "reuters-europe",
+            "uk-data"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "European demand weakness and AI repricing may affect US multinationals and technology sentiment, while energy producers may diverge.",
+          "trigger": "US guidance, breadth or futures confirm the cross-market effect.",
+          "invalidation": "US data show resilient demand or different sector performance.",
+          "source_ids": [
+            "euro-pmi",
+            "reuters-europe",
+            "uk-data"
+          ]
+        }
+      ]
+    }
   }
 ]
-
