@@ -1,1 +1,1057 @@
-[]
+[
+  {
+    "id": "2026-10-23-singapore-sector-baseline",
+    "title": "Singapore: weak breadth, selective resilience — first sector baseline",
+    "summary": "22 October closing evidence plus explicitly dated SGX flow context. All 11 sector groups have findings and watchpoints; older observations are not today’s prices.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-event",
+    "published_at": "2026-10-23T04:58:17Z",
+    "updated_at": "2026-10-23T04:58:17Z",
+    "cutoff_at": "2026-10-23T04:58:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg-close",
+        "title": "Singapore shares end lower as local banks decline; STI down 0.4%",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-end-lower-local-banks-decline-sti-down-0-4",
+        "published_at": "2026-10-22T18:14:00+08:00",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sg-flow",
+        "title": "50+ Stocks Extend Institutional Inflows — indexed extract; data through 16 October",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/research-education/market-updates/20261019-50-stocks-extend-institutional-inflows",
+        "published_at": "2026-10-19",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The 22 October STI close was 5,415.14, down 0.4%; 198 securities rose and 410 fell.",
+        "kind": "fact",
+        "source_ids": [
+          "sg-close"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Bank weakness and negative breadth accompanied the decline; the available report does not isolate a single causal driver.",
+        "transmission": "Working interpretation: changing earnings expectations and financing conditions can alter valuation and risk appetite; verify price breadth and company disclosures before extending the claim.",
+        "confidence": "inference",
+        "alternatives": "Stock-specific earnings, positioning and external risk repricing may all contribute.",
+        "source_ids": [
+          "sg-close"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Stabilisation requires confirmation",
+        "outcome": "A broader recovery is possible if pressure on the exposed leaders eases and participation improves.",
+        "trigger": "Fresh sector breadth improves alongside stable funding conditions and corroborating company news.",
+        "invalidation": "Losses broaden, funding stress increases or company guidance deteriorates.",
+        "horizon": "Next one to three local trading sessions; reassess at each market read.",
+        "source_ids": [
+          "sg-close"
+        ]
+      },
+      {
+        "name": "Weakness spreads beyond the leaders",
+        "outcome": "More sectors could face valuation or earnings pressure.",
+        "trigger": "Declining breadth persists across sectors and fresh disclosures show weaker demand or higher costs.",
+        "invalidation": "Broad participation and improving guidance contradict the stress case.",
+        "horizon": "Next one to three local trading sessions.",
+        "source_ids": [
+          "sg-close"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Refresh all 11 sectors and distinguish current observations from historical context.",
+        "due_at": "2026-10-24T00:00:00+08:00",
+        "confirms": "Sourced breadth, prices and disclosures validate the proposed transmission.",
+        "contradicts": "Independent sector evidence diverges from the proposed pattern; revise the scenario.",
+        "source_ids": [
+          "sg-close"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-23T04:58:17Z"
+    },
+    "material_reason": "Launch review following material market repricing. This bounded first scan establishes sourced observations, explicit gaps and conditional watchpoints; it is not an opening/closing edition or an exhaustive security-level scan. SGX flow evidence was available as an indexed extract; the direct page returned a browser-support warning. Its period ends 16 October.",
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-23",
+      "calendar_status": "research-baseline",
+      "exchanges": [
+        {
+          "name": "SGX",
+          "status": "not-verified",
+          "source_ids": []
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious interpretation of the latest verified close; selective winners do not erase weak breadth.",
+        "indicators": "22 October advance/decline counts; individual bank, technology and property-trust moves. No 23 October sector returns or volatility series verified.",
+        "source_ids": [
+          "sg-close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "AEM fell 6.3% on 22 October; this is a company observation, not a technology-sector return.",
+          "implication": "A fall in valuation can occur without a matching fall in orders; test both before extrapolating.",
+          "watchpoint": "Chip orders, equipment guidance, customer capex and price breadth.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "SGX’s 19 October indexed report identifies Singtel and StarHub among sustained institutional inflow names over the three weeks through 16 October.",
+          "implication": "Advertising, subscriptions and infrastructure spending can pull earnings in different directions.",
+          "watchpoint": "Ad demand, subscriber trends, free cash flow and capex guidance.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Genting Singapore appears in SGX’s sustained inflow group through 16 October; this is historical flow, not current demand.",
+          "implication": "Higher essential costs could squeeze optional spending; company pricing and product mix may offset this.",
+          "watchpoint": "Retail volumes, travel bookings, auto demand and margin guidance.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "DFI was among the sustained institutional inflow names in SGX’s three-week data through 16 October.",
+          "implication": "Defensive demand does not guarantee rising shares if costs or valuations are unfavourable.",
+          "watchpoint": "Sales volumes versus price increases, input costs and earnings revisions.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Federal International appears in SGX’s energy/oil-and-gas inflow table through 16 October.",
+          "implication": "Higher commodity prices may help producers while hurting refiners or consumers; hedges matter.",
+          "watchpoint": "Physical supply statements, inventories, refining margins and hedging disclosures.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "DBS, OCBC and UOB all declined on 22 October.",
+          "implication": "Rate changes can help asset yields while raising funding costs and credit losses.",
+          "watchpoint": "Deposit costs, lending growth, provisions and sovereign spreads.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Thomson Medical appears in SGX’s table of sustained institutional inflows through 16 October.",
+          "implication": "Demand resilience can be offset by reimbursement, regulation or trial risk.",
+          "watchpoint": "Official trial results, reimbursement decisions and earnings guidance.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Seatrium fell 2.7% on 22 October.",
+          "implication": "Order backlogs may support revenue while energy, freight or financing costs compress margins.",
+          "watchpoint": "Order intake, cancellations, freight disruption and operating margins.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "Lincotrade appears in SGX’s materials/resources inflow table through 16 October. Editorial classification follows that source.",
+          "implication": "Commodity prices alone do not establish volume demand or producer profitability.",
+          "watchpoint": "Metal inventories, construction orders, FX and production costs.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Frasers Centrepoint Trust rose 2.4% and Keppel REIT rose 1.3% on 22 October.",
+          "implication": "Lower yields may ease valuation pressure, but refinancing, occupancy and rent collection still matter.",
+          "watchpoint": "Debt maturity schedules, refinancing costs, occupancy and distributions.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "Sembcorp appears in SGX’s sustained inflow group through 16 October.",
+          "implication": "Regulated and merchant businesses respond differently to fuel costs and financing rates.",
+          "watchpoint": "Tariff decisions, fuel pass-through, power contracts and debt costs.",
+          "source_ids": [
+            "sg-flow"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Asian chip suppliers could face valuation pressure if their customers cut capital budgets. Energy importers could face a separate cost squeeze.",
+          "trigger": "Customer guidance confirms lower orders or fuel costs rise without price pass-through.",
+          "invalidation": "Orders remain firm, margins hold or local policy offsets the exposure.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European equipment and industrial suppliers could feel changing global capital budgets; energy producers and energy users may diverge.",
+          "trigger": "Company order updates or margin guidance confirm the relevant change.",
+          "invalidation": "Order books remain robust or pricing and hedges absorb the cost change.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian and European demand signals may affect US exporters and multinational earnings expectations; a regional index decline alone does not prove that link.",
+          "trigger": "US company guidance confirms weaker overseas demand or a change in investment returns.",
+          "invalidation": "US disclosures show resilient orders and cash generation despite overseas weakness.",
+          "source_ids": [
+            "sg-close"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-23-us-sector-baseline",
+    "title": "US: AI repricing meets earlier defensive rotation — first sector baseline",
+    "summary": "Latest verified 22 October index context, with 20 October sector evidence clearly separated. This is preparation for the next session, not a fabricated 23 October opening read.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-event",
+    "published_at": "2026-10-23T04:58:17Z",
+    "updated_at": "2026-10-23T04:58:17Z",
+    "cutoff_at": "2026-10-23T04:58:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "global",
+        "title": "Stocks drop as Meta fans AI worries, Treasuries gain",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://ca.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4895081",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "secondary"
+      },
+      {
+        "id": "us-rotation",
+        "title": "Dow outperforms as Wall Street rises, healthcare stocks lead gains — 20 October session",
+        "publisher": "Reuters via The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/dow-outperforms-wall-street-rises-healthcare-stocks-lead-gains",
+        "published_at": "2026-10-21T06:08:00+08:00",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "On 22 October the Nasdaq fell 2.6%, while the Dow was nearly flat.",
+        "kind": "fact",
+        "source_ids": [
+          "global"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reuters connects the 22 October technology weakness to concerns about AI capital spending.",
+        "transmission": "Working interpretation: changing earnings expectations and financing conditions can alter valuation and risk appetite; verify price breadth and company disclosures before extending the claim.",
+        "confidence": "inference",
+        "alternatives": "Valuation, financing costs and company guidance may matter separately; this does not establish one cause for every stock.",
+        "source_ids": [
+          "global"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Stabilisation requires confirmation",
+        "outcome": "A broader recovery is possible if pressure on the exposed leaders eases and participation improves.",
+        "trigger": "Fresh sector breadth improves alongside stable funding conditions and corroborating company news.",
+        "invalidation": "Losses broaden, funding stress increases or company guidance deteriorates.",
+        "horizon": "Next one to three local trading sessions; reassess at each market read.",
+        "source_ids": [
+          "global"
+        ]
+      },
+      {
+        "name": "Weakness spreads beyond the leaders",
+        "outcome": "More sectors could face valuation or earnings pressure.",
+        "trigger": "Declining breadth persists across sectors and fresh disclosures show weaker demand or higher costs.",
+        "invalidation": "Broad participation and improving guidance contradict the stress case.",
+        "horizon": "Next one to three local trading sessions.",
+        "source_ids": [
+          "global"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Refresh all 11 sectors and distinguish current observations from historical context.",
+        "due_at": "2026-10-24T00:00:00+08:00",
+        "confirms": "Sourced breadth, prices and disclosures validate the proposed transmission.",
+        "contradicts": "Independent sector evidence diverges from the proposed pattern; revise the scenario.",
+        "source_ids": [
+          "global"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-23T04:58:17Z"
+    },
+    "material_reason": "Launch review following material market repricing. This bounded first scan establishes sourced observations, explicit gaps and conditional watchpoints; it is not an opening/closing edition or an exhaustive security-level scan.",
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-23",
+      "calendar_status": "research-baseline",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Nasdaq",
+          "status": "not-verified",
+          "source_ids": []
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk aversion concentrated in growth exposures; whole-market breadth for 22 October is not verified here.",
+        "indicators": "Nasdaq versus Dow divergence; Treasury demand reported on 22 October. Older defensive-sector gains belong to 20 October.",
+        "source_ids": [
+          "global"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "US semiconductors fell 6.7% on 22 October, according to Reuters.",
+          "implication": "A fall in valuation can occur without a matching fall in orders; test both before extrapolating.",
+          "watchpoint": "Chip orders, equipment guidance, customer capex and price breadth.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Meta declined about 7% on 22 October amid capital-spending concerns.",
+          "implication": "Advertising, subscriptions and infrastructure spending can pull earnings in different directions.",
+          "watchpoint": "Ad demand, subscriber trends, free cash flow and capex guidance.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Tesla fell 3.1% on 22 October; it is not a proxy for every consumer business.",
+          "implication": "Higher essential costs could squeeze optional spending; company pricing and product mix may offset this.",
+          "watchpoint": "Retail volumes, travel bookings, auto demand and margin guidance.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Defensive demand does not guarantee rising shares if costs or valuations are unfavourable.",
+          "watchpoint": "Sales volumes versus price increases, input costs and earnings revisions.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Brent settled at US$113.17 on 22 October. This commodity observation does not establish energy-equity returns.",
+          "implication": "Higher commodity prices may help producers while hurting refiners or consumers; hedges matter.",
+          "watchpoint": "Physical supply statements, inventories, refining margins and hedging disclosures.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "The financial-services sector gained 1% on 20 October; no 22 October sector return is verified here.",
+          "implication": "Rate changes can help asset yields while raising funding costs and credit losses.",
+          "watchpoint": "Deposit costs, lending growth, provisions and sovereign spreads.",
+          "source_ids": [
+            "us-rotation"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "On 20 October, healthcare led S&P 500 sector gains. This older observation requires a fresh breadth check.",
+          "implication": "Demand resilience can be offset by reimbursement, regulation or trial risk.",
+          "watchpoint": "Official trial results, reimbursement decisions and earnings guidance.",
+          "source_ids": [
+            "us-rotation"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "On 20 October, 3M rose after raising its profit outlook and announcing an expanded data-centre partnership.",
+          "implication": "Order backlogs may support revenue while energy, freight or financing costs compress margins.",
+          "watchpoint": "Order intake, cancellations, freight disruption and operating margins.",
+          "source_ids": [
+            "us-rotation"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Commodity prices alone do not establish volume demand or producer profitability.",
+          "watchpoint": "Metal inventories, construction orders, FX and production costs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "The US real-estate sector gained 1.7% on 20 October; this is historical context, not the latest close.",
+          "implication": "Lower yields may ease valuation pressure, but refinancing, occupancy and rent collection still matter.",
+          "watchpoint": "Debt maturity schedules, refinancing costs, occupancy and distributions.",
+          "source_ids": [
+            "us-rotation"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "US utilities gained 1.2% on 20 October; current relative strength still needs verification.",
+          "implication": "Regulated and merchant businesses respond differently to fuel costs and financing rates.",
+          "watchpoint": "Tariff decisions, fuel pass-through, power contracts and debt costs.",
+          "source_ids": [
+            "us-rotation"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Asian chip suppliers could face valuation pressure if their customers cut capital budgets. Energy importers could face a separate cost squeeze.",
+          "trigger": "Customer guidance confirms lower orders or fuel costs rise without price pass-through.",
+          "invalidation": "Orders remain firm, margins hold or local policy offsets the exposure.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Singapore technology suppliers, transport businesses and property trusts may respond differently: orders, fuel costs and funding rates are separate channels.",
+          "trigger": "Local disclosures confirm weaker orders, higher unhedged fuel costs or more expensive refinancing.",
+          "invalidation": "Backlogs, hedges or cheaper funding protect cash flow; local breadth improves.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European equipment and industrial suppliers could feel changing global capital budgets; energy producers and energy users may diverge.",
+          "trigger": "Company order updates or margin guidance confirm the relevant change.",
+          "invalidation": "Order books remain robust or pricing and hedges absorb the cost change.",
+          "source_ids": [
+            "global"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-23-europe-sector-baseline",
+    "title": "Europe: earnings expectations face a tougher risk backdrop — first sector baseline",
+    "summary": "20 October earnings expectations are separated from subsequent market weakness. Every sector has a research slot; unverified current sector returns remain explicit gaps.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-event",
+    "published_at": "2026-10-23T04:58:17Z",
+    "updated_at": "2026-10-23T04:58:17Z",
+    "cutoff_at": "2026-10-23T04:58:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "eu-earnings",
+        "title": "Europe’s earnings boom widens beyond energy and AI",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/europes-earnings-boom-widens-beyond-energy-and-ai-4959045",
+        "published_at": "2026-10-20",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "secondary"
+      },
+      {
+        "id": "global",
+        "title": "Stocks drop as Meta fans AI worries, Treasuries gain",
+        "publisher": "Reuters via Investing.com",
+        "url": "https://ca.investing.com/news/economy-news/asian-markets-dip-as-investors-weigh-tech-earnings-gulf-tensions-4895081",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters reported on 20 October that LSEG estimates pointed to 20.7% year-on-year STOXX 600 quarterly earnings growth. This was a forecast, not realised profit.",
+        "kind": "estimate",
+        "source_ids": [
+          "eu-earnings"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Expected energy and data-centre-related earnings were supporting aggregate forecasts in the 20 October report.",
+        "transmission": "Working interpretation: changing earnings expectations and financing conditions can alter valuation and risk appetite; verify price breadth and company disclosures before extending the claim.",
+        "confidence": "inference",
+        "alternatives": "Higher input costs, political risk, currencies and valuation changes can overwhelm otherwise stronger earnings.",
+        "source_ids": [
+          "eu-earnings"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Stabilisation requires confirmation",
+        "outcome": "A broader recovery is possible if pressure on the exposed leaders eases and participation improves.",
+        "trigger": "Fresh sector breadth improves alongside stable funding conditions and corroborating company news.",
+        "invalidation": "Losses broaden, funding stress increases or company guidance deteriorates.",
+        "horizon": "Next one to three local trading sessions; reassess at each market read.",
+        "source_ids": [
+          "eu-earnings"
+        ]
+      },
+      {
+        "name": "Weakness spreads beyond the leaders",
+        "outcome": "More sectors could face valuation or earnings pressure.",
+        "trigger": "Declining breadth persists across sectors and fresh disclosures show weaker demand or higher costs.",
+        "invalidation": "Broad participation and improving guidance contradict the stress case.",
+        "horizon": "Next one to three local trading sessions.",
+        "source_ids": [
+          "eu-earnings"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Refresh all 11 sectors and distinguish current observations from historical context.",
+        "due_at": "2026-10-24T00:00:00+08:00",
+        "confirms": "Sourced breadth, prices and disclosures validate the proposed transmission.",
+        "contradicts": "Independent sector evidence diverges from the proposed pattern; revise the scenario.",
+        "source_ids": [
+          "eu-earnings"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-23T04:58:17Z"
+    },
+    "material_reason": "Launch review following material market repricing. This bounded first scan establishes sourced observations, explicit gaps and conditional watchpoints; it is not an opening/closing edition or an exhaustive security-level scan.",
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-23",
+      "calendar_status": "research-baseline",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Xetra",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Euronext",
+          "status": "not-verified",
+          "source_ids": []
+        }
+      ],
+      "sentiment": {
+        "assessment": "Constructive earnings expectations coexist with market stress; neither alone establishes the next session’s direction.",
+        "indicators": "20 October earnings revisions contrasted with the subsequent broad European decline reported on 22 October; fresh sector breadth is missing.",
+        "source_ids": [
+          "eu-earnings"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "20 October LSEG estimates cited by Reuters forecast technology earnings growth near 33%; these are estimates.",
+          "implication": "A fall in valuation can occur without a matching fall in orders; test both before extrapolating.",
+          "watchpoint": "Chip orders, equipment guidance, customer capex and price breadth.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Advertising, subscriptions and infrastructure spending can pull earnings in different directions.",
+          "watchpoint": "Ad demand, subscriber trends, free cash flow and capex guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Higher essential costs could squeeze optional spending; company pricing and product mix may offset this.",
+          "watchpoint": "Retail volumes, travel bookings, auto demand and margin guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "20 October estimates cited by Reuters anticipated staples earnings growth above 7%; this is a forecast.",
+          "implication": "Defensive demand does not guarantee rising shares if costs or valuations are unfavourable.",
+          "watchpoint": "Sales volumes versus price increases, input costs and earnings revisions.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "20 October reporting identified elevated energy prices as support for earnings expectations, with reversal risk.",
+          "implication": "Higher commodity prices may help producers while hurting refiners or consumers; hedges matter.",
+          "watchpoint": "Physical supply statements, inventories, refining margins and hedging disclosures.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "By 20 October, the European bank index had fallen 7% since September began, according to Reuters.",
+          "implication": "Rate changes can help asset yields while raising funding costs and credit losses.",
+          "watchpoint": "Deposit costs, lending growth, provisions and sovereign spreads.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Demand resilience can be offset by reimbursement, regulation or trial risk.",
+          "watchpoint": "Official trial results, reimbursement decisions and earnings guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "The same 20 October estimates put industrials earnings growth near 11%.",
+          "implication": "Order backlogs may support revenue while energy, freight or financing costs compress margins.",
+          "watchpoint": "Order intake, cancellations, freight disruption and operating margins.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "Reuters identified European materials businesses as exposed to the data-centre buildout on 20 October; no sector return was established.",
+          "implication": "Commodity prices alone do not establish volume demand or producer profitability.",
+          "watchpoint": "Metal inventories, construction orders, FX and production costs.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Lower yields may ease valuation pressure, but refinancing, occupancy and rent collection still matter.",
+          "watchpoint": "Debt maturity schedules, refinancing costs, occupancy and distributions.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Regulated and merchant businesses respond differently to fuel costs and financing rates.",
+          "watchpoint": "Tariff decisions, fuel pass-through, power contracts and debt costs.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Asian chip suppliers could face valuation pressure if their customers cut capital budgets. Energy importers could face a separate cost squeeze.",
+          "trigger": "Customer guidance confirms lower orders or fuel costs rise without price pass-through.",
+          "invalidation": "Orders remain firm, margins hold or local policy offsets the exposure.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Singapore technology suppliers, transport businesses and property trusts may respond differently: orders, fuel costs and funding rates are separate channels.",
+          "trigger": "Local disclosures confirm weaker orders, higher unhedged fuel costs or more expensive refinancing.",
+          "invalidation": "Backlogs, hedges or cheaper funding protect cash flow; local breadth improves.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian and European demand signals may affect US exporters and multinational earnings expectations; a regional index decline alone does not prove that link.",
+          "trigger": "US company guidance confirms weaker overseas demand or a change in investment returns.",
+          "invalidation": "US disclosures show resilient orders and cash generation despite overseas weakness.",
+          "source_ids": [
+            "eu-earnings"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-23-asia-sector-baseline",
+    "title": "Asia: chip weakness and Japan inflation in focus — first sector baseline",
+    "summary": "A 23 October intraday news snapshot, not a regional closing report. Country-index moves are not substituted for missing sector data across this multi-exchange basket.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-event",
+    "published_at": "2026-10-23T04:58:17Z",
+    "updated_at": "2026-10-23T04:58:17Z",
+    "cutoff_at": "2026-10-23T04:58:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "asia-intraday",
+        "title": "Asia stocks fall as AI rout batters S.Korea; Japan spooked by strong CPI",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-as-ai-rout-batters-skorea-japan-spooked-by-strong-cpi-4967985",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-10-23T04:58:17Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Investing.com’s Friday intraday report described declines in Korean and Japanese equities alongside a modest Hong Kong gain. Observations are from the article, not a live price feed.",
+        "kind": "fact",
+        "source_ids": [
+          "asia-intraday"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The source associates technology losses with AI valuation concerns and Japanese weakness with inflation-related rate expectations.",
+        "transmission": "Working interpretation: changing earnings expectations and financing conditions can alter valuation and risk appetite; verify price breadth and company disclosures before extending the claim.",
+        "confidence": "inference",
+        "alternatives": "Company-specific financing decisions, currency movements and local economic news may explain differences between countries.",
+        "source_ids": [
+          "asia-intraday"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Stabilisation requires confirmation",
+        "outcome": "A broader recovery is possible if pressure on the exposed leaders eases and participation improves.",
+        "trigger": "Fresh sector breadth improves alongside stable funding conditions and corroborating company news.",
+        "invalidation": "Losses broaden, funding stress increases or company guidance deteriorates.",
+        "horizon": "Next one to three local trading sessions; reassess at each market read.",
+        "source_ids": [
+          "asia-intraday"
+        ]
+      },
+      {
+        "name": "Weakness spreads beyond the leaders",
+        "outcome": "More sectors could face valuation or earnings pressure.",
+        "trigger": "Declining breadth persists across sectors and fresh disclosures show weaker demand or higher costs.",
+        "invalidation": "Broad participation and improving guidance contradict the stress case.",
+        "horizon": "Next one to three local trading sessions.",
+        "source_ids": [
+          "asia-intraday"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Refresh all 11 sectors and distinguish current observations from historical context.",
+        "due_at": "2026-10-24T00:00:00+08:00",
+        "confirms": "Sourced breadth, prices and disclosures validate the proposed transmission.",
+        "contradicts": "Independent sector evidence diverges from the proposed pattern; revise the scenario.",
+        "source_ids": [
+          "asia-intraday"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-23T04:58:17Z"
+    },
+    "material_reason": "Launch review following material market repricing. This bounded first scan establishes sourced observations, explicit gaps and conditional watchpoints; it is not an opening/closing edition or an exhaustive security-level scan.",
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-10-23",
+      "calendar_status": "research-baseline",
+      "exchanges": [
+        {
+          "name": "Tokyo",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Korea Exchange",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Taiwan",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Shanghai",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Shenzhen",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "Hong Kong",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "NSE India",
+          "status": "not-verified",
+          "source_ids": []
+        },
+        {
+          "name": "ASEAN markets excluding dedicated SGX desk",
+          "status": "not-verified",
+          "source_ids": []
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious, with regional divergence. This interpretation is provisional because complete sector breadth and volume are unavailable.",
+        "indicators": "Reported intraday chip weakness and country-index divergence. The source displays a 22 October publication date in its site clock while its body covers Friday 23 October; no exact intraday timestamp is asserted.",
+        "source_ids": [
+          "asia-intraday"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Friday’s intraday report described declines in SK Hynix and Samsung. Exact live prices and a regional technology-sector return were not independently verified.",
+          "implication": "A fall in valuation can occur without a matching fall in orders; test both before extrapolating.",
+          "watchpoint": "Chip orders, equipment guidance, customer capex and price breadth.",
+          "source_ids": [
+            "asia-intraday"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Advertising, subscriptions and infrastructure spending can pull earnings in different directions.",
+          "watchpoint": "Ad demand, subscriber trends, free cash flow and capex guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Higher essential costs could squeeze optional spending; company pricing and product mix may offset this.",
+          "watchpoint": "Retail volumes, travel bookings, auto demand and margin guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Defensive demand does not guarantee rising shares if costs or valuations are unfavourable.",
+          "watchpoint": "Sales volumes versus price increases, input costs and earnings revisions.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Higher commodity prices may help producers while hurting refiners or consumers; hedges matter.",
+          "watchpoint": "Physical supply statements, inventories, refining margins and hedging disclosures.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Rate changes can help asset yields while raising funding costs and credit losses.",
+          "watchpoint": "Deposit costs, lending growth, provisions and sovereign spreads.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Demand resilience can be offset by reimbursement, regulation or trial risk.",
+          "watchpoint": "Official trial results, reimbursement decisions and earnings guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Order backlogs may support revenue while energy, freight or financing costs compress margins.",
+          "watchpoint": "Order intake, cancellations, freight disruption and operating margins.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Commodity prices alone do not establish volume demand or producer profitability.",
+          "watchpoint": "Metal inventories, construction orders, FX and production costs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Lower yields may ease valuation pressure, but refinancing, occupancy and rent collection still matter.",
+          "watchpoint": "Debt maturity schedules, refinancing costs, occupancy and distributions.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No sufficiently specific sector observation verified in this first bounded review. Current sector performance remains unconfirmed.",
+          "implication": "Regulated and merchant businesses respond differently to fuel costs and financing rates.",
+          "watchpoint": "Tariff decisions, fuel pass-through, power contracts and debt costs.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Singapore technology suppliers, transport businesses and property trusts may respond differently: orders, fuel costs and funding rates are separate channels.",
+          "trigger": "Local disclosures confirm weaker orders, higher unhedged fuel costs or more expensive refinancing.",
+          "invalidation": "Backlogs, hedges or cheaper funding protect cash flow; local breadth improves.",
+          "source_ids": [
+            "asia-intraday"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European equipment and industrial suppliers could feel changing global capital budgets; energy producers and energy users may diverge.",
+          "trigger": "Company order updates or margin guidance confirm the relevant change.",
+          "invalidation": "Order books remain robust or pricing and hedges absorb the cost change.",
+          "source_ids": [
+            "asia-intraday"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian and European demand signals may affect US exporters and multinational earnings expectations; a regional index decline alone does not prove that link.",
+          "trigger": "US company guidance confirms weaker overseas demand or a change in investment returns.",
+          "invalidation": "US disclosures show resilient orders and cash generation despite overseas weakness.",
+          "source_ids": [
+            "asia-intraday"
+          ]
+        }
+      ]
+    }
+  }
+]

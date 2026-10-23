@@ -1,5 +1,6 @@
+import {validateMarketRead} from './market-read.mjs';
 export const channels = {
-  markets: {name:'Markets', cadence:'Daily short + weekend review', description:'Market movements, evidenced causes, transmission paths and conditional scenarios.'},
+  markets: {name:'Markets', cadence:'Daily opens & closes · all sectors · material-event updates', description:'The Lighthouse: market movements, evidenced causes, sentiment and cross-market scenarios. Additional to the full 08:00 SGT news edition.'},
   military: {name:'Military', cadence:'3 shorts / week', description:'Public regional exercises, defence policy, capability development and strategic implications.'},
   parliament: {name:'Parliament', cadence:'2–3 shorts / week', description:'Parliamentary developments, legislation and the route from policy to economic effects.'},
   conflict: {name:'Conflict', cadence:'Material events only · maximum 5 / week', description:'Verified escalation, de-escalation, humanitarian impact, sanctions and trade disruption. No quota to fill.'}
@@ -35,7 +36,7 @@ export function validateArticles(items, now=new Date()) {
   check(Array.isArray(items),'Articles must be an array'); const ids=new Set(); const conflictWeeks={};
   for (const a of items) {
     const label=a.id || 'Article';
-    keys(a,['id','title','summary','channel','regions','lenses','topics','format','published_at','updated_at','cutoff_at','status','sources','claims','causation','scenarios','watchpoints','corrections','review','material_reason'],label);
+    keys(a,['id','title','summary','channel','regions','lenses','topics','format','published_at','updated_at','cutoff_at','status','sources','claims','causation','scenarios','watchpoints','corrections','review','material_reason','market_read'],label);
     check(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.id) && !ids.has(a.id),'Unique safe article id required'); ids.add(a.id);
     stringFields(a,['title','summary'],label);
     check(a.channel in channels,`${label}: invalid channel`);
@@ -44,7 +45,7 @@ export function validateArticles(items, now=new Date()) {
     }
     check(a.regions.length>0,`${label}: region required`);
     check(!a.regions.includes('singapore') || a.topics.length>0,`${label}: Singapore topic required`);
-    check(['short','weekend-review','material-update'].includes(a.format),`${label}: invalid format`);
+    check(['short','weekend-review','material-update','market-open','market-close','market-event'].includes(a.format),`${label}: invalid format`);
     check(a.status==='published',`${label}: drafts must not enter public content`);
     for(const k of ['published_at','updated_at','cutoff_at']) check(timestamp(a[k]) && Date.parse(a[k])<=now.getTime(),`${label}: invalid or future ${k}`);
     check(Date.parse(a.cutoff_at)<=Date.parse(a.published_at) && Date.parse(a.published_at)<=Date.parse(a.updated_at),`${label}: inconsistent timestamps`);
@@ -61,7 +62,7 @@ export function validateArticles(items, now=new Date()) {
       check(!sourceIds.has(s.id),`${label}: duplicate source id`); sourceIds.add(s.id);
       check(https(s.url),`${label}: public HTTPS source required`);
       check(['primary','secondary'].includes(s.type),'Source: primary or secondary required');
-      check(timestamp(s.published_at) && timestamp(s.accessed_at) && Date.parse(s.published_at)<=Date.parse(a.cutoff_at) && Date.parse(s.accessed_at)<=Date.parse(a.review.reviewed_at) && Date.parse(s.published_at)<=Date.parse(s.accessed_at),'Source dates must precede cutoff/review');
+      check((timestamp(s.published_at)||(/^\d{4}-\d{2}-\d{2}$/.test(s.published_at)&&timestamp(s.published_at+'T00:00:00Z'))) && timestamp(s.accessed_at) && Date.parse(s.published_at)<=Date.parse(a.cutoff_at) && Date.parse(s.accessed_at)<=Date.parse(a.review.reviewed_at) && Date.parse(s.published_at)<=Date.parse(s.accessed_at),'Source dates must precede cutoff/review');
     }
     const refs=(refs)=>check(Array.isArray(refs)&&refs.length>0&&refs.every(id=>sourceIds.has(id)),`${label}: unresolved source reference`);
     check(Array.isArray(a.claims)&&a.claims.length>0,`${label}: claims required`);
@@ -73,6 +74,8 @@ export function validateArticles(items, now=new Date()) {
     check(Array.isArray(a.watchpoints),'Watchpoints must be an array');
     for(const w of a.watchpoints) { keys(w,['signal','due_at','confirms','contradicts','source_ids'],'Watchpoint'); stringFields(w,['signal','confirms','contradicts'],'Watchpoint'); check(timestamp(w.due_at),'Dated watchpoint required'); refs(w.source_ids); }
     if(a.channel==='markets' || a.topics.includes('markets')) check(a.causation.length && a.scenarios.length && a.watchpoints.length,`${label}: markets require causation, scenarios and watchpoints`);
+    validateMarketRead(a,{check,keys,text,timestamp},sourceIds);
+    if(['market-open','market-close'].includes(a.format))check(items.filter(b=>b.format===a.format&&b.market_read?.market===a.market_read.market&&b.market_read?.session_date===a.market_read.session_date).length===1,'Duplicate market session; correct the existing report instead');
     check(Array.isArray(a.corrections),'Correction history required');
     for(const c of a.corrections) { keys(c,['at','reason','change','source_ids'],'Correction'); stringFields(c,['reason','change'],'Correction'); check(timestamp(c.at) && Date.parse(c.at)>Date.parse(a.published_at) && Date.parse(c.at)<=Date.parse(a.updated_at),'Invalid correction time'); refs(c.source_ids); }
     if(Date.parse(a.updated_at)>Date.parse(a.published_at)) check(a.corrections.length>0,`${label}: updates require a correction entry`);
