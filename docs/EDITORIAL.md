@@ -30,7 +30,7 @@ The read-only GitHub Actions checklist runs daily at 08:17 SGT (00:17 UTC); GitH
 | Desk | Review target | Publication rule |
 | --- | --- | --- |
 | Full morning edition | Daily 08:00 SGT | Overall news and events across all desks and regions; existing publisher retained |
-| Markets / Lighthouse | Daily sector scans; trading-day opens/closes in four markets; Sunday weekend review; material events between sessions | Reviewed, dated evidence; see LIGHTHOUSE.md |
+| Markets / Lighthouse | Trading-day opening and closing reads for the Asia basket, SGX, LSE-anchored Europe and NYSE-anchored US | Reviewed, dated evidence; material developments are covered in the next scheduled read; see LIGHTHOUSE.md |
 | Military | Monday, Wednesday, Friday | 3 shorts/week target; strategic context only |
 | Parliament | Tuesday, Thursday; optional Saturday | 2–3/week target when substantive |
 | Conflict | Material events only | No minimum; up to 3–5 in a material week, hard cap 5 |
