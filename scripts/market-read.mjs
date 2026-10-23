@@ -1,9 +1,9 @@
 export const sectors=['Information Technology','Communication Services','Consumer Discretionary','Consumer Staples','Energy','Financials','Health Care','Industrials','Materials','Real Estate','Utilities'];
 export const marketDesks={
-  asia:{name:'Asia',zone:'Asia/Singapore',open:'07:45',close:'18:15',scope:'Japan, Korea, Taiwan, mainland China, Hong Kong, India and ASEAN. Staggered sessions; Singapore also has its own desk.'},
+  asia:{name:'Asia',zone:'Asia/Singapore',open:'07:45',close:'18:15',scope:"Japan, Korea, Taiwan, mainland China, Hong Kong, India and ASEAN. The opening follows Japan's cash open; the close follows India's cash close. Singapore has a separate SGX desk."},
   singapore:{name:'Singapore',zone:'Asia/Singapore',open:'08:45',close:'17:30',scope:'SGX cash equities, REITs and property trusts; closing read follows trade-at-close.'},
-  europe:{name:'Europe',zone:'Europe/London',open:'07:45',close:'16:50',scope:'UK and continental European cash equities. London is the editorial timing anchor, not a single pan-European exchange.'},
-  us:{name:'US',zone:'America/New_York',open:'09:15',close:'16:20',scope:'US cash equities. Premarket and after-hours moves must be labelled separately.'}
+  europe:{name:'Europe',zone:'Europe/London',open:'07:45',close:'16:50',scope:'UK and continental European cash equities. London Stock Exchange opening and closing sessions are the timing anchor, not a single pan-European exchange.'},
+  us:{name:'US',zone:'America/New_York',open:'09:15',close:'16:20',scope:'US cash equities timed to New York Stock Exchange sessions. Premarket and after-hours moves must be labelled separately.'}
 };
 export function validateMarketRead(a,{check,keys,text,timestamp},sourceIds) {
   const marketFormat=['market-open','market-close','market-event'].includes(a.format);
