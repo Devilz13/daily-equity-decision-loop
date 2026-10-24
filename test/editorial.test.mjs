@@ -25,6 +25,13 @@ test('fail closed on draft, private fields, future publication and unreviewed re
 });
 test('market analysis requires causation, scenarios and watchpoints',()=>{for(const k of ['causation','scenarios','watchpoints']){const a=article();a[k]=[];assert.throws(()=>validateArticles([a],now));}});
 test('updates require dated, sourced corrections',()=>{const a=article();a.updated_at='2026-10-23T02:00:00Z';assert.throws(()=>validateArticles([a],now));a.corrections=[{at:a.updated_at,reason:'Test correction',change:'Test change',source_ids:['s1']}];validateArticles([a],now);});
+test('corrections may cite later evidence without rewriting the original cutoff',()=>{
+  const a=article();a.updated_at='2026-10-23T03:00:00Z';a.review.reviewed_at='2026-10-23T02:30:00Z';
+  a.sources.push({id:'s2',title:'Later verified report',publisher:'Test publisher',url:'https://example.org/later',published_at:'2026-10-23T01:30:00Z',accessed_at:'2026-10-23T02:00:00Z',type:'secondary'});
+  a.corrections=[{at:'2026-10-23T02:15:00Z',reason:'Later evidence',change:'The original cutoff remains unchanged.',source_ids:['s2']}];
+  validateArticles([a],now);
+  a.corrections[0].source_ids=['s1'];assert.throws(()=>validateArticles([a],now),/Source dates/);
+});
 test('Conflict enforces materiality, strategic review and maximum five per Singapore week',()=>{
   const make=i=>({...article(),id:'conflict-'+i,channel:'conflict',format:'material-update',material_reason:'Test materiality'});
   validateArticles(Array.from({length:5},(_,i)=>make(i)),now);

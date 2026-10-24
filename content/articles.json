@@ -1402,7 +1402,7 @@
     ],
     "format": "market-close",
     "published_at": "2026-10-23T16:02:40Z",
-    "updated_at": "2026-10-23T16:02:40Z",
+    "updated_at": "2026-10-24T08:12:33Z",
     "cutoff_at": "2026-10-23T15:57:57Z",
     "status": "published",
     "sources": [
@@ -1540,6 +1540,15 @@
         "published_at": "2026-10-23",
         "accessed_at": "2026-10-23T15:57:57Z",
         "type": "secondary"
+      },
+      {
+        "id": "ftse-reuters-close",
+        "title": "London stocks mark weekly fall as oil hits five-month high ahead of budget (Euronext page time 18:44; timezone not stated)",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/london-stocks-mark-weekly-fall-oil-hits-five-month-high-ahead-budget",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "secondary"
       }
     ],
     "claims": [
@@ -1667,13 +1676,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-10-24T08:12:33Z",
+        "reason": "Additional Reuters close evidence",
+        "change": "Reuters' 23 October report carried by Euronext gives the FTSE 100 close as 10,690.36, down 0.3%. This is a third reported mark; it does not reconcile the earlier FT Markets Data value of 10,670.25 and Investors' Chronicle value of 10,713.80. The exact FTSE close and direction remain unresolved pending an LSE or FTSE Russell primary record. The report page displays 18:44 but does not state a timezone.",
+        "source_ids": [
+          "ftse-reuters-close"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-10-23T16:02:40Z"
+      "reviewed_at": "2026-10-24T08:12:33Z"
     },
     "material_reason": null,
     "market_read": {
@@ -1865,6 +1883,374 @@
             "euro-pmi",
             "reuters-europe",
             "uk-data"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-23-us-close-delayed",
+    "title": "US close (delayed): oil shock widens losses as tech steadies",
+    "summary": "Late catch-up for 23 October, published 24 October SGT. The S&P 500 fell 0.52%, the Dow 1.23% and Nasdaq 0.21% as Brent settled at $116.72; Reuters reported gains in energy and technology. Eight sector groups lack verified closing return and breadth data, and direct party-account coverage remains incomplete.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-24T08:12:33Z",
+    "updated_at": "2026-10-24T08:12:33Z",
+    "cutoff_at": "2026-10-24T08:12:33Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse-calendar",
+        "title": "2026 Trading Calendar",
+        "publisher": "New York Stock Exchange",
+        "url": "https://www.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf",
+        "published_at": "2025-12-10",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "primary"
+      },
+      {
+        "id": "ap-close",
+        "title": "How major US stock indexes fared Friday 10/23/2026",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/e07c72bc5cbe5dffe352ddf30054e35f",
+        "published_at": "2026-10-23T20:14:58Z",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "secondary"
+      },
+      {
+        "id": "reuters-close",
+        "title": "Stocks fall, but tech shares steady after selloff; oil hits highest in nearly six months",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/stocks-fall-but-tech-shares-steady-after-selloff-oil-hits-highest-in-nearly-six-months-ce785cdfdc8ff02c",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "secondary"
+      },
+      {
+        "id": "trump-post",
+        "title": "Truth Social post on oil prices and Iran",
+        "publisher": "Donald J. Trump (@realDonaldTrump), President of the United States, Republican; Truth Social",
+        "url": "https://truthsocial.com/@realDonaldTrump/117485314798987090",
+        "published_at": "2026-10-22T11:40:00-04:00",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "primary"
+      },
+      {
+        "id": "trump-post-archive",
+        "title": "Archived capture of President Trump's 22 October Truth Social post",
+        "publisher": "Trump’s Truth (independent post archive)",
+        "url": "https://www.trumpstruth.org/statuses/42611",
+        "published_at": "2026-10-22T11:42:00-04:00",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "secondary"
+      },
+      {
+        "id": "white-house-auto-tariff",
+        "title": "Further modifying the scope of products of Canada subject to additional motor-vehicle duties",
+        "publisher": "The White House",
+        "url": "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-24T08:12:33Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The NYSE calendar lists 23 October as a regular Friday trading day; the 2026 calendar shows no holiday or early-close marker for that date.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse-calendar"
+        ]
+      },
+      {
+        "text": "On 23 October the S&P 500 closed at 7,623.68 (-0.52%), the Dow at 52,215.16 (-1.23%), the Nasdaq Composite at 25,955.34 (-0.21%) and the Russell 2000 at 2,775.90 (-0.29%). AP reported nearly three quarters of S&P 500 constituents declined.",
+        "kind": "fact",
+        "source_ids": [
+          "ap-close"
+        ]
+      },
+      {
+        "text": "Reuters reported the S&P 500 technology sector rose 0.4% and energy rose 2.5% to a record high; Brent settled at $116.72 (+3.14%) and WTI at $103.27 (+3.8%). The US 10-year Treasury yield rose 3.7 basis points to 4.99%. These reports describe concurrent market moves, not proof that one event caused each sector return.",
+        "kind": "fact",
+        "source_ids": [
+          "reuters-close"
+        ]
+      },
+      {
+        "text": "Reuters said telecom shares including Verizon fell after a report that SpaceX was discussing a US wireless-carrier program, and American Express fell 3.7% after its results and a reported efficiency plan. These are company or subsector observations, not full sector returns.",
+        "kind": "fact",
+        "source_ids": [
+          "reuters-close"
+        ]
+      },
+      {
+        "text": "President Donald Trump (Republican, U.S. president) wrote on Truth Social at 11:40 ET on 22 October: “Iran is doing everything they can to drive up the price of Oil prior to the U.S. Midterm Election.” This records his statement only; the assertion about Iranian intent is unverified and is not evidence of market causation or public opinion.",
+        "kind": "fact",
+        "source_ids": [
+          "trump-post",
+          "trump-post-archive"
+        ]
+      },
+      {
+        "text": "The White House published a presidential proclamation on 23 October modifying which Canadian products face additional 50% duties; the changes are scheduled to apply from 30 October. This is an enacted policy watchpoint, not an identified cause of Friday's index moves.",
+        "kind": "fact",
+        "source_ids": [
+          "white-house-auto-tariff"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Oil-price and supply-risk news coincided with the broad decline: AP described Brent's rise and the effects of the Iran war on supply; Reuters linked the session's energy-risk repricing to Houthi attacks in Saudi Arabia and an oil spill reported by UAE authorities. This supports an inflation and input-cost channel, but does not isolate a single cause of the index fall.",
+        "transmission": "If crude remains elevated, fuel and logistics costs can pressure consumer, airline, industrial and utility margins, while producers may benefit; higher inflation risk can also affect yields and valuation multiples.",
+        "confidence": "inference",
+        "alternatives": "The prior day's AI-capex repricing, earnings reactions and the SpaceX wireless-carrier report also affected technology and telecom names; index weights and company-specific news can explain part of the divergence.",
+        "source_ids": [
+          "ap-close",
+          "reuters-close"
+        ]
+      },
+      {
+        "explanation": "The session was selective rather than uniformly risk-off: Reuters reported technology and energy gains alongside losses in the major indexes, while AP reported broad S&P constituent declines.",
+        "transmission": "A recovery would require broader participation beyond a small number of sectors; narrow gains can leave the index vulnerable to further megacap or oil reversals.",
+        "confidence": "inference",
+        "alternatives": "Available closing breadth is limited to AP's broad S&P summary; NYSE/Nasdaq advance-decline counts, volume, volatility and eight sector-group closes were not independently verified.",
+        "source_ids": [
+          "ap-close",
+          "reuters-close"
+        ]
+      },
+      {
+        "explanation": "Trump's public oil-price post and the White House's tariff proclamation are relevant political signals, but neither source establishes that political messaging or the proclamation drove the 23 October market move.",
+        "transmission": "Oil-policy claims may shift perceived supply or escalation risk; the Canadian-duty change may matter to exposed manufacturers when it takes effect on 30 October.",
+        "confidence": "uncertain",
+        "alternatives": "Physical supply conditions, company earnings, positioning and broader inflation expectations may dominate; the direct social post is one official's sentiment signal and not representative opinion.",
+        "source_ids": [
+          "trump-post",
+          "trump-post-archive",
+          "white-house-auto-tariff",
+          "reuters-close"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Energy-risk pressure persists",
+        "outcome": "Equity breadth and rate-sensitive groups may remain vulnerable if crude stays elevated and verified supply disruptions continue.",
+        "trigger": "Brent remains near the 23 October settlement and official or corroborated reporting confirms continued shipping or infrastructure disruption.",
+        "invalidation": "Crude retreats, shipping and supply reports improve, and participation broadens across sectors.",
+        "horizon": "Next US cash session, Monday 26 October 2026; reassess at the next close.",
+        "source_ids": [
+          "ap-close",
+          "reuters-close"
+        ]
+      },
+      {
+        "name": "Selective stabilization",
+        "outcome": "Technology or earnings leadership could steady headline indexes, but a durable recovery would need broader participation and easing input costs.",
+        "trigger": "New earnings guidance is resilient, oil eases and verified advancers improve across multiple sectors.",
+        "invalidation": "Declines broaden while oil and Treasury yields rise or company guidance weakens.",
+        "horizon": "Next US session and the following earnings week.",
+        "source_ids": [
+          "reuters-close",
+          "ap-close"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "At the next US open, compare current index breadth, sector returns, Treasury yields, Brent and WTI with Friday's closing evidence; keep any futures data separate from cash closes.",
+        "due_at": "2026-10-26T13:30:00Z",
+        "confirms": "Broad participation improves as oil stabilizes and yields stop rising.",
+        "contradicts": "Breadth worsens alongside renewed oil and yield increases.",
+        "source_ids": [
+          "ap-close",
+          "reuters-close"
+        ]
+      },
+      {
+        "signal": "Track the 30 October effective date and implementation details for the White House Canadian motor-vehicle duty modification; separate affected product categories from the wider auto sector.",
+        "due_at": "2026-10-30T04:01:00Z",
+        "confirms": "Official implementation notices and company disclosures identify measurable exposure.",
+        "contradicts": "The scope is narrowed, delayed or companies disclose immaterial exposure.",
+        "source_ids": [
+          "white-house-auto-tariff"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-24T08:12:33Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "New York Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse-calendar"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Delayed close read: cautious and selectively defensive, based on lower major indexes, AP's broad S&P decline measure, higher oil and higher Treasury yields. Trump's linked Truth Social post is one political signal, not representative public opinion or proof of causation; a broader party-account scan could not be verified in this pass.",
+        "indicators": "S&P 500 -0.52%, Dow -1.23%, Nasdaq Composite -0.21%; nearly three quarters of S&P 500 constituents fell per AP; Brent +3.14% to $116.72 and the 10-year yield 4.99% per Reuters. No verified VIX close, exchange-wide volume or NYSE/Nasdaq advance-decline count.",
+        "source_ids": [
+          "ap-close",
+          "reuters-close",
+          "trump-post",
+          "trump-post-archive",
+          "white-house-auto-tariff"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Reuters reports the S&P 500 technology sector rose 0.4% and the semiconductor index rose 0.4% as technology steadied after the previous session's AI-capex concerns.",
+          "implication": "A one-day rebound does not by itself reverse the prior repricing; capex guidance and breadth matter.",
+          "watchpoint": "Compare Monday's technology and semiconductor breadth with earnings and hyperscaler capex guidance.",
+          "source_ids": [
+            "reuters-close"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Reuters reports telecom shares including Verizon fell after a report of SpaceX discussions about a US wireless-carrier program; no communication-services sector close or breadth series was verified.",
+          "implication": "A possible new carrier could alter competitive assumptions, while tower owners may face a different revenue channel; talks are not a signed agreement.",
+          "watchpoint": "Verify company filings or confirmed deal terms, then compare carriers and tower firms separately.",
+          "source_ids": [
+            "reuters-close"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified consumer-discretionary sector close, breadth or turnover series was available; AP's S&P-wide breadth is not a sector return.",
+          "implication": "Higher fuel and borrowing costs may affect discretionary demand, but this session's group response is unmeasured.",
+          "watchpoint": "Retrieve the sector index and constituent breadth with Monday's regular-session data.",
+          "source_ids": [
+            "ap-close"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified consumer-staples closing return, breadth or volume series was available.",
+          "implication": "Higher transport and input costs can pressure margins, but no group-level move is established.",
+          "watchpoint": "Check the sector close, food and household-goods inputs, and company guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters reports the S&P 500 energy sector rose 2.5% to a record high while Brent settled at $116.72 and WTI at $103.27; it cites Middle East supply concerns alongside an oil spill reported by UAE authorities.",
+          "implication": "Higher benchmark prices may support upstream revenue but can raise costs for refiners, transport users and households; hedges and product mix matter.",
+          "watchpoint": "Verify the next oil settlement, official shipping and infrastructure updates, and company disclosures.",
+          "source_ids": [
+            "reuters-close"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Reuters reports American Express fell 3.7% after results and an efficiency plan; no financial-sector close, breadth or bank funding series was verified.",
+          "implication": "Company-specific card demand and restructuring do not establish a broad financials move; higher yields can affect both asset income and funding costs.",
+          "watchpoint": "Check the financial-sector index, bank breadth, credit spreads and company filings.",
+          "source_ids": [
+            "reuters-close"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified health-care sector close, breadth or material sector-wide disclosure was available in the reviewed closing sources.",
+          "implication": "Defensive characteristics alone do not establish relative performance.",
+          "watchpoint": "Retrieve the sector close and material earnings or regulatory filings.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified industrials-sector closing return, breadth or turnover series was available.",
+          "implication": "Higher energy and freight costs could affect margins unevenly, but no group-level response is established.",
+          "watchpoint": "Check transport, aerospace, machinery and logistics breadth separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified materials-sector close or constituent breadth series was available.",
+          "implication": "Energy costs may raise chemical and processing inputs while commodity producers may respond differently; no sector move is quantified.",
+          "watchpoint": "Review metals, chemicals and materials indexes alongside relevant commodity prices.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified real-estate sector close or REIT breadth series was available; the 4.99% Treasury yield is macro context, not a measured sector return.",
+          "implication": "Financing costs and capitalization rates may transmit through the group with a lag.",
+          "watchpoint": "Compare listed property breadth with Treasury yields and refinancing disclosures.",
+          "source_ids": [
+            "reuters-close"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified utilities-sector closing return, breadth or turnover series was available.",
+          "implication": "Fuel pass-through, regulation and financing can offset one another; Friday's group direction is unknown.",
+          "watchpoint": "Check the sector close, power and natural-gas inputs, and company tariff disclosures.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Persistently expensive oil could pressure energy-importing Asian economies and exporters exposed to weaker US demand; the extent varies by country and sector.",
+          "trigger": "Brent stays near Friday's settlement and Monday regional market data show weaker breadth or higher input-cost concern.",
+          "invalidation": "Oil declines or Asian demand and breadth stabilize despite the US close.",
+          "source_ids": [
+            "ap-close",
+            "reuters-close"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "The late-week oil shock and weaker US breadth could weigh on European risk appetite, while energy producers may diverge from fuel users.",
+          "trigger": "European opening prices and sector breadth confirm the transmission while crude remains elevated.",
+          "invalidation": "Oil eases or European breadth and earnings evidence diverge from the US pattern.",
+          "source_ids": [
+            "ap-close",
+            "reuters-close"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Higher oil may support some energy-linked names while raising costs for transport, aviation and utilities; US demand weakness could affect Singapore exporters with a lag.",
+          "trigger": "SGX sector prices, company disclosures and oil benchmarks show a consistent channel at the next Singapore session.",
+          "invalidation": "Oil retreats or SGX sector evidence moves independently of US risk pricing.",
+          "source_ids": [
+            "ap-close",
+            "reuters-close"
           ]
         }
       ]

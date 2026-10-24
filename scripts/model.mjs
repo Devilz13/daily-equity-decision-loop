@@ -62,7 +62,10 @@ export function validateArticles(items, now=new Date()) {
       check(!sourceIds.has(s.id),`${label}: duplicate source id`); sourceIds.add(s.id);
       check(https(s.url),`${label}: public HTTPS source required`);
       check(['primary','secondary'].includes(s.type),'Source: primary or secondary required');
-      check((timestamp(s.published_at)||(/^\d{4}-\d{2}-\d{2}$/.test(s.published_at)&&timestamp(s.published_at+'T00:00:00Z'))) && timestamp(s.accessed_at) && Date.parse(s.published_at)<=Date.parse(a.cutoff_at) && Date.parse(s.accessed_at)<=Date.parse(a.review.reviewed_at) && Date.parse(s.published_at)<=Date.parse(s.accessed_at),'Source dates must precede cutoff/review');
+      const correctionRefs=Array.isArray(a.corrections)?a.corrections.filter(c=>Array.isArray(c.source_ids)&&c.source_ids.includes(s.id)):[];
+      const predatesCutoff=Date.parse(s.published_at)<=Date.parse(a.cutoff_at);
+      const predatesCitingCorrection=correctionRefs.some(c=>timestamp(c.at)&&Date.parse(s.published_at)<=Date.parse(c.at)&&Date.parse(s.accessed_at)<=Date.parse(c.at));
+      check((timestamp(s.published_at)||(/^\d{4}-\d{2}-\d{2}$/.test(s.published_at)&&timestamp(s.published_at+'T00:00:00Z'))) && timestamp(s.accessed_at) && (predatesCutoff||predatesCitingCorrection) && Date.parse(s.accessed_at)<=Date.parse(a.review.reviewed_at) && Date.parse(s.published_at)<=Date.parse(s.accessed_at),'Source dates must precede the report cutoff or the correction that cites them');
     }
     const refs=(refs)=>check(Array.isArray(refs)&&refs.length>0&&refs.every(id=>sourceIds.has(id)),`${label}: unresolved source reference`);
     check(Array.isArray(a.claims)&&a.claims.length>0,`${label}: claims required`);
