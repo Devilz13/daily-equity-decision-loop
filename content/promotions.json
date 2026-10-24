@@ -5,6 +5,198 @@
     "repository_url": null,
     "note": "Integrated into DEDL from the original Singapore Promotions and Cards brief. No separate deployed site or reusable repository was located."
   },
-  "offers": [],
-  "cards": []
+  "offers": [
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "dbs-posb-cash288-oct2026",
+      "name": "DBS/POSB: S$288 welcome cashback",
+      "category": "Card sign-up",
+      "cards": [
+        "DBS yuu Visa",
+        "DBS yuu American Express",
+        "POSB Everyday"
+      ],
+      "apps": [
+        "DBS PayLah!"
+      ],
+      "benefit": "Apply by 31 October using CASH288; approval by 14 November. Spend S$800 within 60 days of approval. Cashback is credited 3–5 months after meeting the spend requirement.",
+      "eligibility": "For applicants with no principal DBS/POSB credit card and none cancelled in the past 12 months. Maintain a valid PayLah! account by the spend-period end. One gift per person; cannot combine with other sign-up offers. Instalments, wallet top-ups, utilities, insurance, tax and other listed transactions are excluded. Account must remain eligible through fulfilment.",
+      "source_url": "https://www.dbs.com.sg/personal/cards/promotion/cards-dbs-yuu-promo",
+      "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/acquisition/dbs-cc-acqui-promo-tnc.pdf",
+      "starts_at": "2026-07-01T00:00:00+08:00",
+      "expires_at": "2026-11-01T00:00:00+08:00"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "ocbc-365-nxt-cash300-q42026",
+      "name": "OCBC 365 / NXT: S$300 welcome cashback",
+      "category": "Card sign-up",
+      "cards": [
+        "OCBC 365",
+        "OCBC NXT"
+      ],
+      "apps": [],
+      "benefit": "S$300 cashback after S$800 qualifying spend within 60 days of approval (approval date is Day 1). Apply by 31 December 2026.",
+      "eligibility": "New principal cardmembers with no OCBC credit card held in the previous 12 months. Apply directly via OCBC website, app or branch; approval within 30 days. Third-party applications excluded. One welcome gift; keep the card 12 months to avoid clawback. Insurance, wallet top-ups, fees and specified MCCs excluded; full terms control.",
+      "source_url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card",
+      "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ocbc-cc-welcome-gift-promotion-oct-2026.pdf",
+      "starts_at": "2026-10-01T00:00:00+08:00",
+      "expires_at": "2027-01-01T00:00:00+08:00"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "ocbc-infinity-welcome-q42026",
+      "name": "OCBC INFINITY: 16% welcome cashback",
+      "category": "Card sign-up",
+      "cards": [
+        "OCBC INFINITY"
+      ],
+      "apps": [],
+      "benefit": "1.6% base plus 14.4% bonus on the first S$2,000 qualifying spend within 60 days of approval. Bonus capped at S$288; no minimum spend. Apply by 31 December 2026.",
+      "eligibility": "Same direct-application and new-cardmember requirements as OCBC’s S$300 offer, including a 12-month lookback and 12-month card-retention condition. One welcome gift across the promotion. Bonus-spend exclusions apply; see the dated OCBC terms.",
+      "source_url": "https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card",
+      "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ocbc-cc-welcome-gift-promotion-oct-2026.pdf",
+      "starts_at": "2026-10-01T00:00:00+08:00",
+      "expires_at": "2027-01-01T00:00:00+08:00"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "citi-cashback-plus-welcome-mar2027",
+      "name": "Citi Cash Back+: 8% welcome cashback",
+      "category": "Card sign-up",
+      "cards": [
+        "Citi Cash Back+"
+      ],
+      "apps": [],
+      "benefit": "1.6% base plus 6.4% bonus on up to S$4,000 qualifying spend; bonus capped at S$256 (S$320 total on S$4,000). Minimum S$800 qualifying spend. Apply by 31 March 2027.",
+      "eligibility": "Online applicants only: no existing principal Citi credit card, none closed in the past 12 months, and no pending principal-card application. Approval within 30 days. The PDF defines the spend window as the opening month plus the next two calendar months (its example: 12 August–31 October), rather than 60 days. Bonus credited within three months after that window. Fees, instalments, bill payments and other exclusions apply; no stacking with acquisition offers unless stated.",
+      "source_url": "https://www.citibank.com.sg/credit-cards/cashback/cash-back-plus-card",
+      "terms_url": "https://www.citibank.com.sg/credit-cards/cashback/cashback-plus-card/pdf/cash-back-welcome-offer.pdf",
+      "starts_at": "2024-08-01T00:00:00+08:00",
+      "expires_at": "2027-04-01T00:00:00+08:00"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "uob-evol-fx-cashback-2026",
+      "name": "UOB EVOL: up to 1% cashback on foreign-currency spend",
+      "category": "Overseas spending",
+      "cards": [
+        "UOB EVOL"
+      ],
+      "apps": [],
+      "benefit": "0.5% cashback on eligible FX spend processed in China and the defined European countries; 1% on other eligible FX spend. No minimum spend and no cashback cap under the linked promotion terms.",
+      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas transactions charged in SGD do not qualify. Excludes Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs. The product page advertises an extension to 2027, but its linked PDF still ends on 31 December 2026; this listing uses that verified PDF end date pending reconciliation.",
+      "source_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
+      "terms_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf",
+      "starts_at": "2026-03-26T00:00:00+08:00",
+      "expires_at": "2027-01-01T00:00:00+08:00"
+    }
+  ],
+  "cards": [
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "dbs-yuu",
+      "name": "DBS yuu Card",
+      "issuer": "DBS",
+      "min_age": 21,
+      "audience": "Ages 21–75. SG/PR: S$30,000/year up to age 55; S$15,000 from 56. Foreigners: S$45,000/year.",
+      "reward": "Up to 18% at participating merchants, awarded as yuu Points redeemable for rebates. 5% at eligible participating merchants without the S$800 threshold; 0.25% base on non-yuu spend.",
+      "min_spend": "S$800 eligible spend and transactions at four participating merchant groups per calendar month for the extra 13%.",
+      "cap": "Combined bonus rewards: 28,800 yuu Points = up to S$144/month; base rewards uncapped.",
+      "annual_fee": "Principal S$196.20 incl. GST; first year waived.",
+      "exclusions": "Link yuu account and scan/link yuu ID where required. Merchant/product exclusions apply; Charge+ bonus excludes Amex. Wallet top-ups, insurance, utilities, tax and specified MCCs excluded. Reward points are not cash deposited to a bank account.",
+      "source_url": "https://www.dbs.com.sg/personal/cards/credit-cards/dbs-yuu-cards",
+      "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "uob-evol",
+      "name": "UOB EVOL Card",
+      "issuer": "UOB",
+      "min_age": 21,
+      "audience": "SG/PR: S$30,000/year up to 55; S$15,000 from 56. Foreigners: S$40,000/year. Secured-card route from S$10,000 fixed deposit, subject to bank terms.",
+      "reward": "10% on eligible local online/mobile-wallet contactless and selected gym/telco/streaming spend; 0.3% other eligible local spend. Separate FX promotion above. No FX administrative fee on qualifying foreign-currency spend.",
+      "min_spend": "S$800 per statement month for local 10% categories; otherwise 0.3%.",
+      "cap": "S$80 local cashback/month: S$20 selected gym/telco/streaming, S$30 online/contactless combined, S$30 other spend.",
+      "annual_fee": "No annual fee from 1 July 2026.",
+      "exclusions": "Shell/SPC, wallet top-ups, utilities, insurance, tax and listed MCCs excluded. Physical-card tap is not mobile-wallet contactless. Overseas SGD transactions retain a 1% international processing fee.",
+      "source_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
+      "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "ocbc-365",
+      "name": "OCBC 365 Credit Card",
+      "issuer": "OCBC",
+      "min_age": 21,
+      "audience": "SG/PR: income S$30,000/year at ages 21–55; S$15,000 above 55. Foreigners: S$45,000/year. Issuer approval applies.",
+      "reward": "Through 31 October: 6% petrol, 5% eligible dining, 3% groceries/land transport/selected recurring bills/streaming/EV charging/Watsons; otherwise 0.25%. From 1 November: 6% dining/groceries/land transport/petrol; most recurring-bill categories fall to 0.25% (see issuer’s change notice).",
+      "min_spend": "Through 31 October: S$800 or S$1,600/calendar month. From 1 November: single S$800 tier.",
+      "cap": "Through 31 October: S$80 at S$800 spend; S$160 at S$1,600. From 1 November: S$160 at S$800.",
+      "annual_fee": "S$196.20 incl. GST; first two years waived. Subsequent automatic waiver at S$10,000 eligible annual spend.",
+      "exclusions": "MCC/merchant rules apply. Fees, tax, cash advances, insurance, wallet top-ups, AXS/SAM and listed transactions excluded. October hotel dining/banquets earn base only. Read both dated term sets on the issuer page.",
+      "source_url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card",
+      "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "ocbc-infinity",
+      "name": "OCBC INFINITY Cashback Card",
+      "issuer": "OCBC",
+      "min_age": 21,
+      "audience": "SG/PR: income S$30,000/year at ages 21–55; S$15,000 above 55. Foreigners: S$45,000/year. Issuer approval applies.",
+      "reward": "1.6% on eligible local/overseas retail spend; automatically credited. Welcome bonus listed separately above.",
+      "min_spend": "None for base cashback.",
+      "cap": "No cap on base cashback.",
+      "annual_fee": "S$196.20 incl. GST; first year waived. Subsequent automatic waiver at S$10,000 eligible annual spend.",
+      "exclusions": "Insurance, utilities, education, government/tax, wallet top-ups, AXS/SAM, fees, instalments and specified MCCs excluded. Foreign-currency fees can exceed cashback; see issuer’s fee schedule.",
+      "source_url": "https://www.ocbc.com/personal-banking/cards/infinity-unlimited-cashback-card",
+      "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
+    },
+    {
+      "verified_at": "2026-10-24T15:39:55Z",
+      "review_due_at": "2026-10-25T15:39:55Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "citi-cashback-plus",
+      "name": "Citi Cash Back+ Card",
+      "issuer": "Citibank Singapore",
+      "min_age": 21,
+      "audience": "SG/PR: S$30,000/year. Foreigners: S$42,000/year. Subject to issuer approval.",
+      "reward": "1.6% on eligible retail purchases. Mastercard holders with qualifying Citi Plus / Interest Booster arrangements may earn 0.4% extra; welcome bonus listed separately.",
+      "min_spend": "None for base. Citi Plus bonus: S$500 eligible retail spend/calendar month.",
+      "cap": "Base uncapped; 0.4% bonus capped at S$8/month (S$2,000 eligible spend).",
+      "annual_fee": "Principal S$196.20 incl. 9% GST; any waiver subject to issuer terms.",
+      "exclusions": "Fees, cash/quasi-cash, transfers, bill payments, insurance, government, education and other listed MCCs excluded. Base cashback does not expire; redemption via Citi Mobile/SMS. Check the separate bonus terms before counting the additional 0.4%.",
+      "source_url": "https://www.citibank.com.sg/credit-cards/cashback/cash-back-plus-card",
+      "terms_url": "https://www.citibank.com.sg/pdf/1124/citi_cash_back_plus_cardmembers-agreement.pdf"
+    }
+  ]
 }
