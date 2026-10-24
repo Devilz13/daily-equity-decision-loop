@@ -2,8 +2,42 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-23",
+  "latest": "2026-10-24",
   "issues": [
+    {
+      "date": "2026-10-24",
+      "number": 37,
+      "title": "Technology steadies; oil becomes the active macro constraint",
+      "status": "data incomplete",
+      "path": "issues/2026/10/24/",
+      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
+      "telegram": {
+        "delivery_revision": "2026-10-24-v1",
+        "summary": "Issue 037 reports DATA INCOMPLETE across all five desks; no security is certified. Technology steadied after Thursday’s selloff, but higher oil and the upcoming hyperscaler capex reports keep funding and return questions open.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Technology steadies after AI selloff",
+            "date": "2026-10-23",
+            "context": "Nasdaq slipped 0.21% while semiconductor and S&P technology indexes gained 0.4%; investors await next week’s hyperscaler capex guidance.",
+            "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+          },
+          {
+            "title": "Oil reaches a five-month high",
+            "date": "2026-10-23",
+            "context": "Brent settled 3.14% higher at US$116.72 after attacks in Saudi Arabia raised concern about further Middle East supply disruption.",
+            "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+          },
+          {
+            "title": "Singapore STI gains while banks fall",
+            "date": "2026-10-23",
+            "context": "The STI gained 0.1% to 5,422.16, led by CapitaLand Investment; DBS, OCBC and UOB all closed lower.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-edge-higher-despite-losses-local-banks-sti-0-1"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-23",
       "number": 36,
