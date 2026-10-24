@@ -3,7 +3,8 @@ export const channels = {
   markets: {name:'Markets', cadence:'Session opens & closes · four market desks', description:'The Lighthouse: opening and closing reads for LSE-anchored Europe, NYSE-anchored US, the Japan-open to India-close Asia basket, and separate SGX sessions. Material developments enter the next scheduled read; additional to the full 08:00 SGT news edition.'},
   military: {name:'Military', cadence:'3 shorts / week', description:'Public regional exercises, defence policy, capability development and strategic implications.'},
   parliament: {name:'Parliament', cadence:'2–3 shorts / week', description:'Parliamentary developments, legislation and the route from policy to economic effects.'},
-  conflict: {name:'Conflict', cadence:'Material events only · maximum 5 / week', description:'Verified escalation, de-escalation, humanitarian impact, sanctions and trade disruption. No quota to fill.'}
+  conflict: {name:'Conflict', cadence:'Material events only · maximum 5 / week', description:'Verified escalation, de-escalation, humanitarian impact, sanctions and trade disruption. No quota to fill.'},
+  cybersecurity: {name:'Cybersecurity', cadence:'Daily global scan · publish material developments', description:'Global cybersecurity developments with verified industry impact: operational disruption, exploited vulnerabilities, supply-chain and cloud exposure, critical infrastructure, regulation and recovery costs. Separate confirmed facts from claims and attribution; no exploit instructions or sensitive operational detail.'}
 };
 export const regions = {global:'Global',us:'US',europe:'Europe',asia:'Asia',singapore:'Singapore'};
 export const lenses = {dedl:'DEDL',redl:'REDL'};
@@ -11,6 +12,8 @@ export const topics = {
   'regional-military':'Regional military activity', 'cyber-frontier':'Cyber frontier',
   'agentic-agents':'Agentic agents', parliament:'Parliamentary developments', markets:'Market movements'
 };
+// Global article tags stay separate from the Singapore dashboard topic list.
+export const articleTopics = {...topics, cybersecurity:'Cybersecurity'};
 export const text = (v) => typeof v === 'string' && v.trim().length > 0;
 export function check(ok, message) { if (!ok) throw new Error(message); }
 export function keys(obj, allowed, label) {
@@ -40,7 +43,7 @@ export function validateArticles(items, now=new Date()) {
     check(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.id) && !ids.has(a.id),'Unique safe article id required'); ids.add(a.id);
     stringFields(a,['title','summary'],label);
     check(a.channel in channels,`${label}: invalid channel`);
-    for (const [field, values] of [['regions',regions],['lenses',lenses],['topics',topics]]) {
+    for (const [field, values] of [['regions',regions],['lenses',lenses],['topics',articleTopics]]) {
       check(Array.isArray(a[field]) && a[field].every(v=>v in values) && new Set(a[field]).size===a[field].length,`${label}: invalid ${field}`);
     }
     check(a.regions.length>0,`${label}: region required`);

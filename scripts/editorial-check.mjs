@@ -7,7 +7,7 @@ export function editorialReport(articles,promotions,now=new Date()) {
   const day=sgDate(now),weekday=new Date(day+'T00:00:00Z').getUTCDay(),week=weekStart(now);
   const thisWeek=articles.filter(a=>weekStart(a.published_at)===week);
   const latest=items=>items.map(a=>a.cutoff_at).sort((a,b)=>Date.parse(b)-Date.parse(a))[0]||'Awaiting reviewed coverage';
-  const due=['08:00 SGT full overall news and events edition (all desks and regions)','Due market-session opening/closing reads across US, Europe, Asia and Singapore (all 11 sector groups)','Singapore focal review','Promotions validity / source review'];
+  const due=['08:00 SGT full overall news and events edition (all desks and regions)','Due market-session opening/closing reads across US, Europe, Asia and Singapore (all 11 sector groups)','Singapore focal review','Cybersecurity daily scan (material events only)','Promotions validity / source review'];
   if([1,3,5].includes(weekday))due.push('Military short');
   if([2,4].includes(weekday))due.push('Parliament short');
   if(weekday===6)due.push('Optional third Parliament short if material');

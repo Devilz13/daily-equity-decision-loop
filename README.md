@@ -1,6 +1,6 @@
 # DEDL Market Brief
 
-The public site now includes an [editorial overview](https://devilz13.github.io/daily-equity-decision-loop/briefing/), Markets / Military / Parliament / Conflict desks, Global / US / Europe / Asia coverage, accessible REDL and DEDL lenses, a [daily Singapore focal dashboard](https://devilz13.github.io/daily-equity-decision-loop/singapore/) and [Singapore Promotions & Cards](https://devilz13.github.io/daily-equity-decision-loop/promotions/).
+The public site now includes an [editorial overview](https://devilz13.github.io/daily-equity-decision-loop/briefing/), Markets / Military / Parliament / Conflict / Cybersecurity desks, Global / US / Europe / Asia coverage, accessible REDL and DEDL lenses, a [daily Singapore focal dashboard](https://devilz13.github.io/daily-equity-decision-loop/singapore/) and [Singapore Promotions & Cards](https://devilz13.github.io/daily-equity-decision-loop/promotions/).
 
 See [the editorial workflow](docs/EDITORIAL.md) for data templates, review requirements, corrections, cadence, known content gaps and the safe daily checklist. Build with `node scripts/build.mjs`; validate with `node --test` and `node scripts/check-site.mjs`. GitHub Pages publishes the generated `dist/` artifact, never the entire checkout. The original editions and Telegram issue index remain intact.
 
@@ -18,6 +18,7 @@ The public edition contains dated, source-linked facts, estimates, AI interpreta
 
 - New research starts at 08:00 Asia/Singapore.
 - Sunday editions include a sourced global economic events outlook for the coming week, spanning policy, industry, AI, cybersecurity, energy, transport, logistics, space, security and other material economic developments.
+- Cybersecurity receives a daily global scan, with publication for material, verified industry developments. Reporting explains operational and supply-chain transmission while separating confirmed facts from attribution or claims.
 - Every dated edition is retained under `issues/YYYY/MM/DD/` or another dated issue path.
 - Corrections and privacy redactions are labelled rather than presented as new research.
 - Every material event and covered security uses a public teaching layer: what happened, evidenced cause, transmission path, direct and conditional effects, confirming or contradicting signals, and the condition for the next research decision. Uncertain causality must be labelled.

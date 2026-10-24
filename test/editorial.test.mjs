@@ -48,6 +48,6 @@ test('promotion terms need public review, safe links and valid dates',()=>{
   validatePromotions(p,now);p.offers[0].expires_at='2026-09-30T00:00:00Z';assert.throws(()=>validatePromotions(p,now));p.offers[0].expires_at='2026-10-30T00:00:00Z';p.offers[0].reviewed_public=false;assert.throws(()=>validatePromotions(p,now));
 });
 test('checklist uses local weekday and never invents coverage',()=>{
-  const report=editorialReport([],promos(),new Date('2026-10-25T16:00:00Z'));assert.match(report,/2026-10-26 SGT/);assert.match(report,/Military short/);assert.match(report,/0\/5/);assert.match(report,/Awaiting reviewed coverage/);
+  const report=editorialReport([],promos(),new Date('2026-10-25T16:00:00Z'));assert.match(report,/2026-10-26 SGT/);assert.match(report,/Military short/);assert.match(report,/Cybersecurity daily scan/);assert.match(report,/0\/5/);assert.match(report,/Awaiting reviewed coverage/);
 });
 test('all interpolated text is HTML escaped',()=>assert.equal(esc('<script a="x">&'),'&lt;script a=&quot;x&quot;&gt;&amp;'));
