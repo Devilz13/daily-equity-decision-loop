@@ -2255,5 +2255,45 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-10-26-viral-war-claims-evidence-check",
+    "title": "Viral war warnings: preparedness is not an imminent-war alert",
+    "summary": "UK household advice, a September European security statement and Gulf shipping risk are real but distinct. None establishes the viral claim that a wider war is imminent; energy-price effects remain conditional.",
+    "channel": "conflict",
+    "regions": ["global", "europe", "asia"],
+    "lenses": ["dedl"],
+    "topics": [],
+    "format": "material-update",
+    "published_at": "2026-10-25T22:56:00Z",
+    "updated_at": "2026-10-25T22:56:00Z",
+    "cutoff_at": "2026-10-25T22:55:00Z",
+    "status": "published",
+    "sources": [
+      {"id":"uk-ready","title":"Households encouraged to take small, simple steps to stay prepared in an emergency","publisher":"UK Cabinet Office","url":"https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency","published_at":"2026-10-22","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
+      {"id":"nato-assessment","title":"Joint press conference with NATO Secretary General and Prime Minister of Estonia","publisher":"NATO","url":"https://www.nato.int/en/news-and-events/events/transcripts/2026/10/14/joint-press-conference-with-nato-secretary-general-and-the-prime-minister-of-estonia","published_at":"2026-10-14","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
+      {"id":"eu-leipzig","title":"President von der Leyen receives NATO Secretary General: press statement","publisher":"European Commission","url":"https://audiovisual.ec.europa.eu/en/media/video/I-293776","published_at":"2026-09-02","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
+      {"id":"iea-october","title":"Oil Market Report - October 2026","publisher":"International Energy Agency","url":"https://www.iea.org/reports/oil-market-report-october-2026","published_at":"2026-10-14","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
+      {"id":"marad-advisory","title":"2026-011: Iranian attacks on commercial vessels","publisher":"US Maritime Administration","url":"https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels","published_at":"2026-09-09","accessed_at":"2026-10-25T22:55:00Z","type":"primary"}
+    ],
+    "claims": [
+      {"text":"The UK announced a three-year Be Ready campaign on 22 October, advising households to prepare for three days of ordinary service disruption, including severe weather. The government says much of the advice has existed since 2024. This is not an announcement that war is imminent.","kind":"fact","source_ids":["uk-ready"]},
+      {"text":"The European Commission's statement on the attempted Leipzig-Halle cargo-plane attack was dated 2 September, not a new October warning. It relayed the German government's attribution to Russia and called for infrastructure resilience.","kind":"fact","source_ids":["eu-leipzig"]},
+      {"text":"NATO's Secretary General acknowledged hybrid attacks but said on 14 October that the alliance saw no imminent threat against NATO territory. This is an assessment at that date, not a guarantee about future events.","kind":"fact","source_ids":["nato-assessment"]},
+      {"text":"Gulf maritime danger is not imaginary: the US maritime advisory describes continued threats and attacks on commercial vessels. The IEA's 14 October report says crude flows had partly recovered while tanker attacks, freight costs and constrained refined products kept the recovery fragile. It does not support a guaranteed fall in oil prices from a claimed US policy move.","kind":"fact","source_ids":["marad-advisory","iea-october"]}
+    ],
+    "causation": [
+      {"explanation":"The clips splice different dates and risk categories into one urgent narrative.","transmission":"Routine household preparedness, a dated European sabotage statement and a live Gulf shipping risk warrant monitoring, but do not by themselves establish a timetable for wider war. For markets, verified shipping incidents and energy supply, freight and insurance costs are the channels to test, particularly for Asian fuel importers, transport and industry.","confidence":"inference","alternatives":"Escalation could occur despite the current NATO assessment; conversely, diplomacy or safer passage could ease risk. The evidence here does not quantify either probability.","source_ids":["uk-ready","eu-leipzig","nato-assessment","marad-advisory","iea-october"]}
+    ],
+    "scenarios": [
+      {"name":"Risk persists without a wider war","outcome":"Shipping and fuel costs remain elevated or volatile while household preparedness remains general advice.","trigger":"Maritime advisories and IEA data continue to show threats and constrained products without a new official alliance alert.","invalidation":"A new, corroborated military escalation or an official change in threat assessment alters the premise.","horizon":"Next seven days; reassess on material official updates.","source_ids":["nato-assessment","marad-advisory","iea-october"]},
+      {"name":"Energy pressure eases conditionally","outcome":"Sustained safer shipping and restored refined-product flows could reduce cost pressure; lower consumer fuel prices would not be automatic or immediate.","trigger":"Verified vessel traffic, freight and product-supply series improve together.","invalidation":"Further attacks, infrastructure damage or renewed stock draws offset crude export gains.","horizon":"Next several weeks; use fresh IEA and maritime updates.","source_ids":["marad-advisory","iea-october"]}
+    ],
+    "watchpoints": [
+      {"signal":"Check official NATO/EU assessments and Gulf maritime advisories against new short-form claims; compare IEA crude, refined-product and freight evidence.","due_at":"2026-10-27T00:00:00+08:00","confirms":"New official evidence substantiates a changed threat assessment or measurable supply disruption.","contradicts":"The claim relies on recycled footage, generic preparedness guidance or price predictions without fresh primary evidence.","source_ids":["uk-ready","nato-assessment","marad-advisory","iea-october"]}
+    ],
+    "corrections": [],
+    "review": {"evidence_checked":true,"privacy_checked":true,"public_safe":true,"strategic_only":true,"reviewed_at":"2026-10-25T22:55:00Z"},
+    "material_reason":"Several circulating clips connect UK preparedness, European security and Gulf energy into an imminent-world-war claim. A calm, source-dated correction matters to readers and to energy-sensitive industries; this report does not reproduce tactical details or make a trading recommendation."
   }
 ]
