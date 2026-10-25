@@ -30,6 +30,7 @@ jobs:
       - name: Validate and build only public files
         run: |
           node --test
+          node .github/scripts/send_telegram.mjs --dry-run
           node scripts/build.mjs
           node scripts/check-site.mjs
       - name: Preserve published correction history

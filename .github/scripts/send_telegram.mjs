@@ -7,7 +7,7 @@ if (!issue || !/^issues\/\d{4}\/\d{2}\/[\w-]+\/(?:[\w-]+\/)?$/.test(issue.path))
   throw new Error('The latest issue metadata is missing or its path is invalid.');
 }
 
-if (process.env.GITHUB_EVENT_NAME === 'push') {
+if (process.env.GITHUB_EVENT_NAME === 'push' && !process.argv.includes('--dry-run')) {
   const previous = JSON.parse(execFileSync('git', ['show', 'HEAD^:issues.json'], { encoding: 'utf8' }));
   const previousIssue = previous.issues?.[0];
   const previousDeliveryRevision = previousIssue?.telegram?.delivery_revision ?? null;
@@ -20,6 +20,7 @@ if (process.env.GITHUB_EVENT_NAME === 'push') {
 
 const siteUrl = 'https://devilz13.github.io/daily-equity-decision-loop/';
 const brief = issue.telegram;
+const deliveryNotice = brief?.delivery_notice;
 const headlines = brief?.headlines ?? [];
 const eventUpdates = brief?.event_updates ?? [];
 const weekAhead = brief?.week_ahead ?? null;
@@ -55,18 +56,11 @@ const sectionTitle = (value) => `<b><u>${escapeHtml(value)}</u></b>`;
 const subtitle = (value) => `<u>${escapeHtml(value)}</u>`;
 const sourceLink = (value) => `<a href="${escapeHtml(value)}">${escapeHtml(value)}</a>`;
 
-const lines = [
-  escapeHtml(`DEDL Market Brief · Issue ${String(issue.number).padStart(3, '0')} · ${issue.date}`),
-  '',
-  sectionTitle('THE BIG PICTURE'),
-  '',
-  '',
-  escapeHtml(oneLine(brief?.summary ?? issue.title, 330, 'summary')),
-  '',
-  sectionTitle('WORLD WATCH'),
-  '',
-  '',
-];
+const lines = [escapeHtml(`DEDL Market Brief · Issue ${String(issue.number).padStart(3, '0')} · ${issue.date}`), ''];
+if (deliveryNotice !== undefined) {
+  lines.push(sectionTitle('DELIVERY APOLOGY'), '', escapeHtml(oneLine(deliveryNotice, 300, 'delivery notice')), '');
+}
+lines.push(sectionTitle('THE BIG PICTURE'), '', '', escapeHtml(oneLine(brief?.summary ?? issue.title, 330, 'summary')), '', sectionTitle('WORLD WATCH'), '', '');
 
 if (headlines.length === 0) {
   lines.push(escapeHtml(brief ? 'No major new development verified by this issue’s cutoff.' : 'No world-watch brief supplied for this edition; see the full report.'));

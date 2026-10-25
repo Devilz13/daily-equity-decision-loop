@@ -12,21 +12,16 @@
       "path": "issues/2026/10/25/",
       "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
       "telegram": {
-        "delivery_revision": "2026-10-25-v1",
+        "delivery_revision": "2026-10-25-v2",
+        "delivery_notice": "We apologise: Issue 038 was published on the website, but its morning Telegram digest failed before delivery because the metadata exceeded formatting limits. This is the corrected late delivery; its 08:00 SGT evidence cutoff is unchanged.",
         "summary": "Issue 038 reports DATA INCOMPLETE across all five desks; no security is certified. NVIDIA's new supplier-capacity targets expand the AI buildout beyond chips, while power, rack deployment, financing and returns remain constraints. The public UBER update flags only unconfirmed Instacart discussions and changing AV distribution.",
         "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
         "headlines": [
           {
             "title": "NVIDIA suppliers target major capacity expansion",
             "date": "2026-10-21",
-            "context": "Plans span 2.5x substrate capacity, more than 300% packaging capacity growth, doubled semiconductor testing capacity and a 15x optical-engine target; these are forward-looking targets.",
+            "context": "NVIDIA targets 2.5x substrate capacity, over 300% packaging growth, doubled test capacity and 15x optical engines. These are plans, not delivered output.",
             "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Supply-Chain-Partners-Expand-Capacity-to-Accelerate-AI-Infrastructure-Buildout/default.aspx"
-          },
-          {
-            "title": "Power could delay deployment of AI racks",
-            "date": "2026-10-20",
-            "context": "Business Insider reported some AWS racks were staged before deployment for lack of power; Amazon said staging is normal and disputed the broad claim of missing deployment paths.",
-            "source": "https://www.businessinsider.com/amazon-nvidia-ai-gpu-data-centers-power-shortages-2026-10"
           },
           {
             "title": "Instacart sale discussions reportedly included Uber",

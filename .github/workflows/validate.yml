@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: '22'
       - run: node --test
+      - name: Validate latest Telegram digest without sending
+        run: node .github/scripts/send_telegram.mjs --dry-run
       - run: node scripts/build.mjs
       - run: node scripts/check-site.mjs
       - name: Preserve published correction history
