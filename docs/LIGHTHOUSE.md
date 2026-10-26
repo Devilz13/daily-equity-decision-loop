@@ -1,14 +1,14 @@
 # Lighthouse operating brief
 
-The existing **08:00 SGT overall news and events edition continues in full**: Global, US, Europe, Asia and Singapore; Markets, Military, Parliament, Conflict, cyber frontier, agentic agents and other material developments. Opening and closing market reads are additional. Do not narrow the morning edition to markets or replace its publisher. Its external schedule has not been migrated into this repository.
+The existing **08:00 SGT overall news and events edition continues in full**: Global, US, Europe, Asia and Singapore; Markets, Military, Parliament, Conflict, cyber frontier, agentic agents and other material developments. Effective 26 October 2026, `docs/DEDL_RUNBOOK.md` consolidates research into that slot only. Review the latest completed sessions and available pre-open context; do not narrow the morning edition to markets or create extra session timers.
 
-## Running now
+## Consolidated operation
 
-The Codex thread automations are scheduled at market-session boundaries in Asia/Singapore, with separate triggers for UK and US daylight-saving time. They research due opening and closing reads, validate public records and publish only reviewed evidence. They require the local automation environment, connected accounts and available execution capacity; this is not a guaranteed continuous feed. Stay quiet when no session read is due; notify on publication, a material change to the full morning edition, failure or required input. The GitHub 08:17 checklist is a separate read-only audit, not the news publisher.
+The enabled daily DEDL task is the research publisher. No independent Lighthouse session automation was verified in the available task inventory; earlier claims that those jobs were running are superseded. The GitHub checklist is now dispatch/pipeline-only, with its separate 08:17 timer removed. Session helpers and time-zone tests remain useful for interpreting data periods, not as proof of a running service. Execution depends on connected accounts and capacity; it is not a guaranteed continuous feed.
 
 The first four research baselines cover all 11 sector groups with explicit observation periods and gaps. A baseline is not a retrospectively invented opening or closing edition. A dated stock observation is not proof of the entire sector's current direction. Refresh gaps using new evidence; never replace them with generic bullish/bearish claims.
 
-## Trading-day targets
+## Reference session windows — not research schedules
 
 | Desk | Opening context | Closing read | Clock |
 | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ The first four research baselines cover all 11 sector groups with explicit obser
 | Europe | 07:45 | 16:50 | Europe/London |
 | US | 09:15 | 16:20 | America/New_York |
 
-These are editorial targets, not guaranteed delivery times. Opening context is prepared before the principal cash open; a late publication must say it is delayed and distinguish pre-open evidence from subsequent trading. For the SGT scheduler, Europe targets correspond to 14:45/23:50 during British summer time and 15:45/00:50 otherwise. US targets correspond to 21:15/04:20 during US daylight time and 22:15/05:20 otherwise. The London and New York closing triggers fall on the next Singapore date. The scheduler includes both seasonal times, and each run must verify which target is due using the exchange's local time zone.
+These retained reference windows describe the original desired session coverage, not enabled timers or promised publication times. The daily 08:00 SGT slot uses the latest evidence actually available. A delayed opening/closing report must say it is delayed and distinguish pre-open evidence from subsequent trading. Use each exchange's local time zone and daylight-saving rules; do not label yesterday's data as today's close.
 
 `node scripts/market-sessions.mjs` lists candidates within 90 minutes after a target. Import `sessionCandidates(now, publishedArticles)` for duplicate suppression. This helper skips weekends and handles daylight saving; it does **not** certify holidays, half-days or halts. Inspect official calendars every day and before publication. On early closes, override the normal closing target to after the exchange's final trading phase; do not wait for the normal target. Record `early-close` or `partial` and cite the exchange announcement. Skip closed exchanges, identify open members of a regional basket, and do not manufacture a normal session on a holiday. After an outage, explicitly label catch-up reports and their actual publication/cutoff times.
 
@@ -35,4 +35,4 @@ Use `templates/market-read.json`, reviewed against `scripts/market-read.mjs` and
 6. Verify evidence, privacy and public safety. Publish only public strategic military context. No private positions, scoring rules, account data, operational intelligence or trade execution. Do not send new Telegram messages or change `issues.json` for these reads.
 7. Run tests, build, link checks and history checks against the current remote head. Create an atomic GitHub commit with an expected-head lease; if it moved, reconcile first. Verify both validation and Pages deployment. Report actual failures, not assumed success.
 
-The session-boundary automations are configured in Codex, not deployed from this document. Changing this file does not itself create or reschedule an automation. Publish market news only in due opening and closing reads; carry material developments into the next scheduled read. There are no hourly market checks, weekend market-event scans or between-session market updates. The full 08:00 SGT news and events edition continues separately and in full.
+Changing this document does not create a scheduler. All research is handled in the existing daily 08:00 SGT DEDL slot; no hourly, independent session or between-session jobs. Preserve historical reports and their real timestamps. Do not backfill fictitious pre-open research. The full morning edition retains its complete news/event scope, formats and extensive explanations.

@@ -33,6 +33,7 @@ jobs:
           node .github/scripts/send_telegram.mjs --dry-run
           node scripts/build.mjs
           node scripts/check-site.mjs
+          node scripts/editorial-check.mjs
       - name: Preserve published correction history
         if: github.event_name == 'push'
         env:
@@ -45,4 +46,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Deliver changed edition after deployment
+        if: github.event_name == 'push'
+        env:
+          DELIVERY_BASE_SHA: ${{ github.event.before }}
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: node .github/scripts/send_telegram.mjs
 

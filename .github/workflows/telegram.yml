@@ -1,10 +1,6 @@
-name: Push latest edition to Telegram
+name: Manually recover Telegram delivery
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - issues.json
   workflow_dispatch:
 
 permissions:
@@ -17,7 +13,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      - name: Post sourced daily digest when Telegram is configured
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Recover latest digest after operator checks channel for duplicates
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}

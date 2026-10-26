@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {channels,regions,lenses,topics,validateArticles,validatePromotions,sgDate,check} from './model.mjs';
 import {marketDesks,sectors} from './market-read.mjs';
+import {publicationKey} from './telegram-message.mjs';
 
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -91,13 +92,14 @@ export function build(now=new Date()) {
   write('index.html',inject(read('index.html'),''));
   for(const issue of issues) {
     const p=issue.path+'index.html';check(!lstatSync(path.join(root,p)).isSymbolicLink(),'Issue symlinks forbidden');
-    write(p,inject(read(p),'../'.repeat(issue.path.split('/').filter(Boolean).length)));
+    const html=inject(read(p),'../'.repeat(issue.path.split('/').filter(Boolean).length));
+    write(p,html.replace('</head>',`<meta name="dedl-delivery-key" content="${esc(publicationKey(issue))}"></head>`));
   }
   const put=(r,title,intro,body)=>write(r+'index.html',page(r,title,intro,body));
   const marketReads=articles.filter(a=>a.market_read).sort((a,b)=>Date.parse(b.published_at)-Date.parse(a.published_at));
-  const newsPromise='<aside class="notice"><b>08:00 SGT · the full news and events edition continues.</b><p>Global, US, Europe, Asia and Singapore coverage across markets, military, parliament, conflict, cybersecurity, cyber frontier, agentic agents and other material events. Opening/closing market reads are additional coverage.</p></aside>';
-  put('lighthouse/','The Lighthouse','Opening and closing reads follow the markets. Material developments enter the next scheduled session read.',newsPromise+
-    section('Follow the market day',`<p>Opening and closing reads on trading days, with all 11 sector groups scanned daily. Material developments between scheduled reads are assessed in the next open or close report. There are no hourly market updates.</p><div class="desk-grid">${Object.entries(marketDesks).map(([k,d])=>`<article class="desk-card"><h3>${link('../lighthouse/'+k+'/',d.name+' →')}</h3><p>${esc(d.scope)}</p><p class="meta">Editorial targets: ${d.open} opening read · ${d.close} closing read<br>${esc(d.zone)} local time; daylight saving applies automatically.</p><p>${marketReads.find(a=>a.market_read.market===k)?'Latest research: '+esc(marketReads.find(a=>a.market_read.market===k).cutoff_at):'No market read published yet.'}</p></article>`).join('')}</div><p>Targets are not exchange calendars. Holidays, half-days, closing auctions and halts must be checked before each session read. Regional baskets may have partial closures.</p>`)+
+  const newsPromise='<aside class="notice"><b>08:00 SGT · the full news and events edition continues.</b><p>Global, US, Europe, Asia and Singapore coverage across markets, military, parliament, conflict, cybersecurity, cyber frontier, agentic agents and other material events. Latest completed sessions and available pre-open context are reviewed in this daily slot; no separate session timers.</p></aside>';
+  put('lighthouse/','The Lighthouse','Latest completed market sessions and available pre-open context, reviewed in the daily 08:00 SGT DEDL slot.',newsPromise+
+    section('Follow the market day',`<p>All 11 sector groups are reviewed in the daily DEDL slot where evidence permits. Historical opening and closing reads retain their real cutoffs; no hourly or separate session updates are promised.</p><div class="desk-grid">${Object.entries(marketDesks).map(([k,d])=>`<article class="desk-card"><h3>${link('../lighthouse/'+k+'/',d.name+' →')}</h3><p>${esc(d.scope)}</p><p class="meta">Reference windows: ${d.open} opening context · ${d.close} closing context<br>${esc(d.zone)} local time; not additional research schedules.</p><p>${marketReads.find(a=>a.market_read.market===k)?'Latest research: '+esc(marketReads.find(a=>a.market_read.market===k).cutoff_at):'No market read published yet.'}</p></article>`).join('')}</div><p>Reference windows are not exchange calendars. Holidays, half-days, closing auctions and halts must be checked before using session evidence. Regional baskets may have partial closures.</p>`)+
     section('All 11 sectors, every market',`<p>${sectors.map(s=>link('../sectors/'+sectorSlug(s)+'/',s)).join(' · ')}</p>`)+section('Latest market reads',articleList(marketReads,'../')));
   for(const [key,desk]of Object.entries(marketDesks))put('lighthouse/'+key+'/',desk.name+' market read',desk.scope,newsPromise+
     ['market-open','market-close','market-event'].map((format,i)=>section(['Opening reads','Closing reads','Historical event records & research baselines'][i],articleList(marketReads.filter(a=>a.market_read.market===key&&a.format===format),'../../'))).join(''));

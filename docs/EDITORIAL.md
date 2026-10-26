@@ -1,10 +1,12 @@
 # Public editorial workflow
 
+Effective 26 October 2026: `docs/DEDL_RUNBOOK.md` governs the consolidated daily operation; `docs/DEDL_STATE.md` is the compact handoff. Keep this file for schema/review details, not a second scheduler specification. Use the existing 08:00 SGT research slot only and retain the full output format and scope.
+
 ## Repository inspection and compatibility
 
 The existing site is a dependency-free static GitHub Pages newsletter. `issues.json` drives the Telegram notifier; the homepage and 36 dated editions existed before this structure. No scheduler or source ingestion system for the new desks existed in this repository. Existing market research is produced outside the repository and committed here.
 
-The build preserves the legacy homepage and dated edition bodies, adding navigation in the generated artifact. It reads the current `issues.json` every time, so later editions appear automatically. Do not overwrite source editions with generated `dist` HTML. The issue index and Telegram script are unchanged; this implementation does not send Telegram messages.
+The build preserves the legacy homepage and dated edition bodies, adding navigation and an invisible delivery-revision marker in the generated artifact. It reads the current `issues.json` every time, so later editions appear automatically. Do not overwrite source editions with generated `dist` HTML. Telegram retains its message format. The main push pipeline validates, builds and deploys before considering delivery; unchanged issue/revision keys do not send. The sender verifies the deployed revision marker and reports missing configuration or uncertain acceptance explicitly. Manual recovery is dispatch-only and requires checking for duplicates.
 
 ## Routes and data
 
@@ -25,12 +27,12 @@ Updates preserve original publication time, advance `updated_at` and append a so
 
 ## Cadence and safe automation
 
-The read-only GitHub Actions checklist runs daily at 08:17 SGT (00:17 UTC); GitHub schedules can be delayed and can be disabled after inactivity in public repositories. It is a checklist, not a guaranteed publishing service. Run it manually with workflow dispatch when needed.
+The read-only checklist runs during the main validation/build pipeline or by manual workflow dispatch. Its separate 08:17 timer is removed. Research uses only the existing 08:00 SGT DEDL slot. Schedulers can be delayed; neither this checklist nor a document is a guaranteed publishing service.
 
 | Desk | Review target | Publication rule |
 | --- | --- | --- |
 | Full morning edition | Daily 08:00 SGT | Overall news and events across all desks and regions; existing publisher retained |
-| Markets / Lighthouse | Trading-day opening and closing reads for the Asia basket, SGX, LSE-anchored Europe and NYSE-anchored US | Reviewed, dated evidence; material developments are covered in the next scheduled read; see LIGHTHOUSE.md |
+| Markets / Lighthouse | Latest completed sessions and available pre-open context within the daily 08:00 SGT slot | Reviewed, dated evidence; no separate market-session timers; see LIGHTHOUSE.md |
 | Military | Monday, Wednesday, Friday | 3 shorts/week target; strategic context only |
 | Parliament | Tuesday, Thursday; optional Saturday | 2–3/week target when substantive |
 | Conflict | Material events only | No minimum; up to 3–5 in a material week, hard cap 5 |
@@ -60,7 +62,7 @@ node scripts/editorial-check.mjs
 node scripts/check-history.mjs <previous-commit-sha>
 ```
 
-Pages publishes only `dist/`, assembled from approved assets, the existing homepage/issue index/edition HTML and validated new public records. Templates, tests, scripts and repository metadata are not uploaded. This is an artifact boundary, not permission to store secrets in a public repository. Both Pages and PR validation run the build/checks. Existing Telegram delivery remains triggered only by `issues.json` changes, using its existing secrets.
+Pages publishes only `dist/`, assembled from approved assets, the existing homepage/issue index/edition HTML and validated new public records. Templates, tests, scripts and repository metadata are not uploaded. This is an artifact boundary, not permission to store secrets in a public repository. PR validation checks proposed changes; the main push pipeline validates once before deployment, then sends only changed issue/revision keys using existing secrets. Telegram-only recovery is manual, not a parallel push trigger.
 
 The initial Lighthouse reports contain reviewed, dated observations and explicit sector data gaps. Other empty sections do not mean no news or no events. No fabricated seed news, card rate, discount, prediction or operational military intelligence is permitted. See [Lighthouse operations](LIGHTHOUSE.md) for the session-boundary market-read schedule and its limits.
 
