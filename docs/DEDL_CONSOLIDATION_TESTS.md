@@ -30,3 +30,10 @@ Existing Telegram headings, spacing, escaping and disclaimer; oversized fields/w
 ## Limits and follow-up
 
 No real Telegram message was sent by these tests. Acceptance/rejection tests use synthetic responses and never expose real credentials. A Telegram timeout can leave acceptance unknown; the sender stops for reconciliation instead of claiming exactly-once delivery. A marker propagation delay can block delivery after a successful deploy; report it and recover manually within existing operations, not via a new timer. Remote CI/Pages and the scheduler update must be verified after the commit; the next actual 08:00 run remains a separate operational check. Source-access gaps and stale promotion records are retained, not falsely marked resolved. This consolidation does not delete ChatGPT stored memories.
+
+## Post-publication verification
+
+- Implementation saved as commit [`168824bf3fb2f72f0b4e0867593e2a8ae310a010`](https://github.com/Devilz13/daily-equity-decision-loop/commit/168824bf3fb2f72f0b4e0867593e2a8ae310a010).
+- [GitHub run 40325019818](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40325019818) completed successfully: validation, history preservation, Pages deployment and post-deployment delivery decision. The remote log contains `tests 31` and `Issue and delivery revision unchanged; no Telegram message sent.` Only one push pipeline was started for this implementation commit.
+- The existing daily DEDL scheduler was updated and reread successfully: enabled, 08:00 Asia/Singapore daily, same task identity. No new task created. Prompt length changed from 9,233 to 2,081 characters (77% smaller). This is prompt-length reduction, not measured total token/cost savings.
+- Runbook, applicable detailed reference and compact state are now the operational source of truth. The next full scheduled execution and a real changed-edition Telegram send remain untested by this maintenance run. Account-memory deletion is not available through the exposed tools; no stored-memory deletion is claimed.

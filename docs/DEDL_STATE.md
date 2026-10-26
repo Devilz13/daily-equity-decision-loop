@@ -20,7 +20,7 @@ Updated 26 October 2026. Read `docs/DEDL_RUNBOOK.md` first. This is public-safe 
 
 ## Consolidation verification
 
-Local consolidation checks passed: 31 tests, 82-page internal link/artifact check, immutable-base history check and current digest byte-for-byte comparison. See `docs/DEDL_CONSOLIDATION_TESTS.md`. `issues.json`, source editions, homepage and assets are unchanged, so this maintenance update must not send a new digest. The new sender is tested with mocks; no real test message was sent. Verify the remote workflow and next scheduled run separately; unit tests do not prove live API coverage or future delivery.
+Consolidation implementation `168824b` passed 31 tests, 82-page link/artifact checks, immutable-base history and digest byte comparison. Remote run 40325019818 succeeded and confirmed no Telegram send for the unchanged delivery key. The existing 08:00 SGT daily task was updated and reread; no new task. See `docs/DEDL_CONSOLIDATION_TESTS.md`. Source editions, index, homepage and assets are unchanged. The next full scheduled run and a real changed-edition send remain separate operational checks; mock tests do not prove live API coverage or future delivery. Account-memory deletion is unavailable; GitHub is the compact operational handoff, not proof that stored memories were erased.
 
 ## Next scheduled run
 
