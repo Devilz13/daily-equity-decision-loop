@@ -1,5 +1,7 @@
 # Market Watch incident and recovery — 27 October 2026
 
+**Current configuration:** the latest user instruction merges the daily edition and Market Watch into one active hourly DEDL task. See `docs/DEDL_DISPATCHER.md` and `docs/DEDL_SINGLE_TASK_TESTS.md`. Separate daily/session task arrangements below are dated incident history, not current instructions.
+
 ## Verified findings
 
 Inspection of default-branch `e825ebfb070f71b32c5bef1d8b978af94be5dfe1`, public article records, release runs and the available task inventory found:

@@ -1,6 +1,6 @@
-# Market Watch — one dispatcher
+# Market Watch — session branch of the DEDL task
 
-Approved 27 October 2026: use exactly **one active Market Watch scheduler**, polling hourly on the hour in Asia/Singapore. Reuse one of the paused partial jobs; leave the other two disabled and retired. Do not create eight session jobs or a separate watchdog. The existing full 08:00 SGT newsletter and unrelated tasks retain their schedules. This supersedes the earlier Market Watch capacity blocker, not the incident history.
+Latest instruction, 27 October 2026: all DEDL work uses **one active hourly DEDL task** under `docs/DEDL_DISPATCHER.md`. The standalone Market Watch dispatcher is paused; this document now defines its merged session branch. Retired partial jobs remain disabled. Do not create session jobs or a separate watchdog. The full daily 08:00 SGT newsletter is another branch of the same task; unrelated tasks retain their schedules. This supersedes the separate daily-plus-Market-Watch arrangement, not the incident history.
 
 ## Bounded dispatch
 
@@ -14,9 +14,9 @@ Approved 27 October 2026: use exactly **one active Market Watch scheduler**, pol
 
 For each real due window preserve the full existing format: all 11 sectors with cited observations or explicit gaps, observed sentiment proxies, evidenced causes versus inference, counterarguments, scenarios, watchpoints and conditional spillovers to the other three desks. Use only permitted free public/open-source information; no paid APIs, new accounts, bypasses, private methods/positions, tactical military information or trades. Follow runbook source/privacy gates. Share verified source retrieval within a run without advancing access times on unchecked sources.
 
-Run tests, build, link/artifact checks, immutable-base history and diff checks; review facts/privacy separately. Commit one coherent batch with an expected-head lease. On head movement, reconcile and re-deduplicate; never force push. Verify the actual Pages run and exact live report, not merely task completion. Do not change `issues.json`, newsletter delivery revisions, or send session Telegram messages.
+Run tests, build, link/artifact checks, immutable-base history and diff checks; review facts/privacy separately. Commit one coherent batch with an expected-head lease. On head movement, reconcile and re-deduplicate; never force push. Verify the actual Pages run and exact live report, not merely task completion. A session-only batch must not change `issues.json` or newsletter delivery revisions, or send Telegram messages. When the unified task also has a due daily edition, include both in one batch and let only that edition use the existing post-deploy delivery path.
 
-Each invocation checks prior due coverage and actual deployment receipts. Retain/report failures and unresolved calendar/data gaps instead of silently declaring success. The next daily 08:00 SGT edition independently follows up the 27 October incident. Verify the first two completed session windows after activation using actual live reports and cutoff times. No extra monitoring task is needed. A saved enabled scheduler is configuration evidence, not proof those future reports published.
+Each invocation checks prior due coverage and actual deployment receipts. Retain/report failures and unresolved calendar/data gaps instead of silently declaring success. The daily 08:00 SGT branch of the same task follows up the 27 October incident. Verify the first two completed session windows after activation using actual live reports and cutoff times. No extra monitoring task is needed. A saved enabled scheduler is configuration evidence, not proof those future reports published.
 
 ## Activation/testing record
 

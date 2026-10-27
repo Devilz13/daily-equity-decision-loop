@@ -27,7 +27,7 @@ Updates preserve original publication time, advance `updated_at` and append a so
 
 ## Cadence and safe automation
 
-The read-only checklist runs during the main validation/build pipeline or by manual workflow dispatch. Its separate 08:17 timer is removed. Research uses only the existing 08:00 SGT DEDL slot. Schedulers can be delayed; neither this checklist nor a document is a guaranteed publishing service.
+The read-only checklist runs during the main validation/build pipeline or by manual workflow dispatch. Its separate 08:17 timer is removed. Exactly one hourly DEDL task routes the full 08:00 SGT edition and the session windows under `docs/DEDL_DISPATCHER.md`; no standalone desk jobs remain active. Schedulers can be delayed; neither this checklist nor a document is a guaranteed publishing service.
 
 | Desk | Review target | Publication rule |
 | --- | --- | --- |

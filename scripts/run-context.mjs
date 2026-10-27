@@ -2,21 +2,23 @@ import {readFileSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
 import {sgDate,channels} from './model.mjs';
 import {sessionAudit} from './market-sessions.mjs';
+import {dedlDispatchPlan} from './dedl-dispatch.mjs';
 
 // Metadata-only retrieval aid. It does not fetch sources or certify freshness.
 export function buildRunContext({issues,articles,promotions},now=new Date()) {
   if(!Array.isArray(issues?.issues) || !issues.issues.length || !Array.isArray(articles) || !Array.isArray(promotions?.offers) || !Array.isArray(promotions?.cards)) throw new Error('Incomplete public context inputs.');
-  const today=sgDate(now),latest=issues.issues[0];
+  const today=sgDate(now),latest=issues.issues[0],dispatch=dedlDispatchPlan(now,{issues,articles});
   const sourceMap=new Map();
   for(const a of articles)for(const s of a.sources||[]) {
     const old=sourceMap.get(s.url);
     if(!old || Date.parse(s.accessed_at)>Date.parse(old.accessed_at)) sourceMap.set(s.url,{...s,report:a.id});
   }
   return {
-    generated_at:now.toISOString(),singapore_date:today,research_slot:'08:00 Asia/Singapore full edition; one hourly Market Watch dispatcher for desk open/close windows',
+    generated_at:now.toISOString(),singapore_date:today,research_slot:'ONE active hourly DEDL task: 08:00 Asia/Singapore full edition plus desk open/close windows',
+    dedl_dispatch:{daily:dispatch.daily,selected_sessions:dispatch.market_watch.selected,quiet:dispatch.quiet},
     market_watch:{overdue_weekday_targets:sessionAudit(now,articles).filter(x=>x.status==='overdue-calendar-unverified').map(({market,session,date,target_at})=>({market,session,date,target_at})),caveat:'Calendar verification required; baseline research and daily newsletters do not satisfy session reads.'},
     latest_issue:{number:latest.number,date:latest.date,path:latest.path,status:latest.status},
-    publication_state:latest.date===today?'already-indexed: inspect delivery/corrections; do not duplicate':latest.date<today?'today-not-indexed: research/resume required':'future-index-date: investigate',
+    publication_state:dispatch.daily.state==='indexed-verify-delivery'?'already-indexed daily edition: inspect delivery/corrections; do not duplicate':dispatch.daily.selected?'today-not-indexed: research/resume daily edition required':'before-daily-target: no new morning edition yet',
     structured_coverage:Object.fromEntries(Object.keys(channels).map(channel=>{
       const rows=articles.filter(a=>a.channel===channel).sort((a,b)=>Date.parse(b.cutoff_at)-Date.parse(a.cutoff_at));
       return [channel,{records:rows.length,latest_cutoff:rows[0]?.cutoff_at??null}];
