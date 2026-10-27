@@ -76,7 +76,7 @@ test('Telegram rejection and ambiguous network results do not become success or 
 
 test('context is bounded metadata, deduplicates sources and observes Singapore date',()=>{
   const data={issues:json('issues.json'),articles:json('content/articles.json'),promotions:json('content/promotions.json')};
-  data.issues.issues[0].date='2026-10-26'; // Stable synthetic date; future editions must not break this test.
+  data.issues.issues=[issue()]; // Stable daily fixture; a later special letter is not the daily edition.
   const c=buildRunContext(data,new Date('2026-10-25T16:00:00Z'));
   assert.equal(c.singapore_date,'2026-10-26');assert.match(c.publication_state,/already-indexed/);
   assert.ok(c.reusable_source_metadata.length<=12);assert.equal(new Set(c.reusable_source_metadata.map(s=>s.url)).size,c.reusable_source_metadata.length);
@@ -84,7 +84,7 @@ test('context is bounded metadata, deduplicates sources and observes Singapore d
   assert.throws(()=>buildRunContext({issues:{issues:[]},articles:[],promotions:{offers:[],cards:[]}}));
 });
 
-test('daily-only operations have no repository cron or parallel Telegram push trigger',()=>{
+test('single-scheduler operations have no repository cron or parallel Telegram push trigger',()=>{
   for(const name of readdirSync(new URL('../.github/workflows/',import.meta.url))) {
     const value=readFileSync(new URL('../.github/workflows/'+name,import.meta.url),'utf8');assert.doesNotMatch(value,/\bcron:/);
   }
