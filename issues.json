@@ -6,6 +6,46 @@
   "issues": [
     {
       "date": "2026-10-27",
+      "number": 41,
+      "title": "Reader guidance: separate geopolitical events from speculation",
+      "status": "special guidance",
+      "path": "issues/2026/10/27/video-guidance/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-27-guidance-v1",
+        "summary": "Dear readers: geopolitical videos may mix real events, official rhetoric and speculative conclusions. Check original dates, full sources and later updates before sharing. Strong words are not proof of a motive, outcome or imminent wider war. Stay attentive to verified changes, not the volume of reposts.",
+        "headlines": [
+          {
+            "title": "Before forwarding: check the date and latest update",
+            "date": "Checked 27 Oct 2026",
+            "context": "UK three-day supplies advice is general resilience guidance. AP reported Ukraine satellite service restoration on 24 Oct; an older outage clip may omit that update.",
+            "source": "https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency"
+          },
+          {
+            "title": "Separate evidence, allegations and predictions",
+            "date": "Checked 27 Oct 2026",
+            "context": "Alaska's candidate-name dispute and lawsuit are real; deliberate deception is an allegation, not established by a video or filing. A lawsuit is not a judgment.",
+            "source": "https://www.reuters.com/world/trump-administration-sues-block-senate-race-certification-alaska-if-republican-2026-10-23/"
+          },
+          {
+            "title": "Pay attention where there is concrete exposure",
+            "date": "27 Oct 2026",
+            "context": "Check current MFA destination advice and operator notices. Watch confirmed outages, actual aid delivery, infrastructure damage and transport disruptions—not maps alone.",
+            "source": "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/"
+          }
+        ],
+        "market_note": "Calm attention, not panic: verify supply/export losses, freight, insurance and enacted policy. No clip establishes a guaranteed oil move or wider-war timetable. No automatic financial action. Five market statuses remain DATA INCOMPLETE; this guidance does not replace today's morning brief.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-27",
       "number": 40,
       "title": "AI demand finds funding; the cash-flow test remains",
       "status": "data incomplete",

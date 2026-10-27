@@ -4,6 +4,8 @@ Updated 27 October 2026. Read `docs/DEDL_RUNBOOK.md` first. Public-safe operatio
 
 ## Publication baseline
 
+- User-requested special guidance Issue 041, 27 October 2026, `issues/2026/10/27/video-guidance/`, cutoff 09:22 SGT. Separately authorized Telegram letter, not duplicate morning research or a new recurring slot. Evidence/limits in the letter; no private card discussion or uploaded media published. Delivery key `41:2026-10-27:2026-10-27-guidance-v1`; inspect the release receipt before retry. Morning Issue 040 preserved. Total indexed editions now 41.
+
 - Immutable research base: `09198f8596ed8af5de08b5f20b5fca9ef43a4e66` (default branch main).
 - Issue 040, 27 October 2026, `issues/2026/10/27/`, actual 08:05 SGT cutoff and delayed-publication apology. Atomic publication commit `84af5dc28e44497a76cdf6ca875de2383525de10` advanced the expected base without force. No duplicate issue existed at start.
 - [Release receipt](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40424558214): Pages success 08:09:45 SGT; exact live key `40:2026-10-27:2026-10-27-v1` independently retrieved. Telegram accepted message 42 at 08:09:46 SGT. This verifies API acceptance, not subscriber reads. Do not resend or bump the delivery revision for handoff maintenance.
