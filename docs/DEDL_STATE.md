@@ -4,7 +4,7 @@ Updated 27 October 2026. Read `docs/DEDL_RUNBOOK.md` first. Public-safe operatio
 
 ## Publication baseline
 
-- User-requested special guidance Issue 041, 27 October 2026, `issues/2026/10/27/video-guidance/`, cutoff 09:22 SGT. Separately authorized Telegram letter, not duplicate morning research or a new recurring slot. Evidence/limits in the letter; no private card discussion or uploaded media published. Delivery key `41:2026-10-27:2026-10-27-guidance-v1`; inspect the release receipt before retry. Morning Issue 040 preserved. Total indexed editions now 41.
+- User-requested special guidance Issue 041, 27 October 2026, `issues/2026/10/27/video-guidance/`, cutoff 09:22 SGT. Separately authorized letter, not duplicate morning research or a new recurring slot. [Release 40432206709](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40432206709) passed; live key `41:2026-10-27:2026-10-27-guidance-v1` verified. Telegram accepted message 43 at 09:23:04 SGT. No retry needed. Evidence/limits in letter; no private card discussion or uploaded media published. Morning Issue 040 preserved; total indexed editions 41, 84 generated pages, 31 tests passed.
 
 - Immutable research base: `09198f8596ed8af5de08b5f20b5fca9ef43a4e66` (default branch main).
 - Issue 040, 27 October 2026, `issues/2026/10/27/`, actual 08:05 SGT cutoff and delayed-publication apology. Atomic publication commit `84af5dc28e44497a76cdf6ca875de2383525de10` advanced the expected base without force. No duplicate issue existed at start.
