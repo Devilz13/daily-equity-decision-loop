@@ -2295,5 +2295,425 @@
     "corrections": [],
     "review": {"evidence_checked":true,"privacy_checked":true,"public_safe":true,"strategic_only":true,"reviewed_at":"2026-10-25T22:55:00Z"},
     "material_reason":"Several circulating clips connect UK preparedness, European security and Gulf energy into an imminent-world-war claim. A calm, source-dated correction matters to readers and to energy-sensitive industries; this report does not reproduce tactical details or make a trading recommendation."
+  },
+  {
+    "id": "2026-10-27-singapore-open-delayed-recovery",
+    "title": "Singapore opening recovery: balanced breadth, energy resilience and uneven factory growth",
+    "summary": "Delayed 27 October opening-context recovery; research after 11:00 SGT. Prior-day prices are explicitly dated. No verified current opening quotes; all 11 sectors retain findings or gaps, with conditional scenarios rather than a retrospective pre-open call.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-27T03:09:12Z",
+    "updated_at": "2026-10-27T03:09:12Z",
+    "cutoff_at": "2026-10-27T03:09:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "calendar",
+        "title": "2026 public holidays; 26–27 October are not listed holidays",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "hours",
+        "title": "Securities trading schedule and 2026 half-days — search-index extract; direct page did not render; date refers to on-page 5 October event, page revision date unavailable",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "close",
+        "title": "26 October cash close and breadth; freely accessible article extract",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-stocks-close-lower-amid-mixed-regional-showing-sti-down-0-1",
+        "published_at": "2026-10-26T20:07:00+08:00",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "secondary"
+      },
+      {
+        "id": "gas",
+        "title": "Ministerial remarks on Indonesian gas exports",
+        "publisher": "Ministry of Energy, Trade and Industry",
+        "url": "https://www.meti.gov.sg/newsroom/remarks-by-minister-tan-see-leng-at-the-media-doorstop-on-indonesia-gas-exports/",
+        "published_at": "2026-10-25",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "grid",
+        "title": "Singapore Energy Lecture 2026",
+        "publisher": "Ministry of Energy, Trade and Industry",
+        "url": "https://www.meti.gov.sg/newsroom/singapore-energy-lecture-2026-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng/",
+        "published_at": "2026-10-26",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "output",
+        "title": "September manufacturing output; secondary account of EDB data, primary release not retrieved",
+        "publisher": "AsiaOne",
+        "url": "https://www.asiaone.com/money/singapore-manufacturing-output-september-2026-edb",
+        "published_at": "2026-10-26",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "secondary"
+      },
+      {
+        "id": "mas",
+        "title": "14 October monetary-policy statement; historical policy context",
+        "publisher": "Monetary Authority of Singapore",
+        "url": "https://www.mas.gov.sg/news/monetary-policy-statements/2026/mas-monetary-policy-statement-14oct26",
+        "published_at": "2026-10-14",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "nxera",
+        "title": "Sembcorp–Nxera low-carbon-energy MOU — indexed body; direct page exposed heading only",
+        "publisher": "Singtel",
+        "url": "https://www.singtel.com/about-us/media-centre/news-releases/sembcorp-collaborates-with-nxera0",
+        "published_at": "2026-10-26",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "property",
+        "title": "3Q property price statistics; 23 October news entry",
+        "publisher": "Singapore Department of Statistics",
+        "url": "https://www.singstat.gov.sg/find-data/explore-data-themes/economy-prices/property-price-indices/latest-news-data",
+        "published_at": "2026-10-23",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "dcr",
+        "title": "Digital Core REIT scheduled business update; schedule is not results",
+        "publisher": "SGX issuer announcement",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/U64MHXDL7W0GCLHX/b1cc13efa8e431ef45741099eb63581c28e084b20fff8084871b315bd46e371f",
+        "published_at": "2026-09-30T07:30:27+08:00",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "kore",
+        "title": "Keppel group business-update dates; KORE scheduled before 27 October open, actual results unverified",
+        "publisher": "Keppel",
+        "url": "https://links.sgx.com/FileOpen/MREL_Notice%20of%20Dates%203Q26.ashx?App=Announcement&FileID=905816",
+        "published_at": "2026-10-02",
+        "accessed_at": "2026-10-27T03:09:12Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "DELAYED RECOVERY: the editorial target was 27 October 08:45 SGT, ahead of the scheduled 09:00 cash open. Evidence was retrieved after 11:00 SGT. This reconstructs dated context only; it is not an on-time pre-open forecast. No reliable 27 October opening/intraday STI, breadth, volume, sector returns, FX, rates or commodity snapshot was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "hours"
+        ]
+      },
+      {
+        "text": "Official holiday and indexed SGX half-day schedules support a regular 27 October calendar date. This is calendar verification, not proof every security traded or an exchange-wide halt all-clear; the direct SGX page returned an unsupported-browser shell.",
+        "kind": "fact",
+        "source_ids": [
+          "calendar",
+          "hours"
+        ]
+      },
+      {
+        "text": "26 October cash close, not today: STI 5,415.91, down 0.1%; advances and declines balanced at 252 each, turnover S$1.4 billion. Local banks fell; Sembcorp declined 2.8%, while Hongkong Land rose 2.2%.",
+        "kind": "fact",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "text": "The 25 October ministerial statement described an 18-day gas reduction below 2% of daily power-sector gas demand, with replacement supplies available. That assurance is evidence about supply cover, not a quoted replacement-fuel cost.",
+        "kind": "fact",
+        "source_ids": [
+          "gas"
+        ]
+      },
+      {
+        "text": "September output rose 3.4% year on year, or 9% excluding biomedical, according to the secondary account of EDB data. Those are production observations, not listed-sector returns; the primary release remains a retrieval gap.",
+        "kind": "fact",
+        "source_ids": [
+          "output"
+        ]
+      },
+      {
+        "text": "The 26 October Singtel release describes an exploratory energy MOU with Sembcorp. Digital Core REIT scheduled its update after 27 October trading; Keppel scheduled KORE before the open. Neither calendar notice verifies actual results.",
+        "kind": "fact",
+        "source_ids": [
+          "nxera",
+          "dcr",
+          "kore"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Previous-close index weakness coincided with falling banks but balanced market breadth. Evidence does not establish broad capitulation or a unique cause.",
+        "transmission": "Inference: bank weight can pull the index down without the median share sharing that direction. Compare participation and turnover before extending yesterday’s index move to today.",
+        "confidence": "inference",
+        "alternatives": "Stock-specific positioning, valuation changes and profit-taking can explain dispersion. Current-session evidence could reverse yesterday’s pattern.",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "explanation": "A confirmed gas-supply reduction creates replacement and contract questions, while the official statement says supply is covered.",
+        "transmission": "Inference: replacement procurement could affect generator margins and customer energy costs, depending on contracts; neither spot prices nor company pass-through were verified. Grid investment and the Nxera MOU concern future capacity, not immediate revenue.",
+        "confidence": "inference",
+        "alternatives": "Existing fuel cover, hedges and regulated/customer contracts may absorb the effect. The MOU may not become a binding project. No sourced evidence attributes Sembcorp’s entire share-price decline to gas.",
+        "source_ids": [
+          "gas",
+          "grid",
+          "nxera",
+          "close"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Contained energy disruption, selective rather than broad risk appetite",
+        "outcome": "Replacement gas keeps operations supplied; company and sector dispersion persists rather than a uniform market move.",
+        "trigger": "Official supply continuity plus corroborating issuer updates; current breadth improves without dependence on a few heavyweights.",
+        "invalidation": "Verified power restrictions, adverse procurement-cost disclosures or broad current-session deterioration.",
+        "horizon": "27 October remainder of session through the next one to three local trading sessions.",
+        "source_ids": [
+          "gas",
+          "close"
+        ]
+      },
+      {
+        "name": "Cost pressure spreads despite adequate physical supply",
+        "outcome": "Energy-intensive businesses and consumers face margin pressure; valuation support from longer-term infrastructure is insufficient in the near term.",
+        "trigger": "Disclosed higher replacement costs, customer pass-through or weaker demand; confirm with current prices and breadth.",
+        "invalidation": "Stable realised procurement costs, maintained company margins and stronger broad participation.",
+        "horizon": "Next corporate updates and next one to three sessions; no probability or price target assigned.",
+        "source_ids": [
+          "gas",
+          "mas",
+          "output"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "27 October SGX closing read after trade-at-close: verify fresh STI, bank contribution, breadth, turnover, FX/rates and each sector. Do not substitute this recovery for the closing report.",
+        "due_at": "2026-10-27T17:30:00+08:00",
+        "confirms": "Broad participation and stable energy operations support the contained-disruption case.",
+        "contradicts": "Weak breadth plus verified operational or margin stress contradict it.",
+        "source_ids": [
+          "hours",
+          "gas",
+          "close"
+        ]
+      },
+      {
+        "signal": "Verify actual KORE release separately from its timetable; check Digital Core REIT after-hours update, publication timestamp and financing/occupancy commentary when available.",
+        "due_at": "2026-10-27T18:00:00+08:00",
+        "confirms": "Maintained cash generation, occupancy and funding access support property resilience.",
+        "contradicts": "Weak leasing or higher funding costs undercut it; no release means an unresolved data gap, not a negative result.",
+        "source_ids": [
+          "kore",
+          "dcr"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T03:09:12Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-27",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX cash securities — regular calendar verified; live venue/individual halt status not independently established",
+          "status": "verified-session",
+          "source_ids": [
+            "calendar",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Previous-close neutral participation with soft index leadership; current-session sentiment DATA INCOMPLETE.",
+        "indicators": "26 October: 252 advances / 252 declines, S$1.4bn turnover, STI -0.1%, all three local banks lower. These are dated observable proxies, not a survey or current opening indication. Current volatility, flows and political-post sentiment were not verified.",
+        "source_ids": [
+          "close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "September electronics output +5.7% y/y and precision engineering +31% in the secondary EDB account; neither is a technology-share return.",
+          "implication": "Manufacturing demand remains uneven; equipment exposure differs from domestic-facing firms.",
+          "watchpoint": "Verify orders, customer concentration, FX and current technology-stock breadth.",
+          "source_ids": [
+            "output"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "26 October Singtel indexed release: Nxera and Sembcorp signed an exploratory low-carbon-power MOU. Direct body was not rendered; no current telco share performance verified.",
+          "implication": "Potential power access supports data-centre expansion only if projects, permits and economics become binding.",
+          "watchpoint": "Check definitive supply contracts, commissioning dates and capital obligations; do not book MOU revenue.",
+          "source_ids": [
+            "nxera"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 27 October retailer, travel or hospitality opening evidence. MAS 14 October context noted weakness in consumer-facing activity.",
+          "implication": "Higher input costs may pressure demand, but tourism, currency and company mix can offset; no sector direction assigned.",
+          "watchpoint": "Refresh issuer sales and bookings, current breadth and any energy-cost pass-through.",
+          "source_ids": [
+            "mas"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified current staples basket or margin release. MAS historical outlook highlighted food-cost risks.",
+          "implication": "Defensive demand does not guarantee defensive margins when inputs rise.",
+          "watchpoint": "Check realised commodity costs, hedges and pricing against volumes.",
+          "source_ids": [
+            "mas"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "25 October official gas statement confirms reduced supply with replacement available; no verified current oil, LNG or energy-equity prices.",
+          "implication": "Supply continuity lowers immediate shortage concerns; procurement cost and contractual recovery remain distinct unknowns.",
+          "watchpoint": "Verify replacement costs and issuer disclosures before inferring earnings effects.",
+          "source_ids": [
+            "gas"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "26 October DBS, OCBC and UOB fell 0.3%, 0.2% and 0.7%. No reliable 27 October bank/opening quotes or fresh funding curve retrieved.",
+          "implication": "Heavyweight weakness can explain index softness without proving systemic stress.",
+          "watchpoint": "Refresh bank participation, funding costs, credit-loss disclosures and current index contribution.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "September biomedical production fell 32.8% y/y in the EDB secondary account, partly reflecting pharmaceutical product mix; this is not hospital-sector revenue.",
+          "implication": "Production mix and softer medical-technology exports require different explanations; neither proves healthcare share weakness.",
+          "watchpoint": "Seek primary EDB release and issuer segment data before generalising.",
+          "source_ids": [
+            "output"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "September transport engineering output +10.6% y/y in the secondary EDB account; the 26 October energy lecture outlined grid expansion.",
+          "implication": "Potential infrastructure demand is longer term; tenders, contract awards and margins matter before revenue recognition.",
+          "watchpoint": "Check funded awards, backlog conversion and energy exposure; no current sector prices verified.",
+          "source_ids": [
+            "output",
+            "grid"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "September chemicals output -4.6% y/y in the secondary EDB account, with softer demand and feedstock constraints discussed.",
+          "implication": "Feedstock and demand exposures vary across listed businesses; this is not a materials-index return.",
+          "watchpoint": "Verify company-specific feedstock cover and selling spreads, plus fresh basket prices.",
+          "source_ids": [
+            "output"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "23 October official statistics showed Q3 private-home, office and retail price indices rising 1.4%, 0.8% and 1.1% q/q; these are property prices, not rents or REIT returns. KORE and Digital Core release calendars need outcome checks.",
+          "implication": "Asset-value resilience may coexist with funding and leasing pressure. US-property REIT exposure differs from Singapore property.",
+          "watchpoint": "Read actual results, debt maturity, occupancy and cash distribution coverage; refresh sector prices.",
+          "source_ids": [
+            "property",
+            "kore",
+            "dcr"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "Official gas cover and 26 October grid expansion plans provide physical-system context. No current generator margin, tariff surprise or utility basket return verified.",
+          "implication": "Reliability investment can add opportunity and capital needs simultaneously; adequate fuel does not fix its cost.",
+          "watchpoint": "Verify procurement, regulatory recovery and funded projects rather than equating plans with profits.",
+          "source_ids": [
+            "gas",
+            "grid"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Conditional: regional fuel substitution and infrastructure sourcing can affect ASEAN energy trade; Singapore manufacturing evidence may inform, but does not establish, Asian technology demand.",
+          "trigger": "Regional supplier disclosures and export/order data corroborate the transmission.",
+          "invalidation": "Contract cover and country-specific demand keep effects local; basket calendars and current prices remain separate checks.",
+          "source_ids": [
+            "gas",
+            "nxera",
+            "output"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Conditional: grid and power investment could create demand for European equipment suppliers, while fuel competition could affect costs.",
+          "trigger": "Verified supplier awards or cargo/pricing evidence; a Singapore plan alone is insufficient.",
+          "invalidation": "Projects remain preliminary, suppliers differ or no price transmission appears.",
+          "source_ids": [
+            "grid",
+            "gas"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Conditional: Singapore data-centre energy planning matters to AI infrastructure capacity; US-property REIT releases can inform local asset-specific funding risk.",
+          "trigger": "Binding power capacity and actual REIT operational updates, not MOU headlines or release calendars.",
+          "invalidation": "Delayed capacity or improving financing contradicts a simple positive/negative spillover; no US opening call is made.",
+          "source_ids": [
+            "nxera",
+            "kore",
+            "dcr"
+          ]
+        }
+      ]
+    }
   }
 ]
