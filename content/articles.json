@@ -1,5 +1,419 @@
 [
   {
+    "id": "2026-10-27-singapore-close",
+    "title": "Singapore closing read — issuer cash flows verified, closing-price confirmation incomplete",
+    "summary": "27 October closing-context read, evidence cutoff 18:04 SGT, after scheduled trade-at-close. KORE's actual update replaces the morning calendar-only gap; KIT's reported income needs a divestment-gain comparison. No reliable final STI/breadth/sector snapshot was verified.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-27T10:04:39Z",
+    "updated_at": "2026-10-27T10:04:39Z",
+    "cutoff_at": "2026-10-27T10:04:39Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "calendar",
+        "title": "2026 public holidays; 27 October not a listed holiday",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "primary"
+      },
+      {
+        "id": "hours",
+        "title": "Normal-day trade-at-close ends 17:16 — current rulebook; source date denotes retrieval, revision date unavailable",
+        "publisher": "SGX Rulebook",
+        "url": "https://rulebook.sgx.com/rulebook/regulatory-notices-1",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "primary"
+      },
+      {
+        "id": "ng",
+        "title": "Historical-data page versus indexed snippet: no verified current-day final close",
+        "publisher": "Investing.com Nigeria",
+        "url": "https://ng.investing.com/indices/singapore-straits-time-historical-data",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "secondary"
+      },
+      {
+        "id": "za",
+        "title": "Current-day row lacks independently verified closing status; differs from indexed extraction",
+        "publisher": "Investing.com South Africa",
+        "url": "https://za.investing.com/indices/singapore-straits-time-historical-data",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "secondary"
+      },
+      {
+        "id": "opening",
+        "title": "09:08 Singapore snapshot — opening context only, not a closing report",
+        "publisher": "BusinessToday",
+        "url": "https://www.businesstoday.com.my/2026/10/27/sti-slips-at-open-amid-cautious-global-market-sentiment/",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "secondary"
+      },
+      {
+        "id": "kore",
+        "title": "3Q 2026 key business and operational updates, especially slides 2, 4, 14, 16 and 22",
+        "publisher": "KORE US REIT",
+        "url": "https://www.koreusreit.com/file/financial-information/fy2026/kore-3q-2026-key-business-and-operational-updates.pdf",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "primary"
+      },
+      {
+        "id": "kit",
+        "title": "Morning stocks-to-watch freely readable extract: KIT and CLAS; not a closing-price source",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/stocks-watch-capitaland-ascott-trust-keppel-infrastructure-trust-ifast-esr-reit-first-sponsor",
+        "published_at": "2026-10-27T08:40:13+08:00",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "secondary"
+      },
+      {
+        "id": "gas",
+        "title": "25 October ministerial statement — unchanged dated supply context, re-read at this cutoff",
+        "publisher": "Ministry of Energy, Trade and Industry",
+        "url": "https://www.meti.gov.sg/newsroom/remarks-by-minister-tan-see-leng-at-the-media-doorstop-on-indonesia-gas-exports/",
+        "published_at": "2026-10-25",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "primary"
+      },
+      {
+        "id": "dcr",
+        "title": "Scheduled release date only — not the actual Q3 business update",
+        "publisher": "Digital Core REIT",
+        "url": "https://investor.digitalcorereit.com/news.html/id/2628718",
+        "published_at": "2026-09-30T07:30:00+08:00",
+        "accessed_at": "2026-10-27T10:04:39Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Closing-context read for 27 October, compiled at 18:04:39 SGT, 34m39s after the 17:30 editorial target and 48m39s after scheduled normal-day trade-at-close. Regular-calendar outcome from the earlier verified SGX read is reused; MOM holiday list and SGX normal-day phases rechecked. No comprehensive individual-security or exchange-halt all-clear is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "calendar",
+          "hours"
+        ]
+      },
+      {
+        "text": "FINAL PRICE DATA INCOMPLETE: the Nigeria historical page retrieved through 26 October while its indexed extract showed a current-date row. South Africa's page/row differed from its search extract, without a trustworthy matching close timestamp. Neither is certified as 27 October's final STI. Yahoo retrieval was rate-limited and SGX's dynamic page exposed an unsupported-browser shell. Current final bank prices, breadth, turnover, 11 sector returns, rates/FX and commodity marks remain unverified.",
+        "kind": "fact",
+        "source_ids": [
+          "ng",
+          "za"
+        ]
+      },
+      {
+        "text": "Opening context only: BusinessToday's 09:08 snapshot had STI 5,413.34 (-0.05%), 107 gainers versus 72 decliners and S$128.32m traded. It is not the end-of-day result; no opening-to-close return or causal claim is derived from it.",
+        "kind": "fact",
+        "source_ids": [
+          "opening"
+        ]
+      },
+      {
+        "text": "KORE's actual Q3 update is now retrieved, not merely scheduled. At 30 September, committed occupancy was 86.1%; Q3 rent reversion +0.7%. The US$120m secured facility is expected to address about 65% of 2027 maturities upon drawdown, excluding uncommitted revolvers; remaining refinancing discussions continue. DPU guidance is 0.40 US cents for EACH of 2H2026 and 1H2027, subject to financing, market and interest-rate conditions—not per quarter or guaranteed.",
+        "kind": "fact",
+        "source_ids": [
+          "kore"
+        ]
+      },
+      {
+        "text": "The freely readable BT account reports KIT 9M distributable income S$140.1m, down 17%, versus S$168.9m including prior-year divestment gains S$44.1m. Excluding those gains, growth was 12.3% versus S$124.8m. Assets funds from operations rose 14.8% to S$293.7m. These are different measures; underlying growth does not change the lower reported distribution-income total. Primary KIT results were not independently retrieved.",
+        "kind": "fact",
+        "source_ids": [
+          "kit"
+        ]
+      },
+      {
+        "text": "Dated supply context, not fresh disruption: the 25 October ministerial statement described an 18-day Indonesian gas reduction below 2% of daily power-sector demand, with replacement gas available. Physical supply cover does not establish replacement cost or listed-generator earnings.",
+        "kind": "fact",
+        "source_ids": [
+          "gas"
+        ]
+      },
+      {
+        "text": "Digital Core REIT's 30 September notice schedules a Q3 update after 27 October trading. The actual Q3 results were not retrieved; a newsroom request timed out. That is a retrieval gap, not proof the issuer failed to publish. No announcement-calendar entry is treated as delivered results.",
+        "kind": "fact",
+        "source_ids": [
+          "dcr"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "No verified end-of-day return is available to explain; assigning today's STI move to rates, geopolitics or a heavyweight would be unsupported.",
+        "transmission": "Use issuer cash-flow evidence as company analysis, not a substitute for market-performance attribution. A timestamped complete price/breadth set is needed before distinguishing broad repricing from concentration.",
+        "confidence": "uncertain",
+        "alternatives": "Issuer-specific earnings, positioning, FX and external rates may matter, but direction and contribution remain untested here.",
+        "source_ids": [
+          "opening",
+          "ng",
+          "za"
+        ]
+      },
+      {
+        "explanation": "KORE's operating and financing indicators improve the evidence base but do not settle its debt or distribution outlook.",
+        "transmission": "Conditional: committed rent and available funding may support cash continuity; confirm drawdown terms, remaining maturities and realised leasing costs. Guidance is not realised distributable cash.",
+        "confidence": "inference",
+        "alternatives": "Renewal incentives, tenant downsizing and refinancing costs could absorb operating progress. A secured facility is not the same as every maturity being refinanced.",
+        "source_ids": [
+          "kore"
+        ]
+      },
+      {
+        "explanation": "KIT's headline decline and adjusted growth describe different comparatives rather than a contradiction to be smoothed over.",
+        "transmission": "Separate recurring operations from asset-recycling proceeds, financing and actual distributions before extrapolating a sustainable payout. Gas procurement economics require their own contracts and cost evidence.",
+        "confidence": "inference",
+        "alternatives": "Divestment timing can distort year-on-year comparisons; eliminating the comparator gain does not make the prior cash proceeds unreal or verify all future recurring cash.",
+        "source_ids": [
+          "kit",
+          "gas"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Issuer resilience without a certified broad-market recovery",
+        "outcome": "Selective operating improvement could persist without confirming a positive index or sector close.",
+        "trigger": "Actual rent collections, cash conversion and completed financing corroborate company guidance; a later verified closing dataset shows participation.",
+        "invalidation": "Cash costs rise or remaining financing deteriorates; confirmed breadth contradicts the proposed resilience.",
+        "horizon": "Next one to three sessions and next issuer updates; no probability or trading signal assigned.",
+        "source_ids": [
+          "kore",
+          "kit"
+        ]
+      },
+      {
+        "name": "Funding and replacement-cost pressure offsets operating gains",
+        "outcome": "Higher financing or input costs could squeeze cash available to investors despite adequate physical supply or improved occupancy.",
+        "trigger": "Issuer disclosure quantifies adverse refinancing, procurement, incentives or capex requirements.",
+        "invalidation": "Stable realised costs, funded maturities and maintained cash collection counter the stress case.",
+        "horizon": "Next financing/operating updates; reassess with 28 October opening evidence.",
+        "source_ids": [
+          "gas",
+          "kore",
+          "kit"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Obtain and reconcile a timestamped 27 October final STI, bank contribution, advance/decline counts, turnover and each sector. Never relabel an indexed intraday or 26 October quote as today's close.",
+        "due_at": "2026-10-28T08:00:00+08:00",
+        "confirms": "A consistent official/reliable completed-session dataset permits price attribution and a labelled evidence update.",
+        "contradicts": "Conflicting timestamps or observations leave the close uncertified; no inference fills the gap.",
+        "source_ids": [
+          "hours",
+          "ng",
+          "za"
+        ]
+      },
+      {
+        "signal": "Read actual Digital Core Q3 publication and primary KIT results when accessible; check KORE's remaining financing, drawdown status and guidance conditions.",
+        "due_at": "2026-10-28T08:00:00+08:00",
+        "confirms": "Reported cash generation and signed financing substantiate operating resilience.",
+        "contradicts": "Higher costs, weaker occupancy or missing disclosures leave the interpretation unconfirmed.",
+        "source_ids": [
+          "dcr",
+          "kit",
+          "kore"
+        ]
+      },
+      {
+        "signal": "Keep Asia 18:15 SGT closing read separate; the Singapore product cannot certify other Asian venues or their closing prices.",
+        "due_at": "2026-10-27T18:15:00+08:00",
+        "confirms": "Venue-specific calendars and final observations support the regional comparison.",
+        "contradicts": "Missing or intraday-only observations require a partial basket, not an invented regional close.",
+        "source_ids": [
+          "hours"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T10:04:39Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-27",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX normal-day calendar/phases verified; exceptional and security-specific halts not comprehensively established",
+          "status": "verified-session",
+          "source_ids": [
+            "calendar",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Closing-session sentiment DATA INCOMPLETE; morning participation is dated context only.",
+        "indicators": "The explicit 09:08 proxy appears above. No verified final breadth, volume, bank contribution, volatility, flows or attributable political-post sentiment was obtained. Issuer outlooks are not public-opinion surveys or proof of price causation. Conflicting quote rows were rejected rather than averaged.",
+        "source_ids": [
+          "opening",
+          "ng",
+          "za"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified 27 October technology-sector closing series or issuer order/earnings update in this recovery.",
+          "implication": "Conditional: demand needs orders and cash collection, not an inferred link to an overseas AI index.",
+          "watchpoint": "Verify equipment orders, customer capex, deliveries and dated closing breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified closing telco/media basket or fresh binding power/network contract used.",
+          "implication": "Conditional: data-centre capacity and network demand can raise both revenue opportunity and capex.",
+          "watchpoint": "Check signed contracts, commissioning, subscribers and free cash flow, not MOU assumptions.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "BT's morning account says CLAS Q3 same-store operating performance improved 4% y/y, excluding specified portfolio changes and the closed Cavendish London; no sector close verified.",
+          "implication": "Conditional: same-store and total performance differ when assets are closed, sold or acquired.",
+          "watchpoint": "Read primary lodging results, actual occupancy/room economics and portfolio reconciliation.",
+          "source_ids": [
+            "kit"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No reliable current staples closing basket, volumes or margin update retrieved.",
+          "implication": "Conditional: essential demand need not protect profits from higher inputs.",
+          "watchpoint": "Verify sales volumes versus price/mix and hedging before assigning sector direction.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Dated official gas assurance was rechecked; no reliable final oil/gas or energy-equity marks retrieved.",
+          "implication": "Conditional: replacement gas maintains supply but its cost and pass-through remain separate questions.",
+          "watchpoint": "Check procurement prices, contracts and realised producer/refiner margins.",
+          "source_ids": [
+            "gas"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No final local bank prices, closing contribution, funding curve or comparable wealth-flow update verified.",
+          "implication": "Conditional: overseas bank moves and this morning's STI cannot determine Singapore banks' closing result.",
+          "watchpoint": "Refresh local fee/deposit trends, credit costs, bank contribution and balance-sheet disclosures.",
+          "source_ids": [
+            "opening"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current hospital/pharma/medtech basket or issuer release independently verified.",
+          "implication": "Conditional: product mix, reimbursement and FX differ across businesses; no defensive return assigned.",
+          "watchpoint": "Check segment demand, margins, regulation and dated closing participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current industrial basket or funded new-order series retrieved; infrastructure cash-flow context is discussed separately.",
+          "implication": "Conditional: funded awards and working-capital conversion matter more than an infrastructure theme.",
+          "watchpoint": "Check backlog conversion, cash costs, logistics volumes and actual supplier contracts.",
+          "source_ids": [
+            "kit"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No matched final materials basket, metals benchmarks or selling-spread series obtained.",
+          "implication": "Conditional: feedstock and currency costs may offset demand; a macro headline is insufficient.",
+          "watchpoint": "Verify inventories, utilisation, feedstock cover and issuer realised spreads.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "KORE actual Q3 disclosure replaces a calendar-only gap; Digital Core's actual update remains a retrieval gap. Neither supplies the whole REIT-sector return.",
+          "implication": "Interpretation: operating progress and refinancing/distribution risk can coexist; geography and lease incentives matter.",
+          "watchpoint": "Check primary results, actual cash collections, remaining maturities and conditional payout coverage.",
+          "source_ids": [
+            "kore",
+            "dcr"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "KIT's reported versus ex-divestment-gain income comparison is documented above from a secondary source. No utility closing basket or primary KIT results verified.",
+          "implication": "Interpretation: underlying operating growth, reported distributable income and actual payout are different tests.",
+          "watchpoint": "Verify primary FFO/distribution reconciliation, borrowing and procurement/cost-recovery contracts.",
+          "source_ids": [
+            "kit",
+            "gas"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Conditional: replacement fuel and regional financing could transmit across markets, but Singapore corporate evidence does not establish another venue's closing direction.",
+          "trigger": "Independent supplier/cost and regional bank/issuer disclosures corroborate the channel.",
+          "invalidation": "Contract cover, different customer mix or stable realised costs keep the impact local.",
+          "source_ids": [
+            "gas",
+            "kit"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Conditional: procurement or financing changes can affect shared lenders and suppliers; no European closing forecast follows.",
+          "trigger": "Actual funding spreads, awarded contracts and supplier cash-flow evidence validate the link.",
+          "invalidation": "Hedges, contract structures and issuer-specific factors prevent broad transmission.",
+          "source_ids": [
+            "gas",
+            "kit"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Conditional: KORE supplies company-specific US-office leasing/refinancing evidence; it is not a US-property-sector or economic census.",
+          "trigger": "US peers disclose comparable occupancy, collection, lease incentives and refinancing outcomes.",
+          "invalidation": "Different geography, tenant concentration or debt structures explain divergence.",
+          "source_ids": [
+            "kore"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-27-europe-open-delayed",
     "title": "Europe opening read — bank disappointment versus resilient core earnings",
     "summary": "Delayed opening-context read, evidence cutoff 16:59 SGT / 08:59 GMT. Early bank weakness contrasts with Novartis guidance, but reported earnings and cash flow require separate scrutiny. Full sector breadth, current rates/FX and other venue calendars remain incomplete.",
