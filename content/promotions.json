@@ -88,10 +88,15 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-27T00:05:00Z",
+      "review_due_at": "2026-10-28T00:05:00Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-27T00:05:00Z",
+          "change": "Rechecked the official FX promotion PDF: end date now 31 December 2027, resolving the previously recorded 2026 PDF discrepancy. Australia rate changes to 0.5% from 1 January 2027. No other card/offer recertification implied."
+        }
+      ],
       "id": "uob-evol-fx-cashback-2026",
       "name": "UOB EVOL: up to 1% cashback on foreign-currency spend",
       "category": "Overseas spending",
@@ -99,12 +104,12 @@
         "UOB EVOL"
       ],
       "apps": [],
-      "benefit": "0.5% cashback on eligible FX spend processed in China and the defined European countries; 1% on other eligible FX spend. No minimum spend and no cashback cap under the linked promotion terms.",
-      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas transactions charged in SGD do not qualify. Excludes Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs. The product page advertises an extension to 2027, but its linked PDF still ends on 31 December 2026; this listing uses that verified PDF end date pending reconciliation.",
+      "benefit": "0.5% cashback on eligible FX spend processed in China and defined European countries; 1% on other eligible FX spend. From 1 January 2027, Australia receives 0.5%. No minimum spend or cashback cap under the linked promotion terms.",
+      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas SGD transactions do not qualify. Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs are excluded. The linked PDF now extends through 31 December 2027; country, processing and transaction exclusions control.",
       "source_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
       "terms_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf",
       "starts_at": "2026-03-26T00:00:00+08:00",
-      "expires_at": "2027-01-01T00:00:00+08:00"
+      "expires_at": "2028-01-01T00:00:00+08:00"
     }
   ],
   "cards": [

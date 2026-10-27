@@ -2,15 +2,62 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-26",
+  "latest": "2026-10-27",
   "issues": [
+    {
+      "date": "2026-10-27",
+      "number": 40,
+      "title": "AI demand finds funding; the cash-flow test remains",
+      "status": "data incomplete",
+      "path": "issues/2026/10/27/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-27-v1",
+        "delivery_notice": "We apologise for the delayed edition. Research began after the 08:00 target; this issue uses an 08:05 SGT evidence cutoff.",
+        "summary": "Issue 040 clarifies SpaceX's future hardware leases and Meta's proposed equity funding, not completed NVIDIA revenue. US stocks recovered while Japan and Singapore diverged. Cyber exposure and a UOB terms update are reviewed. All five DEDL desks remain DATA INCOMPLETE.",
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. No security certified and no trade placed. Comparable sector, oil-series and disclosure gaps remain explicit.",
+        "headlines": [
+          {
+            "title": "SpaceX financing clarified as future hardware leases",
+            "date": "2026-10-26",
+            "context": "Reuters reports about US$40B principal payments, finalization targeted by year-end and leases starting H1 2027. This is not delivered NVIDIA revenue.",
+            "source": "https://www.reuters.com/business/media-telecom/spacex-enters-40-billion-deal-with-apollo-ai-chip-financing-2026-10-26/"
+          },
+          {
+            "title": "Meta launches offerings; proceeds are not all immediate",
+            "date": "2026-10-26",
+            "context": "Meta describes about US$35B of offerings plus a possible future US$60B ATM. Forward-sale cash arrives only at later settlement.",
+            "source": "https://investor.atmeta.com/investor-news/default.aspx"
+          },
+          {
+            "title": "Singapore stocks edge down",
+            "date": "2026-10-26",
+            "context": "STI closed at 5,415.91, down 6.25 points. Sembcorp fell 2.8%; this does not establish a utilities-sector return.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-stocks-close-lower-amid-mixed-regional-showing-sti-down-0-1"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-26",
       "number": 39,
       "title": "Energy risk is real; escalation claims need evidence",
       "status": "data incomplete",
       "path": "issues/2026/10/26/",
-      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
       "telegram": {
         "delivery_revision": "2026-10-26-v1",
         "summary": "Issue 039 separates verified Gulf escalation from unconfirmed strike damage and viral war forecasts. Early Monday oil futures partly reversed Friday's surge. A new SpaceX GPU-financing statement signals potential AI demand and capital-intensity risk, not NVIDIA revenue. All five DEDL desks remain DATA INCOMPLETE.",
@@ -44,7 +91,13 @@
       "title": "AI infrastructure scales; power and execution become the test",
       "status": "data incomplete",
       "path": "issues/2026/10/25/",
-      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
       "telegram": {
         "delivery_revision": "2026-10-25-v2",
         "delivery_notice": "We apologise: Issue 038 was published on the website, but its morning Telegram digest failed before delivery because the metadata exceeded formatting limits. This is the corrected late delivery; its 08:00 SGT evidence cutoff is unchanged.",
@@ -79,7 +132,13 @@
       "title": "Technology steadies; oil becomes the active macro constraint",
       "status": "data incomplete",
       "path": "issues/2026/10/24/",
-      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
       "telegram": {
         "delivery_revision": "2026-10-24-v1",
         "summary": "Issue 037 reports DATA INCOMPLETE across all five desks; no security is certified. Technology steadied after Thursday’s selloff, but higher oil and the upcoming hyperscaler capex reports keep funding and return questions open.",
@@ -113,7 +172,13 @@
       "title": "AI cash bills meet a market that demands proof",
       "status": "data incomplete",
       "path": "issues/2026/10/23/",
-      "markets": ["US", "SG", "GLOBAL", "REITS", "FUNDS"],
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
       "telegram": {
         "delivery_revision": "2026-10-23-v1",
         "summary": "Issue 036 reports DATA INCOMPLETE across all five desks; no security is certified. The AI-led selloff is a material funding and valuation warning, but it does not by itself establish a system-wide crash.",

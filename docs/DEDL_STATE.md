@@ -1,14 +1,15 @@
 # DEDL compact handoff
 
-Updated 26 October 2026. Read `docs/DEDL_RUNBOOK.md` first. This is public-safe operational state, not a private portfolio or research archive. Replace obsolete handoff details with dated facts; Git preserves prior versions. Link supporting records rather than duplicating full reports.
+Updated 27 October 2026. Read `docs/DEDL_RUNBOOK.md` first. Public-safe operational state only; Git retains prior handoffs.
 
 ## Publication baseline
 
-- Inspected base: `a2d46138fb00c5a5d95e2918f3fbcb58d4bebe8e`.
-- Latest indexed edition: Issue 039, 26 October 2026, `issues/2026/10/26/`. Read `issues.json` each run; this pointer becomes stale when a later edition is added.
-- 39 indexed editions and eight structured reports at this base: seven Markets, one Conflict. Military/Parliament/Cybersecurity have no separate records in the structured collection; older editions may contain coverage. Empty collections are gaps, not all-clear statements.
+- Immutable research base: `09198f8596ed8af5de08b5f20b5fca9ef43a4e66` (default branch main).
+- Issue 040, 27 October 2026, `issues/2026/10/27/`, prepared with actual 08:05 SGT cutoff and delayed-publication apology. No duplicate issue existed at start. Inspect the release run for first-publication time and Telegram acceptance; a commit alone is not delivery.
+- 40 indexed editions; eight structured reports remain seven Markets/one Conflict. New daily coverage is in the dated issue, not a fabricated session report. Empty standalone desks remain coverage gaps.
 - Latest market coverage is incomplete. Sector series, comparable universes and technical filters were not fully verified. Do not certify stocks from the preliminary 55-ticker triage.
-- Five offers and five card records require reverification as of 26 October. Review overdue is not expiry. Keep the established stale-data filters.
+- UOB EVOL FX PDF rechecked 27 October: end date now 31 December 2027; Australia rate changes in January 2027. Dated correction in `content/promotions.json`. Other nine records remain overdue; partial retrieval is not complete recertification.
+- Issue 040 records Meta financing, SpaceX lease clarification, Monday closes and cyber evidence. Manager landing pages/Parliament/CISA have access gaps; oil snapshots were not reconciled. No all-clear or new manager trade asserted. Source links and dates are in the issue.
 
 ## Operating decisions
 
@@ -20,7 +21,7 @@ Updated 26 October 2026. Read `docs/DEDL_RUNBOOK.md` first. This is public-safe 
 
 ## Consolidation verification
 
-Consolidation implementation `168824b` passed 31 tests, 82-page link/artifact checks, immutable-base history and digest byte comparison. Remote run 40325019818 succeeded and confirmed no Telegram send for the unchanged delivery key. The existing 08:00 SGT daily task was updated and reread; no new task. See `docs/DEDL_CONSOLIDATION_TESTS.md`. Source editions, index, homepage and assets are unchanged. The next full scheduled run and a real changed-edition send remain separate operational checks; mock tests do not prove live API coverage or future delivery. Account-memory deletion is unavailable; GitHub is the compact operational handoff, not proof that stored memories were erased.
+Consolidation baseline and unchanged-digest checks: `docs/DEDL_CONSOLIDATION_TESTS.md`. Issue 040 local checks: 31 tests passed; 83 generated pages, links/artifact, Telegram dry-run, context, editorial checklist, diff and immutable-base history passed. Facts/privacy reviewed separately. Final release receipt must be checked after deployment; do not retry ambiguous acceptance.
 
 ## Next scheduled run
 
