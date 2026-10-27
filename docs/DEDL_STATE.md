@@ -16,7 +16,7 @@ Updated 27 October 2026. Read `docs/DEDL_RUNBOOK.md` first. Public-safe operatio
 
 ## Operating decisions
 
-- One research slot: existing 08:00 Asia/Singapore DEDL task. NVIDIA/UBER remain consolidated; no independent session or checklist timer. Separate tasks must not be resumed by inference from old documents.
+- 27 October user repair request supersedes the single-slot restriction for Market Watch only. Restoration is BLOCKED by the five-active-task plan limit; three partial new jobs were paused, not left running. Full 08:00 Asia/Singapore edition remains enabled with a missing-session follow-up; NVIDIA/UBER remain consolidated. Unrelated schedules unchanged. No complete session schedule or hourly research was enabled. See `docs/MARKET_WATCH_RECOVERY.md` for evidence and the required scheduling decision.
 - Maintain website/Telegram output format and extensive explanations. No UI redesign in this consolidation.
 - Keep all research/data access free and rights-compliant. Sources and gates are in the runbook. BrotherEye's intended URL is still needed; no five-provider live feed or perpetual Linux worker is running.
 - No private algorithm installed/deployed. arch/MAPIE are early candidates, PySR/tick later experiments. A private repository/runtime and genuine eligible data are unresolved prerequisites. Never store private formulas in this repository.

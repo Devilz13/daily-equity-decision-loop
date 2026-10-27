@@ -1,6 +1,7 @@
 import {readFileSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
 import {sgDate,channels} from './model.mjs';
+import {sessionAudit} from './market-sessions.mjs';
 
 // Metadata-only retrieval aid. It does not fetch sources or certify freshness.
 export function buildRunContext({issues,articles,promotions},now=new Date()) {
@@ -12,7 +13,8 @@ export function buildRunContext({issues,articles,promotions},now=new Date()) {
     if(!old || Date.parse(s.accessed_at)>Date.parse(old.accessed_at)) sourceMap.set(s.url,{...s,report:a.id});
   }
   return {
-    generated_at:now.toISOString(),singapore_date:today,research_slot:'08:00 Asia/Singapore only',
+    generated_at:now.toISOString(),singapore_date:today,research_slot:'08:00 Asia/Singapore full edition; Market Watch at desk open/close windows',
+    market_watch:{overdue_weekday_targets:sessionAudit(now,articles).filter(x=>x.status==='overdue-calendar-unverified').map(({market,session,date,target_at})=>({market,session,date,target_at})),caveat:'Calendar verification required; baseline research and daily newsletters do not satisfy session reads.'},
     latest_issue:{number:latest.number,date:latest.date,path:latest.path,status:latest.status},
     publication_state:latest.date===today?'already-indexed: inspect delivery/corrections; do not duplicate':latest.date<today?'today-not-indexed: research/resume required':'future-index-date: investigate',
     structured_coverage:Object.fromEntries(Object.keys(channels).map(channel=>{

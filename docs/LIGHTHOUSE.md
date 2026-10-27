@@ -1,14 +1,14 @@
 # Lighthouse operating brief
 
-The existing **08:00 SGT overall news and events edition continues in full**: Global, US, Europe, Asia and Singapore; Markets, Military, Parliament, Conflict, cyber frontier, agentic agents and other material developments. Effective 26 October 2026, `docs/DEDL_RUNBOOK.md` consolidates research into that slot only. Review the latest completed sessions and available pre-open context; do not narrow the morning edition to markets or create extra session timers.
+The existing **08:00 SGT overall news and events edition continues in full**: Global, US, Europe, Asia and Singapore; Markets, Military, Parliament, Conflict, cyber frontier, agentic agents and other material developments. On 27 October the user explicitly requested restoration of Market Watch at each session's open and close. These eight narrow session windows are additional to the morning edition and supersede the session prohibition in the 26 October consolidation. No unrelated research schedules are restored.
 
-## Consolidated operation
+## Restored session operation
 
-The enabled daily DEDL task is the research publisher. No independent Lighthouse session automation was verified in the available task inventory; earlier claims that those jobs were running are superseded. The GitHub checklist is now dispatch/pipeline-only, with its separate 08:17 timer removed. Session helpers and time-zone tests remain useful for interpreting data periods, not as proof of a running service. Execution depends on connected accounts and capacity; it is not a guaranteed continuous feed.
+The 27 October audit found no independent Lighthouse session automation in the available inventory. The daily task explicitly prohibited session jobs. This is a configuration/coverage gap, not a demonstrated Telegram outage. Eight exchange-zone-aware weekday windows are the repair target, but full scheduling is BLOCKED by the five-active-task plan limit. Three partial new jobs were paused; no complete session schedule is active. Evidence and the required decision are in `docs/MARKET_WATCH_RECOVERY.md`. The GitHub checklist remains dispatch/pipeline-only. Execution depends on connected accounts and capacity, not a perpetual Linux process. A task completion is not proof of Pages publication; verify the run and exact live report.
 
 The first four research baselines cover all 11 sector groups with explicit observation periods and gaps. A baseline is not a retrospectively invented opening or closing edition. A dated stock observation is not proof of the entire sector's current direction. Refresh gaps using new evidence; never replace them with generic bullish/bearish claims.
 
-## Reference session windows — not research schedules
+## Scheduled editorial session windows
 
 | Desk | Opening context | Closing read | Clock |
 | --- | --- | --- | --- |
@@ -17,7 +17,7 @@ The first four research baselines cover all 11 sector groups with explicit obser
 | Europe | 07:45 | 16:50 | Europe/London |
 | US | 09:15 | 16:20 | America/New_York |
 
-These retained reference windows describe the original desired session coverage, not enabled timers or promised publication times. The daily 08:00 SGT slot uses the latest evidence actually available. A delayed opening/closing report must say it is delayed and distinguish pre-open evidence from subsequent trading. Use each exchange's local time zone and daylight-saving rules; do not label yesterday's data as today's close.
+Use these original editorial windows, not the exact exchange auction instant. They prepare opening context shortly before the principal cash open and closing analysis after closing phases. A schedule is a target, not guaranteed delivery. Store Europe in Europe/London and US in America/New_York so DST follows each market independently; do not add duplicate summer/winter jobs. A delayed read must say so and distinguish pre-open evidence from subsequent trading. Never label yesterday's data as today's close.
 
 `node scripts/market-sessions.mjs` lists candidates within 90 minutes after a target. Import `sessionCandidates(now, publishedArticles)` for duplicate suppression. This helper skips weekends and handles daylight saving; it does **not** certify holidays, half-days or halts. Inspect official calendars every day and before publication. On early closes, override the normal closing target to after the exchange's final trading phase; do not wait for the normal target. Record `early-close` or `partial` and cite the exchange announcement. Skip closed exchanges, identify open members of a regional basket, and do not manufacture a normal session on a holiday. After an outage, explicitly label catch-up reports and their actual publication/cutoff times.
 
@@ -35,4 +35,4 @@ Use `templates/market-read.json`, reviewed against `scripts/market-read.mjs` and
 6. Verify evidence, privacy and public safety. Publish only public strategic military context. No private positions, scoring rules, account data, operational intelligence or trade execution. Do not send new Telegram messages or change `issues.json` for these reads.
 7. Run tests, build, link checks and history checks against the current remote head. Create an atomic GitHub commit with an expected-head lease; if it moved, reconcile first. Verify both validation and Pages deployment. Report actual failures, not assumed success.
 
-Changing this document does not create a scheduler. All research is handled in the existing daily 08:00 SGT DEDL slot; no hourly, independent session or between-session jobs. Preserve historical reports and their real timestamps. Do not backfill fictitious pre-open research. The full morning edition retains its complete news/event scope, formats and extensive explanations.
+Changing this document does not create a scheduler. Verify each saved task separately. Run `node scripts/market-sessions.mjs --audit` on every session job and during the daily 08:00 SGT edition. Unlike the candidate helper, this retains overdue weekday targets for three local dates. Verify calendars before declaring a trading-session miss; weekends create no targets and holidays/early closes are not automatically certified. Preserve all 11 sectors, explicit gaps, sources, scenarios and spillovers. Publish catch-ups with the actual cutoff/publication time, never fictitious pre-open research. Session jobs must report blocked publication rather than silently suppress failure. During the next two completed windows, verify actual live reports; the daily edition follows up unresolved gaps. No hourly or between-session jobs; no session Telegram sends or changes to issues.json.

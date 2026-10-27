@@ -4,7 +4,7 @@ Version 1.0 — effective 26 October 2026. `docs/DEDL_RUNBOOK.md` is the daily e
 
 ## 1. Mandate and boundaries
 
-Use the existing daily **08:00 Asia/Singapore DEDL slot only**. No separate NVIDIA, UBER, conflict, model-training, market-session or checklist timers. Push-triggered build/deploy/delivery checks and manual recovery are not additional research schedules. A schedule is a target, not a guaranteed start or delivery time. Label delayed work and actual cutoffs honestly.
+Effective 27 October 2026: keep the existing daily **08:00 Asia/Singapore DEDL** full edition; the user's repair request additionally authorizes Market Watch open/close windows under `docs/LIGHTHOUSE.md`. Only the prohibition on session jobs is superseded. No separate NVIDIA, UBER, conflict, model-training, hourly research or checklist timers. The daily edition audits session gaps and deployment. Push-triggered build/deploy/delivery checks and manual recovery are not additional research schedules. A schedule is a target, not a guaranteed start or delivery time. Label delayed work and actual cutoffs honestly.
 
 Keep the established website, daily edition and Telegram format. Keep the public output extensive: simplification removes duplicated research and instructions, not evidence, coverage, explanations or the weekly debate. Do not redesign navigation or delete archive pages in an operational cleanup. Retain all original editions and labelled corrections.
 
@@ -31,7 +31,7 @@ Use exact timestamps and time zones when available; distinguish cash close, intr
 
 ## 4. Desk work within the same slot
 
-- **Markets / Lighthouse:** review the latest completed sessions and available pre-open context at 08:00 SGT. Retain session dates, exchange calendars and all 11 sector categories. Do not promise reports at separate opening/closing times. Existing session records remain archived. If a new open/close record is justified, identify its actual delay and evidence period; never fabricate a historical cutoff. See `docs/LIGHTHOUSE.md`.
+- **Markets / Lighthouse:** preserve daily context plus the restored session windows in `docs/LIGHTHOUSE.md`. Retain session dates, official calendars and all 11 sector categories. Audit overdue targets and actual live deployment. Preserve archives and identify real delays/evidence periods; never fabricate a historical cutoff.
 - **Military:** strategic, public-safe context; Monday/Wednesday/Friday review target. No tactical tracking, sensitive coordinates, targeting assistance or operational details.
 - **Parliament:** Tuesday/Thursday review target; optional Saturday item when substantive. Prefer official records; do not fill a quota.
 - **Conflict:** only material verified changes; maximum five structured reports per Monday–Sunday Singapore week. Zero is valid. Corrections do not create another event. Do not bypass the cap by splitting one development into multiple IDs.

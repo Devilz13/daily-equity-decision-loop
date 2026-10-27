@@ -2,12 +2,12 @@ import {readFileSync,appendFileSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
 import {channels,topics,sgDate,weekStart,validateArticles,validatePromotions} from './model.mjs';
 import {marketDesks} from './market-read.mjs';
-import {sessionCandidates} from './market-sessions.mjs';
+import {sessionCandidates,sessionAudit} from './market-sessions.mjs';
 export function editorialReport(articles,promotions,now=new Date()) {
   const day=sgDate(now),weekday=new Date(day+'T00:00:00Z').getUTCDay(),week=weekStart(now);
   const thisWeek=articles.filter(a=>weekStart(a.published_at)===week);
   const latest=items=>items.map(a=>a.cutoff_at).sort((a,b)=>Date.parse(b)-Date.parse(a))[0]||'Awaiting reviewed coverage';
-  const due=['08:00 SGT full overall news and events edition (all desks and regions)','Latest completed market sessions and available pre-open context (all 11 sector groups; daily slot only)','Singapore focal review','Cybersecurity daily scan (material events only)','Promotions validity / source review'];
+  const due=['08:00 SGT full overall news and events edition (all desks and regions)','Market Watch open/close coverage and missing-session audit (all 11 sector groups)','Singapore focal review','Cybersecurity daily scan (material events only)','Promotions validity / source review'];
   if([1,3,5].includes(weekday))due.push('Military short');
   if([2,4].includes(weekday))due.push('Parliament short');
   if(weekday===6)due.push('Optional third Parliament short if material');
@@ -19,6 +19,9 @@ export function editorialReport(articles,promotions,now=new Date()) {
     lines.push(`- ${d.name}: ${report?`${report.cutoff_at}; ${report.market_read.sectors.filter(s=>s.status==='data-incomplete').length}/11 explicit data gaps`:'Awaiting first scan'}.`);
   }
   lines.push(`Session candidates (official calendars still require verification): ${JSON.stringify(sessionCandidates(now,articles))}`);
+  const gaps=sessionAudit(now,articles).filter(x=>x.status==='overdue-calendar-unverified');
+  lines.push(`Overdue weekday targets: ${gaps.length}. Resolve calendars before declaring missed trading sessions; never treat an empty 90-minute window as healthy.`);
+  for(const gap of gaps)lines.push(`- ACTION REQUIRED: ${gap.market} ${gap.date} ${gap.session}; target ${gap.target_at}; verify calendar, catch-up honestly, verify live deployment.`);
   lines.push('','## Singapore focal coverage');
   for(const [k,v] of Object.entries(topics))lines.push(`- ${v}: ${latest(articles.filter(a=>a.regions.includes('singapore')&&a.topics.includes(k)))}.`);
   const conflict=thisWeek.filter(a=>a.channel==='conflict').length;

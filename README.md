@@ -1,6 +1,6 @@
 # DEDL Market Brief
 
-Operating instructions: [DEDL runbook](docs/DEDL_RUNBOOK.md) and [compact handoff](docs/DEDL_STATE.md). Research uses the existing **08:00 Asia/Singapore slot only**, free permitted public information, shared source checks and unchanged extensive publication formats. Start with `node scripts/run-context.mjs`; this is a metadata retrieval aid, not a live scanner. Private methodology and owner-only output must never enter this public repository.
+Operating instructions: [DEDL runbook](docs/DEDL_RUNBOOK.md) and [compact handoff](docs/DEDL_STATE.md). The full edition retains **08:00 Asia/Singapore**. The 27 October user request restores Market Watch open/close windows in [Lighthouse](docs/LIGHTHOUSE.md), with a daily missing-session audit. Use free permitted public information, shared source checks and unchanged extensive formats. Start with `node scripts/run-context.mjs`; it is metadata, not a live scanner. Private methodology and owner-only output must never enter this public repository.
 
 The public site now includes an [editorial overview](https://devilz13.github.io/daily-equity-decision-loop/briefing/), Markets / Military / Parliament / Conflict / Cybersecurity desks, Global / US / Europe / Asia coverage, accessible REDL and DEDL lenses, a [daily Singapore focal dashboard](https://devilz13.github.io/daily-equity-decision-loop/singapore/) and [Singapore Promotions & Cards](https://devilz13.github.io/daily-equity-decision-loop/promotions/).
 
@@ -18,7 +18,7 @@ The public edition contains dated, source-linked facts, estimates, AI interpreta
 
 ## Publication rules
 
-- New research starts at 08:00 Asia/Singapore.
+- The full daily edition starts at 08:00 Asia/Singapore; Market Watch uses the documented desk-local open/close editorial windows.
 - Sunday editions include a sourced global economic events outlook for the coming week, spanning policy, industry, AI, cybersecurity, energy, transport, logistics, space, security and other material economic developments.
 - Cybersecurity receives a daily global scan, with publication for material, verified industry developments. Reporting explains operational and supply-chain transmission while separating confirmed facts from attribution or claims.
 - Every dated edition is retained under `issues/YYYY/MM/DD/` or another dated issue path.

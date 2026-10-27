@@ -1,6 +1,6 @@
 # Public editorial workflow
 
-Effective 26 October 2026: `docs/DEDL_RUNBOOK.md` governs the consolidated daily operation; `docs/DEDL_STATE.md` is the compact handoff. Keep this file for schema/review details, not a second scheduler specification. Use the existing 08:00 SGT research slot only and retain the full output format and scope.
+Effective 27 October 2026: `docs/DEDL_RUNBOOK.md` governs the daily edition plus the explicitly restored Market Watch open/close windows; `docs/DEDL_STATE.md` is the compact handoff. Keep this file for schema/review details, not a second scheduler specification. Preserve the full 08:00 SGT edition and its format/scope.
 
 ## Repository inspection and compatibility
 
@@ -32,7 +32,7 @@ The read-only checklist runs during the main validation/build pipeline or by man
 | Desk | Review target | Publication rule |
 | --- | --- | --- |
 | Full morning edition | Daily 08:00 SGT | Overall news and events across all desks and regions; existing publisher retained |
-| Markets / Lighthouse | Latest completed sessions and available pre-open context within the daily 08:00 SGT slot | Reviewed, dated evidence; no separate market-session timers; see LIGHTHOUSE.md |
+| Markets / Lighthouse | Daily 08:00 SGT context plus restored desk-local opening/closing windows | Reviewed, dated evidence, actual cutoffs and missing-session audit; see LIGHTHOUSE.md |
 | Military | Monday, Wednesday, Friday | 3 shorts/week target; strategic context only |
 | Parliament | Tuesday, Thursday; optional Saturday | 2–3/week target when substantive |
 | Conflict | Material events only | No minimum; up to 3–5 in a material week, hard cap 5 |
