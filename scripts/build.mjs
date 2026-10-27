@@ -12,7 +12,7 @@ const json=p=>JSON.parse(read(p));
 export const esc=v=>String(v).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const link=(url,label)=>`<a href="${esc(url)}">${esc(label)}</a>`;
 const route=(group,key)=>`${group}/${key}/`;
-const navItems=[['briefing/','Overview'],['lighthouse/','Lighthouse'],['sectors/','All sectors'],...Object.entries(channels).map(([k,v])=>[route('channels',k),v.name]),['singapore/','Singapore'],['promotions/','Promotions & Cards']];
+const navItems=[['briefing/','Overview'],['lighthouse/','Lighthouse'],['sectors/','All sectors'],...Object.entries(channels).map(([k,v])=>[route('channels',k),v.name]),['singapore/','Singapore'],['promotions/','Promotions & Cards'],['investors/','Investors']];
 function navigation(prefix,current='') {
   return `<nav class="editorial-nav" aria-label="Editorial desks">${navItems.map(([url,label])=>`<a href="${prefix}${url}"${current===url?' aria-current="page"':''}>${label}</a>`).join('')}</nav>`;
 }
@@ -90,6 +90,10 @@ export function build(now=new Date()) {
     return html.replace('</head>',`<link rel="stylesheet" href="${prefix}assets/editorial.css"></head>`).replace(/<body([^>]*)>/,`<body$1><div data-editorial-shell class="legacy-editorial-shell"><div class="wrap">${navigation(prefix)}${facets(prefix)}</div></div>`);
   };
   write('index.html',inject(read('index.html'),''));
+  // Explicit public-library allowlist: never recursively publish source directories.
+  check(!lstatSync(path.join(root,'investors')).isSymbolicLink(),'Investor directory symlinks forbidden');
+  write('investors/index.html',inject(read('investors/index.html'),'../'));
+  for(const p of ['investors/investors.js','investors/portfolios.json']) copyFile(p);
   for(const issue of issues) {
     const p=issue.path+'index.html';check(!lstatSync(path.join(root,p)).isSymbolicLink(),'Issue symlinks forbidden');
     const html=inject(read(p),'../'.repeat(issue.path.split('/').filter(Boolean).length));
