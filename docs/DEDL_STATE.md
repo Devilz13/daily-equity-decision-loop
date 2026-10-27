@@ -5,7 +5,8 @@ Updated 27 October 2026. Read `docs/DEDL_RUNBOOK.md` first. Public-safe operatio
 ## Publication baseline
 
 - Immutable research base: `09198f8596ed8af5de08b5f20b5fca9ef43a4e66` (default branch main).
-- Issue 040, 27 October 2026, `issues/2026/10/27/`, prepared with actual 08:05 SGT cutoff and delayed-publication apology. No duplicate issue existed at start. Inspect the release run for first-publication time and Telegram acceptance; a commit alone is not delivery.
+- Issue 040, 27 October 2026, `issues/2026/10/27/`, actual 08:05 SGT cutoff and delayed-publication apology. Atomic publication commit `84af5dc28e44497a76cdf6ca875de2383525de10` advanced the expected base without force. No duplicate issue existed at start.
+- [Release receipt](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40424558214): Pages success 08:09:45 SGT; exact live key `40:2026-10-27:2026-10-27-v1` independently retrieved. Telegram accepted message 42 at 08:09:46 SGT. This verifies API acceptance, not subscriber reads. Do not resend or bump the delivery revision for handoff maintenance.
 - 40 indexed editions; eight structured reports remain seven Markets/one Conflict. New daily coverage is in the dated issue, not a fabricated session report. Empty standalone desks remain coverage gaps.
 - Latest market coverage is incomplete. Sector series, comparable universes and technical filters were not fully verified. Do not certify stocks from the preliminary 55-ticker triage.
 - UOB EVOL FX PDF rechecked 27 October: end date now 31 December 2027; Australia rate changes in January 2027. Dated correction in `content/promotions.json`. Other nine records remain overdue; partial retrieval is not complete recertification.
@@ -21,7 +22,7 @@ Updated 27 October 2026. Read `docs/DEDL_RUNBOOK.md` first. Public-safe operatio
 
 ## Consolidation verification
 
-Consolidation baseline and unchanged-digest checks: `docs/DEDL_CONSOLIDATION_TESTS.md`. Issue 040 local checks: 31 tests passed; 83 generated pages, links/artifact, Telegram dry-run, context, editorial checklist, diff and immutable-base history passed. Facts/privacy reviewed separately. Final release receipt must be checked after deployment; do not retry ambiguous acceptance.
+Consolidation baseline and unchanged-digest checks: `docs/DEDL_CONSOLIDATION_TESTS.md`. Issue 040 local and release checks passed: 31 tests; 83 generated pages, links/artifact, Telegram dry-run, context, editorial checklist, diff and immutable-base history. Facts/privacy reviewed separately. Release receipt above confirms the first live changed-edition send after consolidation. Anonymous GitHub API checks returned 403; the authorized repository connection supplied the run and accepted receipt. No manual send/retry occurred.
 
 ## Next scheduled run
 
