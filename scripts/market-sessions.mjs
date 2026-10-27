@@ -34,7 +34,18 @@ export function sessionAudit(now=new Date(),articles=[],{lookbackDays=3,graceMin
   }
   return rows.sort((a,b)=>a.target_at.localeCompare(b.target_at));
 }
+// One hourly dispatcher, no future reports and at most one stale recovery per run.
+// Calendar verification and publication remain editorial actions, not this selector.
+export function dispatchPlan(now=new Date(),articles=[]){
+  const audit=sessionAudit(now,articles);
+  const missing=audit.filter(x=>x.status==='pending'||x.status==='overdue-calendar-unverified');
+  const fresh=missing.filter(x=>now-Date.parse(x.target_at)<90*60000);
+  const current=missing.filter(x=>x.date===localDate(now,marketDesks[x.market].zone));
+  // Fresh session coverage has priority. Do not launch a historical backlog burst.
+  const recovery=fresh.length?[]:current.filter(x=>now-Date.parse(x.target_at)>=90*60000).sort((a,b)=>b.target_at.localeCompare(a.target_at)).slice(0,1);
+  return {generated_at:now.toISOString(),mode:'hourly-session-dispatch',selected:[...fresh.map(x=>({...x,mode:'due'})),...recovery.map(x=>({...x,mode:'delayed-recovery'}))],overdue:missing.filter(x=>x.status==='overdue-calendar-unverified'),quiet:fresh.length===0&&recovery.length===0,caveat:'Metadata only. Verify official calendars and stored closure outcomes before research. Keep real timestamps; no fabricated historical pre-open evidence. Hourly selection is not an exact delivery guarantee.'};
+}
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){
   const articles=JSON.parse(readFileSync('content/articles.json','utf8'));
-  console.log(JSON.stringify(process.argv.includes('--audit')?sessionAudit(new Date(),articles):sessionCandidates(new Date(),articles),null,2));
+  console.log(JSON.stringify(process.argv.includes('--dispatch')?dispatchPlan(new Date(),articles):process.argv.includes('--audit')?sessionAudit(new Date(),articles):sessionCandidates(new Date(),articles),null,2));
 }

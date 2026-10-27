@@ -4,7 +4,7 @@ Version 1.0 — effective 26 October 2026. `docs/DEDL_RUNBOOK.md` is the daily e
 
 ## 1. Mandate and boundaries
 
-Effective 27 October 2026: keep the existing daily **08:00 Asia/Singapore DEDL** full edition; the user's repair request additionally authorizes Market Watch open/close windows under `docs/LIGHTHOUSE.md`. Only the prohibition on session jobs is superseded. No separate NVIDIA, UBER, conflict, model-training, hourly research or checklist timers. The daily edition audits session gaps and deployment. Push-triggered build/deploy/delivery checks and manual recovery are not additional research schedules. A schedule is a target, not a guaranteed start or delivery time. Label delayed work and actual cutoffs honestly.
+Effective 27 October 2026: keep the existing daily **08:00 Asia/Singapore DEDL** full edition and exactly **one hourly Market Watch dispatcher** under `docs/MARKET_WATCH_DISPATCHER.md`. The user approved coarse hourly dispatch instead of eight separate session jobs; only due session reads/bounded recoveries cause research. No separate NVIDIA, UBER, conflict, model-training or checklist/watchdog timers. The daily edition audits session gaps and deployment. Push-triggered build/deploy/delivery checks and manual recovery are not additional research schedules. A schedule is a target, not a guaranteed start or delivery time. Label delayed work and actual cutoffs honestly.
 
 Keep the established website, daily edition and Telegram format. Keep the public output extensive: simplification removes duplicated research and instructions, not evidence, coverage, explanations or the weekly debate. Do not redesign navigation or delete archive pages in an operational cleanup. Retain all original editions and labelled corrections.
 

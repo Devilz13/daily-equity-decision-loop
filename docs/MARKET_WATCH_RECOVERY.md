@@ -17,9 +17,9 @@ Inspection of default-branch `e825ebfb070f71b32c5bef1d8b978af94be5dfe1`, public 
 3. Include overdue targets in the run context and editorial/pipeline checklist. The existing daily DEDL task now explicitly audits session records, actual Pages publication and scheduler status, retains blockers, and follows up this incident on its next 08:00 SGT run (28 October). After scheduler restoration it must verify the next two completed windows, not merely task configuration.
 4. Publish a dated coverage correction/apology on the existing Lighthouse layout. Preserve every historical edition/report; do not fabricate backdated research or trigger another newsletter Telegram digest for maintenance.
 
-## Scheduling blocker — not fully restored
+## Initial scheduling blocker — historical record
 
-The scheduler returned `too_many_active_automations`: **plan limit five active tasks**, with two existing tasks already active. Only three additional jobs could be saved before the fourth was rejected. The three newly created partial Market Watch jobs were then **paused**, and readback confirmed them disabled. No existing task was deleted/paused to make room; existing schedules remain unchanged. No complete session schedule is active. Do not describe this as operational recovery.
+Initially the scheduler returned `too_many_active_automations`: **plan limit five active tasks**, with two existing tasks already active. Only three additional jobs could be saved before the fourth was rejected. All three partial jobs were then paused; no pre-existing task was paused/deleted. At that checkpoint no complete session schedule was active. The user's subsequent approval of one dispatcher is recorded below; do not mistake this historical blocker for the latest configuration.
 
 The original eight weekday editorial targets remain the intended coverage:
 
@@ -32,7 +32,7 @@ The original eight weekday editorial targets remain the intended coverage:
 
 Use exchange-local dates and independent daylight saving. These are editorial windows, not the exact auction instants. On 27 October Europe is GMT while the US is still on daylight time; do not shift them together. Official calendar/hour references: [NYSE](https://www.nyse.com/markets/hours-calendars), [LSE](https://www.londonstockexchange.com/en/resources/markets-products/business-days), [SGX](https://www.sgx.com/securities/trading), [JPX](https://www.jpx.co.jp/english/equities/trading/domestic/01.html), [NSE](https://www.nseindia.com/static/market-data/market-timings). The SGX dynamic page did not expose usable calendar detail during this check; retain that access gap.
 
-User decision is needed before changing the arrangement: a consolidated in-app dispatcher would fit task capacity but needs a coarser polling cadence and therefore different timing/cost characteristics. A repository scheduled dispatcher is another architecture, but GitHub scheduled Actions cannot themselves run this ChatGPT research prompt, are not exact-time guarantees, and would need a genuinely free approved research runtime. Neither alternative is installed or promised. Do not silently add paid AI/API infrastructure or cancel unrelated work.
+The user subsequently approved the consolidated in-app dispatcher with coarser hourly timing. Use exactly one active Market Watch task, not eight individual jobs. No repository cron, paid AI/API infrastructure or cancellation of unrelated work is authorized by this change.
 
 ## Test evidence
 
@@ -43,4 +43,10 @@ User decision is needed before changing the arrangement: a consolidated in-app d
 
 ## Remote verification
 
-Repair commit `53a2ba82b08116ba166d8d9d02248f622ce5c61b` completed [release run 40436485322](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40436485322) successfully. Validation/build, history preservation and Pages deployment passed. An independent live retrieval of `/lighthouse/` found the dated Market Watch coverage correction and explicit scheduler-capacity blocker. No newsletter issue or delivery revision changed; the sender's unchanged-edition guard prevented a duplicate Telegram digest. The task inventory readback confirmed only the two pre-existing tasks enabled and all three partial Market Watch jobs disabled. This verifies the diagnostic safeguards/correction, NOT restored session scheduling or completed missing-session research. Keep the blocker visible until an approved arrangement actually publishes the session reports.
+Repair commit `53a2ba82b08116ba166d8d9d02248f622ce5c61b` completed [release run 40436485322](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40436485322) successfully. Validation/build, history preservation and Pages deployment passed. An independent live retrieval found the coverage correction and then-current capacity blocker. The unchanged-edition guard prevented a duplicate Telegram digest. That historical checkpoint verified safeguards, not session scheduling or completed missing-session research.
+
+## Approved single-dispatcher configuration
+
+The user approved one scheduler on 27 October. `docs/MARKET_WATCH_DISPATCHER.md` governs the hourly dispatcher; five new selection regressions bring the full suite to **42 passing tests**. All eight windows are selected on an hourly grid with DST/date rollover, duplicate suppression, quiet weekends and bounded recovery covered. Build/link checks preserve 41 editions/eight reports and pass across 84 pages. History/diff checks passed against immutable base `4acb916adf9f47f5fe0dbb9f23309ae5b591fc9d`. No real test Telegram message was sent, and no issue/report was invented to make tests pass.
+
+One partial job has been repurposed as the dispatcher; the other two are disabled and marked retired, not deleted. Activation/readback follows publication of the rules. The separate daily newsletter's 08:00 SGT schedule remains unchanged and retains the incident follow-up. The first two real completed session windows and historical catch-up coverage still require actual sourced publication/deployment evidence; these tests cannot certify them. Hourly invocations consume ChatGPT allowance even when they exit without new research; no paid data/API service was added.
