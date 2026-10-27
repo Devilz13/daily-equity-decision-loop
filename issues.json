@@ -2,8 +2,410 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-19",
+  "latest": "2026-10-27",
   "issues": [
+    {
+      "date": "2026-10-27",
+      "number": 41,
+      "title": "Reader guidance: separate geopolitical events from speculation",
+      "status": "special guidance",
+      "path": "issues/2026/10/27/video-guidance/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-27-guidance-v1",
+        "summary": "Dear readers: geopolitical videos may mix real events, official rhetoric and speculative conclusions. Check original dates, full sources and later updates before sharing. Strong words are not proof of a motive, outcome or imminent wider war. Stay attentive to verified changes, not the volume of reposts.",
+        "headlines": [
+          {
+            "title": "Before forwarding: check the date and latest update",
+            "date": "Checked 27 Oct 2026",
+            "context": "UK three-day supplies advice is general resilience guidance. AP reported Ukraine satellite service restoration on 24 Oct; an older outage clip may omit that update.",
+            "source": "https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency"
+          },
+          {
+            "title": "Separate evidence, allegations and predictions",
+            "date": "Checked 27 Oct 2026",
+            "context": "Alaska's candidate-name dispute and lawsuit are real; deliberate deception is an allegation, not established by a video or filing. A lawsuit is not a judgment.",
+            "source": "https://www.reuters.com/world/trump-administration-sues-block-senate-race-certification-alaska-if-republican-2026-10-23/"
+          },
+          {
+            "title": "Pay attention where there is concrete exposure",
+            "date": "27 Oct 2026",
+            "context": "Check current MFA destination advice and operator notices. Watch confirmed outages, actual aid delivery, infrastructure damage and transport disruptions—not maps alone.",
+            "source": "https://www.mfa.gov.sg/travelling-overseas/travel-advisories-notices-and-visa-information/"
+          }
+        ],
+        "market_note": "Calm attention, not panic: verify supply/export losses, freight, insurance and enacted policy. No clip establishes a guaranteed oil move or wider-war timetable. No automatic financial action. Five market statuses remain DATA INCOMPLETE; this guidance does not replace today's morning brief.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "number": 40,
+      "title": "AI demand finds funding; the cash-flow test remains",
+      "status": "data incomplete",
+      "path": "issues/2026/10/27/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-27-v1",
+        "delivery_notice": "We apologise for the delayed edition. Research began after the 08:00 target; this issue uses an 08:05 SGT evidence cutoff.",
+        "summary": "Issue 040 clarifies SpaceX's future hardware leases and Meta's proposed equity funding, not completed NVIDIA revenue. US stocks recovered while Japan and Singapore diverged. Cyber exposure and a UOB terms update are reviewed. All five DEDL desks remain DATA INCOMPLETE.",
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. No security certified and no trade placed. Comparable sector, oil-series and disclosure gaps remain explicit.",
+        "headlines": [
+          {
+            "title": "SpaceX financing clarified as future hardware leases",
+            "date": "2026-10-26",
+            "context": "Reuters reports about US$40B principal payments, finalization targeted by year-end and leases starting H1 2027. This is not delivered NVIDIA revenue.",
+            "source": "https://www.reuters.com/business/media-telecom/spacex-enters-40-billion-deal-with-apollo-ai-chip-financing-2026-10-26/"
+          },
+          {
+            "title": "Meta launches offerings; proceeds are not all immediate",
+            "date": "2026-10-26",
+            "context": "Meta describes about US$35B of offerings plus a possible future US$60B ATM. Forward-sale cash arrives only at later settlement.",
+            "source": "https://investor.atmeta.com/investor-news/default.aspx"
+          },
+          {
+            "title": "Singapore stocks edge down",
+            "date": "2026-10-26",
+            "context": "STI closed at 5,415.91, down 6.25 points. Sembcorp fell 2.8%; this does not establish a utilities-sector return.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-stocks-close-lower-amid-mixed-regional-showing-sti-down-0-1"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "number": 39,
+      "title": "Energy risk is real; escalation claims need evidence",
+      "status": "data incomplete",
+      "path": "issues/2026/10/26/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-26-v1",
+        "summary": "Issue 039 separates verified Gulf escalation from unconfirmed strike damage and viral war forecasts. Early Monday oil futures partly reversed Friday's surge. A new SpaceX GPU-financing statement signals potential AI demand and capital-intensity risk, not NVIDIA revenue. All five DEDL desks remain DATA INCOMPLETE.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No security certified; no trade placed.",
+        "headlines": [
+          {
+            "title": "Saudi strike targets remain unconfirmed",
+            "date": "2026-10-24",
+            "context": "Houthis claimed attacks on oil sites; coalition reported interceptions. Reuters could not verify whether the reported Saudi targets were hit.",
+            "source": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/"
+          },
+          {
+            "title": "Oil eases in early Monday futures",
+            "date": "2026-10-26 07:15 SGT",
+            "context": "Brent futures were US$115.79 and WTI US$102.28 at 07:15 SGT, below Friday's settlement; this is a snapshot, not the Monday close.",
+            "source": "https://www.reuters.com/business/energy/oil-prices-down-almost-1-early-trading-2026-10-25/"
+          },
+          {
+            "title": "SpaceX says it closed GPU debt financing",
+            "date": "2026-10-25",
+            "context": "Musk said US$40B in callable financing was closed; Reuters said pricing and the meaning of closed were unclear. No NVIDIA revenue was confirmed.",
+            "source": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "number": 38,
+      "title": "AI infrastructure scales; power and execution become the test",
+      "status": "data incomplete",
+      "path": "issues/2026/10/25/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-25-v2",
+        "delivery_notice": "We apologise: Issue 038 was published on the website, but its morning Telegram digest failed before delivery because the metadata exceeded formatting limits. This is the corrected late delivery; its 08:00 SGT evidence cutoff is unchanged.",
+        "summary": "Issue 038 reports DATA INCOMPLETE across all five desks; no security is certified. NVIDIA's new supplier-capacity targets expand the AI buildout beyond chips, while power, rack deployment, financing and returns remain constraints. The public UBER update flags only unconfirmed Instacart discussions and changing AV distribution.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "NVIDIA suppliers target major capacity expansion",
+            "date": "2026-10-21",
+            "context": "NVIDIA targets 2.5x substrate capacity, over 300% packaging growth, doubled test capacity and 15x optical engines. These are plans, not delivered output.",
+            "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Supply-Chain-Partners-Expand-Capacity-to-Accelerate-AI-Infrastructure-Buildout/default.aspx"
+          },
+          {
+            "title": "Instacart sale discussions reportedly included Uber",
+            "date": "2026-10-23",
+            "context": "Reuters reported preliminary discussions with Uber and DoorDash; no agreement or guaranteed deal. Capital and antitrust implications remain conditional.",
+            "source": "https://www.reuters.com/business/instacart-talks-sale-information-reports-2026-10-23/"
+          },
+          {
+            "title": "CISA and partners warn on SafePay ransomware",
+            "date": "2026-10-20",
+            "context": "Agencies report at least 600 organizations affected since August 2024 and advise patching exposed systems, strengthening MFA and restricting privileges.",
+            "source": "https://content.govdelivery.com/accounts/USDHSCISA/bulletins/42fd782"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "number": 37,
+      "title": "Technology steadies; oil becomes the active macro constraint",
+      "status": "data incomplete",
+      "path": "issues/2026/10/24/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-24-v1",
+        "summary": "Issue 037 reports DATA INCOMPLETE across all five desks; no security is certified. Technology steadied after Thursday’s selloff, but higher oil and the upcoming hyperscaler capex reports keep funding and return questions open.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Technology steadies after AI selloff",
+            "date": "2026-10-23",
+            "context": "Nasdaq slipped 0.21% while semiconductor and S&P technology indexes gained 0.4%; investors await next week’s hyperscaler capex guidance.",
+            "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+          },
+          {
+            "title": "Oil reaches a five-month high",
+            "date": "2026-10-23",
+            "context": "Brent settled 3.14% higher at US$116.72 after attacks in Saudi Arabia raised concern about further Middle East supply disruption.",
+            "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-23/"
+          },
+          {
+            "title": "Singapore STI gains while banks fall",
+            "date": "2026-10-23",
+            "context": "The STI gained 0.1% to 5,422.16, led by CapitaLand Investment; DBS, OCBC and UOB all closed lower.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-edge-higher-despite-losses-local-banks-sti-0-1"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "number": 36,
+      "title": "AI cash bills meet a market that demands proof",
+      "status": "data incomplete",
+      "path": "issues/2026/10/23/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-23-v1",
+        "summary": "Issue 036 reports DATA INCOMPLETE across all five desks; no security is certified. The AI-led selloff is a material funding and valuation warning, but it does not by itself establish a system-wide crash.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "AI doubts trigger technology selloff",
+            "date": "2026-10-22",
+            "context": "Nasdaq fell 2.60% and the semiconductor index 6.7%; Meta dropped 7.0% and Tesla 3.1% as investors reassessed AI spending.",
+            "source": "https://www.reuters.com/business/nasdaq-futures-drop-over-1-ai-worries-resurface-oil-climbs-2026-10-22/"
+          },
+          {
+            "title": "Oil rises as Treasury yields fall",
+            "date": "2026-10-22",
+            "context": "Brent settled 4.0% higher at US$113.17 while the US 10-year yield fell 19.3 basis points to 4.953% amid a safety bid.",
+            "source": "https://www.marketscreener.com/news/stocks-drop-as-meta-fans-ai-worries-treasuries-gain-ce785cdede89f223"
+          },
+          {
+            "title": "Singapore shares and banks retreat",
+            "date": "2026-10-22",
+            "context": "The STI fell 0.4% to 5,415.14 as DBS, OCBC and UOB declined; gainers trailed losers 198 to 410.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-end-lower-local-banks-decline-sti-down-0-4"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "number": 35,
+      "title": "SPECIAL REPORT: Market selloff does not establish a crash",
+      "status": "risk-off; broad crash unconfirmed",
+      "path": "issues/2026/10/22/special-market-selloff/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-22-special-v2",
+        "summary": "SPECIAL REPORT — Market selloff ≠ confirmed crash. US opening snapshot: Dow -0.13%, S&P 500 -0.81%, Nasdaq -1.48% (Reuters, 22 Oct). A tech-led decline is real; claims of a system-wide crash are not established by these numbers. Check evolving breadth, credit, oil and rates before drawing conclusions.",
+        "market_note": "Gold later fell ~1.4% to US$4,084.25/oz (Reuters snapshot). Rising oil adds inflation and higher-for-longer rate risk; tech selling also reflects AI spending/earnings concerns. Watch Fed Oct 27-28, USD, yields, spreads, breadth and follow-through. No trade conclusion; DEDL desks remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Wall Street opens lower; tech weakness leads",
+            "date": "2026-10-22",
+            "context": "Reuters opening: Dow -0.13%, S&P -0.81%, Nasdaq Composite -1.48%; Tesla/Meta AI-spending concerns and rising oil weigh. These are opening, not closing, returns.",
+            "source": "https://www.marketscreener.com/news/wall-st-opens-lower-as-ai-jitters-return-oil-rises-ce785cdedb8ef325"
+          },
+          {
+            "title": "Gold drops as oil-fuelled inflation worries intensify",
+            "date": "2026-10-22",
+            "context": "Reuters reported spot gold down 1.4% to US$4,084.25/oz; oil/rate expectations pressure non-yielding bullion. Separate timestamp from equity opening.",
+            "source": "https://www.reuters.com/world/india/gold-drops-over-1-oil-rally-reinforces-higher-for-longer-rate-outlook-2026-10-22/"
+          },
+          {
+            "title": "Next major scheduled policy catalyst",
+            "date": "2026-10-27 to 2026-10-28",
+            "context": "The Federal Reserve lists a two-day FOMC meeting on Oct 27–28. Rate guidance may alter yields, dollar and risk appetite; direction is uncertain.",
+            "source": "https://www.federalreserve.gov/newsevents/2026-october.htm"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "number": 34,
+      "title": "AI earnings support demand; cash conversion remains the test",
+      "status": "data incomplete",
+      "path": "issues/2026/10/22/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-22-v1",
+        "summary": "Issue 034 reports DATA INCOMPLETE across all five desks; no security is certified. AI earnings lifted technology, but Meta’s cash deficit and capex step-up show that demand evidence has not removed financing and execution risk.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "AI earnings lift Wall Street",
+            "date": "2026-10-21",
+            "context": "Nasdaq rose 1.05% as SpaceX gained 7.8% and Super Micro rose 9.6% after its AI-server outlook exceeded estimates.",
+            "source": "https://www.reuters.com/legal/transactional/nasdaq-futures-lead-gains-spacex-super-micro-results-lift-ai-trade-2026-10-21/"
+          },
+          {
+            "title": "Meta raises spending while free cash flow turns negative",
+            "date": "2026-10-21",
+            "context": "Meta raised its capex range to US$135–145B while Q3 free cash flow turned to a US$2.12B deficit despite better-than-expected revenue.",
+            "source": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
+          },
+          {
+            "title": "Singapore banks lead STI higher",
+            "date": "2026-10-21",
+            "context": "STI gained 0.6% to 5,437.99; DBS, OCBC and UOB rose, while gainers outnumbered losers 334 to 214.",
+            "source": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/singapore-shares-end-higher-led-gains-local-banks-sti-0-6"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "number": 33,
+      "title": "Rotation, AI earnings and public REDL ledger; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/21/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-21-v1",
+        "summary": "Issue 033 reports DATA INCOMPLETE across all five desks; no security is certified. Value and defensives led as AI awaited earnings proof, while the new public REDL ledger records delayed, primary-source investor disclosures only.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "Value and defensives lead as technology pauses",
+            "date": "2026-10-20",
+            "context": "The Dow rose 1.05% and the S&P 500 0.31%, while the Nasdaq slipped 0.03%; healthcare and small caps led the rotation.",
+            "source": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-dip-oil-prices-climb-earnings-loom-2026-10-20/"
+          },
+          {
+            "title": "China holds loan prime rates unchanged",
+            "date": "2026-10-20",
+            "context": "The PBOC kept the one-year LPR at 3.00% and five-year LPR at 3.50%, extending its policy hold to 17 months.",
+            "source": "https://www.reuters.com/business/finance/china-leaves-loan-rates-steady-17th-consecutive-month-2026-10-20/"
+          },
+          {
+            "title": "REDL public filing ledger launches",
+            "date": "2026-10-21",
+            "context": "The new ledger follows four investors through primary filings only; no new disclosure was verified at the cutoff and filings are delayed.",
+            "source": "https://www.sec.gov/edgar/browse/?CIK=0001541617&owner=exclude"
+          }
+        ],
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "number": 32,
+      "title": "AI rebound lacks credit and breadth confirmation; five desks data incomplete",
+      "status": "data incomplete",
+      "path": "issues/2026/10/20/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-20-v1",
+        "summary": "Issue 032 reports DATA INCOMPLETE across all five desks; no security is certified. AI and chip prices rebounded, but weak market breadth, distressed neocloud yields and uncertain hyperscaler liabilities prevent a clean risk reset.",
+        "market_note": "US DATA INCOMPLETE; Singapore DATA INCOMPLETE; Global DATA INCOMPLETE; direct REITs DATA INCOMPLETE; Funds DATA INCOMPLETE. No trade was placed.",
+        "headlines": [
+          {
+            "title": "AI equities rebound without broad confirmation",
+            "date": "2026-10-19",
+            "context": "Nasdaq gained 1.11% and semiconductors rose 1.6%, but seven S&P sectors fell and declining issues outnumbered advancers.",
+            "source": "https://www.reuters.com/business/wall-st-futures-climb-ai-stocks-rebound-oil-yields-fall-2026-10-19/"
+          },
+          {
+            "title": "S&P flags uncertain hyperscaler AI liabilities",
+            "date": "2026-10-19",
+            "context": "S&P made no rating changes but said guarantees and unrated transactions may leave major platforms with more AI-linked debt than is visible.",
+            "source": "https://www.reuters.com/business/top-hyperscalers-likely-have-more-ai-linked-debt-than-now-known-sp-global-warns-2026-10-19/"
+          },
+          {
+            "title": "China growth beats while property weakens",
+            "date": "2026-10-19",
+            "context": "Q3 GDP rose 4.5%, but fixed-asset investment fell 7.2% and property investment declined 20.6% in January–September.",
+            "source": "https://www.reuters.com/world/asia-pacific/view-chinas-economic-growth-accelerates-45-third-quarter-2026-10-19/"
+          }
+        ],
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-19",
       "number": 31,

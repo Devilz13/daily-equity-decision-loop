@@ -1,0 +1,15 @@
+name: Editorial review checklist
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate public records and report cadence gaps
+        run: node scripts/editorial-check.mjs

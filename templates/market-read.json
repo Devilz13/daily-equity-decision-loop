@@ -1,0 +1,221 @@
+{
+  "id": "replace-with-unique-slug",
+  "title": "REPLACE: reviewed headline",
+  "summary": "REPLACE: source-supported summary; no unsupported claims",
+  "channel": "markets",
+  "regions": [
+    "singapore"
+  ],
+  "lenses": [
+    "dedl"
+  ],
+  "topics": [
+    "markets"
+  ],
+  "format": "market-open",
+  "published_at": null,
+  "updated_at": null,
+  "cutoff_at": null,
+  "status": "draft",
+  "sources": [
+    {
+      "id": "s1",
+      "title": "REPLACE",
+      "publisher": "REPLACE",
+      "url": null,
+      "type": "primary",
+      "published_at": null,
+      "accessed_at": null
+    }
+  ],
+  "claims": [
+    {
+      "text": "REPLACE: verified observation",
+      "kind": "fact",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "causation": [
+    {
+      "explanation": "REPLACE",
+      "transmission": "REPLACE",
+      "confidence": "uncertain",
+      "alternatives": "REPLACE",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Conditional base case",
+      "outcome": "REPLACE",
+      "trigger": "REPLACE",
+      "invalidation": "REPLACE",
+      "horizon": "REPLACE",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "watchpoints": [
+    {
+      "signal": "REPLACE",
+      "due_at": null,
+      "confirms": "REPLACE",
+      "contradicts": "REPLACE",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "corrections": [],
+  "review": {
+    "evidence_checked": false,
+    "privacy_checked": false,
+    "public_safe": false,
+    "strategic_only": false,
+    "reviewed_at": null
+  },
+  "material_reason": null,
+  "market_read": {
+    "market": "singapore",
+    "session_date": null,
+    "calendar_status": "regular",
+    "exchanges": [
+      {
+        "name": "SGX",
+        "status": "not-verified",
+        "source_ids": []
+      }
+    ],
+    "sentiment": {
+      "assessment": "REPLACE",
+      "indicators": "REPLACE",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    "sectors": [
+      {
+        "sector": "Information Technology",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Communication Services",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Consumer Discretionary",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Consumer Staples",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Energy",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Financials",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Health Care",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Industrials",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Materials",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Real Estate",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      },
+      {
+        "sector": "Utilities",
+        "status": "data-incomplete",
+        "finding": "REPLACE",
+        "implication": "REPLACE",
+        "watchpoint": "REPLACE",
+        "source_ids": []
+      }
+    ],
+    "spillovers": [
+      {
+        "market": "asia",
+        "scenario": "REPLACE",
+        "trigger": "REPLACE",
+        "invalidation": "REPLACE",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "market": "europe",
+        "scenario": "REPLACE",
+        "trigger": "REPLACE",
+        "invalidation": "REPLACE",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "market": "us",
+        "scenario": "REPLACE",
+        "trigger": "REPLACE",
+        "invalidation": "REPLACE",
+        "source_ids": [
+          "s1"
+        ]
+      }
+    ]
+  }
+}

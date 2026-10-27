@@ -1,0 +1,18 @@
+{
+  "id": "replace-with-issuer-product-id",
+  "name": "REPLACE: official card name",
+  "issuer": "REPLACE",
+  "min_age": null,
+  "audience": "REPLACE: full eligibility including income, residency and fees; never infer from age alone",
+  "reward": "REPLACE: verified base and conditional reward rates",
+  "min_spend": "REPLACE",
+  "cap": "REPLACE",
+  "annual_fee": "REPLACE: fee and any conditional waiver",
+  "exclusions": "REPLACE: excluded merchants, transactions and expiry",
+  "source_url": null,
+  "terms_url": null,
+  "verified_at": null,
+  "review_due_at": null,
+  "reviewed_public": false,
+  "corrections": []
+}

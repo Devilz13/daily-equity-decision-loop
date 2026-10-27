@@ -1,0 +1,25 @@
+name: Validate public editorial site
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test
+      - name: Validate latest Telegram digest without sending
+        run: node .github/scripts/send_telegram.mjs --dry-run
+      - run: node scripts/build.mjs
+      - run: node scripts/check-site.mjs
+      - name: Preserve published correction history
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: node scripts/check-history.mjs "$BASE_SHA"

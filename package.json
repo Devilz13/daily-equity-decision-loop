@@ -1,0 +1,12 @@
+{
+  "name": "dedl-public-editorial",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "node scripts/check-site.mjs",
+    "editorial": "node scripts/editorial-check.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
