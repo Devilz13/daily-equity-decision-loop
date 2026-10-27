@@ -1,5 +1,425 @@
 [
   {
+    "id": "2026-10-27-europe-open-delayed",
+    "title": "Europe opening read — bank disappointment versus resilient core earnings",
+    "summary": "Delayed opening-context read, evidence cutoff 16:59 SGT / 08:59 GMT. Early bank weakness contrasts with Novartis guidance, but reported earnings and cash flow require separate scrutiny. Full sector breadth, current rates/FX and other venue calendars remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-27T08:59:14Z",
+    "updated_at": "2026-10-27T08:59:14Z",
+    "cutoff_at": "2026-10-27T08:59:14Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "LSE business-day calendar — undated current page; source date denotes retrieval, not original publication",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "euronext",
+        "title": "2026 cash-market calendar — undated current page; source date denotes retrieval",
+        "publisher": "Euronext",
+        "url": "https://www.euronext.com/en/trading/trading-hours-holidays",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "open",
+        "title": "27 October early cash-market snapshot, not current live quotes",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/europe-shares-fall-hsbc-weighs-france-protests-keep-investors-wary-2026-10-27/",
+        "published_at": "2026-10-27T08:12:35Z",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "secondary"
+      },
+      {
+        "id": "hsbc",
+        "title": "3Q 2026 earnings release; Q3 period, USD figures",
+        "publisher": "HSBC",
+        "url": "https://www.hsbc.com/-/files/hsbc/investors/hsbc-results/2026/3q/pdfs/hsbc-holdings-plc/261027-3q-2026-earnings-release.pdf",
+        "published_at": "2026-10-27T04:00:00Z",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "novartis",
+        "title": "Q3 2026 results and revised guidance; IFRS/non-IFRS distinction",
+        "publisher": "Novartis",
+        "url": "https://www.novartis.com/sites/novartis_com/files/q3-2026-media-release-en.pdf",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "novartis-notes",
+        "title": "Q3 2026 interim financial report, note 10, printed pages 41–43",
+        "publisher": "Novartis",
+        "url": "https://www.novartis.com/sites/novartis_com/files/q3-2026-interim-financial-report-en.pdf",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "ecb",
+        "title": "Governing Council schedule — undated current page; source date denotes retrieval",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "consumer",
+        "title": "22 October flash consumer confidence; survey 1–21 October, not today's equity sentiment",
+        "publisher": "European Commission DG ECFIN",
+        "url": "https://economy-finance.ec.europa.eu/document/download/1e455a38-643d-44ad-81dd-e71f6c17d3a1_en?filename=Flash_consumer_2026_10_en.pdf",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-10-27T08:59:14Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "DELAYED OPENING READ: 27 October editorial target 07:45 GMT / 15:45 SGT. Actual evidence/record cutoff 08:59:14 GMT / 16:59:14 SGT: 74m14s after target and 59m14s after the scheduled London cash open. Later observations are not pre-open knowledge. Live deployment time must be verified separately.",
+        "kind": "fact",
+        "source_ids": [
+          "lse"
+        ]
+      },
+      {
+        "text": "LSE and Euronext calendars support regular 27 October cash sessions for the named venues below. This is a partial European basket, not calendar certification for Germany, Switzerland, other Nordic venues or every security; exceptional halts were not comprehensively verified.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "euronext"
+        ]
+      },
+      {
+        "text": "Reuters' 08:05 GMT snapshot: STOXX 600 639.64, down 0.2%; bank index down 1.3%; HSBC London shares down 6.9%, Novartis up 3.1%. These are early cash observations, not closing or 08:59 quotes.",
+        "kind": "fact",
+        "source_ids": [
+          "open"
+        ]
+      },
+      {
+        "text": "HSBC Q3 pretax profit rose 32% to US$9.6bn, including US$1.4bn favourable year-on-year notable-item effects, principally prior legal provisions not recurring. Revenue was US$18.6bn; expected credit losses US$0.8bn. CET1 was 13.9%, down 0.2 percentage points q/q. A US$0.10 dividend was approved and a buyback up to US$1bn intended, not already executed.",
+        "kind": "fact",
+        "source_ids": [
+          "hsbc"
+        ]
+      },
+      {
+        "text": "Novartis Q3 sales were US$14.522bn (+4% USD). IFRS operating income was US$1.843bn (-59% USD); core operating income US$6.036bn (+11% USD, +10% constant currency). Non-IFRS FCF was US$5.111bn (-18% USD). FY core operating-income guidance moved from a low-single-digit decline to flat/low-single-digit growth at constant currency; sales guidance stayed low-single-digit growth.",
+        "kind": "fact",
+        "source_ids": [
+          "novartis"
+        ]
+      },
+      {
+        "text": "Novartis note 10 records US$1.94bn impairment of del-desiran acquired IPR&D and a separate US$0.6bn onerous supply-contract provision following changed expected capacity use. The provision is not all immediate cash paid: timing depends on utilisation and mitigation. This is company-specific manufacturing exposure, not evidence of an AI packaging bottleneck.",
+        "kind": "fact",
+        "source_ids": [
+          "novartis-notes"
+        ]
+      },
+      {
+        "text": "The Commission's 22 October flash survey put EU/euro-area consumer confidence at -17.3/-17.9, down 1.2/1.1 points. Survey period 1–21 October; September was revised with Italian data re-included and an August/September methodology break. This is household survey evidence, not a representative measure of today's investors or proof of protest-caused sales losses.",
+        "kind": "fact",
+        "source_ids": [
+          "consumer"
+        ]
+      },
+      {
+        "text": "ECB's published calendar lists monetary-policy meetings on 28–29 October and a press conference on 29 October. A calendar establishes the event schedule, not the rate decision. Current Bund/gilt yields, EUR/GBP, volatility, commodity prices, matched sector breadth/volume and attributable political-post sentiment were not verified.",
+        "kind": "fact",
+        "source_ids": [
+          "ecb"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Interpretation: a positive year-on-year profit number can coexist with a negative expectations surprise. The early banking decline is consistent with disappointment, but matched event studies and other banks' data are absent.",
+        "transmission": "Separate recurring income, credit costs and legal comparatives before attributing lower share prices to deteriorating underlying operations. Index concentration and position unwinds could amplify a single issuer.",
+        "confidence": "inference",
+        "alternatives": "Profit-taking, prospective taxes, rates and positioning could contribute; no single cause is established. Balance-sheet resilience and shareholder distributions oppose a simple distress reading.",
+        "source_ids": [
+          "hsbc",
+          "open"
+        ]
+      },
+      {
+        "explanation": "Accounting reconciliation: Novartis core improvement does not erase acquired-asset losses or uncertain future contract cash costs.",
+        "transmission": "Commercial products may support earnings while pipeline setbacks alter asset recoverability and manufacturing utilisation. Capital allocation must be assessed alongside recurring operations.",
+        "confidence": "inference",
+        "alternatives": "Non-cash impairment need not imply current product sales collapse; conversely, excluding charges does not make prior acquisition spending economically irrelevant. No sector-wide earnings conclusion follows from one company.",
+        "source_ids": [
+          "novartis",
+          "novartis-notes"
+        ]
+      },
+      {
+        "explanation": "A weak household survey and an upcoming policy decision create competing demand and financing watchpoints, not a proven explanation for this morning's prices.",
+        "transmission": "Conditional: demand weakness could pressure optional spending, while higher financing costs could affect leveraged sectors; pricing, hedges and customer mix may offset.",
+        "confidence": "inference",
+        "alternatives": "Confidence does not map one-for-one to realised sales. Currency, inventory and company-specific execution may dominate; no current curve or FX series confirms the channel.",
+        "source_ids": [
+          "consumer",
+          "ecb"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective earnings resilience prevents broad contagion",
+        "outcome": "A concentrated bank disappointment need not become a market-wide deterioration.",
+        "trigger": "Closing breadth stabilises outside affected issuers, results reconcile to cash and subsequent guidance corroborates operating resilience.",
+        "invalidation": "Weakness broadens across industries and lenders, or issuer cash/credit disclosures worsen.",
+        "horizon": "Remainder of 27 October through the next one to three sessions.",
+        "source_ids": [
+          "hsbc",
+          "novartis",
+          "open"
+        ]
+      },
+      {
+        "name": "Expectations reset extends across cyclicals",
+        "outcome": "Earnings or demand concerns could outweigh isolated guidance improvements.",
+        "trigger": "Multiple issuers disclose weaker volume/margins, worsening funding or credit losses, confirmed with sector breadth rather than one stock.",
+        "invalidation": "Broad cash-flow improvement and stable financing contradict the spread-of-stress interpretation.",
+        "horizon": "27 October close and 28–29 October policy/earnings updates; no probability or price target assigned.",
+        "source_ids": [
+          "consumer",
+          "ecb",
+          "hsbc"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "27 October Europe closing read, 16:50 GMT / 28 October 00:50 SGT: verify closing versus intraday marks, all 11 sectors, participation, turnover, volatility, rates/FX and remaining venue calendars.",
+        "due_at": "2026-10-27T16:50:00Z",
+        "confirms": "Stabilisation beyond a few heavyweights supports selective rather than systemic weakness.",
+        "contradicts": "Broad declines and worsening issuer evidence undermine that interpretation.",
+        "source_ids": [
+          "lse",
+          "euronext",
+          "open"
+        ]
+      },
+      {
+        "signal": "29 October ECB decision/press conference: read actual policy and guidance, not just the scheduled meeting or commentators' forecasts.",
+        "due_at": "2026-10-29T23:00:00+08:00",
+        "confirms": "Funding/FX responses and company evidence validate a proposed transmission.",
+        "contradicts": "Prices and issuer economics diverge; reassess rather than force the scenario.",
+        "source_ids": [
+          "ecb"
+        ]
+      },
+      {
+        "signal": "Reconcile Novartis contract-provision cash use and pipeline assumptions; check actual consumer survey final release scheduled for 29 October.",
+        "due_at": "2026-10-29T23:00:00+08:00",
+        "confirms": "Cash conversion and detailed survey revisions support the operating interpretation.",
+        "contradicts": "Further impairments, contract outflows or weaker realised demand challenge it.",
+        "source_ids": [
+          "novartis-notes",
+          "consumer"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T08:59:14Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-27",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "LSE cash calendar — regular day; security-specific halts not certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        },
+        {
+          "name": "Euronext Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo and Paris — regular calendar; live halt status not certified",
+          "status": "verified-session",
+          "source_ids": [
+            "euronext"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious, dispersed early cash trading; no evidence here of uniform market capitulation.",
+        "indicators": "Observable early price proxies are in the snapshot claim above. Full equal-weight breadth, turnover and volatility were not obtained. Household confidence is a separate dated survey, not today's investor mood. No direct political post was used as a verified sentiment proxy. Swiss company results are contextual; Swiss calendar coverage remains unverified.",
+        "source_ids": [
+          "open",
+          "consumer"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified current European technology basket, orders or matched chip-equipment price series. An AI financing headline is not supplier revenue.",
+          "implication": "Conditional: equipment demand needs funded orders, delivery and cash collection; short covering could mimic demand optimism.",
+          "watchpoint": "Check supplier orders, backlog conversion and customer concentration before inferring sector growth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified current telco/media basket or attributable regulatory/earnings release was used.",
+          "implication": "Conditional: network investment can support demand while absorbing cash; advertising and subscriptions need separate evidence.",
+          "watchpoint": "Refresh issuer subscriber/ad revenue, capex, debt and current sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Dated household-survey evidence is documented above; no current retail, travel or auto basket/volume series verified.",
+          "implication": "Conditional: cautious households could defer purchases, but price/mix, tourism and financing differ by company.",
+          "watchpoint": "Compare actual volumes, booking cancellations and margins with the final survey rather than infer sales from sentiment alone.",
+          "source_ids": [
+            "consumer"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current staples-sector return or issuer input-cost/margin series verified.",
+          "implication": "Conditional: essential demand may be steadier than discretionary spending without protecting margins.",
+          "watchpoint": "Check real volumes versus pricing, commodity hedges and gross margins.",
+          "source_ids": [
+            "consumer"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Current oil/gas marks and energy-equity breadth unverified. BP's RNS body exposed a status/access gate; no financial figures from indexed extracts are used here.",
+          "implication": "Conditional: integrated producers, refiners and energy users have different realised price/hedging exposures.",
+          "watchpoint": "Obtain permitted issuer originals and dated physical supply, refining margins and hedges before inferring earnings.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Company-level HSBC accounts and the early banking-price proxy are cited above; no complete financials basket or institution-by-institution stress test.",
+          "implication": "Interpretation: distinguish expectations disappointment, legal comparatives and recurring income; do not generalise one lender to every bank.",
+          "watchpoint": "Refresh breadth, deposit/fee growth, target-basis costs, credit losses and capital/distribution capacity.",
+          "source_ids": [
+            "hsbc",
+            "open"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Novartis statements reconcile reported/core results and specific acquisition/manufacturing charges; one company is not a healthcare-sector return.",
+          "implication": "Interpretation: commercial strength and pipeline/capital-allocation damage can coexist.",
+          "watchpoint": "Check cash conversion, generic competition, pipeline assumptions and contractual capacity mitigation.",
+          "source_ids": [
+            "novartis",
+            "novartis-notes"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current industrial-sector basket, logistics disruption or funded-order series verified.",
+          "implication": "Conditional: demand, financing and energy channels can offset each other; plans are not recognised revenue.",
+          "watchpoint": "Seek issuer awards, transport throughput, backlog conversion and margin evidence.",
+          "source_ids": [
+            "consumer",
+            "ecb"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No reliable current materials basket, matched metals benchmarks or inventory/realised spread series retrieved.",
+          "implication": "Conditional: currency and feedstock changes can shift margins independently of broad equity direction.",
+          "watchpoint": "Verify industrial-metal inventories, utilisation, energy contracts and issuer realised spreads.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current European property/REIT basket, rent-collection or refinancing update verified.",
+          "implication": "Conditional: rate sensitivity does not establish a price move; lease resets and leverage differ.",
+          "watchpoint": "Check actual refinancing terms, occupancy, debt maturity and cash distribution coverage; calendar is not a rate outcome.",
+          "source_ids": [
+            "ecb"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current utility basket, tariff shock, power restriction or project-award evidence verified.",
+          "implication": "Conditional: capital spending can improve reliability while increasing financing and execution risk.",
+          "watchpoint": "Verify funded capacity, permits, tariffs/cost recovery and project cash commitments.",
+          "source_ids": [
+            "ecb"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Conditional: wealth-management and credit developments can inform Asia-linked lenders, but a European listing's price response is not an Asian sector return.",
+          "trigger": "Asian issuer segment revenue, deposits and credit disclosures corroborate similar pressures.",
+          "invalidation": "Different deposit mix, regulations or credit exposure produce divergent economics.",
+          "source_ids": [
+            "hsbc"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Conditional: local bank/wealth and property-financing exposure warrant comparison, not an automatic read-across to SGX or its closing prices.",
+          "trigger": "Singapore results, deposit/fee data and financing costs confirm the proposed mechanism.",
+          "invalidation": "Local cash flows and funding remain resilient; institution-specific factors explain the overseas move.",
+          "source_ids": [
+            "hsbc",
+            "ecb"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Conditional: drug-development capital allocation and bank expectations offer cross-market questions, not a forecast of the US cash open.",
+          "trigger": "US peers' filings reconcile recurring profit, acquired assets, contract costs and operating cash.",
+          "invalidation": "Different product pipelines, balance sheets and prior expectations explain disparate outcomes.",
+          "source_ids": [
+            "novartis",
+            "novartis-notes",
+            "hsbc"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-27-asia-open-delayed-recovery",
     "title": "Asia opening recovery: rebound evidence, not a reconstructed pre-open call",
     "summary": "Delayed 27 October opening-context recovery, checked at 12:06 SGT. Selected intraday proxies improved, but full sector breadth and most regional calendars remain incomplete. Japan/Hong Kong calendar scope only; this is not the Asia close.",
