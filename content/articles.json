@@ -1,5 +1,507 @@
 [
   {
+    "id": "2026-10-27-us-close",
+    "title": "US closing read — technology leads, but cash quality and logistics economics need testing",
+    "summary": "27 October cash session; evidence cutoff 28 October 04:59:54 SGT. Reported closing levels and breadth are now available. Post-close Visa/Robinhood results, Boeing cash flow, an AI logistics opportunity estimate and qualified energy-security risks inform the next Asian session.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-27T20:59:54Z",
+    "updated_at": "2026-10-27T20:59:54Z",
+    "cutoff_at": "2026-10-27T20:59:54Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "NYSE holidays and hours — undated page; publication field is this retrieval timestamp",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "published_at": "2026-10-27T20:59:54Z",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "close",
+        "title": "Wall Street ends higher — updated closing body; 09:53 UTC is first publication, not when closing data became known",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-27/",
+        "published_at": "2026-10-27T09:53:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "boeing",
+        "title": "Third-quarter 2026 results, including GAAP and non-GAAP cash reconciliation",
+        "publisher": "The Boeing Company",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "ups",
+        "title": "UPS CEO sees annual data-centre logistics opportunity — interview/management estimate",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/ups-ceo-sees-15-billion-annual-revenue-opportunity-data-center-boom-2026-10-27/",
+        "published_at": "2026-10-27T20:02:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "visa",
+        "title": "Visa fiscal fourth-quarter results — post-cash-close report; primary results widget did not expose documents",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/technology/visa-quarterly-profit-jumps-resilient-consumer-spending-2026-10-27/",
+        "published_at": "2026-10-27T20:09:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "hood",
+        "title": "Robinhood issuer release distributed through GlobeNewswire/FinancialContent — one source chain",
+        "publisher": "Robinhood via GlobeNewswire / FinancialContent",
+        "url": "https://www.financialcontent.com/article/gnwcq-2026-10-27-robinhood-reports-third-quarter-2026-results",
+        "published_at": "2026-10-27T20:05:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "oil",
+        "title": "Oil futures settlement — updated body; 00:37 UTC is first publication, not settlement availability",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/",
+        "published_at": "2026-10-27T00:37:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "security",
+        "title": "Saudi oil-infrastructure strike claim — updated report; attribution and damage qualification retained",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/",
+        "published_at": "2026-10-27T11:06:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "fed",
+        "title": "FOMC calendar, last updated 7 October 2026",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "published_at": "2026-10-07",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "hynix",
+        "title": "Q3 2026 earnings invitation — 28 October call remains forthcoming",
+        "publisher": "SK hynix",
+        "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+        "published_at": "2026-10-21",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "ko",
+        "title": "Coca-Cola Q3 2026 results and guidance — reused from 01:06 SGT successful retrieval; attempted refresh failed, access time not advanced",
+        "publisher": "The Coca-Cola Company",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Calendar and cutoff: NYSE lists no scheduled holiday or early close for 27 October; core cash trading ends 16:00 New York. This read's cutoff is 16:59:54 New York / 04:59:54 Singapore on 28 October: 59m54s after scheduled cash close and 39m54s after the editorial target. It is not an auction-time observation.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters reports the cash close: S&P 500 7,722.60 (+0.60%), Nasdaq Composite 26,477.81 (+1.18%), Dow 52,377.57 (+0.03%). NYSE advances/declines were 1.83:1. US volume was 16.10bn shares versus a 17.18bn recent average. Technology led sector gains; energy was weakest. These are reported closing observations, not independently downloaded exchange series.",
+        "kind": "fact",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "text": "Boeing's Q3 issuer release reports US$24.188bn revenue, GAAP loss per share US$0.26 and non-GAAP core loss US$0.34. Operating cash flow US$1.496bn less US$1.032bn capex yields US$464m non-GAAP FCF; nine-month FCF remained negative US$359m. A positive quarter does not erase cumulative cash consumption, delivery-mix or supply-chain risks.",
+        "kind": "fact",
+        "source_ids": [
+          "boeing"
+        ]
+      },
+      {
+        "text": "NVIDIA/AI Infrastructure — logistics enters the beneficiary research lane. UPS CEO Carol Tome told Reuters she sees a US$15bn annual data-centre logistics opportunity across freight, warehousing and delivery. She did not disclose current data-centre revenue. This is management's opportunity estimate, not UPS booked revenue, secured backlog, a new NVIDIA order or proof of a bottleneck shifting.",
+        "kind": "estimate",
+        "source_ids": [
+          "ups"
+        ]
+      },
+      {
+        "text": "After-hours evidence, separate from the cash close: Reuters reports Visa fiscal Q4 net revenue of US$12.1bn (+13%), net income US$6bn and EPS US$3.19. Payments volume grew 9%; cross-border volume excluding intra-Europe grew 14%. The report observed shares down more than 1% in extended trading. Growth in nominal network spending is not a direct measure of real household purchasing power.",
+        "kind": "fact",
+        "source_ids": [
+          "visa"
+        ]
+      },
+      {
+        "text": "Robinhood's issuer release, distributed at 16:05 New York, reports Q3 revenue US$1.42bn (+12%), diluted EPS US$0.51 (-16%) and adjusted EPS US$0.60 (-3%). Crypto revenue fell 55% while options and equities revenue rose. These post-close results cannot explain the earlier cash close; trading volumes, customer deposits, revenue and profit are different economic measures.",
+        "kind": "fact",
+        "source_ids": [
+          "hood"
+        ]
+      },
+      {
+        "text": "Earlier primary evidence retained with its original access time: Coca-Cola's Q3 release showed global unit-case volume growth of 5% while North America was flat. Its refresh and the UPS primary release refresh were inaccessible in this pass. This is a reused quarterly observation, not a new overnight consumer-demand finding.",
+        "kind": "fact",
+        "source_ids": [
+          "ko"
+        ]
+      },
+      {
+        "text": "Reuters' updated oil report gives settlements of Brent US$113.88/barrel (-1.67%) and WTI US$99.90 (-1.83%). Earlier intraday quotations differ and are not substituted for settlement. The extract does not identify both delivery months, so the marks are not used for a front-month/forward-curve comparison.",
+        "kind": "fact",
+        "source_ids": [
+          "oil"
+        ]
+      },
+      {
+        "text": "Shared conflict risk review — event/report date 27 October. Reuters attributes the Saudi refinery-strike/fire claim to the Houthis and says Saudi authorities had not immediately confirmed that strike. Separate reporting about a contained terminal-area fire does not independently establish attacker, refinery damage or lost output. No new direct Singapore casualty, shipment interruption or infrastructure outage is established in these sources.",
+        "kind": "allegation",
+        "source_ids": [
+          "security"
+        ]
+      },
+      {
+        "text": "Official next evidence: the FOMC calendar lists a 27–28 October meeting; no October decision was posted on the retrieved calendar. SK hynix schedules its release before 09:00 Seoul on 28 October and call at 09:00 Seoul / 08:00 Singapore. Expectations and invitations are not policy outcomes or earnings results.",
+        "kind": "fact",
+        "source_ids": [
+          "fed",
+          "hynix"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Inference: positive participation alongside differentiated index performance supports a selective growth-recovery interpretation, with less conviction than an indiscriminate broad advance.",
+        "transmission": "Future earnings and cash realization must corroborate valuations. Breadth and volume are useful proxies, but do not identify which single headline caused each transaction.",
+        "confidence": "inference",
+        "alternatives": "Positioning, short covering and index weights can produce a rebound without stronger long-term economics. Below-average volume limits a claim of unusually strong participation.",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "explanation": "NVIDIA/AI Infrastructure — bull and bear interpretations of logistics exposure.",
+        "transmission": "Bull: transporting high-value equipment and servicing installed facilities could extend spending into specialist freight, warehousing and maintenance. Bear: opportunity size can overstate an individual supplier's achievable revenue; competition, customer concentration, capex, project cancellations and debt/circular financing can prevent attractive cash returns.",
+        "confidence": "inference",
+        "alternatives": "The logistics claim may describe a broad addressable market rather than incremental contracted demand. It does not establish margin, utilization, exclusivity or a sustained HBM/packaging/network/power bottleneck. Require direct NVIDIA and corroborating supplier disclosures before changing that thesis.",
+        "source_ids": [
+          "ups",
+          "hynix",
+          "boeing"
+        ]
+      },
+      {
+        "explanation": "Inference: network activity and reported profit can diverge across financial and consumer businesses.",
+        "transmission": "Payment volumes, brokerage trading and deposits support activity but cannot alone establish cash earnings quality. Adjustments, revenue mix, interest income, credit and operating costs must be reconciled.",
+        "confidence": "inference",
+        "alternatives": "Company-specific product mix, pricing and one-off costs may explain results better than a uniform US consumption cycle. After-hours reactions are not representative customer sentiment.",
+        "source_ids": [
+          "visa",
+          "hood",
+          "ko"
+        ]
+      },
+      {
+        "explanation": "Strategic conflict transmission to Singapore/Asia is conditional; confidence in a specific new facility outage is low because confirmation is missing.",
+        "transmission": "Verified lost exports or shipping disruption could raise freight, insurance and imported energy costs, with second-order aviation, utilities and manufacturing effects. Diplomacy could reduce premiums without restoring physical supply. No quantified Singapore impact or state-linked cyber attribution is established here.",
+        "confidence": "uncertain",
+        "alternatives": "A limited or contained incident, misattribution, inventory buffers and alternate flows could reduce the economic effect. Price settlement alone cannot validate a military claim or establish an escalation timetable.",
+        "source_ids": [
+          "security",
+          "oil"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Funded infrastructure expansion",
+        "outcome": "Specialist logistics becomes a credible additional beneficiary if incremental demand converts to profitable collected revenue.",
+        "trigger": "Issuer disclosures quantify contracted data-centre revenue, margin, utilization and capital requirements, corroborated by customer delivery and funding evidence.",
+        "invalidation": "Cancellations, low margin, delayed collections or excess fleet/warehouse capital consume the apparent opportunity.",
+        "horizon": "Next issuer disclosures and subsequent quarterly cash flows",
+        "source_ids": [
+          "ups",
+          "hynix"
+        ]
+      },
+      {
+        "name": "Selective rally loses cash confirmation",
+        "outcome": "Prices could reverse if operating cash and incremental returns fail to support growth expectations.",
+        "trigger": "Upcoming reports show weak conversion, inventory/receivables pressure or higher customer financing needs.",
+        "invalidation": "Broad participation persists and independently reported cash returns improve alongside demand.",
+        "horizon": "28–29 October releases and next US cash session",
+        "source_ids": [
+          "close",
+          "boeing",
+          "hood",
+          "hynix"
+        ]
+      },
+      {
+        "name": "Energy escalation versus diplomatic relief",
+        "outcome": "Supply losses would intensify importer costs; verified restoration could relieve them without implying an end to all conflict.",
+        "trigger": "Operator/regulator/credible shipping notices verify outages, export losses, rerouting or restored operations.",
+        "invalidation": "Claimed damage is not corroborated, supply remains available, or actual transport costs do not move as hypothesized.",
+        "horizon": "Next 24–72 hours, checked against dated operator notices",
+        "source_ids": [
+          "security",
+          "oil"
+        ]
+      },
+      {
+        "name": "Policy expectations reset",
+        "outcome": "Funding-sensitive assets could reprice even if revenue grows.",
+        "trigger": "The official 28 October decision and communication differ materially from market assumptions.",
+        "invalidation": "Policy and financing terms align with assumptions while investment cash returns remain resilient.",
+        "horizon": "After the 28 October FOMC meeting",
+        "source_ids": [
+          "fed",
+          "visa",
+          "ups"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "SK hynix actual results and call: HBM/DRAM, cash conversion, funded capacity and manufacturing constraints.",
+        "due_at": "2026-10-28T00:00:00Z",
+        "confirms": "Revenue/collections, utilization and capacity commitments corroborate physical demand.",
+        "contradicts": "Qualification delays, inventories or capex outrunning returns weaken the demand-quality case.",
+        "source_ids": [
+          "hynix"
+        ]
+      },
+      {
+        "signal": "Read the official FOMC decision after the 28 October meeting; precise release time is not independently certified by this calendar.",
+        "due_at": "2026-10-28T23:59:00Z",
+        "confirms": "Actual policy and language support current funding assumptions.",
+        "contradicts": "Unexpected tightening or financing stress undermines capital-intensive projects.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Seek quantified UPS data-centre revenue, margin and invested capital, plus customer funding/installed-service evidence.",
+        "due_at": "2026-11-03T00:00:00Z",
+        "confirms": "Contracted incremental business earns acceptable cash returns without disproportionate investment.",
+        "contradicts": "Opportunity language lacks contract conversion or requires substantial balance-sheet support.",
+        "source_ids": [
+          "ups"
+        ]
+      },
+      {
+        "signal": "Verify operator and transport notices before assigning damage, supply loss or direct Singapore effects to the 27 October claims.",
+        "due_at": "2026-10-28T00:00:00Z",
+        "confirms": "Independent dated notices document physical and commercial disruption.",
+        "contradicts": "No corroborated outage or lasting transport effect; maintain claim/verification distinction.",
+        "source_ids": [
+          "security",
+          "oil"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T20:59:54Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-27",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE scheduled core cash session; security-specific halts not comprehensively audited",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Positive reported cash participation, with a selective growth tilt; not an all-sector certification.",
+        "indicators": "Use the closing breadth/volume observations above. No matched closing volatility, fund-flow or full sector-return panel was verified. Extended-hours reactions have separate timing and are not public-opinion surveys.",
+        "source_ids": [
+          "close",
+          "visa",
+          "hood"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "The consolidated closing observations establish sector leadership without supplying every constituent or a sector percentage.",
+          "implication": "Price leadership is not proof of realized AI returns or resolved manufacturing constraints.",
+          "watchpoint": "Check upcoming memory/customer results and funded delivery/cash conversion.",
+          "source_ids": [
+            "close",
+            "hynix"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No independently verified closing sector series or fresh primary platform/telecom operating release here.",
+          "implication": "Hardware demand and a network spending proxy cannot establish platform monetization.",
+          "watchpoint": "Retrieve direct platform revenue, capex and cash economics rather than extrapolating the index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Post-close Visa network growth is a bounded travel/spending proxy; it is not a discretionary-sector return.",
+          "implication": "Nominal transactions, international travel and real consumption need separate analysis.",
+          "watchpoint": "Verify merchant volumes, inflation/mix and issuer guidance before broad consumption conclusions.",
+          "source_ids": [
+            "visa"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "The earlier Coca-Cola global/local volume distinction is retained; attempted refresh failed.",
+          "implication": "Company and geography differences prevent a uniform consumer-health claim.",
+          "watchpoint": "Recheck actual primary release and like-period volumes, pricing and collections.",
+          "source_ids": [
+            "ko"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Settlement evidence is distinguished from earlier intraday oil quotations; the closing market account shows relative weakness.",
+          "implication": "Producer earnings and importer input costs can respond differently; the delivery-month gap limits curve analysis.",
+          "watchpoint": "Verify matched contracts, operator output and physical flows before attributing lasting margin effects.",
+          "source_ids": [
+            "oil",
+            "close",
+            "security"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Post-close Visa and Robinhood illustrate network activity versus profit/mix divergence.",
+          "implication": "A payment processor and brokerage are different models; neither certifies bank credit or deposit economics.",
+          "watchpoint": "Read issuer reconciliations and separate fees, interest, trading mix and costs.",
+          "source_ids": [
+            "visa",
+            "hood"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified US health-care closing basket or fresh primary operating panel in this consolidation.",
+          "implication": "Other sectors' risk appetite cannot establish medical demand or regulatory outcomes.",
+          "watchpoint": "Check dated issuer/agency releases, cash economics and actual trial/approval status.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Boeing cash reconciliation and the UPS interview create distinct execution and opportunity cases.",
+          "implication": "Backlog, prospective market size and FCF are different; quarterly positive cash can coexist with cumulative outflow.",
+          "watchpoint": "Compare deliveries, working capital, funded orders and incremental return on capital.",
+          "source_ids": [
+            "boeing",
+            "ups"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified closing materials return or matched metals/inventory panel.",
+          "implication": "Planned data-centre capex alone does not establish realized commodity demand or producer profits.",
+          "watchpoint": "Require funded construction, actual delivery, pricing and inventory evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified property/REIT closing return, occupancy or refinancing panel.",
+          "implication": "Logistics service demand is not a lease award or data-centre landlord cash return.",
+          "watchpoint": "Check signed leases, utilization, financing and distributable cash.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified new grid/generation award, connection capacity or closing utility return.",
+          "implication": "Potential project demand does not establish cost recovery, commissioning or regulated returns.",
+          "watchpoint": "Seek permits, funded contracts and customer connection timelines.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Selective US technology strength could support regional suppliers; after-hours demand reports and energy exposure qualify that read.",
+          "trigger": "Asian issuer results and cash participation corroborate orders, funding and deliveries.",
+          "invalidation": "Weak cash conversion, reversals or verified energy disruptions outweigh the demand signal.",
+          "source_ids": [
+            "close",
+            "hynix",
+            "oil",
+            "ups"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Potential transmission through specialist logistics, electronics, aviation, utilities and imported energy; no new direct local disruption established.",
+          "trigger": "Singapore operator/issuer disclosures confirm contracts, cargo demand or changed fuel/freight/insurance costs.",
+          "invalidation": "Local mix, hedges or alternate supply prevent the projected effect; no local prices or holdings inferred.",
+          "source_ids": [
+            "ups",
+            "security",
+            "oil",
+            "visa"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Supplier/logistics exposure may gain support from funded demand while aerospace execution and energy risks produce different company outcomes.",
+          "trigger": "European issuers corroborate backlog conversion, utilization and margin/cash effects.",
+          "invalidation": "Customer finance, project cancellations, working capital or input costs prevent conversion.",
+          "source_ids": [
+            "boeing",
+            "ups",
+            "oil",
+            "fed"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-27-europe-close",
     "title": "Europe closing review — bank expectations and pharmaceutical accounting diverge",
     "summary": "27 October desk date, observed 28 October 01:06:41 SGT (17:06:41 London). All 11 sectors reviewed or marked incomplete. Issuer results are verified; final FTSE/STOXX and synchronized sector returns remain uncertified.",
