@@ -1,5 +1,1248 @@
 [
   {
+    "id": "2026-10-27-europe-close",
+    "title": "Europe closing review — bank expectations and pharmaceutical accounting diverge",
+    "summary": "27 October desk date, observed 28 October 01:06:41 SGT (17:06:41 London). All 11 sectors reviewed or marked incomplete. Issuer results are verified; final FTSE/STOXX and synchronized sector returns remain uncertified.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-27T17:06:41Z",
+    "updated_at": "2026-10-27T17:06:41Z",
+    "cutoff_at": "2026-10-27T17:06:41Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "fed",
+        "title": "FOMC calendar, updated 7 October; 27–28 October meeting",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "published_at": "2026-10-07",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "board",
+        "title": "US Markets delayed quote board — individual timestamps unavailable; publication field records retrieval date",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/us/",
+        "published_at": "2026-10-27T17:06:41Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "ko",
+        "title": "Coca-Cola Q3 2026 results and guidance",
+        "publisher": "The Coca-Cola Company",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "ups",
+        "title": "UPS Q3 2026 earnings",
+        "publisher": "United Parcel Service",
+        "url": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "nvs",
+        "title": "Novartis Q3 2026 reported/core results and outlook",
+        "publisher": "Novartis",
+        "url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "hsbc",
+        "title": "HSBC Holdings plc Earnings Release 3Q26 — issuer RNS distributed by Investegate",
+        "publisher": "HSBC via RNS/Investegate",
+        "url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/hsbc-holdings-plc-earnings-release-3q26-/9842251",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "lse",
+        "title": "Business days — undated calendar; publication field is retrieval date",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-27T17:06:41Z",
+        "accessed_at": "2026-10-27T17:06:41Z",
+        "type": "primary"
+      },
+      {
+        "id": "euronext",
+        "title": "2026 cash-market calendar — undated page; publication field is retrieval date",
+        "publisher": "Euronext",
+        "url": "https://live.euronext.com/en/resources/trading-hours-holidays",
+        "published_at": "2026-10-27T17:06:41Z",
+        "accessed_at": "2026-10-27T17:06:41Z",
+        "type": "primary"
+      },
+      {
+        "id": "wrap",
+        "title": "European shares retreat — 09:20 GMT intraday observations; 08:12 UTC first publication is not a closing update",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/europe-shares-fall-hsbc-weighs-france-protests-keep-investors-wary-2026-10-27/",
+        "published_at": "2026-10-27T08:12:35Z",
+        "accessed_at": "2026-10-27T17:06:41Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ftse",
+        "title": "FTSE 100 historical table — evolving current-day row rejected as final; publication field is retrieval metadata",
+        "publisher": "Investors Chronicle / markets data",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE:FSI",
+        "published_at": "2026-10-27T17:06:41Z",
+        "accessed_at": "2026-10-27T17:06:41Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Calendar: LSE and the seven named Euronext cash venues list no scheduled 27 October closure or half day. This is a partial European basket; Swiss/German and other exchange exceptions, security halts and auction completion are not comprehensively certified. Observation is 16m41s after the 16:50 London editorial target, not a measurement at the closing auction.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "euronext"
+        ]
+      },
+      {
+        "text": "HSBC's issuer release reports Q3 profit before tax of US$9.632bn versus US$7.295bn reported a year earlier. Its stated 32% increase reflects notable items including the non-recurrence of US$1.4bn legal provisions. An announced buyback is capped at US$1bn; intention is distinct from executed repurchases.",
+        "kind": "fact",
+        "source_ids": [
+          "hsbc"
+        ]
+      },
+      {
+        "text": "Novartis reports Q3 net sales US$14.522bn (+4% USD), reported operating income down 59%, and core operating income up 11% USD. A partial del-desiran impairment explains much of the reported decline. FCF, an alternative performance measure, was US$5.111bn, down 18%; core profit guidance improved. Core and reported results differ materially.",
+        "kind": "fact",
+        "source_ids": [
+          "nvs"
+        ]
+      },
+      {
+        "text": "Reuters' 09:20 GMT snapshot put STOXX 600 at 640.07 (-0.1%); its account cited HSBC weakness alongside firmer technology and mining shares. This is morning evidence. The FTSE current-day table changed between indexed and opened versions; it and a quote board lack matched final timestamps. Final FTSE/STOXX returns, turnover, breadth and all-sector closes remain DATA INCOMPLETE.",
+        "kind": "fact",
+        "source_ids": [
+          "wrap",
+          "ftse",
+          "board"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Inference: recurring earnings quality may matter more than headline year-on-year profit growth.",
+        "transmission": "Prior provisions and current impairments can alter reported comparisons; pricing, mix and cost savings can improve profit without broad final-demand strength.",
+        "confidence": "inference",
+        "alternatives": "Positioning, index weights and valuation also influence prices. Issuer accounts alone cannot establish the day's market cause or sector health.",
+        "source_ids": [
+          "hsbc",
+          "nvs",
+          "ko",
+          "ups"
+        ]
+      },
+      {
+        "explanation": "Inference: revenue growth needs cash and return evidence before it validates capital-intensive expansion.",
+        "transmission": "Suppliers and logistics firms benefit only if customers fund demand and accept deliveries; financing costs can offset volume gains.",
+        "confidence": "inference",
+        "alternatives": "Temporary inventory/working-capital effects or adjusted accounting could explain apparent improvement. No synchronized funding-price panel was verified.",
+        "source_ids": [
+          "fed",
+          "ups",
+          "ko"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Recurring demand broadens",
+        "outcome": "Earnings support wider activity if volume and cash conversion strengthen together.",
+        "trigger": "New disclosures corroborate profitable demand with collections and sustainable spending.",
+        "invalidation": "Price/mix, adjustments or credit support explain growth while cash and volume weaken.",
+        "horizon": "Next reports and 28–29 October supplier disclosures",
+        "source_ids": [
+          "ko",
+          "ups",
+          "nvs"
+        ]
+      },
+      {
+        "name": "Funding reset",
+        "outcome": "Rate-sensitive and capital-intensive assets could reprice despite revenue growth.",
+        "trigger": "Official policy or verified financing terms tighten relative to assumptions.",
+        "invalidation": "Funding eases and incremental returns hold; no policy result assumed before publication.",
+        "horizon": "27–28 October FOMC meeting and subsequent guidance",
+        "source_ids": [
+          "fed",
+          "hsbc"
+        ]
+      },
+      {
+        "name": "Headline/core divergence",
+        "outcome": "Company-specific risk dominates when adjustments obscure recurring economics.",
+        "trigger": "Reconciliations identify materially different impairment, provision or restructuring effects.",
+        "invalidation": "Subsequent cash and reported earnings validate adjusted improvement without repeated exclusions.",
+        "horizon": "Next filings and cash-flow reconciliations",
+        "source_ids": [
+          "nvs",
+          "hsbc",
+          "ups"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Retrieve the official FOMC decision after the 28 October meeting; date verified, precise release time not independently certified here.",
+        "due_at": "2026-10-28T23:59:00Z",
+        "confirms": "Actual decision/language supports funding assumptions.",
+        "contradicts": "A different policy path invalidates the funding scenario.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Verify final market/sector levels with explicit timestamps before the next consolidated closing review.",
+        "due_at": "2026-10-27T21:00:00Z",
+        "confirms": "Matched prices and breadth establish participation.",
+        "contradicts": "Conflicting or untimed versions remain gaps.",
+        "source_ids": [
+          "lse",
+          "euronext",
+          "ftse"
+        ]
+      },
+      {
+        "signal": "Review actual cash statements, working capital and earnings reconciliations.",
+        "due_at": "2026-10-28T00:00:00Z",
+        "confirms": "Collections and recurring margins corroborate revenue.",
+        "contradicts": "Receivables, inventory or repeated exclusions weaken the cash-quality case.",
+        "source_ids": [
+          "ko",
+          "ups",
+          "nvs",
+          "hsbc"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T17:06:41Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-27",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "LSE scheduled cash session",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        },
+        {
+          "name": "Euronext Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo and Paris scheduled cash sessions",
+          "status": "verified-session",
+          "source_ids": [
+            "euronext"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed and incompletely measured at the close; the morning record shows industry dispersion.",
+        "indicators": "Issuer results support a debate about recurring earnings versus adjustments. No verified final advance/decline, turnover, volatility or fund-flow panel; morning commentary cannot establish closing sentiment.",
+        "source_ids": [
+          "wrap",
+          "hsbc",
+          "nvs",
+          "ftse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified sector-wide closing return or new primary AI demand disclosure in this bounded scan.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Check funded deliveries, utilization, inventory and customer cash generation.",
+          "source_ids": [
+            "fed"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified telecom/platform operating release or matched sector return.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Check advertising/subscriber revenue and capital intensity before extrapolating hardware demand.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No representative retail/auto/hotel panel or sector-wide return verified.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Check volumes, incentives, credit costs and margins with like-period comparisons.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Coca-Cola supplies a narrow multinational demand case; regional volume differs from global revenue.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Compare local volume, price/mix, shipments and working capital before extrapolating.",
+          "source_ids": [
+            "ko"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No matched commodity contract/time or sector return verified.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Separate producers/importers and match benchmark, delivery month, currency and quote time.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "HSBC supplies recurring-versus-notable-item evidence; it is not an industry return.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Review funding costs, net interest income, credit charges and executed capital returns.",
+          "source_ids": [
+            "hsbc"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Novartis supplies a reported/core earnings contradiction, not a broad industry verdict.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Reconcile impairment, R&D, product demand and realized cash; verify regulatory milestones.",
+          "source_ids": [
+            "nvs"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "UPS supplies a logistics issuer case with reported/adjusted differences.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Review volumes, yield, costs and cash conversion; outlook does not equal collected cash.",
+          "source_ids": [
+            "ups"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No primary broad materials-demand, inventory or matched metal-price panel verified.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Seek actual deliveries, realized prices and customer funding before extending capex optimism.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified property-sector close, occupancy or refinancing-spread panel.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Compare signed leases, funded construction, leverage and distributable cash.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified new grid award, connection capacity or utility return panel.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Require funded orders, permits and cost recovery before attributing growth to AI power demand.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Conditional transmission through supplier orders, funding and foreign demand; geographic and accounting differences matter.",
+          "trigger": "Local issuer or official evidence confirms the same channel with dates.",
+          "invalidation": "Local mix, hedging, credit conditions or cash outcomes differ; no uniform move assumed.",
+          "source_ids": [
+            "ko",
+            "ups",
+            "hsbc",
+            "fed"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Conditional transmission through trade, logistics, funding and multinational demand; no direct documented Singapore disruption or earnings effect here.",
+          "trigger": "Local issuer or official evidence confirms the same channel with dates.",
+          "invalidation": "Local mix, hedging, credit conditions or cash outcomes differ; no uniform move assumed.",
+          "source_ids": [
+            "ko",
+            "ups",
+            "hsbc",
+            "fed"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Conditional transmission through supplier orders, funding and foreign demand; geographic and accounting differences matter.",
+          "trigger": "Local issuer or official evidence confirms the same channel with dates.",
+          "invalidation": "Local mix, hedging, credit conditions or cash outcomes differ; no uniform move assumed.",
+          "source_ids": [
+            "ko",
+            "ups",
+            "hsbc",
+            "fed"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-27-us-open-delayed-catch-up",
+    "title": "US opening-window catch-up — midday quotes and cash earnings, with timing gaps",
+    "summary": "Delayed recovery for 27 October US open. Cutoff 28 October 01:06:41 SGT (13:06:41 New York); observations were gathered after the open. Coca-Cola/UPS results verified; no historical pre-open call or final US close claimed.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-27T17:06:41Z",
+    "updated_at": "2026-10-27T17:06:41Z",
+    "cutoff_at": "2026-10-27T17:06:41Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "fed",
+        "title": "FOMC calendar, updated 7 October; 27–28 October meeting",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "published_at": "2026-10-07",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "board",
+        "title": "US Markets delayed quote board — individual timestamps unavailable; publication field records retrieval date",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/us/",
+        "published_at": "2026-10-27T17:06:41Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "ko",
+        "title": "Coca-Cola Q3 2026 results and guidance",
+        "publisher": "The Coca-Cola Company",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "ups",
+        "title": "UPS Q3 2026 earnings",
+        "publisher": "United Parcel Service",
+        "url": "https://investors.ups.com/news-events/press-releases/detail/2172/ups-releases-3q-2026-earnings",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "nvs",
+        "title": "Novartis Q3 2026 reported/core results and outlook",
+        "publisher": "Novartis",
+        "url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "hsbc",
+        "title": "HSBC Holdings plc Earnings Release 3Q26 — issuer RNS distributed by Investegate",
+        "publisher": "HSBC via RNS/Investegate",
+        "url": "https://www.investegate.co.uk/announcement/rns/hsbc-holdings--hsba/hsbc-holdings-plc-earnings-release-3q26-/9842251",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T17:06:41Z"
+      },
+      {
+        "id": "nyse",
+        "title": "NYSE holidays/core hours — undated page; publication field is retrieval date",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "published_at": "2026-10-27T17:06:41Z",
+        "accessed_at": "2026-10-27T17:06:41Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE lists no scheduled 27 October holiday or half day; its core session is 09:30–16:00 Eastern. This recovery is observed at 13:06:41 New York, 3h51m41s after the 09:15 editorial target. It cannot reconstruct what was known or priced before the opening auction.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "The retrieved Reuters board displayed S&P 500 7,727.67 (+0.66%), Nasdaq Composite 26,502.06 (+1.27%) and Dow 52,403.35 (+0.08%). Quotes are delayed at least 15 minutes and lack individual timestamps here. These observed board readings are not certified opening or closing prints.",
+        "kind": "fact",
+        "source_ids": [
+          "board"
+        ]
+      },
+      {
+        "text": "Coca-Cola reports Q3 global unit-case volume up 5%, net revenue up 7%, GAAP EPS US$0.93 and comparable non-GAAP EPS US$0.91. North American unit-case volume was flat. Global growth and US household demand require separate interpretation; shipments, price/mix and consumer volume are different measures.",
+        "kind": "fact",
+        "source_ids": [
+          "ko"
+        ]
+      },
+      {
+        "text": "UPS reports Q3 revenue US$22.9bn (+6.7%), reported operating margin 7.6% versus adjusted non-GAAP 9.0%, and diluted EPS US$1.37 versus adjusted US$1.69. It raised its full-year adjusted FCF target to about US$6.1bn. That target is forward-looking; it is not already collected cash.",
+        "kind": "fact",
+        "source_ids": [
+          "ups"
+        ]
+      },
+      {
+        "text": "The Fed's official calendar schedules its meeting for 27–28 October; no October decision is published on the retrieved calendar. Pause/hike forecasts are not policy outcomes. Synchronized Treasury, FX, energy, breadth and 11-sector price panels remain unverified in this read.",
+        "kind": "fact",
+        "source_ids": [
+          "fed",
+          "board"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Inference: recurring earnings quality may matter more than headline year-on-year profit growth.",
+        "transmission": "Prior provisions and current impairments can alter reported comparisons; pricing, mix and cost savings can improve profit without broad final-demand strength.",
+        "confidence": "inference",
+        "alternatives": "Positioning, index weights and valuation also influence prices. Issuer accounts alone cannot establish the day's market cause or sector health.",
+        "source_ids": [
+          "hsbc",
+          "nvs",
+          "ko",
+          "ups"
+        ]
+      },
+      {
+        "explanation": "Inference: revenue growth needs cash and return evidence before it validates capital-intensive expansion.",
+        "transmission": "Suppliers and logistics firms benefit only if customers fund demand and accept deliveries; financing costs can offset volume gains.",
+        "confidence": "inference",
+        "alternatives": "Temporary inventory/working-capital effects or adjusted accounting could explain apparent improvement. No synchronized funding-price panel was verified.",
+        "source_ids": [
+          "fed",
+          "ups",
+          "ko"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Recurring demand broadens",
+        "outcome": "Earnings support wider activity if volume and cash conversion strengthen together.",
+        "trigger": "New disclosures corroborate profitable demand with collections and sustainable spending.",
+        "invalidation": "Price/mix, adjustments or credit support explain growth while cash and volume weaken.",
+        "horizon": "Next reports and 28–29 October supplier disclosures",
+        "source_ids": [
+          "ko",
+          "ups",
+          "nvs"
+        ]
+      },
+      {
+        "name": "Funding reset",
+        "outcome": "Rate-sensitive and capital-intensive assets could reprice despite revenue growth.",
+        "trigger": "Official policy or verified financing terms tighten relative to assumptions.",
+        "invalidation": "Funding eases and incremental returns hold; no policy result assumed before publication.",
+        "horizon": "27–28 October FOMC meeting and subsequent guidance",
+        "source_ids": [
+          "fed",
+          "hsbc"
+        ]
+      },
+      {
+        "name": "Headline/core divergence",
+        "outcome": "Company-specific risk dominates when adjustments obscure recurring economics.",
+        "trigger": "Reconciliations identify materially different impairment, provision or restructuring effects.",
+        "invalidation": "Subsequent cash and reported earnings validate adjusted improvement without repeated exclusions.",
+        "horizon": "Next filings and cash-flow reconciliations",
+        "source_ids": [
+          "nvs",
+          "hsbc",
+          "ups"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Retrieve the official FOMC decision after the 28 October meeting; date verified, precise release time not independently certified here.",
+        "due_at": "2026-10-28T23:59:00Z",
+        "confirms": "Actual decision/language supports funding assumptions.",
+        "contradicts": "A different policy path invalidates the funding scenario.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Verify final market/sector levels with explicit timestamps before the next consolidated closing review.",
+        "due_at": "2026-10-27T21:00:00Z",
+        "confirms": "Matched prices and breadth establish participation.",
+        "contradicts": "Conflicting or untimed versions remain gaps.",
+        "source_ids": [
+          "nyse",
+          "board"
+        ]
+      },
+      {
+        "signal": "Review actual cash statements, working capital and earnings reconciliations.",
+        "due_at": "2026-10-28T00:00:00Z",
+        "confirms": "Collections and recurring margins corroborate revenue.",
+        "contradicts": "Receivables, inventory or repeated exclusions weaken the cash-quality case.",
+        "source_ids": [
+          "ko",
+          "ups",
+          "nvs",
+          "hsbc"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T17:06:41Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-27",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE core scheduled cash session; individual halts not comprehensively audited",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Selective positive board readings, limited timestamp and breadth confidence.",
+        "indicators": "The displayed growth-heavy index gain exceeds the Dow's; this is a delayed-price proxy. No reliable live volume, equal-weight return, breadth, volatility or representative public-sentiment series was retrieved.",
+        "source_ids": [
+          "board",
+          "nyse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified sector-wide closing return or new primary AI demand disclosure in this bounded scan.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Check funded deliveries, utilization, inventory and customer cash generation.",
+          "source_ids": [
+            "fed"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified telecom/platform operating release or matched sector return.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Check advertising/subscriber revenue and capital intensity before extrapolating hardware demand.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No representative retail/auto/hotel panel or sector-wide return verified.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Check volumes, incentives, credit costs and margins with like-period comparisons.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Coca-Cola supplies a narrow multinational demand case; regional volume differs from global revenue.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Compare local volume, price/mix, shipments and working capital before extrapolating.",
+          "source_ids": [
+            "ko"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No matched commodity contract/time or sector return verified.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Separate producers/importers and match benchmark, delivery month, currency and quote time.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "HSBC supplies recurring-versus-notable-item evidence; it is not an industry return.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Review funding costs, net interest income, credit charges and executed capital returns.",
+          "source_ids": [
+            "hsbc"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Novartis supplies a reported/core earnings contradiction, not a broad industry verdict.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Reconcile impairment, R&D, product demand and realized cash; verify regulatory milestones.",
+          "source_ids": [
+            "nvs"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "UPS supplies a logistics issuer case with reported/adjusted differences.",
+          "implication": "Bounded issuer evidence; it does not certify the sector, regional return or a screen pass.",
+          "watchpoint": "Review volumes, yield, costs and cash conversion; outlook does not equal collected cash.",
+          "source_ids": [
+            "ups"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No primary broad materials-demand, inventory or matched metal-price panel verified.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Seek actual deliveries, realized prices and customer funding before extending capex optimism.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified property-sector close, occupancy or refinancing-spread panel.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Compare signed leases, funded construction, leverage and distributable cash.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified new grid award, connection capacity or utility return panel.",
+          "implication": "DATA INCOMPLETE: missing verification is not proof of no development.",
+          "watchpoint": "Require funded orders, permits and cost recovery before attributing growth to AI power demand.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Conditional transmission through supplier orders, funding and foreign demand; geographic and accounting differences matter.",
+          "trigger": "Local issuer or official evidence confirms the same channel with dates.",
+          "invalidation": "Local mix, hedging, credit conditions or cash outcomes differ; no uniform move assumed.",
+          "source_ids": [
+            "ko",
+            "ups",
+            "hsbc",
+            "fed"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Conditional transmission through trade, logistics, funding and multinational demand; no direct documented Singapore disruption or earnings effect here.",
+          "trigger": "Local issuer or official evidence confirms the same channel with dates.",
+          "invalidation": "Local mix, hedging, credit conditions or cash outcomes differ; no uniform move assumed.",
+          "source_ids": [
+            "ko",
+            "ups",
+            "hsbc",
+            "fed"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Conditional transmission through supplier orders, funding and foreign demand; geographic and accounting differences matter.",
+          "trigger": "Local issuer or official evidence confirms the same channel with dates.",
+          "invalidation": "Local mix, hedging, credit conditions or cash outcomes differ; no uniform move assumed.",
+          "source_ids": [
+            "ko",
+            "ups",
+            "hsbc",
+            "fed"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-27-asia-close",
+    "title": "Asia closing read — delayed publication of the 18:59 SGT evidence snapshot",
+    "summary": "27 October closing context, cutoff 18:59:55 SGT: reported Korea/Japan gains contrast with a nearly flat Indian close. Korea's primary GDP estimate and dated memory earnings calls give the next tests; regional calendars and all-sector closing data remain partial.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-27T17:06:41Z",
+    "updated_at": "2026-10-27T17:06:41Z",
+    "cutoff_at": "2026-10-27T10:59:55Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "2026 market holidays — undated page; publication field records retrieval date, not original publication",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "hkex",
+        "title": "2026 securities holiday and half-day schedule, CT/075/25",
+        "publisher": "HKEX",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+        "type": "primary",
+        "published_at": "2025-06-02",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "nse",
+        "title": "Capital Market Segment 2026 trading holidays, NSE/CMTR/71775",
+        "publisher": "National Stock Exchange of India",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "india",
+        "title": "Indian equity benchmarks muted — updated closing body retrieved; 02:28 UTC is first publication, not the close/update time",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-seen-lower-oil-stays-near-six-month-high-fed-focus-2026-10-27/",
+        "type": "secondary",
+        "published_at": "2026-10-27T02:28:04Z",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "ap",
+        "title": "Global shares mixed — evolving roundup; first indexed timestamp retained, individual quote times unavailable",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2",
+        "type": "secondary",
+        "published_at": "2026-10-27T07:10:57Z",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "bok",
+        "title": "Q3 2026 real GDP advance estimate",
+        "publisher": "Bank of Korea",
+        "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?depth=400423&menuNo=400423&nttId=11065943&programType=newsDataEng&relate=Y",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "hynix",
+        "title": "Q3 2026 earnings conference call invitation",
+        "publisher": "SK hynix",
+        "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+        "type": "primary",
+        "published_at": "2026-10-21",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Upcoming earnings events — undated page; publication field is retrieval date, not original publication",
+        "publisher": "Samsung Electronics",
+        "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-27T10:59:55Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Calendar check: 27 October is not a scheduled holiday in the JPX, HKEX cash or NSE capital-market calendars; HKEX's listed half days do not include today. These three venues form the verified calendar basket, not a certification of every Asian exchange or individual security halt.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hkex",
+          "nse"
+        ]
+      },
+      {
+        "text": "Reuters' closing update reports Nifty 50 at 22,749.75 (-0.02%) and Sensex at 73,598.67 (-0.01%); small/mid-caps gained 2.7%/1%. Financials and IT fell 0.6%/0.3%, while autos/pharma gained 1.5%/1.9%. These are reported cash closes, not independently retrieved exchange series.",
+        "kind": "fact",
+        "source_ids": [
+          "india"
+        ]
+      },
+      {
+        "text": "AP reports Kospi closed at 5,638.34 (+3.1%) and Nikkei added 1.7% to 63,268.37. SK hynix and Samsung gained 5.2% and 4.2%. The Nikkei mark is a reported session observation without a separately verified exchange timestamp; it is not a synchronized regional closing basket.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Bank of Korea's 27 October advance estimate puts Q3 real GDP growth at 1.0% quarter-on-quarter and 3.4% year-on-year. Neither number is an annualized quarter-on-quarter rate; this is macroeconomic output, not semiconductor-company revenue or cash flow.",
+        "kind": "fact",
+        "source_ids": [
+          "bok"
+        ]
+      },
+      {
+        "text": "SK hynix schedules its earnings release before 09:00 Seoul on 28 October and a call at 09:00 (08:00 Singapore). Samsung lists its 3Q26 call for 29 October at 10:00 Seoul (09:00 Singapore). Invitations are not results.",
+        "kind": "fact",
+        "source_ids": [
+          "hynix",
+          "samsung"
+        ]
+      },
+      {
+        "text": "Evidence limits: Korea, Taiwan, mainland China and other ASEAN venues are context only, without complete official calendar/exception verification here. Singapore is covered separately. The evolving AP roundup has unmatched quote times and version differences; India uses Reuters' explicit final update instead. No Shanghai/Hong Kong final return, matched oil contract/time, broad FX/rates panel, volume or comprehensive 11-sector closing series is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "ap",
+          "india",
+          "jpx",
+          "hkex",
+          "nse"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Inference: chip-linked equity strength and positive Korean output provide a demand-supportive reading, not proof that all AI infrastructure layers are accelerating.",
+        "transmission": "If subsequent supplier disclosures show cash-backed orders and deliverable capacity, memory/test equipment could transmit demand into packaging, racks, networking and power. No new beneficiary or bottleneck shift is certified from prices alone.",
+        "confidence": "inference",
+        "alternatives": "Positioning, valuation recovery or earnings anticipation could lift prices without stronger realized demand. GDP is backward-looking and cannot establish future margins, utilization or customer funding.",
+        "source_ids": [
+          "ap",
+          "bok",
+          "hynix",
+          "samsung"
+        ]
+      },
+      {
+        "explanation": "Inference: the divergence in the reported indices argues against treating Asia as one uniform risk-on trade.",
+        "transmission": "For importers, persistent input costs could offset stronger activity; for lenders and rate-sensitive assets, funding conditions could dominate volume growth. Contract- and timestamp-matched oil, FX and yield evidence is missing, so no numerical transmission is asserted.",
+        "confidence": "inference",
+        "alternatives": "Index composition, domestic earnings and currency changes could explain dispersion better than a single oil or central-bank story. Correlation is not attribution.",
+        "source_ids": [
+          "india",
+          "ap",
+          "bok"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash-backed semiconductor follow-through",
+        "outcome": "A broader infrastructure demand thesis strengthens only if disclosed deliveries and cash generation corroborate the price response.",
+        "trigger": "Memory reports show sustained customer demand, realistic capacity timelines and funding that is not dependent on repeated supplier/customer financing.",
+        "invalidation": "Weak collections, rising inventories, delayed qualification, cancellations or capex growing without return evidence.",
+        "horizon": "28–29 October earnings and subsequent quarterly disclosures",
+        "source_ids": [
+          "hynix",
+          "samsung",
+          "bok"
+        ]
+      },
+      {
+        "name": "Narrow rally, uneven domestic economy",
+        "outcome": "Headline technology strength does not translate into uniform consumer, financial or property strength.",
+        "trigger": "Results and breadth continue to diverge by industry despite index gains.",
+        "invalidation": "Verified broad participation, household demand and cash earnings improve together; do not use one stock's performance as that confirmation.",
+        "horizon": "Next Asian cash session and forthcoming results",
+        "source_ids": [
+          "ap",
+          "india",
+          "bok"
+        ]
+      },
+      {
+        "name": "Funding/input-cost squeeze",
+        "outcome": "Higher financing or operating costs could erode the growth benefit for importers and capital-intensive buyers.",
+        "trigger": "Fresh dated policy/yield/FX and matched energy evidence show tighter conditions, followed by weaker margin or capex guidance.",
+        "invalidation": "Funding costs and matched energy prices ease and firms retain cash conversion; no unconditional rate, conflict or price forecast.",
+        "horizon": "Next policy announcements and issuer guidance",
+        "source_ids": [
+          "india",
+          "hynix",
+          "samsung"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "SK hynix actual Q3 disclosure: distinguish HBM/DRAM orders and commitments from shipments, revenue, collections and capex.",
+        "due_at": "2026-10-28T00:00:00Z",
+        "confirms": "Demand, utilization and cash conversion corroborate capacity spending; call time is verified, release is scheduled before it.",
+        "contradicts": "Inventory/receivables pressure, uncertain qualifications or circular funding undermine price-led optimism.",
+        "source_ids": [
+          "hynix"
+        ]
+      },
+      {
+        "signal": "Samsung 3Q26 earnings call, not the earlier guidance event.",
+        "due_at": "2026-10-29T01:00:00Z",
+        "confirms": "Actual memory/manufacturing economics and funded capacity support the growth interpretation.",
+        "contradicts": "Weak mix, yield/qualification constraints or excessive capital intensity despite headline demand.",
+        "source_ids": [
+          "samsung"
+        ]
+      },
+      {
+        "signal": "Next regional opening: retrieve official cash levels/breadth and match FX, yields and energy by contract and timestamp.",
+        "due_at": "2026-10-27T23:45:00Z",
+        "confirms": "Broader cash participation supports spillovers beyond chips.",
+        "contradicts": "A narrow reversal or absent verification leaves the broader thesis incomplete.",
+        "source_ids": [
+          "jpx",
+          "hkex",
+          "nse",
+          "ap",
+          "india"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-27T10:59:55Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-10-27",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "JPX cash",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx"
+          ]
+        },
+        {
+          "name": "HKEX securities",
+          "status": "verified-session",
+          "source_ids": [
+            "hkex"
+          ]
+        },
+        {
+          "name": "NSE capital-market segment",
+          "status": "verified-session",
+          "source_ids": [
+            "nse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Selective risk appetite, not an all-Asia all-clear; qualitative inference from reported prices and domestic breadth proxies.",
+        "indicators": "Reported Korea/Japan strength contrasts with India's flat large-cap close and stronger smaller companies. No standardized regional breadth, turnover, volatility, fund-flow or representative public-opinion measure was verified. AP and Reuters are separate reporting chains; copies do not add confirmation.",
+        "source_ids": [
+          "ap",
+          "india",
+          "bok"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Reported Korean chip strength contrasts with India's IT decline in the observations above; supplier calls are forthcoming, not fresh result disclosures.",
+          "implication": "Price leadership is consistent with demand optimism but does not prove better HBM margins, lower capex intensity or resolved power/packaging bottlenecks.",
+          "watchpoint": "Read actual supplier statements, inventories, collections and capex on 28–29 October.",
+          "source_ids": [
+            "ap",
+            "india",
+            "hynix",
+            "samsung"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable regional sector close, telecom earnings or platform-advertising update was verified in this bounded read.",
+          "implication": "Do not turn a hardware rally into a claim about telecom or platform profitability.",
+          "watchpoint": "Require dated issuer demand, monetization and funding disclosures; distinguish local shares from ADRs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "India's auto observation above is a narrow local proxy, not the whole Asian discretionary sector.",
+          "implication": "An auto gain cannot certify household demand or offset imported input/financing costs.",
+          "watchpoint": "Check issuer volumes, incentives and margins rather than extrapolating the local auto index.",
+          "source_ids": [
+            "india",
+            "bok"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No representative regional staples basket or primary staples earnings comparison was verified.",
+          "implication": "Aggregate GDP does not establish beverage, food or household-product margins or pricing power.",
+          "watchpoint": "Verify issuer volume/mix, input costs and like-period cash earnings.",
+          "source_ids": [
+            "bok"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No contract/time-matched commodity mark or verified regional energy-sector return was obtained; evolving roundups are not a synchronized energy feed.",
+          "implication": "Producer upside and importer cost pressure are conditional and may differ across currencies and hedges.",
+          "watchpoint": "Match benchmark, delivery month and quote time before linking oil to reported margins.",
+          "source_ids": [
+            "ap",
+            "india"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "India's financials observation above is negative despite the nearly flat headline index; this is not a pan-Asian bank return.",
+          "implication": "Rate effects need balance-sheet, funding-cost and credit-loss evidence; index movement alone establishes none.",
+          "watchpoint": "Compare deposit repricing, credit costs and net interest income with dated local yields.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "India's pharma observation above is positive; no regional health-care basket is certified.",
+          "implication": "A local pharma gain is not evidence that all medical suppliers face the same demand, pricing or regulatory conditions.",
+          "watchpoint": "Verify issuer product mix, approvals, export/currency exposure and cash realization.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Primary Korean GDP growth is verified; company-level capital-goods orders and regional industrial returns are not.",
+          "implication": "Output strength is not booked equipment revenue. Racks, electrical gear and logistics remain hypotheses requiring issuer evidence.",
+          "watchpoint": "Look for funded orders, delivery schedules, backlog conversion and cancellation terms.",
+          "source_ids": [
+            "bok",
+            "hynix",
+            "samsung"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified regional materials return, metal contract series or company inventory update.",
+          "implication": "Do not infer copper/steel profits directly from prospective AI infrastructure capex.",
+          "watchpoint": "Require dated realized prices, input costs and actual customer orders.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No matched regional property/REIT close, financing spread or utilization panel.",
+          "implication": "AI interest does not prove data-centre rent capture; funding and occupancy can dominate supply announcements.",
+          "watchpoint": "Verify signed leases, commissioning dates, leverage and distributable cash; Singapore remains its own desk.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No new verified grid award, connection queue, generation contract or utility-sector price basket.",
+          "implication": "Potential power demand is not an awarded project or investable guaranteed return; permitting and cost recovery matter.",
+          "watchpoint": "Seek primary funded grid/cooling/generation commitments and regulated return/capital-spending terms.",
+          "source_ids": [
+            "hynix",
+            "samsung"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Conditional spillover to electronics, logistics and data-centre infrastructure, not evidence of new local orders or a verified STI close.",
+          "trigger": "Asian supplier results and Singapore issuer disclosures corroborate funded demand and deliveries.",
+          "invalidation": "Funding or utilization disappoints, or local cash/price data remain unverified; the separate Singapore closing read retains its gaps.",
+          "source_ids": [
+            "hynix",
+            "samsung",
+            "bok"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Equipment and electrical-infrastructure sentiment could benefit, but regional reopening strength cannot establish European order conversion.",
+          "trigger": "European issuers confirm funded backlog, delivery and margin effects consistent with the Asian reports.",
+          "invalidation": "Export restrictions, weak collections or capacity/customer concentration prevent conversion; no European closing call is made here.",
+          "source_ids": [
+            "ap",
+            "hynix",
+            "samsung"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Memory-demand evidence may influence semiconductor and AI-infrastructure expectations at the upcoming US session; a supplier rally does not validate customer project returns.",
+          "trigger": "New US disclosures reconcile AI spending, financing, utilization and cash economics with suppliers' evidence.",
+          "invalidation": "Borrowing costs, circular capital flows or weak monetization undermine the demand-to-return chain; no pre-open price is invented.",
+          "source_ids": [
+            "ap",
+            "hynix",
+            "samsung",
+            "bok"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-27-singapore-close",
     "title": "Singapore closing read — issuer cash flows verified, closing-price confirmation incomplete",
     "summary": "27 October closing-context read, evidence cutoff 18:04 SGT, after scheduled trade-at-close. KORE's actual update replaces the morning calendar-only gap; KIT's reported income needs a divestment-gain comparison. No reliable final STI/breadth/sector snapshot was verified.",
