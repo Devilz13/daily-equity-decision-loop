@@ -1,6 +1,6 @@
 # DEDL compact handoff
 
-Updated 28 October 2026, 01:06:41 SGT evidence cutoff. Public-safe record; Git preserves older handoffs. Resolve current main each invocation.
+Updated 28 October 2026, 01:13:44 SGT release receipt. Public-safe record; Git preserves older handoffs. Resolve current main each invocation.
 
 ## Routing and authority
 
@@ -10,14 +10,15 @@ Updated 28 October 2026, 01:06:41 SGT evidence cutoff. Public-safe record; Git p
 - Check all date entries/exact canonical daily path; special guidance does not satisfy it. Before 08:00 do not draft the new morning edition. Session-only work cannot change issues.json/delivery revisions or send Telegram.
 - PR #2 remains unmerged/approval-blocked; no candidate code deployed. Free permitted public information only; no private models, methods, positions, credentials, owner debates or trades here.
 
-## Current batch — publication pending
+## Current batch — all three reports verified live
 
 - Starting main **ca17f871ba0f45a7cfb98e0d073295c45693bb25**. Dispatcher at 01:05 SGT selected Europe close; audit also identified unresolved 27 October US open. Prior Asia-close local preparation had no published commit; recovered as unfinished publication, not a successful earlier checkpoint.
 - [Europe close](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-27-europe-close/): cutoff **28 October 01:06:41 SGT / 27 October 17:06:41 London**, 16m41s after editorial target. Official LSE/seven Euronext cash calendars support scheduled sessions; wider European calendar partial. All 11 sectors, four bounded issuer reviews/seven explicit gaps. Final FTSE/STOXX, breadth, turnover and sector returns remain uncertified; evolving current-day price rows rejected as final.
 - [US opening-window catch-up](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-27-us-open-delayed-catch-up/): same cutoff **13:06:41 New York**, 3h51m41s after 09:15 target. NYSE calendar/core hours verified. Delayed untimed quote-board readings are not historical opening prints or a final close. All 11 sectors/four bounded issuer reviews/seven gaps; individual halts not comprehensively audited.
 - [Asia close](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-27-asia-close/): original **27 October 18:59:55 SGT cutoff** retained, later publication timestamp; original source access times unchanged. JPX/HKEX/NSE scheduled calendars verified; wider basket partial. Four bounded reviews/seven gaps. Original cutoff was 44m55s after target; live availability still pending.
 - Shared primary issuer evidence: HSBC RNS, Novartis, Coca-Cola and UPS; official Fed meeting dates. Keep notable-item/impairment, reported/core/non-GAAP, global/local volume and target/realized-cash distinctions. Reuters Europe observations explicitly morning 09:20 GMT. Report registers retain originals, contradictions and gaps; no full articles copied.
-- Final local checks: **42 tests pass; 41 editions/15 reports, 91 pages**. Build/internal links/artifact/history/diff, sender dry-run, run-context and editorial checks pass. Evidence/privacy separately reviewed. One build rejected retrieval-date metadata later than its UTC cutoff; exact retrieval timestamps fixed it without changing historical source dates or weakening validation. Current-main run-context still labels routing hourly; latest user override and this handoff/dispatcher document govern routing. **Pending:** expected-head publication, exact Pages/report verification and unchanged-key Telegram outcome. Local staged rows do not establish live publication.
+- Release commit **e5c1e5e721dc485b53259913c8a55b059e221676**, [run 40548379529](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/40548379529), job 122345087929: all validation/history/deploy steps succeeded. Pages reported success **28 October 01:13:25 SGT**; exact live titles and cutoffs for all three reports independently retrieved by **01:13:44**. Europe first observed availability was 23m44s after its target; US opening recovery 3h58m44s after target; Asia was published the following Singapore date, retaining its earlier evidence cutoff. Logs explicitly say **issue and delivery revision unchanged; no Telegram message sent**. No failed or ambiguous send in this batch. Morning live key independently rechecked.
+- Final local checks: **42 tests pass; 41 editions/15 reports, 91 pages**. Build/internal links/artifact/history/diff, sender dry-run, run-context and editorial checks pass; hosted release repeated validation. Evidence/privacy separately reviewed. Complete uploaded blob IDs matched tested local files before expected-head publication. One local build rejected retrieval-date metadata later than its UTC cutoff; exact retrieval timestamps fixed it without changing historical source dates or weakening validation. Current-main run-context still labels routing hourly; latest user override and this handoff/dispatcher document govern routing. Live publication does not certify the explicitly missing data.
 - Eight 26 October desk targets remain missing/calendar-qualified; no historical backlog burst.
 
 ## Daily issue/delivery
