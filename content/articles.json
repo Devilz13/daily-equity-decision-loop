@@ -1,5 +1,858 @@
 [
   {
+    "id": "2026-10-28-europe-close-delayed",
+    "title": "Europe closing read — mixed London close after Budget; tax relief versus cash costs",
+    "summary": "28 October London session, reviewed with actual evidence cutoff 29 October 02:03:08 SGT. Delayed relative to the 16:50 GMT editorial target. Budget announcements, issuer results and a mixed reported close are distinct; US quotes remain intraday and the Fed outcome was not retrieved.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-28T18:03:08Z",
+    "updated_at": "2026-10-28T18:03:08Z",
+    "cutoff_at": "2026-10-28T18:03:08Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Official LSE business calendar; undated page, retrieval timestamp used for source-date field",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-10-28T18:02:27Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "uk-close",
+        "title": "Alliance News London closing roundup; indexed body read, full reader subsequently unavailable",
+        "publisher": "Alliance News via shareprices.com",
+        "url": "https://shareprices.com/news/london-market-close-eyes-on-fed-call-as-markets-tolerate-uk-budget-mnvddvsi4sxf86k/",
+        "type": "secondary",
+        "published_at": "2026-10-28T17:01:00Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "budget",
+        "title": "Budget 2026 official policy document; announced measures are not all enacted",
+        "publisher": "HM Treasury",
+        "url": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "treasury",
+        "title": "Budget 2026 government policy announcement and energy proposals",
+        "publisher": "HM Treasury",
+        "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-today-hope-for-the-future",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "speech",
+        "title": "28 October Budget speech; attributed official political statement, not independent validation",
+        "publisher": "HM Treasury / Chancellor John Healey",
+        "url": "https://www.gov.uk/government/speeches/budget-2026-speech",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "s4",
+        "title": "S4 Capital Q3 RNS original text via Investegate; platform summary not used",
+        "publisher": "S4 Capital via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/announcement/rns/s4-capital--sfor/third-quarter-trading-update/9844570",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ge",
+        "title": "28 October Q3 results and proposed Trench acquisition",
+        "publisher": "GE Vernova",
+        "url": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "fed",
+        "title": "Official meeting calendar; undated page, retrieval timestamp used for source-date field; October outcome not retrieved",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "type": "primary",
+        "published_at": "2026-10-28T18:02:27Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "unilever",
+        "title": "28 October 07:00:03 London RNS; indexed official disclosure, full reader unavailable",
+        "publisher": "Unilever via London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/news/article/ULVR/q3-2026-trading-statement/e544-99-77-97-60-41c185",
+        "type": "primary",
+        "published_at": "2026-10-28T07:00:03Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "gsk",
+        "title": "28 October Q3 results; actual versus constant exchange rates and total versus core",
+        "publisher": "GSK",
+        "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q3-performance-and-continued-momentum/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "oil",
+        "title": "Reuters oil report via Euronext; dated intraday observation, not futures settlement",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/oil-prices-rise-about-2-yemen-fighting-stokes-supply-fears",
+        "type": "secondary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Alliance News reported FTSE 100 closing at 10,694.50 (+0.1%) and FTSE 250 at 24,639.26 (-0.3%); this is an attributed closing report, not a live 02:03 SGT quotation.",
+        "kind": "fact",
+        "source_ids": [
+          "uk-close"
+        ]
+      },
+      {
+        "text": "The LSE official calendar shows no scheduled 28 October closure. This read is LSE-anchored; continental calendars and a complete European sector panel were not comprehensively verified.",
+        "kind": "fact",
+        "source_ids": [
+          "lse"
+        ]
+      },
+      {
+        "text": "Chancellor John Healey's 28 October government-hosted speech describes the Budget as fiscally disciplined. This verifies the official's statement, not an independent fiscal verdict or representative public sentiment; no direct social-post feed was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "speech"
+        ]
+      },
+      {
+        "text": "Budget measures include future tax and housing changes; announcement, legislation, spending and realized economic outcomes are separate stages.",
+        "kind": "fact",
+        "source_ids": [
+          "budget"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Banks can rise when announced taxes are less punitive than anticipated, even though future profits still face a levy.",
+        "transmission": "Expectations can lift valuation while the actual tax burden remains a cash headwind.",
+        "confidence": "inference",
+        "alternatives": "Broader rates, earnings and positioning can explain the reaction; no controlled attribution is available.",
+        "source_ids": [
+          "budget",
+          "uk-close"
+        ]
+      },
+      {
+        "explanation": "NVIDIA/AI Infrastructure — GE's planned grid-equipment expansion and S4's budget caution show different exposures to the same capital-spending cycle.",
+        "transmission": "Power-equipment demand could strengthen while discretionary marketing budgets lag.",
+        "confidence": "inference",
+        "alternatives": "Management narratives may reflect issuer execution or client concentration rather than a universal spending shift.",
+        "source_ids": [
+          "ge",
+          "s4"
+        ]
+      },
+      {
+        "explanation": "Energy-security reporting creates a conditional imported-cost channel.",
+        "transmission": "Persistent crude/freight costs can reach Asian fuel importers, transport margins and inflation.",
+        "confidence": "inference",
+        "alternatives": "Risk premium can unwind without sustained physical supply losses; refinery impact and Singapore transmission remain unverified.",
+        "source_ids": [
+          "oil"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Expectation relief persists",
+        "outcome": "UK bank valuations may retain support while earnings forecasts absorb the tax cost.",
+        "trigger": "Legislation remains close to the announced scope and subsequent bank guidance is resilient.",
+        "invalidation": "The levy expands, duration changes or credit/cost deterioration offsets relief.",
+        "horizon": "Next completed US session and subsequent Asian/European session",
+        "source_ids": [
+          "budget"
+        ]
+      },
+      {
+        "name": "Infrastructure demand separates from broad growth",
+        "outcome": "Grid suppliers could retain order visibility even as some service budgets weaken.",
+        "trigger": "Supplier deliveries/cash and client spending confirm the split.",
+        "invalidation": "Orders cancel, conversion deteriorates or service budgets recover broadly.",
+        "horizon": "Next completed US session and subsequent Asian/European session",
+        "source_ids": [
+          "ge",
+          "s4"
+        ]
+      },
+      {
+        "name": "Energy risk premium reverses",
+        "outcome": "Import-cost pressure could ease without sustained disruption.",
+        "trigger": "Verified operational recovery, steady shipments and lower freight/crude.",
+        "invalidation": "Documented prolonged disruption and tighter physical balances.",
+        "horizon": "Next completed US session and subsequent Asian/European session",
+        "source_ids": [
+          "oil"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US completed-session data and official Fed statement",
+        "due_at": "2026-10-29T00:00:00Z",
+        "confirms": "A retrievable decision and final cash closes replace pre-decision intraday evidence.",
+        "contradicts": "Only expectations or stale pages remain; do not label a hold/hike as actual.",
+        "source_ids": [
+          "fed",
+          "uk-close"
+        ]
+      },
+      {
+        "signal": "UK Budget implementation and bank/housebuilder guidance",
+        "due_at": "2026-11-04T17:00:00Z",
+        "confirms": "Official legislation and issuer revisions clarify realized exposure.",
+        "contradicts": "Policy changes or unverified funding leave announced benefits uncertain.",
+        "source_ids": [
+          "budget"
+        ]
+      },
+      {
+        "signal": "Grid transaction and spending conversion",
+        "due_at": "2026-11-04T17:00:00Z",
+        "confirms": "Cash/delivery disclosures corroborate equipment demand without marketing spillover assumptions.",
+        "contradicts": "Approvals, execution or working-capital requirements weaken the extrapolation.",
+        "source_ids": [
+          "ge",
+          "s4"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T18:03:08Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-28",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange; continental basket not comprehensively calendar-verified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "uk-close"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed reported closing proxies; no representative investor/public sentiment survey or synchronized eleven-sector closing panel.",
+        "indicators": "FTSE 100 +0.1%, FTSE 250 -0.3%; bank gains and housebuilder weakness in the closing wire. These are dated price proxies, not broad political sentiment.",
+        "source_ids": [
+          "uk-close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified European technology-sector closing series was retrieved. Overseas power-equipment disclosures are not a European technology return.",
+          "implication": "The infrastructure theme needs European supplier order, cash and price confirmation.",
+          "watchpoint": "Check European equipment issuers and exchange technology breadth.",
+          "source_ids": [
+            "ge"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "S4 Capital's Q3 net revenue was GBP156.3m, down 6.4% reported and 7.3% like-for-like. Management attributed some client caution to AI capex taking priority over marketing expenditure.",
+          "implication": "This is one agency's account of customer budgets, not independent proof of economy-wide AI crowding-out or a sector return.",
+          "watchpoint": "Check client spending disclosures, bookings and whether cost savings offset weaker revenue.",
+          "source_ids": [
+            "s4"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "The Budget announced machine-games duty rising from 20% to 25% from April 2027, subject to the policy's legislative implementation.",
+          "implication": "A smaller increase than feared can support a price even while increasing future tax expense; no discretionary-sector return is certified.",
+          "watchpoint": "Check implementing legislation and operator earnings revisions.",
+          "source_ids": [
+            "budget"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Unilever's indexed RNS reported 5.2% underlying sales growth, comprising 2.9% volume and 2.3% price growth; turnover EUR13.3bn. Underlying growth differs from reported turnover.",
+          "implication": "Operating momentum and valuation/expectations can diverge; one issuer does not establish staples-sector performance.",
+          "watchpoint": "Retrieve the complete issuer release and monitor margins and regional volumes.",
+          "source_ids": [
+            "unilever"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters' dated oil report linked higher crude to renewed Middle East supply concerns; primary refinery/operator confirmation and a quantified lost-volume figure were not retrieved.",
+          "implication": "Singapore/Asia fuel and freight costs could rise if disruption persists. No direct Singapore supply interruption or local outage is established.",
+          "watchpoint": "Check operator statements, actual loadings, freight/insurance and oil settlement rather than assuming a war forecast.",
+          "source_ids": [
+            "oil"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "HM Treasury announced a bank surcharge increase from 3% to 6% for 1 January 2027–31 March 2028, with the return to 3% to be legislated.",
+          "implication": "Less-severe-than-feared taxation may support bank prices, but does not remove the proposed earnings cost or implementation risk.",
+          "watchpoint": "Check Finance Bill passage and banks' actual tax/earnings guidance.",
+          "source_ids": [
+            "budget"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "GSK's Q3 total operating profit was GBP2.127bn: down 18% at actual exchange rates and 16% at constant rates. Core profit was GBP3.076bn, up 3% and 5%, respectively.",
+          "implication": "Restructuring and adjustments matter; the two growth rates and total/core measures are not interchangeable.",
+          "watchpoint": "Check cash conversion and recurring restructuring costs rather than relying only on core profit.",
+          "source_ids": [
+            "gsk"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "US-based GE Vernova announced a USD9bn-equivalent Trench agreement, with closing expected late 2027 and regulatory approvals outstanding.",
+          "implication": "This is cross-border high-voltage-equipment demand context, not a completed deal or verified European industrial-sector return.",
+          "watchpoint": "Track approvals, integration economics and supplier capacity.",
+          "source_ids": [
+            "ge"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified European materials closing basket or new material mining/chemicals issuer disclosure was retrieved.",
+          "implication": "Energy and fiscal assumptions alone cannot establish metals/chemicals demand or a sector return.",
+          "watchpoint": "Check exchange sector breadth and subsequent commodity/issuer releases.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "The Budget proposes a first-time-buyer equity-loan scheme from April 2027; Alliance News reported housebuilders fell at the close.",
+          "implication": "An announced support scheme need not meet market expectations or immediately become home sales. Housebuilders are not a REIT-sector index.",
+          "watchpoint": "Check final eligibility/funding rules and builders' reservations; keep property trusts distinct.",
+          "source_ids": [
+            "budget",
+            "uk-close"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "Treasury announced energy-support measures and a request to Ofgem on gas standing charges; those requested tariff changes were not presented as completed.",
+          "implication": "Policy redistribution can affect bills without eliminating wholesale/grid constraints; no whole-utilities return follows.",
+          "watchpoint": "Verify the regulator's decision, implementation dates and funded grid connections.",
+          "source_ids": [
+            "treasury"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "UK tax expectations could influence multinational financials; equipment evidence can reach AI infrastructure peers.",
+          "trigger": "Comparable issuer revisions and observable US prices/yields corroborate transmission.",
+          "invalidation": "US-specific rates/earnings dominate or comparable businesses have different exposure.",
+          "source_ids": [
+            "budget",
+            "ge"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Energy costs and grid-equipment investment may transmit to importers and suppliers in the next Asian session.",
+          "trigger": "Dated shipping/cost and issuer order evidence confirms a channel.",
+          "invalidation": "No operational disruption or Asian issuer exposure is documented.",
+          "source_ids": [
+            "oil",
+            "ge"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "UK-sensitive banks/property owners could face policy exposure; higher fuel/freight is a conditional local cost risk.",
+          "trigger": "Named issuer disclosures establish material UK or supply-chain exposure.",
+          "invalidation": "No direct local exposure or disruption is established; avoid applying UK tax to all SGX firms.",
+          "source_ids": [
+            "budget",
+            "oil"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-28-us-open-delayed-catch-up",
+    "title": "US opening catch-up — chips and physical AI infrastructure; cash close still ahead",
+    "summary": "28 October New York session catch-up, actual evidence cutoff 29 October 02:03:08 SGT. The 09:15 EDT editorial opening target was missed; quoted US prices are later intraday observations, not historical pre-open calls or final closes. Fed outcome and post-close hyperscaler results remain unverified here.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets",
+      "cybersecurity"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-28T18:03:08Z",
+    "updated_at": "2026-10-28T18:03:08Z",
+    "cutoff_at": "2026-10-28T18:03:08Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "NYSE official holidays and 09:30–16:00 Eastern core hours; undated retrieval timestamp used as source date",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-10-28T18:02:27Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "us-intraday",
+        "title": "Live Reuters article first published 09:38 UTC; quoted prices are later 11:39 EDT body observations",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-rise-sk-hynix-boosts-chips-before-fed-decision-earnings-2026-10-28/",
+        "type": "secondary",
+        "published_at": "2026-10-28T09:38:00Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "vertiv",
+        "title": "28 October Q3 results, GAAP cash and non-GAAP reconciliation",
+        "publisher": "Vertiv",
+        "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ge",
+        "title": "28 October Q3 results and proposed Trench acquisition",
+        "publisher": "GE Vernova",
+        "url": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "fed",
+        "title": "Official meeting calendar; undated page, retrieval timestamp used for source-date field; October outcome not retrieved",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "type": "primary",
+        "published_at": "2026-10-28T18:02:27Z",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "bsx",
+        "title": "28 October Q3 actual results, cyber-recovery commentary and Q4 guidance",
+        "publisher": "Boston Scientific",
+        "url": "https://news.bostonscientific.com/2026-10-28-Boston-Scientific-announces-results-for-third-quarter-2026",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "etsy",
+        "title": "28 October issuer results announcement linking shareholder letter",
+        "publisher": "Etsy",
+        "url": "https://investors.etsy.com/news-events/press-releases/detail/229/etsy-inc-reports-third-quarter-2026-results",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "etsy-filing",
+        "title": "Secondary rendering of Etsy 8-K/letter; figures not independently reconciled to SEC original XML/PDF",
+        "publisher": "StockTitan",
+        "url": "https://www.stocktitan.net/sec-filings/ETSY/8-k-etsy-inc-reports-material-event-52f88a022e35.html",
+        "type": "secondary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ko",
+        "title": "27 October issuer earnings distributed by Business Wire; rechecked background, not a new 28 October release",
+        "publisher": "The Coca-Cola Company via Business Wire",
+        "url": "https://www.businesswire.com/news/home/20261027108554/en/Coca-Cola-Reports-Third-Quarter-2026-Results-and-Raises-Full-Year-Guidance",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "oil",
+        "title": "Reuters oil report via Euronext; dated intraday observation, not futures settlement",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/oil-prices-rise-about-2-yemen-fighting-stokes-supply-fears",
+        "type": "secondary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "s4",
+        "title": "S4 Capital Q3 RNS original text via Investegate; platform summary not used",
+        "publisher": "S4 Capital via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/announcement/rns/s4-capital--sfor/third-quarter-trading-update/9844570",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE's official calendar shows no scheduled 28 October holiday or early close; core trading is 09:30–16:00 Eastern. Individual security halts were not comprehensively certified.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters' 11:39 EDT body showed Dow +0.30%, S&P 500 +0.22% and Nasdaq +0.02%, with six sectors advancing. These observations predate this review and are not current or final.",
+        "kind": "fact",
+        "source_ids": [
+          "us-intraday"
+        ]
+      },
+      {
+        "text": "NVIDIA/AI Infrastructure — new 28 October Vertiv and GE Vernova disclosures add power/cooling and grid/generation evidence. Future capacity, reservations, booked orders, revenue and cash remain distinct.",
+        "kind": "fact",
+        "source_ids": [
+          "vertiv",
+          "ge"
+        ]
+      },
+      {
+        "text": "Boston Scientific's management acknowledged cyber-recovery work in its 28 October results; the incident's original occurrence date, attribution and loss allocation were not established by this release.",
+        "kind": "fact",
+        "source_ids": [
+          "bsx"
+        ]
+      },
+      {
+        "text": "The official Fed calendar version retrieved here had no October statement link, and the expected dated statement URL returned HTTP404. This is an access/verification gap, not evidence that the Fed did not act.",
+        "kind": "fact",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Chip strength coincided with fresh memory optimism, but the recovered intraday breadth was mixed.",
+        "transmission": "Supplier expectations can lift selected equities without broad-market confirmation.",
+        "confidence": "inference",
+        "alternatives": "Pre-decision positioning, issuer results and valuation changes can account for the divergence; no definitive causal decomposition is available.",
+        "source_ids": [
+          "us-intraday"
+        ]
+      },
+      {
+        "explanation": "Vertiv's cash generation and GE's equipment commitments support the physical-infrastructure investment case.",
+        "transmission": "Power delivery, cooling and generation can capture part of AI spending beyond chips.",
+        "confidence": "inference",
+        "alternatives": "Customer concentration, order cancellation, financing and unenergized reservations can undermine conversion; S4's client commentary warns of spending displacement.",
+        "source_ids": [
+          "vertiv",
+          "ge",
+          "s4"
+        ]
+      },
+      {
+        "explanation": "Boston Scientific's results connect cyber recovery with operating performance without quantifying the full incident effect.",
+        "transmission": "Disruption can affect supply, revenue timing and recovery spending.",
+        "confidence": "inference",
+        "alternatives": "Product demand, mix and other costs may explain some weakness; the release does not isolate all cyber-related losses.",
+        "source_ids": [
+          "bsx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Infrastructure converts into productive use",
+        "outcome": "Equipment providers may sustain growth if demand turns into deliveries and collected cash.",
+        "trigger": "Reconciled cash flows, customer orders and commissioning progress agree.",
+        "invalidation": "Cancellations, cost overruns, weak utilization or debt-funded customer stress.",
+        "horizon": "Next completed US session and subsequent Asian/European session",
+        "source_ids": [
+          "vertiv",
+          "ge"
+        ]
+      },
+      {
+        "name": "Rates overwhelm selective earnings",
+        "outcome": "Rate/FX repricing could offset issuer-specific demand momentum.",
+        "trigger": "An actual Fed release and matched market response establish changed expectations.",
+        "invalidation": "Decision verification remains unavailable or subsequent prices do not confirm repricing.",
+        "horizon": "Next completed US session and subsequent Asian/European session",
+        "source_ids": [
+          "fed",
+          "us-intraday"
+        ]
+      },
+      {
+        "name": "Cyber recovery improves versus weak guidance",
+        "outcome": "Boston Scientific could recover operating continuity despite near-term sales pressure.",
+        "trigger": "New issuer evidence documents restoration and order normalization.",
+        "invalidation": "Continuing interruptions or further guidance reductions.",
+        "horizon": "Next completed US session and subsequent Asian/European session",
+        "source_ids": [
+          "bsx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Official Fed outcome, US cash close and actual hyperscaler results",
+        "due_at": "2026-10-29T00:00:00Z",
+        "confirms": "Direct policy/issuer releases and final price data replace expectations and intraday snapshots.",
+        "contradicts": "Only previews, inaccessible statements or unsynchronized quotes remain.",
+        "source_ids": [
+          "fed",
+          "us-intraday"
+        ]
+      },
+      {
+        "signal": "Power/cooling orders versus cash and generation reservations",
+        "due_at": "2026-11-04T21:00:00Z",
+        "confirms": "Reconciliations and binding deliveries show sustained funded demand.",
+        "contradicts": "Working capital, financing or cancelled commitments erode conversion.",
+        "source_ids": [
+          "vertiv",
+          "ge"
+        ]
+      },
+      {
+        "signal": "Boston Scientific cyber recovery and primary Etsy financial letter",
+        "due_at": "2026-11-04T21:00:00Z",
+        "confirms": "Issuer filings clarify incident costs, normalized sales and marketplace comparatives.",
+        "contradicts": "No primary reconciliation or worsening operations keeps the case incomplete.",
+        "source_ids": [
+          "bsx",
+          "etsy",
+          "etsy-filing"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T18:03:08Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-28",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE cash market; security-level halts not comprehensively checked",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse",
+            "us-intraday"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed intraday price/breadth proxies; no representative sentiment survey. A synchronized post-Fed panel and final cash close were not retrieved.",
+        "indicators": "11:39 EDT Reuters snapshot: Dow +0.30%, S&P 500 +0.22%, Nasdaq +0.02%; six of eleven sectors higher. No claim about the final close or public political sentiment.",
+        "source_ids": [
+          "us-intraday"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "The Reuters intraday body reported the Philadelphia chip index up 0.9%; it is not a closing return.",
+          "implication": "Memory enthusiasm needs downstream orders and customer cash validation rather than extrapolating an index move.",
+          "watchpoint": "Reconcile final chip-sector breadth and hyperscaler cash/capex after release.",
+          "source_ids": [
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized communication-services sector panel or actual Alphabet results were retrieved by this cutoff; expected post-close earnings remain future evidence.",
+          "implication": "Do not convert an anticipated result or third-party AI-chip purchase report into confirmed revenue.",
+          "watchpoint": "Obtain the actual issuer release and compare realized cloud cash returns with infrastructure commitments.",
+          "source_ids": [
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Etsy's issuer page confirms the Q3 release. A secondary rendering reports revenue USD692.5m (+10.9%) and active buyers up 1%; the linked original financial letter was not independently reconciled here.",
+          "implication": "Top-line growth ahead of buyer growth raises monetization/mix questions; it does not prove stronger whole-sector demand.",
+          "watchpoint": "Check the original shareholder letter, continuing-operation comparatives, GMS, buyer frequency and CFO transition disclosures.",
+          "source_ids": [
+            "etsy",
+            "etsy-filing"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Rechecked 27 October Coca-Cola results: revenue USD13.4bn (+7%), GAAP EPS USD0.93 and comparable EPS USD0.91. This remains prior-day issuer evidence.",
+          "implication": "Reported and adjusted earnings must stay separate; one beverage issuer is not a staples-sector return.",
+          "watchpoint": "Review regional volumes, shipment timing and subsequent 28 October final prices.",
+          "source_ids": [
+            "ko"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters' US intraday body identified energy as the leading advancing sector; the separate oil report is an intraday supply-risk observation, not settlement.",
+          "implication": "Energy producers and import-sensitive transport firms can react differently; no documented Singapore interruption follows from a price rise.",
+          "watchpoint": "Verify settlement, physical volumes and operator confirmation before assigning lasting supply damage.",
+          "source_ids": [
+            "us-intraday",
+            "oil"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "A verified financial-sector basket and post-decision bank/rate response were not retrieved. The Fed calendar still exposed no October statement link in the accessed version.",
+          "implication": "Market expectations are not an actual policy decision or proof of bank-sector performance.",
+          "watchpoint": "Retrieve the official decision and matched Treasury/bank prices at the next read.",
+          "source_ids": [
+            "fed"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Boston Scientific reported Q3 sales USD5.138bn (+1.5%) and forecast Q4 sales down 1%–3%. Its CEO discussed restoring operations following a cybersecurity incident.",
+          "implication": "This is disclosed issuer disruption/recovery context; no attacker attribution, incident-loss total or Singapore impact is established.",
+          "watchpoint": "Verify recovery costs, order backlogs and filings; distinguish forecast decline from an already realized Q4 result.",
+          "source_ids": [
+            "bsx"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Vertiv reported Q3 sales USD4.313bn (+61%), organic orders growth over 100%, operating cash USD794m and adjusted FCF USD652.2m.",
+          "implication": "NVIDIA/AI Infrastructure: power/cooling equipment demand has issuer cash evidence, but orders can cancel and adjusted FCF is non-GAAP.",
+          "watchpoint": "Test capex, working capital, customer concentration and cash conversion against further orders.",
+          "source_ids": [
+            "vertiv"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified US materials-sector basket or material mining/chemicals issuer result was independently reconciled.",
+          "implication": "Do not infer metals or chemicals demand from higher crude or grid-equipment orders alone.",
+          "watchpoint": "Check official sector/commodity series and material issuer guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified US REIT-sector price/breadth or current property cash update was retrieved.",
+          "implication": "Data-centre equipment sales do not certify REIT occupancy, rent collection or returns on financed expansion.",
+          "watchpoint": "Check REIT leasing/cash disclosures and final rate-sensitive prices.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "GE Vernova reported gas equipment backlog plus slot reservations of 122 GW; it also announced a planned high-voltage-equipment acquisition.",
+          "implication": "Generation and grid delivery are distinct from reserved capacity; this is equipment-supplier context, not a utilities index or all energized output.",
+          "watchpoint": "Check binding contracts versus reservations, commissioning, approvals and cash collection.",
+          "source_ids": [
+            "ge"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "europe",
+          "scenario": "Physical equipment demand could inform European grid/cooling suppliers, while S4 highlights service-budget pressure.",
+          "trigger": "Comparable European issuer deliveries, client budgets and cash confirm a similar split.",
+          "invalidation": "Regional mix or execution explains differences; do not infer sector returns from US issuers.",
+          "source_ids": [
+            "vertiv",
+            "ge",
+            "s4"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Generation/grid constraints and chip demand could influence Asian equipment suppliers and customer capex.",
+          "trigger": "New supplier orders, energized projects and customer cash corroborate demand.",
+          "invalidation": "Reserved capacity fails to turn into deliveries/utilization or supply expands faster than demand.",
+          "source_ids": [
+            "ge",
+            "vertiv"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Imported fuel costs and digital-infrastructure spending could reach local transport, equipment and data-centre operators.",
+          "trigger": "Named local issuer contracts, costs or operational updates establish material exposure.",
+          "invalidation": "No direct Singapore outage, order or financial impact is documented; indirect scenarios remain conditional.",
+          "source_ids": [
+            "oil",
+            "vertiv",
+            "bsx"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-28-europe-open-delayed",
     "title": "Europe opening read — FTSE lower before UK Budget; issuer reactions diverge",
     "summary": "28 October London opening recovered at the 20:00 SGT checkpoint; actual evidence cutoff 2026-10-28T12:15:29Z. AJ Bell's opening FTSE 100 print was 10,663.55, down 22.99 points. UK Budget and Fed decision were still pending at this cutoff; an opening observation is not a London closing result.",
