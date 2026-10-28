@@ -2,8 +2,49 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-27",
+  "latest": "2026-10-28",
   "issues": [
+    {
+      "date": "2026-10-28",
+      "number": 42,
+      "title": "Capacity finds customers; cash and power decide returns",
+      "status": "data incomplete",
+      "path": "issues/2026/10/28/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-28-v1",
+        "delivery_notice": "We apologise for the delayed edition. This issue uses an 08:10:02 SGT evidence cutoff; Singapore's opening target remained future at cutoff.",
+        "summary": "Issue 042 reviews memory capacity agreements, NVIDIA/Oracle cloud expansion and Singapore's new WhatsApp malware warning. Funding, availability and future commitments still need productive use and cash returns. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "SK hynix adds contracted capacity visibility",
+            "date": "28 Oct 2026",
+            "context": "Signed agreements cover over half of 2027–28 capacity. Management's growth and shortage outlook remains a forecast; contracts are not collected cash.",
+            "source": "https://www.prnewswire.com/news-releases/sk-hynix-announces-3q26-financial-results-302921407.html"
+          },
+          {
+            "title": "NVIDIA / Oracle: availability versus future expansion",
+            "date": "27 Oct 2026",
+            "context": "Specified Vera Rubin systems and Vera CPUs are generally available on OCI; the multi-gigawatt expansion remains planned, not all energized capacity.",
+            "source": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
+          },
+          {
+            "title": "CSA warns of malware sent through familiar contacts",
+            "date": "27 Oct 2026",
+            "context": "Compromised WhatsApp accounts can spread malicious attachments. Verify unexpected files separately; no named issuer breach or total loss is established.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-013/"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. Separate Asia opening context is published with actual delay and gaps. Current Asian prices/breadth and several calendars remain incomplete. No security certified or trade placed.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-27",
       "number": 41,

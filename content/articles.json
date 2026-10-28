@@ -5164,8 +5164,14 @@
     "title": "Viral war warnings: preparedness is not an imminent-war alert",
     "summary": "UK household advice, a September European security statement and Gulf shipping risk are real but distinct. None establishes the viral claim that a wider war is imminent; energy-price effects remain conditional.",
     "channel": "conflict",
-    "regions": ["global", "europe", "asia"],
-    "lenses": ["dedl"],
+    "regions": [
+      "global",
+      "europe",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
     "topics": [],
     "format": "material-update",
     "published_at": "2026-10-25T22:56:00Z",
@@ -5173,31 +5179,146 @@
     "cutoff_at": "2026-10-25T22:55:00Z",
     "status": "published",
     "sources": [
-      {"id":"uk-ready","title":"Households encouraged to take small, simple steps to stay prepared in an emergency","publisher":"UK Cabinet Office","url":"https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency","published_at":"2026-10-22","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
-      {"id":"nato-assessment","title":"Joint press conference with NATO Secretary General and Prime Minister of Estonia","publisher":"NATO","url":"https://www.nato.int/en/news-and-events/events/transcripts/2026/10/14/joint-press-conference-with-nato-secretary-general-and-the-prime-minister-of-estonia","published_at":"2026-10-14","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
-      {"id":"eu-leipzig","title":"President von der Leyen receives NATO Secretary General: press statement","publisher":"European Commission","url":"https://audiovisual.ec.europa.eu/en/media/video/I-293776","published_at":"2026-09-02","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
-      {"id":"iea-october","title":"Oil Market Report - October 2026","publisher":"International Energy Agency","url":"https://www.iea.org/reports/oil-market-report-october-2026","published_at":"2026-10-14","accessed_at":"2026-10-25T22:55:00Z","type":"primary"},
-      {"id":"marad-advisory","title":"2026-011: Iranian attacks on commercial vessels","publisher":"US Maritime Administration","url":"https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels","published_at":"2026-09-09","accessed_at":"2026-10-25T22:55:00Z","type":"primary"}
+      {
+        "id": "uk-ready",
+        "title": "Households encouraged to take small, simple steps to stay prepared in an emergency",
+        "publisher": "UK Cabinet Office",
+        "url": "https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-10-25T22:55:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "nato-assessment",
+        "title": "Joint press conference with NATO Secretary General and Prime Minister of Estonia",
+        "publisher": "NATO",
+        "url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/10/14/joint-press-conference-with-nato-secretary-general-and-the-prime-minister-of-estonia",
+        "published_at": "2026-10-14",
+        "accessed_at": "2026-10-25T22:55:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "eu-leipzig",
+        "title": "President von der Leyen receives NATO Secretary General: press statement",
+        "publisher": "European Commission",
+        "url": "https://audiovisual.ec.europa.eu/en/media/video/I-293776",
+        "published_at": "2026-09-02",
+        "accessed_at": "2026-10-25T22:55:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "iea-october",
+        "title": "Oil Market Report - October 2026",
+        "publisher": "International Energy Agency",
+        "url": "https://www.iea.org/reports/oil-market-report-october-2026",
+        "published_at": "2026-10-14",
+        "accessed_at": "2026-10-25T22:55:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "marad-advisory",
+        "title": "2026-011: Iranian attacks on commercial vessels",
+        "publisher": "US Maritime Administration",
+        "url": "https://www.maritime.dot.gov/msci/2026-011-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels",
+        "published_at": "2026-09-09",
+        "accessed_at": "2026-10-25T22:55:00Z",
+        "type": "primary"
+      }
     ],
     "claims": [
-      {"text":"The UK announced a three-year Be Ready campaign on 22 October, advising households to prepare for three days of ordinary service disruption, including severe weather. The government says much of the advice has existed since 2024. This is not an announcement that war is imminent.","kind":"fact","source_ids":["uk-ready"]},
-      {"text":"The European Commission's statement on the attempted Leipzig-Halle cargo-plane attack was dated 2 September, not a new October warning. It relayed the German government's attribution to Russia and called for infrastructure resilience.","kind":"fact","source_ids":["eu-leipzig"]},
-      {"text":"NATO's Secretary General acknowledged hybrid attacks but said on 14 October that the alliance saw no imminent threat against NATO territory. This is an assessment at that date, not a guarantee about future events.","kind":"fact","source_ids":["nato-assessment"]},
-      {"text":"Gulf maritime danger is not imaginary: the US maritime advisory describes continued threats and attacks on commercial vessels. The IEA's 14 October report says crude flows had partly recovered while tanker attacks, freight costs and constrained refined products kept the recovery fragile. It does not support a guaranteed fall in oil prices from a claimed US policy move.","kind":"fact","source_ids":["marad-advisory","iea-october"]}
+      {
+        "text": "The UK announced a three-year Be Ready campaign on 22 October, advising households to prepare for three days of ordinary service disruption, including severe weather. The government says much of the advice has existed since 2024. This is not an announcement that war is imminent.",
+        "kind": "fact",
+        "source_ids": [
+          "uk-ready"
+        ]
+      },
+      {
+        "text": "The European Commission's statement on the attempted Leipzig-Halle cargo-plane attack was dated 2 September, not a new October warning. It relayed the German government's attribution to Russia and called for infrastructure resilience.",
+        "kind": "fact",
+        "source_ids": [
+          "eu-leipzig"
+        ]
+      },
+      {
+        "text": "NATO's Secretary General acknowledged hybrid attacks but said on 14 October that the alliance saw no imminent threat against NATO territory. This is an assessment at that date, not a guarantee about future events.",
+        "kind": "fact",
+        "source_ids": [
+          "nato-assessment"
+        ]
+      },
+      {
+        "text": "Gulf maritime danger is not imaginary: the US maritime advisory describes continued threats and attacks on commercial vessels. The IEA's 14 October report says crude flows had partly recovered while tanker attacks, freight costs and constrained refined products kept the recovery fragile. It does not support a guaranteed fall in oil prices from a claimed US policy move.",
+        "kind": "fact",
+        "source_ids": [
+          "marad-advisory",
+          "iea-october"
+        ]
+      }
     ],
     "causation": [
-      {"explanation":"The clips splice different dates and risk categories into one urgent narrative.","transmission":"Routine household preparedness, a dated European sabotage statement and a live Gulf shipping risk warrant monitoring, but do not by themselves establish a timetable for wider war. For markets, verified shipping incidents and energy supply, freight and insurance costs are the channels to test, particularly for Asian fuel importers, transport and industry.","confidence":"inference","alternatives":"Escalation could occur despite the current NATO assessment; conversely, diplomacy or safer passage could ease risk. The evidence here does not quantify either probability.","source_ids":["uk-ready","eu-leipzig","nato-assessment","marad-advisory","iea-october"]}
+      {
+        "explanation": "The clips splice different dates and risk categories into one urgent narrative.",
+        "transmission": "Routine household preparedness, a dated European sabotage statement and a live Gulf shipping risk warrant monitoring, but do not by themselves establish a timetable for wider war. For markets, verified shipping incidents and energy supply, freight and insurance costs are the channels to test, particularly for Asian fuel importers, transport and industry.",
+        "confidence": "inference",
+        "alternatives": "Escalation could occur despite the current NATO assessment; conversely, diplomacy or safer passage could ease risk. The evidence here does not quantify either probability.",
+        "source_ids": [
+          "uk-ready",
+          "eu-leipzig",
+          "nato-assessment",
+          "marad-advisory",
+          "iea-october"
+        ]
+      }
     ],
     "scenarios": [
-      {"name":"Risk persists without a wider war","outcome":"Shipping and fuel costs remain elevated or volatile while household preparedness remains general advice.","trigger":"Maritime advisories and IEA data continue to show threats and constrained products without a new official alliance alert.","invalidation":"A new, corroborated military escalation or an official change in threat assessment alters the premise.","horizon":"Next seven days; reassess on material official updates.","source_ids":["nato-assessment","marad-advisory","iea-october"]},
-      {"name":"Energy pressure eases conditionally","outcome":"Sustained safer shipping and restored refined-product flows could reduce cost pressure; lower consumer fuel prices would not be automatic or immediate.","trigger":"Verified vessel traffic, freight and product-supply series improve together.","invalidation":"Further attacks, infrastructure damage or renewed stock draws offset crude export gains.","horizon":"Next several weeks; use fresh IEA and maritime updates.","source_ids":["marad-advisory","iea-october"]}
+      {
+        "name": "Risk persists without a wider war",
+        "outcome": "Shipping and fuel costs remain elevated or volatile while household preparedness remains general advice.",
+        "trigger": "Maritime advisories and IEA data continue to show threats and constrained products without a new official alliance alert.",
+        "invalidation": "A new, corroborated military escalation or an official change in threat assessment alters the premise.",
+        "horizon": "Next seven days; reassess on material official updates.",
+        "source_ids": [
+          "nato-assessment",
+          "marad-advisory",
+          "iea-october"
+        ]
+      },
+      {
+        "name": "Energy pressure eases conditionally",
+        "outcome": "Sustained safer shipping and restored refined-product flows could reduce cost pressure; lower consumer fuel prices would not be automatic or immediate.",
+        "trigger": "Verified vessel traffic, freight and product-supply series improve together.",
+        "invalidation": "Further attacks, infrastructure damage or renewed stock draws offset crude export gains.",
+        "horizon": "Next several weeks; use fresh IEA and maritime updates.",
+        "source_ids": [
+          "marad-advisory",
+          "iea-october"
+        ]
+      }
     ],
     "watchpoints": [
-      {"signal":"Check official NATO/EU assessments and Gulf maritime advisories against new short-form claims; compare IEA crude, refined-product and freight evidence.","due_at":"2026-10-27T00:00:00+08:00","confirms":"New official evidence substantiates a changed threat assessment or measurable supply disruption.","contradicts":"The claim relies on recycled footage, generic preparedness guidance or price predictions without fresh primary evidence.","source_ids":["uk-ready","nato-assessment","marad-advisory","iea-october"]}
+      {
+        "signal": "Check official NATO/EU assessments and Gulf maritime advisories against new short-form claims; compare IEA crude, refined-product and freight evidence.",
+        "due_at": "2026-10-27T00:00:00+08:00",
+        "confirms": "New official evidence substantiates a changed threat assessment or measurable supply disruption.",
+        "contradicts": "The claim relies on recycled footage, generic preparedness guidance or price predictions without fresh primary evidence.",
+        "source_ids": [
+          "uk-ready",
+          "nato-assessment",
+          "marad-advisory",
+          "iea-october"
+        ]
+      }
     ],
     "corrections": [],
-    "review": {"evidence_checked":true,"privacy_checked":true,"public_safe":true,"strategic_only":true,"reviewed_at":"2026-10-25T22:55:00Z"},
-    "material_reason":"Several circulating clips connect UK preparedness, European security and Gulf energy into an imminent-world-war claim. A calm, source-dated correction matters to readers and to energy-sensitive industries; this report does not reproduce tactical details or make a trading recommendation."
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-25T22:55:00Z"
+    },
+    "material_reason": "Several circulating clips connect UK preparedness, European security and Gulf energy into an imminent-world-war claim. A calm, source-dated correction matters to readers and to energy-sensitive industries; this report does not reproduce tactical details or make a trading recommendation."
   },
   {
     "id": "2026-10-27-singapore-open-delayed-recovery",
@@ -5614,6 +5735,446 @@
             "nxera",
             "kore",
             "dcr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-28-asia-open",
+    "title": "Asia opening read — memory contracts and cloud availability face a cash-and-power test",
+    "summary": "28 October context, cutoff 08:10:02 SGT; 25m02s after the editorial target and 10m02s after scheduled Tokyo cash open. Japan calendar checked; other Asian calendars/market prices remain gaps. Fresh memory/cloud disclosures are separated from prior US closing evidence.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-28T00:10:02Z",
+    "updated_at": "2026-10-28T00:10:02Z",
+    "cutoff_at": "2026-10-28T00:10:02Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "2026 JPX holidays — undated calendar, retrieval timestamp used",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "published_at": "2026-10-28T00:08:38Z",
+        "type": "primary",
+        "accessed_at": "2026-10-28T00:08:38Z"
+      },
+      {
+        "id": "hours",
+        "title": "Tokyo cash trading hours — undated reference, retrieval timestamp used",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "published_at": "2026-10-28T00:08:38Z",
+        "type": "primary",
+        "accessed_at": "2026-10-28T00:08:38Z"
+      },
+      {
+        "id": "nv",
+        "title": "Oracle / NVIDIA expansion and availability announcement",
+        "publisher": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-28T00:08:38Z"
+      },
+      {
+        "id": "sk",
+        "title": "Preliminary Q3 K-IFRS results, distributed 27 October 19:45 ET; speaks as of 28 October Korea",
+        "publisher": "SK hynix via PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/sk-hynix-announces-3q26-financial-results-302921407.html",
+        "published_at": "2026-10-27T23:45:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-28T00:08:38Z"
+      },
+      {
+        "id": "csa",
+        "title": "WhatsApp malware advisory — incident dates not specified",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-013/",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-28T00:08:38Z"
+      },
+      {
+        "id": "fed",
+        "title": "FOMC calendar — October decision not yet posted at retrieval",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "published_at": "2026-10-07",
+        "type": "primary",
+        "accessed_at": "2026-10-28T00:08:38Z"
+      },
+      {
+        "id": "close",
+        "title": "Wall Street ends higher — updated closing body; 09:53 UTC is first publication, not when closing data became known",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-27/",
+        "published_at": "2026-10-27T09:53:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "boeing",
+        "title": "Third-quarter 2026 results, including GAAP and non-GAAP cash reconciliation",
+        "publisher": "The Boeing Company",
+        "url": "https://investors.boeing.com/investors/news/press-release-details/2026/Boeing-Reports-Third-Quarter-Results/default.aspx",
+        "published_at": "2026-10-27",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "ups",
+        "title": "UPS CEO sees annual data-centre logistics opportunity — interview/management estimate",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/ups-ceo-sees-15-billion-annual-revenue-opportunity-data-center-boom-2026-10-27/",
+        "published_at": "2026-10-27T20:02:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "visa",
+        "title": "Visa fiscal fourth-quarter results — post-cash-close report; primary results widget did not expose documents",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/technology/visa-quarterly-profit-jumps-resilient-consumer-spending-2026-10-27/",
+        "published_at": "2026-10-27T20:09:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "hood",
+        "title": "Robinhood issuer release distributed through GlobeNewswire/FinancialContent — one source chain",
+        "publisher": "Robinhood via GlobeNewswire / FinancialContent",
+        "url": "https://www.financialcontent.com/article/gnwcq-2026-10-27-robinhood-reports-third-quarter-2026-results",
+        "published_at": "2026-10-27T20:05:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "oil",
+        "title": "Oil futures settlement — updated body; 00:37 UTC is first publication, not settlement availability",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/energy/oil-eases-middle-east-diplomacy-hopes-saudi-attacks-keep-supply-worries-alive-2026-10-27/",
+        "published_at": "2026-10-27T00:37:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "security",
+        "title": "Saudi oil-infrastructure strike claim — updated report; attribution and damage qualification retained",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/energy/yemens-houthis-say-they-launched-an-attack-saudi-ras-tanura-oil-refinery-2026-10-27/",
+        "published_at": "2026-10-27T11:06:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-27T20:59:54Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Scheduled Q3 call — 29 October 10:00 KST, not results",
+        "publisher": "Samsung Electronics",
+        "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+        "published_at": "2026-10-28T00:10:02Z",
+        "accessed_at": "2026-10-28T00:10:02Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "JPX's 2026 holiday list has no 28 October closure; Tokyo's scheduled morning cash session starts 09:00 Japan / 08:00 Singapore. This is delayed opening context, not evidence observed at the auction. Individual halts and the rest of the Asian basket are not comprehensively certified; the report covers the Japan calendar anchor only.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hours"
+        ]
+      },
+      {
+        "text": "New issuer evidence: SK hynix describes long-term capacity agreements; NVIDIA/Oracle announce current cloud availability and a planned multi-gigawatt expansion. Exact disclosures and caveats are in today's full issue. Neither release verifies this morning's Asian sector returns or collected cash from future capacity.",
+        "kind": "fact",
+        "source_ids": [
+          "sk",
+          "nv"
+        ]
+      },
+      {
+        "text": "Prior-session context, not refreshed quotes: US reported cash closes were S&P 500 7,722.60, Nasdaq Composite 26,477.81 and Dow 52,377.57. Underlying source was last successfully retrieved 04:59:54 SGT; refresh failed this run. No live Asian index, VIX, local breadth or volume panel was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "text": "SingCERT's 27 October advisory describes malware spreading through compromised WhatsApp accounts. Incident dates and total losses are not established. It is a new operational warning, not evidence of compromise at any named Asian issuer.",
+        "kind": "fact",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Management's signed-agreement disclosures support greater visibility than a generic demand forecast. Availability is a product milestone, not proof that every proposed site is connected, used or paid for.",
+        "transmission": "Potential demand spans memory, racks, networking and physical infrastructure. Returns depend on prices, acceptance, power, customer funding and recurring cash.",
+        "confidence": "inference",
+        "alternatives": "Customers may reserve overlapping capacity or defer use; tighter financing and higher memory prices can reduce downstream affordability.",
+        "source_ids": [
+          "sk",
+          "nv"
+        ]
+      },
+      {
+        "explanation": "The previous US rally is background sentiment, not a measured cause of today's unverified Asian price response.",
+        "transmission": "Currency and discount-rate changes can offset stronger supplier earnings; local supply/demand and policy still matter.",
+        "confidence": "uncertain",
+        "alternatives": "Positioning ahead of central-bank decisions can move prices without a durable change in cash expectations.",
+        "source_ids": [
+          "close",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Orders convert into productive capacity",
+        "outcome": "Broader supplier revenue and collected cash could validate the infrastructure growth case.",
+        "trigger": "Reported deliveries, customer acceptance, powered utilization and margins support the agreements.",
+        "invalidation": "Contract deferrals, weak collection or sites without power.",
+        "horizon": "29 October results through the next two reporting quarters",
+        "source_ids": [
+          "sk",
+          "nv"
+        ]
+      },
+      {
+        "name": "Funding or delivery constrains expansion",
+        "outcome": "Announcements can coexist with weak realized returns and project delays.",
+        "trigger": "Higher financing costs, capex escalation or inadequate energized capacity.",
+        "invalidation": "Funded, on-time deployment with durable cash returns.",
+        "horizon": "Next earnings cycle and 2027 capacity commissioning",
+        "source_ids": [
+          "nv",
+          "fed"
+        ]
+      },
+      {
+        "name": "Energy-risk relief or reversal",
+        "outcome": "Lower energy premia could help importers; documented disruption could reverse that benefit.",
+        "trigger": "Credible diplomacy followed by operating/shipping evidence, or independently confirmed lost output.",
+        "invalidation": "Talks without operational improvement; unsupported strike claims do not validate outage assumptions.",
+        "horizon": "28–30 October",
+        "source_ids": [
+          "oil",
+          "security"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Samsung's scheduled 29 October results: verify actual release, memory mix, supply and cash rather than previews.",
+        "due_at": "2026-10-29T01:00:00Z",
+        "confirms": "Independent supplier evidence supports delivery and demand quality.",
+        "contradicts": "Mix, prices, costs or capex weaken the extrapolation.",
+        "source_ids": [
+          "samsung"
+        ]
+      },
+      {
+        "signal": "Retrieve the actual October Fed decision after release; the calendar still lists the 27–28 October meeting without its statement.",
+        "due_at": "2026-10-28T18:00:00Z",
+        "confirms": "Policy evidence clarifies funding conditions.",
+        "contradicts": "A forecast or implied probability is presented as enacted policy.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Next regional check: verify local prices, breadth, calendars and any operator-confirmed energy disruption.",
+        "due_at": "2026-10-28T05:00:00Z",
+        "confirms": "Fresh local evidence establishes a response.",
+        "contradicts": "Only reused US observations or unverified images are available.",
+        "source_ids": [
+          "jpx",
+          "security"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T00:10:02Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-10-28",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange — verified scheduled calendar anchor; other regional exchanges omitted pending separate verification",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Funding and supplier visibility are constructive hypotheses; the Asian opening reaction is not independently measured.",
+        "indicators": "Previous US closes only; no current local breadth, turnover, sector return, volatility or timestamped opening-price series. Product/contract announcements are fundamental evidence, not sentiment surveys.",
+        "source_ids": [
+          "close",
+          "sk",
+          "nv"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Fresh supplier agreements and Oracle/NVIDIA infrastructure announcement; see today's issue for exact figures. No 28 October Asian chip-sector return verified.",
+          "implication": "Contract visibility supports a demand case; realized utilization and cash collection determine economics.",
+          "watchpoint": "Reconcile Samsung's 29 October results and subsequent memory delivery/cash disclosures.",
+          "source_ids": [
+            "sk",
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Agentic-workload infrastructure is an issuer-described use case, not verified application-company profit or a sector return.",
+          "implication": "Customer monetization and funding quality can constrain hardware orders despite technical availability.",
+          "watchpoint": "Watch disclosed customer operating cash against infrastructure commitments in the next earnings releases.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified current Asian sector breadth, retail volume or issuer earnings panel.",
+          "implication": "Energy and borrowing costs could constrain consumption; no measured sector deterioration established.",
+          "watchpoint": "Obtain local spending and earnings evidence before drawing a demand conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Fresh Singapore malware advisory is relevant to merchant messaging and payments; no current Asian staples price return verified.",
+          "implication": "Credential theft can interrupt small-business order handling; this does not establish a breach at a retailer.",
+          "watchpoint": "Follow operator disclosures rather than infer named-company compromise.",
+          "source_ids": [
+            "csa"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Previous US-session settlement and qualified security claim retained at their original 04:59:54 SGT check. No fresh Asian energy return or new production-loss confirmation.",
+          "implication": "Risk premia may ease on diplomacy or rise on documented export interruption; rhetoric cannot establish lost output.",
+          "watchpoint": "Obtain operator-confirmed output/shipping evidence and contract-specific oil quotes.",
+          "source_ids": [
+            "oil",
+            "security"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Visa and Robinhood post-US-close results remain dated background; no certified Asian bank return or new credit-spread panel.",
+          "implication": "Network spending and brokerage activity differ from bank credit quality; higher financing costs can offset transaction growth.",
+          "watchpoint": "Read the Fed statement after its release; reconcile local bank funding/credit disclosures.",
+          "source_ids": [
+            "visa",
+            "hood",
+            "fed"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified current Asian health-care sector price, trial or reimbursement update panel.",
+          "implication": "No thesis change inferred from broad equity momentum.",
+          "watchpoint": "Check issuer/regulator originals before assigning a beneficiary.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "UPS logistics estimate and Boeing cash reconciliation remain prior-cutoff US issuer context, not Asian orders or sector returns.",
+          "implication": "Physical delivery can capture AI spend only with viable contracts, margins and cash conversion.",
+          "watchpoint": "Seek funded logistics orders, utilization, capex and payment terms.",
+          "source_ids": [
+            "ups",
+            "boeing"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Current metal-price and Asian materials-sector breadth panel not reconciled.",
+          "implication": "New fabs could support material demand; announcements are not realized orders.",
+          "watchpoint": "Verify supplier volumes, prices and funding rather than extrapolate from memory profits.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No fresh AFFO, signed powered leases, refinancing or comparable direct-trust valuation reconciliation.",
+          "implication": "Multi-gigawatt plans may support sites but cannot prove energized occupancy or distributable cash.",
+          "watchpoint": "Reconcile lease commencements, utility connections, recurring capex and debt maturity.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No fresh grid connection, generation/cooling supplier order or local utility sector return verified.",
+          "implication": "Planned compute demand is conditional on power delivery and commercial tariffs.",
+          "watchpoint": "Seek energized MW, funded grid orders, return terms and commissioning dates.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Equipment, logistics and property exposures may benefit if funded projects obtain power and tenants pay.",
+          "trigger": "Documented local contracts, energized occupancy and cash margins.",
+          "invalidation": "No Singapore order or operating effect established; financing or commissioning delays.",
+          "source_ids": [
+            "nv",
+            "ups"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Memory/rack deployment could support equipment and electrical supply-chain demand.",
+          "trigger": "European supplier order conversion rather than solely chip-company forecasts.",
+          "invalidation": "Cancellations, price pressure or working-capital demands absorb gains.",
+          "source_ids": [
+            "sk",
+            "nv"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Supplier visibility and cloud availability test hyperscaler monetization against investment intensity.",
+          "trigger": "Customer cash generation and productive paid utilization fund the buildout.",
+          "invalidation": "Circular financing, low utilization or delayed collection undermines returns.",
+          "source_ids": [
+            "nv",
+            "sk",
+            "fed"
           ]
         }
       ]

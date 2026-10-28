@@ -7,10 +7,15 @@
   },
   "offers": [
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-28T00:10:02Z",
+      "review_due_at": "2026-10-29T00:10:02Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-28T00:10:02Z",
+          "change": "Application/approval dates, eligibility, qualifying spend, PayLah! condition and exclusions rechecked against the official PDF; substantive terms unchanged."
+        }
+      ],
       "id": "dbs-posb-cash288-oct2026",
       "name": "DBS/POSB: S$288 welcome cashback",
       "category": "Card sign-up",
