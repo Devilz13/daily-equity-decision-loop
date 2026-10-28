@@ -1,5 +1,1059 @@
 [
   {
+    "id": "2026-10-28-europe-open-delayed",
+    "title": "Europe opening read — FTSE lower before UK Budget; issuer reactions diverge",
+    "summary": "28 October London opening recovered at the 20:00 SGT checkpoint; actual evidence cutoff 2026-10-28T12:15:29Z. AJ Bell's opening FTSE 100 print was 10,663.55, down 22.99 points. UK Budget and Fed decision were still pending at this cutoff; an opening observation is not a London closing result.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-28T12:15:29Z",
+    "updated_at": "2026-10-28T12:15:29Z",
+    "cutoff_at": "2026-10-28T12:15:29Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse-calendar",
+        "title": "London Stock Exchange business days; undated live calendar checked 28 October",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "uk-open",
+        "title": "Early market roundup, 28 October opening figures and issuer context",
+        "publisher": "AJ Bell",
+        "url": "https://www.ajbell.co.uk/news/articles/early-market-roundup-stocks-cautious-ahead-uk-budget-us-rate-call",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "uk-budget",
+        "title": "Chancellor letter confirming Budget date, 28 October 2026",
+        "publisher": "HM Treasury",
+        "url": "https://www.gov.uk/government/publications/chancellor-letter-to-the-treasury-select-committee-tsc-budget-2026-date",
+        "published_at": "2026-07-01",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "hynix",
+        "title": "Preliminary third-quarter 2026 results and capacity agreements",
+        "publisher": "SK hynix",
+        "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "fed-calendar",
+        "title": "FOMC calendars and 27–28 October meeting; undated live page checked 28 October",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "AJ Bell reported that the FTSE 100 opened 28 October at 10,663.55, down 22.99 points or 0.2%.",
+        "kind": "fact",
+        "source_ids": [
+          "uk-open"
+        ]
+      },
+      {
+        "text": "The official LSE calendar lists 28 October as an ordinary business day, with no scheduled closure shown.",
+        "kind": "fact",
+        "source_ids": [
+          "lse-calendar"
+        ]
+      },
+      {
+        "text": "HM Treasury scheduled the UK Budget for 28 October; the Fed calendar has a 27–28 October meeting. Neither event outcome was known at this report cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "uk-budget",
+          "fed-calendar"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The early index decline coincided with the pending Budget and US rates decision; causality cannot be established from timing alone.",
+        "transmission": "Fiscal/rate surprises could transmit through gilts, sterling, financials and imported-cost expectations.",
+        "confidence": "inference",
+        "alternatives": "GSK and Unilever issuer-specific price moves could explain much of the opening index weakness even without a macro repricing.",
+        "source_ids": [
+          "uk-open",
+          "uk-budget",
+          "fed-calendar"
+        ]
+      },
+      {
+        "explanation": "AI memory supplier results add a cross-border capacity signal, not proof of European data-centre orders.",
+        "transmission": "Potential supplier demand could reach semiconductor equipment, power, racks and cooling.",
+        "confidence": "inference",
+        "alternatives": "Long-term volume agreements may reflect hedging of scarce capacity and do not certify end-customer return on investment.",
+        "source_ids": [
+          "hynix"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Fiscal repricing",
+        "outcome": "UK rates and sterling could move alongside UK equities if delivered Budget measures differ materially from expectations.",
+        "trigger": "Published Budget measures plus observable gilt/GBP repricing.",
+        "invalidation": "No material gilt/GBP repricing or a reversal attributable to separate news.",
+        "horizon": "Next completed trading session",
+        "source_ids": [
+          "uk-budget",
+          "uk-open"
+        ]
+      },
+      {
+        "name": "Issuer-specific opening weakness",
+        "outcome": "GSK and Unilever could remain a narrow drag while other groups diverge.",
+        "trigger": "London close shows weakness concentrated in those constituents.",
+        "invalidation": "Broad sector-level weakness on a verified exchange series.",
+        "horizon": "Next completed trading session",
+        "source_ids": [
+          "uk-open"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "UK Budget details and London closing breadth",
+        "due_at": "2026-10-28T17:00:00Z",
+        "confirms": "Published fiscal measures and broad market response are observable.",
+        "contradicts": "Opening reaction fades or no attributable cross-asset move appears.",
+        "source_ids": [
+          "uk-budget",
+          "uk-open"
+        ]
+      },
+      {
+        "signal": "Fed decision and hyperscaler releases",
+        "due_at": "2026-10-29T03:00:00Z",
+        "confirms": "Direct decisions and issuer cash/capex numbers clarify rates and AI demand.",
+        "contradicts": "No new verified result or weaker cash conversion challenges the extrapolation.",
+        "source_ids": [
+          "fed-calendar",
+          "hynix"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T12:15:29Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-28",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse-calendar",
+            "uk-open"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious at the opening only; this delayed review did not capture a synchronized current Europe-wide index or sector panel.",
+        "indicators": "FTSE 100 opening 10,663.55 (-0.2%); GSK -3.5%, Unilever -2.6% and German Deutsche Bank +3.6% in AJ Bell's early snapshot. No representative sentiment survey.",
+        "source_ids": [
+          "uk-open"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "SK hynix reported Q3 revenue KRW104.6155tn and operating profit KRW83.3338tn; signed long-term agreements cover over half of 2027–28 capacity. This is a Korean supplier signal, not a London technology-sector return.",
+          "implication": "Capacity visibility may support equipment and data-centre suppliers, but future delivery, cash collection and AI customer returns remain unproven.",
+          "watchpoint": "Check subsequent issuer orders/cash conversion and post-US-close hyperscaler capex disclosures.",
+          "source_ids": [
+            "hynix"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "AJ Bell reported Unilever down 2.6% in its opening roundup despite an upgrade to underlying volume-growth outlook of at least 3.0% for 2026.",
+          "implication": "The single constituent shows guidance and opening share reaction can diverge; no staples-sector return is established.",
+          "watchpoint": "Check Unilever primary release and London close for whether the gap persists.",
+          "source_ids": [
+            "uk-open"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "AJ Bell reported Deutsche Bank up 3.6% in Frankfurt following 7.7% higher pretax profit to EUR2.63bn.",
+          "implication": "A continental issuer proxy supports selective bank earnings, not a UK or Europe bank-basket return.",
+          "watchpoint": "Check issuer release, rate-sensitive banks and Europe closing breadth.",
+          "source_ids": [
+            "uk-open"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "AJ Bell reported GSK down 3.5% early after operating profit fell 18% to GBP2.13bn, citing restructuring and other operating income.",
+          "implication": "This is an issuer earnings/reaction observation, not an entire health-care-sector decline.",
+          "watchpoint": "Check GSK's own reconciliation and later price response.",
+          "source_ids": [
+            "uk-open"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "AJ Bell reported FTSE250 constituent Hunting down 13% after cutting 2026 adjusted EBITDA guidance to USD128m–133m.",
+          "implication": "Guidance risk is company-specific; it does not establish sector-wide industrial weakness.",
+          "watchpoint": "Check Hunting's direct announcement and ensuing London close.",
+          "source_ids": [
+            "uk-open"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "UK Budget and European issuer moves could affect US rate and multinational sentiment.",
+          "trigger": "Published UK measures coincide with observable US futures, yields or FX response.",
+          "invalidation": "US cash reaction diverges or separate Fed/earnings news dominates.",
+          "source_ids": [
+            "uk-budget",
+            "fed-calendar"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "UK fiscal or rates moves could feed Asian FX and exporters at the next session.",
+          "trigger": "Verified sterling/gilt repricing persists into Asian hours.",
+          "invalidation": "No Asian cross-asset response appears.",
+          "source_ids": [
+            "uk-budget",
+            "uk-open"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "A global rate move could affect Singapore REIT valuations and banks.",
+          "trigger": "Verified global yields and local price response move coherently.",
+          "invalidation": "No local response or issuer-specific news better explains movement.",
+          "source_ids": [
+            "uk-budget",
+            "fed-calendar"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-28-singapore-close-delayed",
+    "title": "Singapore closing read — final STI print unresolved across sources",
+    "summary": "28 October Singapore close reviewed after the closing phase; evidence cutoff 2026-10-28T12:15:29Z. Official trading schedule and holiday check support a regular day, but accessible STI history pages conflict at 5,405.38 versus 5,397.91. No single final index close, market breadth or sector return is asserted.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-28T12:15:29Z",
+    "updated_at": "2026-10-28T12:15:29Z",
+    "cutoff_at": "2026-10-28T12:15:29Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx-hours",
+        "title": "SGX securities trading phases; indexed official page checked 28 October",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "mom-holiday",
+        "title": "Singapore public holidays 2026",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "sti-a",
+        "title": "28 October STI historical-data result; conflicting dynamic print",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/singapore-straits-time-historical-data",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sti-b",
+        "title": "28 October STI historical-data result; alternate conflicting dynamic print",
+        "publisher": "Investing.com AU",
+        "url": "https://au.investing.com/indices/singapore-straits-time-historical-data",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "mit",
+        "title": "Mapletree Industrial Trust 27 October results release",
+        "publisher": "Mapletree Industrial Trust",
+        "url": "https://investor.mapletreeindustrialtrust.com/newsroom/20261027_195919_ME8U_3TNAUNY3K2WYP97A.2.pdf",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "dcr",
+        "title": "Digital Core REIT 27 October operational update",
+        "publisher": "Digital Core REIT",
+        "url": "https://investor.digitalcorereit.com/newsroom/20261027_171728_DCRU_IB065DN33RUIAZWW.1.pdf",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "hynix",
+        "title": "Preliminary Q3 2026 results and capacity agreements",
+        "publisher": "SK hynix",
+        "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX's indexed securities trading hours put the closing phases after 17:00 SGT, and Singapore's official 2026 holiday list does not list 28 October as a holiday.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx-hours",
+          "mom-holiday"
+        ]
+      },
+      {
+        "text": "Two dynamic Investing.com historical pages returned incompatible 28 October STI closes, 5,405.38 and 5,397.91, at review; neither is treated as certified final.",
+        "kind": "fact",
+        "source_ids": [
+          "sti-a",
+          "sti-b"
+        ]
+      },
+      {
+        "text": "MIT's 27 October release reported distribution of 2.97 Singapore cents per unit versus 3.18 a year earlier and 89.7% portfolio occupancy; Digital Core reported 97% current occupancy at 30 September.",
+        "kind": "fact",
+        "source_ids": [
+          "mit",
+          "dcr"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Conflicting vendor rows prevent a verified close-to-close Singapore index or breadth interpretation.",
+        "transmission": "An unverified close could distort any rate or REIT-sector conclusion.",
+        "confidence": "inference",
+        "alternatives": "Pages may be asynchronous cached snapshots rather than different official prints; a direct certified close would resolve this.",
+        "source_ids": [
+          "sti-a",
+          "sti-b",
+          "sgx-hours"
+        ]
+      },
+      {
+        "explanation": "MIT's distribution and occupancy pressures coexist with Digital Core's high reported occupancy, showing issuer-specific fundamentals.",
+        "transmission": "Potential effects on real-estate cash distributions need constituent-level prices and issuer cash evidence.",
+        "confidence": "inference",
+        "alternatives": "Prior-period reporting, one-off items and transaction pro forma figures can overwhelm a simple sector narrative.",
+        "source_ids": [
+          "mit",
+          "dcr"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Verified close reconciliation",
+        "outcome": "A certified exchange/index-provider final print resolves the discrepancy and permits a dated market assessment.",
+        "trigger": "Official final index level and constituent data become accessible.",
+        "invalidation": "Multiple official final values remain contradictory or final data stay inaccessible.",
+        "horizon": "Next completed trading session",
+        "source_ids": [
+          "sgx-hours",
+          "sti-a",
+          "sti-b"
+        ]
+      },
+      {
+        "name": "REIT divergence",
+        "outcome": "Issuer distributions and leases may explain selective REIT repricing.",
+        "trigger": "Subsequent issuer and exchange observations align with fundamentals.",
+        "invalidation": "Prices diverge or broad rates dominate without company-specific reaction.",
+        "horizon": "Next completed trading session",
+        "source_ids": [
+          "mit",
+          "dcr"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Certified STI final and sector breadth",
+        "due_at": "2026-10-29T02:00:00Z",
+        "confirms": "One official close and timestamped component/sector data resolve the conflict.",
+        "contradicts": "Only unsynchronized vendor snapshots remain.",
+        "source_ids": [
+          "sgx-hours",
+          "sti-a",
+          "sti-b"
+        ]
+      },
+      {
+        "signal": "MIT and Digital Core rental/cash updates",
+        "due_at": "2026-11-04T09:30:00Z",
+        "confirms": "Primary follow-up differentiates current leasing from pro forma projections.",
+        "contradicts": "No new cash/lease evidence or a material revision undermines the inference.",
+        "source_ids": [
+          "mit",
+          "dcr"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T12:15:29Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-28",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange securities market",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx-hours",
+            "mom-holiday"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "DATA INCOMPLETE: no synchronized certified STI final, SGX breadth or Singapore sentiment survey at this cutoff.",
+        "indicators": "Incompatible vendor historical rows (5,405.38 and 5,397.91); these are a discrepancy, not a usable closing proxy.",
+        "source_ids": [
+          "sti-a",
+          "sti-b"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "SK hynix reported over 50% of 2027–28 capacity covered by signed long-term agreements; this is overseas supplier evidence and no verified SGX technology closing basket.",
+          "implication": "Memory availability may shape Singapore data-centre equipment supply, but local orders/utilization are unverified.",
+          "watchpoint": "Check local issuer bookings and customer cash evidence.",
+          "source_ids": [
+            "hynix"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "The accessible STI vendors disagree on 28 October's precise close: 5,405.38 versus 5,397.91. Bank constituent closes were not independently reconciled.",
+          "implication": "Do not infer bank-sector breadth or a precise STI return from inconsistent dynamic pages.",
+          "watchpoint": "Check certified SGX/FTSE final index and constituent turnover.",
+          "source_ids": [
+            "sti-a",
+            "sti-b"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Mapletree Industrial Trust's 27 October report showed DPU 2.97 Singapore cents versus 3.18 a year earlier and portfolio occupancy 89.7% versus 90.7% prior quarter. Digital Core's current 30 September occupancy was 97%; pending-deal pro forma values are distinct.",
+          "implication": "These issuer fundamentals show distribution and leasing differences but do not prove today's REIT-sector move.",
+          "watchpoint": "Check SGX closing constituent prices and subsequent rental/cash collections.",
+          "source_ids": [
+            "mit",
+            "dcr"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Singapore REIT distribution evidence may inform regional yield-sensitive names, conditionally.",
+          "trigger": "Regional REIT prices and comparable earnings react coherently.",
+          "invalidation": "No regional response or currency/rates news dominates.",
+          "source_ids": [
+            "mit",
+            "dcr"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Unverified Singapore index figures should not drive a London narrative; data-centre REIT leasing may be a narrow comparable.",
+          "trigger": "European peer disclosures show similar leasing/cash changes.",
+          "invalidation": "Comparable peers diverge or their asset mix differs.",
+          "source_ids": [
+            "sti-a",
+            "sti-b",
+            "dcr"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "AI-memory contract visibility could affect US chip/equipment expectations after the US open.",
+          "trigger": "US issuer orders and stock prices corroborate delivered demand.",
+          "invalidation": "Weak hyperscaler cash returns or no US supplier confirmation.",
+          "source_ids": [
+            "hynix"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-28-asia-close-delayed",
+    "title": "Asia closing read — Japan's narrow rise, India softer; Korea surges",
+    "summary": "28 October Asian closing observations recovered at the 20:00 SGT checkpoint; cutoff 2026-10-28T12:15:29Z. Nikkei closed 63,954.19 (+1.08%) while TOPIX fell 0.14% to 3,991.71. Nifty closed 22,698.85 (-0.22%). Yonhap reported the KOSPI at 6,012.44, up 6.63%; independent KRX final retrieval remains a gap.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-28T12:15:29Z",
+    "updated_at": "2026-10-28T12:15:29Z",
+    "cutoff_at": "2026-10-28T12:15:29Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx-calendar",
+        "title": "JPX business calendar, 2026",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "nifty-calendar",
+        "title": "NSE holidays and closures; indexed official listing checked 28 October",
+        "publisher": "National Stock Exchange of India",
+        "url": "https://www.nseindia.com/resources/exchange-communication-holidays?apiversion=v2",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "nikkei",
+        "title": "28 October Nikkei historical closing row",
+        "publisher": "FT Markets",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=n225%3ANIK",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "topix",
+        "title": "28 October Japan closing summary, Reuters distributed by Newsweek Japan",
+        "publisher": "Reuters via Newsweek Japan",
+        "url": "https://www.newsweekjapan.jp/articles/-/338314?display=b",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "nifty",
+        "title": "28 October Nifty historical closing row",
+        "publisher": "FT Markets",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=NIFTY%3ANSI",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "india-wrap",
+        "title": "28 October India closing market report",
+        "publisher": "ICICI Direct",
+        "url": "https://www.icicidirect.com/share-market-today/market-news-commentary/quick-wrap-nifty-it-index-declines-198-percentage/5037309",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "hynix",
+        "title": "Preliminary Q3 2026 results and capacity agreements",
+        "publisher": "SK hynix",
+        "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "korea-a",
+        "title": "28 October Kospi closing report, 6,012.44",
+        "publisher": "Yonhap",
+        "url": "https://en.yna.co.kr/view/AEN20261028008052320",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      },
+      {
+        "id": "korea-b",
+        "title": "28 October Yonhap closing summary corroborating 6,012.44 reported KOSPI close",
+        "publisher": "AP",
+        "url": "https://en.yna.co.kr/view/AEN20261028011100315",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T12:15:29Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "FT's 28 October historical table gives Nikkei 63,954.19; Reuters-distributed Japan summary gives TOPIX 3,991.71, down 0.14%.",
+        "kind": "fact",
+        "source_ids": [
+          "nikkei",
+          "topix"
+        ]
+      },
+      {
+        "text": "FT's Nifty historical table gives 22,698.85 for 28 October; ICICI Direct reported a 0.22% decline.",
+        "kind": "fact",
+        "source_ids": [
+          "nifty",
+          "india-wrap"
+        ]
+      },
+      {
+        "text": "SK hynix's preliminary Q3 release reported revenue KRW104.6155tn, operating profit KRW83.3338tn and signed LTAs for more than 50% of 2027–28 capacity.",
+        "kind": "fact",
+        "source_ids": [
+          "hynix"
+        ]
+      },
+      {
+        "text": "Yonhap's 28 October closing wire and its later daily summary both reported KOSPI 6,012.44, up 6.63%; direct KRX final data was not retrieved.",
+        "kind": "fact",
+        "source_ids": [
+          "korea-a",
+          "korea-b"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Nikkei strength alongside a negative TOPIX and SK hynix's memory results is compatible with concentrated AI-linked leadership.",
+        "transmission": "Supplier capacity visibility could spill into chip equipment and data-centre buildouts.",
+        "confidence": "inference",
+        "alternatives": "Index composition, currency changes and unrelated issuer news could account for divergence; no sector-level causal attribution follows.",
+        "source_ids": [
+          "nikkei",
+          "topix",
+          "hynix"
+        ]
+      },
+      {
+        "explanation": "India's benchmark decline contrasts with the Japanese headline gain.",
+        "transmission": "Regional FX, energy and rates exposure may produce different country outcomes.",
+        "confidence": "inference",
+        "alternatives": "The available closing reports do not prove a single regional driver or synchronized sector rotation.",
+        "source_ids": [
+          "nifty",
+          "india-wrap",
+          "nikkei"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Narrow AI leadership persists",
+        "outcome": "Memory suppliers and chip-linked indices may stay ahead of broader Asian equities.",
+        "trigger": "Additional primary orders, deliveries and breadth support the move.",
+        "invalidation": "Cash conversion weakens or broad indices fail to confirm.",
+        "horizon": "Next completed trading session",
+        "source_ids": [
+          "hynix",
+          "nikkei",
+          "topix"
+        ]
+      },
+      {
+        "name": "Broader Asian divergence",
+        "outcome": "India and Japan could respond differently to rates, oil and domestic earnings.",
+        "trigger": "Synchronized closing data and issuer reports show persistent divergence.",
+        "invalidation": "Country moves converge or corrected prints reverse the apparent gap.",
+        "horizon": "Next completed trading session",
+        "source_ids": [
+          "nifty",
+          "india-wrap",
+          "nikkei"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Korea official closing confirmation and next Asian breadth",
+        "due_at": "2026-10-29T10:15:00Z",
+        "confirms": "Official KRX close confirms the reported Yonhap level and sector breadth is available.",
+        "contradicts": "Official KRX data differ or remain inaccessible; report only the attributed wire print.",
+        "source_ids": [
+          "korea-a",
+          "korea-b"
+        ]
+      },
+      {
+        "signal": "US hyperscaler results and Fed decision",
+        "due_at": "2026-10-29T03:00:00Z",
+        "confirms": "Primary cash/capex and rates data corroborate Asian memory demand.",
+        "contradicts": "Orders or free-cash-flow evidence contradict aggressive capacity extrapolation.",
+        "source_ids": [
+          "hynix"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T12:15:29Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-10-28",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx-calendar",
+            "nikkei",
+            "topix"
+          ]
+        },
+        {
+          "name": "National Stock Exchange of India",
+          "status": "verified-session",
+          "source_ids": [
+            "nifty-calendar",
+            "nifty",
+            "india-wrap"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed and concentrated, based on closing index proxies; no representative pan-Asian sentiment survey or complete regional sector panel.",
+        "indicators": "Nikkei 63,954.19 (+1.08%); TOPIX 3,991.71 (-0.14%); Nifty 22,698.85 (-0.22%). Yonhap reported KOSPI 6,012.44 (+6.63%); direct KRX confirmation was unavailable.",
+        "source_ids": [
+          "nikkei",
+          "topix",
+          "nifty",
+          "india-wrap",
+          "korea-a",
+          "korea-b"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "SK hynix's preliminary Q3 revenue was KRW104.6155tn and operating profit KRW83.3338tn; signed long-term agreements cover over half of planned 2027–28 production. Japan's Nikkei rose while TOPIX fell, consistent with narrow leadership, not a certified Japan IT-sector return.",
+          "implication": "Memory contracts improve visibility for suppliers; negotiated demand through 2029 and future cash delivery are distinct from signed LTA volume.",
+          "watchpoint": "Check contract delivery, cash conversion, packaging/power supply and hyperscaler spending.",
+          "source_ids": [
+            "hynix",
+            "nikkei",
+            "topix"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "India's Nifty finished down 0.22%; no exchange-level Asian energy-sector closing basket was independently verified.",
+          "implication": "Oil-sensitive transmission is plausible but no precise sector contribution is established.",
+          "watchpoint": "Check official sector returns and timestamped crude/FX observations.",
+          "source_ids": [
+            "nifty",
+            "india-wrap"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Nikkei +1.08% contrasted with TOPIX -0.14%; no verified Japanese bank or pan-Asian finance basket was retrieved.",
+          "implication": "The divergent indices warn against calling all Japanese sectors strong.",
+          "watchpoint": "Check JPX/TOPIX sector releases and rate-sensitive banks.",
+          "source_ids": [
+            "nikkei",
+            "topix"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "ICICI Direct's India wrap reported a negative broad close but did not establish a regional health-care-sector close.",
+          "implication": "Country-level loss cannot be assigned to pharmaceuticals or other health care.",
+          "watchpoint": "Check NSE sector index and issuer earnings.",
+          "source_ids": [
+            "india-wrap"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Japan's broad TOPIX slipped 0.14% despite Nikkei's gain; a sector-specific industrial return was unavailable.",
+          "implication": "Broad index divergence may reflect concentrated technology gains, not proof of industrial selling.",
+          "watchpoint": "Check Japanese sector breadth and capital-goods order data.",
+          "source_ids": [
+            "topix",
+            "nikkei"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified desk-specific closing sector basket or attributable constituent result was obtained by this cutoff.",
+          "implication": "No sector direction or return is inferred from the available index and issuer evidence.",
+          "watchpoint": "Check official exchange sector and issuer releases at the next relevant checkpoint.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Asian memory-capacity news could influence Singapore data-centre and equipment sentiment.",
+          "trigger": "Local issuer orders or the next SGX session corroborate the supplier signal.",
+          "invalidation": "No local order/price confirmation or broad rates news dominates.",
+          "source_ids": [
+            "hynix"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Narrow Japanese leadership could inform European semiconductor expectations.",
+          "trigger": "European supplier orders and synchronized sector prices corroborate demand.",
+          "invalidation": "European peers diverge or no customer cash supports extrapolation.",
+          "source_ids": [
+            "nikkei",
+            "topix",
+            "hynix"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian memory contracts may sharpen scrutiny of US AI customers' cash returns.",
+          "trigger": "US hyperscaler capex and FCF releases align with supplier commitments.",
+          "invalidation": "US customer economics disappoint or demand is merely reserved capacity.",
+          "source_ids": [
+            "hynix"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-27-us-close",
     "title": "US closing read — technology leads, but cash quality and logistics economics need testing",
     "summary": "27 October cash session; evidence cutoff 28 October 04:59:54 SGT. Reported closing levels and breadth are now available. Post-close Visa/Robinhood results, Boeing cash flow, an AI logistics opportunity estimate and qualified energy-security risks inform the next Asian session.",

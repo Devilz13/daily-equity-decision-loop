@@ -1,6 +1,15 @@
 # DEDL compact handoff
 
-Updated 28 October 2026, 13:04:21 SGT verified Singapore catch-up release. Public-safe operational record; Git retains earlier handoffs. Resolve current main each invocation.
+Updated 28 October 2026, 20:15:29 evidence cutoff; 20:00 checkpoint reports prepared pending release. Public-safe operational record; Git retains earlier handoffs. Resolve current main each invocation.
+
+## 28 October 20:00 checkpoint — prepared, not yet verified live
+
+- Starting main `3885ad1ee0b2b1d3ab4873bbe21aa72787100c89`. All today's `issues.json` entries and exact canonical `issues/2026/10/28/` checked: Issue042 already exists; accepted publication key `42:2026-10-28:2026-10-28-v1` and Telegram message44 remain unchanged. No daily duplicate, delivery revision or session Telegram.
+- Dispatcher/audit at 20:05:49 SGT selected only Asia close under its 90-minute rule. Reconciliation of all intervening windows found three 28 October reads due: Europe open target15:45 SGT, Singapore close17:30, Asia close18:15. Reports are staged with actual shared cutoff20:15:29, explicitly delayed, and use separate desk/local-date keys. US 28 October open target21:15 SGT was still future and is not claimed. Eight older 26 October calendar-qualified gaps remain.
+- London opening: AJ Bell reported FTSE100 10,663.55 (-0.2%) at its morning open; official LSE calendar checked. UK Budget and Fed decision still pending at cutoff. Five bounded sector reviews/six explicit gaps.
+- Singapore close: official SGX hours and MOM holiday calendar checked; dynamic historical STI rows conflict (5,405.38 versus 5,397.91). No certified closing level, breadth or sector return asserted. MIT and Digital Core 27 October issuer fundamentals remain distinct from today's price response. Three bounded sector reviews/eight gaps.
+- Asia close: FT/Reuters evidence for Nikkei 63,954.19 (+1.08%), TOPIX 3,991.71 (-0.14%), FT/ICICI for Nifty 22,698.85 (-0.22%); Yonhap reported KOSPI 6,012.44 (+6.63%) but direct KRX confirmation was unavailable. JPX/NSE calendars checked; partial regional basket. SK hynix preliminary results and signed 2027–28 capacity are direct supplier evidence, not delivered utilization or customer cash. Five bounded sector reviews/six gaps.
+- All three reports preserve eleven sector records, actual sentiment proxies, causal alternatives, scenarios, dated watchpoints and spillovers. Source/access time and review cutoff are shared; issuer estimates and inferred transmissions are labelled. No private holdings, thresholds, debate or tactics. Local 42-test suite, build (42 editions/21 reports), internal-link/artifact check (98 pages), history/diff, editorial and Telegram dry-run pass. Initial parallel link check raced the build and failed on temporarily missing files; sequential rerun passed. Release and Pages acceptance still need verification; tests do not prove publication.
 
 ## Authority and routing
 
