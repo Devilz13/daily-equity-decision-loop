@@ -1,6 +1,6 @@
 # DEDL compact handoff
 
-Updated 28 October 2026, 08:19:06 SGT verified morning release. Public-safe operational record; Git retains earlier handoffs. Resolve current main each invocation.
+Updated 28 October 2026, 13:00:19 SGT Singapore catch-up evidence cutoff; current release verification pending. Public-safe operational record; Git retains earlier handoffs. Resolve current main each invocation.
 
 ## Authority and routing
 
@@ -9,6 +9,17 @@ Updated 28 October 2026, 08:19:06 SGT verified morning release. Public-safe oper
 - Check ALL date entries and exact canonical daily path. Special guidance does not satisfy the daily edition. Before 08:00 do not draft the new morning edition. Session-only/maintenance work cannot change issues.json/delivery revisions or send Telegram.
 - Read current runbook/reference for the due branch. Five independent market statuses, extensive public format, all desks, privacy, evidence and release safeguards remain unchanged. PR #1 and #2 are unmerged; #2 approval block unresolved. Candidate scripts/build/navigation are not production.
 - Free permitted public information only; no purchases, bypasses, private models/methods/positions, credentials or trades. Owner debate stays outside this public repository.
+
+## Current Singapore catch-up — prepared, release pending
+
+- Default main resolved **806f3f8d4514abdfb2b3346ed96c21d36b94d9a3**. Dispatcher/audit selected Singapore 28 October open as the one current-date delayed recovery. No other target fell due since the morning release; eight older 26 October windows remain unresolved/calendar-qualified.
+- All today's issue entries/exact canonical path checked: Issue042 exists. Exact live title/revision marker rechecked; original job122551953810 logs again confirm accepted message44. Receipt maintenance run40608140053/job122552699239 succeeded, explicit unchanged-key/no-send. Reuse accepted **42:2026-10-28:2026-10-28-v1**; no issue/revision edit or Telegram requested.
+- Prepared [Singapore opening catch-up](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-28-singapore-open-delayed-catch-up/), actual cutoff **13:00:19 SGT**, **4h15m19s after editorial target / 4h00m19s after scheduled cash open**. SGX official indexed hours/holiday linkage plus MOM 2026 calendar checked; no scheduled28Oct holiday. Direct SGX reader shows unsupported-browser page; individual halts/unscheduled exceptions not comprehensively certified.
+- Early09:06/09:07SGT prices/breadth/turnover are labelled old observations, not midday prices. All11 sectors retained: **four bounded sourced reviews/seven explicit gaps**, with causes/alternatives, scenarios, dated watchpoints and spillovers.
+- Retrieved actual MIT27Oct19:59 results release and Digital Core27Oct17:17 update; key tables/footnotes visually checked. MIT distribution/occupancy pressure coexists with leasing progress; no proven price causality. Digital Core current30Sep metrics separated from pending-transaction pro-forma figures and2027 guidance. This resolves the earlier actual-update retrieval gap without silently editing old reports.
+- Shared macro pass: RBNZ actual hold decision from primary indexed text, Fed outcome still future and Microsoft issuer-confirmed after-US-close results schedule. Reuters Asian/energy and Korean cyber reporting labelled as secondary indexed chains; precise quote times, primary operator confirmation and Singapore exposure incomplete.
+- London pre-open context / American watchpoints are clearly named in this report. At cutoff London05:00:19GMT; **15:45SGT** editorial opening target still future. Current official LSE business-days URL retrieved, older URL404. No future Europe-open report, historical opening observation or new research timer created. Alphabet primary schedule not independently retrieved, no exact call time claimed.
+- Required tests/build/link/artifact/history/diff, dry-run/context/editorial and separate evidence/privacy review must pass before release. Publication and no-send receipt remain pending until recorded; a prepared local record is not live evidence.
 
 ## 28 October morning — verified published and accepted
 
@@ -42,7 +53,7 @@ Updated 28 October 2026, 08:19:06 SGT verified morning release. Public-safe oper
 ## Next bounded work
 
 - Eight older **26 October** windows remain missing/calendar-qualified. Do not invent historical opening observations or launch an unbounded recovery burst.
-- Singapore **28 October08:45** target is future at the morning evidence cutoff; not satisfied by the daily edition or Asia report. Next invocation must use audit for this intervening window, official calendar and real delayed observation. Current Asian prices/turnover/breadth and omitted calendars remain gaps.
-- 13:00 checkpoint: London pre-open context and US-news watchpoints; actual London07:45 editorial target is **15:45 SGT** after UK DST ended, so do not call13:00 an observed London cash open. Similarly20:00 precedes New York09:15 target (**21:15 SGT** while US DST remains); preserve actual clock and audited later catch-up.
+- Singapore28Oct opening catch-up is prepared above; verify release before suppressing recovery. Its09:06 observations remain dated, not a complete midday/closing series. Current local price/breadth coverage and omitted Asian calendars remain gaps.
+- Next20:00 checkpoint: audit intervening Europe15:45 opening target, Singapore17:30 and Asia18:15 closing targets; cover fresh/current work and bounded delayed recovery, preserving remaining gaps. Today's London context is pre-open only.20:00 still precedes New York09:15 target (**21:15 SGT** while US DST remains); no invented US cash opening observation.
 - Samsung29Oct09:00SGT call is scheduled, not actual results. Obtain new customer/supplier cash, delivered/energized capacity and independent order evidence. Uber next results4Nov21:00SGT (08:00Eastern after US DST change); retain next completed-week key separately.
 - No routine Telegram for sessions/maintenance. Reconcile UNKNOWN acceptance before retry; current Issue042 accepted key is known. Tests/configuration do not certify facts, subscriber reads or future publication.

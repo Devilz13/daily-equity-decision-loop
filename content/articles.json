@@ -6179,5 +6179,498 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-10-28-singapore-open-delayed-catch-up",
+    "title": "Singapore opening catch-up — REIT cash realities, London pre-open context and US watchpoints",
+    "summary": "28 October evidence cutoff 13:00:19 SGT; 4h15m19s after the opening editorial target. Early quotes remain 09:06/09:07 observations, not midday prices. Actual MIT/Digital Core disclosures improve the evidence; London opening and US policy/earnings outcomes are still future.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-28T05:00:19Z",
+    "updated_at": "2026-10-28T05:00:19Z",
+    "cutoff_at": "2026-10-28T05:00:19Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx",
+        "title": "SGX hours and holiday linkage — official indexed extract; direct reader returned unsupported-browser page; undated page uses retrieval timestamp",
+        "publisher": "Singapore Exchange",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-10-28T05:00:19Z",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "mom",
+        "title": "Official 2026 holidays — 28 October not listed",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "early",
+        "title": "Early Singapore trade, 09:06/09:07 SGT — dated indexed extract; full page retrieval failed",
+        "publisher": "Business Today",
+        "url": "https://www.businesstoday.com.my/2026/10/28/sti-rises-25-points-in-early-singapore-trade/",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "secondary"
+      },
+      {
+        "id": "mit",
+        "title": "2Q/1HFY2026/27 results — actual issuer press release and table visually checked",
+        "publisher": "Mapletree Industrial Trust",
+        "url": "https://investor.mapletreeindustrialtrust.com/newsroom/20261027_195919_ME8U_3TNAUNY3K2WYP97A.2.pdf",
+        "published_at": "2026-10-27T19:59:00+08:00",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "dcr",
+        "title": "3Q2026 actual operational update — 27 October broadcast; slides 2 and 6 visually checked",
+        "publisher": "Digital Core REIT",
+        "url": "https://investor.digitalcorereit.com/newsroom/20261027_171728_DCRU_IB065DN33RUIAZWW.1.pdf",
+        "published_at": "2026-10-27T17:17:28+08:00",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "global",
+        "title": "Asian intraday context — 01:40 UTC first publication, precise update/quote times unavailable; indexed body, full refresh failed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-28/",
+        "published_at": "2026-10-28T01:40:49Z",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "secondary"
+      },
+      {
+        "id": "rbnz",
+        "title": "OCR held at 2.75% — official indexed release; direct body retrieval failed",
+        "publisher": "Reserve Bank of New Zealand",
+        "url": "https://www.rbnz.govt.nz/news-and-events/news/2026/10/ocr-held-at-2-75-percent",
+        "published_at": "2026-10-28T01:00:00Z",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "fed",
+        "title": "FOMC calendar — October statement not posted at check",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "published_at": "2026-10-07",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "msft",
+        "title": "Issuer FAQ confirms 28 October after-market-close earnings — undated page uses retrieval timestamp",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/investor/faq",
+        "published_at": "2026-10-28T05:00:19Z",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "lse",
+        "title": "Current business-days page — former reference URL returns 404; undated page uses retrieval timestamp",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-28T05:00:19Z",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "primary"
+      },
+      {
+        "id": "cyber",
+        "title": "Korean financial firms' breach reports attributed to Yonhap — dated extract, operator notices not independently retrieved",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/government/three-south-korean-financial-firms-including-bithumb-report-data-breaches-yonhap-2026-10-28/",
+        "published_at": "2026-10-28T01:03:00Z",
+        "accessed_at": "2026-10-28T05:00:19Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Calendar and honest timing: SGX's official indexed schedule links to Singapore's public-holiday calendar and lists cash trading 09:00–12:00 / 13:00–17:00 SGT. MOM's 2026 calendar has no 28 October holiday. This read is a delayed opening catch-up, cutoff 13:00:19: 4h15m19s after the 08:45 target and 4h00m19s after scheduled cash open. Individual halts or unscheduled exceptions were not comprehensively certified.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "mom"
+        ]
+      },
+      {
+        "text": "Early Singapore evidence, not current midday quotes: Business Today's dated extract reports STI 5,421.85, +24.82 points (+0.46%), at 09:06 SGT; breadth 113 advancing/60 declining, 54.45m securities worth S$107.82m. DBS was S$74.47 at 09:07, +S$0.55. MIT was quoted S$1.75, down four cents. One secondary extract is not independent exchange-series verification; its full-page retrieval failed. No synchronized later STI, bank breadth, VIX or USD/SGD panel is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "early"
+        ]
+      },
+      {
+        "text": "MIT's actual 27 October release for quarter ended 30 September reports DPU 2.97 Singapore cents versus 3.18, down 6.6%; quarterly NPI fell 3.5% to S$119.8m. Average occupancy was 89.7% versus 90.7% the preceding quarter. Management cites North American contribution, divestments and currency effects; positive Singapore rent reversions and newly secured data-centre leases provide opposing evidence. These operating facts are not proof of the cause of this morning's price move.",
+        "kind": "fact",
+        "source_ids": [
+          "mit"
+        ]
+      },
+      {
+        "text": "Digital Core's 27 October actual update resolves a prior retrieval gap. Slide 2 footnote reports unadjusted 30 September occupancy 97%, WALE 4.0 years and aggregate leverage 41.6%. Headline 99%, 5.0 years and 37.6% are pro forma for a pending portfolio transaction. Slide 6's 2027 DPU guidance of 4.15–4.25 US cents is management's forecast, not a realized distribution or a current yield. Neither fresh valuation nor transaction completion is certified here.",
+        "kind": "fact",
+        "source_ids": [
+          "dcr"
+        ]
+      },
+      {
+        "text": "Regional policy and sentiment: RBNZ's official indexed decision records a 4–3 vote to hold OCR at 2.75%; publication was scheduled 14:00 New Zealand / 09:00 Singapore. Direct release retrieval failed, so the primary indexed text is labelled. Reuters' early Asian body reports firmer equities and oil, including Brent US$114.42 and US crude US$100.45. Exact quote/update times and oil delivery months are unavailable; these are neither current noon quotes nor settlement prices.",
+        "kind": "fact",
+        "source_ids": [
+          "rbnz",
+          "global"
+        ]
+      },
+      {
+        "text": "London context, explicitly pre-open: the current LSE business-days page lists no 28 October holiday. Its older reference URL returned 404; the current official URL is in the register. At this cutoff London is 05:00:19 GMT, before today's 07:45 editorial opening target / 15:45 SGT. No European cash opening move is asserted and no future Europe-open record is created. Watch funding/FX and supplier earnings; obtain actual market breadth and sector participation once the window is due.",
+        "kind": "fact",
+        "source_ids": [
+          "lse"
+        ]
+      },
+      {
+        "text": "Today's American-news watchpoints: the Fed calendar lists the 27–28 October meeting but no October decision statement at this check. Microsoft's issuer FAQ confirms earnings after the 28 October US stock-market close, i.e. 29 October Singapore date. Outcomes, fresh capex, cash conversion and guidance are unknown. Alphabet is also mentioned in Reuters' upcoming-results account; its separate current primary schedule was not retrieved, so no precise call time is certified. Expectations are not enacted policy or results.",
+        "kind": "fact",
+        "source_ids": [
+          "fed",
+          "msft",
+          "global"
+        ]
+      },
+      {
+        "text": "Cyber scope: Reuters, citing Yonhap, reports breach notifications by three Korean financial firms on 28 October. Operator/regulator originals and quantified impacts were not retrieved. This is one reporting chain, not independent confirmation of each incident, state attribution or an established Singapore exposure. Seek primary notices before inferring local financial losses or a systemic event.",
+        "kind": "allegation",
+        "source_ids": [
+          "cyber"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Regional AI enthusiasm offers context for the early Singapore rise; it does not identify the marginal buyer or explain every constituent. Early breadth is positive but covers a short interval.",
+        "transmission": "Better technology earnings may support risk appetite while local banks and property trusts still face their own cash, credit and rates exposures.",
+        "confidence": "inference",
+        "alternatives": "Positioning, index weights and issuer-specific results can explain divergence; no event-study or synchronized cross-market panel establishes causality.",
+        "source_ids": [
+          "early",
+          "global"
+        ]
+      },
+      {
+        "explanation": "MIT's release attributes operating pressure to specific portfolio/currency factors while reporting leasing progress. The timing makes results a plausible input to the next session, not a proven cause of a quoted decline.",
+        "transmission": "Occupancy and distributable income influence per-unit cash; refinancing and lease commencement can offset or delay improvement.",
+        "confidence": "inference",
+        "alternatives": "Discount-rate repricing, positioning and other information may affect units independently of operating results.",
+        "source_ids": [
+          "mit",
+          "early"
+        ]
+      },
+      {
+        "explanation": "Digital Core's pro-forma figures describe a contingent change in portfolio composition; comparing them directly with current figures would overstate completed improvement.",
+        "transmission": "Transaction execution, funded capex, rent collection and debt costs determine realized distributions and leverage.",
+        "confidence": "evidenced",
+        "alternatives": "Completion delays, terms changes or tenant/cost developments could differ from the modeled outcome; robust leasing can still support the bull case.",
+        "source_ids": [
+          "dcr"
+        ]
+      },
+      {
+        "explanation": "An unchanged policy rate is a decision; a predicted unchanged Fed rate remains a forecast. Cross-border FX and funding conditions can move on guidance and expectations.",
+        "transmission": "Singapore banks, REIT financing and foreign-currency assets can be affected, subject to hedges and maturities.",
+        "confidence": "inference",
+        "alternatives": "Different mandates, domestic inflation and market positioning prevent automatic read-through from New Zealand to the Fed or Singapore.",
+        "source_ids": [
+          "rbnz",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Issuer cash improves despite weaker headlines",
+        "outcome": "Leasing and transaction execution could support future distributions without proving a broad REIT rally.",
+        "trigger": "New rent commences, costs are controlled and the pending transaction closes on disclosed terms.",
+        "invalidation": "Vacancy, delayed commencement, higher refinancing expense or weaker collected rent.",
+        "horizon": "Next two reporting quarters; 2027 guidance remains forward-looking",
+        "source_ids": [
+          "mit",
+          "dcr"
+        ]
+      },
+      {
+        "name": "Rates or financing offset infrastructure demand",
+        "outcome": "Stronger demand can coexist with constrained per-unit cash and valuation pressure.",
+        "trigger": "Restrictive policy guidance, hedge repricing, capex escalation or weaker credit availability.",
+        "invalidation": "Sustained collected cash growth and affordable financing offset these pressures.",
+        "horizon": "28–30 October policy/earnings and subsequent financing disclosures",
+        "source_ids": [
+          "fed",
+          "mit",
+          "dcr"
+        ]
+      },
+      {
+        "name": "AI customer economics validate supplier optimism",
+        "outcome": "Better recurring customer cash could improve confidence in physical infrastructure expansion.",
+        "trigger": "Post-close Microsoft results show monetization and funding consistent with investment commitments.",
+        "invalidation": "Growth financed by escalating commitments without corresponding cash, productive utilization or collections.",
+        "horizon": "After 28 October US close / 29 October Singapore morning",
+        "source_ids": [
+          "msft",
+          "global"
+        ]
+      },
+      {
+        "name": "Regional cyber claims become a documented operational event",
+        "outcome": "Recovery costs and customer trust could become issuer-specific risks; no Singapore spillover is assumed.",
+        "trigger": "Attributable operator/regulator notices confirm scope, interruption and losses.",
+        "invalidation": "Reported scale or linkage is corrected, or local dependency exposure cannot be established.",
+        "horizon": "28–30 October official updates",
+        "source_ids": [
+          "cyber"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "London editorial opening target: obtain actual calendar-qualified opening context and local participation; this report is pre-open context only.",
+        "due_at": "2026-10-28T07:45:00Z",
+        "confirms": "Observed local prices and breadth support a measured read.",
+        "contradicts": "Only previous-session or untimed global quotes are available.",
+        "source_ids": [
+          "lse"
+        ]
+      },
+      {
+        "signal": "Singapore closing target: reconcile closing levels, bank breadth and issuer cash/REIT evidence; do not carry 09:06 observations forward as the close.",
+        "due_at": "2026-10-28T09:30:00Z",
+        "confirms": "Timestamped completed-session prices and participation.",
+        "contradicts": "Conflicting unqualified boards or an incomplete intraday row.",
+        "source_ids": [
+          "sgx",
+          "early",
+          "mit",
+          "dcr"
+        ]
+      },
+      {
+        "signal": "Fed decision review after expected US policy window — verify actual statement, not anticipated outcome; timestamp is a review target.",
+        "due_at": "2026-10-28T18:00:00Z",
+        "confirms": "Official release clarifies rates/guidance and funding conditions.",
+        "contradicts": "Only forecasts, odds or commentary are supplied.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Microsoft after-US-close results review; timestamp is a checking target, not a certified call start.",
+        "due_at": "2026-10-28T20:30:00Z",
+        "confirms": "Actual issuer results reconcile demand, cash, capex and guidance.",
+        "contradicts": "A schedule or consensus forecast is substituted for results.",
+        "source_ids": [
+          "msft"
+        ]
+      },
+      {
+        "signal": "Next issuer check: reconcile Digital Core transaction completion and MIT lease commencement/cash with the forecasts.",
+        "due_at": "2026-10-29T00:00:00Z",
+        "confirms": "Primary operational or completion evidence.",
+        "contradicts": "Only the same pending/pro-forma presentation is available.",
+        "source_ids": [
+          "mit",
+          "dcr"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-28T05:00:19Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-28",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX securities — scheduled regular calendar; index-extract schedule/MOM holidays and early-session reporting; individual halts not comprehensively verified",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx",
+            "mom",
+            "early"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Early positive breadth is an observed short-window proxy; conviction about the rest of the day is unverified. REIT cash facts favor discrimination rather than an automatic AI/property trade.",
+        "indicators": "09:06 SGT reported advancers/decliners and turnover above, plus named 09:07 bank observation. These are not current 13:00 measures. No fresh local credit-spread, volume-average, options or public-opinion series certified.",
+        "source_ids": [
+          "early",
+          "mit",
+          "dcr"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Regional AI sentiment is constructive in Reuters' dated Asian report; no verified Singapore technology basket return or current local equipment order established.",
+          "implication": "Memory earnings and hardware availability are distinct from Singapore supplier margin and cash. A named beneficiary needs its own contract evidence.",
+          "watchpoint": "Next supplier results and funded local equipment orders; do not infer returns from a Korean index.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current Singapore communications-sector breadth, pricing or operator earnings series reconciled.",
+          "implication": "US cloud results could affect expectations, but do not establish local telecom revenue or capex returns.",
+          "watchpoint": "Read Microsoft after US close and reconcile local operator cash/commitments independently.",
+          "source_ids": [
+            "msft"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No local discretionary-sector return, demand or transport-volume panel verified.",
+          "implication": "Fuel and FX can affect travel and consumption; this is conditional, not a demonstrated local demand decline.",
+          "watchpoint": "Check local traffic/spending and fuel-cost pass-through before assigning a direction.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified current staples price basket, volume or margin update.",
+          "implication": "Do not assume defensive outperformance from the index's earlier rise.",
+          "watchpoint": "Seek issuer volumes, pricing and costs, with dated local observations.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters' Asian report has intraday oil firmer; delivery months and precise quote time not established, so it is not a settlement or synchronized Singapore input-price panel.",
+          "implication": "Renewed fuel costs can pressure importers and support some producers; hedges and tariff terms govern local profit.",
+          "watchpoint": "Operator-confirmed output/export losses, matched-contract oil and actual local pass-through.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Early reporting places DBS at S$74.47, up S$0.55 at 09:07 SGT. Regional financial-firm cyber claims remain a secondary chain; Singapore exposure is not established.",
+          "implication": "A bank quote does not certify the sector. Policy surprises can alter rates/FX; a reported cyber event needs operator-confirmed scope and losses.",
+          "watchpoint": "Local bank breadth, credit/funding disclosures and the actual Fed statement; do not infer a Singapore breach.",
+          "source_ids": [
+            "early",
+            "cyber",
+            "rbnz",
+            "fed"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current local health-care return, clinical or reimbursement evidence reconciled.",
+          "implication": "No sector thesis change inferred from AI optimism.",
+          "watchpoint": "Verify issuer/regulator originals and funding/payment exposure.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current Singapore industrial-sector breadth or independently verified new funded AI logistics order.",
+          "implication": "Infrastructure demand may support engineering/logistics, but announced capacity is not supplier revenue.",
+          "watchpoint": "Funded orders, delivery acceptance, utilization, capex and collected cash.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No comparable local materials price/volume series or new attributable order.",
+          "implication": "Rising investment can require inputs, but FX and inventory cycles can offset sales growth.",
+          "watchpoint": "Verify realized volumes, input costs and payment terms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Actual MIT results and Digital Core operational update retrieved; their baselines and pro-forma/forecast figures are separated in the claims above. No aggregate REIT return certified.",
+          "implication": "Leasing progress can coexist with weaker distributions or refinancing risk. A pending portfolio improvement is not a completed outcome.",
+          "watchpoint": "Reconcile transaction completion, lease commencements, maintenance capex and debt costs with cash distributions.",
+          "source_ids": [
+            "mit",
+            "dcr"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No new local utility order, energized-MW or current sector return verified.",
+          "implication": "Data-centre expansion could raise power demand, but regulated/contracted returns and funding determine value.",
+          "watchpoint": "Seek grid connection, commissioning and commercial tariff evidence.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Supplier enthusiasm may support regional expectations, but bank/REIT cash, policy and cyber exposures remain issuer-specific.",
+          "trigger": "Fresh paid demand, cash collection and verified local participation.",
+          "invalidation": "Stronger headlines with weaker financing or operational delivery.",
+          "source_ids": [
+            "global",
+            "mit",
+            "rbnz"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Pre-open focus on financing, property cash and AI equipment demand; London cash opening still future.",
+          "trigger": "Actual European participation and issuer evidence after its scheduled opening window.",
+          "invalidation": "No local confirmation or contradictory earnings/funding evidence.",
+          "source_ids": [
+            "lse",
+            "mit",
+            "global"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Policy guidance and after-close customer earnings can validate or undermine infrastructure demand quality.",
+          "trigger": "Actual Fed statement and Microsoft monetization/capex/cash reconciliation.",
+          "invalidation": "Only consensus/forecasts or weaker cash conversion supports the narrative.",
+          "source_ids": [
+            "fed",
+            "msft"
+          ]
+        }
+      ]
+    }
   }
 ]
