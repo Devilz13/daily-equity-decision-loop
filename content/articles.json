@@ -1,5 +1,680 @@
 [
   {
+    "id": "2026-10-29-singapore-open-delayed-catch-up",
+    "title": "Singapore opening catch-up — selective gains, memory demand and company-specific cash risks",
+    "summary": "29 October opening context recovered with actual evidence cutoff 14:09:54 SGT. Early09:04/09:05 observations are historical, not current14:00 prices. Samsung, Keppel, CICT and weaker UltraGreen.ai/Wilmar outlooks add distinct evidence. London opening and US releases remain future.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets",
+      "agentic-agents",
+      "cyber-frontier"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-29T06:09:54Z",
+    "updated_at": "2026-10-29T06:09:54Z",
+    "cutoff_at": "2026-10-29T06:09:54Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx",
+        "title": "SGX trading hours and 2026 half-days; official indexed body read; direct reader returned browser-warning shell",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-10-29T06:09:54Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "mom",
+        "title": "Official 2026 Singapore public holidays; 29 October is not a listed holiday",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "open-a",
+        "title": "29 October opening report: observations 09:04 SGT; full article body read",
+        "publisher": "Business Today",
+        "url": "https://www.businesstoday.com.my/2026/10/29/singapore-shares-open-higher-sti-gains-0-26/",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "open-b",
+        "title": "29 October opening report: 09:05 SGT; indexed AI-translated body, direct reader unavailable; original Chinese text controls",
+        "publisher": "Lianhe Zaobao / SPH Media",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/story20261029-9912402?ai-allowed=1",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "keppel",
+        "title": "29 October voluntary 3Q/9M update; original issuer HTML read, group and New Keppel definitions differ",
+        "publisher": "Keppel",
+        "url": "https://www.keppel.com/media/keppels-business-update-for-3q--9m-2026/",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:07:30Z",
+        "type": "primary"
+      },
+      {
+        "id": "cict",
+        "title": "Original 29 October 07:00 business-update PDF; text extracted from normal public download; financial pages checked",
+        "publisher": "CICT",
+        "url": "https://investor.cict.com.sg/newsroom/20261029_070044_C38U_3PQVW1J3DJO49A76.1.pdf",
+        "published_at": "2026-10-28T23:00:44Z",
+        "accessed_at": "2026-10-29T06:07:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "wilmar",
+        "title": "Original executive financial summary for quarter ended30 September; SGX PDF text read",
+        "publisher": "Wilmar / SGX",
+        "url": "https://links.sgx.com/FileOpen/WIL%203Q2026%20Executive%20Financial%20Summary_28.10.2026.ashx?App=Announcement&FileID=909522",
+        "published_at": "2026-10-28T09:40:11Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "wilmar-news",
+        "title": "11:51 SGT report updated12:05; share observations10:47/noon; issuer investigation statements remain attributed",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/wilmar-slides-more-4-after-weaker-q3-earnings-indonesian-police-probe-plantation-fires",
+        "published_at": "2026-10-29T04:05:00Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ultra-results",
+        "title": "29 October08:47 SGT indexed business-update report; original current business-update filing not retrieved",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/ultragreen-ai-q3-revenue-43-9-expects-fy2026-revenue-fall-short-guidance",
+        "published_at": "2026-10-29T00:47:00Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ultra-price",
+        "title": "29 October09:39 SGT indexed report; opening price and subsequent09:08 observation are distinct",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/ultragreen-ai-shares-down-9-7-after-guiding-lower-fy2026-revenue/",
+        "published_at": "2026-10-29T01:39:25Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ultra-identity",
+        "title": "Prior SGX original announcement verifies issuer, ISIN and ULG/UGS securities; not today’s results",
+        "publisher": "UltraGreen.ai / SGX",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/XAGK5AQWW8TW7U62",
+        "published_at": "2026-08-12T11:09:19Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "sia",
+        "title": "Joint issuer release28 October; up-to quantity, future deliveries from2028",
+        "publisher": "Singapore Airlines / Aether Fuels",
+        "url": "https://www.singaporeair.com/en_UK/tw/corporate/newsroom/press-release/2026/oct-to-dec-2026/sia_aetherfuels/",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "oil",
+        "title": "29 October Reuters03:51 GMT oil snapshot via public syndication; no current physical-flow certification",
+        "publisher": "Reuters via The Express Tribune",
+        "url": "https://tribune.com.pk/story/2637538/oil-prices-fall-as-peace-hopes-offset-fears-of-growing-middle-east-conflict",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "lse",
+        "title": "Official LSE business-day calendar; no29 October closure listed; undated source-date field uses actual retrieval time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-29T06:06:23Z",
+        "accessed_at": "2026-10-29T06:06:23Z",
+        "type": "primary"
+      },
+      {
+        "id": "ecb",
+        "title": "Official calendar lists29 October monetary-policy meeting and press conference; outcome not yet asserted",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+        "published_at": "2026-10-29T06:09:54Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "bea",
+        "title": "Official schedule lists29 October08:30 US releases: advance Q3 GDP and September personal income/outlays; future at cutoff",
+        "publisher": "US Bureau of Economic Analysis",
+        "url": "https://www.bea.gov/news/schedule",
+        "published_at": "2026-10-29T06:09:54Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "amazon",
+        "title": "15 October issuer notice:29 October17:00 Eastern call, not actual results",
+        "publisher": "Amazon",
+        "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "intel",
+        "title": "6 October issuer notice:29 October after-close results,14:00 PDT call; future at cutoff",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "fed",
+        "title": "28 October FOMC decision; release 14:00 EDT",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "type": "primary",
+        "published_at": "2026-10-28T18:00:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "mas",
+        "title": "Banks management of haze-related environmental risks",
+        "publisher": "MAS",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/statement-on-banks-management-of-haze-related-environmental-risks",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nea",
+        "title": "28 October haze update; 29 October forecast is not a current observation",
+        "publisher": "NEA",
+        "url": "https://www.nea.gov.sg/media/news/advisories/index/haze-situation-update-28-october-2026",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "msft",
+        "title": "FY27 Q1 release and cash-flow tables; quarter ended 30 September",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "goog",
+        "title": "Q3 2026 original SEC Exhibit 99.1; normal public HTML retrieved",
+        "publisher": "Alphabet / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "ultra-alternate",
+        "title": "29 October07:17 SGT indexed report; 9M revenue figure mislabelled as three months, not adopted",
+        "publisher": "The Edge Singapore",
+        "url": "https://www.theedgesingapore.com/capital/results/citing-emerging-competition-ultragreenai-expects-lower-revenue-previously-guided",
+        "type": "secondary",
+        "published_at": "2026-10-28T23:17:00Z",
+        "accessed_at": "2026-10-29T06:09:54Z"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "Calendar gate: the official indexed SGX body lists09:00–12:00 and13:00–17:00 trading and2026 half-days; MOM lists no29 October public holiday. Direct SGX reader returned a browser-warning shell. The scheduled regular-session anchor does not certify every security’s halt status.",
+        "source_ids": [
+          "sgx",
+          "mom"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Opening observations: Business Today reports STI5,412.06 (+0.26%) at09:04SGT,78advancers/78decliners and131.52msecurities/S$247.08m. Zaobao’s AI-translated indexed body reports5,417.43 (+0.36%) at09:05,88gainers/85losers and145.22mshares/S$268.41m. These differently timed snapshots are not contradictory exact-time prints or current midday data; the original Chinese report and primary index tick remain access gaps.",
+        "source_ids": [
+          "open-a",
+          "open-b"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "NVIDIA / AI Infrastructure — material change: Samsung now reports actual September-quarter results, versus the morning’s calendar-only status. Revenue was KRW195.3tn, operating profit107.4tn; Device eXperience nevertheless lost0.8tn. Strong memory demand and supplier investment do not establish every downstream product’s profitability.",
+        "source_ids": [
+          "samsung"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Keppel reports Q3 group net profit up20%, while9M group profit fell40% with non-core asset effects; New Keppel9M profit rose over20%. Announced asset monetisation about S$3.7bn differs from approximately S$940m completed/realised. Growth, adjustments and monetisation cash must remain separate.",
+        "source_ids": [
+          "keppel"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "UltraGreen.ai identity is verified by a prior original SGX record (ULTRAGREEN.AI LIMITED, ISIN SGXE24586385, ULG/UGS). BT reports a US$0.51 opening price, then US$0.54 at09:08. These USD observations are separate from SGD counters, and the opening decline is not the09:08 return. The current business-update original remains unverified; no ownership or action label is inferred.",
+        "source_ids": [
+          "ultra-identity",
+          "ultra-price",
+          "ultra-results"
+        ]
+      },
+      {
+        "kind": "allegation",
+        "text": "A29 October BT report says Indonesian police are conducting preliminary investigations into fires on Wilmar subsidiary land. Wilmar’s no-clearing-link and no-material-impact statements are attributed company positions, not independent findings. The report quotes S$3.12 at10:47 and S$3.14 at noon; these are intraday, not opening or final prices. Weaker core earnings offer an alternative or additional repricing cause.",
+        "source_ids": [
+          "wilmar-news",
+          "wilmar"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "London and American watchpoints: LSE’s official calendar lists no29 October closure; the07:45GMT/15:45SGT editorial opening target remains future at this cutoff. ECB’s29 October meeting is scheduled, with no outcome claimed. BEA lists advance Q3GDP and September income/outlays at08:30US Eastern (20:30SGT). Amazon and Intel schedule29 October17:00Eastern/14:00PDT calls (30 October05:00SGT); these are future results events, not released actuals.",
+        "source_ids": [
+          "lse",
+          "ecb",
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Source limits: Samsung/Keppel original HTML and CICT PDF were retrieved through ordinary public downloads after web-reader failures. SGX indexed hours, Zaobao, UltraGreen.ai and some news items remain explicitly extract-based. No matched current rates, USD/SGD, gold, volatility or whole-sector basket was verified. Existing morning Fed/MAS/customer-cash records retain their original08:11:57SGT access times; no unchecked refresh is claimed.",
+        "source_ids": [
+          "samsung",
+          "keppel",
+          "cict",
+          "sgx",
+          "open-b",
+          "fed",
+          "mas",
+          "msft",
+          "goog"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "An index advance with near-balanced breadth supports a selective, not uniform, early-session reading.",
+        "transmission": "Large constituents can lift a weighted index despite company-specific selling. The early observations cannot establish the afternoon trend or the closing contribution of banks, property or healthcare.",
+        "confidence": "inference",
+        "alternatives": "The one-minute snapshot difference, index weights, liquidity and quote timing can explain divergence without a new macro cause.",
+        "source_ids": [
+          "open-a",
+          "open-b",
+          "ultra-price"
+        ]
+      },
+      {
+        "explanation": "Samsung’s memory/base-die signal adds evidence for the AI infrastructure chain, while customer and supplier cash burdens remain separate.",
+        "transmission": "Beneficiaries may lie in memory/foundry inputs and complementary physical infrastructure. No new direct local rack/networking order or energized grid/cooling capacity is established solely by semiconductor results. Secured capacity, expected capex and paid utilization are not interchangeable.",
+        "confidence": "inference",
+        "alternatives": "Pricing/mix and hardware demand can raise a supplier’s reported profit while weakening device margins or absorbing customer cash; circular financing and overbuild remain risks to investigate, not proven causes.",
+        "source_ids": [
+          "samsung",
+          "msft",
+          "goog",
+          "keppel"
+        ]
+      },
+      {
+        "explanation": "Underlying margins, competitive guidance and valuation effects complicate headline earnings growth.",
+        "transmission": "Reported rebounds can reflect prior exceptions; acquisitions can raise NPI without equivalent organic cash growth. A buyback plan or dividend framework cannot remove operating competition or funding needs.",
+        "confidence": "inference",
+        "alternatives": "Strong customer retention, pricing recovery or productive investment could reverse current pressure; company mix and accounting periods can dominate apparent comparisons.",
+        "source_ids": [
+          "wilmar",
+          "ultra-results",
+          "keppel",
+          "cict"
+        ]
+      },
+      {
+        "explanation": "Energy and haze reports have distinct local transmission channels, not a single conflict narrative.",
+        "transmission": "Oil could affect import costs if sustained; MAS’s dated guidance affects risk assessment. No new documented Singapore shipment cancellation, aviation disruption, casualty/displacement total or state-linked cyber attribution was established in this bounded update. SIA’s future fuel contract is commercial planning, not a response proven caused by a military incident.",
+        "confidence": "uncertain",
+        "alternatives": "Diplomatic reports, positioning, weather, hedges and ordinary commercial procurement may explain changes without new physical disruption. A reported negotiation approach is not a confirmed agreement or ceasefire; no tactical detail or unverified force location is used.",
+        "source_ids": [
+          "oil",
+          "mas",
+          "nea",
+          "sia"
+        ]
+      },
+      {
+        "explanation": "Upcoming data and policy are a test, not a known outcome.",
+        "transmission": "US consumption/inflation and European policy can alter funding conditions for Singapore banks, REITs and infrastructure. Company results may confirm demand while undermining cash returns. No future GDP, rate decision or cash opening response is invented.",
+        "confidence": "inference",
+        "alternatives": "Revisions, composition, guidance and positioning may matter more than headline growth; a single market move cannot isolate causation. No verified new direct political/social post or representative public-opinion measure was obtained; official calendars prove planned events only.",
+        "source_ids": [
+          "bea",
+          "ecb",
+          "amazon",
+          "intel",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Funded infrastructure demand",
+        "outcome": "Singapore-linked operators and suppliers may turn useful energy/digital capacity into durable cash earnings.",
+        "trigger": "Paid commissioning, sustained utilization and cash conversion corroborate actual customer demand.",
+        "invalidation": "Order cancellations, delayed connections, weak collections or cash spending persistently outrunning returns.",
+        "horizon": "Next company updates and quarterly cash-flow statements.",
+        "source_ids": [
+          "samsung",
+          "keppel",
+          "msft",
+          "goog"
+        ]
+      },
+      {
+        "name": "Selective local earnings pressure",
+        "outcome": "Competition, input costs or asset adjustments offset reported growth for exposed issuers.",
+        "trigger": "New primary guidance confirms weaker pricing/margins or refinancing costs constrain distributions.",
+        "invalidation": "Improved pricing, collections and recurring cash offset the reported risks.",
+        "horizon": "Next issuer releases; closing observations29 October remain a separate check.",
+        "source_ids": [
+          "ultra-results",
+          "wilmar",
+          "cict",
+          "keppel"
+        ]
+      },
+      {
+        "name": "Policy/data repricing",
+        "outcome": "European policy and US releases change funding expectations and cross-market sentiment.",
+        "trigger": "Actual decisions/data and subsequent matched yield/FX/equity observations corroborate the channel.",
+        "invalidation": "No material surprise or contrary market/cash evidence breaks a simple macro interpretation.",
+        "horizon": "29 October Europe/US sessions, with actual release times.",
+        "source_ids": [
+          "ecb",
+          "bea",
+          "lse"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Europe opening context: target29 October07:45GMT/15:45SGT, future at this evidence cutoff",
+        "due_at": "2026-10-29T07:45:00Z",
+        "confirms": "Actual local observations and independently checked calendars support a properly dated opening read.",
+        "contradicts": "Only futures, earlier closes or calendar metadata are available; no actual opening reaction can then be claimed.",
+        "source_ids": [
+          "lse",
+          "ecb"
+        ]
+      },
+      {
+        "signal": "Singapore final-session evidence after closing phases,29 October",
+        "due_at": "2026-10-29T09:30:00Z",
+        "confirms": "Dated final STI/breadth/turnover and company observations establish what persisted beyond early snapshots.",
+        "contradicts": "Unsynchronized vendor rows or no primary final leave closing conclusions incomplete.",
+        "source_ids": [
+          "sgx",
+          "open-a",
+          "open-b"
+        ]
+      },
+      {
+        "signal": "BEA advance Q3GDP and September income/outlays29 October08:30US Eastern/20:30SGT",
+        "due_at": "2026-10-29T12:30:00Z",
+        "confirms": "Actual released consumption/inflation details plus financing conditions support productive demand.",
+        "contradicts": "Weak consumption, inflation pressure, revisions or adverse funding evidence undermine the simple growth interpretation.",
+        "source_ids": [
+          "bea",
+          "fed"
+        ]
+      },
+      {
+        "signal": "Amazon/Intel calls30 October05:00SGT, after29 October US cash close",
+        "due_at": "2026-10-29T21:00:00Z",
+        "confirms": "Actual demand, utilization and cash-flow disclosures corroborate the infrastructure case.",
+        "contradicts": "Weak paid demand, escalating capital burden, cancellations or poorer margins challenge it.",
+        "source_ids": [
+          "amazon",
+          "intel",
+          "samsung"
+        ]
+      },
+      {
+        "signal": "Original UltraGreen.ai business update and Wilmar regulatory responses; next dated issuer follow-up",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "Primary text reconciles periods, guidance, cash and the status of attributed claims.",
+        "contradicts": "Missing or contrary original evidence prevents upgrading secondary reports to verified issuer conclusions.",
+        "source_ids": [
+          "ultra-results",
+          "ultra-price",
+          "ultra-identity",
+          "wilmar-news",
+          "wilmar"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T06:09:54Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-29",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX securities market; regular scheduled session, no comprehensive individual-halt certification",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Modestly positive early index snapshots with near-balanced breadth and issuer-specific weakness; no current afternoon or final-session sentiment verdict.",
+        "indicators": "09:04: STI+0.26%,78/78breadth.09:05:+0.36%,88/85breadth. These are observed secondary-market proxies, not a representative public-opinion sample. No synchronized local volatility/yield/FX panel or full sector-price series retrieved.",
+        "source_ids": [
+          "open-a",
+          "open-b",
+          "ultra-price"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "NVIDIA / AI Infrastructure change: Samsung’s29 October release reports scaled HBM4 sales and foundry improvement from HBM base dies/advanced nodes. Q3 capex was KRW29tn; its approximately KRW84.4tn full-year plan and2027 shortage view are forecasts, not delivered capacity.",
+          "implication": "This corroborates memory/base-die demand while adding supplier capital intensity. No SGX technology basket, customer cash or precise yield/capacity reconciliation is established.",
+          "watchpoint": "Verify paid shipments, yields, cancellations and Singapore suppliers’ actual orders; retain racks, networking, power/grid, cooling and generation criteria.",
+          "source_ids": [
+            "samsung"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Keppel’s29 October update links core performance to Connectivity and Infrastructure and describes new data-centre/cable milestones; no current SGX communications-sector return verified.",
+          "implication": "A licence or allocated capacity is not an energized asset, completed cable or collected revenue.",
+          "watchpoint": "Seek commissioning, contracted utilization, customer acceptance and cash returns.",
+          "source_ids": [
+            "keppel"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized current discretionary-sector basket or fresh local household/retail margin panel retrieved. CICT’s property data is not retailer profit.",
+          "implication": "Fuel, financing and competition could affect spending, but transmission differs by business.",
+          "watchpoint": "Check retailer volumes, selling margins and actual consumer data; do not infer direction from the STI.",
+          "source_ids": [
+            "cict",
+            "oil"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Wilmar’s original28 October financial summary reports Q3 core net profit US$267.267m, down25.2%; reported net profit US$281.033m reverses the prior loss. Earnings and an attributed investigation coexist.",
+          "implication": "Underlying margin pressure and a prior-year exceptional expense make headline recovery a poor proxy for core improvement. No legal finding or sector-wide earnings conclusion follows.",
+          "watchpoint": "Reconcile margins/working capital and original regulatory responses; separate legal responsibility from company statements.",
+          "source_ids": [
+            "wilmar",
+            "wilmar-news"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters’29 October03:51 GMT snapshot reports Brent US$114.10 and WTI US$101.45, down1.1%/1.3%; intraday futures, not settlements. Contract months remain unverified.",
+          "implication": "Lower prices may ease importer costs if sustained. A diplomatic report does not prove a ceasefire, restored flows or local cost pass-through.",
+          "watchpoint": "Check operator/carrier notices, physical supply and contracts; do not revive unverified attack claims as new facts.",
+          "source_ids": [
+            "oil"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Early bank quotes appear in the09:04/09:05 reports; these times differ. The morning-reviewed MAS haze-risk statement remains dated28 October, not a fresh new direction.",
+          "implication": "Positive index contribution and risk assessment do not establish bank earnings uplift, losses or blanket divestment.",
+          "watchpoint": "Verify closing bank contributions, funding costs and borrower-specific exposure.",
+          "source_ids": [
+            "open-a",
+            "open-b",
+            "mas"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "BT’s29 October report gives UltraGreen.ai Q3 revenue US$44.6m (+43.9%) and9M US$131.8m (+35%). It reports FY2026 revenue below the previous US$175–185m guidance amid US competition; new quantitative guidance was not reconciled to the original filing.",
+          "implication": "Historical growth can coexist with weaker forward pricing. An Edge extract incorrectly labels the9M figure as three months; that period label is not adopted. No whole-sector health-care return inferred.",
+          "watchpoint": "Retrieve original update and distribution/product pricing evidence; test competitive durability, cash and forward margins.",
+          "source_ids": [
+            "ultra-results",
+            "ultra-price",
+            "ultra-identity",
+            "ultra-alternate"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "SIA/Aether’s28 October joint release describes up to4,800tonnes of sustainable aviation fuel over three years, deliveries from2028.",
+          "implication": "A future offtake supports potential local production demand; it is neither2026 supplied fuel nor a demonstrated airline cost saving.",
+          "watchpoint": "Verify project commissioning, delivered volume, feedstock economics and actual fuel cost.",
+          "source_ids": [
+            "sia"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No matched current SGX materials basket, metals benchmarks or local realized-spread disclosure was obtained.",
+          "implication": "Commodity sales growth can be offset by feedstock/FX costs; no materials-sector conclusion follows from overseas semiconductor spending.",
+          "watchpoint": "Seek issuer volumes, utilization, feedstock cover and dated prices.",
+          "source_ids": [
+            "wilmar",
+            "samsung"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "CICT’s original business update reports9M NPI S$965.4m (+10.4%),30 September aggregate leverage39.7%, average debt cost2.8% and committed portfolio occupancy96.1%.",
+          "implication": "Property income growth and borrowing exposure coexist; acquisitions and asset changes limit simple organic-growth inference. NPI is not distributable cash or AFFO.",
+          "watchpoint": "Reconcile acquisitions, recurring capex, debt maturities, interest and cash available for distributions.",
+          "source_ids": [
+            "cict"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "Keppel reports its600MW Sakra Cogen plant began operating at end-May2026 and integrated power9M EBITDA grew7%; this is operating evidence, distinct from new capacity allocations.",
+          "implication": "Operating generation can support cash earnings, but EBITDA is not free cash flow and fuel/financing/cost recovery can offset growth.",
+          "watchpoint": "Check actual utilization, fuel cover, sustaining capex and cash conversion; no utility-sector return asserted.",
+          "source_ids": [
+            "keppel"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Memory demand and actual operating infrastructure may support regional supply chains; competing products, cost pressures and export/import exposures can create divergence.",
+          "trigger": "Independent supplier/local issuer cash and dated market observations corroborate the demand channel.",
+          "invalidation": "Weak local orders, different product mix or poor cash conversion prevents broad transmission.",
+          "source_ids": [
+            "samsung",
+            "keppel",
+            "wilmar"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Forward London context only: ECB policy, funding costs and shared equipment demand may influence European assets. No European cash opening return was observed or forecast as fact.",
+          "trigger": "Actual policy and local opening prices/breadth validate the link at the appropriate time.",
+          "invalidation": "Different local drivers or absent evidence breaks a generalized Singapore-to-Europe interpretation.",
+          "source_ids": [
+            "lse",
+            "ecb",
+            "samsung",
+            "cict"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Today’s American watchpoints are GDP/income/inflation and later Amazon/Intel actual results. Supplier profit does not establish US customer cash returns, AV profitability or economy-wide productivity.",
+          "trigger": "Released data and original customer cash/capex disclosures corroborate productive utilization and financeability.",
+          "invalidation": "Negative demand/cash surprises or adverse funding conditions offset supplier growth.",
+          "source_ids": [
+            "bea",
+            "amazon",
+            "intel",
+            "samsung",
+            "msft",
+            "goog"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-29-asia-open-delayed",
     "title": "Asia opening read — cloud growth meets funding discipline; Singapore haze risk in focus",
     "summary": "29 October Asia opening context, reviewed at 08:11:57 SGT after the 07:45 editorial target. Japan-anchored partial basket; US cash close and subsequent issuer results are separate. Current local prices/breadth and other regional calendars remain incomplete.",
