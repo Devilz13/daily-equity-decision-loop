@@ -1,5 +1,1563 @@
 [
   {
+    "id": "2026-10-29-singapore-close-delayed",
+    "title": "Singapore closing read — early gains fade; company risks outweigh a near-flat index",
+    "summary": "29 October completed-session context, recovered with actual evidence cutoff 20:09:26 SGT. Delayed observations, source periods and gaps are explicit. All11sectors reviewed or marked incomplete; US opening/data and ECB outcomes remain future.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-29T12:09:26Z",
+    "updated_at": "2026-10-29T12:09:26Z",
+    "cutoff_at": "2026-10-29T12:09:26Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg-close",
+        "title": "29 October18:08SGT indexed closing body; AI-assisted and reporter-reviewed; direct reader failed",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-fall-amid-mixed-regional-showing-sti-closes-almost-flat",
+        "published_at": "2026-10-29T10:08:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "sg-components",
+        "title": "29 October after-close constituent table, indexed extract; no corporate-action-adjusted investor returns; direct reader challenge not bypassed",
+        "publisher": "SGinvestors.io",
+        "url": "https://sginvestors.io/market/sgx-share-price-performance/straits-times-index-constituents",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "sg-history",
+        "title": "29 October5,396.03 vendor historical row corroborates BT; not primary final and prior conflicting rows remain archived",
+        "publisher": "Investing.com NG",
+        "url": "https://ng.investing.com/indices/singapore-straits-time-historical-data",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "global",
+        "title": "Reuters updated global wrap, original public HTML read after reader failure; quotes are intraday and not synchronized",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-29/",
+        "published_at": "2026-10-29T02:28:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:04:10Z"
+      },
+      {
+        "id": "ecb-departure",
+        "title": "29 October ECB original statement: intended departure7 February2027; French URL with English statement body read through normal public HTML",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.fr.html",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:07Z"
+      },
+      {
+        "id": "ecb-calendar",
+        "title": "Official weekly calendar: decision14:15CET and press conference14:45CET; scheduled, not known outcomes",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official29 October08:30US Eastern schedule: advance Q3GDP and September income/outlays; no actual values claimed",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "shell",
+        "title": "29 October07:00GMT unaudited original issuer results, normal public HTML retrieved after reader failure",
+        "publisher": "Shell",
+        "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+        "published_at": "2026-10-29T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:09Z"
+      },
+      {
+        "id": "basf",
+        "title": "28 October original Q3 release read: statutory/adjusted earnings, prices/volumes and cash differ",
+        "publisher": "BASF",
+        "url": "https://www.basf.com/global/en/media/news-releases/2026/10/p-26-180",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX trading hours and 2026 half-days; official indexed body read; direct reader returned browser-warning shell",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-10-29T06:09:54Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "mom",
+        "title": "Official 2026 Singapore public holidays; 29 October is not a listed holiday",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "keppel",
+        "title": "29 October voluntary 3Q/9M update; original issuer HTML read, group and New Keppel definitions differ",
+        "publisher": "Keppel",
+        "url": "https://www.keppel.com/media/keppels-business-update-for-3q--9m-2026/",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:07:30Z",
+        "type": "primary"
+      },
+      {
+        "id": "cict",
+        "title": "Original 29 October 07:00 business-update PDF; text extracted from normal public download; financial pages checked",
+        "publisher": "CICT",
+        "url": "https://investor.cict.com.sg/newsroom/20261029_070044_C38U_3PQVW1J3DJO49A76.1.pdf",
+        "published_at": "2026-10-28T23:00:44Z",
+        "accessed_at": "2026-10-29T06:07:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "wilmar",
+        "title": "Original executive financial summary for quarter ended30 September; SGX PDF text read",
+        "publisher": "Wilmar / SGX",
+        "url": "https://links.sgx.com/FileOpen/WIL%203Q2026%20Executive%20Financial%20Summary_28.10.2026.ashx?App=Announcement&FileID=909522",
+        "published_at": "2026-10-28T09:40:11Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "ultra-results",
+        "title": "29 October08:47 SGT indexed business-update report; original current business-update filing not retrieved",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/ultragreen-ai-q3-revenue-43-9-expects-fy2026-revenue-fall-short-guidance",
+        "published_at": "2026-10-29T00:47:00Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ultra-identity",
+        "title": "Prior SGX original announcement verifies issuer, ISIN and ULG/UGS securities; not today’s results",
+        "publisher": "UltraGreen.ai / SGX",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/XAGK5AQWW8TW7U62",
+        "published_at": "2026-08-12T11:09:19Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "mas",
+        "title": "Banks management of haze-related environmental risks",
+        "publisher": "MAS",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/statement-on-banks-management-of-haze-related-environmental-risks",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "amazon",
+        "title": "15 October issuer notice:29 October17:00 Eastern call, not actual results",
+        "publisher": "Amazon",
+        "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "intel",
+        "title": "6 October issuer notice:29 October after-close results,14:00 PDT call; future at cutoff",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "The18:08SGT BT indexed closing body reports STI5,396.03 (−0.03%, about1.9points),250gainers versus304losers, and1.1bnsecurities/S$1.8bn turnover. A vendor historical row corroborates the index level; neither is a certified primary final. The public SGX snapshot discovered earlier was time-stamped13:16 and is not a closing observation.",
+        "source_ids": [
+          "sg-close",
+          "sg-history"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The reported closing banks were OCBC S$29.34 (+1.1%), DBS S$73.80 (−0.3%) and UOB S$41.50 (−0.1%). The early09:04/09:05 snapshots remain archived and are not substituted for the close.",
+        "source_ids": [
+          "sg-close"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "All closing stock values below are dated secondary observations, not investor total returns. SGinvestors’ table states that its price changes are not adjusted for corporate actions. It and BT are separate observation sources, but copying their reports does not create primary exchange certification.",
+        "source_ids": [
+          "sg-components",
+          "sg-close"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Early index strength did not establish a durable closing trend.",
+        "transmission": "Mixed banks and issuer-specific earnings/guidance can mask weakness under a nearly flat weighted index. Closing breadth is more qualified than a morning headline.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, index weights, quote timing, prior expectations and accounting composition may explain moves without one dominant catalyst. No numerical causal attribution is established.",
+        "source_ids": [
+          "sg-close",
+          "sg-components"
+        ]
+      },
+      {
+        "explanation": "Funding and productive use matter alongside headline growth.",
+        "transmission": "Physical infrastructure layers may benefit only when capacity can be delivered, connected, paid for and productively used. Cash investment, leases, customer commitments and financing loops require separate reconciliation; no circular-financing conclusion or investable-security pass follows from the available releases.",
+        "confidence": "inference",
+        "alternatives": "Spending may be lumpy and ultimately produce strong utilization; pricing/mix, customer prepayments or asset sales can temporarily improve reported cash. Continued growth does not guarantee the timing of returns.",
+        "source_ids": [
+          "samsung",
+          "keppel",
+          "shell"
+        ]
+      },
+      {
+        "explanation": "Policy and security announcements require an execution and impact test.",
+        "transmission": "Dated haze risk-management guidance and uncertain energy diplomacy are distinct channels. No new quantified local transport loss, humanitarian total or state-linked cyber attribution was established in this shared bounded review.",
+        "confidence": "uncertain",
+        "alternatives": "Ordinary diplomacy, existing procurement, hedges, weather, different counterparties and local policy can prevent broad transmission. No tactical locations or unsupported imminent-war claim is used.",
+        "source_ids": [
+          "mas",
+          "global"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence supports durable cash",
+        "outcome": "Productive capacity and customer demand convert into recurring cash despite uneven market performance.",
+        "trigger": "Paid deliveries, utilization, collections and recurring investment cover improve.",
+        "invalidation": "Cancellations, delayed commissioning, weaker pricing or persistent funding strain offset growth.",
+        "horizon": "Next issuer disclosures and completed cash sessions; not a price target.",
+        "source_ids": [
+          "keppel",
+          "cict",
+          "samsung"
+        ]
+      },
+      {
+        "name": "Policy/data or issuer disappointment dominates",
+        "outcome": "Funding costs or cash/guidance weakness outweigh reported historical growth.",
+        "trigger": "Actual releases and subsequent matched market data establish deteriorating cash or financeability.",
+        "invalidation": "Benign funding and improving cash realization contradict the stress interpretation.",
+        "horizon": "29–30 October data/results and the next quarterly reporting cycle.",
+        "source_ids": [
+          "ecb-calendar",
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "USGDP/income-outlays29 October20:30SGT; scheduled release, no value asserted at cutoff",
+        "due_at": "2026-10-29T12:30:00Z",
+        "confirms": "Actual consumption/inflation detail and subsequent financing conditions support the proposed transmission.",
+        "contradicts": "Weak composition, revisions, inflation pressure or contrary market evidence undermines it.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "ECB decision21:15SGT and press conference21:45SGT; leadership intent is separate",
+        "due_at": "2026-10-29T13:15:00Z",
+        "confirms": "Actual text and later yields/FX clarify policy while the successor process follows announced procedure.",
+        "contradicts": "A different decision/message or later clarification invalidates prior expectations.",
+        "source_ids": [
+          "ecb-calendar"
+        ]
+      },
+      {
+        "signal": "US opening target29 October09:15EDT/21:15SGT remains future; obtain honestly timed observations",
+        "due_at": "2026-10-29T13:15:00Z",
+        "confirms": "Calendar and actual price/breadth/cash observations support a distinct opening read.",
+        "contradicts": "Only futures or prior closes are available; no completed cash opening can then be certified.",
+        "source_ids": [
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "signal": "Amazon/Intel calls30 October05:00SGT; actual results and cash/capacity follow-through",
+        "due_at": "2026-10-29T21:00:00Z",
+        "confirms": "Original results reconcile demand, capex, cash and utilization.",
+        "contradicts": "Weak cash, cancellations, larger funding obligations or missing originals leave the thesis unresolved.",
+        "source_ids": [
+          "amazon",
+          "intel"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T12:09:26Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-29",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX securities regular-session anchor; individual halt completeness not certified",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Near-flat index with negative reported breadth and company-specific weakness; this is not a broad all-clear.",
+        "indicators": "Closing breadth250/304 and attributed turnover above contrast with the earlier near-balanced opening breadth. No synchronized local volatility, rates or FX panel or representative opinion survey was obtained.",
+        "source_ids": [
+          "sg-close",
+          "sg-components"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Samsung’s actual memory/base-die signal was reviewed earlier today; no new direct Singapore chip/rack order or closing technology basket was verified.",
+          "implication": "Overseas supplier growth is a conditional supply-chain input, not proof of local cash returns.",
+          "watchpoint": "Test local paid orders, margins, utilization and financing.",
+          "source_ids": [
+            "samsung"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "The dated constituent table reports Singtel at S$4.12 (+1.0%); this is one stock, not a communications-sector return.",
+          "implication": "Index contribution can differ from company earnings or sector breadth.",
+          "watchpoint": "Check company cash, pricing, capex and sector participation.",
+          "source_ids": [
+            "sg-components"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "BT’s closing body reports Genting Singapore +1.7% at S$0.60.",
+          "implication": "A single counter’s gain does not establish better regional consumer demand.",
+          "watchpoint": "Seek visitor volumes, spend, margin and cash evidence before attributing the move.",
+          "source_ids": [
+            "sg-close"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Wilmar’s reported final S$3.11 (−4.9%) extends the earlier decline; its original core-earnings weakness is already reviewed.",
+          "implication": "Earnings and the attributed investigation can both matter; no relative causal contribution or legal finding is established.",
+          "watchpoint": "Retrieve original regulatory responses, margins and exposure updates.",
+          "source_ids": [
+            "sg-close",
+            "wilmar"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Shell’s new global results add refining/LNG cash evidence; they do not establish a Singapore energy-sector closing return.",
+          "implication": "Producer margins and importer costs can move differently; futures and physical flows remain distinct.",
+          "watchpoint": "Check realized feedstock/product spreads, supply notices and contract pass-through.",
+          "source_ids": [
+            "shell"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "The closing report shows OCBC up while DBS and UOB fell; mixed bank participation differs from the early snapshot.",
+          "implication": "Bank weights can keep the STI near flat while credit, fees and funding diverge. MAS’s dated haze-risk guidance is not a new loss estimate.",
+          "watchpoint": "Verify bank-specific contributions, borrower exposure and subsequent cash/credit disclosures.",
+          "source_ids": [
+            "sg-close",
+            "mas"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "UltraGreen.ai closed at a reported US$0.475 (−15.9%); the guidance/competition report remains secondary with its original update still unreconciled.",
+          "implication": "Historical revenue growth can coexist with weaker forward pricing. USD quotes must not be compared as SGD.",
+          "watchpoint": "Obtain the original business update and test customer retention, margins and cash; no ownership inference.",
+          "source_ids": [
+            "sg-close",
+            "ultra-results",
+            "ultra-identity"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Keppel’s dated last-trade table gives S$10.24 (+1.1%); earlier original operating/core-versus-group evidence remains available.",
+          "implication": "One issuer’s price response does not validate all infrastructure assets; announced monetisations and completed cash differ.",
+          "watchpoint": "Check commissioned capacity, paid utilization, debt and realized asset proceeds.",
+          "source_ids": [
+            "sg-components",
+            "keppel"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No matched final SGX materials basket, metals curves or fresh local realized-spread series retrieved.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Seek issuer volumes, inventories and margin/cash reconciliation; do not import BASF’s result as a local sector return.",
+          "source_ids": [
+            "basf"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Constituent data report CICT at S$2.28 (+0.9%) and Keppel DC REIT S$2.10 (+1.0%); dated original CICT debt/NPI evidence is reused.",
+          "implication": "Price gains, property income and distributable recurring cash are separate; acquisitions and finance costs matter.",
+          "watchpoint": "Reconcile recurring capex, debt maturities, tenant collections and payout cover.",
+          "source_ids": [
+            "sg-components",
+            "cict"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "Keppel’s prior original update contains actual operating-generation evidence; no complete utility closing basket obtained.",
+          "implication": "EBITDA and operating capacity do not equal free cash flow or regulated cost recovery.",
+          "watchpoint": "Check fuel cover, maintenance capex, utilization and project cash conversion.",
+          "source_ids": [
+            "keppel"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Country mix, supply availability, currencies and import costs can produce different Asian outcomes; no uniform return assumed.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "keppel",
+            "cict",
+            "global"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian demand and industry cooperation may affect European suppliers, while local policy and cash can dominate.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "keppel",
+            "cict",
+            "global"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Forward US context only: incoming data and customer earnings can confirm or challenge the foreign supplier/operating cash story; no US opening observed yet.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "bea",
+            "amazon",
+            "intel"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-29-asia-close-delayed",
+    "title": "Asia closing read — India rebounds, Japan rises and regional leadership stays uneven",
+    "summary": "29 October completed-session context, recovered with actual evidence cutoff 20:09:26 SGT. Delayed observations, source periods and gaps are explicit. All11sectors reviewed or marked incomplete; US opening/data and ECB outcomes remain future.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-29T12:09:26Z",
+    "updated_at": "2026-10-29T12:09:26Z",
+    "cutoff_at": "2026-10-29T12:09:26Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg-close",
+        "title": "29 October18:08SGT indexed closing body; AI-assisted and reporter-reviewed; direct reader failed",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-fall-amid-mixed-regional-showing-sti-closes-almost-flat",
+        "published_at": "2026-10-29T10:08:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "india-close",
+        "title": "29 October16:07IST closing report, indexed ANI body; direct reader unavailable",
+        "publisher": "ANI via The Tribune India",
+        "url": "https://www.tribuneindia.com/news/business/sensex-surges-905-points-nifty-closes-1-05-higher-as-fed-rate-pause-boosts-market-sentiment/",
+        "published_at": "2026-10-29T10:37:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "india-sectors",
+        "title": "29 October closing roundup indexed body; sector leaders and auto exception are reported, full reader unavailable",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/news/business/markets/taking-stock-markets-rebound-sharply-nifty-above-22-900-sensex-jumps-905-pts-as-it-fmcg-banking-stocks-shine-14063441.html",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "japan-close",
+        "title": "29 October Fisco closing commentary via public syndication, indexed body; not independent from other Fisco copies",
+        "publisher": "Fisco via Futubull",
+        "url": "https://www.futunn.com/en/index/.N225-JP/news",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "nse-calendar",
+        "title": "Original NSE capital-market holiday circular172/2025; no29 October holiday listed",
+        "publisher": "NSE",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "published_at": "2025-12-12",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "nse-hours",
+        "title": "Official cash normal close15:30IST, closing session15:40–16:00; undated source-date field uses retrieval time",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/static/market-data/market-timings",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "jpx-calendar",
+        "title": "Official JPX holidays, no29 October closure listed; undated source-date field uses retrieval time",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "jpx-hours",
+        "title": "Official JPX cash hours; undated source-date field uses retrieval time",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "global",
+        "title": "Reuters updated global wrap, original public HTML read after reader failure; quotes are intraday and not synchronized",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-29/",
+        "published_at": "2026-10-29T02:28:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:04:10Z"
+      },
+      {
+        "id": "ecb-calendar",
+        "title": "Official weekly calendar: decision14:15CET and press conference14:45CET; scheduled, not known outcomes",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official29 October08:30US Eastern schedule: advance Q3GDP and September income/outlays; no actual values claimed",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "basf",
+        "title": "28 October original Q3 release read: statutory/adjusted earnings, prices/volumes and cash differ",
+        "publisher": "BASF",
+        "url": "https://www.basf.com/global/en/media/news-releases/2026/10/p-26-180",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "unilever",
+        "title": "28 October original RNS text read below platform AI summary; not a new29 October release",
+        "publisher": "Unilever via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/index.php/announcement/rns/unilever--ulvr/q3-2026-trading-statement/9844580",
+        "published_at": "2026-10-28T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "korea-germany",
+        "title": "29 October18:50KST report of enhanced strategic partnership, indexed Yonhap body; original joint statement not retrieved",
+        "publisher": "Yonhap",
+        "url": "https://m-en.yna.co.kr/view/AEN20261029013500315?section=national%2Fpolitics",
+        "published_at": "2026-10-29T09:50:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "keppel",
+        "title": "29 October voluntary 3Q/9M update; original issuer HTML read, group and New Keppel definitions differ",
+        "publisher": "Keppel",
+        "url": "https://www.keppel.com/media/keppels-business-update-for-3q--9m-2026/",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:07:30Z",
+        "type": "primary"
+      },
+      {
+        "id": "cict",
+        "title": "Original 29 October 07:00 business-update PDF; text extracted from normal public download; financial pages checked",
+        "publisher": "CICT",
+        "url": "https://investor.cict.com.sg/newsroom/20261029_070044_C38U_3PQVW1J3DJO49A76.1.pdf",
+        "published_at": "2026-10-28T23:00:44Z",
+        "accessed_at": "2026-10-29T06:07:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "msft",
+        "title": "FY27 Q1 release and cash-flow tables; quarter ended 30 September",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "goog",
+        "title": "Q3 2026 original SEC Exhibit 99.1; normal public HTML retrieved",
+        "publisher": "Alphabet / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "amazon",
+        "title": "15 October issuer notice:29 October17:00 Eastern call, not actual results",
+        "publisher": "Amazon",
+        "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "intel",
+        "title": "6 October issuer notice:29 October after-close results,14:00 PDT call; future at cutoff",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "ANI’s29 October16:07IST indexed closing report gives Nifty50 at22,936.75 (+1.05%) and Sensex74,151.04 (+1.24%). NSE’s original holiday circular lists no29 October holiday; normal cash trading ends15:30IST and the closing session ends16:00IST. This delayed read occurs after those phases; no exact-cutoff observation is claimed.",
+        "source_ids": [
+          "india-close",
+          "nse-calendar",
+          "nse-hours"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Fisco’s syndicated Japan closing commentary reports Nikkei64,659.47 (+1.10%). BT’s later regional closing context gives Korea’s Kospi about−1.2% and Hong Kong about−0.6%. These are different venues and observation sources; JPX/NSE calendar anchors do not certify all Korean, Hong Kong, mainland, Taiwan or ASEAN sessions.",
+        "source_ids": [
+          "japan-close",
+          "sg-close",
+          "jpx-calendar"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "NVIDIA / AI Infrastructure: Samsung’s actual29 October results were reviewed in the earlier Singapore read. They add memory/foundry evidence but do not establish new local rack/networking orders or cash returns. Memory, packaging/foundry, manufacturing, networking, power/grid, cooling/generation and financing remain distinct tests.",
+        "source_ids": [
+          "samsung",
+          "msft",
+          "goog"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Strategic event29 October: Yonhap’s18:50KST report describes Germany and South Korea upgrading ties, with security/industrial cooperation and a planned information-protection agreement. The original joint statement was not retrieved. This is reported diplomacy and prospective cooperation, not combat, a deployment or funded industrial revenue; it cannot retroactively explain earlier market prices.",
+        "source_ids": [
+          "korea-germany"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Different country and industry weights explain why a single AI narrative is insufficient.",
+        "transmission": "Currency, import costs, sector mix and domestic positioning may dominate national benchmarks; supplier profit is not a census of end-user returns.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, index weights, quote timing, prior expectations and accounting composition may explain moves without one dominant catalyst. No numerical causal attribution is established.",
+        "source_ids": [
+          "india-close",
+          "japan-close",
+          "samsung"
+        ]
+      },
+      {
+        "explanation": "Funding and productive use matter alongside headline growth.",
+        "transmission": "Physical infrastructure layers may benefit only when capacity can be delivered, connected, paid for and productively used. Cash investment, leases, customer commitments and financing loops require separate reconciliation; no circular-financing conclusion or investable-security pass follows from the available releases.",
+        "confidence": "inference",
+        "alternatives": "Spending may be lumpy and ultimately produce strong utilization; pricing/mix, customer prepayments or asset sales can temporarily improve reported cash. Continued growth does not guarantee the timing of returns.",
+        "source_ids": [
+          "samsung",
+          "msft",
+          "goog"
+        ]
+      },
+      {
+        "explanation": "Policy and security announcements require an execution and impact test.",
+        "transmission": "Reported Germany–Korea cooperation could affect industrial supply chains and standards over time. No direct new Singapore shipping, aviation, casualty/displacement, cyber incident or funded order impact was established; diplomatic cooperation is not combat.",
+        "confidence": "uncertain",
+        "alternatives": "Ordinary diplomacy, existing procurement, hedges, weather, different counterparties and local policy can prevent broad transmission. No tactical locations or unsupported imminent-war claim is used.",
+        "source_ids": [
+          "korea-germany",
+          "global"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence supports durable cash",
+        "outcome": "Productive capacity and customer demand convert into recurring cash despite uneven market performance.",
+        "trigger": "Paid deliveries, utilization, collections and recurring investment cover improve.",
+        "invalidation": "Cancellations, delayed commissioning, weaker pricing or persistent funding strain offset growth.",
+        "horizon": "Next issuer disclosures and completed cash sessions; not a price target.",
+        "source_ids": [
+          "samsung",
+          "msft",
+          "goog"
+        ]
+      },
+      {
+        "name": "Policy/data or issuer disappointment dominates",
+        "outcome": "Funding costs or cash/guidance weakness outweigh reported historical growth.",
+        "trigger": "Actual releases and subsequent matched market data establish deteriorating cash or financeability.",
+        "invalidation": "Benign funding and improving cash realization contradict the stress interpretation.",
+        "horizon": "29–30 October data/results and the next quarterly reporting cycle.",
+        "source_ids": [
+          "ecb-calendar",
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "USGDP/income-outlays29 October20:30SGT; scheduled release, no value asserted at cutoff",
+        "due_at": "2026-10-29T12:30:00Z",
+        "confirms": "Actual consumption/inflation detail and subsequent financing conditions support the proposed transmission.",
+        "contradicts": "Weak composition, revisions, inflation pressure or contrary market evidence undermines it.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "ECB decision21:15SGT and press conference21:45SGT; leadership intent is separate",
+        "due_at": "2026-10-29T13:15:00Z",
+        "confirms": "Actual text and later yields/FX clarify policy while the successor process follows announced procedure.",
+        "contradicts": "A different decision/message or later clarification invalidates prior expectations.",
+        "source_ids": [
+          "ecb-calendar"
+        ]
+      },
+      {
+        "signal": "US opening target29 October09:15EDT/21:15SGT remains future; obtain honestly timed observations",
+        "due_at": "2026-10-29T13:15:00Z",
+        "confirms": "Calendar and actual price/breadth/cash observations support a distinct opening read.",
+        "contradicts": "Only futures or prior closes are available; no completed cash opening can then be certified.",
+        "source_ids": [
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "signal": "Amazon/Intel calls30 October05:00SGT; actual results and cash/capacity follow-through",
+        "due_at": "2026-10-29T21:00:00Z",
+        "confirms": "Original results reconcile demand, capex, cash and utilization.",
+        "contradicts": "Weak cash, cancellations, larger funding obligations or missing originals leave the thesis unresolved.",
+        "source_ids": [
+          "amazon",
+          "intel"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T12:09:26Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-10-29",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "NSE India cash anchor; official holiday/hours checked",
+          "status": "verified-session",
+          "source_ids": [
+            "nse-calendar",
+            "nse-hours"
+          ]
+        },
+        {
+          "name": "JPX Japan anchor; other Asian venue calendars not comprehensively verified",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx-calendar",
+            "jpx-hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed regional leadership: gains in the India/Japan anchors coexist with reported weakness in Korea/Hong Kong.",
+        "indicators": "The dated index moves above and India’s reported IT/FMCG/bank participation are market proxies, not a synchronized pan-Asian breadth/volatility series or public-opinion measure. Mainland China, Taiwan and several ASEAN final panels remain gaps.",
+        "source_ids": [
+          "india-close",
+          "india-sectors",
+          "japan-close",
+          "sg-close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "The Fisco syndicated closing commentary reports Nikkei gains with AI-related shares; Samsung’s actual results were reviewed before this close pass.",
+          "implication": "Strong supplier earnings and disparate country returns can coexist; do not infer an Asian technology-sector return or a new NVIDIA order.",
+          "watchpoint": "Check paid utilization, supplier/customer cash, cancellations and local share participation.",
+          "source_ids": [
+            "japan-close",
+            "samsung"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized final Asian communications basket, subscriber economics or local platform margin series was verified.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Separate overseas cloud-customer evidence from local operator cash and pricing.",
+          "source_ids": [
+            "msft",
+            "goog"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "India’s indexed closing roundup notes autos as an exception to broader gains, but a comparable regional discretionary basket was not retrieved.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Check local auto/retail volumes, financing and final constituent data.",
+          "source_ids": [
+            "india-sectors"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "The indexed India closing roundup identifies FMCG participation; the28 October Unilever original statement supplies separate, older issuer context.",
+          "implication": "Reported buying is a market observation; pricing and actual volumes determine earnings, and one multinational is not an Asian consumption census.",
+          "watchpoint": "Test current local margins, inventories and household demand.",
+          "source_ids": [
+            "india-sectors",
+            "unilever"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "The global wrap describes softer intraday energy prices and uncertain diplomacy; these are not Asian oil settlements or verified physical restoration.",
+          "implication": "Importers may benefit if lower costs persist, whereas producers may not; FX and hedges affect pass-through.",
+          "watchpoint": "Require actual shipment/production notices and matched currency/contract data.",
+          "source_ids": [
+            "global"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "India’s rebound includes reported banking participation in the indexed roundup; cross-country bank returns are incomplete.",
+          "implication": "A domestic rebound cannot establish common credit or deposit trends across Asia.",
+          "watchpoint": "Check local funding, credit costs, breadth and final bank contributions.",
+          "source_ids": [
+            "india-close",
+            "india-sectors"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current India/Japan/Korea health-care basket or newly reconciled sector earnings series obtained.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Seek issuer results, product pricing, regulation and supply continuity; no generic defensive verdict.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Yonhap reports29 October Germany–Korea cooperation on security, technology and industry; this is diplomacy and prospective cooperation, not booked orders.",
+          "implication": "Potential supply-chain and industrial links depend on signed commercial execution and funding.",
+          "watchpoint": "Seek original joint text, funded contracts, implementation and any contrary policy statements.",
+          "source_ids": [
+            "korea-germany"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No matched final Asian metals/chemicals basket or local realized-spread evidence obtained.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Distinguish price-led sales growth from volumes and cash; verify local supply/demand.",
+          "source_ids": [
+            "basf"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized regional property close, funded leases, refinancing or recurring-capex panel was verified.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Check asset-specific debt/occupancy/cash; Singapore’s separate REIT evidence does not certify the basket.",
+          "source_ids": [
+            "cict"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current India/Japan utility rate-base, cost-recovery or final sector-price panel retrieved.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Verify actual connected output, tariffs, fuel cover and debt before drawing conclusions.",
+          "source_ids": [
+            "keppel"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Global funding, supply chains and energy can affect local banks, property and operators, subject to their actual exposure.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "samsung",
+            "korea-germany"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian demand and industry cooperation may affect European suppliers, while local policy and cash can dominate.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "samsung",
+            "korea-germany"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Forward US context only: incoming data and customer earnings can confirm or challenge the foreign supplier/operating cash story; no US opening observed yet.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "bea",
+            "amazon",
+            "intel"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-29-europe-open-delayed",
+    "title": "Europe opening catch-up — earnings and planned ECB transition; policy outcome still ahead",
+    "summary": "29 October opening context, recovered with actual evidence cutoff 20:09:26 SGT. Delayed observations, source periods and gaps are explicit. All11sectors reviewed or marked incomplete; US opening/data and ECB outcomes remain future.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-29T12:09:26Z",
+    "updated_at": "2026-10-29T12:09:26Z",
+    "cutoff_at": "2026-10-29T12:09:26Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse-calendar",
+        "title": "Official business calendar; no29 October closure listed; individual halts not certified",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "global",
+        "title": "Reuters updated global wrap, original public HTML read after reader failure; quotes are intraday and not synchronized",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-29/",
+        "published_at": "2026-10-29T02:28:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:04:10Z"
+      },
+      {
+        "id": "london",
+        "title": "29 October10:54UTC Reuters FTSE rising headline/index extract; exact index print not retrieved",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/londons-ftse-100-rises-shell-boosts-energy-stocks-2026-10-29/",
+        "published_at": "2026-10-29T10:54:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "ecb-departure",
+        "title": "29 October ECB original statement: intended departure7 February2027; French URL with English statement body read through normal public HTML",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.fr.html",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:07Z"
+      },
+      {
+        "id": "costa",
+        "title": "29 October11:00 displayed time; European Council President António Costa official statement, display timezone not independently established",
+        "publisher": "European Council",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/29/statement-by-president-antonio-costa-on-the-forthcoming-departure-of-christine-lagarde-from-the-european-central-bank/",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "ecb-calendar",
+        "title": "Official weekly calendar: decision14:15CET and press conference14:45CET; scheduled, not known outcomes",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official29 October08:30US Eastern schedule: advance Q3GDP and September income/outlays; no actual values claimed",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "shell",
+        "title": "29 October07:00GMT unaudited original issuer results, normal public HTML retrieved after reader failure",
+        "publisher": "Shell",
+        "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+        "published_at": "2026-10-29T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:09Z"
+      },
+      {
+        "id": "basf",
+        "title": "28 October original Q3 release read: statutory/adjusted earnings, prices/volumes and cash differ",
+        "publisher": "BASF",
+        "url": "https://www.basf.com/global/en/media/news-releases/2026/10/p-26-180",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "unilever",
+        "title": "28 October original RNS text read below platform AI summary; not a new29 October release",
+        "publisher": "Unilever via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/index.php/announcement/rns/unilever--ulvr/q3-2026-trading-statement/9844580",
+        "published_at": "2026-10-28T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "airbus",
+        "title": "Original28 October nine-month results PDF, through issuer download link; not a new29 October result",
+        "publisher": "Airbus",
+        "url": "https://mediaassets.airbus.com/pm_38_942_942888-eyfb5ynik9.pdf?fileName=airbus-nine-month-9m-2026-press-release.pdf",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "sanofi-calendar",
+        "title": "Issuer calendar places Q3 results30 October; no actual results inferred from scheduled event",
+        "publisher": "Sanofi",
+        "url": "https://www.sanofi.com/en/investors/financial-results-and-events/financial-results/q3-2026-results",
+        "published_at": "2026-10-29T12:09:26Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "msft",
+        "title": "FY27 Q1 release and cash-flow tables; quarter ended 30 September",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "goog",
+        "title": "Q3 2026 original SEC Exhibit 99.1; normal public HTML retrieved",
+        "publisher": "Alphabet / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "amazon",
+        "title": "15 October issuer notice:29 October17:00 Eastern call, not actual results",
+        "publisher": "Amazon",
+        "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "intel",
+        "title": "6 October issuer notice:29 October after-close results,14:00 PDT call; future at cutoff",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "This is a delayed opening-context recovery, not research observed before the07:45GMT target. Reuters’ live global wrap read12:04UTC reports STOXX600 up0.5% and Nasdaq futures down about1%; exact quote clocks were not supplied. Its separate10:54UTC FTSE rising headline is indexed, with no verified exact index print. These are intraday/futures observations, not completed European or US cash returns.",
+        "source_ids": [
+          "global",
+          "london",
+          "lse-calendar"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The ECB’s29 October original release states Lagarde intends to step down on7 February2027. European Council President António Costa’s dated official statement acknowledges that intention and says the successor process will begin. This proves announced intent/process, not an already appointed successor, immediate vacancy or today’s policy decision; neither statement supplies a cause for resignation.",
+        "source_ids": [
+          "ecb-departure",
+          "costa"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "ECB’s calendar schedules today’s decision14:15CET/21:15SGT and press conference14:45CET/21:45SGT. Both remain future at this report’s evidence cutoff. BEA lists USGDP and income/outlays at08:30Eastern/20:30SGT, also future. Amazon/Intel calls are scheduled after the29 October US close, at30 October05:00SGT. No new US opening report or released outcome is invented.",
+        "source_ids": [
+          "ecb-calendar",
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Shell’s original release separates new US$5bn buyback authorisation from executed repurchases. Its reported issuer FCF of US$16.322bn includes investing cash flows and is not the simple operating-cash-minus-cash-capex proxy. Lease additions and acquisition effects are separate, so differently defined cash metrics must not be compared as identical.",
+        "source_ids": [
+          "shell"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "BASF’s release shows operating cash €1.1bn, down€275m, even as its adjusted EBITDA improved. Its reported EBIT was−€98m and its full-year FCF range remained unchanged. Inventory and special items complicate the apparent growth story. Airbus’s updated delivery guidance is a target, not proof all remaining aircraft have shipped.",
+        "source_ids": [
+          "basf",
+          "airbus"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Issuer earnings and policy expectations coexist; temporal overlap is not proof of causation.",
+        "transmission": "Operating delivery, adjusted profit, working capital, capex and valuation can point in different directions. A planned leadership change need not mechanically determine rates or bond returns.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, index weights, quote timing, prior expectations and accounting composition may explain moves without one dominant catalyst. No numerical causal attribution is established.",
+        "source_ids": [
+          "global",
+          "shell",
+          "basf",
+          "airbus"
+        ]
+      },
+      {
+        "explanation": "Funding and productive use matter alongside headline growth.",
+        "transmission": "Physical infrastructure layers may benefit only when capacity can be delivered, connected, paid for and productively used. Cash investment, leases, customer commitments and financing loops require separate reconciliation; no circular-financing conclusion or investable-security pass follows from the available releases.",
+        "confidence": "inference",
+        "alternatives": "Spending may be lumpy and ultimately produce strong utilization; pricing/mix, customer prepayments or asset sales can temporarily improve reported cash. Continued growth does not guarantee the timing of returns.",
+        "source_ids": [
+          "shell",
+          "airbus",
+          "basf"
+        ]
+      },
+      {
+        "explanation": "Policy and security announcements require an execution and impact test.",
+        "transmission": "Confirmed leadership intent may affect expectations, but the actual rate decision, appointment process and subsequent market data are needed. No reason for departure or immediate policy change is inferred.",
+        "confidence": "uncertain",
+        "alternatives": "Ordinary diplomacy, existing procurement, hedges, weather, different counterparties and local policy can prevent broad transmission. No tactical locations or unsupported imminent-war claim is used.",
+        "source_ids": [
+          "ecb-departure",
+          "costa",
+          "ecb-calendar"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence supports durable cash",
+        "outcome": "Productive capacity and customer demand convert into recurring cash despite uneven market performance.",
+        "trigger": "Paid deliveries, utilization, collections and recurring investment cover improve.",
+        "invalidation": "Cancellations, delayed commissioning, weaker pricing or persistent funding strain offset growth.",
+        "horizon": "Next issuer disclosures and completed cash sessions; not a price target.",
+        "source_ids": [
+          "shell",
+          "airbus",
+          "basf"
+        ]
+      },
+      {
+        "name": "Policy/data or issuer disappointment dominates",
+        "outcome": "Funding costs or cash/guidance weakness outweigh reported historical growth.",
+        "trigger": "Actual releases and subsequent matched market data establish deteriorating cash or financeability.",
+        "invalidation": "Benign funding and improving cash realization contradict the stress interpretation.",
+        "horizon": "29–30 October data/results and the next quarterly reporting cycle.",
+        "source_ids": [
+          "ecb-calendar",
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "USGDP/income-outlays29 October20:30SGT; scheduled release, no value asserted at cutoff",
+        "due_at": "2026-10-29T12:30:00Z",
+        "confirms": "Actual consumption/inflation detail and subsequent financing conditions support the proposed transmission.",
+        "contradicts": "Weak composition, revisions, inflation pressure or contrary market evidence undermines it.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "ECB decision21:15SGT and press conference21:45SGT; leadership intent is separate",
+        "due_at": "2026-10-29T13:15:00Z",
+        "confirms": "Actual text and later yields/FX clarify policy while the successor process follows announced procedure.",
+        "contradicts": "A different decision/message or later clarification invalidates prior expectations.",
+        "source_ids": [
+          "ecb-calendar",
+          "ecb-departure",
+          "costa"
+        ]
+      },
+      {
+        "signal": "US opening target29 October09:15EDT/21:15SGT remains future; obtain honestly timed observations",
+        "due_at": "2026-10-29T13:15:00Z",
+        "confirms": "Calendar and actual price/breadth/cash observations support a distinct opening read.",
+        "contradicts": "Only futures or prior closes are available; no completed cash opening can then be certified.",
+        "source_ids": [
+          "bea",
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "signal": "Amazon/Intel calls30 October05:00SGT; actual results and cash/capacity follow-through",
+        "due_at": "2026-10-29T21:00:00Z",
+        "confirms": "Original results reconcile demand, capex, cash and utilization.",
+        "contradicts": "Weak cash, cancellations, larger funding obligations or missing originals leave the thesis unresolved.",
+        "source_ids": [
+          "amazon",
+          "intel"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T12:09:26Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-29",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "LSE business-day anchor; continental basket and individual halt coverage remain partial",
+          "status": "verified-session",
+          "source_ids": [
+            "lse-calendar"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Constructive but selective intraday European context ahead of actual policy/data; no final-session verdict.",
+        "indicators": "The attributed STOXX/futures divergence is not a matched cross-asset panel. Exact FTSE level, broad sector breadth/volume, volatility and synchronized sovereign yields/FX remain incomplete. Government statements are not representative public opinion.",
+        "source_ids": [
+          "global",
+          "london",
+          "ecb-departure",
+          "ecb-calendar"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No current European semiconductor/software sector return or freshly reconciled issuer cash series retrieved.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Test customer demand and financing separately from overseas memory results.",
+          "source_ids": [
+            "samsung",
+            "msft",
+            "goog"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No complete European communication-services/ad-spend cash or sector-price panel verified.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Retrieve original operator/advertising results; do not infer a region-wide AI spending displacement from a headline.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No independently reconciled consumer discretionary issuer update or synchronized sector basket obtained.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Verify retail/auto volumes, pricing and margins; do not substitute an intraday index.",
+          "source_ids": [
+            "unilever"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Unilever’s28 October original RNS reports5.2% underlying sales growth, with2.9% volume and2.3% price. It is background, not a new29 October release.",
+          "implication": "Pricing, volume and reported turnover differ; management guidance remains conditional.",
+          "watchpoint": "Watch actual margins, cost pass-through, developed/emerging-market mix and subsequent cash.",
+          "source_ids": [
+            "unilever"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Shell’s29 October original unaudited Q3 results report adjusted earnings US$10.814bn, attributable income US$12.057bn and operating cash US$21.043bn.",
+          "implication": "Adjusted earnings, accounting items and cash differ; strong refining/LNG results do not prove energy-sector uniformity or conflict causation.",
+          "watchpoint": "Check working capital, sustaining investment, leases, physical flows and margins.",
+          "source_ids": [
+            "shell"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "ECB and European Council statements establish the planned leadership transition; today’s rate decision remains future at cutoff.",
+          "implication": "Leadership uncertainty could affect expectations but does not establish a policy change, bank profit effect or market causation.",
+          "watchpoint": "Read the actual decision/press conference and subsequent matched yield, FX and bank observations.",
+          "source_ids": [
+            "ecb-departure",
+            "costa",
+            "ecb-calendar"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Sanofi’s issuer calendar places results on30 October, not a newly reported29 October quarter; no full health-care basket verified.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Verify released actuals and product/margin/cash evidence when available.",
+          "source_ids": [
+            "sanofi-calendar"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Airbus’s28 October nine-month release reports547 commercial deliveries and free cash flow before customer financing of about−€1.268bn.",
+          "implication": "Orders, delivered aircraft, adjusted profit and cash differ; inventory and back-loaded deliveries can explain some timing but remain execution risks.",
+          "watchpoint": "Test the remaining delivery profile, working capital, supplier constraints and actual cash conversion.",
+          "source_ids": [
+            "airbus"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "BASF’s28 October release reports sales+14%, with prices+12% and volumes+2%; EBITDA before special items €1.6bn versus reported EBITDA €1.2bn.",
+          "implication": "Adjusted growth can coexist with working-capital pressure or weak statutory performance; sales are not pure volume growth.",
+          "watchpoint": "Check inventories, operating cash, impairments and realized spreads before extrapolating.",
+          "source_ids": [
+            "basf"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No complete European property valuation, rent collection, refinancing and final sector-price panel retrieved.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Verify actual transactions, debt costs and cash collections rather than reading broad financing relief into every property.",
+          "source_ids": [
+            "ecb-calendar"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current European utility tariff/approved-investment or synchronized sector-price series verified.",
+          "implication": "No current whole-sector direction or qualification is inferred; local constituents, accounting and observation periods can differ.",
+          "watchpoint": "Separate equipment orders, utility capital plans, energized output and allowed cost recovery.",
+          "source_ids": [
+            "shell"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Country mix, supply availability, currencies and import costs can produce different Asian outcomes; no uniform return assumed.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "shell",
+            "airbus",
+            "ecb-calendar"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Global funding, supply chains and energy can affect local banks, property and operators, subject to their actual exposure.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "shell",
+            "airbus",
+            "ecb-calendar"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Forward US context only: incoming data and customer earnings can confirm or challenge the foreign supplier/operating cash story; no US opening observed yet.",
+          "trigger": "New local observations plus original cash, funding or implementation evidence support the specific channel.",
+          "invalidation": "Different exposures, hedges, weak execution or contrary local data breaks the broad spillover claim.",
+          "source_ids": [
+            "bea",
+            "amazon",
+            "intel"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-29-singapore-open-delayed-catch-up",
     "title": "Singapore opening catch-up — selective gains, memory demand and company-specific cash risks",
     "summary": "29 October opening context recovered with actual evidence cutoff 14:09:54 SGT. Early09:04/09:05 observations are historical, not current14:00 prices. Samsung, Keppel, CICT and weaker UltraGreen.ai/Wilmar outlooks add distinct evidence. London opening and US releases remain future.",
