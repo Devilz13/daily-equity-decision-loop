@@ -35,10 +35,15 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-29T00:11:57Z",
+      "review_due_at": "2026-10-30T00:11:57Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-29T00:11:57Z",
+          "change": "Official October welcome-gift PDF rechecked: application channel, 12-month lookback, approval/spend windows, caps, exclusions and retention/clawback. Substantive offer terms unchanged."
+        }
+      ],
       "id": "ocbc-365-nxt-cash300-q42026",
       "name": "OCBC 365 / NXT: S$300 welcome cashback",
       "category": "Card sign-up",
@@ -55,10 +60,15 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-29T00:11:57Z",
+      "review_due_at": "2026-10-30T00:11:57Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-29T00:11:57Z",
+          "change": "Official October welcome-gift PDF rechecked: application channel, 12-month lookback, approval/spend windows, caps, exclusions and retention/clawback. Substantive offer terms unchanged."
+        }
+      ],
       "id": "ocbc-infinity-welcome-q42026",
       "name": "OCBC INFINITY: 16% welcome cashback",
       "category": "Card sign-up",

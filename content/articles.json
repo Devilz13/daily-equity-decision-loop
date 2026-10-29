@@ -1,5 +1,999 @@
 [
   {
+    "id": "2026-10-29-asia-open-delayed",
+    "title": "Asia opening read — cloud growth meets funding discipline; Singapore haze risk in focus",
+    "summary": "29 October Asia opening context, reviewed at 08:11:57 SGT after the 07:45 editorial target. Japan-anchored partial basket; US cash close and subsequent issuer results are separate. Current local prices/breadth and other regional calendars remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets",
+      "cybersecurity",
+      "agentic-agents"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-29T00:11:57Z",
+    "updated_at": "2026-10-29T00:11:57Z",
+    "cutoff_at": "2026-10-29T00:11:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "fed",
+        "title": "28 October FOMC decision; release 14:00 EDT",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "type": "primary",
+        "published_at": "2026-10-28T18:00:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "msft",
+        "title": "FY27 Q1 release and cash-flow tables; quarter ended 30 September",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "goog",
+        "title": "Q3 2026 original SEC Exhibit 99.1; normal public HTML retrieved",
+        "publisher": "Alphabet / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "us-close",
+        "title": "Reuters updated closing body; same live URL formerly carried intraday observations",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-rise-sk-hynix-boosts-chips-before-fed-decision-earnings-2026-10-28/",
+        "type": "secondary",
+        "published_at": "2026-10-28T09:38:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "mas",
+        "title": "Banks management of haze-related environmental risks",
+        "publisher": "MAS",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/statement-on-banks-management-of-haze-related-environmental-risks",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nea",
+        "title": "28 October haze update; 29 October forecast is not a current observation",
+        "publisher": "NEA",
+        "url": "https://www.nea.gov.sg/media/news/advisories/index/haze-situation-update-28-october-2026",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "mfa",
+        "title": "Jakarta visit 27–29 October, meetings 27–28 October",
+        "publisher": "Singapore MFA",
+        "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/visit-by-minister-for-foreign-affairs-dr-vivian-balakrishnan-to-jakarta--indonesia--27-to-29-october-2026/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nhs",
+        "title": "Incident notice: identified 25 August, resolved update 25 September; page rechecked",
+        "publisher": "NHS Supply Chain",
+        "url": "https://www.supplychain.nhs.uk/icn/supplier-update-boston-scientific-cyber-attack/",
+        "type": "primary",
+        "published_at": "2026-09-25",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "sg-close",
+        "title": "28 October 18:16 SGT BT closing report, indexed extract; conflicting vendor retained",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-end-flattish-even-local-banks-gain-sti-0-02",
+        "type": "secondary",
+        "published_at": "2026-10-28T10:16:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Official events calendar; undated page, retrieval time used as source-date field",
+        "publisher": "Samsung",
+        "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official holidays/core hours; undated page, retrieval time used as source-date field",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official holidays; undated page, retrieval time used as source-date field",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "jpx-hours",
+        "title": "Official trading hours; undated page, retrieval time used as source-date field",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "oil-close",
+        "title": "28 October Reuters settlement update; operator confirmation missing",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/",
+        "type": "secondary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "vertiv",
+        "title": "28 October Q3 results, GAAP cash and non-GAAP reconciliation",
+        "publisher": "Vertiv",
+        "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ge",
+        "title": "28 October Q3 results and proposed Trench acquisition",
+        "publisher": "GE Vernova",
+        "url": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "bsx",
+        "title": "28 October Q3 actual results, cyber-recovery commentary and Q4 guidance",
+        "publisher": "Boston Scientific",
+        "url": "https://news.bostonscientific.com/2026-10-28-Boston-Scientific-announces-results-for-third-quarter-2026",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ko",
+        "title": "27 October issuer earnings distributed by Business Wire; rechecked background, not a new 28 October release",
+        "publisher": "The Coca-Cola Company via Business Wire",
+        "url": "https://www.businesswire.com/news/home/20261027108554/en/Coca-Cola-Reports-Third-Quarter-2026-Results-and-Raises-Full-Year-Guidance",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "s4",
+        "title": "S4 Capital Q3 RNS original text via Investegate; platform summary not used",
+        "publisher": "S4 Capital via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/announcement/rns/s4-capital--sfor/third-quarter-trading-update/9844570",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "The Fed held its target range at 3.75%–4.00% on 28 October. Two dissenters preferred a 25-basis-point increase. A hold is not a commitment to a later cut.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "JPX’s calendar/hours support the Japan anchor for 29 October. This report does not certify every Asian exchange calendar, individual halt or a current market-price reaction. Samsung schedules its earnings call for 10:00 KST / 09:00 SGT, still future at cutoff.",
+        "source_ids": [
+          "jpx",
+          "jpx-hours",
+          "samsung"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Microsoft and Alphabet released September-quarter results after the US cash close. Those results were unavailable to cash closing prices as completed results; no later cash-market response is invented.",
+        "source_ids": [
+          "msft",
+          "goog"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "MAS and NEA provide documented Singapore policy and environmental context. A forecast is not a live air-quality observation or proof of earnings losses.",
+        "source_ids": [
+          "mas",
+          "nea"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "AI demand growth coexists with a heavier infrastructure cash burden.",
+        "transmission": "Cloud customers may support chips, networking, cooling and grid suppliers while retaining less cash. This interpretation does not establish that every supplier benefits or that cloud growth is funded solely by end users.",
+        "confidence": "inference",
+        "alternatives": "Equipment cash spending is lumpy; hardware sales, timing, customer prepayments and leases can change quarter-to-quarter comparisons. Strong growth may ultimately produce attractive utilization and returns.",
+        "source_ids": [
+          "msft",
+          "goog",
+          "vertiv",
+          "ge"
+        ]
+      },
+      {
+        "explanation": "A policy hold does not remove duration and financing risk.",
+        "transmission": "Funding-sensitive technology, property and construction projects still depend on yields, credit terms and actual revenue. No synchronized rates/FX panel was verified at this cutoff.",
+        "confidence": "inference",
+        "alternatives": "Resilient earnings or improved inflation data could outweigh funding pressure; an individual index move cannot identify a single cause.",
+        "source_ids": [
+          "fed",
+          "us-close"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Demand converts into funded utilization",
+        "outcome": "Infrastructure suppliers and customers both sustain productive growth.",
+        "trigger": "Paid delivery, operating cash and utilization rise without disproportionate recurring funding needs.",
+        "invalidation": "Cancelled orders, margin deterioration, weak collections or prolonged unpowered capacity.",
+        "horizon": "Next quarterly disclosures; local market confirmation over 29–30 October.",
+        "source_ids": [
+          "msft",
+          "goog",
+          "ge"
+        ]
+      },
+      {
+        "name": "Capital intensity absorbs growth",
+        "outcome": "Strong reported demand coexists with weaker cash flexibility and tighter project economics.",
+        "trigger": "Equipment/lease commitments and external funding rise faster than cash realization.",
+        "invalidation": "Cash conversion improves as installed capacity reaches useful utilization.",
+        "horizon": "Next earnings cycle, not an unconditional price forecast.",
+        "source_ids": [
+          "msft",
+          "goog",
+          "vertiv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Samsung results and memory/manufacturing commentary at 09:00 SGT, 29 October",
+        "due_at": "2026-10-29T01:00:00Z",
+        "confirms": "Actual released figures support paid demand, shipped mix and executable capacity.",
+        "contradicts": "Weak utilization, cancellations, lower cash conversion or missing disclosure.",
+        "source_ids": [
+          "samsung"
+        ]
+      },
+      {
+        "signal": "29 October next regional checkpoint: prices, calendar and cash-versus-after-hours distinction",
+        "due_at": "2026-10-29T06:00:00Z",
+        "confirms": "Dated local breadth, sector observations and issuer follow-through corroborate spillover.",
+        "contradicts": "Contrary local moves or unresolved calendar/quote gaps weaken a broad regional inference.",
+        "source_ids": [
+          "jpx",
+          "nyse",
+          "us-close"
+        ]
+      },
+      {
+        "signal": "Haze and credit-risk follow-through, 29–30 October",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "New official environmental observations and borrower disclosures establish a transmission.",
+        "contradicts": "Improved conditions with no material borrower exposure weaken loss extrapolations.",
+        "source_ids": [
+          "mas",
+          "nea",
+          "mfa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T00:11:57Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-10-29",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange / JPX anchor; other Asian exchange calendars not certified",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "jpx-hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed external context; no verified current Asian breadth-based sentiment conclusion.",
+        "indicators": "US closing indices rose modestly; Microsoft/Alphabet results then diverged from a simple uniform AI-growth story. No current Asian price/volume/breadth panel, matched volatility series or representative public-opinion sample was obtained.",
+        "source_ids": [
+          "us-close",
+          "msft",
+          "goog"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Microsoft reports Azure growth of 48% for the September quarter. This is issuer revenue evidence, not an all-sector cash return.",
+          "implication": "Cash collection and equipment funding can diverge from sales growth.",
+          "watchpoint": "Separate cash equipment purchases from lease additions and demand commitments.",
+          "source_ids": [
+            "msft"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Alphabet reports Google Cloud revenue growth of 103%, including TPU systems sales; the mix is not pure recurring cloud usage.",
+          "implication": "Hardware deliveries can change reported growth and working-capital needs.",
+          "watchpoint": "Reconcile operating cash, systems mix and subsequent margin guidance.",
+          "source_ids": [
+            "goog"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized current sector price, demand or margin panel was retrieved. Prior company releases do not complete the sector.",
+          "implication": "Higher energy and funding costs could squeeze optional spending; this is a scenario.",
+          "watchpoint": "Seek dated retailer and household evidence rather than extrapolating from one platform.",
+          "source_ids": [
+            "fed",
+            "oil-close"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Coca-Cola’s 27 October results remain dated background, with the prior successful source check retained.",
+          "implication": "Pricing and volumes need separate tests; a defensive label does not remove input or FX risk.",
+          "watchpoint": "Look for changed volume, mix and cost disclosures before upgrading the sector view.",
+          "source_ids": [
+            "ko"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters 28 October settlement update reports higher oil; the refinery allegation lacks Saudi/operator confirmation in the reviewed body.",
+          "implication": "A risk premium can raise importer costs even before a physical loss is verified.",
+          "watchpoint": "Require operator notices and actual export or output evidence.",
+          "source_ids": [
+            "oil-close"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "MAS issued 28 October guidance on management of haze-related environmental risks by banks.",
+          "implication": "Customer assessment may affect credit terms; no quantified loan losses or blanket industry exit is established.",
+          "watchpoint": "Check borrower-specific disclosures and material exposure rather than assuming sector-wide impairments.",
+          "source_ids": [
+            "mas"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Boston Scientific’s 28 October release discusses cyber recovery. NHS Supply Chain dates the incident to August and records a September resolution.",
+          "implication": "Operational restoration can precede normalized quarterly revenue or margins.",
+          "watchpoint": "Reconcile actual backlog conversion, lost sales and recovery costs; do not date the attack to the earnings release.",
+          "source_ids": [
+            "bsx",
+            "nhs"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Vertiv and GE Vernova’s 28 October releases supplied new cooling/power and generation/order evidence in the earlier read.",
+          "implication": "Orders, reserved production slots, revenue and energized equipment are different stages.",
+          "watchpoint": "Test cancellations, paid deliveries, execution and cash conversion.",
+          "source_ids": [
+            "vertiv",
+            "ge"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No complete new metals, chemicals or mining sector observations were verified.",
+          "implication": "AI construction and grid plans could increase demand, but project execution and commodity substitution matter.",
+          "watchpoint": "Seek actual orders and cost/margin disclosures before attributing sector growth.",
+          "source_ids": [
+            "ge"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No complete powered-lease, financing, recurring-capex or AFFO reconciliation was retrieved.",
+          "implication": "A cloud customer commitment is not proof that a particular trust has funded and leased capacity.",
+          "watchpoint": "Verify power availability, tenant obligations, debt and recurring maintenance spend.",
+          "source_ids": [
+            "msft",
+            "goog"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "GE Vernova’s issuer release adds grid/generation supply evidence; this is equipment supply, not a utility rate-base approval.",
+          "implication": "Demand could benefit approved, financeable projects; connection delays and cost recovery can offset it.",
+          "watchpoint": "Require utility-specific approvals, grid connections and tariff treatment.",
+          "source_ids": [
+            "ge"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "US funding and AI demand could affect banks, property and technology suppliers; haze creates a separate documented risk-review channel.",
+          "trigger": "New local price/breadth evidence plus customer cash, supplier deliveries or borrower-specific disclosures.",
+          "invalidation": "Contrary local evidence, poor collections or absence of material exposure breaks the simple spillover.",
+          "source_ids": [
+            "mas",
+            "fed",
+            "msft"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US policy and capital spending may affect equipment exporters and financing-sensitive assets; no European opening return is inferred.",
+          "trigger": "New local price/breadth evidence plus customer cash, supplier deliveries or borrower-specific disclosures.",
+          "invalidation": "Contrary local evidence, poor collections or absence of material exposure breaks the simple spillover.",
+          "source_ids": [
+            "fed",
+            "msft",
+            "goog",
+            "samsung"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian supplier results could confirm or challenge US cloud-capacity economics before the next cash session.",
+          "trigger": "New local price/breadth evidence plus customer cash, supplier deliveries or borrower-specific disclosures.",
+          "invalidation": "Contrary local evidence, poor collections or absence of material exposure breaks the simple spillover.",
+          "source_ids": [
+            "fed",
+            "msft",
+            "goog",
+            "samsung"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-28-us-close-delayed",
+    "title": "US closing read — Fed hold, modest cash gains and a separate cloud cash-flow test",
+    "summary": "28 October completed US session, reviewed at 08:11:57 SGT on 29 October, after the 04:20 SGT editorial target. Cash closing observations are separate from Microsoft/Alphabet post-close results. All 11 sectors and explicit gaps retained.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets",
+      "cybersecurity",
+      "agentic-agents"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-29T00:11:57Z",
+    "updated_at": "2026-10-29T00:11:57Z",
+    "cutoff_at": "2026-10-29T00:11:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "fed",
+        "title": "28 October FOMC decision; release 14:00 EDT",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+        "type": "primary",
+        "published_at": "2026-10-28T18:00:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "msft",
+        "title": "FY27 Q1 release and cash-flow tables; quarter ended 30 September",
+        "publisher": "Microsoft",
+        "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "goog",
+        "title": "Q3 2026 original SEC Exhibit 99.1; normal public HTML retrieved",
+        "publisher": "Alphabet / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "us-close",
+        "title": "Reuters updated closing body; same live URL formerly carried intraday observations",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/nasdaq-futures-rise-sk-hynix-boosts-chips-before-fed-decision-earnings-2026-10-28/",
+        "type": "secondary",
+        "published_at": "2026-10-28T09:38:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "mas",
+        "title": "Banks management of haze-related environmental risks",
+        "publisher": "MAS",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/statement-on-banks-management-of-haze-related-environmental-risks",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nea",
+        "title": "28 October haze update; 29 October forecast is not a current observation",
+        "publisher": "NEA",
+        "url": "https://www.nea.gov.sg/media/news/advisories/index/haze-situation-update-28-october-2026",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "mfa",
+        "title": "Jakarta visit 27–29 October, meetings 27–28 October",
+        "publisher": "Singapore MFA",
+        "url": "https://www.mfa.gov.sg/newsroom/press-statements-transcripts-and-photos/visit-by-minister-for-foreign-affairs-dr-vivian-balakrishnan-to-jakarta--indonesia--27-to-29-october-2026/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nhs",
+        "title": "Incident notice: identified 25 August, resolved update 25 September; page rechecked",
+        "publisher": "NHS Supply Chain",
+        "url": "https://www.supplychain.nhs.uk/icn/supplier-update-boston-scientific-cyber-attack/",
+        "type": "primary",
+        "published_at": "2026-09-25",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "sg-close",
+        "title": "28 October 18:16 SGT BT closing report, indexed extract; conflicting vendor retained",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-end-flattish-even-local-banks-gain-sti-0-02",
+        "type": "secondary",
+        "published_at": "2026-10-28T10:16:00Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Official events calendar; undated page, retrieval time used as source-date field",
+        "publisher": "Samsung",
+        "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official holidays/core hours; undated page, retrieval time used as source-date field",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official holidays; undated page, retrieval time used as source-date field",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "jpx-hours",
+        "title": "Official trading hours; undated page, retrieval time used as source-date field",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-10-29T00:11:57Z",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "oil-close",
+        "title": "28 October Reuters settlement update; operator confirmation missing",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/oil-prices-rise-after-attack-saudi-arabian-refinery-reignites-supply-concerns-2026-10-28/",
+        "type": "secondary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-29T00:11:57Z"
+      },
+      {
+        "id": "vertiv",
+        "title": "28 October Q3 results, GAAP cash and non-GAAP reconciliation",
+        "publisher": "Vertiv",
+        "url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ge",
+        "title": "28 October Q3 results and proposed Trench acquisition",
+        "publisher": "GE Vernova",
+        "url": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "bsx",
+        "title": "28 October Q3 actual results, cyber-recovery commentary and Q4 guidance",
+        "publisher": "Boston Scientific",
+        "url": "https://news.bostonscientific.com/2026-10-28-Boston-Scientific-announces-results-for-third-quarter-2026",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "ko",
+        "title": "27 October issuer earnings distributed by Business Wire; rechecked background, not a new 28 October release",
+        "publisher": "The Coca-Cola Company via Business Wire",
+        "url": "https://www.businesswire.com/news/home/20261027108554/en/Coca-Cola-Reports-Third-Quarter-2026-Results-and-Raises-Full-Year-Guidance",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      },
+      {
+        "id": "s4",
+        "title": "S4 Capital Q3 RNS original text via Investegate; platform summary not used",
+        "publisher": "S4 Capital via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/announcement/rns/s4-capital--sfor/third-quarter-trading-update/9844570",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-10-28T18:02:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "The Fed held its target range at 3.75%–4.00% on 28 October. Two dissenters preferred a 25-basis-point increase. A hold is not a commitment to a later cut.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Reuters reports the completed 28 October Dow 52,475.10 (+0.19%), S&P 500 7,743.97 (+0.28%) and Nasdaq Composite 26,549.85 (+0.27%). These are secondary closing observations, not current futures.",
+        "source_ids": [
+          "us-close",
+          "nyse"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Microsoft and Alphabet released September-quarter results after the US cash close. Those results were unavailable to cash closing prices as completed results; no later cash-market response is invented.",
+        "source_ids": [
+          "msft",
+          "goog"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "MAS and NEA provide documented Singapore policy and environmental context. A forecast is not a live air-quality observation or proof of earnings losses.",
+        "source_ids": [
+          "mas",
+          "nea"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "AI demand growth coexists with a heavier infrastructure cash burden.",
+        "transmission": "Cloud customers may support chips, networking, cooling and grid suppliers while retaining less cash. This interpretation does not establish that every supplier benefits or that cloud growth is funded solely by end users.",
+        "confidence": "inference",
+        "alternatives": "Equipment cash spending is lumpy; hardware sales, timing, customer prepayments and leases can change quarter-to-quarter comparisons. Strong growth may ultimately produce attractive utilization and returns.",
+        "source_ids": [
+          "msft",
+          "goog",
+          "vertiv",
+          "ge"
+        ]
+      },
+      {
+        "explanation": "A policy hold does not remove duration and financing risk.",
+        "transmission": "Funding-sensitive technology, property and construction projects still depend on yields, credit terms and actual revenue. No synchronized rates/FX panel was verified at this cutoff.",
+        "confidence": "inference",
+        "alternatives": "Resilient earnings or improved inflation data could outweigh funding pressure; an individual index move cannot identify a single cause.",
+        "source_ids": [
+          "fed",
+          "us-close"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Demand converts into funded utilization",
+        "outcome": "Infrastructure suppliers and customers both sustain productive growth.",
+        "trigger": "Paid delivery, operating cash and utilization rise without disproportionate recurring funding needs.",
+        "invalidation": "Cancelled orders, margin deterioration, weak collections or prolonged unpowered capacity.",
+        "horizon": "Next quarterly disclosures; local market confirmation over 29–30 October.",
+        "source_ids": [
+          "msft",
+          "goog",
+          "ge"
+        ]
+      },
+      {
+        "name": "Capital intensity absorbs growth",
+        "outcome": "Strong reported demand coexists with weaker cash flexibility and tighter project economics.",
+        "trigger": "Equipment/lease commitments and external funding rise faster than cash realization.",
+        "invalidation": "Cash conversion improves as installed capacity reaches useful utilization.",
+        "horizon": "Next earnings cycle, not an unconditional price forecast.",
+        "source_ids": [
+          "msft",
+          "goog",
+          "vertiv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Samsung results and memory/manufacturing commentary at 09:00 SGT, 29 October",
+        "due_at": "2026-10-29T01:00:00Z",
+        "confirms": "Actual released figures support paid demand, shipped mix and executable capacity.",
+        "contradicts": "Weak utilization, cancellations, lower cash conversion or missing disclosure.",
+        "source_ids": [
+          "samsung"
+        ]
+      },
+      {
+        "signal": "29 October next regional checkpoint: prices, calendar and cash-versus-after-hours distinction",
+        "due_at": "2026-10-29T06:00:00Z",
+        "confirms": "Dated local breadth, sector observations and issuer follow-through corroborate spillover.",
+        "contradicts": "Contrary local moves or unresolved calendar/quote gaps weaken a broad regional inference.",
+        "source_ids": [
+          "jpx",
+          "nyse",
+          "us-close"
+        ]
+      },
+      {
+        "signal": "Haze and credit-risk follow-through, 29–30 October",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "New official environmental observations and borrower disclosures establish a transmission.",
+        "contradicts": "Improved conditions with no material borrower exposure weaken loss extrapolations.",
+        "source_ids": [
+          "mas",
+          "nea",
+          "mfa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T00:11:57Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-28",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE cash-session anchor; individual halts not certified",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Modestly positive completed cash session; participation and later earnings need separate interpretation.",
+        "indicators": "Reuters reports NYSE advance/decline ratio 1.05:1; Nasdaq 2,849 advances and 1,926 declines. Volume 16.67bn versus the 20-day average 17.10bn. These are dated market proxies, not a survey of public sentiment.",
+        "source_ids": [
+          "us-close",
+          "msft",
+          "goog"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Microsoft reports Azure growth of 48% for the September quarter. This is issuer revenue evidence, not an all-sector cash return.",
+          "implication": "Cash collection and equipment funding can diverge from sales growth.",
+          "watchpoint": "Separate cash equipment purchases from lease additions and demand commitments.",
+          "source_ids": [
+            "msft"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Alphabet reports Google Cloud revenue growth of 103%, including TPU systems sales; the mix is not pure recurring cloud usage.",
+          "implication": "Hardware deliveries can change reported growth and working-capital needs.",
+          "watchpoint": "Reconcile operating cash, systems mix and subsequent margin guidance.",
+          "source_ids": [
+            "goog"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized current sector price, demand or margin panel was retrieved. Prior company releases do not complete the sector.",
+          "implication": "Higher energy and funding costs could squeeze optional spending; this is a scenario.",
+          "watchpoint": "Seek dated retailer and household evidence rather than extrapolating from one platform.",
+          "source_ids": [
+            "fed",
+            "oil-close"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Coca-Cola’s 27 October results remain dated background, with the prior successful source check retained.",
+          "implication": "Pricing and volumes need separate tests; a defensive label does not remove input or FX risk.",
+          "watchpoint": "Look for changed volume, mix and cost disclosures before upgrading the sector view.",
+          "source_ids": [
+            "ko"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters 28 October settlement update reports higher oil; the refinery allegation lacks Saudi/operator confirmation in the reviewed body.",
+          "implication": "A risk premium can raise importer costs even before a physical loss is verified.",
+          "watchpoint": "Require operator notices and actual export or output evidence.",
+          "source_ids": [
+            "oil-close"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "MAS issued 28 October guidance on management of haze-related environmental risks by banks.",
+          "implication": "Customer assessment may affect credit terms; no quantified loan losses or blanket industry exit is established.",
+          "watchpoint": "Check borrower-specific disclosures and material exposure rather than assuming sector-wide impairments.",
+          "source_ids": [
+            "mas"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Boston Scientific’s 28 October release discusses cyber recovery. NHS Supply Chain dates the incident to August and records a September resolution.",
+          "implication": "Operational restoration can precede normalized quarterly revenue or margins.",
+          "watchpoint": "Reconcile actual backlog conversion, lost sales and recovery costs; do not date the attack to the earnings release.",
+          "source_ids": [
+            "bsx",
+            "nhs"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Vertiv and GE Vernova’s 28 October releases supplied new cooling/power and generation/order evidence in the earlier read.",
+          "implication": "Orders, reserved production slots, revenue and energized equipment are different stages.",
+          "watchpoint": "Test cancellations, paid deliveries, execution and cash conversion.",
+          "source_ids": [
+            "vertiv",
+            "ge"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No complete new metals, chemicals or mining sector observations were verified.",
+          "implication": "AI construction and grid plans could increase demand, but project execution and commodity substitution matter.",
+          "watchpoint": "Seek actual orders and cost/margin disclosures before attributing sector growth.",
+          "source_ids": [
+            "ge"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No complete powered-lease, financing, recurring-capex or AFFO reconciliation was retrieved.",
+          "implication": "A cloud customer commitment is not proof that a particular trust has funded and leased capacity.",
+          "watchpoint": "Verify power availability, tenant obligations, debt and recurring maintenance spend.",
+          "source_ids": [
+            "msft",
+            "goog"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "GE Vernova’s issuer release adds grid/generation supply evidence; this is equipment supply, not a utility rate-base approval.",
+          "implication": "Demand could benefit approved, financeable projects; connection delays and cost recovery can offset it.",
+          "watchpoint": "Require utility-specific approvals, grid connections and tariff treatment.",
+          "source_ids": [
+            "ge"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Asian suppliers may benefit from paid demand while importers face energy and currency risks; local prices require separate verification.",
+          "trigger": "New local price/breadth evidence plus customer cash, supplier deliveries or borrower-specific disclosures.",
+          "invalidation": "Contrary local evidence, poor collections or absence of material exposure breaks the simple spillover.",
+          "source_ids": [
+            "fed",
+            "msft",
+            "goog",
+            "samsung"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "US funding and AI demand could affect banks, property and technology suppliers; haze creates a separate documented risk-review channel.",
+          "trigger": "New local price/breadth evidence plus customer cash, supplier deliveries or borrower-specific disclosures.",
+          "invalidation": "Contrary local evidence, poor collections or absence of material exposure breaks the simple spillover.",
+          "source_ids": [
+            "mas",
+            "fed",
+            "msft"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US policy and capital spending may affect equipment exporters and financing-sensitive assets; no European opening return is inferred.",
+          "trigger": "New local price/breadth evidence plus customer cash, supplier deliveries or borrower-specific disclosures.",
+          "invalidation": "Contrary local evidence, poor collections or absence of material exposure breaks the simple spillover.",
+          "source_ids": [
+            "fed",
+            "msft",
+            "goog",
+            "samsung"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-28-europe-close-delayed",
     "title": "Europe closing read — mixed London close after Budget; tax relief versus cash costs",
     "summary": "28 October London session, reviewed with actual evidence cutoff 29 October 02:03:08 SGT. Delayed relative to the 16:50 GMT editorial target. Budget announcements, issuer results and a mixed reported close are distinct; US quotes remain intraday and the Fed outcome was not retrieved.",

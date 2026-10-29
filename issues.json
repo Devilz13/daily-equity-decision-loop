@@ -2,8 +2,49 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-28",
+  "latest": "2026-10-29",
   "issues": [
+    {
+      "date": "2026-10-29",
+      "number": 43,
+      "title": "Cloud growth is real; cash discipline still decides",
+      "status": "data incomplete",
+      "path": "issues/2026/10/29/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-29-v1",
+        "delivery_notice": "We apologise for the delayed edition. Evidence cutoff 08:11:57 SGT; US close and Asia opening context are separate delayed reads. Singapore opening target remains future at cutoff.",
+        "summary": "Issue 043 separates cloud revenue growth from infrastructure cash costs, the Fed hold from future rate promises, and Singapore haze policy from unproven losses. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Fed holds 3.75%–4.00%; two dissenters prefer a hike",
+            "date": "28 Oct 2026",
+            "context": "The official statement resolves the earlier access gap. A hold does not promise a cut or establish synchronized market reactions.",
+            "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+          },
+          {
+            "title": "Cloud growth and capital spending need separate tests",
+            "date": "28 Oct 2026",
+            "context": "Microsoft and Alphabet release actual results after the US close. Operating cash, equipment purchases, leases and investment marks need distinct treatment.",
+            "source": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast"
+          },
+          {
+            "title": "MAS sets out haze-related banking risk expectations",
+            "date": "28 Oct 2026",
+            "context": "Customer engagement and material-risk assessment are documented. No blanket divestment order, proven wrongdoing or quantified bank loss is established.",
+            "source": "https://www.mas.gov.sg/news/media-releases/2026/statement-on-banks-management-of-haze-related-environmental-risks"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. US closing and Asia opening reads retain all 11 sectors, actual cutoffs and regional gaps. Singapore current opening prices and a complete rates/FX panel remain unverified.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-28",
       "number": 42,
