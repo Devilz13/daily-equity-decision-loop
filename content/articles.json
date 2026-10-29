@@ -1,5 +1,1025 @@
 [
   {
+    "id": "2026-10-29-europe-close-delayed",
+    "title": "Europe closing read — ECB holds; optical orders strengthen, cash conversion still matters",
+    "summary": "Completed29 October European close recovered after the target, with honestly timed evidence. ECB and US data are actual; US cash remains ongoing. Optical equipment orders add a physical-infrastructure signal. All11sectors and gaps retained.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-29T18:08:14Z",
+    "updated_at": "2026-10-29T18:08:14Z",
+    "cutoff_at": "2026-10-29T18:08:14Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "airbus",
+        "title": "Original28 October nine-month results PDF, through issuer download link; not a new29 October result",
+        "publisher": "Airbus",
+        "url": "https://mediaassets.airbus.com/pm_38_942_942888-eyfb5ynik9.pdf?fileName=airbus-nine-month-9m-2026-press-release.pdf",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "aixtron",
+        "title": "29 October original issuer public HTML successfully read; confirms earlier preliminary order momentum and adds composition/cash detail",
+        "publisher": "AIXTRON",
+        "url": "https://www.aixtron.com/en/investors/news/finance-news/AI-driven%20demand%20fuels%20strong%20order%20momentum_n6508801",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "amazon",
+        "title": "15 October issuer notice:29 October17:00 Eastern call, not actual results",
+        "publisher": "Amazon",
+        "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "basf",
+        "title": "28 October original Q3 release read: statutory/adjusted earnings, prices/volumes and cash differ",
+        "publisher": "BASF",
+        "url": "https://www.basf.com/global/en/media/news-releases/2026/10/p-26-180",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "cat-actual",
+        "title": "29 October original corporate results summary read; no specific AI-power order inferred from group figures",
+        "publisher": "Caterpillar",
+        "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q26-results-caterpillar-inc.html",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:46Z"
+      },
+      {
+        "id": "ecb-actual",
+        "title": "29 October actual decision; original English public HTML successfully read, not a forecast",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+        "published_at": "2026-10-29T13:15:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "eu-final",
+        "title": "29 October13:00EDT Alliance News completed European close, indexed body; direct reader failed; secondary not exchange-certified",
+        "publisher": "Alliance News / MarketScreener",
+        "url": "https://www.marketscreener.com/news/european-stocks-rally-after-ecb-and-fed-holds-ce785fdadb80f621",
+        "published_at": "2026-10-29T17:00:00Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "gdp-actual",
+        "title": "Advance Q3 GDP: original BEA public HTML read; quarterly annualized rates and revisability retained",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+        "published_at": "2026-10-29T12:30:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:40Z"
+      },
+      {
+        "id": "intel",
+        "title": "6 October issuer notice:29 October after-close results,14:00 PDT call; future at cutoff",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "iran-letter",
+        "title": "29 October15:38:59UTC Reuters indexed body: attributed disagreement over letter purpose; letter/original responses not independently obtained",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/vance-outreach-iran-related-medical-supplies-says-trump-2026-10-29/",
+        "published_at": "2026-10-29T15:38:59Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "lilly-actual",
+        "title": "29 October original financial release read; reported/adjusted earnings and one-time revenue benefits distinguished",
+        "publisher": "Eli Lilly",
+        "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:02:34Z"
+      },
+      {
+        "id": "london-final",
+        "title": "29 October Reuters updated closing body indexed; first-publication clock is not closing-price clock; direct access unavailable",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/londons-ftse-100-rises-shell-boosts-energy-stocks-2026-10-29/",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "lse-current",
+        "title": "Official business-day calendar read;29 October not listed as holiday; LSE timing anchor only",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "now-actual",
+        "title": "28 October original earnings release read; management guidance is not matched consensus or independently verified AI productivity",
+        "publisher": "ServiceNow",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "nyse-current",
+        "title": "Official business calendar and09:30–16:00Eastern core session read;29 October not a listed closure; individual halts not certified",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "pce-actual",
+        "title": "September income/outlays original public HTML read; monthly, year-on-year and quarterly measures distinct",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+        "published_at": "2026-10-29T12:30:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:40Z"
+      },
+      {
+        "id": "shell",
+        "title": "29 October07:00GMT unaudited original issuer results, normal public HTML retrieved after reader failure",
+        "publisher": "Shell",
+        "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+        "published_at": "2026-10-29T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:09Z"
+      },
+      {
+        "id": "unilever",
+        "title": "28 October original RNS text read below platform AI summary; not a new29 October release",
+        "publisher": "Unilever via RNS / Investegate",
+        "url": "https://www.investegate.co.uk/index.php/announcement/rns/unilever--ulvr/q3-2026-trading-statement/9844580",
+        "published_at": "2026-10-28T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "us-intraday",
+        "title": "29 October updated Reuters indexed body; ongoing cash, exact quote clocks unavailable; normal public download401 not bypassed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "This is a delayed29 October closing read with actual research cutoff 2026-10-29T18:08:14Z. The16:50GMT editorial target was earlier. It is anchored to the verified LSE calendar; continental coverage remains partial. Earlier intraday STOXX extracts are not used as final closes.",
+        "source_ids": [
+          "lse-current"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Alliance News’s17:00UTC closing report gives FTSE100 at10,722.07 and FTSE250 at24,674.16, with CAC40 +1.1% and DAX40 +1.3%. Reuters’s updated London closing body independently corroborates the FTSE100 level and +0.26%. These are attributed secondary closes, not exchange-certified total returns; first-publication times are not closing-price clocks.",
+        "source_ids": [
+          "eu-final",
+          "london-final"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The actual ECB29 October decision retained its three key rates. It identifies uncertainty and energy-related inflation risks while retaining data dependence. A reported possibility of future tightening must not be rewritten as an announced commitment.",
+        "source_ids": [
+          "ecb-actual"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "US advance Q3 real GDP grew3.4% at a seasonally adjusted annual rate, versus2.2% inQ2; private domestic final sales grew4.9%. These are quarterly annualized, revisable figures. Quarterly PCE/core inflation of2.1%/2.5% annualized is not the September year-on-year series.",
+        "source_ids": [
+          "gdp-actual"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "AIXTRON’s9M revenue was EUR358.1m versus369.5m a year earlier despite strong Q3 order momentum. The original cash discussion says customer advances help finance production; increased liquidity also reflects convertible funding. Order growth, current revenue and finance-sourced liquidity must remain separate.",
+        "source_ids": [
+          "aixtron"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Historical growth and the latest household purchasing power give different signals.",
+        "transmission": "Quarterly GDP can remain strong while monthly real consumption stalls; inflation affects financing, real budgets and valuation through different channels. Neither observation alone resolves the next policy decision.",
+        "confidence": "inference",
+        "alternatives": "Advance GDP can be revised and a single month may be noisy. Investment, inventories and sector mix can offset household weakness; no numerical causal share for an index move is established.",
+        "source_ids": [
+          "gdp-actual",
+          "pce-actual",
+          "ecb-actual"
+        ]
+      },
+      {
+        "explanation": "NVIDIA / AI Infrastructure: optical networks add concrete supplier evidence.",
+        "transmission": "AIXTRON links laser-equipment demand to AI data-centre communications. This supports watching optical component manufacturing alongside HBM/memory, foundry/advanced packaging, racks, networking, power delivery/grid equipment, cooling and generation. It does not establish a new NVIDIA purchase, market-wide shortage or winner across every layer.",
+        "confidence": "inference",
+        "alternatives": "Earlier preliminary disclosure means order momentum is not wholly new today. Orders can be delayed or cancelled; customer advances and convertible financing differ from recurring customer profit. Growing capacity may relieve bottlenecks or overshoot utilization. No circular-financing conclusion follows without counterparty-level cash reconciliation.",
+        "source_ids": [
+          "aixtron",
+          "cat-actual"
+        ]
+      },
+      {
+        "explanation": "Policy holds do not settle forward rate or earnings expectations.",
+        "transmission": "The ECB retained its rates and data-dependent framework. The release itself does not promise a December hike. Company earnings, customer expectations and capitalization can diverge even when reported revenue rises.",
+        "confidence": "inference",
+        "alternatives": "Expected decisions may already be priced. FX, duration, regional weights, positioning and different quote clocks can explain reactions without a single dominant policy catalyst. A synchronized rates/FX panel remains missing.",
+        "source_ids": [
+          "ecb-actual",
+          "now-actual",
+          "us-intraday"
+        ]
+      },
+      {
+        "explanation": "Diplomacy / humanitarian attribution: a letter is not a peace settlement.",
+        "transmission": "Reuters29 October reports Trump described Vance’s outreach as medical-supply assistance; other media described a bid to revive negotiations, which Reuters could not immediately verify. The letter and original Iranian response were not independently obtained. This is contested diplomatic purpose, not a new verified combat event, deployment or reopened route.",
+        "confidence": "uncertain",
+        "alternatives": "Humanitarian outreach and diplomacy could coexist. Reported intent does not establish implementation or de-escalation. For Singapore/Asia, shipping insurance, aviation routing, energy import costs, supply-chain continuity, cyber resilience and humanitarian access are conditional channels; no new direct local disruption or quantified cost is established here. Confirm with attributable official texts and operator notices, not circulating videos or an incognito-feed sample.",
+        "source_ids": [
+          "iran-letter"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash conversion and broad participation improve",
+        "outcome": "Policy stability and paid productive capacity support a broader, more durable earnings outlook.",
+        "trigger": "Original issuer cash and delivery evidence improves, while matched subsequent sector participation and funding conditions corroborate it.",
+        "invalidation": "Collections weaken, orders cancel, commissioning slips or inflation keeps real budgets and funding under pressure.",
+        "horizon": "30 October releases and the next reporting cycle; no unconditional market or price forecast.",
+        "source_ids": [
+          "aixtron",
+          "pce-actual",
+          "ecb-actual"
+        ]
+      },
+      {
+        "name": "Expectations and capital intensity dominate",
+        "outcome": "Strong historical growth fails to cover the cost or timing of capacity expansion and valuation expectations.",
+        "trigger": "Persistent working-capital financing, weaker utilization or tighter financeability accompanies continued company-specific weakness.",
+        "invalidation": "Recurring operating cash, paid utilization and improving real demand cover investment without growing counterparty dependence.",
+        "horizon": "Next issuer reconciliations and completed US cash sessions.",
+        "source_ids": [
+          "aixtron",
+          "cat-actual",
+          "now-actual"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "29 October US cash close16:00EDT /30 October04:00SGT, followed by closing read; still future at evidence cutoff",
+        "due_at": "2026-10-29T20:00:00Z",
+        "confirms": "Dated final prices and breadth support a distinct completed-session read.",
+        "contradicts": "Only intraday/futures or mismatched clocks are available; no final close can then be certified.",
+        "source_ids": [
+          "nyse-current",
+          "us-intraday"
+        ]
+      },
+      {
+        "signal": "Amazon and Intel29 October after-close results and17:00EDT /30 October05:00SGT calls; obtain originals",
+        "due_at": "2026-10-29T21:00:00Z",
+        "confirms": "Demand, investment obligations, operating cash and delivery detail support productive growth.",
+        "contradicts": "Missing originals, weaker cash, concentration or larger funding commitments leave the claim unresolved.",
+        "source_ids": [
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "signal": "30 October follow-through: optical/power orders, supplier execution and household real demand",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "Paid shipments, utilization and recurring cash corroborate orders; later consumption/revisions support breadth.",
+        "contradicts": "Advances reverse, cancellations grow, output stalls or further price pressure erodes real demand.",
+        "source_ids": [
+          "aixtron",
+          "pce-actual",
+          "gdp-actual"
+        ]
+      },
+      {
+        "signal": "30 October diplomatic clarification and attributable transport/security notices",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "Original statements and operator implementation establish humanitarian access, changed restrictions or documented local effects.",
+        "contradicts": "No implementation, conflicting statements or unchanged transport conditions contradict a breakthrough or imminent-war claim.",
+        "source_ids": [
+          "iran-letter"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T18:08:14Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-29",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "LSE regular-session anchor; continental basket partial and individual halts not certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse-current"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Reported European gains coexist with selective company and funding risks; secondary closes, not a certified pan-European breadth panel.",
+        "indicators": "LSE-anchored FTSE closes and attributed CAC/DAX gains above. No matched final STOXX11-sector panel, volatility, yields, FX or representative opinion survey was obtained.",
+        "source_ids": [
+          "eu-final",
+          "london-final",
+          "ecb-actual"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "AIXTRON Q3 orders were EUR274.9m (+122% year-on-year); roughly68% of equipment orders were optoelectronics. The issuer attributes strength to AI optical communications; these are orders, not end-customer cash.",
+          "implication": "This adds optical manufacturing to the physical-infrastructure watch. It does not show that European technology shares all rose or that NVIDIA placed a new contract.",
+          "watchpoint": "Reconcile shipments, customer advances, utilization and cancellations; compare next disclosures with the earlier preliminary announcement.",
+          "source_ids": [
+            "aixtron"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "US software/customer results remain a cross-border demand input; no complete European communications basket or matched final index retrieved.",
+          "implication": "Customer concentration, cloud investment and product pricing can affect suppliers without establishing a local sector return.",
+          "watchpoint": "Seek issuer-level communications revenue, paid traffic and investment cover.",
+          "source_ids": [
+            "now-actual"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "US September real consumption was effectively flat despite nominal spending growth; it is not a European retail-sales measurement.",
+          "implication": "Export demand and consumer budgets may diverge by country and currency. Higher nominal turnover can reflect prices.",
+          "watchpoint": "Check European volume, discretionary ticket sizes and the later Amazon original results.",
+          "source_ids": [
+            "pce-actual",
+            "amazon"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "The dated28 October Unilever original remains available; no new whole-sector closing basket or fresh consumer-volumes panel verified.",
+          "implication": "Company price/mix and repeat volumes matter more than importing a US household statistic as European demand.",
+          "watchpoint": "Reconcile local volumes, price elasticity, cash and retailer terms.",
+          "source_ids": [
+            "unilever",
+            "pce-actual"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Shell’s29 October original financial release was reviewed earlier; London closing reporting associates strength with energy. It does not establish a single quantified cause for the FTSE move.",
+          "implication": "Producer margins, LNG/refining cash and importer costs differ; diplomatic reporting is not confirmed restored shipping.",
+          "watchpoint": "Match physical supply/operator notices, realized spreads and dated settlement prices before broad energy attribution.",
+          "source_ids": [
+            "shell",
+            "london-final",
+            "iran-letter"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "ECB deposit, refinancing and marginal lending rates remained2.50%,2.65% and2.90%; the original decision avoids precommitting a path.",
+          "implication": "Banks can benefit from margins while borrowers face affordability and credit pressure. A hold is not proof of easier finance or a promised next hike.",
+          "watchpoint": "Watch matched yields/FX, deposit costs, lending demand and subsequent original decisions.",
+          "source_ids": [
+            "ecb-actual"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Lilly’s US results add demand/pricing context, but no complete European healthcare close or local policy/issuer panel was verified.",
+          "implication": "Product mix, payers and currency differ. An overseas earnings release cannot certify European healthcare performance.",
+          "watchpoint": "Obtain original European results and distinguish recurring economics from milestones or rebate estimates.",
+          "source_ids": [
+            "lilly-actual"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Airbus’s dated28 October original remains the European company input; Caterpillar’s29 October group results add overseas equipment context.",
+          "implication": "Backlogs, recognized deliveries and cash timing differ. Strong equipment results are not verification of a specific AI-generation order or a Europe-wide industrial return.",
+          "watchpoint": "Check paid deliveries, supply constraints and investment cash; avoid inferring contract awards from sector narratives.",
+          "source_ids": [
+            "airbus",
+            "cat-actual"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "BASF’s28 October release remains the dated issuer evidence, with statutory/adjusted earnings and cash distinguished; no matched final materials basket obtained.",
+          "implication": "Price, volumes, feedstock and restructuring can pull in different directions even during a broad regional rally.",
+          "watchpoint": "Test realized spreads, volume and working-capital reversal against original cash statements.",
+          "source_ids": [
+            "basf"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "The ECB hold is verified; final European REIT/property breadth and matched bond yields were not retrieved.",
+          "implication": "Financing availability, tenant collections and recurring capital spending determine coverage; policy stability does not establish falling effective borrowing costs.",
+          "watchpoint": "Seek debt maturity, hedging, rental cash and distribution-cover evidence.",
+          "source_ids": [
+            "ecb-actual"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "AI-related power-electronics interest in AIXTRON’s release is equipment demand, not a new utility tariff decision, connected capacity or power-sale contract.",
+          "implication": "Generation/grid/cooling beneficiaries require permitting, commissioning and financeable cost recovery.",
+          "watchpoint": "Check connection dates, tariffs, utilization and fuel/maintenance costs; no complete utility close available.",
+          "source_ids": [
+            "aixtron"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Asian optical, memory and equipment suppliers may receive demand, while financing and import costs can offset it. Foreign supplier orders are not local booked revenue.",
+          "trigger": "Original local cash/delivery evidence and honestly timed observations corroborate the specific channel.",
+          "invalidation": "Different currency, hedges, business mix, weaker execution or contrary local data breaks the proposed transmission.",
+          "source_ids": [
+            "aixtron",
+            "pce-actual",
+            "ecb-actual"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Singapore data centres, industrial capacity and importers face different power, funding and utilization exposures. No new direct local disruption, order or sector return is established.",
+          "trigger": "Original local cash/delivery evidence and honestly timed observations corroborate the specific channel.",
+          "invalidation": "Different currency, hedges, business mix, weaker execution or contrary local data breaks the proposed transmission.",
+          "source_ids": [
+            "aixtron",
+            "pce-actual",
+            "ecb-actual"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "US customer budgets and capital intensity can validate or weaken European supplier orders; no closing outcome follows from the overseas close.",
+          "trigger": "Original local cash/delivery evidence and honestly timed observations corroborate the specific channel.",
+          "invalidation": "Different currency, hedges, business mix, weaker execution or contrary local data breaks the proposed transmission.",
+          "source_ids": [
+            "aixtron",
+            "pce-actual",
+            "ecb-actual"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-29-us-open-delayed-catch-up",
+    "title": "US opening catch-up — concentrated AI selling meets strong GDP and weak latest real spending",
+    "summary": "29 October opening context recovered with later ongoing-cash evidence, never a reconstructed pre-open call. GDP/PCE actuals, earnings and capital-intensity alternatives are explicit; US close and after-hours results remain future. All11sectors retained.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-29T18:08:14Z",
+    "updated_at": "2026-10-29T18:08:14Z",
+    "cutoff_at": "2026-10-29T18:08:14Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "aixtron",
+        "title": "29 October original issuer public HTML successfully read; confirms earlier preliminary order momentum and adds composition/cash detail",
+        "publisher": "AIXTRON",
+        "url": "https://www.aixtron.com/en/investors/news/finance-news/AI-driven%20demand%20fuels%20strong%20order%20momentum_n6508801",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "amazon",
+        "title": "15 October issuer notice:29 October17:00 Eastern call, not actual results",
+        "publisher": "Amazon",
+        "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+        "published_at": "2026-10-15",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "basf",
+        "title": "28 October original Q3 release read: statutory/adjusted earnings, prices/volumes and cash differ",
+        "publisher": "BASF",
+        "url": "https://www.basf.com/global/en/media/news-releases/2026/10/p-26-180",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "cat-actual",
+        "title": "29 October original corporate results summary read; no specific AI-power order inferred from group figures",
+        "publisher": "Caterpillar",
+        "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/3q26-results-caterpillar-inc.html",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:46Z"
+      },
+      {
+        "id": "ecb-actual",
+        "title": "29 October actual decision; original English public HTML successfully read, not a forecast",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+        "published_at": "2026-10-29T13:15:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "ftnt-actual",
+        "title": "28 October16:05EDT original earnings release indexed body; direct reader opened issuer page; adjusted cash and authorisation distinct",
+        "publisher": "Fortinet",
+        "url": "https://investor.fortinet.com/news-releases/news-release-details/fortinet-reports-strong-third-quarter-2026-financial-results",
+        "published_at": "2026-10-28T20:05:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "gdp-actual",
+        "title": "Advance Q3 GDP: original BEA public HTML read; quarterly annualized rates and revisability retained",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+        "published_at": "2026-10-29T12:30:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:40Z"
+      },
+      {
+        "id": "intel",
+        "title": "6 October issuer notice:29 October after-close results,14:00 PDT call; future at cutoff",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/news-events/press-releases/detail/1782/intel-to-report-third-quarter-2026-financial-results",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "iran-letter",
+        "title": "29 October15:38:59UTC Reuters indexed body: attributed disagreement over letter purpose; letter/original responses not independently obtained",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/vance-outreach-iran-related-medical-supplies-says-trump-2026-10-29/",
+        "published_at": "2026-10-29T15:38:59Z",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "lilly-actual",
+        "title": "29 October original financial release read; reported/adjusted earnings and one-time revenue benefits distinguished",
+        "publisher": "Eli Lilly",
+        "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:02:34Z"
+      },
+      {
+        "id": "now-actual",
+        "title": "28 October original earnings release read; management guidance is not matched consensus or independently verified AI productivity",
+        "publisher": "ServiceNow",
+        "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "nyse-current",
+        "title": "Official business calendar and09:30–16:00Eastern core session read;29 October not a listed closure; individual halts not certified",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "pce-actual",
+        "title": "September income/outlays original public HTML read; monthly, year-on-year and quarterly measures distinct",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+        "published_at": "2026-10-29T12:30:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:40Z"
+      },
+      {
+        "id": "shell",
+        "title": "29 October07:00GMT unaudited original issuer results, normal public HTML retrieved after reader failure",
+        "publisher": "Shell",
+        "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+        "published_at": "2026-10-29T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:09Z"
+      },
+      {
+        "id": "us-intraday",
+        "title": "29 October updated Reuters indexed body; ongoing cash, exact quote clocks unavailable; normal public download401 not bypassed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-slide-mixed-big-tech-results-test-ai-trade-2026-10-29/",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "us-open-record",
+        "title": "29 October Reuters opening report syndication indexed; direct reader failed; no certified opening levels retrieved",
+        "publisher": "Reuters / Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/wall-st-falls-at-open-as-alphabet-results-reignite-ai-spending-fears-4984047",
+        "published_at": "2026-10-29",
+        "type": "secondary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "This recovers the29 October09:15EDT opening-context target after the09:30cash open using actual later research time 2026-10-29T18:08:14Z. It is not a historical pre-open observation or an exact opening-price certification. The NYSE core session is09:30–16:00EDT; the cash close remains future.",
+        "source_ids": [
+          "nyse-current",
+          "us-open-record"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "Reuters’s updated ongoing-cash body reports Nasdaq about−1.2%, S&P500−0.32% and Dow−0.35%, while eight of11S&P sectors advanced. Alphabet was about−11.7%, Lilly above+6%, Caterpillar about−8%, and ServiceNow/Fortinet more than20% lower. Exact quote clocks were unavailable: these are attributed intraday snapshots, not closing prices, synchronized comparisons or proof of a single cause.",
+        "source_ids": [
+          "us-intraday"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "September income and nominal disposable income each increased0.2% month-on-month. Real disposable income declined, and real spending was nearly flat. The saving rate was3.8%. The original release is separate from the quarterly GDP release; no forecast has been passed off as an actual.",
+        "source_ids": [
+          "pce-actual"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The ECB decision is an actual overseas policy input, not a US policy decision. Advance GDP’s3.4% annualized growth does not equal year-on-year growth, and September inflation must not be conflated with quarterly annualized PCE prices.",
+        "source_ids": [
+          "ecb-actual",
+          "gdp-actual"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Historical growth and the latest household purchasing power give different signals.",
+        "transmission": "Quarterly GDP can remain strong while monthly real consumption stalls; inflation affects financing, real budgets and valuation through different channels. Neither observation alone resolves the next policy decision.",
+        "confidence": "inference",
+        "alternatives": "Advance GDP can be revised and a single month may be noisy. Investment, inventories and sector mix can offset household weakness; no numerical causal share for an index move is established.",
+        "source_ids": [
+          "gdp-actual",
+          "pce-actual",
+          "ecb-actual"
+        ]
+      },
+      {
+        "explanation": "NVIDIA / AI Infrastructure: optical networks add concrete supplier evidence.",
+        "transmission": "AIXTRON links laser-equipment demand to AI data-centre communications. This supports watching optical component manufacturing alongside HBM/memory, foundry/advanced packaging, racks, networking, power delivery/grid equipment, cooling and generation. It does not establish a new NVIDIA purchase, market-wide shortage or winner across every layer.",
+        "confidence": "inference",
+        "alternatives": "Earlier preliminary disclosure means order momentum is not wholly new today. Orders can be delayed or cancelled; customer advances and convertible financing differ from recurring customer profit. Growing capacity may relieve bottlenecks or overshoot utilization. No circular-financing conclusion follows without counterparty-level cash reconciliation.",
+        "source_ids": [
+          "aixtron",
+          "cat-actual"
+        ]
+      },
+      {
+        "explanation": "Policy holds do not settle forward rate or earnings expectations.",
+        "transmission": "The ECB retained its rates and data-dependent framework. The release itself does not promise a December hike. Company earnings, customer expectations and capitalization can diverge even when reported revenue rises.",
+        "confidence": "inference",
+        "alternatives": "Expected decisions may already be priced. FX, duration, regional weights, positioning and different quote clocks can explain reactions without a single dominant policy catalyst. A synchronized rates/FX panel remains missing.",
+        "source_ids": [
+          "ecb-actual",
+          "now-actual",
+          "us-intraday"
+        ]
+      },
+      {
+        "explanation": "Diplomacy / humanitarian attribution: a letter is not a peace settlement.",
+        "transmission": "Reuters29 October reports Trump described Vance’s outreach as medical-supply assistance; other media described a bid to revive negotiations, which Reuters could not immediately verify. The letter and original Iranian response were not independently obtained. This is contested diplomatic purpose, not a new verified combat event, deployment or reopened route.",
+        "confidence": "uncertain",
+        "alternatives": "Humanitarian outreach and diplomacy could coexist. Reported intent does not establish implementation or de-escalation. For Singapore/Asia, shipping insurance, aviation routing, energy import costs, supply-chain continuity, cyber resilience and humanitarian access are conditional channels; no new direct local disruption or quantified cost is established here. Confirm with attributable official texts and operator notices, not circulating videos or an incognito-feed sample.",
+        "source_ids": [
+          "iran-letter"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash conversion and broad participation improve",
+        "outcome": "Policy stability and paid productive capacity support a broader, more durable earnings outlook.",
+        "trigger": "Original issuer cash and delivery evidence improves, while matched subsequent sector participation and funding conditions corroborate it.",
+        "invalidation": "Collections weaken, orders cancel, commissioning slips or inflation keeps real budgets and funding under pressure.",
+        "horizon": "30 October releases and the next reporting cycle; no unconditional market or price forecast.",
+        "source_ids": [
+          "aixtron",
+          "pce-actual",
+          "ecb-actual"
+        ]
+      },
+      {
+        "name": "Expectations and capital intensity dominate",
+        "outcome": "Strong historical growth fails to cover the cost or timing of capacity expansion and valuation expectations.",
+        "trigger": "Persistent working-capital financing, weaker utilization or tighter financeability accompanies continued company-specific weakness.",
+        "invalidation": "Recurring operating cash, paid utilization and improving real demand cover investment without growing counterparty dependence.",
+        "horizon": "Next issuer reconciliations and completed US cash sessions.",
+        "source_ids": [
+          "aixtron",
+          "cat-actual",
+          "now-actual"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "29 October US cash close16:00EDT /30 October04:00SGT, followed by closing read; still future at evidence cutoff",
+        "due_at": "2026-10-29T20:00:00Z",
+        "confirms": "Dated final prices and breadth support a distinct completed-session read.",
+        "contradicts": "Only intraday/futures or mismatched clocks are available; no final close can then be certified.",
+        "source_ids": [
+          "nyse-current",
+          "us-intraday"
+        ]
+      },
+      {
+        "signal": "Amazon and Intel29 October after-close results and17:00EDT /30 October05:00SGT calls; obtain originals",
+        "due_at": "2026-10-29T21:00:00Z",
+        "confirms": "Demand, investment obligations, operating cash and delivery detail support productive growth.",
+        "contradicts": "Missing originals, weaker cash, concentration or larger funding commitments leave the claim unresolved.",
+        "source_ids": [
+          "amazon",
+          "intel"
+        ]
+      },
+      {
+        "signal": "30 October follow-through: optical/power orders, supplier execution and household real demand",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "Paid shipments, utilization and recurring cash corroborate orders; later consumption/revisions support breadth.",
+        "contradicts": "Advances reverse, cancellations grow, output stalls or further price pressure erodes real demand.",
+        "source_ids": [
+          "aixtron",
+          "pce-actual",
+          "gdp-actual"
+        ]
+      },
+      {
+        "signal": "30 October diplomatic clarification and attributable transport/security notices",
+        "due_at": "2026-10-30T00:00:00Z",
+        "confirms": "Original statements and operator implementation establish humanitarian access, changed restrictions or documented local effects.",
+        "contradicts": "No implementation, conflicting statements or unchanged transport conditions contradict a breakthrough or imminent-war claim.",
+        "source_ids": [
+          "iran-letter"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-29T18:08:14Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-29",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE core cash session; no comprehensive individual halt certification",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse-current"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Concentrated index weakness despite broader positive participation in the attributed Reuters snapshot; neither panic nor an all-clear is established.",
+        "indicators": "Nasdaq versus S&P/Dow divergence and eight of11positive sectors are reported proxies with missing exact quote clocks. No synchronized volatility, rates, currency, whole-sector returns or public-opinion sample obtained.",
+        "source_ids": [
+          "us-intraday",
+          "pce-actual",
+          "gdp-actual"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "ServiceNow Q3 revenue was$4.106bn (+20.5%); Fortinet revenue was$2.08bn (+20%). Management growth and revised guidance coexist with sharply negative reported share reactions; matched consensus was not independently reconciled.",
+          "implication": "AI/cyber product announcements do not independently certify security, productivity or earned cash. Fortinet’s buyback authorisation is permission, not executed repurchases.",
+          "watchpoint": "Reconcile billings, recurring cash, customer renewals and investment; do not label a share fall a breach.",
+          "source_ids": [
+            "now-actual",
+            "ftnt-actual",
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Reuters reports Alphabet fell sharply and Nasdaq weakness concentrated in technology-related companies; a full matched communications basket is absent.",
+          "implication": "Customer AI budgets, advertising, capacity costs and valuation may pull apart. No single numerical cause for the decline is certified.",
+          "watchpoint": "Check original customer cash/capacity commitments and final sector participation.",
+          "source_ids": [
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "September nominal PCE rose0.5% month-on-month while real PCE increased less than0.1%; real disposable income fell0.3%. Amazon actual results are still future at this cutoff.",
+          "implication": "A strong GDP quarter does not eliminate current household purchasing-power pressure or prove all retailers gained volume.",
+          "watchpoint": "Compare original Amazon volume/margins/cash and subsequent real-demand revisions; keep forecasts separate.",
+          "source_ids": [
+            "pce-actual",
+            "amazon"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "September headline PCE prices rose3.6% year-on-year and core3.1%, with monthly changes0.5% and0.3%. No complete staples-sector price or volume panel was obtained.",
+          "implication": "Price-led nominal spending can coexist with constrained real budgets; brand and retailer bargaining power must be checked separately.",
+          "watchpoint": "Seek unit volumes, promotions, retailer terms and recurring margin/cash data.",
+          "source_ids": [
+            "pce-actual"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Shell’s original overseas release is a dated industry input; no synchronized US energy close or crude settlement was retrieved. The letter-purpose report is contested diplomacy, not restored supply.",
+          "implication": "Oil producers, refiners, transport users and importers face different economics. No new direct Singapore disruption or uniform energy return is established.",
+          "watchpoint": "Require dated settlement/physical-flow evidence and attributable operator notices.",
+          "source_ids": [
+            "shell",
+            "iran-letter"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Reuters’s ongoing-cash body names financials among stronger sectors. No bank-wide cash/credit or synchronized yield panel was retrieved.",
+          "implication": "Relative participation does not prove easier funding; strong aggregate growth and inflation may imply different outcomes for lenders and borrowers.",
+          "watchpoint": "Match final breadth with deposit costs, credit losses, funding and original payment-volume releases.",
+          "source_ids": [
+            "us-intraday",
+            "gdp-actual"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Lilly Q3 revenue was$24.4bn (+39%), including about$900m of specified benefits. Reported EPS7.22 and non-GAAP7.48 both include acquired IPR&D charges. Its new full-year revenue range is guidance, not booked future sales.",
+          "implication": "Historical growth has recurring and nonrecurring components. Adjusted presentation does not mean acquisition-development costs disappear from economics.",
+          "watchpoint": "Separate milestone/rebate estimates, volume/price and ongoing cash; no clinical claim inferred.",
+          "source_ids": [
+            "lilly-actual"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Caterpillar reported Q3 sales$20.7bn (+17%), operating margin20.4% and enterprise operating cash$4.4bn. Reuters nevertheless reports a sharp share decline; a matched consensus/cause is not established.",
+          "implication": "Group equipment strength does not identify AI-power-specific orders. Expectations, mix and capital intensity can matter even when current operating results improve.",
+          "watchpoint": "Check segment orders, dealer inventories, cash investment and original explanations of guidance.",
+          "source_ids": [
+            "cat-actual",
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No complete US materials basket or new domestic realized-spread panel retrieved. BASF is European prior-day issuer evidence, not a substitute.",
+          "implication": "Input costs, industrial demand, currency and inventories can differ by issuer and geography.",
+          "watchpoint": "Obtain dated US volumes, margins and working-capital cash before asserting sector direction.",
+          "source_ids": [
+            "basf"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No matched US property/REIT close or full Treasury curve retrieved; ongoing cash prices cannot certify final sector performance.",
+          "implication": "Inflation, debt refinancing, recurring capex and tenant cash can offset a narrative of policy stability.",
+          "watchpoint": "Check original maturities, occupancy, collections and cash distribution cover.",
+          "source_ids": [
+            "pce-actual"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "AIXTRON’s optical and power-electronics demand is physical supply-chain evidence; it is not a US utility order, rate approval or commissioned grid capacity.",
+          "implication": "Generation, power delivery, cooling and grid spending can grow while permitting, funding and customer utilization constrain returns.",
+          "watchpoint": "Seek local connection schedules, regulator approvals, contract terms and investment cash.",
+          "source_ids": [
+            "aixtron"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Asian optical, memory and equipment suppliers may receive demand, while financing and import costs can offset it. Foreign supplier orders are not local booked revenue.",
+          "trigger": "Original local cash/delivery evidence and honestly timed observations corroborate the specific channel.",
+          "invalidation": "Different currency, hedges, business mix, weaker execution or contrary local data breaks the proposed transmission.",
+          "source_ids": [
+            "aixtron",
+            "pce-actual",
+            "ecb-actual"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Singapore data centres, industrial capacity and importers face different power, funding and utilization exposures. No new direct local disruption, order or sector return is established.",
+          "trigger": "Original local cash/delivery evidence and honestly timed observations corroborate the specific channel.",
+          "invalidation": "Different currency, hedges, business mix, weaker execution or contrary local data breaks the proposed transmission.",
+          "source_ids": [
+            "aixtron",
+            "pce-actual",
+            "ecb-actual"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European optical/equipment suppliers and energy importers may react differently to US customer spending and inflation; ECB and local cash remain separate drivers.",
+          "trigger": "Original local cash/delivery evidence and honestly timed observations corroborate the specific channel.",
+          "invalidation": "Different currency, hedges, business mix, weaker execution or contrary local data breaks the proposed transmission.",
+          "source_ids": [
+            "aixtron",
+            "pce-actual",
+            "ecb-actual"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-29-singapore-close-delayed",
     "title": "Singapore closing read — early gains fade; company risks outweigh a near-flat index",
     "summary": "29 October completed-session context, recovered with actual evidence cutoff 20:09:26 SGT. Delayed observations, source periods and gaps are explicit. All11sectors reviewed or marked incomplete; US opening/data and ECB outcomes remain future.",
