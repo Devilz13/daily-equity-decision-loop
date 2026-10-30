@@ -1,6 +1,6 @@
 # DEDL public coverage handoff
 
-Prepared30 October2026 with evidence cutoff **2026-10-30T00:07:03Z /08:07:03SGT**. Public coverage/source status only; earlier editions, corrections and verification history remain in Git.
+Live acceptance verified30 October2026,08:10:29SGT; evidence cutoff **2026-10-30T00:07:03Z /08:07:03SGT**. Public coverage/source status only; earlier editions, corrections and verification history remain in Git.
 
 ## New issue and distinct reports
 
@@ -21,4 +21,4 @@ Prepared30 October2026 with evidence cutoff **2026-10-30T00:07:03Z /08:07:03SGT*
 
 - Eight26 October open/close windows across allfourdesks remain unresolved/calendar-qualified; rolling audit pruning is not repair. Current Asian/SGX prices, matched rates/FX/gold/volatility, full sector baskets, primary final ticks, original UltraGreen.ai update and Thursday Parliament access remain incomplete. Singapore30 October08:45opening-context target and actual BOJ decision remain future/unverified at cutoff; official BOJ publication time is undecided.
 - Earlier27 October Europe opening and Singapore closing reports, and29 October Europe close/US opening, were rechecked at their exact live URLs with expected titles. These are actual live records, not configuration evidence; original delayed cutoffs remain unchanged.
-- Local42tests, sender dry-run, build,112-page links/artifact, editorial/context, immutable archive history and diff checks passed. Separate evidence/privacy review checked dates/periods, currency/adjustments, preliminary/final/after-hours, source access, political attribution and conditional local effects. Hosted deployment and new daily Telegram acceptance remain pending; prepared content is not claimed delivered. Preserve accepted older publication keys and reconcile uncertain acceptance before any retry.
+- Local42tests, sender dry-run, build,112-page links/artifact, editorial/context, immutable archive history and diff checks passed. Separate evidence/privacy review checked dates/periods, currency/adjustments, preliminary/final/after-hours, source access, political attribution and conditional local effects. Hosted validation/history/Pages completed successfully. Exact Issue044, US-close and Asia-opening URLs returned HTTP200 with expected titles/cutoff markers at08:10:29SGT; the issue carried its exact new delivery marker. Promotions page also returned HTTP200 with the new verification timestamp. Telegram API accepted the new daily edition at08:10:01SGT; acceptance is not subscriber receipt/read confirmation. Preserve this accepted publication key unchanged and reconcile uncertain acceptance before any retry; no session digest or duplicate daily send. These release observations do not prove future execution.
