@@ -7,13 +7,17 @@
   },
   "offers": [
     {
-      "verified_at": "2026-10-28T00:10:02Z",
-      "review_due_at": "2026-10-29T00:10:02Z",
+      "verified_at": "2026-10-30T00:07:03Z",
+      "review_due_at": "2026-10-31T00:07:03Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-28T00:10:02Z",
           "change": "Application/approval dates, eligibility, qualifying spend, PayLah! condition and exclusions rechecked against the official PDF; substantive terms unchanged."
+        },
+        {
+          "at": "2026-10-30T00:07:03Z",
+          "change": "Original official acquisition PDF rechecked: application/approval dates, principal-card lookback, spend window, eligibility, exclusions and fulfilment/retention conditions. Substantive recorded terms unchanged."
         }
       ],
       "id": "dbs-posb-cash288-oct2026",
@@ -35,13 +39,17 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-29T00:11:57Z",
-      "review_due_at": "2026-10-30T00:11:57Z",
+      "verified_at": "2026-10-30T00:07:03Z",
+      "review_due_at": "2026-10-31T00:07:03Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-29T00:11:57Z",
           "change": "Official October welcome-gift PDF rechecked: application channel, 12-month lookback, approval/spend windows, caps, exclusions and retention/clawback. Substantive offer terms unchanged."
+        },
+        {
+          "at": "2026-10-30T00:07:03Z",
+          "change": "Original official acquisition PDF rechecked: application/approval dates, principal-card lookback, spend window, eligibility, exclusions and fulfilment/retention conditions. Substantive recorded terms unchanged."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -60,13 +68,17 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-29T00:11:57Z",
-      "review_due_at": "2026-10-30T00:11:57Z",
+      "verified_at": "2026-10-30T00:07:03Z",
+      "review_due_at": "2026-10-31T00:07:03Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-29T00:11:57Z",
           "change": "Official October welcome-gift PDF rechecked: application channel, 12-month lookback, approval/spend windows, caps, exclusions and retention/clawback. Substantive offer terms unchanged."
+        },
+        {
+          "at": "2026-10-30T00:07:03Z",
+          "change": "Original official acquisition PDF rechecked: application/approval dates, principal-card lookback, spend window, eligibility, exclusions and fulfilment/retention conditions. Substantive recorded terms unchanged."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",

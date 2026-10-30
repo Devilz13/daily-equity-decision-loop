@@ -2,8 +2,49 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-29",
+  "latest": "2026-10-30",
   "issues": [
+    {
+      "date": "2026-10-30",
+      "number": 44,
+      "title": "Demand keeps growing; investment must earn its keep",
+      "status": "data incomplete",
+      "path": "issues/2026/10/30/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-30-v1",
+        "delivery_notice": "We apologise for the delayed edition. Evidence cutoff 08:07:03 SGT; US close and Asia opening are distinct delayed reads. Singapore opening context remains future.",
+        "summary": "Issue044 weighs new Amazon/Intel results against investment cash, distinguishes concentrated US losses from broad panic, and reviews Singapore haze, defence diplomacy and cyber evidence. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Amazon cloud growth comes with a wider cash-investment burden",
+            "date": "29 Oct 2026",
+            "context": "Actual Q3 and TTM results are available. Customer growth, operating cash, equipment investment and forecasts remain separate.",
+            "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+          },
+          {
+            "title": "US close: headline losses coexist with positive participation",
+            "date": "29 Oct 2026",
+            "context": "Completed AP prices take precedence over preliminary values. After-hours results are a later information window, not an earlier closing cause.",
+            "source": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2c26b0b1bbc3bfab9f3f4b902172f458"
+          },
+          {
+            "title": "Singapore: haze forecast improves; defence chairmanship handed over",
+            "date": "29 Oct 2026",
+            "context": "Official NEA/MINDEF updates separate forecasts and diplomacy from live readings or combat. No new direct local transport disruption established.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-nr/"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. Two distinct session reads retain all11sectors. Current Asia/SGX prices, matched rates/FX/gold and older coverage gaps remain explicit.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-29",
       "number": 43,
