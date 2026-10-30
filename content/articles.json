@@ -1,5 +1,594 @@
 [
   {
+    "id": "2026-10-30-singapore-open-delayed-catch-up",
+    "title": "Singapore opening catch-up — dated weakness, BOJ hold and a separate ETF-sale change",
+    "summary": "30 October opening context recovered with actual later evidence. Early SGX/vendor snapshots are not current afternoon quotes or BOJ reaction tests. Original BOJ rate/disposal decisions, forward London/US watchpoints, all11sectors and gaps retained.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-30T06:07:15Z",
+    "updated_at": "2026-10-30T06:07:15Z",
+    "cutoff_at": "2026-10-30T06:07:15Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "amazon-actual",
+        "title": "29 October actual quarter/TTM tables read through original public HTML; forecasts and investment marks distinct",
+        "publisher": "Amazon",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-30T00:00:46Z"
+      },
+      {
+        "id": "bls-eci",
+        "title": "Original BLS October schedule read:30 October08:30Eastern ECI release; future at cutoff",
+        "publisher": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
+        "published_at": "2026-02-18",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "boj-actual",
+        "title": "Original30 October statement PDF downloaded normally and text read; release12:02JST shown on page3",
+        "publisher": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+        "published_at": "2026-10-30T03:02:00Z",
+        "accessed_at": "2026-10-30T06:04:16Z",
+        "type": "primary"
+      },
+      {
+        "id": "boj-outlook",
+        "title": "Original30 October underlying-inflation/outlook reference read; forecasts and staff estimates distinct from realized prices",
+        "publisher": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030b.pdf",
+        "published_at": "2026-10-30T03:02:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "boj-sales",
+        "title": "Original one-page ETF disposal reference read and table visually checked; book and market-value bases differ",
+        "publisher": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030c.pdf",
+        "published_at": "2026-10-30T03:02:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "bos-release",
+        "title": "29 October issuer press-release syndication indexed; original bank-hosted release not retrieved, closed subscription not new current offer",
+        "publisher": "Bank of Singapore via The Asian Banker",
+        "url": "https://www.theasianbanker.com/press-releases/bank-of-singapore-expands-private-markets-offering-with-asia-pacific-data-centre-fund",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "secondary"
+      },
+      {
+        "id": "bos-report",
+        "title": "29 October12:02SGT press report of bank response; amount/terms not reconciled to original bank/fund documents",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/finance/singapore/story20261029-9913309",
+        "published_at": "2026-10-29T04:02:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "secondary"
+      },
+      {
+        "id": "cict",
+        "title": "Original 29 October 07:00 business-update PDF; text extracted from normal public download; financial pages checked",
+        "publisher": "CICT",
+        "url": "https://investor.cict.com.sg/newsroom/20261029_070044_C38U_3PQVW1J3DJO49A76.1.pdf",
+        "published_at": "2026-10-28T23:00:44Z",
+        "accessed_at": "2026-10-29T06:07:29Z",
+        "type": "primary"
+      },
+      {
+        "id": "intel-actual",
+        "title": "29 October original issuer-hosted SEC Exhibit99.1 read; intersegment eliminations and adjusted measures retained",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-30T00:00:46Z"
+      },
+      {
+        "id": "keppel",
+        "title": "29 October voluntary 3Q/9M update; original issuer HTML read, group and New Keppel definitions differ",
+        "publisher": "Keppel",
+        "url": "https://www.keppel.com/media/keppels-business-update-for-3q--9m-2026/",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:07:30Z",
+        "type": "primary"
+      },
+      {
+        "id": "lse-forward",
+        "title": "Official business-day calendar read;30 October not listed as closure; opening context remains future at this cutoff",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "pce-actual",
+        "title": "September income/outlays original public HTML read; monthly, year-on-year and quarterly measures distinct",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+        "published_at": "2026-10-29T12:30:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:01:40Z"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "sg-0911",
+        "title": "Official indexed homepage snapshot explicitly30 October09:11SGT; direct reader shell, not a live14:00tick",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/?lang=en",
+        "published_at": "2026-10-30T01:11:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "sg-0912",
+        "title": "30 October full secondary body read;09:12SGT observations; not synchronized with SGX09:11 or the afternoon",
+        "publisher": "Business Today",
+        "url": "https://www.businesstoday.com.my/2026/10/30/singapore-shares-open-lower-sti-slips-0-01/",
+        "published_at": "2026-10-30T01:12:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sg-0958",
+        "title": "Officially unverified vendor index extract at09:58SGT; direct reader challenge not bypassed",
+        "publisher": "SGinvestors.io",
+        "url": "https://sginvestors.io/market/ftse-st-indices-straits-times-index-constituents",
+        "published_at": "2026-10-30T01:58:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sg-1210",
+        "title": "Vendor indexed intraday snapshot explicitly12:10Singapore time; not current afternoon or final",
+        "publisher": "LiveIndex",
+        "url": "https://liveindex.org/sti/",
+        "published_at": "2026-10-30T04:10:00Z",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sg-holidays-new",
+        "title": "Official2026 gazetted holidays read;30 October not listed; individual security halts not comprehensively checked",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "sg-hours-new",
+        "title": "Official indexed SGX hours/2026 half-days; direct reader returned unsupported-browser shell",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "siew-programme",
+        "title": "Official30 October Day5 indexed programme; direct reader failed; agenda is not a permit, deployed generator or verified outcome",
+        "publisher": "Singapore International Energy Week",
+        "url": "https://www.siew.gov.sg/siew-2026/day-5-30-october-2026",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T06:07:15Z",
+        "type": "primary"
+      },
+      {
+        "id": "ultra-identity",
+        "title": "Prior SGX original announcement verifies issuer, ISIN and ULG/UGS securities; not today’s results",
+        "publisher": "UltraGreen.ai / SGX",
+        "url": "https://links.sgx.com/1.0.0/corporate-announcements/XAGK5AQWW8TW7U62",
+        "published_at": "2026-08-12T11:09:19Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      },
+      {
+        "id": "ultra-results",
+        "title": "29 October08:47 SGT indexed business-update report; original current business-update filing not retrieved",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/ultragreen-ai-q3-revenue-43-9-expects-fy2026-revenue-fall-short-guidance",
+        "published_at": "2026-10-29T00:47:00Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "secondary"
+      },
+      {
+        "id": "wilmar",
+        "title": "Original executive financial summary for quarter ended30 September; SGX PDF text read",
+        "publisher": "Wilmar / SGX",
+        "url": "https://links.sgx.com/FileOpen/WIL%203Q2026%20Executive%20Financial%20Summary_28.10.2026.ashx?App=Announcement&FileID=909522",
+        "published_at": "2026-10-28T09:40:11Z",
+        "accessed_at": "2026-10-29T06:09:54Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "kind": "fact",
+        "text": "This recovers the30 October08:45SGT opening-context target after the09:00cash open using actual evidence cutoff 2026-10-30T06:07:15Z. The SGX official indexed hours and MOM calendar support a regular-session anchor; the direct SGX reader returned a browser shell. No comprehensive security-halt check or current afternoon consolidated price panel was obtained.",
+        "source_ids": [
+          "sg-hours-new",
+          "sg-holidays-new"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The official indexed SGX09:11SGT snapshot shows STI5,393.92 (−0.04%),83advancers/132decliners and61.67msecurities/S$134.24mvalue. Business Today reports09:12STI5,395.35 (−0.01%) with the same reported breadth/turnover. These are different observation times, not synchronized contradictions or final prices. Neither is a14:00reading.",
+        "source_ids": [
+          "sg-0911",
+          "sg-0912"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The SGinvestors09:58indexed observation is STI5,380.54 (−0.29%); LiveIndex’s12:10Singapore-time row is5,374.14 (−0.41%). Direct SGinvestors access was challenged and not bypassed. These later vendor snapshots are dated intraday context, not certified opening ticks, primary finals or current afternoon quotes. Changes across sources/clocks cannot be turned into an investor total return.",
+        "source_ids": [
+          "sg-0958",
+          "sg-1210"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The BOJ’s original statement was released30 October12:02JST /11:02SGT. It retained the overnight call-rate guideline around1.25% by8–1; Takata preferred1.5%. The early Singapore snapshots above predate that actual decision and cannot establish its realized effect. Governor remarks and matched subsequent rates/FX are a separate information test.",
+        "source_ids": [
+          "boj-actual",
+          "sg-0911",
+          "sg-0912",
+          "sg-0958"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "In a separate unanimous decision, the BOJ increased the planned annual ETF sale pace from aboutJPY330bn toJPY860bn on a book-value basis, effectiveJanuary2027. Its indicative market-value equivalent is aboutJPY2,460bn. These values must not be mixed. J-REIT sales stay aboutJPY5bn annually at book value. Temporary adjustment or suspension remains possible; this is not an immediate liquidation or a Singapore ETF/REIT rule.",
+        "source_ids": [
+          "boj-sales",
+          "boj-actual"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "The BOJ outlook reference describes underlying inflation as broadly consistent with2% and price risks skewed upward. Energy, AI demand and FX enter its risk discussion; forecasts and staff estimates are not realized inflation or a guaranteed future policy decision.",
+        "source_ids": [
+          "boj-outlook"
+        ]
+      },
+      {
+        "kind": "fact",
+        "text": "BLS schedules Q3 Employment Cost Index for30 October08:30EDT /20:30SGT. The actual release is future at cutoff. London’s07:45GMT /15:45SGT opening-context target is also future; no Europe opening report or historical opening observation is invented here. UK/US daylight saving are handled independently.",
+        "source_ids": [
+          "bls-eci",
+          "lse-forward"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Early weakness and a later policy decision are different clocks.",
+        "transmission": "Negative early breadth is observed, while index concentration, prior US results, expected policy and positioning are plausible drivers. The early observations preceded the actual BOJ announcement. A later vendor decline alone cannot quantify the BOJ effect.",
+        "alternatives": "Different vendor methodologies, ticks, weights and update times can explain small discrepancies. Without synchronized local rates/FX and sector breadth, neither one catalyst nor a universal selloff is certified.",
+        "source_ids": [
+          "sg-0911",
+          "sg-0912",
+          "sg-0958",
+          "sg-1210",
+          "boj-actual"
+        ],
+        "confidence": "inference"
+      },
+      {
+        "explanation": "A rate hold is compatible with a change in asset-disposal policy.",
+        "transmission": "The BOJ rate guideline and future ETF disposal pace are separate decisions. Japanese risk premia, funding, FX and allocation could transmit to Singapore banks, property and funds through different channels. Book value, market value and completed sale flows differ.",
+        "alternatives": "Market depth, gradual implementation and permitted adjustments may absorb flows. Expected decisions may already be priced. No automatic Singapore price decline or change to SGX fund terms follows.",
+        "source_ids": [
+          "boj-actual",
+          "boj-sales",
+          "boj-outlook"
+        ],
+        "confidence": "inference"
+      },
+      {
+        "explanation": "NVIDIA / AI Infrastructure: financing demand is not productive capacity.",
+        "transmission": "The29 October Bank of Singapore release syndication describes a closed subscription into a private Keppel data-centre access fund. It supports interest in financing the infrastructure layer, but not a new deployed MW, tenant payment or NVIDIA order. A separate newspaper bank-response report gives an amount that has not been reconciled to original fund documents; no amount or return assumption is adopted.",
+        "alternatives": "This is a29 October event republished on30 October, not a wholly new capital commitment today. Investor appetite may fund productive growth, or returns may be limited by fees, power, leverage, deployment timing and utilization. A closed private-market vehicle is not a retail ETF substitute.",
+        "source_ids": [
+          "bos-release",
+          "bos-report",
+          "keppel"
+        ],
+        "confidence": "inference"
+      },
+      {
+        "explanation": "An energy programme describes topics, not execution.",
+        "transmission": "SIEW’s official Day5 programme discusses nuclear readiness, AI electricity demand, grids and institutional/financing foundations. It is useful public agenda evidence, not proof Singapore has approved a nuclear plant, deployed an SMR or solved grid/cooling constraints.",
+        "alternatives": "Research and readiness can improve future optionality while taking years to become executable. Demand may be met through other generation, efficiency or imports. No new supply contract or beneficiary qualification is established by a conference agenda.",
+        "source_ids": [
+          "siew-programme"
+        ],
+        "confidence": "uncertain"
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash and usable infrastructure validate growth",
+        "outcome": "Customer spending translates into paid utilization and financeable supply across selected infrastructure layers.",
+        "trigger": "Original operating cash, accepted deliveries, power connections and recurring cash improve.",
+        "invalidation": "Idle capacity, weak collections, delays or rising financing dependence outweigh growth.",
+        "horizon": "Next original issuer disclosures and30 October completed sessions; no price target.",
+        "source_ids": [
+          "amazon-actual",
+          "intel-actual",
+          "keppel"
+        ]
+      },
+      {
+        "name": "Funding and valuation pressures persist",
+        "outcome": "Inflation/funding or execution risk offsets growth and investment appetite.",
+        "trigger": "Matched rates/FX and issuer cash show increased financing strain or weaker utilization.",
+        "invalidation": "Benign funding, gradual absorption of policy changes and recurring cash coverage improve.",
+        "horizon": "30 October actual ECI and later policy/flow implementation, includingJanuary2027.",
+        "source_ids": [
+          "boj-sales",
+          "boj-outlook",
+          "bls-eci"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "30 October15:45SGT Europe opening-context target remains future; read actual calendar/observations when due",
+        "due_at": "2026-10-30T07:45:00Z",
+        "confirms": "Honestly timed local opening data and issuer evidence support a distinct Europe read.",
+        "contradicts": "Only old closes or current evidence mislabelled as historical pre-open is available.",
+        "source_ids": [
+          "lse-forward"
+        ]
+      },
+      {
+        "signal": "30 October20:30SGT US Employment Cost Index; no actual value asserted yet",
+        "due_at": "2026-10-30T12:30:00Z",
+        "confirms": "Original wage/benefit detail and subsequent matched financing observations support the inflation transmission.",
+        "contradicts": "Contrary actual detail, revisions or missing original access leave the interpretation unresolved.",
+        "source_ids": [
+          "bls-eci"
+        ]
+      },
+      {
+        "signal": "30 October Singapore completed close, after trade-at-close; current snapshots are not final",
+        "due_at": "2026-10-30T09:30:00Z",
+        "confirms": "Dated final prices, breadth and original issuer evidence support a distinct closing read.",
+        "contradicts": "Only earlier snapshots or unverified final rows are available.",
+        "source_ids": [
+          "sg-hours-new"
+        ]
+      },
+      {
+        "signal": "January2027 BOJ ETF-sale pace implementation; verify actual flows and any adjustment",
+        "due_at": "2027-01-04T00:00:00Z",
+        "confirms": "Official implementation and realized flow data match the announced pace/basis over an appropriate period.",
+        "contradicts": "Adjustment, suspension, different realized flow or misidentified valuation basis undermines the mechanical-supply thesis.",
+        "source_ids": [
+          "boj-sales",
+          "boj-actual"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-30T06:07:15Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-10-30",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX cash regular-session anchor; official indexed hours/MOM holidays, individual halts not exhaustive",
+          "status": "verified-session",
+          "source_ids": [
+            "sg-hours-new",
+            "sg-holidays-new"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Early negative reported breadth, followed by lower dated vendor index observations; limited evidence, not broad panic or a certified afternoon sector view.",
+        "indicators": "09:11SGT83advancers/132decliners is an early-session proxy. No current comprehensive breadth, matched yield/FX/gold/volatility or representative opinion sample obtained.09:11/09:12/09:58/12:10snapshots must not be synchronized artificially.",
+        "source_ids": [
+          "sg-0911",
+          "sg-0912",
+          "sg-0958",
+          "sg-1210"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "finding": "Business Today’s09:12dated active-stock list includes AEM atS$7.42; prior Samsung/Intel evidence concerns overseas supply and demand, not a full SGX tech return.",
+          "implication": "AI equipment demand can support suppliers while capital intensity, substrate/memory availability and customer cash remain constraints.",
+          "watchpoint": "Seek original local orders, margins, acceptance and cash rather than infer an all-sector result.",
+          "source_ids": [
+            "sg-0912",
+            "samsung",
+            "intel-actual"
+          ],
+          "status": "reviewed"
+        },
+        {
+          "sector": "Communication Services",
+          "finding": "No complete fresh Singapore communications basket or new local telecom cash disclosure was verified.",
+          "implication": "Overseas cloud spending may affect connectivity, but local pricing, debt and investment determine returns.",
+          "watchpoint": "Check paid traffic, pricing and recurring capex; no local sector return inferred.",
+          "source_ids": [
+            "amazon-actual"
+          ],
+          "status": "data-incomplete"
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "finding": "No complete local discretionary price/volume or current consumer panel obtained. The morning US-real-spend evidence remains overseas context.",
+          "implication": "Energy, currency and affordability could affect demand; nominal platform sales are not local real consumption.",
+          "watchpoint": "Seek local volumes, tourism/spend and margins before making demand claims.",
+          "source_ids": [
+            "pce-actual"
+          ],
+          "status": "data-incomplete"
+        },
+        {
+          "sector": "Consumer Staples",
+          "finding": "Business Today’s early active-stock row includes Wilmar atS$3.06; its original29 October-period evidence remains dated background.",
+          "implication": "An active-stock quote does not measure unit demand or earnings attribution. Environmental/legal claims require original evidence.",
+          "watchpoint": "Verify volumes, pricing, cash and regulator/company statements; no broad staples return inferred.",
+          "source_ids": [
+            "sg-0912",
+            "wilmar"
+          ],
+          "status": "reviewed"
+        },
+        {
+          "sector": "Energy",
+          "finding": "SIEW’s official30 October programme covers nuclear readiness and AI/grid themes; no new project permit, generation contract or local energy-sector price basket verified.",
+          "implication": "Strategic interest can support long-run capacity options while permitting, fuel, finance and execution constrain realized supply.",
+          "watchpoint": "Require original approvals, financing and energized output; keep agenda and actual outcomes distinct.",
+          "source_ids": [
+            "siew-programme"
+          ],
+          "status": "data-incomplete"
+        },
+        {
+          "sector": "Financials",
+          "finding": "The09:12secondary row reports DBS S$73.60, OCBC S$29.36 and UOB S$41.58. These early observations are not afternoon bank valuations. BOJ’s later rate/disposal decisions are verified separately.",
+          "implication": "Bank weights, funding, FX and asset marks can diverge. A rate hold abroad does not certify easier local finance or a particular bank’s return.",
+          "watchpoint": "Match original bank exposure, deposit costs and credit data with later rates/FX.",
+          "source_ids": [
+            "sg-0912",
+            "boj-actual"
+          ],
+          "status": "reviewed"
+        },
+        {
+          "sector": "Health Care",
+          "finding": "No matched current healthcare basket or original new UltraGreen.ai business update retrieved; the prior identity and access gap remain explicit.",
+          "implication": "A dated secondary guidance story cannot certify current cash, pricing or ownership.",
+          "watchpoint": "Obtain the original business update, customer/margin detail and exact currency/share-class identity.",
+          "source_ids": [
+            "ultra-results",
+            "ultra-identity"
+          ],
+          "status": "data-incomplete"
+        },
+        {
+          "sector": "Industrials",
+          "finding": "The early list includes Yangzijiang atS$4.58. Keppel’s original29 October operating update is reused with its earlier successful check time.",
+          "implication": "One quote or an access-fund offering cannot establish an industrial sector return, completed project or recurring cash generation.",
+          "watchpoint": "Check paid orders, commissioning, leverage and realized proceeds in originals.",
+          "source_ids": [
+            "sg-0912",
+            "keppel"
+          ],
+          "status": "reviewed"
+        },
+        {
+          "sector": "Materials",
+          "finding": "No complete local materials basket, current metals curves or realized-spread observations obtained.",
+          "implication": "Infrastructure demand may raise inputs, but substitution, inventory and execution can prevent margin benefits.",
+          "watchpoint": "Require issuer volumes, inventories and cash conversion before broad scarcity claims.",
+          "source_ids": [
+            "intel-actual"
+          ],
+          "status": "data-incomplete"
+        },
+        {
+          "sector": "Real Estate",
+          "finding": "Early reported quotes include CICT S$2.30, CLAR S$2.20, MIT S$1.73 and Keppel DC REIT S$2.12. The BOJ leaves Japanese J-REIT disposal pace unchanged; it does not set Singapore trust terms.",
+          "implication": "Property prices, recurring distributable cash and funding are different. Neither overseas ETF policy nor private-fund subscriptions certify a local trust’s return.",
+          "watchpoint": "Reconcile recurring capex, tenant collections, debt, funded powered capacity and payout cover.",
+          "source_ids": [
+            "sg-0912",
+            "cict",
+            "boj-actual"
+          ],
+          "status": "reviewed"
+        },
+        {
+          "sector": "Utilities",
+          "finding": "No fresh local utility tariff/connection or commissioning decision verified. The conference programme is a demand/readiness discussion.",
+          "implication": "Grid, cooling and generation need financeable cost recovery and delivery; no new capacity is inferred from investor interest.",
+          "watchpoint": "Check permits, tariff treatment, fuel, utilization and actual cash investment.",
+          "source_ids": [
+            "siew-programme",
+            "keppel"
+          ],
+          "status": "data-incomplete"
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "BOJ’s hold and future ETF supply can affect regional currency/funding and allocation differently; no uniform Asian equity outcome follows.",
+          "trigger": "Original local data and honestly timed rates/FX, cash or flow observations corroborate the specific channel.",
+          "invalidation": "Different exposure, hedges, gradual implementation, contrary data or missing primary evidence breaks the generalized transmission.",
+          "source_ids": [
+            "boj-actual",
+            "boj-sales",
+            "bls-eci"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Forward London context: assess actual opening prices, cash-sensitive technology/equipment exposures and energy funding; no London session observed yet.",
+          "trigger": "Original local data and honestly timed rates/FX, cash or flow observations corroborate the specific channel.",
+          "invalidation": "Different exposure, hedges, gradual implementation, contrary data or missing primary evidence breaks the generalized transmission.",
+          "source_ids": [
+            "lse-forward",
+            "amazon-actual",
+            "siew-programme"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Forward US context: ECI actual wage/benefit detail can test inflation and financing assumptions alongside already released customer earnings; no US opening observed yet.",
+          "trigger": "Original local data and honestly timed rates/FX, cash or flow observations corroborate the specific channel.",
+          "invalidation": "Different exposure, hedges, gradual implementation, contrary data or missing primary evidence breaks the generalized transmission.",
+          "source_ids": [
+            "boj-actual",
+            "boj-sales",
+            "bls-eci"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-30-asia-open-delayed",
     "title": "Asia opening context — customer cash burden and supply constraints before BOJ",
     "summary": "30 October Japan-anchored opening context with actual research time, current-price gaps and BOJ outcome still unverified. All11sectors retained.",
