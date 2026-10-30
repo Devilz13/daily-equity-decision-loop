@@ -18,7 +18,7 @@
     ],
     "format": "material-update",
     "published_at": "2026-10-30T12:14:11Z",
-    "updated_at": "2026-10-30T12:14:11Z",
+    "updated_at": "2026-10-30T12:18:17Z",
     "cutoff_at": "2026-10-30T12:09:09Z",
     "status": "published",
     "sources": [
@@ -48,6 +48,15 @@
         "published_at": "2026-10-30",
         "accessed_at": "2026-10-30T12:07:14Z",
         "type": "secondary"
+      },
+      {
+        "id": "live-publication",
+        "title": "Exact public report returned HTTP200 with expected title and cutoff; first live check, not exact first-availability proof",
+        "publisher": "DEDL public report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-30-binance-security-incident/",
+        "published_at": "2026-10-30T12:17:22Z",
+        "accessed_at": "2026-10-30T12:17:22Z",
+        "type": "primary"
       }
     ],
     "claims": [
@@ -183,13 +192,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-10-30T12:18:17Z",
+        "reason": "Clarify release preparation versus measured website acceptance; preserve original metadata and archive.",
+        "change": "The retained publication metadata20:14:11SGT records release preparation, not measured first website availability. This exact report was first verified live at2026-10-30T12:17:22Z with HTTP200, expected title and20:09:09SGT evidence cutoff. Exact first availability between preparation and verification was not measured. No exact-cutoff or historical pre-open coverage is claimed.",
+        "source_ids": [
+          "live-publication"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-10-30T12:14:11Z"
+      "reviewed_at": "2026-10-30T12:18:17Z"
     },
     "material_reason": "Material issuer-reported custody/security incident with ongoing withdrawal disruption and potential counterparty/confidence effects; original updated notices provide a verifiable operational change."
   },
@@ -209,7 +227,7 @@
     ],
     "format": "market-close",
     "published_at": "2026-10-30T12:14:11Z",
-    "updated_at": "2026-10-30T12:14:11Z",
+    "updated_at": "2026-10-30T12:18:17Z",
     "cutoff_at": "2026-10-30T12:09:09Z",
     "status": "published",
     "sources": [
@@ -392,6 +410,15 @@
         "published_at": "2026-10-28T09:40:11Z",
         "accessed_at": "2026-10-29T06:09:54Z",
         "type": "primary"
+      },
+      {
+        "id": "live-publication",
+        "title": "Exact public report returned HTTP200 with expected title and cutoff; first live check, not exact first-availability proof",
+        "publisher": "DEDL public report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-30-singapore-close-delayed/",
+        "published_at": "2026-10-30T12:17:21Z",
+        "accessed_at": "2026-10-30T12:17:21Z",
+        "type": "primary"
       }
     ],
     "claims": [
@@ -525,13 +552,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-10-30T12:18:17Z",
+        "reason": "Clarify release preparation versus measured website acceptance; preserve original metadata and archive.",
+        "change": "The retained publication metadata20:14:11SGT records release preparation, not measured first website availability. This exact report was first verified live at2026-10-30T12:17:21Z with HTTP200, expected title and20:09:09SGT evidence cutoff. Exact first availability between preparation and verification was not measured. No exact-cutoff or historical pre-open coverage is claimed.",
+        "source_ids": [
+          "live-publication"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-10-30T12:14:11Z"
+      "reviewed_at": "2026-10-30T12:18:17Z"
     },
     "material_reason": null,
     "market_read": {
@@ -732,7 +768,7 @@
     ],
     "format": "market-close",
     "published_at": "2026-10-30T12:14:11Z",
-    "updated_at": "2026-10-30T12:14:11Z",
+    "updated_at": "2026-10-30T12:18:17Z",
     "cutoff_at": "2026-10-30T12:09:09Z",
     "status": "published",
     "sources": [
@@ -924,6 +960,15 @@
         "published_at": "2026-10-28T09:40:11Z",
         "accessed_at": "2026-10-29T06:09:54Z",
         "type": "primary"
+      },
+      {
+        "id": "live-publication",
+        "title": "Exact public report returned HTTP200 with expected title and cutoff; first live check, not exact first-availability proof",
+        "publisher": "DEDL public report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-30-asia-close-delayed/",
+        "published_at": "2026-10-30T12:17:21Z",
+        "accessed_at": "2026-10-30T12:17:21Z",
+        "type": "primary"
       }
     ],
     "claims": [
@@ -1070,13 +1115,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-10-30T12:18:17Z",
+        "reason": "Clarify release preparation versus measured website acceptance; preserve original metadata and archive.",
+        "change": "The retained publication metadata20:14:11SGT records release preparation, not measured first website availability. This exact report was first verified live at2026-10-30T12:17:21Z with HTTP200, expected title and20:09:09SGT evidence cutoff. Exact first availability between preparation and verification was not measured. No exact-cutoff or historical pre-open coverage is claimed.",
+        "source_ids": [
+          "live-publication"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-10-30T12:14:11Z"
+      "reviewed_at": "2026-10-30T12:18:17Z"
     },
     "material_reason": null,
     "market_read": {
@@ -1282,7 +1336,7 @@
     ],
     "format": "market-open",
     "published_at": "2026-10-30T12:14:11Z",
-    "updated_at": "2026-10-30T12:14:11Z",
+    "updated_at": "2026-10-30T12:18:17Z",
     "cutoff_at": "2026-10-30T12:09:09Z",
     "status": "published",
     "sources": [
@@ -1420,6 +1474,15 @@
         "published_at": "2026-10-30",
         "accessed_at": "2026-10-30T12:09:09Z",
         "type": "secondary"
+      },
+      {
+        "id": "live-publication",
+        "title": "Exact public report returned HTTP200 with expected title and cutoff; first live check, not exact first-availability proof",
+        "publisher": "DEDL public report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-10-30-europe-open-delayed/",
+        "published_at": "2026-10-30T12:17:21Z",
+        "accessed_at": "2026-10-30T12:17:21Z",
+        "type": "primary"
       }
     ],
     "claims": [
@@ -1552,13 +1615,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-10-30T12:18:17Z",
+        "reason": "Clarify release preparation versus measured website acceptance; preserve original metadata and archive.",
+        "change": "The retained publication metadata20:14:11SGT records release preparation, not measured first website availability. This exact report was first verified live at2026-10-30T12:17:21Z with HTTP200, expected title and20:09:09SGT evidence cutoff. Exact first availability between preparation and verification was not measured. No exact-cutoff or historical pre-open coverage is claimed.",
+        "source_ids": [
+          "live-publication"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-10-30T12:14:11Z"
+      "reviewed_at": "2026-10-30T12:18:17Z"
     },
     "material_reason": null,
     "market_read": {
