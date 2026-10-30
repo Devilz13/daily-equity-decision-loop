@@ -1,5 +1,1036 @@
 [
   {
+    "id": "2026-10-30-europe-close-delayed",
+    "title": "Europe closing catch-up — technology losses, UK earnings offsets and cash-return scrutiny",
+    "summary": "Completed30 October European closing context recovered with31 October02:05:34SGT evidence cutoff. Final secondary observations replace earlier intraday snapshots; ECI is now actual. All11sectors, dated proxies, counterarguments and source gaps retained.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-10-30T18:08:20Z",
+    "updated_at": "2026-10-30T18:08:20Z",
+    "cutoff_at": "2026-10-30T18:05:34Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "airbus",
+        "title": "Original28 October nine-month results PDF, through issuer download link; not a new29 October result",
+        "publisher": "Airbus",
+        "url": "https://mediaassets.airbus.com/pm_38_942_942888-eyfb5ynik9.pdf?fileName=airbus-nine-month-9m-2026-press-release.pdf",
+        "published_at": "2026-10-28",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:09:26Z"
+      },
+      {
+        "id": "aixtron",
+        "title": "29 October original issuer public HTML successfully read; confirms earlier preliminary order momentum and adds composition/cash detail",
+        "publisher": "AIXTRON",
+        "url": "https://www.aixtron.com/en/investors/news/finance-news/AI-driven%20demand%20fuels%20strong%20order%20momentum_n6508801",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "amazon-actual",
+        "title": "29 October actual quarter/TTM tables read through original public HTML; forecasts and investment marks distinct",
+        "publisher": "Amazon",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-30T00:00:46Z"
+      },
+      {
+        "id": "binance-allocation",
+        "title": "Later Reuters report of issuer funding allocation; original new statement and completed compensation not independently retrieved",
+        "publisher": "Reuters via CNA",
+        "url": "https://www.channelnewsasia.com/business/binance-sets-aside-over-634-billion-cover-losses-attack-6507436",
+        "accessed_at": "2026-10-30T18:03:27Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      },
+      {
+        "id": "binance-recheck",
+        "title": "Original global security notice rechecked; withdrawals still described as suspended, deposits normal; no new restoration proof",
+        "publisher": "Binance",
+        "url": "https://www.binance.com/en-PH/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+        "accessed_at": "2026-10-30T18:02:47Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "binancejp-recheck",
+        "title": "Original later Japan response rechecked; operating deposits/fiat/trading and suspended crypto withdrawals remain distinct",
+        "publisher": "Binance Japan",
+        "url": "https://www.binance.com/en-JP/support/announcement/detail/062daeb5a08b444ca5248113154457ae",
+        "accessed_at": "2026-10-30T18:02:47Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "eci-actual",
+        "title": "Original archived30 October ECI release read; quarterly seasonally adjusted and annual unadjusted bases distinguished",
+        "publisher": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/eci_10302026.htm",
+        "accessed_at": "2026-10-30T18:05:04Z",
+        "published_at": "2026-10-30T12:30:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "eu-final",
+        "title": "Completed30 October Reuters closing body via public Euronext syndication; upload clock timezone unspecified",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/european-shares-stumble-end-best-month-june-ai-worries",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      },
+      {
+        "id": "eurostat-gdp",
+        "title": "Original Q3 flash GDP release read; seasonally adjusted quarter-on-quarter growth, provisional and not annualized",
+        "publisher": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-30102026-ap",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T12:02:10Z",
+        "type": "primary"
+      },
+      {
+        "id": "exxon-actual",
+        "title": "Original Q3 financial release and non-GAAP definitions read; issuer05:30CDT clock; FCF is company-defined",
+        "publisher": "ExxonMobil",
+        "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30T10:30:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "ftse-final",
+        "title": "Completed30 October UK closing body; price observations are secondary; original current issuer/budget records not retrieved",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/ftse-100-logs-first-monthly-gain-three-astrazeneca-jumps",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      },
+      {
+        "id": "intel-actual",
+        "title": "29 October original issuer-hosted SEC Exhibit99.1 read; intersegment eliminations and adjusted measures retained",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-30T00:00:46Z"
+      },
+      {
+        "id": "lse-now",
+        "title": "Original business calendar read;30 October not a holiday/half-day; wider region/halts partial",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "accessed_at": "2026-10-30T18:02:13Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "nv-call",
+        "title": "Original28 October conference-call notice read;17 November results remain future, not new30 October earnings",
+        "publisher": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "accessed_at": "2026-10-30T18:05:06Z",
+        "published_at": "2026-10-28",
+        "type": "primary"
+      },
+      {
+        "id": "nyse-now",
+        "title": "Original2026 holiday and core09:30–16:00Eastern hours read;30 October regular-session anchor",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "accessed_at": "2026-10-30T18:02:15Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "oil-intraday",
+        "title": "Reuters public syndication:17:07GMT futures; December Brent expires today; not settlement or verified additional incident count",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/oil-prices-set-fourth-straight-monthly-gains-tanker-attack-highlights-supply-risks",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "sanofi-actual",
+        "title": "Original Q3 financial release downloaded and read; CER sales, business EPS and IFRS EPS differ",
+        "publisher": "Sanofi",
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-10-30-06-30-00-3392028",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T12:02:10Z",
+        "type": "primary"
+      },
+      {
+        "id": "shell",
+        "title": "29 October07:00GMT unaudited original issuer results, normal public HTML retrieved after reader failure",
+        "publisher": "Shell",
+        "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+        "published_at": "2026-10-29T07:00:00Z",
+        "type": "primary",
+        "accessed_at": "2026-10-29T12:04:09Z"
+      },
+      {
+        "id": "shipping-afp",
+        "title": "29 October event and30 October updated outcome; actor claims not independently counted",
+        "publisher": "AFP via CNA",
+        "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-tankers-fire-6506076",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-30T12:09:09Z",
+        "type": "secondary"
+      },
+      {
+        "id": "shipping-report",
+        "title": "30 October reporting about29 October incident; original updated UKMTO advisory not retrieved; attacker unknown; direct page401 not bypassed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/tanker-strait-hormuz-hit-by-limpet-mines-security-sources-say-2026-10-30/",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T12:09:09Z",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The30 October16:50GMT /31 October00:50SGT closing-read target is recovered with actual31 October02:05:34SGT evidence cutoff. The original LSE calendar supports the trading-day anchor; continental calendars and individual halts remain partial. Release metadata records preparation, not measured first website availability; no exact-cutoff observation is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "lse-now"
+        ]
+      },
+      {
+        "text": "The completed Reuters body reports STOXX600646.75(−0.36%), technology−2.75% and media+1.63%. UMG+7.89%, Puma+5.59% and Sanofi+4.71% are closing examples. These supersede the separately archived09:29GMT intraday values; they are secondary completed-session observations, not an independently certified primary final panel.",
+        "kind": "fact",
+        "source_ids": [
+          "eu-final"
+        ]
+      },
+      {
+        "text": "Reuters reports FTSE10010,729.78, about+0.1%, against an almost1%FTSE250decline. Index composition matters: a positive large-cap index is not uniformly positive UK participation. No complete UK/continental advance-decline or total-return panel was obtained.",
+        "kind": "fact",
+        "source_ids": [
+          "ftse-final"
+        ]
+      },
+      {
+        "text": "BLS has now released the September ECI: civilian compensation+0.8% over three months, seasonally adjusted; wages+0.7%, benefits+0.9%. Annual civilian compensation growth is3.4%, unadjusted. Private-industry real wages fell0.6%year-on-year. These are distinct periods/adjustments and are no longer the future release mentioned in the earlier read.",
+        "kind": "fact",
+        "source_ids": [
+          "eci-actual"
+        ]
+      },
+      {
+        "text": "The earlier original Eurostat flash GDP and Sanofi financial release remain dated primary background. Preliminary quarter-on-quarter GDP is not US annualized GDP; constant-currency sales, business EPS and IFRS EPS retain their separate meanings. No new October euro-area HICP actual or completed clinical/regulatory outcome is inferred.",
+        "kind": "fact",
+        "source_ids": [
+          "eurostat-gdp",
+          "sanofi-actual"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Wage moderation in one component does not settle inflation or funding.",
+        "transmission": "Quarterly ECI growth is slightly lower, but annual nominal compensation still rises and private real wage growth is negative. Margins, affordability and financing can move differently. Rate reactions require matched timestamps and actual policy evidence rather than an automatic easing inference.",
+        "alternatives": "Composition, benefits, inflation and productivity can explain divergent wage/compensation readings. The quarterly series is not an annualized rate, and neither a survey expectation surprise nor a monetary-policy change was independently established here.",
+        "confidence": "inference",
+        "source_ids": [
+          "eci-actual"
+        ]
+      },
+      {
+        "explanation": "NVIDIA / AI Infrastructure: cash conversion remains the question behind selective repricing.",
+        "transmission": "Earlier original Amazon, Intel, Samsung and AIXTRON records support examining customer cash investment against paid demand. HBM/memory, foundry/packaging, racks, networking, grid/power, cooling and generation remain separate layers. New stock losses do not prove cancelled NVIDIA orders, idle capacity or a newly qualified supplier.",
+        "alternatives": "Demand growth and heavy investment can coexist. Paid utilization, acceptances, inventory turns, funded power and recurring collections would strengthen the growth case; financing dependence, delays and idle assets would weaken it. Circular financing is a risk to investigate, not an established new finding.",
+        "confidence": "inference",
+        "source_ids": [
+          "amazon-actual",
+          "intel-actual",
+          "samsung",
+          "aixtron",
+          "nv-call"
+        ]
+      },
+      {
+        "explanation": "Cybersecurity: a reported funding allocation is not completed recovery.",
+        "transmission": "A later Reuters/CNA report says Binance reserved overUS$6.34bn, includingUS$5bn already held in impacted-token assets. The underlying new original statement and completed payments were not independently retrieved. Rechecked global/Japan notices still distinguish normal deposits from paused crypto withdrawals. No proven local bank/broker loss follows.",
+        "alternatives": "The allocation may support containment, but earmarked assets are not necessarily new cash, recovered stolen property or paid compensation; do not add overlapping frozen/held balances. A future reserve snapshot needs liability, control and encumbrance scope. Separate legal entities and eventual restoration could limit propagation.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "binance-allocation",
+          "binance-recheck",
+          "binancejp-recheck"
+        ]
+      },
+      {
+        "explanation": "Military / maritime transmission is conditional, and incident chronology is not fully reconciled.",
+        "transmission": "The later oil report uses Friday language for a tanker attack while the earlier qualified incident chain dates the event29 October. Without the underlying updated advisory, these are not counted as independently verified additional incidents. Attribution remains unknown; no direct Singapore cargo, port or aviation loss was established.",
+        "alternatives": "The oil report also includes analyst escalation expectations and participants’ claims; those are not a war forecast, verified additional attack tally or enacted political action. Actual cargo delays, paid premiums and operator notices would corroborate transmission. Diplomacy and continued passage could limit the risk; no tactical details are reproduced.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "oil-intraday",
+          "shipping-report",
+          "shipping-afp"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective investment earns recurring cash",
+        "outcome": "Demand and usable infrastructure support chosen issuers despite uneven market returns.",
+        "trigger": "Original collections, paid utilization and financeable delivery improve while capital intensity stabilizes.",
+        "invalidation": "Inventory, funding dependence, weak collections or idle capacity outweigh demand growth.",
+        "horizon": "Next original issuer/operator disclosures and completed US30 October cash session; no price target.",
+        "source_ids": [
+          "amazon-actual",
+          "samsung",
+          "exxon-actual"
+        ]
+      },
+      {
+        "name": "Funding and operational frictions persist",
+        "outcome": "Recovery costs, input prices or cash duration constrain returns even with positive aggregate growth.",
+        "trigger": "Original service notices, working capital and matched financing/physical-flow evidence show sustained strain.",
+        "invalidation": "Completed restoration, recovered usable assets, benign funding and strong cash conversion limit transmission.",
+        "horizon": "Next original issuer/operator disclosures and completed US30 October cash session; no price target.",
+        "source_ids": [
+          "eci-actual",
+          "binance-recheck",
+          "oil-intraday"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "30 October16:20EDT /31 October04:20SGT US closing-read target remains future",
+        "due_at": "2026-10-30T20:20:00Z",
+        "confirms": "Completed cash-session prices, participation and final-source checks support a distinct closing read.",
+        "contradicts": "Intraday numbers, after-hours events misdated as earlier causes or an unverified final panel remain insufficient.",
+        "source_ids": [
+          "nyse-now"
+        ]
+      },
+      {
+        "signal": "Next original Binance restoration/recovery and counterparty notices; review date is not a promised completion",
+        "due_at": "2026-10-31T00:00:00Z",
+        "confirms": "Completed service restoration and reconciled usable recovery/customer payments corroborate commitments.",
+        "contradicts": "Only asset earmarks, frozen totals, promises or an incomplete reserve-only record remain.",
+        "source_ids": [
+          "binance-allocation",
+          "binance-recheck"
+        ]
+      },
+      {
+        "signal": "17 November NVIDIA call at14:00PT /18 November06:00SGT; original28 October notice, future results",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Original financial tables, supply commitments and operating cash clarify demand versus capital intensity.",
+        "contradicts": "Only plans, duplicate press summaries or capacity commitments without acceptance/cash are available.",
+        "source_ids": [
+          "nv-call"
+        ]
+      },
+      {
+        "signal": "January29,2027 next ECI release08:30Eastern; BLS also flags updated weights/removal of workers compensation costs for December data",
+        "due_at": "2027-01-29T13:30:00Z",
+        "confirms": "Original release and methodology bridge permit like-basis trend interpretation.",
+        "contradicts": "Changes in weights, definitions or seasonal bases are mistaken for an unchanged-series economic acceleration.",
+        "source_ids": [
+          "eci-actual"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-30T18:08:20Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-10-30",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "LSE regular business-day anchor; continental calendars and individual halts not comprehensive",
+          "status": "verified-session",
+          "source_ids": [
+            "lse-now"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Technology-led weakness with positive UK large-cap and earnings counterweights; no universal selloff claim.",
+        "indicators": "Completed STOXX600−0.36% and technology−2.75%, versus FTSE100about+0.1% and weaker FTSE250. These indices differ in composition. No full comparable regional breadth, volume, volatility or representative public-opinion sample obtained.",
+        "source_ids": [
+          "eu-final",
+          "ftse-final"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "finding": "The completed European technology index fell2.75%; the earlier09:29GMT−2%reading is a different observation.",
+          "implication": "Selective chip losses can reflect duration, earnings and investment-return concerns while physical demand remains strong.",
+          "watchpoint": "Check paid orders, delivery, inventory and cash; no cancelled contract inferred.",
+          "status": "reviewed",
+          "source_ids": [
+            "eu-final",
+            "aixtron"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "finding": "Media+1.63% and UMG+7.89% are completed-session counterweights in Reuters.",
+          "implication": "Subscription/media economics differ from telecom and AI infrastructure; one winner is not the whole sector.",
+          "watchpoint": "Seek original recurring revenue, content costs and retained cash.",
+          "status": "reviewed",
+          "source_ids": [
+            "eu-final"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "finding": "Puma+5.59% is a completed secondary quote, replacing the earlier intraday+6.9%example.",
+          "implication": "Brand, channel inventory and comparison bases can outweigh aggregate GDP.",
+          "watchpoint": "Verify original units, discounts, margins and cash before a broad consumer conclusion.",
+          "status": "reviewed",
+          "source_ids": [
+            "eu-final"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "finding": "Reuters reports BritishAmericanTobacco+1.7% and Unilever+2.1% in the UK close.",
+          "implication": "Defensive demand and pricing can differ from real household income; these are stock examples, not an all-region sector return.",
+          "watchpoint": "Check issuer volumes, cost pass-through and recurring cash.",
+          "status": "reviewed",
+          "source_ids": [
+            "ftse-final",
+            "eci-actual"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "finding": "Reuters reports BP+0.5% at the UK close; original Shell29 October results remain dated context. Oil futures observations are later, contract-specific and not settlements.",
+          "implication": "Refining/production economics, geopolitical exposure and input consumers can react differently.",
+          "watchpoint": "Match underlying realized margins, investment, distributions and physical supply.",
+          "status": "reviewed",
+          "source_ids": [
+            "ftse-final",
+            "shell",
+            "oil-intraday"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "finding": "Reuters reports NatWest nearly−9% and attributes weakness to an interest-income outlook; original current issuer guidance was not retrieved.",
+          "implication": "Bank funding, deposit mix and credit differ. The secondary explanation is not a verified issuer-guidance reconciliation or crypto loss.",
+          "watchpoint": "Obtain original NII assumptions, credit/deposit detail and actual counterparty exposures.",
+          "status": "reviewed",
+          "source_ids": [
+            "ftse-final",
+            "binance-recheck"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "finding": "Sanofi closes+4.71% in Reuters; AstraZeneca about+7% is another UK secondary example. Sanofi’s original business/IFRS distinction remains background.",
+          "implication": "Earnings and restructuring expectations can offset tech weakness without proving uniform medical demand or successful future savings.",
+          "watchpoint": "Check original cash, statutory reconciliation and execution; no clinical approval inferred.",
+          "status": "reviewed",
+          "source_ids": [
+            "eu-final",
+            "ftse-final",
+            "sanofi-actual"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "finding": "Airbus28 October original results remain earlier evidence; no fresh complete industrial return/order panel obtained.",
+          "implication": "Backlog, accepted deliveries and working capital have different timing; policy narratives do not themselves book revenue.",
+          "watchpoint": "Require original paid deliveries and investment/collection detail.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "airbus"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "finding": "Reuters reports UK precious/industrial-metal miner groups down5.3%/2.9%; these local categories differ from the full cross-market materials group.",
+          "implication": "Commodity prices, operational costs and inventory can offset infrastructure volume demand.",
+          "watchpoint": "Verify synchronized curves, issuer realized spreads and physical inventories.",
+          "status": "reviewed",
+          "source_ids": [
+            "ftse-final"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "finding": "No complete fresh regional property basket or issuer lease/funding disclosure obtained.",
+          "implication": "Borrowing costs, refinancing and recurring capex can outweigh positive GDP or data-centre interest.",
+          "watchpoint": "Require tenant collections, debt maturities and distribution coverage.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "eurostat-gdp"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "finding": "No new original European tariff, grid connection or commissioning decision verified.",
+          "implication": "AI demand creates investment need; permits, funded connection and cost recovery determine returns.",
+          "watchpoint": "Seek approved recovery and energized capacity rather than treating a plan as delivered supply.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "nv-call"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Supplier, importer and exporter exposures differ; AI cash quality, energy contracts and currency hedging determine local effects.",
+          "trigger": "Dated original local disclosures and matched price, credit or physical-flow evidence corroborate the proposed channel.",
+          "invalidation": "Different exposure, containment, stable financing or missing direct evidence prevents the asserted transmission.",
+          "source_ids": [
+            "eci-actual",
+            "binance-recheck",
+            "oil-intraday"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Banks, REITs, logistics and suppliers require issuer-specific recurring cash and actual exposure. No direct new local incident loss is established.",
+          "trigger": "Dated original local disclosures and matched price, credit or physical-flow evidence corroborate the proposed channel.",
+          "invalidation": "Different exposure, containment, stable financing or missing direct evidence prevents the asserted transmission.",
+          "source_ids": [
+            "eci-actual",
+            "binance-recheck",
+            "oil-intraday"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "The completed US close, actual policy evidence and issuer cash/working capital can strengthen or weaken the current selective-risk interpretation.",
+          "trigger": "Dated original local disclosures and matched price, credit or physical-flow evidence corroborate the proposed channel.",
+          "invalidation": "Different exposure, containment, stable financing or missing direct evidence prevents the asserted transmission.",
+          "source_ids": [
+            "eci-actual",
+            "binance-recheck",
+            "oil-intraday"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-10-30-us-open-delayed-catch-up",
+    "title": "US opening catch-up — later intraday technology losses, wage costs and energy cash",
+    "summary": "30 October09:15EDT opening target recovered using actual later evidence, not a historical pre-open call.12:09EDT cash prices remain intraday; the US close is future. All11sectors, issuer cash definitions and conditional spillovers retained.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-10-30T18:08:20Z",
+    "updated_at": "2026-10-30T18:08:20Z",
+    "cutoff_at": "2026-10-30T18:05:34Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "aixtron",
+        "title": "29 October original issuer public HTML successfully read; confirms earlier preliminary order momentum and adds composition/cash detail",
+        "publisher": "AIXTRON",
+        "url": "https://www.aixtron.com/en/investors/news/finance-news/AI-driven%20demand%20fuels%20strong%20order%20momentum_n6508801",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-29T18:08:14Z"
+      },
+      {
+        "id": "amazon-actual",
+        "title": "29 October actual quarter/TTM tables read through original public HTML; forecasts and investment marks distinct",
+        "publisher": "Amazon",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-30T00:00:46Z"
+      },
+      {
+        "id": "binance-allocation",
+        "title": "Later Reuters report of issuer funding allocation; original new statement and completed compensation not independently retrieved",
+        "publisher": "Reuters via CNA",
+        "url": "https://www.channelnewsasia.com/business/binance-sets-aside-over-634-billion-cover-losses-attack-6507436",
+        "accessed_at": "2026-10-30T18:03:27Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      },
+      {
+        "id": "binance-recheck",
+        "title": "Original global security notice rechecked; withdrawals still described as suspended, deposits normal; no new restoration proof",
+        "publisher": "Binance",
+        "url": "https://www.binance.com/en-PH/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+        "accessed_at": "2026-10-30T18:02:47Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "binancejp-recheck",
+        "title": "Original later Japan response rechecked; operating deposits/fiat/trading and suspended crypto withdrawals remain distinct",
+        "publisher": "Binance Japan",
+        "url": "https://www.binance.com/en-JP/support/announcement/detail/062daeb5a08b444ca5248113154457ae",
+        "accessed_at": "2026-10-30T18:02:47Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "eci-actual",
+        "title": "Original archived30 October ECI release read; quarterly seasonally adjusted and annual unadjusted bases distinguished",
+        "publisher": "Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/eci_10302026.htm",
+        "accessed_at": "2026-10-30T18:05:04Z",
+        "published_at": "2026-10-30T12:30:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "exxon-actual",
+        "title": "Original Q3 financial release and non-GAAP definitions read; issuer05:30CDT clock; FCF is company-defined",
+        "publisher": "ExxonMobil",
+        "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30T10:30:00Z",
+        "type": "primary"
+      },
+      {
+        "id": "intel-actual",
+        "title": "29 October original issuer-hosted SEC Exhibit99.1 read; intersegment eliminations and adjusted measures retained",
+        "publisher": "Intel",
+        "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm",
+        "published_at": "2026-10-29",
+        "type": "primary",
+        "accessed_at": "2026-10-30T00:00:46Z"
+      },
+      {
+        "id": "nv-call",
+        "title": "Original28 October conference-call notice read;17 November results remain future, not new30 October earnings",
+        "publisher": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "accessed_at": "2026-10-30T18:05:06Z",
+        "published_at": "2026-10-28",
+        "type": "primary"
+      },
+      {
+        "id": "nyse-now",
+        "title": "Original2026 holiday and core09:30–16:00Eastern hours read;30 October regular-session anchor",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "accessed_at": "2026-10-30T18:02:15Z",
+        "published_at": "2026-10-30",
+        "type": "primary"
+      },
+      {
+        "id": "oil-intraday",
+        "title": "Reuters public syndication:17:07GMT futures; December Brent expires today; not settlement or verified additional incident count",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/oil-prices-set-fourth-straight-monthly-gains-tanker-attack-highlights-supply-risks",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      },
+      {
+        "id": "samsung",
+        "title": "Q3 ended30 September actual results and forward statements; original public HTML retrieved normally after reader failure",
+        "publisher": "Samsung Electronics",
+        "url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-29T06:06:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "shipping-afp",
+        "title": "29 October event and30 October updated outcome; actor claims not independently counted",
+        "publisher": "AFP via CNA",
+        "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-tankers-fire-6506076",
+        "published_at": "2026-10-29",
+        "accessed_at": "2026-10-30T12:09:09Z",
+        "type": "secondary"
+      },
+      {
+        "id": "shipping-report",
+        "title": "30 October reporting about29 October incident; original updated UKMTO advisory not retrieved; attacker unknown; direct page401 not bypassed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/tanker-strait-hormuz-hit-by-limpet-mines-security-sources-say-2026-10-30/",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-10-30T12:09:09Z",
+        "type": "secondary"
+      },
+      {
+        "id": "us-intraday",
+        "title": "Reuters public syndication: cash-index clock12:09EDT /16:09GMT; other asset ticks not uniformly timestamped",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/stocks-fall-ai-cash-burn-worries-while-bonds-rally-oil",
+        "accessed_at": "2026-10-30T18:03:28Z",
+        "published_at": "2026-10-30",
+        "type": "secondary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The30 October09:15EDT opening-context target is recovered after the cash open, using actual18:05:34GMT /14:05:34EDT evidence cutoff. NYSE’s original calendar/hours support a regular-session anchor, not verification of every security halt. No pre-open observation is invented. Release metadata records preparation, not measured first website availability; cash trading and its final close are still incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse-now"
+        ]
+      },
+      {
+        "text": "Reuters explicitly dates its cash-index snapshot to12:09EDT /16:09GMT: Dow51,957.95(−0.73%), S&P5007,595.93(−1.61%), NasdaqComposite25,500.67(−2.61%). These are later intraday observations, neither opening auction ticks nor final prices. The article reports much larger Intel weakness than Amazon’s, consistent with concentrated technology pressure; no full market breadth is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "us-intraday"
+        ]
+      },
+      {
+        "text": "The original30 October08:30EDT ECI release reports civilian compensation+0.8%quarterly, seasonally adjusted, versus+0.9% inJune. Wages+0.7% and benefits+0.9% are component rates. Annual compensation+3.4% and private-industry real wages−0.6% use different bases; they must not be treated as the same growth measure, a payroll count or a guaranteed next Fed decision.",
+        "kind": "fact",
+        "source_ids": [
+          "eci-actual"
+        ]
+      },
+      {
+        "text": "ExxonMobil’s original Q3 release reports GAAP earningsUS$15.4bn/EPS$3.72 versus adjustedUS$17.5bn/EPS$4.23, operating cashUS$25.7bn and company-defined non-GAAP FCFUS$19.1bn. Distributions wereUS$9.4bn. Its FCF includes specified investing cash and major-project noncontrolling financing inflows; it is not simply a universally comparable operating-cash-minus-equipment measure.",
+        "kind": "fact",
+        "source_ids": [
+          "exxon-actual"
+        ]
+      },
+      {
+        "text": "Reuters’17:07GMT oil snapshot places expiring December Brent atUS$117.75/barrel and January atUS$114.03. These are different contracts and intraday prices, not settlements, a completed monthly return or a single continuous spot series. The expiring-contract premium cannot be silently carried into a next-contract price comparison.",
+        "kind": "fact",
+        "source_ids": [
+          "oil-intraday"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Wage moderation in one component does not settle inflation or funding.",
+        "transmission": "Quarterly ECI growth is slightly lower, but annual nominal compensation still rises and private real wage growth is negative. Margins, affordability and financing can move differently. Rate reactions require matched timestamps and actual policy evidence rather than an automatic easing inference.",
+        "alternatives": "Composition, benefits, inflation and productivity can explain divergent wage/compensation readings. The quarterly series is not an annualized rate, and neither a survey expectation surprise nor a monetary-policy change was independently established here.",
+        "confidence": "inference",
+        "source_ids": [
+          "eci-actual"
+        ]
+      },
+      {
+        "explanation": "NVIDIA / AI Infrastructure: cash conversion remains the question behind selective repricing.",
+        "transmission": "Earlier original Amazon, Intel, Samsung and AIXTRON records support examining customer cash investment against paid demand. HBM/memory, foundry/packaging, racks, networking, grid/power, cooling and generation remain separate layers. New stock losses do not prove cancelled NVIDIA orders, idle capacity or a newly qualified supplier.",
+        "alternatives": "Demand growth and heavy investment can coexist. Paid utilization, acceptances, inventory turns, funded power and recurring collections would strengthen the growth case; financing dependence, delays and idle assets would weaken it. Circular financing is a risk to investigate, not an established new finding.",
+        "confidence": "inference",
+        "source_ids": [
+          "amazon-actual",
+          "intel-actual",
+          "samsung",
+          "aixtron",
+          "nv-call"
+        ]
+      },
+      {
+        "explanation": "Cybersecurity: a reported funding allocation is not completed recovery.",
+        "transmission": "A later Reuters/CNA report says Binance reserved overUS$6.34bn, includingUS$5bn already held in impacted-token assets. The underlying new original statement and completed payments were not independently retrieved. Rechecked global/Japan notices still distinguish normal deposits from paused crypto withdrawals. No proven local bank/broker loss follows.",
+        "alternatives": "The allocation may support containment, but earmarked assets are not necessarily new cash, recovered stolen property or paid compensation; do not add overlapping frozen/held balances. A future reserve snapshot needs liability, control and encumbrance scope. Separate legal entities and eventual restoration could limit propagation.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "binance-allocation",
+          "binance-recheck",
+          "binancejp-recheck"
+        ]
+      },
+      {
+        "explanation": "Military / maritime transmission is conditional, and incident chronology is not fully reconciled.",
+        "transmission": "The later oil report uses Friday language for a tanker attack while the earlier qualified incident chain dates the event29 October. Without the underlying updated advisory, these are not counted as independently verified additional incidents. Attribution remains unknown; no direct Singapore cargo, port or aviation loss was established.",
+        "alternatives": "The oil report also includes analyst escalation expectations and participants’ claims; those are not a war forecast, verified additional attack tally or enacted political action. Actual cargo delays, paid premiums and operator notices would corroborate transmission. Diplomacy and continued passage could limit the risk; no tactical details are reproduced.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "oil-intraday",
+          "shipping-report",
+          "shipping-afp"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective investment earns recurring cash",
+        "outcome": "Demand and usable infrastructure support chosen issuers despite uneven market returns.",
+        "trigger": "Original collections, paid utilization and financeable delivery improve while capital intensity stabilizes.",
+        "invalidation": "Inventory, funding dependence, weak collections or idle capacity outweigh demand growth.",
+        "horizon": "Next original issuer/operator disclosures and completed US30 October cash session; no price target.",
+        "source_ids": [
+          "amazon-actual",
+          "samsung",
+          "exxon-actual"
+        ]
+      },
+      {
+        "name": "Funding and operational frictions persist",
+        "outcome": "Recovery costs, input prices or cash duration constrain returns even with positive aggregate growth.",
+        "trigger": "Original service notices, working capital and matched financing/physical-flow evidence show sustained strain.",
+        "invalidation": "Completed restoration, recovered usable assets, benign funding and strong cash conversion limit transmission.",
+        "horizon": "Next original issuer/operator disclosures and completed US30 October cash session; no price target.",
+        "source_ids": [
+          "eci-actual",
+          "binance-recheck",
+          "oil-intraday"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "30 October16:20EDT /31 October04:20SGT US closing-read target remains future",
+        "due_at": "2026-10-30T20:20:00Z",
+        "confirms": "Completed cash-session prices, participation and final-source checks support a distinct closing read.",
+        "contradicts": "Intraday numbers, after-hours events misdated as earlier causes or an unverified final panel remain insufficient.",
+        "source_ids": [
+          "nyse-now"
+        ]
+      },
+      {
+        "signal": "Next original Binance restoration/recovery and counterparty notices; review date is not a promised completion",
+        "due_at": "2026-10-31T00:00:00Z",
+        "confirms": "Completed service restoration and reconciled usable recovery/customer payments corroborate commitments.",
+        "contradicts": "Only asset earmarks, frozen totals, promises or an incomplete reserve-only record remain.",
+        "source_ids": [
+          "binance-allocation",
+          "binance-recheck"
+        ]
+      },
+      {
+        "signal": "17 November NVIDIA call at14:00PT /18 November06:00SGT; original28 October notice, future results",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Original financial tables, supply commitments and operating cash clarify demand versus capital intensity.",
+        "contradicts": "Only plans, duplicate press summaries or capacity commitments without acceptance/cash are available.",
+        "source_ids": [
+          "nv-call"
+        ]
+      },
+      {
+        "signal": "January29,2027 next ECI release08:30Eastern; BLS also flags updated weights/removal of workers compensation costs for December data",
+        "due_at": "2027-01-29T13:30:00Z",
+        "confirms": "Original release and methodology bridge permit like-basis trend interpretation.",
+        "contradicts": "Changes in weights, definitions or seasonal bases are mistaken for an unchanged-series economic acceleration.",
+        "source_ids": [
+          "eci-actual"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-10-30T18:08:20Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-10-30",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash-session anchor; security-specific halt completeness not verified",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse-now"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk aversion concentrated in technology, with energy and bonds showing different behaviour; cash session incomplete.",
+        "indicators": "12:09EDT index losses differ materially across Dow/S&P/Nasdaq. The same Reuters report quotes10-year Treasury yield4.945% and gold down3%, but individual non-index tick clocks are not fully supplied. Those values are not synchronized into a single factor test, a sentiment score or representative opinion.",
+        "source_ids": [
+          "us-intraday"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "finding": "Reuters’ intraday body reports Intel roughly−28%; original29 October tables remain the financial source, not the stock move.",
+          "implication": "Capital intensity, PC demand and supply execution can affect cash differently. A one-stock decline does not certify every semiconductor or NVIDIA supplier.",
+          "watchpoint": "Reconcile original cash, working capital, orders and acceptance.",
+          "status": "reviewed",
+          "source_ids": [
+            "us-intraday",
+            "intel-actual"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "finding": "Reuters reports further Alphabet weakness after the prior completed day; no full communications return or new original Alphabet release was read here.",
+          "implication": "Advertising/search competition and AI investment can differ from telecom economics.",
+          "watchpoint": "Verify current original results and cash before quantifying the cause or sector outcome.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "finding": "Reuters reports Amazon−1.9% intraday; original Q3/TTM tables remain earlier evidence.",
+          "implication": "Cloud demand, retail and equipment investment differ. A share-price move does not measure customer utilization or paid cash.",
+          "watchpoint": "Track recurring operating cash, capex obligations and segment economics.",
+          "status": "reviewed",
+          "source_ids": [
+            "us-intraday",
+            "amazon-actual"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "finding": "No complete current US staples basket or fresh company volume panel obtained; ECI is not a retail-sales release.",
+          "implication": "Real incomes, pricing and benefits affect affordability and margins differently.",
+          "watchpoint": "Require unit volumes, promotions, inventory and cash rather than a generic defensive-sector claim.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "eci-actual"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "finding": "ExxonMobil’s original release supports strong operating cash with separately defined non-GAAP FCF and adjusted earnings.",
+          "implication": "Refining margins, production and investment can generate different outcomes from upstream price headlines. Company-defined FCF is not a mechanical cross-company ranking.",
+          "watchpoint": "Use the reconciliation and like periods; test lower-margin/price scenarios and distribution cover.",
+          "status": "reviewed",
+          "source_ids": [
+            "exxon-actual"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "finding": "Binance funding-allocation reporting is material counterparty context; no specific US lender/broker loss or complete bank-sector return was verified.",
+          "implication": "Service restrictions can affect settlement confidence without proving a banking-system loss or completed recovery.",
+          "watchpoint": "Require named original exposures, restored settlement and reconciled payments.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "binance-allocation",
+            "binance-recheck"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "finding": "BLS reports private-industry health-benefit costs up6.4%year-on-year; this is employer compensation cost, not insurer/provider earnings. No complete current stock basket obtained.",
+          "implication": "Higher benefit costs can pressure employers and households while provider revenue and claims margins differ.",
+          "watchpoint": "Seek original utilization, medical-cost ratios and statutory cash.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "eci-actual"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "finding": "No complete current industrial basket or new paid-backlog panel obtained; the ECI provides labour-cost context.",
+          "implication": "Wages, energy and delivery timing can offset orders. An investment commitment is not an accepted paid shipment.",
+          "watchpoint": "Check original backlog funding, receivables and margins.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "eci-actual",
+            "oil-intraday"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "finding": "ExxonMobil’s ChemicalProducts GAAP earnings wereUS$735m versusUS$1,131m inQ2. This is one integrated issuer’s segment, not the US materials sector.",
+          "implication": "Product margins and mix can weaken while the group’s refining earnings improve.",
+          "watchpoint": "Use original segment reconciliation, like periods, volume and cash; no broad chemical-cycle conclusion.",
+          "status": "reviewed",
+          "source_ids": [
+            "exxon-actual"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "finding": "No complete US REIT basket or new original lease/refinancing result obtained; the Reuters rate quote is a dated secondary observation.",
+          "implication": "Funding duration, recurring capex and collections determine property cash; falling quoted yields alone do not secure payouts.",
+          "watchpoint": "Require original tenant cash and debt/maintenance schedules.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "us-intraday"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "finding": "No new original US tariff/connection/commissioning decision verified. AI demand and corporate generation plans remain distinct from delivered electricity.",
+          "implication": "Grid bottlenecks, funding and cost recovery can limit the earnings benefit of demand.",
+          "watchpoint": "Check permits, energized MW, tariff treatment and cash investment.",
+          "status": "data-incomplete",
+          "source_ids": [
+            "nv-call"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Supplier, importer and exporter exposures differ; AI cash quality, energy contracts and currency hedging determine local effects.",
+          "trigger": "Dated original local disclosures and matched price, credit or physical-flow evidence corroborate the proposed channel.",
+          "invalidation": "Different exposure, containment, stable financing or missing direct evidence prevents the asserted transmission.",
+          "source_ids": [
+            "eci-actual",
+            "binance-recheck",
+            "oil-intraday"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Banks, REITs, logistics and suppliers require issuer-specific recurring cash and actual exposure. No direct new local incident loss is established.",
+          "trigger": "Dated original local disclosures and matched price, credit or physical-flow evidence corroborate the proposed channel.",
+          "invalidation": "Different exposure, containment, stable financing or missing direct evidence prevents the asserted transmission.",
+          "source_ids": [
+            "eci-actual",
+            "binance-recheck",
+            "oil-intraday"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Chip equipment, healthcare and energy have different earnings/cash drivers; final local evidence matters more than a single global headline.",
+          "trigger": "Dated original local disclosures and matched price, credit or physical-flow evidence corroborate the proposed channel.",
+          "invalidation": "Different exposure, containment, stable financing or missing direct evidence prevents the asserted transmission.",
+          "source_ids": [
+            "eci-actual",
+            "binance-recheck",
+            "oil-intraday"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-10-30-binance-security-incident",
     "title": "Binance security incident — loss estimate, frozen assets and withdrawal restrictions remain distinct",
     "summary": "Original updated notices confirm issuer-reported withdrawal disruption. Binance estimates US$6.3bn impact and aboutUS$3bn frozen; deposits operate. Recovery, compensation and state attribution are not independently established. Global/Japan entities and Singapore transmission remain separate.",
