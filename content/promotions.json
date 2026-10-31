@@ -7,8 +7,8 @@
   },
   "offers": [
     {
-      "verified_at": "2026-10-30T00:07:03Z",
-      "review_due_at": "2026-10-31T00:07:03Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -18,6 +18,10 @@
         {
           "at": "2026-10-30T00:07:03Z",
           "change": "Original official acquisition PDF rechecked: application/approval dates, principal-card lookback, spend window, eligibility, exclusions and fulfilment/retention conditions. Substantive recorded terms unchanged."
+        },
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
         }
       ],
       "id": "dbs-posb-cash288-oct2026",
@@ -39,8 +43,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-30T00:07:03Z",
-      "review_due_at": "2026-10-31T00:07:03Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -50,6 +54,10 @@
         {
           "at": "2026-10-30T00:07:03Z",
           "change": "Original official acquisition PDF rechecked: application/approval dates, principal-card lookback, spend window, eligibility, exclusions and fulfilment/retention conditions. Substantive recorded terms unchanged."
+        },
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -68,8 +76,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-30T00:07:03Z",
-      "review_due_at": "2026-10-31T00:07:03Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -79,6 +87,10 @@
         {
           "at": "2026-10-30T00:07:03Z",
           "change": "Original official acquisition PDF rechecked: application/approval dates, principal-card lookback, spend window, eligibility, exclusions and fulfilment/retention conditions. Substantive recorded terms unchanged."
+        },
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -96,10 +108,15 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        }
+      ],
       "id": "citi-cashback-plus-welcome-mar2027",
       "name": "Citi Cash Back+: 8% welcome cashback",
       "category": "Card sign-up",
@@ -115,13 +132,17 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-27T00:05:00Z",
-      "review_due_at": "2026-10-28T00:05:00Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-27T00:05:00Z",
           "change": "Rechecked the official FX promotion PDF: end date now 31 December 2027, resolving the previously recorded 2026 PDF discrepancy. Australia rate changes to 0.5% from 1 January 2027. No other card/offer recertification implied."
+        },
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference. Clarified staggered16/26March FX start dates; the earliest promotion start is16March, not a blanket26March start."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -131,27 +152,32 @@
         "UOB EVOL"
       ],
       "apps": [],
-      "benefit": "0.5% cashback on eligible FX spend processed in China and defined European countries; 1% on other eligible FX spend. From 1 January 2027, Australia receives 0.5%. No minimum spend or cashback cap under the linked promotion terms.",
+      "benefit": "0.5% cashback on eligible FX spend processed in China and defined European countries from 26 March 2026; 1% on other eligible FX spend from 16 March 2026. Australia receives 0.5% from 1 January 2027. All stated windows end 31 December 2027; no minimum spend or cashback cap under the linked terms.",
       "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas SGD transactions do not qualify. Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs are excluded. The linked PDF now extends through 31 December 2027; country, processing and transaction exclusions control.",
       "source_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
       "terms_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf",
-      "starts_at": "2026-03-26T00:00:00+08:00",
+      "starts_at": "2026-03-16T00:00:00+08:00",
       "expires_at": "2028-01-01T00:00:00+08:00"
     }
   ],
   "cards": [
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        }
+      ],
       "id": "dbs-yuu",
       "name": "DBS yuu Card",
       "issuer": "DBS",
       "min_age": 21,
       "audience": "Ages 21–75. SG/PR: S$30,000/year up to age 55; S$15,000 from 56. Foreigners: S$45,000/year.",
       "reward": "Up to 18% at participating merchants, awarded as yuu Points redeemable for rebates. 5% at eligible participating merchants without the S$800 threshold; 0.25% base on non-yuu spend.",
-      "min_spend": "S$800 eligible spend and transactions at four participating merchant groups per calendar month for the extra 13%.",
+      "min_spend": "S$800 eligible spend and transactions at 4 Participating Merchants, as defined by DBS, per calendar month for the extra 13%.",
       "cap": "Combined bonus rewards: 28,800 yuu Points = up to S$144/month; base rewards uncapped.",
       "annual_fee": "Principal S$196.20 incl. GST; first year waived.",
       "exclusions": "Link yuu account and scan/link yuu ID where required. Merchant/product exclusions apply; Charge+ bonus excludes Amex. Wallet top-ups, insurance, utilities, tax and specified MCCs excluded. Reward points are not cash deposited to a bank account.",
@@ -159,10 +185,15 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        }
+      ],
       "id": "uob-evol",
       "name": "UOB EVOL Card",
       "issuer": "UOB",
@@ -177,16 +208,21 @@
       "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        }
+      ],
       "id": "ocbc-365",
       "name": "OCBC 365 Credit Card",
       "issuer": "OCBC",
       "min_age": 21,
       "audience": "SG/PR: income S$30,000/year at ages 21–55; S$15,000 above 55. Foreigners: S$45,000/year. Issuer approval applies.",
-      "reward": "Through 31 October: 6% petrol, 5% eligible dining, 3% groceries/land transport/selected recurring bills/streaming/EV charging/Watsons; otherwise 0.25%. From 1 November: 6% dining/groceries/land transport/petrol; most recurring-bill categories fall to 0.25% (see issuer’s change notice).",
+      "reward": "Through 31 October: 6% petrol, 5% eligible dining, 3% groceries/land transport/selected recurring bills/streaming/EV charging/Watsons; otherwise 0.25%. From 1 November: 6% dining/groceries/land transport/petrol; most recurring-bill categories fall to 0.25%. Watsons remains 3% through 31 March 2027, then 0.25%, under the issuer change notice.",
       "min_spend": "Through 31 October: S$800 or S$1,600/calendar month. From 1 November: single S$800 tier.",
       "cap": "Through 31 October: S$80 at S$800 spend; S$160 at S$1,600. From 1 November: S$160 at S$800.",
       "annual_fee": "S$196.20 incl. GST; first two years waived. Subsequent automatic waiver at S$10,000 eligible annual spend.",
@@ -195,10 +231,15 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        }
+      ],
       "id": "ocbc-infinity",
       "name": "OCBC INFINITY Cashback Card",
       "issuer": "OCBC",
@@ -213,10 +254,15 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
     },
     {
-      "verified_at": "2026-10-24T15:39:55Z",
-      "review_due_at": "2026-10-25T15:39:55Z",
+      "verified_at": "2026-10-31T00:24:07Z",
+      "review_due_at": "2026-11-01T00:24:07Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-10-31T00:24:07Z",
+          "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        }
+      ],
       "id": "citi-cashback-plus",
       "name": "Citi Cash Back+ Card",
       "issuer": "Citibank Singapore",

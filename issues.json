@@ -2,8 +2,49 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-30",
+  "latest": "2026-10-31",
   "issues": [
+    {
+      "date": "2026-10-31",
+      "number": 45,
+      "title": "Prices fall; cash and evidence still matter",
+      "status": "data incomplete",
+      "path": "issues/2026/10/31/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-31-v1",
+        "delivery_notice": "We apologise for the delayed edition. Evidence cutoff 08:24:07 SGT; Friday US close is a distinct delayed read. No Saturday Asian opening quote is invented.",
+        "summary": "Issue045 weighs broader US selling against sector dispersion, original yields and cash. Singapore has fresh cyber, naval-cooperation and haze notices. AV plans and recovery promises retain their limits; all five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Friday selloff broadens; final prices replace intraday snapshots",
+            "date": "30 Oct 2026",
+            "context": "Negative participation supports real weakness. Positive sector counterweights and missing credit/liquidity evidence limit a universal-crash claim.",
+            "source": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+          },
+          {
+            "title": "CSA flags exploitation; vendor update dates remain separate",
+            "date": "30 Oct 2026",
+            "context": "Brotli product/version scope matters. Follow vendor guidance and verify deployed fixes; no causal link to Binance established.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-154/"
+          },
+          {
+            "title": "Singapore–Malaysia exercise is cooperation, not combat",
+            "date": "26–30 Oct 2026",
+            "context": "Original MINDEF describes shore-based professional exchanges. No direct new shipping or market disruption is established.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/30oct26-nr/"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. Distinct US close retains all11sectors. Saturday prices, primary finals, complete screening, Parliament and older gaps remain explicit.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-30",
       "number": 44,
