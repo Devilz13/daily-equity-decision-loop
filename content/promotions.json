@@ -7,8 +7,8 @@
   },
   "offers": [
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -22,6 +22,10 @@
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "dbs-posb-cash288-oct2026",
@@ -43,8 +47,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -58,6 +62,10 @@
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -76,8 +84,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -91,6 +99,10 @@
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -108,13 +120,17 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "citi-cashback-plus-welcome-mar2027",
@@ -132,8 +148,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -143,6 +159,10 @@
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference. Clarified staggered16/26March FX start dates; the earliest promotion start is16March, not a blanket26March start."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -162,13 +182,17 @@
   ],
   "cards": [
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "dbs-yuu",
@@ -185,13 +209,17 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "uob-evol",
@@ -208,13 +236,17 @@
       "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "ocbc-365",
@@ -222,22 +254,26 @@
       "issuer": "OCBC",
       "min_age": 21,
       "audience": "SG/PR: income S$30,000/year at ages 21–55; S$15,000 above 55. Foreigners: S$45,000/year. Issuer approval applies.",
-      "reward": "Through 31 October: 6% petrol, 5% eligible dining, 3% groceries/land transport/selected recurring bills/streaming/EV charging/Watsons; otherwise 0.25%. From 1 November: 6% dining/groceries/land transport/petrol; most recurring-bill categories fall to 0.25%. Watsons remains 3% through 31 March 2027, then 0.25%, under the issuer change notice.",
-      "min_spend": "Through 31 October: S$800 or S$1,600/calendar month. From 1 November: single S$800 tier.",
-      "cap": "Through 31 October: S$80 at S$800 spend; S$160 at S$1,600. From 1 November: S$160 at S$800.",
+      "reward": "From 1 November 2026: 6% eligible dining (including fast food), groceries, land transport and petrol; 0.25% base for most recurring-bill categories. Watsons: 3% through 31 March 2027, then 0.25%. Posting date determines the applicable regime.",
+      "min_spend": "S$800 eligible spend per calendar month; below the minimum, eligible purchases earn 0.25% base.",
+      "cap": "S$160 cashback per calendar month at the S$800 tier.",
       "annual_fee": "S$196.20 incl. GST; first two years waived. Subsequent automatic waiver at S$10,000 eligible annual spend.",
-      "exclusions": "MCC/merchant rules apply. Fees, tax, cash advances, insurance, wallet top-ups, AXS/SAM and listed transactions excluded. October hotel dining/banquets earn base only. Read both dated term sets on the issuer page.",
+      "exclusions": "MCC, merchant and posting-date rules apply. Fees, tax, cash advances, insurance, wallet top-ups, AXS/SAM and listed transactions excluded. Current issuer terms control.",
       "source_url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card",
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "ocbc-infinity",
@@ -254,13 +290,17 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
     },
     {
-      "verified_at": "2026-10-31T00:24:07Z",
-      "review_due_at": "2026-11-01T00:24:07Z",
+      "verified_at": "2026-11-01T00:08:19Z",
+      "review_due_at": "2026-11-02T00:08:19Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-10-31T00:24:07Z",
           "change": "Official current product page and applicable terms rechecked: reward/base versus bonus, eligibility, spend/period, cap, fees, exclusions and dated transitions. No personal eligibility or blanket suitability inference."
+        },
+        {
+          "at": "2026-11-01T00:08:19Z",
+          "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
         }
       ],
       "id": "citi-cashback-plus",

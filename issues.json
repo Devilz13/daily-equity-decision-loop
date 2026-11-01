@@ -5,6 +5,86 @@
   "latest": "2026-10-31",
   "issues": [
     {
+      "date": "2026-11-01",
+      "number": 46,
+      "title": "New month; verify the next catalyst",
+      "status": "data incomplete",
+      "path": "issues/2026/11/01/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-01-v1",
+        "delivery_notice": "We apologise for the delayed edition. Actual evidence cutoff 08:08:19 SGT; Friday cash prices remain historical, not Sunday observations.",
+        "summary": "The new month brings effective card changes, a Singapore clarification and a verified five-day outlook. Friday market weakness remains the cash baseline. Gulf claims and mediation, cyber warnings and AI funding require different evidence. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Singapore corrects attribution; separate investigation remains ongoing",
+            "date": "31 Oct 2026",
+            "context": "MHA denies a reported personal-investigation claim; its annex separately retains the company investigation. No proven NVIDIA cash loss follows.",
+            "source": "https://www.mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article/"
+          },
+          {
+            "title": "OCBC posting-date regime starts; DBS application offer expires",
+            "date": "1 Nov 2026",
+            "context": "Rates, categories, minimum spend, caps and eligibility matter. October applications retain their own later approval/spend requirements.",
+            "source": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card"
+          },
+          {
+            "title": "Gulf mediation report is not a peace agreement",
+            "date": "31 Oct 2026",
+            "context": "Talks and unconfirmed incident claims remain distinct. No new direct Singapore transport disruption was established in this review.",
+            "source": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and Funds: DATA INCOMPLETE. No new weekend cash session selected. Friday baselines, older gaps and missing primary prices remain explicit.",
+        "event_updates": [],
+        "week_ahead": {
+          "days": [
+            {
+              "day": "Monday",
+              "date": "2026-11-02",
+              "items": [
+                "ISM manufacturing · 10:00 EST / 23:00 SGT"
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "date": "2026-11-03",
+              "items": [
+                "JOLTS September · 10:00 EST / 23:00 SGT"
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "date": "2026-11-04",
+              "items": [
+                "Uber call · 08:00 EST / 21:00 SGT; ISM services · 10:00 EST / 23:00 SGT"
+              ]
+            },
+            {
+              "day": "Thursday",
+              "date": "2026-11-05",
+              "items": [
+                "BoE decision/report · 12:00 GMT / 20:00 SGT; US productivity · 08:30 EST / 21:30 SGT"
+              ]
+            },
+            {
+              "day": "Friday",
+              "date": "2026-11-06",
+              "items": [
+                "US October employment · 08:30 EST / 21:30 SGT"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-10-31",
       "number": 45,
       "title": "Prices fall; cash and evidence still matter",
