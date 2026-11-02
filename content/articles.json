@@ -1,5 +1,966 @@
 [
   {
+    "id": "2026-11-02-europe-close-delayed",
+    "title": "Europe close — fuel-sensitive divergence and factory expansion with cost pressure",
+    "summary": "Delayed2November London-anchored closing read, researched3NovemberSingapore time. Reported closes are distinguished from primary-final gaps; all11sectors retain evidence limits. US trading is ongoing.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-02T18:07:21Z",
+    "updated_at": "2026-11-02T18:07:21Z",
+    "cutoff_at": "2026-11-02T18:07:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Original weekday calendar and exceptions as accessed; no2November closure/early close",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "nyse",
+        "title": "Original calendar/core hours as accessed; no2November holiday;09:30–16:00New York",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "euroclose",
+        "title": "Direct Reuters updated body reports2November close; page initial08:35UTC predates closing update, whose exact time is not supplied",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/european-shares-slip-investors-weigh-middle-east-talks-alstom-tanks-2026-11-02/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ism",
+        "title": "Original October2026 manufacturing report released2November10:00ET; direct body and component tables checked",
+        "publisher": "Institute for Supply Management",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+        "published_at": "2026-11-02T15:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "ezpmi",
+        "title": "Free syndicated Reuters report published09:10UTC; October final PMI vs flash and September distinguished",
+        "publisher": "Reuters via StreetInsider",
+        "url": "https://www.streetinsider.com/Reuters/Euro%2Bzone%2Bfactory%2Bgrowth%2Beases%2Bin%2BOctober%2Bbut%2Bremains%2Bsolid,%2BPMI%2Bshows/27268209.html",
+        "published_at": "2026-11-02T09:10:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sgpmi",
+        "title": "Permitted indexed extract of2November21:00SGT report; not a full-body access claim",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/economy-policy/singapore-factory-growth-slows-october-manufacturing-pmi-dips-51-4",
+        "published_at": "2026-11-02T13:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sipmm",
+        "title": "Original release calendar; public Tier1 link returns403, no bypass or claim to read its detailed bulletin",
+        "publisher": "SIPMM",
+        "url": "https://pmi.sipmm.edu.sg/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "diplomacy",
+        "title": "Reuters indexed syndicated report2November15:30IST /10:00UTC; direct page unavailable; attributed source, not signed accord",
+        "publisher": "Reuters via ThePrint",
+        "url": "https://theprint.in/world/iranians-have-left-doha-talks-draft-proposal-for-us-deal-being-circulated-official-says/3088137/",
+        "published_at": "2026-11-02T10:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "alerts",
+        "title": "Direct updated Reuters body datelined2November; initial1November21:36UTC; incident began1November about21:00UTC, responsibility unverified",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/ukrainian-air-force-says-public-air-raid-alert-app-has-been-hacked-2026-11-01/",
+        "published_at": "2026-11-01T21:36:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "boe",
+        "title": "Original upcoming-events page updated30October; policy publication5November12:00London",
+        "publisher": "Bank of England",
+        "url": "https://www.bankofengland.co.uk/events/upcoming-events",
+        "published_at": "2026-10-30",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "bava",
+        "title": "Original issuer 2 November four-year UK vaccine award; scheduled deliveries and optional provisions",
+        "publisher": "Bavarian Nordic",
+        "url": "https://www.bavarian-nordic.com/investor/news/news.aspx?news=7621",
+        "published_at": "2026-11-02T06:30:00Z",
+        "accessed_at": "2026-11-02T12:10:50Z",
+        "type": "primary"
+      },
+      {
+        "id": "jpx",
+        "title": "Original calendar as accessed: 3 November Culture Day closure, not 2 November",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T12:10:50Z",
+        "type": "primary"
+      },
+      {
+        "id": "alstom",
+        "title": "Original 2 November preliminary unaudited H1 results for six months to 30 September 2026 and revised FY2026/27 guidance",
+        "publisher": "Alstom",
+        "url": "https://www.alstom.com/press-releases-news/2026/11/alstoms-preliminary-first-half-202627-results",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T12:10:50Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The official LSE calendar identifies no2November closure/half-day exception. This is a London-anchored partial basket, not certification of every continental venue or issuer halt. Primary closing auction, complete breadth/turnover and synchronized asset panels remain missing.",
+        "kind": "fact",
+        "source_ids": [
+          "lse"
+        ]
+      },
+      {
+        "text": "Reuters’ updated2November closing account reports STOXX600 +0.42% at649.44. Its initial08:35UTC page timestamp predates the closing update; no exact update minute or first publication time is inferred.",
+        "kind": "fact",
+        "source_ids": [
+          "euroclose"
+        ]
+      },
+      {
+        "text": "Free Reuters survey reporting puts final October eurozone manufacturing PMI at52.7, versus52.9September and52.4flash. It remains expansionary; costs and delivery constraints require separate attention. This is survey evidence, not official GDP or company cash.",
+        "kind": "fact",
+        "source_ids": [
+          "ezpmi"
+        ]
+      },
+      {
+        "text": "Later than the European cash open, ISM’s2November US release records October PMI55.5 versus54.5September. The transatlantic comparison is manufacturing diffusion, not equivalent national output growth.",
+        "kind": "fact",
+        "source_ids": [
+          "ism"
+        ]
+      },
+      {
+        "text": "Reuters reports false emergency-app alerts overnight1–2November; the first Ukrainian messages began about21:00UTC1November. Both sides reported disruption; responsibility was not independently verified. False nuclear warnings are not evidence of nuclear attack.",
+        "kind": "fact",
+        "source_ids": [
+          "alerts"
+        ]
+      },
+      {
+        "text": "Reuters’2November account says a draft was circulating after negotiators departed Doha on1November, citing an informed official. This is diplomacy, not a verified agreement, safe physical reopening or new combat. Departure alone does not prove talks failed.",
+        "kind": "fact",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Divergent exposure can offset within an index.",
+        "transmission": "Fuel-sensitive costs and producer revenue expectations can react differently to the same oil repricing.",
+        "confidence": "inference",
+        "alternatives": "Hedging, earnings and positioning may dominate. Price co-movement does not measure each causal share.",
+        "source_ids": [
+          "euroclose"
+        ]
+      },
+      {
+        "explanation": "Factory expansion can coexist with margin pressure.",
+        "transmission": "Orders must convert through timely delivery into collections after input and financing costs.",
+        "confidence": "inference",
+        "alternatives": "Survey respondents are not the whole economy, and company pricing power can offset costs.",
+        "source_ids": [
+          "ezpmi"
+        ]
+      },
+      {
+        "explanation": "Alert integrity is a civilian resilience issue, not verification of a physical strike.",
+        "transmission": "Corrupted messages may disrupt public trust and continuity planning.",
+        "confidence": "inference",
+        "alternatives": "Actual restoration and independent attribution are unresolved; an accusation is not a confirmed perpetrator. No direct Singapore/Asian system compromise or measured local market loss is established.",
+        "source_ids": [
+          "alerts"
+        ]
+      },
+      {
+        "explanation": "Diplomatic expectations and actual service restoration need separate evidence.",
+        "transmission": "Singapore/Asia could face effects through trade routes, shipping, aviation, energy/import costs and supply chains if physical restrictions change.",
+        "confidence": "inference",
+        "alternatives": "Negotiating positions may leave services unchanged. No new direct Singapore loss, cyber compromise or quantified humanitarian/displacement/infrastructure effect is established; no force positions or unconditional war/price forecast is supplied.",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Demand survives cost pressure",
+        "outcome": "Industrial cash could remain resilient despite higher inputs.",
+        "trigger": "Original company margins and collections support the survey direction.",
+        "invalidation": "Persistent delays or worsening working capital contradict resilience.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "ezpmi"
+        ]
+      },
+      {
+        "name": "Fuel relief reaches operations",
+        "outcome": "Transport/importer cash could benefit if lower costs are realized.",
+        "trigger": "Comparable fuel/freight measures and issuer cost recognition confirm it.",
+        "invalidation": "Hedges, weaker traffic or renewed restrictions offset the change.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "diplomacy"
+        ]
+      },
+      {
+        "name": "Policy changes financing assumptions",
+        "outcome": "UK financing conditions could change after the actual decision.",
+        "trigger": "Original votes/projections establish a shift.",
+        "invalidation": "Consensus commentary is mistaken for policy or actual funding costs diverge.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "boe"
+        ]
+      },
+      {
+        "name": "Diplomacy becomes documented physical relief",
+        "outcome": "Import/logistics uncertainty could ease.",
+        "trigger": "Corroborated official terms and attributable operator service evidence.",
+        "invalidation": "No agreement, contradictory implementation or persistent disruption.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US actual2November close remains future:16:00EST /05:00SGT3November; closing research target05:20SGT",
+        "due_at": "2026-11-02T21:20:00Z",
+        "confirms": "Actual final participation supports the intraday interpretation.",
+        "contradicts": "Later reversal or missing primary finals prevents confirmation.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "Bank of England5November12:00London /20:00SGT",
+        "due_at": "2026-11-05T12:00:00Z",
+        "confirms": "Original decision and projections substantiate changed funding assumptions.",
+        "contradicts": "Forecasts alone are presented as enacted changes.",
+        "source_ids": [
+          "boe"
+        ]
+      },
+      {
+        "signal": "Original operator restoration and attributable alert-message integrity review",
+        "due_at": "2026-11-03T12:00:00Z",
+        "confirms": "Corroborated service and message validation restore confidence.",
+        "contradicts": "Only claims, screenshots or contradictory restoration evidence.",
+        "source_ids": [
+          "alerts"
+        ]
+      },
+      {
+        "signal": "Dated agreement and operator-confirmed service outcomes",
+        "due_at": "2026-11-03T12:00:00Z",
+        "confirms": "Mutually consistent official scope and physical evidence.",
+        "contradicts": "Conditional rhetoric without documented implementation.",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-02T18:07:21Z"
+    },
+    "material_reason": "Calendar-qualified delayed session product; actual research cutoff and evidence clocks distinguished from target and exact exchange coverage.",
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-02",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange normal scheduled2November; continental calendars outside verified scope",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Reported aggregate gain with divergent fuel-sensitive sectors; no broad-public-opinion claim.",
+        "indicators": "Dated secondary closing returns and survey evidence; primary final participation, volatility, bonds/FX and a complete11sector panel remain incomplete.",
+        "source_ids": [
+          "euroclose",
+          "ezpmi"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Reuters reports selected chip recoveries; full European tech-sector finals are missing.",
+          "implication": "A price bounce does not establish utilization or customer cash.",
+          "watchpoint": "Original margin, capacity and paid-deployment evidence.",
+          "source_ids": [
+            "euroclose"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Emergency-app compromise reports concern civilian message integrity; no full communications-sector closing panel was verified.",
+          "implication": "Reliability can affect trust without proving a listed issuer loss.",
+          "watchpoint": "Original operator restoration and independently checked attribution.",
+          "source_ids": [
+            "alerts"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Reported European travel/leisure close: +3%. Broader discretionary finals remain incomplete.",
+          "implication": "Realized fuel, pricing and demand determine company benefit.",
+          "watchpoint": "Original traffic and cost recognition, allowing for hedges.",
+          "source_ids": [
+            "euroclose"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized staples final or new verified issuer cash catalyst was obtained.",
+          "implication": "Manufacturing demand is not a substitute for household volumes or pricing power.",
+          "watchpoint": "Original volume/mix, procurement and cash margins.",
+          "source_ids": [
+            "ezpmi"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Reported European energy close: -2.3%. Realized producer prices remain separate.",
+          "implication": "Futures repricing need not translate immediately into cash.",
+          "watchpoint": "Comparable contracts, shipments and issuer realizations.",
+          "source_ids": [
+            "euroclose"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No complete bank/insurance closing basket, credit panel or funding curve was verified.",
+          "implication": "Rate changes can affect yields and funding costs in opposing directions.",
+          "watchpoint": "Original policy outcome, deposit costs and credit losses.",
+          "source_ids": [
+            "boe"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Reported healthcare close: -0.6%; a UK preparedness award does not establish sector earnings.",
+          "implication": "Stock and sector reactions may differ from delivery cash.",
+          "watchpoint": "Original funded deliveries and recognition; no invented contract value.",
+          "source_ids": [
+            "euroclose",
+            "bava"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Alstom’s original preliminary warning remains company-specific; a complete industrial closing return is unavailable.",
+          "implication": "Order intake can diverge from deliveries and collections.",
+          "watchpoint": "17November original results reconciliation and project milestones.",
+          "source_ids": [
+            "alstom"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Eurozone survey reporting describes input and supply constraints; material-sector final and realized-price panel remain incomplete.",
+          "implication": "Inventories, pass-through and timing can offset higher nominal prices.",
+          "watchpoint": "Original issuer inventories, contracts and cash conversion.",
+          "source_ids": [
+            "ezpmi"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized property closing panel, occupancy or refinancing update was obtained.",
+          "implication": "Discount-rate expectations are not observed collections or distributions.",
+          "watchpoint": "Original rents, maturities and policy publications.",
+          "source_ids": [
+            "boe"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No complete closing utilities panel or realized electricity-margin update was verified.",
+          "implication": "Fuel procurement and contracts determine pass-through.",
+          "watchpoint": "Original generation availability and fuel/tariff evidence.",
+          "source_ids": [
+            "diplomacy"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "The next factory comparison must separate countries and cash calendars; Japan closes3November.",
+          "trigger": "Original demand and issuer cash establish the proposed transmission.",
+          "invalidation": "Country divergence or futures mislabeled as Tokyo cash.",
+          "source_ids": [
+            "jpx",
+            "ezpmi"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Singapore’s reported slower manufacturing expansion can differ from European or US demand.",
+          "trigger": "Original local details and company export orders corroborate the relationship.",
+          "invalidation": "Only aggregate survey headlines or unrelated issuer exposure.",
+          "source_ids": [
+            "sgpmi",
+            "sipmm"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Europe’s closing direction need not predict the still-unfinished US session.",
+          "trigger": "Actual US final breadth and company evidence confirm follow-through.",
+          "invalidation": "Late reversal or divergent funding/earnings evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-02-us-open-delayed-catch-up",
+    "title": "US opening catch-up — early gains, AI financing terms and stronger factory activity",
+    "summary": "Delayed2November opening read researched during the US session. Opening-bell reporting and11:49EST context have distinct clocks; primary corporate terms and later factory data were not pre-open knowledge. No US closing claim.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-02T18:07:21Z",
+    "updated_at": "2026-11-02T18:07:21Z",
+    "cutoff_at": "2026-11-02T18:07:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Original weekday calendar and exceptions as accessed; no2November closure/early close",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "nyse",
+        "title": "Original calendar/core hours as accessed; no2November holiday;09:30–16:00New York",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "usopen",
+        "title": "Indexed Reuters opening-bell account via Yahoo, published14:36UTC; direct syndicated page unavailable",
+        "publisher": "Reuters via Yahoo",
+        "url": "https://malaysia.news.yahoo.com/us-stocks-open-higher-ai-143631787.html",
+        "published_at": "2026-11-02T14:36:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "usintra",
+        "title": "Direct updated body:11:49NewYork /16:49UTC cash observation; initial10:57UTC timestamp is not this observation clock",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/wall-street-futures-rise-ai-stocks-catch-their-breath-midterms-focus-2026-11-02/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ism",
+        "title": "Original October2026 manufacturing report released2November10:00ET; direct body and component tables checked",
+        "publisher": "Institute for Supply Management",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+        "published_at": "2026-11-02T15:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "sgpmi",
+        "title": "Permitted indexed extract of2November21:00SGT report; not a full-body access claim",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/economy-policy/singapore-factory-growth-slows-october-manufacturing-pmi-dips-51-4",
+        "published_at": "2026-11-02T13:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sipmm",
+        "title": "Original release calendar; public Tier1 link returns403, no bypass or claim to read its detailed bulletin",
+        "publisher": "SIPMM",
+        "url": "https://pmi.sipmm.edu.sg/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "oracle",
+        "title": "Original2November preliminary424B5 on EDGAR; subject to completion, separate equity and notes offerings",
+        "publisher": "Oracle / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "marvell",
+        "title": "Original2November issuer release; agreement, fixed exchange ratio and conditional1HCY2028close; forecasts are issuer expectations",
+        "publisher": "Marvell and Lumentum",
+        "url": "https://investor.marvell.com/_assets/_4b2ef940d8378f4928a6a90255e70f76/marvell/news/2026-11-02_Marvell_and_Lumentum_to_Combine_Creating_a_1040.pdf",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "diplomacy",
+        "title": "Reuters indexed syndicated report2November15:30IST /10:00UTC; direct page unavailable; attributed source, not signed accord",
+        "publisher": "Reuters via ThePrint",
+        "url": "https://theprint.in/world/iranians-have-left-doha-talks-draft-proposal-for-us-deal-being-circulated-official-says/3088137/",
+        "published_at": "2026-11-02T10:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "alerts",
+        "title": "Direct updated Reuters body datelined2November; initial1November21:36UTC; incident began1November about21:00UTC, responsibility unverified",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/ukrainian-air-force-says-public-air-raid-alert-app-has-been-hacked-2026-11-01/",
+        "published_at": "2026-11-01T21:36:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "bava",
+        "title": "Original issuer 2 November four-year UK vaccine award; scheduled deliveries and optional provisions",
+        "publisher": "Bavarian Nordic",
+        "url": "https://www.bavarian-nordic.com/investor/news/news.aspx?news=7621",
+        "published_at": "2026-11-02T06:30:00Z",
+        "accessed_at": "2026-11-02T12:10:50Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE’s original calendar/hours support a regular2November09:30–16:00NewYork session. This report was researched after the open; it does not recreate the09:15editorial context or certify all issuer halts.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "The Reuters opening-bell account published14:36UTC reports Dow52,173.40 (+0.78%), S&P5007,613.87 (+0.45%) and Nasdaq25,596.07 (+0.63%). This is a dated secondary opening observation, not the later current level. Direct syndicated access was unavailable; indexed text is labelled.",
+        "kind": "fact",
+        "source_ids": [
+          "usopen"
+        ]
+      },
+      {
+        "text": "Separate11:49EST /16:49UTC Reuters context reports Dow+1.06%, S&P500+0.58% and Nasdaq+0.65%, with eight sectors positive. It also reports positive advance/decline ratios. These are intraday observations, not finals or proof every stock gained.",
+        "kind": "fact",
+        "source_ids": [
+          "usintra"
+        ]
+      },
+      {
+        "text": "ISM’s original October report, released2November10:00EST, puts PMI55.5, new orders55.5 and production59.0. Prices75.2 is below September77.9 but remains in rising-price territory. Stronger activity therefore does not establish falling input-price levels.",
+        "kind": "fact",
+        "source_ids": [
+          "ism"
+        ]
+      },
+      {
+        "text": "Oracle’s2November preliminary424B5 describes US$10billion common stock and a separate US$10billion senior-notes offering. Each can close independently; the supplement is subject to completion. Proposed proceeds are not completed funding, bookings or realized AI returns.",
+        "kind": "fact",
+        "source_ids": [
+          "oracle"
+        ]
+      },
+      {
+        "text": "Marvell’s2November original release describes an all-stock agreement to buy Lumentum at4.500Marvell shares per Lumentum share, with implied enterprise value US$115billion. Expected closing is1HCY2028, subject to shareholder/regulatory approvals and other conditions; projected synergies are not realized cash.",
+        "kind": "fact",
+        "source_ids": [
+          "marvell"
+        ]
+      },
+      {
+        "text": "Singapore’s2November21:00SGT release is reported by Business Times as October manufacturing51.4 versus51.7 and electronics52.5 versus52.9. Both remain above50. The original public detailed bulletin returned403; full component validation remains a gap.",
+        "kind": "fact",
+        "source_ids": [
+          "sgpmi",
+          "sipmm"
+        ]
+      },
+      {
+        "text": "Reuters’2November account says a draft was circulating after negotiators departed Doha on1November, citing an informed official. This is diplomacy, not a verified agreement, safe physical reopening or new combat. Departure alone does not prove talks failed.",
+        "kind": "fact",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Proposed external financing changes the funding question.",
+        "transmission": "New shares can change ownership percentages and debt can add financing obligations; future returns depend on investment cash generation.",
+        "confidence": "inference",
+        "alternatives": "Raising capital may support productive capacity and flexibility; the filing alone neither proves distress nor successful monetization.",
+        "source_ids": [
+          "oracle"
+        ]
+      },
+      {
+        "explanation": "An agreement is not an integrated operating company.",
+        "transmission": "Approval, integration and customer acceptance must precede the expected benefits.",
+        "confidence": "inference",
+        "alternatives": "Technology complementarity may help, but forecasts can be delayed or fail; no realized bottleneck relief is established.",
+        "source_ids": [
+          "marvell"
+        ]
+      },
+      {
+        "explanation": "Stronger factory diffusion is not equivalent to company profit.",
+        "transmission": "Orders must cover costs and working capital before becoming free cash flow.",
+        "confidence": "inference",
+        "alternatives": "Different survey industries and issuer pricing power can produce opposing margin outcomes.",
+        "source_ids": [
+          "ism"
+        ]
+      },
+      {
+        "explanation": "Diplomatic expectations and actual service restoration need separate evidence.",
+        "transmission": "Singapore/Asia could face effects through trade routes, shipping, aviation, energy/import costs and supply chains if physical restrictions change.",
+        "confidence": "inference",
+        "alternatives": "Negotiating positions may leave services unchanged. No new direct Singapore loss, cyber compromise or quantified humanitarian/displacement/infrastructure effect is established; no force positions or unconditional war/price forecast is supplied.",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Financing funds productive utilization",
+        "outcome": "New capacity could earn sufficient cash after funding costs.",
+        "trigger": "Original paid utilization and cash conversion improve after capital is actually raised.",
+        "invalidation": "Dilution, interest and capital commitments outpace incremental cash.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "oracle"
+        ]
+      },
+      {
+        "name": "Merger benefits become demonstrable",
+        "outcome": "Connectivity integration could reduce constraints over time.",
+        "trigger": "Approvals, delivery milestones and audited realization support the plan.",
+        "invalidation": "Regulatory failure, customer loss or integration delays.",
+        "horizon": "Before conditional1HCY2028close and subsequent realization",
+        "source_ids": [
+          "marvell"
+        ]
+      },
+      {
+        "name": "Demand withstands costs",
+        "outcome": "Stronger production could support operating cash despite input pressure.",
+        "trigger": "Issuer orders and margins corroborate survey directions.",
+        "invalidation": "Weak collections, inventories or cost pass-through contradict it.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "ism"
+        ]
+      },
+      {
+        "name": "Diplomacy becomes documented physical relief",
+        "outcome": "Import/logistics uncertainty could ease.",
+        "trigger": "Corroborated official terms and attributable operator service evidence.",
+        "invalidation": "No agreement, contradictory implementation or persistent disruption.",
+        "horizon": "3–6 November2026",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Actual US2November16:00ESTclose;05:00SGT3November, with closing read target05:20SGT",
+        "due_at": "2026-11-02T21:20:00Z",
+        "confirms": "Final participation and volume support the intraday direction.",
+        "contradicts": "Late reversals or missing primary data prevent confirmation.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "Oracle final pricing, issuance and settlement disclosures; review boundary, not a promised pricing minute",
+        "due_at": "2026-11-03T14:30:00Z",
+        "confirms": "Original final terms and completed proceeds resolve funding uncertainty.",
+        "contradicts": "Only preliminary terms, changed amounts or delayed settlement.",
+        "source_ids": [
+          "oracle"
+        ]
+      },
+      {
+        "signal": "Original merger approval and closing-condition updates; review boundary",
+        "due_at": "2026-11-04T14:30:00Z",
+        "confirms": "Original filed terms and milestones support execution.",
+        "contradicts": "Conditional forecasts are mislabeled as completed approvals or savings.",
+        "source_ids": [
+          "marvell"
+        ]
+      },
+      {
+        "signal": "Dated agreement and operator-confirmed service outcomes",
+        "due_at": "2026-11-03T12:00:00Z",
+        "confirms": "Mutually consistent official scope and physical evidence.",
+        "contradicts": "Conditional rhetoric without documented implementation.",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-02T18:07:21Z"
+    },
+    "material_reason": "Calendar-qualified delayed session product; actual research cutoff and evidence clocks distinguished from target and exact exchange coverage.",
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-02",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE scheduled regular2November cash day; individual halts not exhaustively certified",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated risk recovery with remaining issuer financing and execution uncertainty.",
+        "indicators": "Opening-bell gains and later positive breadth are different observations. No synchronized current11sector returns, volatility, rates/FX or primary closing panel is certified.",
+        "source_ids": [
+          "usopen",
+          "usintra"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "The primary Oracle financing supplement and Marvell agreement change capital/approval questions; neither proves current whole-sector returns.",
+          "implication": "Funding and integration costs must be compared with realized cash.",
+          "watchpoint": "Final issuance, paid utilization and approval milestones.",
+          "source_ids": [
+            "oracle",
+            "marvell"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized communications return or verified new US alert-operator disruption was obtained.",
+          "implication": "Civilian message integrity is a resilience watchpoint, not established US issuer loss.",
+          "watchpoint": "Original operator notices and verifiable service outcomes.",
+          "source_ids": [
+            "alerts"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Later Reuters context identifies discretionary leadership; a complete current basket is missing.",
+          "implication": "Fuel expectations alone do not establish demand or realized margins.",
+          "watchpoint": "Original traffic, sales and hedged fuel costs.",
+          "source_ids": [
+            "usintra"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "ISM identifies Food,Beverage&Tobacco among expanding large manufacturing industries; no complete listed staples return is certified.",
+          "implication": "Survey activity does not establish pricing power or cash margin.",
+          "watchpoint": "Original volume/mix, input costs and collections.",
+          "source_ids": [
+            "ism"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Later Reuters reports weaker energy shares; a current final and physical-flow panel remain unavailable.",
+          "implication": "Producer realizations can differ from intraday risk repricing.",
+          "watchpoint": "Comparable contracts, operator shipments and actual realized prices.",
+          "source_ids": [
+            "usintra",
+            "diplomacy"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No complete financial-sector return, funding spread or credit-loss panel was verified.",
+          "implication": "A corporate debt proposal is not evidence of bank profitability.",
+          "watchpoint": "Original credit/funding data and actual financing terms.",
+          "source_ids": [
+            "oracle"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current whole-sector return or new verified US award result was substantiated. Foreign preparedness supply is not US revenue.",
+          "implication": "Separate procurement authorization, delivery and cash recognition.",
+          "watchpoint": "Original local procurement and issuer cash evidence.",
+          "source_ids": [
+            "bava"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Original ISM activity is stronger; no synchronized industrial-sector return or company cash panel was obtained.",
+          "implication": "Delivery and collections must confirm operating benefit.",
+          "watchpoint": "Original orders, inventories and realized margins.",
+          "source_ids": [
+            "ism"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "ISM prices remain in rising-price territory; no full materials final or inventory panel was certified.",
+          "implication": "Slower price diffusion is not falling price levels or guaranteed margins.",
+          "watchpoint": "Original issuer price-cost and working-capital reconciliation.",
+          "source_ids": [
+            "ism"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized property return, occupancy or refinancing panel was obtained.",
+          "implication": "Financing availability does not establish rent collections or distribution cash.",
+          "watchpoint": "Original lease collections, maturities and actual debt pricing.",
+          "source_ids": [
+            "oracle"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No whole-sector return or realized power/capacity margin update was verified.",
+          "implication": "Data-centre investment does not establish contracted utility cash or reliable generation.",
+          "watchpoint": "Original power contracts, generation availability and delivered capacity.",
+          "source_ids": [
+            "oracle"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Financing and optical integration developments could affect suppliers only through documented contracts.",
+          "trigger": "Original supplier orders, paid acceptance and deployment prove exposure.",
+          "invalidation": "No mapped customer link or forecasts fail to convert.",
+          "source_ids": [
+            "marvell",
+            "oracle"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "US strength and Singapore’s slower reported factory expansion require component comparison.",
+          "trigger": "Local issuer export orders and original cash corroborate demand.",
+          "invalidation": "Different scope or weak local conversion contradicts it.",
+          "source_ids": [
+            "ism",
+            "sgpmi",
+            "sipmm"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US intraday direction is not a later European cash observation.",
+          "trigger": "Next-session original company and participation evidence support common demand.",
+          "invalidation": "Country, funding or energy exposure produces divergent outcomes.",
+          "source_ids": [
+            "lse",
+            "ism"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-02-singapore-close-delayed",
     "title": "Singapore close — reported decline, uneven October flows and unresolved final-price differences",
     "summary": "Delayed 2 November closing read researched after 20:00 SGT. A secondary closed-market table is labelled; official final, closing breadth and sector panels remain incomplete. October evidence is not today’s sector return.",
