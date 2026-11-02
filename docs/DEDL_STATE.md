@@ -1,17 +1,21 @@
 # DEDL public coverage guide
 
-1 November 2026 reporting. [Issue046](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/01/) retains all regions, 11 sectors, five incomplete market statuses and the coming 2–6 November outlook with original schedules and timezone conversions. Friday cash prices retain their date; no Sunday cash observation is asserted.
+2 November2026 reporting. [Issue047](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/02/) retains all regions/desks,11sectors and five incomplete market statuses. [Asia opening context](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-asia-open-delayed/) is separately dated with actual observation limits; no Friday price is called today’s open.
 
-## Material source changes
+## New original evidence
 
-MHA’s [31 October clarification](https://www.mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article/) denies the reported personal-investigation attribution, while its annex separately retains the Megaspeed investigation. Charges are not convictions; no specific NVIDIA revenue loss is established. NEA’s assessment participation notice is fact-finding, not liability. Its 31 October haze advisory forecasts 1 November, not a live morning reading.
+OPEC’s1November decision retains required-production levels for December; targets are not actual output or exports. The early Reuters oil quote is indexed-only and separately timed; direct body returned401. Contract expiry prevents a continuous Friday-to-Monday Brent comparison.
 
-OCBC365’s November posting-date regime is effective; the DBS October acquisition application window is expired, while timely applicants retain separate approval/spend requirements. Current comparison terms and append-only corrections remain in content/promotions.json. No successor DBS offer is assumed.
+[MINDEF maritime statement](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-manama-maritime-security/) retains the original1November speech and30October–1November dialogue period. This is diplomacy and attributed policy, not a new deployment or quantified Singapore cargo loss. The previously scheduled Wallaby end date is not independently confirmed completion.
 
-Original Canadian cyber guidance records the 30 October Ivanti catalog additions. CISA direct feed returned403; no bypass. Gulf mediation and state-media incident allegations retain attribution and incomplete corroboration. No new direct Singapore transport/energy loss was established. Reuters copies are one chain.
+[Binance phased recovery](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-binance-phased-recovery/) separates the1November planned window, prior90%reference, current issuer-reported95%and unverified complete restoration. SPF’s original outgoing-only caller-ID measure begins2November; official verification still matters. MSS’s1November advisory forecasts2November haze; past readings are not live morning data. PMO confirms the planned2–5November CHOGM visit, not signed contracts.
 
-## Retained limitations and next evidence
+The mutable DBS acquisition PDF now covers1November2026–28February2027, with14March approval deadline and approval-month cashback schedule. A distinct offer record was added; October’s expired record and original correction history remain intact. The old PDF body is no longer at the shared endpoint. OCBC/Citi/UOB programme and fee/exclusion distinctions remain explicit.
 
-Eight26October calendar-qualified session gaps remain unreconstructed. Complete primary prices, synchronized sector/asset panels, current substantive Parliament documents, AV utilization/channel share and ecosystem-capital reconciliation remain unavailable. The completed-week30October award check remains incomplete with no substantiated shortlist. REDL’s recent original lists retain14August filings for30June holdings; no daily trading inference. The full owner UBER review is separate and absent from this public repository.
+## Calendar and evidence limits
 
-Next originals:2November manufacturing survey,3November JOLTS,4November Uber/services,5November UK decision/US productivity and6November US employment. Global calendar coverage outside these verified entries remains explicit. Follow direct operator flows, court/issuer disclosures, paid utilization and cash; repeated claims or exercise footage are not independent confirmations. Preparation times do not prove first live availability.
+JPX’s original calendar/hours verify Japan’s2November anchor;3November Culture Day is a cash-market closure. Other regional venues are outside verified calendar scope in this partial read. Singapore, Europe and US opening/closing products remain distinct; no full venue basket is implied.
+
+Eight26October calendar-qualified session gaps remain unreconstructed even after rolling-audit pruning. Current equity/breadth/volume, complete primary finals, synchronized sector/asset panels and substantive Parliament documents remain incomplete. CISA direct feed403 and Parliament latest-sitting404 were not bypassed. REDL lists retain14August filings for30June holdings. NVIDIA checked sources add no new overnight physical-capacity finding. Full owner UBER week-ended30October debate remains separate; completed-week award check remains incomplete with no qualified shortlist.
+
+Next evidence:2November23:00SGT manufacturing survey, current original market participation, actual shipments/settled withdrawals and new issuer cash. The sourced Sunday outlook remains archived.4November Uber call21:00SGT remains future; current AV utilization/channel shares and ecosystem cash remain unavailable. Publication preparation is not measured first live availability.

@@ -7,8 +7,31 @@
   },
   "offers": [
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
+      "reviewed_public": true,
+      "corrections": [],
+      "id": "dbs-posb-cash288-nov2026",
+      "name": "DBS/POSB: S$288 November welcome cashback",
+      "category": "Card sign-up",
+      "cards": [
+        "DBS yuu Visa",
+        "DBS yuu American Express",
+        "POSB Everyday"
+      ],
+      "apps": [
+        "DBS PayLah!"
+      ],
+      "benefit": "Apply1November2026–28February2027 using CASH288; approval by14March2027. Spend S$800 within60days of approval and hold a valid PayLah! account by the spend-period end. Cashback follows approval-month schedule: November approvals February–March2027; December March–April; January April–May; February May–June;1–14March June–July.",
+      "eligibility": "No current principal DBS/POSB credit card and none cancelled in the past12months. Eligible principal DBS yuuVisa/Amex or POSBEveryday; one welcome gift, qualifying spend and listed MCC/transaction exclusions apply. MINTER luggage is an alternative gift, not an additional cashback gift. Card/account eligibility and current PDF conditions control.",
+      "source_url": "https://www.dbs.com.sg/personal/cards/promotion/cards-dbs-yuu-promo",
+      "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/acquisition/dbs-cc-acqui-promo-tnc.pdf",
+      "starts_at": "2026-11-01T00:00:00+08:00",
+      "expires_at": "2027-03-01T00:00:00+08:00"
+    },
+    {
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -26,6 +49,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "dbs-posb-cash288-oct2026",
@@ -47,8 +74,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -66,6 +93,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -84,8 +115,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -103,6 +134,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -120,8 +155,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -131,6 +166,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "citi-cashback-plus-welcome-mar2027",
@@ -148,8 +187,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -163,6 +202,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -182,8 +225,8 @@
   ],
   "cards": [
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -193,6 +236,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "dbs-yuu",
@@ -209,8 +256,8 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -220,6 +267,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "uob-evol",
@@ -236,8 +287,8 @@
       "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -247,6 +298,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "ocbc-365",
@@ -263,8 +318,8 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -274,6 +329,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "ocbc-infinity",
@@ -290,8 +349,8 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
     },
     {
-      "verified_at": "2026-11-01T00:08:19Z",
-      "review_due_at": "2026-11-02T00:08:19Z",
+      "verified_at": "2026-11-02T00:07:37Z",
+      "review_due_at": "2026-11-03T00:07:37Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -301,6 +360,10 @@
         {
           "at": "2026-11-01T00:08:19Z",
           "change": "Original product/terms rechecked. DBS October acquisition application period has ended; OCBC 365 November posting-date regime is now effective. Other recorded eligibility, caps, exclusions, fees and offer periods retained."
+        },
+        {
+          "at": "2026-11-02T00:07:37Z",
+          "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
         }
       ],
       "id": "citi-cashback-plus",

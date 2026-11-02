@@ -1,5 +1,553 @@
 [
   {
+    "id": "2026-11-02-asia-open-delayed",
+    "title": "Asia opening context — oil targets, phased recovery and missing live equity prices",
+    "summary": "Japan-anchored2November delayed opening context. Original calendar, energy policy, operator recovery and regional spillovers retain all11sectors and current-price gaps.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-02T00:07:37Z",
+    "updated_at": "2026-11-02T00:07:37Z",
+    "cutoff_at": "2026-11-02T00:07:37Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "publisher": "Japan Exchange Group",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T00:02:32Z",
+        "title": "Official calendar as accessed2November; no reliable original publication date supplied;3November Culture Day separate",
+        "type": "primary"
+      },
+      {
+        "id": "hours",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "publisher": "Japan Exchange Group",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T00:02:34Z",
+        "title": "Official cash hours as accessed2November; regional basket calendar scope not certified",
+        "type": "primary"
+      },
+      {
+        "id": "opec",
+        "url": "https://www.opec.org/pr-detail/620-1-november-2026.html",
+        "publisher": "OPEC",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:02:35Z",
+        "title": "Original seven-country December required-production decision; no physical-flow measurement",
+        "type": "primary"
+      },
+      {
+        "id": "oil",
+        "url": "https://www.reuters.com/business/energy/oil-slips-more-than-1-talks-continue-ending-iran-war-2026-11-01/",
+        "publisher": "Reuters",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:02:21Z",
+        "title": "Search-index excerpt only:23:03GMT observation; direct401, no full-body claim",
+        "type": "secondary"
+      },
+      {
+        "id": "pmo",
+        "url": "https://www.pmo.gov.sg/newsroom/dpm-gan-kim-yong-to-visit-antigua-and-barbuda-nov-2026-/",
+        "publisher": "Prime Minister's Office Singapore",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:02:35Z",
+        "title": "Original CHOGM visit notice; planned diplomacy not realized contracts",
+        "type": "primary"
+      },
+      {
+        "id": "binance",
+        "url": "https://www.binance.com/en-PH/support/announcement/detail/73911fb819b240f88b88256bdd318eda",
+        "publisher": "Binance",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:03:15Z",
+        "title": "Original update#4 read after standard gzip decoding; staged withdrawals, prior90%and current95%issuer replenishment claims distinguished",
+        "type": "primary"
+      },
+      {
+        "id": "mindef",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/",
+        "publisher": "MINDEF",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:04:05Z",
+        "title": "Original attributed maritime-security speech; policy position, not new combat",
+        "type": "primary"
+      },
+      {
+        "id": "spf",
+        "url": "https://www.police.gov.sg/Media-Hub/Police-Life/2026/11/Know-Whos-Calling-SPF-Launches-Single-Caller-ID-to-Combat-Scams",
+        "publisher": "Singapore Police Force",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:03:02Z",
+        "title": "Original outgoing-only caller-ID announcement; verify unexpected requests independently",
+        "type": "primary"
+      },
+      {
+        "id": "nvidia",
+        "url": "https://nvidianews.nvidia.com/news",
+        "publisher": "NVIDIA",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T00:02:08Z",
+        "title": "Direct news archive as accessed; latest dated item30October; no publication-date claim for the index",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The checked JPX calendar lists3November Culture Day, not2November; other venues remain outside verified calendar scope.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hours"
+        ]
+      },
+      {
+        "text": "OPEC retains September required-production levels for December; targets do not establish actual output/exports.",
+        "kind": "fact",
+        "source_ids": [
+          "opec"
+        ]
+      },
+      {
+        "text": "Reuters indexed23:03GMT oil quote is earlier than this report; no complete live equity breadth or volume panel was obtained.",
+        "kind": "fact",
+        "source_ids": [
+          "oil"
+        ]
+      },
+      {
+        "text": "Binance’s update describes preparation for staged withdrawals; complete service restoration was not independently verified.",
+        "kind": "fact",
+        "source_ids": [
+          "binance"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Conditional transmission, not a measured causal share.",
+        "transmission": "Funding, reliability and verified physical delivery can affect costs, confidence and cash.",
+        "confidence": "inference",
+        "alternatives": "Plans or political statements may not change actual service availability, flows or issuer cash.",
+        "source_ids": [
+          "jpx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence improves",
+        "outcome": "Uncertainty narrows with directly demonstrated service or physical-flow outcomes.",
+        "trigger": "Original confirmation and corroborated outcomes.",
+        "invalidation": "Contradictory or incomplete original evidence and renewed disruption.",
+        "horizon": "2–5November2026",
+        "source_ids": [
+          "jpx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Original outcome and actual service/physical-flow evidence",
+        "due_at": "2026-11-02T12:00:00Z",
+        "confirms": "Consistent original and independently corroborated outcomes.",
+        "contradicts": "Announcements without execution, new restrictions or inconsistent scope.",
+        "source_ids": [
+          "jpx"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-02T00:07:37Z"
+    },
+    "material_reason": "New original evidence changes the stated status or clarifies a material transmission channel.",
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-02",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "JPX / Tokyo cash anchor; other regional venues omitted from verified calendar scope",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed and incomplete: an early oil decline may indicate easing supply-risk sentiment, but no live regional equity breadth is certified.",
+        "indicators": "Separately timed Reuters indexed oil quote; OPEC target statement; operator phased-recovery notice. Friday equity levels are not current opening prices.",
+        "source_ids": [
+          "oil",
+          "opec",
+          "binance"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Direct NVIDIA archive and supplier/customer releases rechecked; no newly substantiated overnight physical-capacity change. NVIDIA original index No comparable live opening sector-price basket verified.",
+          "implication": "Track paid utilization, HBM/DRAM, advanced packaging/foundry and rack execution. A compliance clarification and a product plan do not resolve recurring cash.",
+          "watchpoint": "New original orders/acceptance, receivables and funding; current sector returns missing.",
+          "source_ids": [
+            "nvidia"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable live regional communications basket or new issuer financial series obtained. Dated prior coverage No comparable live opening sector-price basket verified.",
+          "implication": "Advertising/cloud demand, telecom capex and regulation have different economics. A common AI headline is not sector performance.",
+          "watchpoint": "Original earnings, traffic monetization and recurring cash; no inferred whole-sector return.",
+          "source_ids": [
+            "nvidia"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Amazon’s original prior-quarter release rechecked; current regional consumption/stock basket unavailable. Issuer actuals No comparable live opening sector-price basket verified.",
+          "implication": "Lower energy costs could help budgets/logistics only if sustained and passed through; FX and fees can offset.",
+          "watchpoint": "Comparable retail/cloud segment cash, pricing, lease/capex obligations and household demand.",
+          "source_ids": [
+            "oil"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "NEA’s31October assessment notice remains a fact-finding process, not a guilt or provision finding. NEA original No comparable live opening sector-price basket verified.",
+          "implication": "Haze/compliance costs can affect agribusiness and consumers, but cooperation does not establish a quantified loss.",
+          "watchpoint": "Assessment outcomes and original issuer margin/cash disclosures; current sector prices missing.",
+          "source_ids": [
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "1November OPEC target decision read; early oil quote is indexed, time-specific and secondary. OPEC original No comparable live opening sector-price basket verified.",
+          "implication": "Unchanged quotas can coexist with constrained exports. Lower futures do not prove restored Gulf flows or secure refining margins.",
+          "watchpoint": "Actual shipments, operator notices and comparable contracts; avoid Brent-roll artefacts.",
+          "source_ids": [
+            "opec",
+            "oil"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "1November Binance phased-withdrawal notice read; no independent full restoration/reserve audit. Operator original No comparable live opening sector-price basket verified.",
+          "implication": "Improved access could reduce stress; staged rollout and remaining checks limit an all-clear. This is not a verified bank-loss series.",
+          "watchpoint": "Successful settled withdrawals across relevant services, independent reconciliation and named exposures.",
+          "source_ids": [
+            "binance"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "US labour release calendar rechecked; no live Asian healthcare basket or new comprehensive claims-cost series. Original schedule No comparable live opening sector-price basket verified.",
+          "implication": "Wages, utilization, reimbursement and funding affect providers/insurers differently. Macro data are not a medical-loss ratio.",
+          "watchpoint": "Original provider/insurer utilization and recurring cash; separate forecasts from results.",
+          "source_ids": [
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Manufacturing survey remains future today; maritime-cooperation speech is a policy position. MINDEF speech No comparable live opening sector-price basket verified.",
+          "implication": "Orders and delivery bottlenecks can coexist; defence diplomacy does not establish a new signed or funded procurement.",
+          "watchpoint": "Original funded orders, delivery/collection and future survey components.",
+          "source_ids": [
+            "mindef"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No new comparable metals/materials opening-price basket. Prior integrated-issuer segment margins retain dates. Qualified financial baseline No comparable live opening sector-price basket verified.",
+          "implication": "Feedstock costs, selling prices, volumes and working capital may move differently. Oil weakness is not automatically a chemical margin gain.",
+          "watchpoint": "Original segment cash, inventories, volumes and contract pricing.",
+          "source_ids": [
+            "oil"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "Friday Treasury curve and future UK policy decision remain different clocks. BoE schedule No comparable live opening sector-price basket verified.",
+          "implication": "Lower energy/benchmark rates may help tenants/funding, but recurring capex, lease cash and refinancing decide distributions.",
+          "watchpoint": "Original debt maturities, tenant receipts and recurring property investment; live REIT basket missing.",
+          "source_ids": [
+            "opec"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No new energized-MW or tariff/connection decision substantiated. Direct AI news check No comparable live opening sector-price basket verified.",
+          "implication": "Power/grid/cooling bottlenecks may create demand but require funded connections and cost recovery; delayed deployment can defer supplier orders.",
+          "watchpoint": "Energized capacity, permits, customer acceptance and tariff/cash investment; generation plans are not supply delivered.",
+          "source_ids": [
+            "nvidia",
+            "opec"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Energy/import and settlement confidence may transmit to local costs and funding; dedicated SGX opening read remains separate.",
+          "trigger": "Original physical flows, operator outcomes and actual current-market participation.",
+          "invalidation": "Stable flows, no direct local effect or contrary original evidence.",
+          "source_ids": [
+            "opec",
+            "oil",
+            "binance"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Future European activity may react to energy and issuer-cash evidence; no current Europe opening observation.",
+          "trigger": "Original physical flows, operator outcomes and actual current-market participation.",
+          "invalidation": "Stable flows, no direct local effect or contrary original evidence.",
+          "source_ids": [
+            "opec",
+            "oil",
+            "binance"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Future US manufacturing/earnings evidence may revise global demand/cash expectations; Friday close remains historical.",
+          "trigger": "Original physical flows, operator outcomes and actual current-market participation.",
+          "invalidation": "Stable flows, no direct local effect or contrary original evidence.",
+          "source_ids": [
+            "opec",
+            "oil",
+            "binance"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-02-manama-maritime-security",
+    "title": "Singapore maritime-security statement — cooperation and direct-effect limits",
+    "summary": "Original1November Manama speech places maritime resilience, law and cooperation in Singapore/Asia economic context; diplomatic engagement is not combat.",
+    "channel": "military",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-02T00:07:37Z",
+    "updated_at": "2026-11-02T00:07:37Z",
+    "cutoff_at": "2026-11-02T00:07:37Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "mindef",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/",
+        "publisher": "MINDEF",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:04:05Z",
+        "title": "Original attributed maritime-security speech; policy position, not new combat",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The1November MINDEF speech argues for international law, mutual trust and practical maritime cooperation; it is attributed policy, not a deployment order.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef"
+        ]
+      },
+      {
+        "text": "No quantified new Singapore cargo loss or direct service interruption is established by this speech.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Conditional transmission, not a measured causal share.",
+        "transmission": "Funding, reliability and verified physical delivery can affect costs, confidence and cash.",
+        "confidence": "inference",
+        "alternatives": "Plans or political statements may not change actual service availability, flows or issuer cash.",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence improves",
+        "outcome": "Uncertainty narrows with directly demonstrated service or physical-flow outcomes.",
+        "trigger": "Original confirmation and corroborated outcomes.",
+        "invalidation": "Contradictory or incomplete original evidence and renewed disruption.",
+        "horizon": "2–5November2026",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Original outcome and actual service/physical-flow evidence",
+        "due_at": "2026-11-02T12:00:00Z",
+        "confirms": "Consistent original and independently corroborated outcomes.",
+        "contradicts": "Announcements without execution, new restrictions or inconsistent scope.",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-02T00:07:37Z"
+    },
+    "material_reason": "New original evidence changes the stated status or clarifies a material transmission channel."
+  },
+  {
+    "id": "2026-11-02-binance-phased-recovery",
+    "title": "Binance recovery update — staged access is not a complete restoration audit",
+    "summary": "The original1November update describes planned staged withdrawals and issuer-reported95%replenishment, up from90%. Independent full-service acceptance remains unavailable.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cyber-frontier"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-02T00:07:37Z",
+    "updated_at": "2026-11-02T00:07:37Z",
+    "cutoff_at": "2026-11-02T00:07:37Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "binance",
+        "url": "https://www.binance.com/en-PH/support/announcement/detail/73911fb819b240f88b88256bdd318eda",
+        "publisher": "Binance",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:03:15Z",
+        "title": "Original update#4 read after standard gzip decoding; staged withdrawals, prior90%and current95%issuer replenishment claims distinguished",
+        "type": "primary"
+      },
+      {
+        "id": "spf",
+        "url": "https://www.police.gov.sg/Media-Hub/Police-Life/2026/11/Know-Whos-Calling-SPF-Launches-Single-Caller-ID-to-Combat-Scams",
+        "publisher": "Singapore Police Force",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:03:02Z",
+        "title": "Original outgoing-only caller-ID announcement; verify unexpected requests independently",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Binance’s1November update planned phase-one withdrawals06:00–09:00UTC and progressive readiness checks; no account test or independent restoration audit was performed.",
+        "kind": "fact",
+        "source_ids": [
+          "binance"
+        ]
+      },
+      {
+        "text": "The body refers to approximately90%covered in the prior update, then reports approximately95%covered now. These remain issuer claims rather than an independent audit.",
+        "kind": "fact",
+        "source_ids": [
+          "binance"
+        ]
+      },
+      {
+        "text": "SPF says outgoing-only callerID60000999 begins2November with a followinggov.sgSMS; unexpected requests still require independent official verification.",
+        "kind": "fact",
+        "source_ids": [
+          "spf"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Conditional transmission, not a measured causal share.",
+        "transmission": "Funding, reliability and verified physical delivery can affect costs, confidence and cash.",
+        "confidence": "inference",
+        "alternatives": "Plans or political statements may not change actual service availability, flows or issuer cash.",
+        "source_ids": [
+          "binance"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence improves",
+        "outcome": "Uncertainty narrows with directly demonstrated service or physical-flow outcomes.",
+        "trigger": "Original confirmation and corroborated outcomes.",
+        "invalidation": "Contradictory or incomplete original evidence and renewed disruption.",
+        "horizon": "2–5November2026",
+        "source_ids": [
+          "binance"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Original outcome and actual service/physical-flow evidence",
+        "due_at": "2026-11-02T12:00:00Z",
+        "confirms": "Consistent original and independently corroborated outcomes.",
+        "contradicts": "Announcements without execution, new restrictions or inconsistent scope.",
+        "source_ids": [
+          "binance"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-02T00:07:37Z"
+    },
+    "material_reason": "New original evidence changes the stated status or clarifies a material transmission channel."
+  },
+  {
     "id": "2026-10-30-us-close-delayed",
     "title": "US closing catch-up — broader selling, lower par yields and separate energy strength",
     "summary": "CompletedFriday30 October session recovered with actual laterSaturday evidence. Final prices replace earlier intraday values; breadth is negative. All11sectors, counterarguments, cross-asset definitions and explicit verification gaps retained.",

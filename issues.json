@@ -5,6 +5,47 @@
   "latest": "2026-10-31",
   "issues": [
     {
+      "date": "2026-11-02",
+      "number": 47,
+      "title": "Plans, flows and the evidence between",
+      "status": "data incomplete",
+      "path": "issues/2026/11/02/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-02-v1",
+        "delivery_notice": "We apologise for the delayed edition. Actual evidence cutoff 08:07:37 SGT; the separate Asia opening read is delayed and current equity-price gaps remain explicit.",
+        "summary": "Oil targets, actual shipments and futures prices need separate evidence. Singapore’s maritime statement is diplomacy; Binance’s phased recovery is not a full restoration audit. A new DBS promotion retains October’s expired record. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "OPEC holds December targets; early oil quote has a separate clock",
+            "date": "1–2 Nov 2026",
+            "context": "Required production is not actual exports or safe transit. Early futures and Friday’s expiring contract are not a continuous comparable return.",
+            "source": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+          },
+          {
+            "title": "Singapore argues against normalising maritime insecurity",
+            "date": "1 Nov 2026",
+            "context": "MINDEF’s original Manama speech links trade resilience and practical cooperation. It is not a combat alert or a new quantified local loss.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/"
+          },
+          {
+            "title": "DBS publishes a distinct November–February acquisition period",
+            "date": "1 Nov 2026",
+            "context": "The new PDF has separate approval and fulfilment dates. October remains archived; lookback, qualifying spend and account conditions still apply.",
+            "source": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/acquisition/dbs-cc-acqui-promo-tnc.pdf"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and Funds: DATA INCOMPLETE. Separate Asia read covers11sectors. Current equity breadth/prices, older session gaps and primary finals remain incomplete.",
+        "event_updates": []
+      }
+    },
+    {
       "date": "2026-11-01",
       "number": 46,
       "title": "New month; verify the next catalyst",
