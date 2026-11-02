@@ -1,21 +1,21 @@
 # DEDL public coverage guide
 
-2 November2026 reporting. [Issue047](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/02/) retains all regions/desks,11sectors and five incomplete market statuses. [Asia opening context](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-asia-open-delayed/) is separately dated with actual observation limits; no Friday price is called today’s open.
+2 November 2026 coverage: [Issue047](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/02/) and the separate [Asia opening context](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-asia-open-delayed/) retain dated evidence and explicit market-data limits.
 
-## New original evidence
+## Singapore opening catch-up
 
-OPEC’s1November decision retains required-production levels for December; targets are not actual output or exports. The early Reuters oil quote is indexed-only and separately timed; direct body returned401. Contract expiry prevents a continuous Friday-to-Monday Brent comparison.
+[Singapore opening read](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-singapore-open-delayed-catch-up/) distinguishes BusinessToday’s reported09:17–09:18 observations from afternoon research. It is delayed coverage, not reconstructed pre-open observation. All11sectors retain individual findings and gaps. SGX normal scheduled hours/calendar are checked through official exchange policy, the gazetted holiday list and trading rules. Individual issuer halts are not exhaustively certified.
 
-[MINDEF maritime statement](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-manama-maritime-security/) retains the original1November speech and30October–1November dialogue period. This is diplomacy and attributed policy, not a new deployment or quantified Singapore cargo loss. The previously scheduled Wallaby end date is not independently confirmed completion.
+The original DBS notice schedules results before5November trading. Singapore manufacturing PMI at21:00SGT and US manufacturing at23:00SGT on2November remain future at the read’s cutoff. London opening context also remains prospective. Actual closing prices, breadth, turnover, synchronized sector/asset panels and original issuer operating evidence remain the next checks.
 
-[Binance phased recovery](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-binance-phased-recovery/) separates the1November planned window, prior90%reference, current issuer-reported95%and unverified complete restoration. SPF’s original outgoing-only caller-ID measure begins2November; official verification still matters. MSS’s1November advisory forecasts2November haze; past readings are not live morning data. PMO confirms the planned2–5November CHOGM visit, not signed contracts.
+## Shared public evidence
 
-The mutable DBS acquisition PDF now covers1November2026–28February2027, with14March approval deadline and approval-month cashback schedule. A distinct offer record was added; October’s expired record and original correction history remain intact. The old PDF body is no longer at the shared endpoint. OCBC/Citi/UOB programme and fee/exclusion distinctions remain explicit.
+OPEC’s1November decision retains September required-production levels for December; targets do not establish actual output, exports or Singapore import costs. [MINDEF maritime context](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-manama-maritime-security/) distinguishes the1November speech and30October–1November dialogue from actual combat or documented local losses. The strongest alternative is diplomatic engagement without an immediate physical-flow change.
 
-## Calendar and evidence limits
+[Binance phased recovery](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-02-binance-phased-recovery/) separates planned withdrawal windows, issuer replenishment claims and independently verified restoration. SPF’s outgoing caller-ID measure and MSS’s dated haze forecast retain their original scope; prior readings are not live afternoon data.
 
-JPX’s original calendar/hours verify Japan’s2November anchor;3November Culture Day is a cash-market closure. Other regional venues are outside verified calendar scope in this partial read. Singapore, Europe and US opening/closing products remain distinct; no full venue basket is implied.
+## Remaining coverage limits
 
-Eight26October calendar-qualified session gaps remain unreconstructed even after rolling-audit pruning. Current equity/breadth/volume, complete primary finals, synchronized sector/asset panels and substantive Parliament documents remain incomplete. CISA direct feed403 and Parliament latest-sitting404 were not bypassed. REDL lists retain14August filings for30June holdings. NVIDIA checked sources add no new overnight physical-capacity finding. Full owner UBER week-ended30October debate remains separate; completed-week award check remains incomplete with no qualified shortlist.
+Eight26October session gaps remain unreconstructed even after rolling-audit pruning. Today’s delayed catch-up does not resolve them. JPX’s checked calendar identifies3November Culture Day separately from2November; a Japan anchor does not certify every regional venue. Parliament substantive source coverage, complete primary market finals, current breadth/volume and comparable asset panels remain incomplete. A missing source or quiet selector is not an all-clear.
 
-Next evidence:2November23:00SGT manufacturing survey, current original market participation, actual shipments/settled withdrawals and new issuer cash. The sourced Sunday outlook remains archived.4November Uber call21:00SGT remains future; current AV utilization/channel shares and ecosystem cash remain unavailable. Publication preparation is not measured first live availability.
+Future reads should use actual observation/publication times, original release details and documented physical outcomes, preserving each desk’s local date and opening/closing identity. No historical pre-open or exact-cutoff coverage is implied.

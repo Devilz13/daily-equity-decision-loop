@@ -1,5 +1,451 @@
 [
   {
+    "id": "2026-11-02-singapore-open-delayed-catch-up",
+    "title": "Singapore opening catch-up — weak early breadth, bank results and the PMI test",
+    "summary": "Delayed 2 November opening read researched around 14:00 SGT. Dated early trading evidence is separated from current-price gaps; all 11 sectors, regional spillovers and tonight’s Singapore/US manufacturing watchpoints remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-02T06:01:07Z",
+    "updated_at": "2026-11-02T06:01:07Z",
+    "cutoff_at": "2026-11-02T06:01:07Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx",
+        "title": "Trading calendar policy and half-days — search-index extract; direct page returns unsupported-browser shell",
+        "publisher": "Singapore Exchange",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "mom",
+        "title": "Original gazetted 2026 holidays; Deepavali observed 9 November, not 2 November",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "hours",
+        "title": "Original normal cash hours, midday break and closing phases; effective 7 February 2020",
+        "publisher": "Singapore Exchange",
+        "url": "https://rulebook.sgx.com/rulebook/practice-note-131-trading-halt-and-suspension",
+        "published_at": "2020-02-07",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "opening",
+        "title": "Free direct report dated 2 November: observations 09:17–09:18 SGT, not a 14:00 quote; exact publication time unavailable",
+        "publisher": "BusinessToday",
+        "url": "https://www.businesstoday.com.my/2026/11/02/singapore-shares-sink-1-79-at-open-dbs-leads-blue-chip-losses/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sias",
+        "title": "Original SIAS commentary dated 2 November; October retrospective and attributed interpretation, not current returns",
+        "publisher": "Securities Investors Association Singapore",
+        "url": "https://sias.org.sg/latest-updates/the-bursting-of-the-ai-tech-bubble-loss-of-momentum-in-banks-sliced-5-3-off-the-sti-in-october/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "dbs",
+        "title": "Original issuer notice dated 26 October: 5 November results before market opens",
+        "publisher": "DBS via SGXNET",
+        "url": "https://links.sgx.com/FileOpen/3Q26FinancialResultsnotice.ashx?App=Announcement&FileID=909143",
+        "published_at": "2026-10-26",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "sipmm",
+        "title": "Original public release calendar as accessed; 2 November 21:00 SGT, not an October result read",
+        "publisher": "SIPMM",
+        "url": "https://pmi.sipmm.edu.sg/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "ism",
+        "title": "Original September report release notice — indexed extract; next manufacturing release 2 November 10:00 ET",
+        "publisher": "Institute for Supply Management",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "opec",
+        "title": "Original 1 November seven-country December required-production decision",
+        "publisher": "OPEC",
+        "url": "https://www.opec.org/pr-detail/620-1-november-2026.html",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T06:01:07Z",
+        "type": "primary"
+      },
+      {
+        "id": "mindef",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/",
+        "publisher": "MINDEF",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-02T00:04:05Z",
+        "title": "Original attributed maritime-security speech; policy position, not new combat",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Calendar check: Monday 2 November is a normal scheduled SGX cash day under the exchange’s holiday policy and MOM calendar. Normal trading is 09:00–12:00 and 13:00–17:00 SGT, followed by closing routine and trade-at-close to 17:16. The scheduled day is verified; a complete issuer-halt inventory is not.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "mom",
+          "hours"
+        ]
+      },
+      {
+        "text": "BusinessToday reports STI 5,280.53, down 1.79%, at 09:17 SGT, with 158 decliners versus 98 advancers. Reported turnover was S$464.13 million on 180.10 million securities. These are dated early-session observations retrieved later, not this report’s live market snapshot or an official final.",
+        "kind": "fact",
+        "source_ids": [
+          "opening"
+        ]
+      },
+      {
+        "text": "DBS’s 26 October notice schedules third-quarter results before trading on 5 November. The notice is an upcoming catalyst, not evidence of a new profit or guidance result today.",
+        "kind": "fact",
+        "source_ids": [
+          "dbs"
+        ]
+      },
+      {
+        "text": "SIPMM’s public calendar places the October Singapore PMI at 21:00 SGT on 2 November. ISM’s original indexed notice schedules US manufacturing at 10:00 ET the same day, equivalent to 23:00 SGT after US daylight saving ends. Neither release is available at this cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "sipmm",
+          "ism"
+        ]
+      },
+      {
+        "text": "OPEC’s seven participants decided on 1 November to retain September required-production levels for December, with the next meeting 29 November. This establishes a policy target, not delivered crude, cargo availability or a Singapore cost change.",
+        "kind": "fact",
+        "source_ids": [
+          "opec"
+        ]
+      },
+      {
+        "text": "MINDEF’s original 1 November Manama speech remains attributed diplomacy concerning maritime security. Its event context is the 30 October–1 November dialogue, already covered this morning. It is not a new combat report. No additional directly documented Singapore cargo, aviation or cyber loss is established by this statement.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Negative early breadth supports a cautious early-session risk reading; it does not identify the reason for every sale.",
+        "transmission": "Broad participation can distinguish an index-heavyweight move from more widespread selling. Current breadth, volatility, SGD, rates and full sector panels were not synchronized at this cutoff.",
+        "confidence": "inference",
+        "alternatives": "Positioning ahead of bank results, stock-specific repricing and external risk can coexist; a single snapshot cannot apportion causal shares.",
+        "source_ids": [
+          "opening",
+          "dbs"
+        ]
+      },
+      {
+        "explanation": "SIAS attributes October weakness partly to AI expectations and fading bank momentum. That is a dated commentary lens, not proof that the same causes explain today’s opening.",
+        "transmission": "Revisions to expected investment returns and bank cash generation could influence valuations if confirmed by issuer evidence.",
+        "confidence": "uncertain",
+        "alternatives": "Liquidity, sector weights and valuation changes may explain moves without a new deterioration in operating cash.",
+        "source_ids": [
+          "sias",
+          "dbs"
+        ]
+      },
+      {
+        "explanation": "Unchanged oil policy targets and maritime diplomacy do not by themselves establish lower import costs.",
+        "transmission": "For Singapore and Asia, verified shipping reliability could affect freight, aviation, fuel inputs, supply chains and risk pricing; cyber resilience matters if an actual operator disruption is documented.",
+        "confidence": "inference",
+        "alternatives": "Routine diplomatic engagement may produce no immediate physical-flow change. Existing supply and demand conditions may dominate prices; no local loss or benefit is quantified here.",
+        "source_ids": [
+          "opec",
+          "mindef"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Participation improves",
+        "outcome": "The weak opening proves less persistent than the initial snapshot.",
+        "trigger": "Later dated breadth improves alongside consistent index and turnover observations.",
+        "invalidation": "Decliners continue to dominate with broad sector weakness into the actual close.",
+        "horizon": "2 November afternoon and verified closing read",
+        "source_ids": [
+          "opening",
+          "hours"
+        ]
+      },
+      {
+        "name": "Manufacturing divergence",
+        "outcome": "Singapore and US factory signals support different regional demand interpretations.",
+        "trigger": "Tonight’s original releases differ in new orders and production direction.",
+        "invalidation": "Neither release substantiates the divergence, or revisions undermine the comparison.",
+        "horizon": "2 November 21:00–23:00 SGT and next session",
+        "source_ids": [
+          "sipmm",
+          "ism"
+        ]
+      },
+      {
+        "name": "Physical-flow risk persists",
+        "outcome": "Energy and logistics uncertainty remains despite unchanged production targets and diplomatic engagement.",
+        "trigger": "Dated operator evidence establishes restrictions, higher costs or actual delayed deliveries.",
+        "invalidation": "Verified service normalization and comparable freight/fuel measures show no deterioration.",
+        "horizon": "2–5 November; policy review 29 November",
+        "source_ids": [
+          "opec",
+          "mindef"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "SGX actual closing evidence, including participation and issuer halts; editorial closing target 17:30 SGT",
+        "due_at": "2026-11-02T09:30:00Z",
+        "confirms": "Dated primary final and breadth demonstrate persistence or recovery.",
+        "contradicts": "Only stale intraday quotes or an incomplete venue snapshot are available.",
+        "source_ids": [
+          "hours",
+          "opening"
+        ]
+      },
+      {
+        "signal": "Original Singapore October manufacturing/electronics release at 21:00 SGT",
+        "due_at": "2026-11-02T13:00:00Z",
+        "confirms": "Published orders/production details support demand resilience.",
+        "contradicts": "Weak details or inaccessible original data leave the scenario unresolved.",
+        "source_ids": [
+          "sipmm"
+        ]
+      },
+      {
+        "signal": "US October manufacturing report at 10:00 New York /23:00 Singapore",
+        "due_at": "2026-11-02T15:00:00Z",
+        "confirms": "Original orders, prices and activity show a coherent demand/inflation direction.",
+        "contradicts": "Mixed components or revisions weaken a single headline interpretation.",
+        "source_ids": [
+          "ism"
+        ]
+      },
+      {
+        "signal": "DBS third-quarter original release before 5 November cash open; 09:00 is the session boundary, not a claimed release minute",
+        "due_at": "2026-11-05T01:00:00Z",
+        "confirms": "Published earnings, margins and fees substantiate the catalyst.",
+        "contradicts": "Notice changes, release delays or adverse underlying cash/credit evidence.",
+        "source_ids": [
+          "dbs",
+          "hours"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-02T06:01:07Z"
+    },
+    "material_reason": "Recover the missing Singapore opening product with actual observation times and no reconstructed pre-open claim.",
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-02",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX cash calendar; individual issuer halts not exhaustively verified",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx",
+            "mom",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious on dated early participation; no claim about broad public opinion or current afternoon direction.",
+        "indicators": "09:17 breadth was negative. Later official breadth, sector returns, volumes, volatility, rates and FX remain gaps; no synthetic sentiment score.",
+        "source_ids": [
+          "opening"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "SIAS’s 2 November retrospective discusses October AI-related weakness; it supplies no verified current Singapore technology-sector return.",
+          "implication": "Supplier order conversion, utilization and cash matter more than extrapolating a narrative.",
+          "watchpoint": "Tonight’s electronics detail and new original supplier disclosures.",
+          "source_ids": [
+            "sias",
+            "sipmm"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "BusinessToday lists Singtel S$4.13 in its early-session report without a comparable sector return.",
+          "implication": "A single counter level cannot establish telecom participation or service resilience.",
+          "watchpoint": "New issuer network/cyber notices, subscriber cash and current sector breadth.",
+          "source_ids": [
+            "opening"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized discretionary price, volume or sales panel was obtained. Maritime diplomacy does not establish an aviation loss.",
+          "implication": "Fuel, travel reliability and household demand are conditional channels, not measured earnings changes.",
+          "watchpoint": "Dated airline/retail operating notices and realized fuel/freight costs.",
+          "source_ids": [
+            "mindef",
+            "opec"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "SIAS flags a difference between Wilmar headline and underlying Q3 performance in its retrospective; the original earnings reconciliation remains to be checked.",
+          "implication": "Keep accounting and operating cash explanations distinct; no sector-return conclusion.",
+          "watchpoint": "Original segment reconciliation, input costs and margins before updating a thesis.",
+          "source_ids": [
+            "sias"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "The 1 November OPEC decision leaves December required output tied to September levels. Current Singapore energy returns and delivered fuel costs are missing.",
+          "implication": "Targets alone do not establish export availability, refinery margins or customer savings.",
+          "watchpoint": "Actual production, cargo and comparable contract observations.",
+          "source_ids": [
+            "opec"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "BusinessToday reports DBS S$70.92, down 3.02%, at 09:18 SGT. DBS’s own notice places results on 5 November before trading.",
+          "implication": "Early bank weakness precedes, and does not reveal, the upcoming result; no current bank-sector return.",
+          "watchpoint": "Original margins, fees, credit costs, cash and updated participation.",
+          "source_ids": [
+            "opening",
+            "dbs"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current health-care issuer catalyst or synchronized sector-price panel was substantiated in this bounded read.",
+          "implication": "Absence of a verified item is an evidence gap, not evidence that earnings or medical supply chains are unchanged.",
+          "watchpoint": "Original provider utilization, costs and supply notices; avoid broad conclusions from factory data.",
+          "source_ids": [
+            "sipmm"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "The official Singapore factory release is scheduled for tonight; current industrial returns, order books and freight costs are incomplete.",
+          "implication": "New orders and electronics demand could inform export/automation exposure, subject to issuer confirmation.",
+          "watchpoint": "21:00 release details and verifiable backlog conversion.",
+          "source_ids": [
+            "sipmm",
+            "mindef"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized materials returns or issuer inventory panel was obtained. OPEC policy is energy evidence, not a metals demand measure.",
+          "implication": "Actual input and transport costs could affect margins, with price pass-through uncertain.",
+          "watchpoint": "Tonight’s manufacturing orders and original issuer costs/inventory data.",
+          "source_ids": [
+            "opec",
+            "sipmm"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "BusinessToday reports CICT up 0.88% to S$2.30 in early trading. This does not establish a REIT-sector gain. Current yields, financing costs and occupancy evidence remain missing.",
+          "implication": "Selective defensive demand is only a hypothesis; valuation and issuer-specific factors can differ.",
+          "watchpoint": "Dated broader REIT participation and original debt/occupancy updates.",
+          "source_ids": [
+            "opening"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current utility-sector performance or power-margin panel was verified. Unchanged oil targets do not measure electricity procurement or fuel pass-through.",
+          "implication": "Contract terms and actual input costs determine whether any energy change reaches cash.",
+          "watchpoint": "Original power/fuel procurement notices and realized spread data.",
+          "source_ids": [
+            "opec"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Singapore’s factory detail may change interpretation of regional export demand; Japan’s separate morning read is not replaced.",
+          "trigger": "Original Singapore orders and electronics components show a persistent change.",
+          "invalidation": "Issuer orders contradict the survey or regional country evidence diverges.",
+          "source_ids": [
+            "sipmm"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "London opening context is still forward-looking at this roughly 14:00 SGT cutoff. Shared energy and industrial-demand channels could matter; no European opening observation is claimed.",
+          "trigger": "Verified European opening breadth and issuer notices later confirm the same exposure.",
+          "invalidation": "European evidence diverges or physical costs fail to change.",
+          "source_ids": [
+            "opec",
+            "sipmm"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "US manufacturing at 23:00 SGT can test export-demand and input-price assumptions after the US cash open. No overnight session or current US price is invented.",
+          "trigger": "Original ISM components and subsequent issuer evidence support the proposed transmission.",
+          "invalidation": "Mixed or contradictory components and unchanged company cash expectations.",
+          "source_ids": [
+            "ism",
+            "sipmm"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-02-asia-open-delayed",
     "title": "Asia opening context — oil targets, phased recovery and missing live equity prices",
     "summary": "Japan-anchored2November delayed opening context. Original calendar, energy policy, operator recovery and regional spillovers retain all11sectors and current-price gaps.",
