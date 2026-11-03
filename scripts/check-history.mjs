@@ -5,7 +5,7 @@ const base=process.argv[2];
 check(/^[0-9a-f]{40}$/.test(base),'Supply the immutable base commit SHA');
 const readOld=p=>{
   const exists=execFileSync('git',['ls-tree','--name-only',base,'--',p],{encoding:'utf8'}).trim();
-  return exists?JSON.parse(execFileSync('git',['show',`${base}:${p}`],{encoding:'utf8'})):null;
+  return exists?JSON.parse(execFileSync('git',['show',`${base}:${p}`],{encoding:'utf8',maxBuffer:16*1024*1024})):null;
 };
 for(const file of ['content/articles.json','content/promotions.json']) {
   const old=readOld(file);if(!old)continue;

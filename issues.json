@@ -5,6 +5,47 @@
   "latest": "2026-10-31",
   "issues": [
     {
+      "date": "2026-11-03",
+      "number": 48,
+      "title": "Cash, capacity and what is actually in force",
+      "status": "data incomplete",
+      "path": "issues/2026/11/03/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-03-v1",
+        "delivery_notice": "We apologise for the delayed edition. Actual evidence cutoff 08:18:03 SGT. Japan cash is closed; partial Asia context and the delayed US close have separate reports and explicit gaps.",
+        "summary": "The US closing reversal differs from earlier intraday trading. New Apple and Palantir originals require cash-quality checks. Singapore’s effective insurer grant, proposed capital rules, Oracle alert and scheduled maritime bill reading have different evidence and legal status. Five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Fresh earnings need consistent cash definitions",
+            "date": "2 Nov 2026",
+            "context": "Palantir’s original appendix distinguishes operating cash, capital purchases and adjusted FCF. New results are not a broad AI supply-chain or valuation pass.",
+            "source": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf"
+          },
+          {
+            "title": "MAS grant is effective; capital proposals remain under consultation",
+            "date": "2 Nov 2026",
+            "context": "Capability support is not project principal or guaranteed returns. Final rules and actual funded projects are separate tests.",
+            "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-measures-to-support-insurers-investments-in-infrastructure-and-securitised-assets"
+          },
+          {
+            "title": "CSA flags Oracle application-library vulnerabilities",
+            "date": "2 Nov 2026",
+            "context": "Reported attempts and a confirmed Singapore breach are distinct. Verify affected versions and vendor-directed remediation; no victim or attribution is inferred.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156/"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and Funds: DATA INCOMPLETE. Completed US cash and partial Asia opening context retain all11sectors. Primary finals, current regional prices and older gaps remain unresolved.",
+        "event_updates": []
+      }
+    },
+    {
       "date": "2026-11-02",
       "number": 47,
       "title": "Plans, flows and the evidence between",

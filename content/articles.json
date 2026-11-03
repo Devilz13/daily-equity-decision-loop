@@ -1,5 +1,1210 @@
 [
   {
+    "id": "2026-11-03-asia-open-delayed",
+    "title": "Asia opening context — Japan closed, Hong Kong still ahead",
+    "summary": "Delayed partial 3 November regional opening research. Japan cash is closed for Culture Day; Hong Kong is scheduled normally but its 09:00 pre-open and 09:30 cash session are future at this cutoff. No historical opening prices are reconstructed.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-03T00:18:03Z",
+    "updated_at": "2026-11-03T00:18:03Z",
+    "cutoff_at": "2026-11-03T00:18:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ism",
+        "title": "Original October2026 manufacturing report released2November10:00ET; direct body and component tables checked",
+        "publisher": "Institute for Supply Management",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+        "published_at": "2026-11-02T15:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "sgpmi",
+        "title": "Permitted indexed extract of2November21:00SGT report; not a full-body access claim",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/economy-policy/singapore-factory-growth-slows-october-manufacturing-pmi-dips-51-4",
+        "published_at": "2026-11-02T13:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "sipmm",
+        "title": "Original release calendar; public Tier1 link returns403, no bypass or claim to read its detailed bulletin",
+        "publisher": "SIPMM",
+        "url": "https://pmi.sipmm.edu.sg/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "oracle",
+        "title": "Original2November preliminary424B5 on EDGAR; subject to completion, separate equity and notes offerings",
+        "publisher": "Oracle / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "marvell",
+        "title": "Original2November issuer release; agreement, fixed exchange ratio and conditional1HCY2028close; forecasts are issuer expectations",
+        "publisher": "Marvell and Lumentum",
+        "url": "https://investor.marvell.com/_assets/_4b2ef940d8378f4928a6a90255e70f76/marvell/news/2026-11-02_Marvell_and_Lumentum_to_Combine_Creating_a_1040.pdf",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "diplomacy",
+        "title": "Reuters indexed syndicated report2November15:30IST /10:00UTC; direct page unavailable; attributed source, not signed accord",
+        "publisher": "Reuters via ThePrint",
+        "url": "https://theprint.in/world/iranians-have-left-doha-talks-draft-proposal-for-us-deal-being-circulated-official-says/3088137/",
+        "published_at": "2026-11-02T10:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "bava",
+        "title": "Original issuer 2 November four-year UK vaccine award; scheduled deliveries and optional provisions",
+        "publisher": "Bavarian Nordic",
+        "url": "https://www.bavarian-nordic.com/investor/news/news.aspx?news=7621",
+        "published_at": "2026-11-02T06:30:00Z",
+        "accessed_at": "2026-11-02T12:10:50Z",
+        "type": "primary"
+      },
+      {
+        "id": "ap",
+        "title": "2 November closing figures read earlier this run; latest reader recheck failed. Exact first successful reader-access minute not retained; clock is latest attempt, not a fresh successful body read.",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-475bb37b4d95dd99e26c94e708c99f8f",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:17:02Z",
+        "type": "secondary"
+      },
+      {
+        "id": "nyse",
+        "title": "Undated live page observed 3 November (not first-publication date): Original cash hours/calendar, regular 2 November; individual halts not exhaustively certified",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "jpx",
+        "title": "Undated live page observed 3 November (not first-publication date): Original calendar: 3 November Culture Day cash closure",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:04:18Z",
+        "type": "primary"
+      },
+      {
+        "id": "hkcal",
+        "title": "2026 exchange trading calendar, dated 2 June 2025; 3 November is not a listed holiday/half-day",
+        "publisher": "HKEX",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+        "published_at": "2025-06-02",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "hkhr",
+        "title": "Undated live page observed 3 November (not first-publication date): Original securities hours: pre-open 09:00–09:30; cash 09:30–12:00 / 13:00–16:00 Hong Kong",
+        "publisher": "HKEX",
+        "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "apple",
+        "title": "Original FY2026 Q4 release, quarter ended 26 September; tariff-refund benefit explicitly identified",
+        "publisher": "Apple",
+        "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:04:41Z",
+        "type": "primary"
+      },
+      {
+        "id": "pltr",
+        "title": "Original Q3 2026 business update; cash and operating-income reconciliation in US$ thousands",
+        "publisher": "Palantir",
+        "url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:04:41Z",
+        "type": "primary"
+      },
+      {
+        "id": "mas",
+        "title": "Original infrastructure grant and proposed capital treatment; consultation ends 18 December",
+        "publisher": "Monetary Authority of Singapore",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-measures-to-support-insurers-investments-in-infrastructure-and-securitised-assets",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "csa",
+        "title": "Original alert: exploitation attempts reported for CVE-2026-101767; patch recommendation, not a local breach finding",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:10:11Z",
+        "type": "primary"
+      },
+      {
+        "id": "bills",
+        "title": "Undated live page observed 3 November (not first-publication date): Original bills record: Bill 24/2026 second-reading date 3 November; passage field blank at access",
+        "publisher": "Parliament of Singapore",
+        "url": "https://www.parliament.gov.sg/parliamentary-business/bills-introduced",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:04:42Z",
+        "type": "primary"
+      },
+      {
+        "id": "mpa",
+        "title": "Original first-reading policy explanation; proposals for sectoral cyber safeguards and port continuity",
+        "publisher": "Maritime and Port Authority of Singapore",
+        "url": "https://www.mpa.gov.sg/media-centre/details/first-reading-of-maritime-and-port-authority-of-singapore-amendment-bill",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-11-03T00:10:14Z",
+        "type": "primary"
+      },
+      {
+        "id": "mindef",
+        "title": "Original parliamentary response on ADMM-Plus and a proposed ASEAN–US defence cooperation framework for 2027",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/2nov26-mq/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "haze",
+        "title": "Original 2 November advisory, forecast for 3 November; previous evening readings are not live morning observations",
+        "publisher": "Meteorological Service Singapore",
+        "url": "https://www.weather.gov.sg/haze-situation-update-02-november-2026/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:04:42Z",
+        "type": "primary"
+      },
+      {
+        "id": "rba",
+        "title": "Undated live page observed 3 November (not first-publication date): Original coming-up calendar: 3 November 14:30 AEDT decision/SoMP, not an outcome",
+        "publisher": "Reserve Bank of Australia",
+        "url": "https://www.rba.gov.au/coming-up/",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "treasury",
+        "title": "Original daily par curve, 2 November row: 2-year 4.59%, 10-year 4.91%; not fitted curve or current intraday yields",
+        "publisher": "US Treasury",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:17:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "grab",
+        "title": "14 October notice: 2 November 19:00 EST / 3 November 08:00 Singapore call; current primary results not obtained",
+        "publisher": "Grab",
+        "url": "https://investors.grab.com/news-and-events/news-details/2026/Grab-to-Announce-Third-Quarter-2026-Results-on-2-November-2026-2026-IH3lUy3opQ/default.aspx",
+        "published_at": "2026-10-14",
+        "accessed_at": "2026-11-03T00:17:02Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "JPX lists 3 November Culture Day as a cash-market holiday. HKEX’s official 2026 calendar and hours support a normal Hong Kong day: 09:00 pre-open, 09:30 cash. Other Asian calendars are outside verified scope.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hkcal",
+          "hkhr"
+        ]
+      },
+      {
+        "text": "The US completed close and issuer releases are overnight context, not current Hong Kong returns. No current regional equity-price, breadth or volume panel is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "ap",
+          "apple",
+          "pltr"
+        ]
+      },
+      {
+        "text": "MAS’s 2 November S$30m capability grant is effective; associated insurance capital-framework changes remain consultation proposals, with comments due 18 December.",
+        "kind": "fact",
+        "source_ids": [
+          "mas"
+        ]
+      },
+      {
+        "text": "The RBA original schedule places its 3 November decision and forecasts at 14:30 AEDT / 11:30 Singapore. The outcome is still future at this research cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "rba"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Cross-market read-through requires a verified supply-chain link.",
+        "transmission": "US customer cash and financing can affect Asian orders, but not every supplier or local index equally.",
+        "confidence": "inference",
+        "alternatives": "FX, inventory cycles and regional demand may dominate; no regional return is inferred.",
+        "source_ids": [
+          "pltr",
+          "oracle"
+        ]
+      },
+      {
+        "explanation": "Policy design is not realized infrastructure investment.",
+        "transmission": "Qualified insurer capital could help Asian project financing if final rules, allocation and projects support it.",
+        "confidence": "inference",
+        "alternatives": "Underwriting discipline, credit losses, currency risk and weak project demand may offset the incentive.",
+        "source_ids": [
+          "mas"
+        ]
+      },
+      {
+        "explanation": "Diplomatic cooperation can support maritime resilience without changing today’s operating conditions.",
+        "transmission": "Singapore/Asia exposure runs through shipping, aviation, energy/import costs, cyber resilience and supply chains.",
+        "confidence": "inference",
+        "alternatives": "Routine policy signalling is the strongest alternative to a new security escalation; no direct new local interruption or financial loss is established.",
+        "source_ids": [
+          "mindef",
+          "diplomacy"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Regional demand is corroborated",
+        "outcome": "Selected suppliers could benefit from durable paid deployments.",
+        "trigger": "Mapped original orders, acceptance and recurring cash.",
+        "invalidation": "No customer linkage, cancellations or weak collections.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "pltr",
+          "oracle"
+        ]
+      },
+      {
+        "name": "Rate expectations change",
+        "outcome": "Australian and regional funding assumptions could change after the actual policy publication.",
+        "trigger": "Original decision and forecasts establish a surprise.",
+        "invalidation": "Commentary anticipates an outcome that is not delivered, or local borrowing costs diverge.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "rba"
+        ]
+      },
+      {
+        "name": "Infrastructure support earns its cost",
+        "outcome": "Insurance capital could support viable Asian projects.",
+        "trigger": "Final rules and attributable allocations produce funded assets with cash returns.",
+        "invalidation": "Only consultations, concentrated risk or poor project economics.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "mas"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Hong Kong pre-open 09:00 and cash 09:30 HKT/SGT, 3 November",
+        "due_at": "2026-11-03T01:30:00Z",
+        "confirms": "Original opening participation and issuer notices support overnight context.",
+        "contradicts": "No live prices or a reversal prevents confirmation.",
+        "source_ids": [
+          "hkhr",
+          "hkcal"
+        ]
+      },
+      {
+        "signal": "RBA decision/SoMP 11:30 SGT, 3 November",
+        "due_at": "2026-11-03T03:30:00Z",
+        "confirms": "Original policy/projections support a change in financing assumptions.",
+        "contradicts": "Forecasts were mistaken for a completed decision.",
+        "source_ids": [
+          "rba"
+        ]
+      },
+      {
+        "signal": "Singapore bill-reading record and original debate outcome; review boundary, not promised vote time",
+        "due_at": "2026-11-03T06:00:00Z",
+        "confirms": "Official proceedings clarify scope and passage.",
+        "contradicts": "No completed vote or changed text prevents an enactment claim.",
+        "source_ids": [
+          "bills",
+          "mpa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-03T00:18:03Z"
+    },
+    "material_reason": "Calendar-qualified delayed research; actual evidence cutoff is not historical pre-open or exact exchange-cutoff coverage.",
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-03",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Japan cash: 3 November Culture Day holiday",
+          "status": "closed",
+          "source_ids": [
+            "jpx"
+          ]
+        },
+        {
+          "name": "HKEX scheduled regular 3 November; calendar/hours only, cash still future",
+          "status": "verified-session",
+          "source_ids": [
+            "hkcal",
+            "hkhr"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Forward context with a major closed venue, rather than an observed pan-Asian opening risk score.",
+        "indicators": "Dated US close, issuer cash, official venue calendars and a future Australian policy event; live regional participation, FX, volatility and credit remain unavailable.",
+        "source_ids": [
+          "ap",
+          "jpx",
+          "hkcal",
+          "rba"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "New Apple and Palantir releases follow the US close; Oracle financing and Marvell optical integration proposals retain 2 November dates.",
+          "implication": "Issuer cash is evidence of selected businesses, not the whole AI supply chain. Funding or product plans can remain unproductive.",
+          "watchpoint": "Original settled funding, recurring collections, dilution and paid capacity.",
+          "source_ids": [
+            "apple",
+            "pltr",
+            "oracle",
+            "marvell"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "CSA’s 2 November Oracle alert is current cyber context; no confirmed new local listed-company compromise or regional return series.",
+          "implication": "An exposed software version can create resilience work without proving a victim, attribution or lost revenue.",
+          "watchpoint": "Official affected-version and remediation verification, no exploit instructions.",
+          "source_ids": [
+            "csa"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Grab’s original call notice places results discussion at 08:00 SGT today; the checked primary results index still showed Q2.",
+          "implication": "A scheduled/current call is not a verified new results table; competition and incentives may offset revenue growth.",
+          "watchpoint": "Original Q3 cash, margins, financial-services losses and incentive reconciliation.",
+          "source_ids": [
+            "grab"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "MSS forecasts 3 November haze PSI 51–80, Moderate; this is not a live opening reading.",
+          "implication": "Weather and supply-chain costs could matter, but no verified listed-company loss or transport cancellation follows.",
+          "watchpoint": "New official air-quality observations and attributable operating notices.",
+          "source_ids": [
+            "haze"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No current comparable regional energy/opening contract panel was obtained; diplomatic reporting remains conditional.",
+          "implication": "Importers and producers face opposing exposure; safe transit, actual shipments and hedged costs need separate evidence.",
+          "watchpoint": "Dated operator shipments, comparable contracts and hedges.",
+          "source_ids": [
+            "diplomacy"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "MAS has new dated grant and consultation evidence; no live regional bank/insurer return panel.",
+          "implication": "Capability spending is not loan principal or guaranteed investment return; credit and asset concentration still matter.",
+          "watchpoint": "Original credit/funding spreads and issuer loss ratios.",
+          "source_ids": [
+            "mas"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current Asian healthcare basket or new local funded preparedness procurement established.",
+          "implication": "A foreign multi-year order is not a local award, current delivery or booked cash.",
+          "watchpoint": "Original procurement obligations, actual deliveries and collections.",
+          "source_ids": [
+            "bava"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Singapore’s reported October manufacturing 51.4 and electronics 52.5 remain secondary/indexed; the original detailed bulletin returned 403.",
+          "implication": "A slower expansion rate and a customer software quarter measure different scopes; neither proves local realized cash.",
+          "watchpoint": "Original local orders, deliveries and cash, plus accessible survey components.",
+          "source_ids": [
+            "sgpmi",
+            "sipmm"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No live regional materials return or synchronized commodity-cost panel verified.",
+          "implication": "US survey direction does not establish local selling prices, inventories or margins.",
+          "watchpoint": "Original price-cost and inventory reconciliation.",
+          "source_ids": [
+            "ism"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No live Asian property/REIT basket or new verified powered-lease collection panel.",
+          "implication": "Rate expectations affect financing assumptions; occupancy, distributions and recurring capex remain separate.",
+          "watchpoint": "Lease collections, maturities, recurring capex and actual debt terms.",
+          "source_ids": [
+            "rba",
+            "treasury"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "Proposed infrastructure support is relevant context, with no certified current utilities return or delivered-power change.",
+          "implication": "Project funding must become reliable delivered generation and paying demand before cash benefits can be inferred.",
+          "watchpoint": "Energized MW, enforceable contracts and customer collections.",
+          "source_ids": [
+            "mas"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Hong Kong context and local policy remain distinct from the dedicated SGX opening read.",
+          "trigger": "Original SGX calendar/participation and local issuer cash substantiate effects.",
+          "invalidation": "No local exposure, or future prices are presented as observed.",
+          "source_ids": [
+            "mas",
+            "hkhr"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian policy and supply-chain signals may affect the next London session.",
+          "trigger": "Original customer orders, funding and next-session participation.",
+          "invalidation": "Different exposure, FX or costs overwhelms the common theme.",
+          "source_ids": [
+            "rba",
+            "oracle"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "The next US session can test whether late weakness persists.",
+          "trigger": "New original cash participation and comparable company disclosures.",
+          "invalidation": "Price reversals or inconsistent evidence prevent confirmation.",
+          "source_ids": [
+            "nyse",
+            "pltr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-02-us-close-delayed",
+    "title": "US close — late technology weakness, different cash-flow measures",
+    "summary": "Delayed completed 2 November cash read using 3 November Singapore research. Closing observations differ from the earlier intraday report; later issuer earnings retain after-close timing. All 11 sectors and unresolved primary-final gaps remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-03T00:18:03Z",
+    "updated_at": "2026-11-03T00:18:03Z",
+    "cutoff_at": "2026-11-03T00:18:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "euroclose",
+        "title": "Direct Reuters updated body reports2November close; page initial08:35UTC predates closing update, whose exact time is not supplied",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/european-shares-slip-investors-weigh-middle-east-talks-alstom-tanks-2026-11-02/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "ism",
+        "title": "Original October2026 manufacturing report released2November10:00ET; direct body and component tables checked",
+        "publisher": "Institute for Supply Management",
+        "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+        "published_at": "2026-11-02T15:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "oracle",
+        "title": "Original2November preliminary424B5 on EDGAR; subject to completion, separate equity and notes offerings",
+        "publisher": "Oracle / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "marvell",
+        "title": "Original2November issuer release; agreement, fixed exchange ratio and conditional1HCY2028close; forecasts are issuer expectations",
+        "publisher": "Marvell and Lumentum",
+        "url": "https://investor.marvell.com/_assets/_4b2ef940d8378f4928a6a90255e70f76/marvell/news/2026-11-02_Marvell_and_Lumentum_to_Combine_Creating_a_1040.pdf",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "primary"
+      },
+      {
+        "id": "diplomacy",
+        "title": "Reuters indexed syndicated report2November15:30IST /10:00UTC; direct page unavailable; attributed source, not signed accord",
+        "publisher": "Reuters via ThePrint",
+        "url": "https://theprint.in/world/iranians-have-left-doha-talks-draft-proposal-for-us-deal-being-circulated-official-says/3088137/",
+        "published_at": "2026-11-02T10:00:00Z",
+        "accessed_at": "2026-11-02T18:07:21Z",
+        "type": "secondary"
+      },
+      {
+        "id": "bava",
+        "title": "Original issuer 2 November four-year UK vaccine award; scheduled deliveries and optional provisions",
+        "publisher": "Bavarian Nordic",
+        "url": "https://www.bavarian-nordic.com/investor/news/news.aspx?news=7621",
+        "published_at": "2026-11-02T06:30:00Z",
+        "accessed_at": "2026-11-02T12:10:50Z",
+        "type": "primary"
+      },
+      {
+        "id": "ap",
+        "title": "2 November closing figures read earlier this run; latest reader recheck failed. Exact first successful reader-access minute not retained; clock is latest attempt, not a fresh successful body read.",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-475bb37b4d95dd99e26c94e708c99f8f",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:17:02Z",
+        "type": "secondary"
+      },
+      {
+        "id": "reuters",
+        "title": "Updated 2 November closing body; initial 10:57 UTC publication predates close; exact update minute unavailable. Reader accessible, direct 401.",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/wall-street-futures-rise-ai-stocks-catch-their-breath-midterms-focus-2026-11-02/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "secondary"
+      },
+      {
+        "id": "nyse",
+        "title": "Undated live page observed 3 November (not first-publication date): Original cash hours/calendar, regular 2 November; individual halts not exhaustively certified",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "apple",
+        "title": "Original FY2026 Q4 release, quarter ended 26 September; tariff-refund benefit explicitly identified",
+        "publisher": "Apple",
+        "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:04:41Z",
+        "type": "primary"
+      },
+      {
+        "id": "pltr",
+        "title": "Original Q3 2026 business update; cash and operating-income reconciliation in US$ thousands",
+        "publisher": "Palantir",
+        "url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:04:41Z",
+        "type": "primary"
+      },
+      {
+        "id": "mas",
+        "title": "Original infrastructure grant and proposed capital treatment; consultation ends 18 December",
+        "publisher": "Monetary Authority of Singapore",
+        "url": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-measures-to-support-insurers-investments-in-infrastructure-and-securitised-assets",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "jolts",
+        "title": "Undated live page observed 3 November (not first-publication date): Original JOLTS calendar: September release 3 November 10:00 EST",
+        "publisher": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/jlt/",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:05:37Z",
+        "type": "primary"
+      },
+      {
+        "id": "treasury",
+        "title": "Original daily par curve, 2 November row: 2-year 4.59%, 10-year 4.91%; not fitted curve or current intraday yields",
+        "publisher": "US Treasury",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:17:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "ubercall",
+        "title": "Undated live page observed 3 November (not first-publication date): Original results-call notice, 4 November 08:00 EST / 21:00 Singapore",
+        "publisher": "Uber",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Date-of-Third-Quarter-2026-Results-Conference-Call/default.aspx",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:04:25Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "AP reports 2 November closes: S&P 500 7,541.40 (-0.5%), Nasdaq Composite 25,164.32 (-1.1%), Dow 51,983.98 (+0.4%). These are secondary completed-session figures, not primary auction certification.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Reuters reports seven of 11 sectors positive; discretionary +2.25%, materials +1.83%, energy -4%. The page initial publication clock predates its closing update.",
+        "kind": "fact",
+        "source_ids": [
+          "reuters"
+        ]
+      },
+      {
+        "text": "Apple’s 2 November release covers the quarter ended 26 September: revenue US$114.5bn, +12%; operating cash US$28bn. Tariff refunds benefited margin and EPS. This after-close evidence was unavailable at the opening bell.",
+        "kind": "fact",
+        "source_ids": [
+          "apple"
+        ]
+      },
+      {
+        "text": "Palantir’s Q3 appendix records operating cash US$1.204570bn and adjusted FCF US$1.216077bn; the latter adds back specified payroll taxes and deducts property/equipment purchases.",
+        "kind": "fact",
+        "source_ids": [
+          "pltr"
+        ]
+      },
+      {
+        "text": "Treasury’s original 2 November par curve records 2-year 4.59% and 10-year 4.91%. These are daily reference yields, not synchronized current intraday quotes.",
+        "kind": "fact",
+        "source_ids": [
+          "treasury"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Capital funding and paid demand can diverge.",
+        "transmission": "Dilution, interest, capex and working capital can absorb the benefit of nominal AI demand.",
+        "confidence": "inference",
+        "alternatives": "Rebalancing and earnings positioning can also explain a price reversal; no causal share or misconduct is inferred.",
+        "source_ids": [
+          "oracle",
+          "marvell",
+          "pltr"
+        ]
+      },
+      {
+        "explanation": "Operating cash and adjusted FCF answer different questions.",
+        "transmission": "Comparing shareholder cash requires consistent treatment of capex, payroll-related adjustments and dilution.",
+        "confidence": "inference",
+        "alternatives": "Strong growth may persist even where an adjusted measure exceeds conventional cash after capex.",
+        "source_ids": [
+          "pltr",
+          "apple"
+        ]
+      },
+      {
+        "explanation": "Lower expected energy costs can benefit some users while hurting producers.",
+        "transmission": "The Singapore/Asia route runs through actual import contracts, freight and customer demand.",
+        "confidence": "inference",
+        "alternatives": "Hedging, FX, weak volumes and continued physical restrictions can offset nominal price relief. No measured new Singapore gain is established.",
+        "source_ids": [
+          "diplomacy"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash supports the expansion",
+        "outcome": "Selected software demand could convert to durable recurring cash.",
+        "trigger": "Comparable collections, retention and cash after capital needs corroborate growth.",
+        "invalidation": "Working-capital reversal, dilution or weaker repeat demand.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "pltr"
+        ]
+      },
+      {
+        "name": "Funding delays returns",
+        "outcome": "Infrastructure equity/debt commitments could dilute near-term returns.",
+        "trigger": "Settled issuance and capital spending outpace incremental cash.",
+        "invalidation": "Delivered paid utilization and net cash returns exceed funding costs.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "oracle",
+          "marvell"
+        ]
+      },
+      {
+        "name": "Demand and rates diverge",
+        "outcome": "Manufacturing expansion need not ease financing pressure.",
+        "trigger": "Issuer orders convert while the actual yield curve remains restrictive.",
+        "invalidation": "Weak margins, order reversals or materially different funding costs.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "ism",
+          "treasury"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "September JOLTS, 3 November 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-03T15:00:00Z",
+        "confirms": "Original openings/hires/separations clarify labour demand.",
+        "contradicts": "Revisions and sector differences contradict a single headline inference.",
+        "source_ids": [
+          "jolts"
+        ]
+      },
+      {
+        "signal": "Uber Q3 call 4 November 08:00 EST / 21:00 SGT",
+        "due_at": "2026-11-04T13:00:00Z",
+        "confirms": "Comparable bookings, profit and cash support demand economics.",
+        "contradicts": "Incentives, insurance or ecosystem commitments absorb cash.",
+        "source_ids": [
+          "ubercall"
+        ]
+      },
+      {
+        "signal": "US 3 November cash session under standard EST hours; opening research remains separate",
+        "due_at": "2026-11-03T14:15:00Z",
+        "confirms": "Actual new-session participation confirms persistence.",
+        "contradicts": "A later reversal or missing original prices prevents confirmation.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-03T00:18:03Z"
+    },
+    "material_reason": "Calendar-qualified delayed research; actual evidence cutoff is not historical pre-open or exact exchange-cutoff coverage.",
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-02",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE normal scheduled 2 November cash session, 09:30–16:00 EST",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed closing risk: headline technology weakness coexists with positive sector breadth; no claim about representative public opinion.",
+        "indicators": "Dated secondary cash indices and sector count. After-close issuer disclosures have later clocks. Complete exchange auction/breadth/volume, volatility, credit and synchronized FX remain incomplete.",
+        "source_ids": [
+          "ap",
+          "reuters"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "New Apple and Palantir releases follow the US close; Oracle financing and Marvell optical integration proposals retain 2 November dates.",
+          "implication": "Issuer cash is evidence of selected businesses, not the whole AI supply chain. Funding or product plans can remain unproductive.",
+          "watchpoint": "Original settled funding, recurring collections, dilution and paid capacity.",
+          "source_ids": [
+            "apple",
+            "pltr",
+            "oracle",
+            "marvell"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No complete communications-sector final, advertising-volume or telecom cash update obtained.",
+          "implication": "Cloud/application use may expand without recurring customer profit or sector-wide returns.",
+          "watchpoint": "Original retention, monetization and customer cash.",
+          "source_ids": [
+            "pltr"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Closing leadership is secondary; a complete constituent return series is unavailable.",
+          "implication": "Fuel-sensitive margins can improve, but household demand, hedges and FX may offset.",
+          "watchpoint": "Original sales/traffic and realized cost pass-through.",
+          "source_ids": [
+            "reuters"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable staples closing basket or new comprehensive issuer cash panel.",
+          "implication": "A manufacturing diffusion survey cannot establish household pricing power.",
+          "watchpoint": "Original volume/mix, inventories and recurring margins.",
+          "source_ids": [
+            "ism"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Energy weakness is reported at the close; a comparable settled physical/contract panel remains missing.",
+          "implication": "Producer cash depends on realizations; diplomatic expectations do not establish safe flows.",
+          "watchpoint": "Dated operator shipments, comparable contracts and hedges.",
+          "source_ids": [
+            "reuters",
+            "diplomacy"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "New Singapore insurer measures concern a different jurisdiction; no complete US banking final or credit-loss panel.",
+          "implication": "Better capital access can support projects while underwriting and concentration risks remain.",
+          "watchpoint": "Original credit/funding spreads and issuer loss ratios.",
+          "source_ids": [
+            "mas",
+            "treasury"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No whole-sector US final or newly qualified funded-award result.",
+          "implication": "Foreign preparedness procurement is not US-sector revenue or cash.",
+          "watchpoint": "Original procurement obligations, actual deliveries and collections.",
+          "source_ids": [
+            "bava"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Original October ISM expansion is known; no synchronized listed-sector final certified.",
+          "implication": "Survey orders can precede inventory and working-capital absorption.",
+          "watchpoint": "Original deliveries, order cancellations and cash margins.",
+          "source_ids": [
+            "ism"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Materials leadership is secondary; current realized commodity margins remain incomplete.",
+          "implication": "Nominal price moves can coexist with higher costs or slower volumes.",
+          "watchpoint": "Original price-cost and inventory reconciliation.",
+          "source_ids": [
+            "reuters",
+            "ism"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No complete property/REIT closing basket, occupancy or refinancing update obtained.",
+          "implication": "Daily Treasury yields affect valuation assumptions, not realized rents by themselves.",
+          "watchpoint": "Lease collections, maturities, recurring capex and actual debt terms.",
+          "source_ids": [
+            "treasury"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No whole-sector final or original delivered-power margin update.",
+          "implication": "Data-centre plans need interconnection, reliable generation and paying demand.",
+          "watchpoint": "Energized MW, enforceable contracts and customer collections.",
+          "source_ids": [
+            "oracle"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Selected US software cash could support supplier demand only if mapped orders convert.",
+          "trigger": "Original regional orders, shipments and paid acceptance.",
+          "invalidation": "No documented supplier link or weak customer cash.",
+          "source_ids": [
+            "pltr",
+            "oracle"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "US financing questions and local infrastructure proposals could interact through actual project funding.",
+          "trigger": "Documented Singapore contracts, disbursement and cash returns.",
+          "invalidation": "Only proposals or weak underlying project demand.",
+          "source_ids": [
+            "mas",
+            "oracle"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "The US late reversal occurred after European cash trading.",
+          "trigger": "Next European original participation and issuer cash corroborate a shared change.",
+          "invalidation": "Country, sector or energy differences produce divergent outcomes.",
+          "source_ids": [
+            "euroclose",
+            "ap"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-03-maritime-bill-second-reading-context",
+    "title": "Maritime bill — today’s reading date is not passage",
+    "summary": "The official bill record schedules Bill 24/2026 for 3 November second reading; its blank passage field and original 6 October proposal define the current evidence boundary.",
+    "channel": "parliament",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "parliament"
+    ],
+    "format": "short",
+    "published_at": "2026-11-03T00:18:03Z",
+    "updated_at": "2026-11-03T00:18:03Z",
+    "cutoff_at": "2026-11-03T00:18:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "bills",
+        "title": "Undated live page observed 3 November (not first-publication date): Original bills record: Bill 24/2026 second-reading date 3 November; passage field blank at access",
+        "publisher": "Parliament of Singapore",
+        "url": "https://www.parliament.gov.sg/parliamentary-business/bills-introduced",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-03T00:04:42Z",
+        "type": "primary"
+      },
+      {
+        "id": "mpa",
+        "title": "Original first-reading policy explanation; proposals for sectoral cyber safeguards and port continuity",
+        "publisher": "Maritime and Port Authority of Singapore",
+        "url": "https://www.mpa.gov.sg/media-centre/details/first-reading-of-maritime-and-port-authority-of-singapore-amendment-bill",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-11-03T00:10:14Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Parliament’s current record lists Bill 24/2026, introduced 6 October, with a 3 November second-reading date and no recorded passage at access.",
+        "kind": "fact",
+        "source_ids": [
+          "bills"
+        ]
+      },
+      {
+        "text": "MPA’s 6 October explanation proposes maritime cyber requirements, port-continuity powers and regulation for emerging operating technologies. These remain proposals in this morning read.",
+        "kind": "fact",
+        "source_ids": [
+          "mpa"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Legislative scope can affect compliance and continuity planning.",
+        "transmission": "If enacted and commenced, covered operators may need new governance, reporting and cyber safeguards; resilient services could support trade.",
+        "confidence": "inference",
+        "alternatives": "Final text, commencement, designation and implementation determine actual costs. No present new legal obligation, procurement contract or measured economic gain is inferred from a scheduled reading.",
+        "source_ids": [
+          "mpa",
+          "bills"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Clear rules support resilient services",
+        "outcome": "Operators could gain clearer responsibilities and dependable port services.",
+        "trigger": "Official debate, final text and commencement substantiate scope and timing.",
+        "invalidation": "Changed text, delayed commencement or burdens exceeding demonstrated benefits.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "bills",
+          "mpa"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Original Hansard, vote and final text after today’s sitting; review boundary",
+        "due_at": "2026-11-03T12:00:00Z",
+        "confirms": "Official record establishes what was adopted and when.",
+        "contradicts": "Agenda alone, incomplete proceedings or no commencement.",
+        "source_ids": [
+          "bills",
+          "mpa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-03T00:18:03Z"
+    },
+    "material_reason": "The official bill record schedules Bill 24/2026 for 3 November second reading; its blank passage field and original 6 October proposal define the current evidence boundary."
+  },
+  {
+    "id": "2026-11-03-oracle-application-library-alert",
+    "title": "Oracle application alert — reported attempts, unverified local impact",
+    "summary": "CSA’s 2 November alert creates a concrete defensive review; exploitation attempts and a confirmed Singapore victim remain different claims.",
+    "channel": "cybersecurity",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cyber-frontier"
+    ],
+    "format": "short",
+    "published_at": "2026-11-03T00:18:03Z",
+    "updated_at": "2026-11-03T00:18:03Z",
+    "cutoff_at": "2026-11-03T00:18:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "csa",
+        "title": "Original alert: exploitation attempts reported for CVE-2026-101767; patch recommendation, not a local breach finding",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156/",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-03T00:10:11Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA’s 2 November alert names CVE-2026-101767 and CVE-2026-101700 in Oracle Application Object Library 12.2.3–12.2.15. It reports observed attempts against the first vulnerability; no local victim or attribution is established here.",
+        "kind": "fact",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Potential exposure depends on actual affected installations.",
+        "transmission": "Inventory, vendor-directed updates and remediation verification can protect business continuity.",
+        "confidence": "inference",
+        "alternatives": "Organizations without the affected product may have no exposure; a reported attempt is not proof of a successful breach. No new quantified Singapore supply-chain loss is established.",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Remediation reduces exposure",
+        "outcome": "Operators could reduce avoidable service risk.",
+        "trigger": "Affected versions are identified and vendor-recommended remediation is verified.",
+        "invalidation": "Unsupported completion claims or continuing exposure.",
+        "horizon": "3–6 November 2026",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Original vendor/CSA remediation updates; review boundary",
+        "due_at": "2026-11-04T00:00:00Z",
+        "confirms": "Dated authoritative guidance and tested remediation.",
+        "contradicts": "Unverified social claims or inferred victim attribution.",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-03T00:18:03Z"
+    },
+    "material_reason": "CSA’s 2 November alert creates a concrete defensive review; exploitation attempts and a confirmed Singapore victim remain different claims."
+  },
+  {
     "id": "2026-11-02-europe-close-delayed",
     "title": "Europe close — fuel-sensitive divergence and factory expansion with cost pressure",
     "summary": "Delayed2November London-anchored closing read, researched3NovemberSingapore time. Reported closes are distinguished from primary-final gaps; all11sectors retain evidence limits. US trading is ongoing.",

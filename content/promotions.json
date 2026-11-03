@@ -7,10 +7,15 @@
   },
   "offers": [
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
-      "corrections": [],
+      "corrections": [
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
+        }
+      ],
       "id": "dbs-posb-cash288-nov2026",
       "name": "DBS/POSB: S$288 November welcome cashback",
       "category": "Card sign-up",
@@ -30,8 +35,8 @@
       "expires_at": "2027-03-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -53,6 +58,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "dbs-posb-cash288-oct2026",
@@ -74,8 +83,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -97,6 +106,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -115,8 +128,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -138,6 +151,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -155,8 +172,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -170,6 +187,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "citi-cashback-plus-welcome-mar2027",
@@ -187,8 +208,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -206,6 +227,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -225,8 +250,8 @@
   ],
   "cards": [
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -240,6 +265,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "dbs-yuu",
@@ -256,8 +285,8 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -271,6 +300,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "uob-evol",
@@ -287,8 +320,8 @@
       "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -302,6 +335,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "ocbc-365",
@@ -318,8 +355,8 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -333,6 +370,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "ocbc-infinity",
@@ -349,8 +390,8 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-ocbc-infinity-cashback-card-programme.pdf"
     },
     {
-      "verified_at": "2026-11-02T00:07:37Z",
-      "review_due_at": "2026-11-03T00:07:37Z",
+      "verified_at": "2026-11-03T00:18:03Z",
+      "review_due_at": "2026-11-04T00:18:03Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -364,6 +405,10 @@
         {
           "at": "2026-11-02T00:07:37Z",
           "change": "Official product/terms endpoints checked. DBS acquisition PDF now contains a distinct1November2026–28February2027 offer. Expired October record retained as historical; its former PDF body is no longer at this mutable URL. Other recorded programme terms retained with dates, caps, fees and exclusions."
+        },
+        {
+          "at": "2026-11-03T00:18:03Z",
+          "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
         }
       ],
       "id": "citi-cashback-plus",
