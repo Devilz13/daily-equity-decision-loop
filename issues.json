@@ -2,8 +2,49 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-31",
+  "latest": "2026-11-06",
   "issues": [
+    {
+      "date": "2026-11-06",
+      "number": 49,
+      "title": "After the reversal, check the cash and the clock",
+      "status": "data incomplete",
+      "path": "issues/2026/11/06/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-06-v1",
+        "delivery_notice": "We apologise: the 4 and 5 November morning editions and Telegram digests were missed. This 6 November recovery uses an actual 08:58:53 SGT evidence cutoff. Older session gaps remain open.",
+        "summary": "The 5 Nov US cash selloff sharply reversed Wednesday’s rally. DBS reports Q3 profit S$2.81bn with weaker trading income; Singapore policy, cyber and maritime items retain distinct dates and verification limits. Five market groups are DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "US 5 Nov close reverses prior rally",
+            "date": "5 Nov 2026 cash",
+            "context": "AP reports S&P 500 −4.4% and Nasdaq −5.5%. Election and AI-regulation narratives are interpretations, not enacted policy or proven sole causes.",
+            "source": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-afe254c608c3d1fe2ea792812ba9765a"
+          },
+          {
+            "title": "DBS Q3: wealth growth and trading weakness coexist",
+            "date": "5 Nov 2026",
+            "context": "DBS reports S$2.81bn profit, down 5% year on year, and S$152m markets trading income, down 65%. Compare capital and margin definitions.",
+            "source": "https://www.dbs.com/NewsPrinter.page?locale=en&newsId=mu8oho2k"
+          },
+          {
+            "title": "UKMTO reports tanker hit; local impact unverified",
+            "date": "4 Nov late UTC; reported 5 Nov",
+            "context": "Unidentified projectiles and unconfirmed crew/damage status at report time. No attacker or new Singapore shipping loss is established.",
+            "source": "https://www.ukmto.org/recent-incidents"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and funds: DATA INCOMPLETE. 4–5 Nov editions and distinct session reads were missed. See the dated catch-up, sources, and unresolved gaps.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-03",
       "number": 48,

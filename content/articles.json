@@ -1,5 +1,692 @@
 [
   {
+    "id": "2026-11-06-singapore-open-delayed",
+    "title": "Singapore 6 November opening — delayed evidence and explicit gaps",
+    "summary": "Delayed singapore opening context observed at 09:00:01 SGT on 6 November, after the editorial target. The US 5 November cash selloff and dated Singapore bank disclosures are known; no historical pre-open observation or synchronized sector return is invented. 4–5 November desk windows remain separately overdue. Record authored at the stated timestamp; first live publication is verified separately.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-06T01:00:01Z",
+    "updated_at": "2026-11-06T01:00:01Z",
+    "cutoff_at": "2026-11-06T01:00:01Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgxcal",
+        "title": "SGX securities holiday/trading page observed 6 November; 6 November normal scheduled day, no intraday halt certification",
+        "publisher": "Singapore Exchange",
+        "url": "https://www.sgx.com/securities/trading",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "ap",
+        "title": "5 November completed US cash index figures",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-afe254c608c3d1fe2ea792812ba9765a",
+        "published_at": "2026-11-05",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "secondary"
+      },
+      {
+        "id": "dbs",
+        "title": "DBS original 5 November Q3 release; bank not sector proxy",
+        "publisher": "DBS",
+        "url": "https://www.dbs.com/NewsPrinter.page?locale=en&newsId=mu8oho2k",
+        "published_at": "2026-11-05",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "csa",
+        "title": "4 November agency notices on Cisco and Metabase exploitation; no local victim established",
+        "publisher": "Cyber Security Agency Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "mindef",
+        "title": "3–4 November joint patrol, published 4 November; declared cooperation not combat",
+        "publisher": "Ministry of Defence Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/4nov26-nr/",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX 2 November review of October sector and REIT total returns; older period",
+        "publisher": "Singapore Exchange",
+        "url": "https://www.sgx.com/research-education/market-updates/20261102-technology-led-october-declines-reits-more-defensive",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "uob",
+        "title": "UOB 4 November original Q3 slides; bank not sector proxy",
+        "publisher": "UOB",
+        "url": "https://www.uobgroup.com/investor-relations/assets/pdfs/investor/financial/2026/cfo-slides-3q-2026.pdf",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "ocbc",
+        "title": "OCBC 6 November Q3 scheduled release date, calendar observed 6 November; original figures not yet reconciled",
+        "publisher": "OCBC",
+        "url": "https://www.ocbc.com/group/investors/financials",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The AP 5 November completed US cash account records S&P 500 7,353.73 (−4.4%) and Nasdaq 24,315 (−5.5%). This is a prior-session observation available by the 6 November research cutoff, not a 6 November singapore price.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "DBS reported Q3 profit S$2.81bn with markets trading income S$152m; the dated issuer release does not establish today’s bank or broad-market return.",
+        "kind": "fact",
+        "source_ids": [
+          "dbs"
+        ]
+      },
+      {
+        "text": "Official venue calendar/hours support the specified scheduled session, subject to unverified individual halts and current trade evidence. The editorial read was late.",
+        "kind": "fact",
+        "source_ids": [
+          "sgxcal"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Prior US risk repricing creates an opening hypothesis, not a proved regional effect.",
+        "transmission": "If comparable technology and bank exposures reprice, funding and sentiment may affect regional capital allocation. Direct local effects need observed prices, volumes, issuer operating evidence and currency adjustments.",
+        "confidence": "inference",
+        "alternatives": "Local bank earnings, energy exposure, FX, and positioning can diverge from the US index. A broad AI regulation narrative is not enacted policy or a uniform company cash change.",
+        "source_ids": [
+          "ap",
+          "dbs"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cross-market weakness broadens",
+        "outcome": "Some constituents may follow the US technology decline, while banks and REITs differ.",
+        "trigger": "Original contemporaneous regional breadth, comparable sector returns and funding evidence.",
+        "invalidation": "No comparable participation or opposite verified local trading.",
+        "horizon": "6–7 November 2026",
+        "source_ids": [
+          "ap",
+          "sgx"
+        ]
+      },
+      {
+        "name": "Issuer-specific resilience",
+        "outcome": "Bank income and local cash may partly offset external risk sentiment.",
+        "trigger": "Original bank results plus verified 6 November sector participation.",
+        "invalidation": "Worsening credit losses, trading weakness or widespread observed declines.",
+        "horizon": "6–7 November 2026",
+        "source_ids": [
+          "dbs",
+          "uob"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Verify 6 November current cash breadth and all-sector returns after the actual opening phases.",
+        "due_at": "2026-11-06T10:15:00Z",
+        "confirms": "Dated trade/volume and issuer evidence support a specific transmission.",
+        "contradicts": "No original comparable data, or mixed results defeat a uniform narrative.",
+        "source_ids": [
+          "sgxcal",
+          "ap"
+        ]
+      },
+      {
+        "signal": "Reconcile 4–5 November missed windows separately with real observation and publication times.",
+        "due_at": "2026-11-07T00:00:00Z",
+        "confirms": "Exact desk/date/open-close publication and live verification.",
+        "contradicts": "An issue alone or this 6 November opening does not close older gaps.",
+        "source_ids": [
+          "sgxcal"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-06T01:00:01Z"
+    },
+    "material_reason": "Calendar-qualified current opening context and unresolved outage recovery; delayed publication is not exact opening coverage.",
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-06",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX scheduled 6 November regular securities day; intraday halt and original STI quote unverified",
+          "status": "verified-session",
+          "source_ids": [
+            "sgxcal"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk-off prior US cash proxy, with no certified 6 November singapore sector return or representative investor survey.",
+        "indicators": "AP completed 5 November S&P/Nasdaq levels and original issuer results. Current breadth, synchronized FX, rates and commodity contracts remain unavailable.",
+        "source_ids": [
+          "ap",
+          "dbs"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "US 5 November Nasdaq cash close fell 5.5%; this is prior-session global context, not a current regional or local technology-sector return.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Check current exchange technology basket and mapped issuer cash.",
+          "source_ids": [
+            "ap"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "DBS Q3 issuer profit S$2.81bn and trading income S$152m; UOB Q3 slides released 4 November. Neither is an observed singapore sector opening return.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Compare original bank income, credit costs and current sector prices.",
+          "source_ids": [
+            "dbs",
+            "uob"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "SGX October S-REIT index total return −1.4%; this is older than the 6 November opening and not an observed REIT return today.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Check current REIT prices, lease collections, debt and capex.",
+          "source_ids": [
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November singapore opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated singapore basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "A verified singapore opening could affect asia risk appetite through cash-flow exposure, costs and currency, but there is no uniform price forecast.",
+          "trigger": "New original trade, issuer and policy evidence on matching dates.",
+          "invalidation": "Divergent exposures, unverified calendars or no observed cross-market move.",
+          "source_ids": [
+            "ap",
+            "dbs"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "A verified singapore opening could affect europe risk appetite through cash-flow exposure, costs and currency, but there is no uniform price forecast.",
+          "trigger": "New original trade, issuer and policy evidence on matching dates.",
+          "invalidation": "Divergent exposures, unverified calendars or no observed cross-market move.",
+          "source_ids": [
+            "ap",
+            "dbs"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "A verified singapore opening could affect us risk appetite through cash-flow exposure, costs and currency, but there is no uniform price forecast.",
+          "trigger": "New original trade, issuer and policy evidence on matching dates.",
+          "invalidation": "Divergent exposures, unverified calendars or no observed cross-market move.",
+          "source_ids": [
+            "ap",
+            "dbs"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-06-asia-open-delayed",
+    "title": "Asia 6 November opening — delayed evidence and explicit gaps",
+    "summary": "Delayed asia opening context observed at 09:00:01 SGT on 6 November, after the editorial target. The US 5 November cash selloff and dated Singapore bank disclosures are known; no historical pre-open observation or synchronized sector return is invented. 4–5 November desk windows remain separately overdue. Record authored at the stated timestamp; first live publication is verified separately.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-06T01:00:01Z",
+    "updated_at": "2026-11-06T01:00:01Z",
+    "cutoff_at": "2026-11-06T01:00:01Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "JPX 2026 cash holiday calendar observed 6 November; 6 November not listed as closure",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "hkex",
+        "title": "HKEX official cash hours page observed 6 November; no holiday/halts certified beyond regular timetable",
+        "publisher": "Hong Kong Exchanges",
+        "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "ap",
+        "title": "5 November completed US cash index figures",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-afe254c608c3d1fe2ea792812ba9765a",
+        "published_at": "2026-11-05",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "secondary"
+      },
+      {
+        "id": "dbs",
+        "title": "DBS original 5 November Q3 release; bank not sector proxy",
+        "publisher": "DBS",
+        "url": "https://www.dbs.com/NewsPrinter.page?locale=en&newsId=mu8oho2k",
+        "published_at": "2026-11-05",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "csa",
+        "title": "4 November agency notices on Cisco and Metabase exploitation; no local victim established",
+        "publisher": "Cyber Security Agency Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "mindef",
+        "title": "3–4 November joint patrol, published 4 November; declared cooperation not combat",
+        "publisher": "Ministry of Defence Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/4nov26-nr/",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX 2 November review of October sector and REIT total returns; older period",
+        "publisher": "Singapore Exchange",
+        "url": "https://www.sgx.com/research-education/market-updates/20261102-technology-led-october-declines-reits-more-defensive",
+        "published_at": "2026-11-02",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "uob",
+        "title": "UOB 4 November original Q3 slides; bank not sector proxy",
+        "publisher": "UOB",
+        "url": "https://www.uobgroup.com/investor-relations/assets/pdfs/investor/financial/2026/cfo-slides-3q-2026.pdf",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      },
+      {
+        "id": "ocbc",
+        "title": "OCBC 6 November Q3 scheduled release date, calendar observed 6 November; original figures not yet reconciled",
+        "publisher": "OCBC",
+        "url": "https://www.ocbc.com/group/investors/financials",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T01:00:01Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The AP 5 November completed US cash account records S&P 500 7,353.73 (−4.4%) and Nasdaq 24,315 (−5.5%). This is a prior-session observation available by the 6 November research cutoff, not a 6 November asia price.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "DBS reported Q3 profit S$2.81bn with markets trading income S$152m; the dated issuer release does not establish today’s bank or broad-market return.",
+        "kind": "fact",
+        "source_ids": [
+          "dbs"
+        ]
+      },
+      {
+        "text": "Official venue calendar/hours support the specified scheduled session, subject to unverified individual halts and current trade evidence. The editorial read was late.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hkex"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Prior US risk repricing creates an opening hypothesis, not a proved regional effect.",
+        "transmission": "If comparable technology and bank exposures reprice, funding and sentiment may affect regional capital allocation. Direct local effects need observed prices, volumes, issuer operating evidence and currency adjustments.",
+        "confidence": "inference",
+        "alternatives": "Local bank earnings, energy exposure, FX, and positioning can diverge from the US index. A broad AI regulation narrative is not enacted policy or a uniform company cash change.",
+        "source_ids": [
+          "ap",
+          "dbs"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cross-market weakness broadens",
+        "outcome": "Some constituents may follow the US technology decline, while banks and REITs differ.",
+        "trigger": "Original contemporaneous regional breadth, comparable sector returns and funding evidence.",
+        "invalidation": "No comparable participation or opposite verified local trading.",
+        "horizon": "6–7 November 2026",
+        "source_ids": [
+          "ap",
+          "sgx"
+        ]
+      },
+      {
+        "name": "Issuer-specific resilience",
+        "outcome": "Bank income and local cash may partly offset external risk sentiment.",
+        "trigger": "Original bank results plus verified 6 November sector participation.",
+        "invalidation": "Worsening credit losses, trading weakness or widespread observed declines.",
+        "horizon": "6–7 November 2026",
+        "source_ids": [
+          "dbs",
+          "uob"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Verify 6 November current cash breadth and all-sector returns after the actual opening phases.",
+        "due_at": "2026-11-06T10:15:00Z",
+        "confirms": "Dated trade/volume and issuer evidence support a specific transmission.",
+        "contradicts": "No original comparable data, or mixed results defeat a uniform narrative.",
+        "source_ids": [
+          "jpx",
+          "hkex",
+          "ap"
+        ]
+      },
+      {
+        "signal": "Reconcile 4–5 November missed windows separately with real observation and publication times.",
+        "due_at": "2026-11-07T00:00:00Z",
+        "confirms": "Exact desk/date/open-close publication and live verification.",
+        "contradicts": "An issue alone or this 6 November opening does not close older gaps.",
+        "source_ids": [
+          "jpx",
+          "hkex"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-06T01:00:01Z"
+    },
+    "material_reason": "Calendar-qualified current opening context and unresolved outage recovery; delayed publication is not exact opening coverage.",
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-06",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "JPX scheduled 6 November regular cash day; live individual halts not verified",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx"
+          ]
+        },
+        {
+          "name": "Hong Kong scheduled cash trading later than Japan; no current HKEX breadth certified",
+          "status": "verified-session",
+          "source_ids": [
+            "hkex"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk-off prior US cash proxy, with no certified 6 November asia sector return or representative investor survey.",
+        "indicators": "AP completed 5 November S&P/Nasdaq levels and original issuer results. Current breadth, synchronized FX, rates and commodity contracts remain unavailable.",
+        "source_ids": [
+          "ap",
+          "dbs"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "US 5 November Nasdaq cash close fell 5.5%; this is prior-session global context, not a current regional or local technology-sector return.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Check current exchange technology basket and mapped issuer cash.",
+          "source_ids": [
+            "ap"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "DBS Q3 issuer profit S$2.81bn and trading income S$152m; UOB Q3 slides released 4 November. Neither is an observed asia sector opening return.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Compare original bank income, credit costs and current sector prices.",
+          "source_ids": [
+            "dbs",
+            "uob"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "SGX October S-REIT index total return −1.4%; this is older than the 6 November opening and not an observed REIT return today.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Check current REIT prices, lease collections, debt and capex.",
+          "source_ids": [
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 6 November asia opening basket, constituent breadth and volume was accessible for this editorial sector at the actual cutoff.",
+          "implication": "A prior US cash move and a company filing can inform risk hypotheses but do not establish this sector’s opening performance. Positioning, currency and exposure differ.",
+          "watchpoint": "Obtain original dated asia basket and issuer evidence; do not infer return from the US index.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "A verified asia opening could affect singapore risk appetite through cash-flow exposure, costs and currency, but there is no uniform price forecast.",
+          "trigger": "New original trade, issuer and policy evidence on matching dates.",
+          "invalidation": "Divergent exposures, unverified calendars or no observed cross-market move.",
+          "source_ids": [
+            "ap",
+            "dbs"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "A verified asia opening could affect europe risk appetite through cash-flow exposure, costs and currency, but there is no uniform price forecast.",
+          "trigger": "New original trade, issuer and policy evidence on matching dates.",
+          "invalidation": "Divergent exposures, unverified calendars or no observed cross-market move.",
+          "source_ids": [
+            "ap",
+            "dbs"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "A verified asia opening could affect us risk appetite through cash-flow exposure, costs and currency, but there is no uniform price forecast.",
+          "trigger": "New original trade, issuer and policy evidence on matching dates.",
+          "invalidation": "Divergent exposures, unverified calendars or no observed cross-market move.",
+          "source_ids": [
+            "ap",
+            "dbs"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-03-asia-open-delayed",
     "title": "Asia opening context — Japan closed, Hong Kong still ahead",
     "summary": "Delayed partial 3 November regional opening research. Japan cash is closed for Culture Day; Hong Kong is scheduled normally but its 09:00 pre-open and 09:30 cash session are future at this cutoff. No historical opening prices are reconstructed.",
