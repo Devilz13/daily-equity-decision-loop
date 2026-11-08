@@ -1,5 +1,1785 @@
 [
   {
+    "id": "2026-11-06-europe-open-delayed",
+    "title": "London opening catch-up: stocks fell in early trading after the Bank Rate increase",
+    "summary": "At 08:25 GMT on 6 November, secondary reporting put the FTSE 100 down 1.5%. This is early intraday evidence obtained later, not the opening auction. Evidence cutoff 2026-11-06T12:02:03Z; delayed research, not an exact auction observation or first-live timestamp. Original 6 November evidence; release delayed to 8 November. Original intraday and payroll watchpoints are historical.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-08T01:28:27Z",
+    "updated_at": "2026-11-08T01:28:27Z",
+    "cutoff_at": "2026-11-06T12:02:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Cash business days; no 6 November exception listed (undated reference page; date denotes observation)",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/trade/trading-access/business-days",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "ft",
+        "title": "08:25 GMT early trading snapshot",
+        "publisher": "Investing.com",
+        "url": "https://in.investing.com/news/stock-market-news/ftse-100-today-stocks-slump-as-global-tech-rout-deepens-5685848",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "boe",
+        "title": "November monetary policy decision",
+        "publisher": "Bank of England",
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026",
+        "type": "primary",
+        "published_at": "2026-11-05",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "bls",
+        "title": "Employment Situation schedule (undated reference page; date denotes observation)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/news_release/empSit.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "fu",
+        "title": "Friday premarket futures direction before payrolls",
+        "publisher": "Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-rise-after-steep-ai-selloff-as-chip-stocks-stabilize-5007026",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Bank of England raised Bank Rate by 25 basis points to 4%, with an 8–1 vote at the meeting ending 4 November, published 5 November.",
+        "kind": "fact",
+        "source_ids": [
+          "boe"
+        ]
+      },
+      {
+        "text": "The quoted FTSE, DAX and CAC moves were early trading observations, not opening auctions or closing prices.",
+        "kind": "fact",
+        "source_ids": [
+          "ft"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The early losses coincided with wider global weakness; the UK rate decision was a separate domestic input.",
+        "transmission": "Relative exposure, rates and funding can transmit a repricing across markets without establishing a cash-flow shock.",
+        "confidence": "inference",
+        "alternatives": "Local rates, sterling and index composition can matter independently; comparable sector and flow data are missing.",
+        "source_ids": [
+          "lse",
+          "ft",
+          "boe",
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective stabilisation",
+        "outcome": "Leadership rebounds before breadth improves.",
+        "trigger": "Futures gains carry into cash trading with improving breadth.",
+        "invalidation": "Opening gains fade and decliners remain dominant.",
+        "horizon": "6–9 November 2026",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      },
+      {
+        "name": "Broad weakness persists",
+        "outcome": "Risk reductions spread to domestic names.",
+        "trigger": "Weak cash breadth persists after the data release.",
+        "invalidation": "Equal-weight participation improves despite weaker megacaps.",
+        "horizon": "6–9 November 2026",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US October Employment Situation and subsequent cash breadth",
+        "due_at": "2026-11-06T13:30:00Z",
+        "confirms": "Compare payrolls, revisions, unemployment and wages with the ensuing cash breadth and rates reaction.",
+        "contradicts": "Premarket direction reverses after the release or is not confirmed by cash breadth.",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-06T12:02:03Z"
+    },
+    "material_reason": "Reconciles a verified trading window missed by the short selector; preserves venue and timing limits.",
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-06",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange cash",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "ft"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk aversion in observed cash proxies; no public-opinion inference.",
+        "indicators": "FTSE 100 −1.5% at 08:25 GMT; DAX −1.43%, CAC 40 −1.20% at that snapshot. No comparable opening breadth or volume.",
+        "source_ids": [
+          "lse",
+          "ft",
+          "boe",
+          "bls",
+          "fu"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify semiconductor breadth and order guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify telecom versus platform breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify autos versus retail participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify defensive relative returns and volumes.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify energy equity breadth versus dated crude.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Bank Rate rose to 4%; this is policy evidence and not a bank-sector return.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify bank breadth versus loan and funding evidence.",
+          "source_ids": [
+            "boe"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify provider and pharmaceutical breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify transport versus capital goods participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify miner returns versus dated metals.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "Higher policy rates are a financing input; no opening REIT return verified.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify REIT participation versus benchmark yields.",
+          "source_ids": [
+            "boe"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify regulated utilities versus power-sensitive names.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Chip-exposed exporters remain more sensitive than domestic demand names.",
+          "trigger": "Regional semiconductor breadth weakens after the US cash open.",
+          "invalidation": "Chip breadth stabilises or domestic markets diverge.",
+          "source_ids": [
+            "lse",
+            "ft",
+            "boe",
+            "bls",
+            "fu"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "A broader selloff can reach banks and REITs through risk appetite or funding.",
+          "trigger": "Local breadth remains negative alongside firmer funding costs.",
+          "invalidation": "Local breadth improves while external technology remains weak.",
+          "source_ids": [
+            "lse",
+            "ft",
+            "boe",
+            "bls",
+            "fu"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Early futures relief may not survive payrolls and the cash opening.",
+          "trigger": "Compare benchmark and equal-weight participation after 09:30 New York time.",
+          "invalidation": "Futures and cash breadth diverge.",
+          "source_ids": [
+            "lse",
+            "ft",
+            "boe",
+            "bls",
+            "fu"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-06-asia-close-delayed",
+    "title": "Asia close: Japan and Korea fell sharply; India diverged",
+    "summary": "Nikkei closed at 57,434.77; Korea also fell about 6% in secondary reporting, while India diverged. This is partial regional coverage. Evidence cutoff 2026-11-06T12:02:03Z; delayed research, not an exact auction observation or first-live timestamp. Original 6 November evidence; release delayed to 8 November. Original intraday and payroll watchpoints are historical.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-08T01:28:27Z",
+    "updated_at": "2026-11-08T01:28:27Z",
+    "cutoff_at": "2026-11-06T12:02:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jp",
+        "title": "Market holidays; 6 November not listed (undated reference page; date denotes observation)",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "nk",
+        "title": "Historical cash index levels (undated reference page; date denotes observation)",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/statistics",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "nse",
+        "title": "Equities holiday calendar; 6 November not listed (undated reference page; date denotes observation)",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/resources/exchange-communication-holidays",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "in",
+        "title": "India cash close and weekly wrap",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-stocks-set-pullback-after-sharp-rally-oil-slide-foreign-inflows-2026-11-06/",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "sg",
+        "title": "6 November closing report, 18:30 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/sti-closes-2-2-down-following-global-tech-stock-slides",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "ap",
+        "title": "Asian and European moves, prior US selloff and policy interpretations",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/bba6f0bf9035a6e6b1c4fef3e8230b89",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "bls",
+        "title": "Employment Situation schedule (undated reference page; date denotes observation)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/news_release/empSit.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "fu",
+        "title": "Friday premarket futures direction before payrolls",
+        "publisher": "Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-rise-after-steep-ai-selloff-as-chip-stocks-stabilize-5007026",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The Nikkei administrator records 57,434.77 at the 6 November cash close.",
+        "kind": "fact",
+        "source_ids": [
+          "nk"
+        ]
+      },
+      {
+        "text": "The Business Times reports Hang Seng −1.3%; primary final not reconciled. Reuters reports Indian equities bucked the tech selloff; no precise India index print is asserted here.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "in"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The relative weakness of Japan and Korea is consistent with US technology repricing reaching chip-exposed markets.",
+        "transmission": "Relative exposure, rates and funding can transmit a repricing across markets without establishing a cash-flow shock.",
+        "confidence": "inference",
+        "alternatives": "Different index weights and India-specific demand or positioning can produce the divergence; policy concern is not an enacted restriction.",
+        "source_ids": [
+          "jp",
+          "nk",
+          "nse",
+          "in",
+          "sg",
+          "ap",
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective stabilisation",
+        "outcome": "Leadership rebounds before breadth improves.",
+        "trigger": "Futures gains carry into cash trading with improving breadth.",
+        "invalidation": "Opening gains fade and decliners remain dominant.",
+        "horizon": "6–9 November 2026",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      },
+      {
+        "name": "Broad weakness persists",
+        "outcome": "Risk reductions spread to domestic names.",
+        "trigger": "Weak cash breadth persists after the data release.",
+        "invalidation": "Equal-weight participation improves despite weaker megacaps.",
+        "horizon": "6–9 November 2026",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US October Employment Situation and subsequent cash breadth",
+        "due_at": "2026-11-06T13:30:00Z",
+        "confirms": "Compare payrolls, revisions, unemployment and wages with the ensuing cash breadth and rates reaction.",
+        "contradicts": "Premarket direction reverses after the release or is not confirmed by cash breadth.",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-06T12:02:03Z"
+    },
+    "material_reason": "Reconciles a verified trading window missed by the short selector; preserves venue and timing limits.",
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-06",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "JPX cash",
+          "status": "verified-session",
+          "source_ids": [
+            "jp",
+            "nk"
+          ]
+        },
+        {
+          "name": "NSE cash",
+          "status": "verified-session",
+          "source_ids": [
+            "nse",
+            "in"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk aversion in observed cash proxies; no public-opinion inference.",
+        "indicators": "Japan and Korea approximately −6%, Hong Kong −1.3% in the Business Times, and India diverged in Reuters; no unified breadth or FX panel.",
+        "source_ids": [
+          "jp",
+          "nk",
+          "nse",
+          "in",
+          "sg",
+          "ap",
+          "bls",
+          "fu"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "AP identified technology stocks among the hardest hit in Japan and Korea; sector-index returns are unverified.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify semiconductor breadth and order guidance.",
+          "source_ids": [
+            "ap"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify telecom versus platform breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify autos versus retail participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify defensive relative returns and volumes.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify energy equity breadth versus dated crude.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify bank breadth versus loan and funding evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify provider and pharmaceutical breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify transport versus capital goods participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify miner returns versus dated metals.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify REIT participation versus benchmark yields.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify regulated utilities versus power-sensitive names.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "A broader selloff can reach banks and REITs through risk appetite or funding.",
+          "trigger": "Local breadth remains negative alongside firmer funding costs.",
+          "invalidation": "Local breadth improves while external technology remains weak.",
+          "source_ids": [
+            "jp",
+            "nk",
+            "nse",
+            "in",
+            "sg",
+            "ap",
+            "bls",
+            "fu"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Rates and sector weights can temper or amplify imported weakness.",
+          "trigger": "Weak European breadth persists alongside higher yields.",
+          "invalidation": "Domestic defensives and broader participation hold.",
+          "source_ids": [
+            "jp",
+            "nk",
+            "nse",
+            "in",
+            "sg",
+            "ap",
+            "bls",
+            "fu"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Early futures relief may not survive payrolls and the cash opening.",
+          "trigger": "Compare benchmark and equal-weight participation after 09:30 New York time.",
+          "invalidation": "Futures and cash breadth diverge.",
+          "source_ids": [
+            "jp",
+            "nk",
+            "nse",
+            "in",
+            "sg",
+            "ap",
+            "bls",
+            "fu"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-06-singapore-close-delayed",
+    "title": "Singapore close: broad selling despite stronger OCBC year-on-year profit",
+    "summary": "STI finished at 5,179.17, down 2.2%; 202 gainers versus 472 losers on S$3.2 billion turnover. Evidence cutoff 2026-11-06T12:02:03Z; delayed research, not an exact auction observation or first-live timestamp. Original 6 November evidence; release delayed to 8 November. Original intraday and payroll watchpoints are historical.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-08T01:28:27Z",
+    "updated_at": "2026-11-08T01:28:27Z",
+    "cutoff_at": "2026-11-06T12:02:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg",
+        "title": "6 November closing report, 18:30 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/sti-closes-2-2-down-following-global-tech-stock-slides",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "oc",
+        "title": "Q3 results",
+        "publisher": "OCBC",
+        "url": "https://www.ocbc.com/group/media/release/2026/ocbc-group-third-quarter-2026-results.page",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Trading halt and suspension practice note including closing phases (undated reference page; date denotes observation)",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/rulebook/practice-note-131-trading-halt-and-suspension",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "mom",
+        "title": "Public holiday calendar; Deepavali observed 9 November (undated reference page; date denotes observation)",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "bls",
+        "title": "Employment Situation schedule (undated reference page; date denotes observation)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/news_release/empSit.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      },
+      {
+        "id": "fu",
+        "title": "Friday premarket futures direction before payrolls",
+        "publisher": "Reuters",
+        "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-rise-after-steep-ai-selloff-as-chip-stocks-stabilize-5007026",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-06T12:02:03Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "DBS, OCBC and UOB fell 2.1%, 0.7% and 2.5%, respectively.",
+        "kind": "fact",
+        "source_ids": [
+          "sg"
+        ]
+      },
+      {
+        "text": "OCBC reported S$2.04 billion Q3 net profit, up 3% year on year and down 8% quarter on quarter; weaker Great Eastern investment performance weighed on the sequential result.",
+        "kind": "fact",
+        "source_ids": [
+          "oc"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Broad declines alongside the overnight technology rout support a shared risk-aversion hypothesis, but do not identify actual fund flows.",
+        "transmission": "Relative exposure, rates and funding can transmit a repricing across markets without establishing a cash-flow shock.",
+        "confidence": "inference",
+        "alternatives": "OCBC’s sequential earnings decline, local positioning or index weights could contribute independently.",
+        "source_ids": [
+          "sg",
+          "oc",
+          "sgx",
+          "mom",
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective stabilisation",
+        "outcome": "Leadership rebounds before breadth improves.",
+        "trigger": "Futures gains carry into cash trading with improving breadth.",
+        "invalidation": "Opening gains fade and decliners remain dominant.",
+        "horizon": "6–9 November 2026",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      },
+      {
+        "name": "Broad weakness persists",
+        "outcome": "Risk reductions spread to domestic names.",
+        "trigger": "Weak cash breadth persists after the data release.",
+        "invalidation": "Equal-weight participation improves despite weaker megacaps.",
+        "horizon": "6–9 November 2026",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US October Employment Situation and subsequent cash breadth",
+        "due_at": "2026-11-06T13:30:00Z",
+        "confirms": "Compare payrolls, revisions, unemployment and wages with the ensuing cash breadth and rates reaction.",
+        "contradicts": "Premarket direction reverses after the release or is not confirmed by cash breadth.",
+        "source_ids": [
+          "bls",
+          "fu"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-06T12:02:03Z"
+    },
+    "material_reason": "Reconciles a verified trading window missed by the short selector; preserves venue and timing limits.",
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-06",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX cash; calendar and observed close",
+          "status": "verified-session",
+          "source_ids": [
+            "mom",
+            "sgx",
+            "sg"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk aversion in observed cash proxies; no public-opinion inference.",
+        "indicators": "STI −2.2%; 202 gainers and 472 losers; 1.9 billion securities traded, per Business Times.",
+        "source_ids": [
+          "sg",
+          "oc",
+          "sgx",
+          "mom",
+          "bls",
+          "fu"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify semiconductor breadth and order guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify telecom versus platform breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify autos versus retail participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify defensive relative returns and volumes.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify energy equity breadth versus dated crude.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "All three local bank shares fell; OCBC’s year-on-year and sequential profit comparisons diverged.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify bank breadth versus loan and funding evidence.",
+          "source_ids": [
+            "sg",
+            "oc"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify provider and pharmaceutical breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "SATS rose 0.5% while Yangzijiang Shipbuilding fell 6.5%; these are individual moves.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify transport versus capital goods participation.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify miner returns versus dated metals.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "CapitaLand China Trust rose 0.8%; no REIT basket verified.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify REIT participation versus benchmark yields.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable sector close or opening print verified for this desk.",
+          "implication": "Any named equity or benchmark is a proxy; no sector return is inferred.",
+          "watchpoint": "Next cash session: verify regulated utilities versus power-sensitive names.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Chip-exposed exporters remain more sensitive than domestic demand names.",
+          "trigger": "Regional semiconductor breadth weakens after the US cash open.",
+          "invalidation": "Chip breadth stabilises or domestic markets diverge.",
+          "source_ids": [
+            "sg",
+            "oc",
+            "sgx",
+            "mom",
+            "bls",
+            "fu"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Rates and sector weights can temper or amplify imported weakness.",
+          "trigger": "Weak European breadth persists alongside higher yields.",
+          "invalidation": "Domestic defensives and broader participation hold.",
+          "source_ids": [
+            "sg",
+            "oc",
+            "sgx",
+            "mom",
+            "bls",
+            "fu"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Early futures relief may not survive payrolls and the cash opening.",
+          "trigger": "Compare benchmark and equal-weight participation after 09:30 New York time.",
+          "invalidation": "Futures and cash breadth diverge.",
+          "source_ids": [
+            "sg",
+            "oc",
+            "sgx",
+            "mom",
+            "bls",
+            "fu"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-06-us-open-delayed",
+    "title": "US open: 6 November cash catch-up",
+    "summary": "Reuters at 09:32 EST reported opening Nasdaq +1.23%, S&P 500 +0.26%, Dow −0.94%. Reviewed on 8 November from dated cash evidence; no reconstructed pre-open observations.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-08T01:28:27Z",
+    "updated_at": "2026-11-08T01:28:27Z",
+    "cutoff_at": "2026-11-08T01:28:27Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "open",
+        "title": "9:32 EST opening snapshot",
+        "publisher": "Reuters via Fidelity",
+        "url": "https://www.fidelity.com/news/article/us-markets/202611060932RTRSNEWSCOMBINED_L3N46N19J_1",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "ny",
+        "title": "NYSE 2026 calendar (undated reference; date indicates access)",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-08",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "jobs",
+        "title": "October Employment Situation",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters at 09:32 EST reported opening Nasdaq +1.23%, S&P 500 +0.26%, Dow −0.94%.",
+        "kind": "fact",
+        "source_ids": [
+          "open"
+        ]
+      },
+      {
+        "text": "BLS reported October payrolls +165,000 and unemployment 4.1%.",
+        "kind": "fact",
+        "source_ids": [
+          "jobs"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Rate repricing and repricing of technology exposure can occur together.",
+        "transmission": "Discount rates and sector weights transmit differently into cash indices.",
+        "confidence": "inference",
+        "alternatives": "Positioning, company news and liquidity can explain dispersion without a single macro cause.",
+        "source_ids": [
+          "open",
+          "jobs"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective repricing persists",
+        "outcome": "Sector leadership stays narrow.",
+        "trigger": "Tech leadership and weak equal-weight breadth persist at the next cash session.",
+        "invalidation": "Broad participation improves across defensive and cyclical groups.",
+        "horizon": "9–10 November",
+        "source_ids": [
+          "open",
+          "jobs"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Verify next local cash breadth and yields",
+        "due_at": "2026-11-09T15:00:00Z",
+        "confirms": "Direction persists in sector participation and rates.",
+        "contradicts": "Indices reverse or breadth decouples.",
+        "source_ids": [
+          "open"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-08T01:28:27Z"
+    },
+    "material_reason": "Reconciles a verified trading window missed by the short selector; preserves venue and timing limits.",
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-06",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "ny",
+            "open"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cash benchmark dispersion; no survey or fund-flow inference.",
+        "indicators": "Reuters at 09:32 EST reported opening Nasdaq +1.23%, S&P 500 +0.26%, Dow −0.94%.",
+        "source_ids": [
+          "open"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Chip shares rebounded from the prior selloff in Reuters reporting; no sector basket established.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "open"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "open",
+            "jobs"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "open",
+            "jobs"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "open",
+            "jobs"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-06-us-close-delayed",
+    "title": "US close: 6 November cash catch-up",
+    "summary": "AP reports S&P 500 +0.3%, Nasdaq +1.1%, Dow −0.5%; Nasdaq −3.4% for the week. Reviewed on 8 November from dated cash evidence; no reconstructed pre-open observations.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-08T01:28:27Z",
+    "updated_at": "2026-11-08T01:28:27Z",
+    "cutoff_at": "2026-11-08T01:28:27Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "close",
+        "title": "6 November final cash figures",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "ny",
+        "title": "NYSE 2026 calendar (undated reference; date indicates access)",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-08",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "jobs",
+        "title": "October Employment Situation",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "sector",
+        "title": "16:48 EST closing sector commentary",
+        "publisher": "MT Newswires via Fidelity",
+        "url": "https://www.fidelity.com/news/article/us-markets/202611061648MIDNIGHTUSEQUITY_A3748898",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "vix",
+        "title": "Cboe VIX daily close",
+        "publisher": "Cboe",
+        "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+        "type": "primary",
+        "published_at": "2026-11-08",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "AP reports S&P 500 +0.3%, Nasdaq +1.1%, Dow −0.5%; Nasdaq −3.4% for the week.",
+        "kind": "fact",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "text": "BLS reported October payrolls +165,000 and unemployment 4.1%.",
+        "kind": "fact",
+        "source_ids": [
+          "jobs"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Rate repricing and repricing of technology exposure can occur together.",
+        "transmission": "Discount rates and sector weights transmit differently into cash indices.",
+        "confidence": "inference",
+        "alternatives": "Positioning, company news and liquidity can explain dispersion without a single macro cause.",
+        "source_ids": [
+          "close",
+          "jobs"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective repricing persists",
+        "outcome": "Sector leadership stays narrow.",
+        "trigger": "Tech leadership and weak equal-weight breadth persist at the next cash session.",
+        "invalidation": "Broad participation improves across defensive and cyclical groups.",
+        "horizon": "9–10 November",
+        "source_ids": [
+          "close",
+          "jobs"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Verify next local cash breadth and yields",
+        "due_at": "2026-11-09T15:00:00Z",
+        "confirms": "Direction persists in sector participation and rates.",
+        "contradicts": "Indices reverse or breadth decouples.",
+        "source_ids": [
+          "close"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-08T01:28:27Z"
+    },
+    "material_reason": "Reconciles a verified trading window missed by the short selector; preserves venue and timing limits.",
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-06",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "ny",
+            "close"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cash benchmark dispersion; no survey or fund-flow inference.",
+        "indicators": "AP reports S&P 500 +0.3%, Nasdaq +1.1%, Dow −0.5%; Nasdaq −3.4% for the week. Cboe VIX closed 25.64, down from 28.18.",
+        "source_ids": [
+          "close",
+          "vix"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Technology was among the stronger groups in the 16:48 EST MT Newswires wrap.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Communication services was among the stronger groups in that wrap.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Staples were among the weaker groups in that wrap.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Financials were among the weaker groups in that wrap.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "close",
+            "jobs"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "close",
+            "jobs"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "close",
+            "jobs"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-06-europe-close-delayed",
+    "title": "London close: 6 November cash catch-up",
+    "summary": "FTSE 100 10,673.94 (−1.01%); FTSE 250 −0.80%. Reviewed on 8 November from dated cash evidence; no reconstructed pre-open observations.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-08T01:28:27Z",
+    "updated_at": "2026-11-08T01:28:27Z",
+    "cutoff_at": "2026-11-08T01:28:27Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "close",
+        "title": "6 November UK cash close",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/ftse-100-posts-weekly-loss-ai-jitters-spark-risk-move",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "lse",
+        "title": "LSE business days (undated reference; date indicates access)",
+        "publisher": "LSE",
+        "url": "https://www.londonstockexchange.com/trade/trading-access/business-days",
+        "type": "primary",
+        "published_at": "2026-11-08",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      },
+      {
+        "id": "jobs",
+        "title": "October Employment Situation",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-08T01:28:27Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "FTSE 100 10,673.94 (−1.01%); FTSE 250 −0.80%.",
+        "kind": "fact",
+        "source_ids": [
+          "close"
+        ]
+      },
+      {
+        "text": "BLS reported October payrolls +165,000 and unemployment 4.1%.",
+        "kind": "fact",
+        "source_ids": [
+          "jobs"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Rate repricing and repricing of technology exposure can occur together.",
+        "transmission": "Discount rates and sector weights transmit differently into cash indices.",
+        "confidence": "inference",
+        "alternatives": "Positioning, company news and liquidity can explain dispersion without a single macro cause.",
+        "source_ids": [
+          "close",
+          "jobs"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Selective repricing persists",
+        "outcome": "Sector leadership stays narrow.",
+        "trigger": "Tech leadership and weak equal-weight breadth persist at the next cash session.",
+        "invalidation": "Broad participation improves across defensive and cyclical groups.",
+        "horizon": "9–10 November",
+        "source_ids": [
+          "close",
+          "jobs"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Verify next local cash breadth and yields",
+        "due_at": "2026-11-09T15:00:00Z",
+        "confirms": "Direction persists in sector participation and rates.",
+        "contradicts": "Indices reverse or breadth decouples.",
+        "source_ids": [
+          "close"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-08T01:28:27Z"
+    },
+    "material_reason": "Reconciles a verified trading window missed by the short selector; preserves venue and timing limits.",
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-06",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "LSE",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "close"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cash benchmark dispersion; no survey or fund-flow inference.",
+        "indicators": "FTSE 100 10,673.94 (−1.01%); FTSE 250 −0.80%.",
+        "source_ids": [
+          "close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Reuters reported London telecom stocks down 3.6%.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "The personal-care, drug and grocery grouping fell about 1.7%; classification differs from this desk.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Reuters reported energy stocks down 1.6%.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Reuters reported pharmaceuticals down around 0.6%.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Precious-metal miners rose 1.7%; this does not represent the broad materials sector.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable dated sector print was verified for this exact window.",
+          "implication": "Individual observations do not establish a full sector return.",
+          "watchpoint": "Verify next-session sector breadth.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "close",
+            "jobs"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "close",
+            "jobs"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Rate and risk repricing could reach local issuers with comparable exposures.",
+          "trigger": "Comparable prices and sector breadth move together.",
+          "invalidation": "Domestic policy or earnings produce a divergent move.",
+          "source_ids": [
+            "close",
+            "jobs"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-06-singapore-open-delayed",
     "title": "Singapore 6 November opening — delayed evidence and explicit gaps",
     "summary": "Delayed singapore opening context observed at 09:00:01 SGT on 6 November, after the editorial target. The US 5 November cash selloff and dated Singapore bank disclosures are known; no historical pre-open observation or synchronized sector return is invented. 4–5 November desk windows remain separately overdue. Record authored at the stated timestamp; first live publication is verified separately.",

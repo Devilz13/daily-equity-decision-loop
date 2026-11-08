@@ -5,6 +5,121 @@
   "latest": "2026-11-06",
   "issues": [
     {
+      "date": "2026-11-08",
+      "number": 51,
+      "title": "Friday’s uneven rebound and the week ahead",
+      "status": "data incomplete",
+      "path": "issues/2026/11/08/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-08-v1",
+        "delivery_notice": "Sunday catch-up. Actual evidence cutoff: 09:28:27 SGT. The Saturday cyber edition is separately archived.",
+        "summary": "Friday’s US rebound was selective. The Sunday edition checks inflation and GDP dates, reported Hormuz developments, and the separate Saturday cyber and Ready Bag guide.",
+        "headlines": [
+          {
+            "title": "US cash close was mixed",
+            "date": "6 Nov 2026",
+            "context": "S&P 500 +0.3%, Nasdaq +1.1%, Dow −0.5%. Friday’s rebound did not erase weekly losses.",
+            "source": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
+          },
+          {
+            "title": "Reports of explosions near Hormuz",
+            "date": "7 Nov 2026",
+            "context": "Reported cause and damage remain unverified. No direct Singapore disruption was established.",
+            "source": "https://www.reuters.com/world/middle-east/explosions-heard-irans-qeshm-island-iranian-media-reports-2026-11-07/"
+          }
+        ],
+        "market_note": "All five market groups remain DATA INCOMPLETE. Cash closes and scheduled releases are distinct; see the full edition for sourced gaps.",
+        "event_updates": [],
+        "week_ahead": {
+          "days": [
+            {
+              "date": "2026-11-09",
+              "items": [
+                "Singapore observes Deepavali; check venue schedules separately."
+              ],
+              "day": "Monday"
+            },
+            {
+              "date": "2026-11-10",
+              "items": [
+                "US October CPI, 08:30 EST / 21:30 SGT."
+              ],
+              "day": "Tuesday"
+            },
+            {
+              "date": "2026-11-11",
+              "items": [
+                "US Veterans Day; do not assume all asset classes share one schedule."
+              ],
+              "day": "Wednesday"
+            },
+            {
+              "date": "2026-11-12",
+              "items": [
+                "UK Q3 GDP first estimate, 07:00 GMT / 15:00 SGT."
+              ],
+              "day": "Thursday"
+            },
+            {
+              "date": "2026-11-13",
+              "items": [
+                "US October PPI, 08:30 EST / 21:30 SGT."
+              ],
+              "day": "Friday"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "number": 50,
+      "title": "Weekend resilience: cloud recovery, cash and a Singapore Ready Bag",
+      "status": "data incomplete",
+      "path": "issues/2026/11/07/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-07-v1",
+        "delivery_notice": "Delayed Saturday edition. Actual evidence cutoff: 16:33:47 SGT.",
+        "summary": "Weekend cyber review: SingCERT’s cold-chain alert, the October IDC Frontier ransomware case, and a Singapore Ready Bag for payment outages and evacuation.",
+        "headlines": [
+          {
+            "title": "IDC Frontier ransomware: October case study",
+            "date": "7 Oct / 27 Oct 2026",
+            "context": "The provider confirmed VM encryption and separate unauthorised portal queries. Test restores independently of the affected service.",
+            "source": "https://www.idcf.jp/news/topics/20261027001"
+          },
+          {
+            "title": "SingCERT warns of cold-chain cyberattacks",
+            "date": "6 Nov 2026",
+            "context": "Reported European disruptions highlight remote-access and continuity risks. No direct Singapore outage was verified.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-014/"
+          },
+          {
+            "title": "Build a Singapore Ready Bag",
+            "date": "SCDF standing guidance",
+            "context": "Cash is optional with no prescribed amount. Pack document copies, essential medication and a torch; keep separate supplies at home.",
+            "source": "https://www.scdf.gov.sg/home/community-and-volunteers/fire-emergency-guides/ready-bag-for-emergency"
+          }
+        ],
+        "market_note": "Five market groups remain DATA INCOMPLETE. US October payrolls rose 165,000; Singapore and Japan cash observations carry separate dates.",
+        "event_updates": []
+      }
+    },
+    {
       "date": "2026-11-06",
       "number": 49,
       "title": "After the reversal, check the cash and the clock",
