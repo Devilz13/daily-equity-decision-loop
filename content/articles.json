@@ -1,5 +1,245 @@
 [
   {
+    "lenses": [
+      "dedl"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-09T16:00:12Z",
+    "updated_at": "2026-11-09T16:00:12Z",
+    "cutoff_at": "2026-11-09T16:00:12Z",
+    "status": "published",
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-09T16:00:12Z"
+    },
+    "id": "2026-11-10-cyber-cold-chain-agent-advisories",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "europe",
+      "asia",
+      "singapore"
+    ],
+    "topics": [
+      "cyber-frontier",
+      "agentic-agents"
+    ],
+    "title": "Cold-chain disruption and personal AI agents: what Singapore’s advisories establish",
+    "summary": "Separate catch-up to Issue 052. CSA’s 6 November advisories distinguish reported European refrigeration incidents from preventive guidance on personal agents. No local compromise is established.",
+    "material_reason": "Remote control of refrigeration can turn an access incident into physical loss; new local agency guidance makes both exposure reviews actionable.",
+    "sources": [
+      {
+        "id": "ot",
+        "title": "Singapore advisory on exposed operational technology",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-014/",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T16:00:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "agents",
+        "title": "Joint advisory on secure personal AI-agent use",
+        "publisher": "CSA, GovTech and IMDA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-015/",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T16:00:12Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA’s 6 November report describes refrigeration attacks in Europe during October and November 2026, including reported food spoilage and a separately reported supplier-linked incident affecting refrigeration at French blood-service facilities. The advisory does not identify a Singapore victim or establish state attribution.",
+        "kind": "fact",
+        "source_ids": [
+          "ot"
+        ]
+      },
+      {
+        "text": "The 6 November joint advisory is preventive guidance about personal AI agents, not a breach notification or attribution to the cold-chain campaign.",
+        "kind": "fact",
+        "source_ids": [
+          "agents"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Remote access to physical equipment can convert an access failure into a temperature-control and continuity incident.",
+        "transmission": "Food distribution, healthcare cold storage and local suppliers could face stock loss and service delays if they have comparable exposure.",
+        "confidence": "inference",
+        "alternatives": "Equipment faults, configuration errors or unrelated supplier incidents can cause similar symptoms. No direct Singapore loss is documented.",
+        "source_ids": [
+          "ot"
+        ]
+      },
+      {
+        "explanation": "An agent with write or payment permissions can amplify an unsafe action.",
+        "transmission": "Separate read and write permissions, require review for consequential actions and test revocation.",
+        "confidence": "inference",
+        "alternatives": "A narrowly scoped agent with no access to sensitive systems has different exposure; publication of guidance does not imply an incident.",
+        "source_ids": [
+          "agents"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Local exposure is verified",
+        "outcome": "Operators may need containment and backup cold storage.",
+        "trigger": "A local operator or CSA confirms comparable exposed equipment or an incident.",
+        "invalidation": "Isolated networks, tested fallback and no local impact on the verified scope.",
+        "horizon": "10–13 November 2026",
+        "source_ids": [
+          "ot"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check updated CSA notices and operator service statements.",
+        "due_at": "2026-11-10T09:00:00Z",
+        "confirms": "Dated local scope and restoration evidence or a tested continuity plan.",
+        "contradicts": "Unsourced claims or no matching local equipment or service effect.",
+        "source_ids": [
+          "ot",
+          "agents"
+        ]
+      }
+    ]
+  },
+  {
+    "lenses": [
+      "dedl"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-09T16:00:12Z",
+    "updated_at": "2026-11-09T16:00:12Z",
+    "cutoff_at": "2026-11-09T16:00:12Z",
+    "status": "published",
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-09T16:00:12Z"
+    },
+    "id": "2026-11-10-military-dis-training-regional-context",
+    "channel": "military",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "title": "Singapore’s DIS training command and regional security context",
+    "summary": "Separate catch-up to Issue 052. Singapore confirms a training command and an introductory defence visit; Taiwan’s defence ministry reports activity without establishing combat, blockade or disruption.",
+    "material_reason": "The training command is a documented Singapore institutional change, distinct from overseas military activity and its possible trade spillovers.",
+    "sources": [
+      {
+        "id": "training",
+        "title": "Original announcement: DIS Training Command inauguration",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-nr2/",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T16:00:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "visit",
+        "title": "Original announcement: introductory visit by Vietnamese defence leadership",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/5nov26-nr/",
+        "published_at": "2026-11-05",
+        "accessed_at": "2026-11-09T16:00:12Z",
+        "type": "primary"
+      },
+      {
+        "id": "taiwan",
+        "title": "Taiwan defence ministry report dated 8 November",
+        "publisher": "Taiwan MND",
+        "url": "https://www.mnd.gov.tw/en/news/plaact/88168",
+        "published_at": "2026-11-08",
+        "accessed_at": "2026-11-09T16:00:12Z",
+        "type": "primary"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Singapore’s MINDEF announced the DIS Training Command inauguration on 6 November, the date of the event. This is a local institutional change for training and development; it is not a deployment, exercise or evidence of combat.",
+        "kind": "fact",
+        "source_ids": [
+          "training"
+        ]
+      },
+      {
+        "text": "MINDEF reported an introductory visit by Vietnamese defence leadership on 5 November, the date of the visit. The release documents defence engagement, not a new alliance or commercial restriction.",
+        "kind": "fact",
+        "source_ids": [
+          "visit"
+        ]
+      },
+      {
+        "text": "Taiwan’s ministry reported activity as of the morning of 8 November in its 8 November notice. This is attributed military activity, not independently established combat or a blockade; the notice does not document Singapore disruption.",
+        "kind": "fact",
+        "source_ids": [
+          "taiwan"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Training consolidation could strengthen long-run cyber resilience if programmes and outcomes follow.",
+        "transmission": "Singapore has a directly documented organisational change; no measurable change to business downtime, procurement, aviation or local market prices is established.",
+        "confidence": "inference",
+        "alternatives": "Administrative consolidation may occur before any observable change in capability.",
+        "source_ids": [
+          "training"
+        ]
+      },
+      {
+        "explanation": "Repeated activity could affect routing if authorities impose sustained restrictions.",
+        "transmission": "Carrier changes could affect regional air and sea cargo, insurance, semiconductor lead times and energy/import costs, with conditional implications for Singapore.",
+        "confidence": "inference",
+        "alternatives": "Routine activity or signalling without operator changes can have no measurable trade effect. No Singapore supply-chain impact is established.",
+        "source_ids": [
+          "taiwan",
+          "visit"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Commercial effects become observable",
+        "outcome": "Verified restrictions or operator changes would warrant reassessing cargo and insurance risk.",
+        "trigger": "Formal restrictions plus corroborated carrier changes.",
+        "invalidation": "Normal routes and no related notices or insurance changes.",
+        "horizon": "10–13 November 2026",
+        "source_ids": [
+          "taiwan"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check public authority and carrier notices and the next training update.",
+        "due_at": "2026-11-10T09:00:00Z",
+        "confirms": "Dated restrictions, route changes or documented training delivery in its own lane.",
+        "contradicts": "No new commercial effect or announcements without implemented outcomes.",
+        "source_ids": [
+          "taiwan",
+          "training"
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-asia-open-delayed",
     "title": "Asia 9 November opening — staggered cash sessions and holiday context",
     "summary": "Delayed Asia opening context with an actual 08:08:47 SGT evidence cutoff. Tokyo’s regular opening was scheduled before this check; Hong Kong cash was scheduled for 09:30 SGT. No historical pre-open observation, live opening print or synchronized regional sector return is asserted. Singapore cash has its own verified holiday exception.",

@@ -7,13 +7,17 @@
   },
   "offers": [
     {
-      "verified_at": "2026-11-03T00:18:03Z",
-      "review_due_at": "2026-11-04T00:18:03Z",
+      "verified_at": "2026-11-09T16:01:06Z",
+      "review_due_at": "2026-11-10T16:01:06Z",
       "reviewed_public": true,
       "corrections": [
         {
           "at": "2026-11-03T00:18:03Z",
           "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
+        },
+        {
+          "at": "2026-11-09T16:01:06Z",
+          "change": "Reverified current issuer promotion and the PDF updated 1 November. Application and approval windows, eligibility lookback, spend, PayLah!, exclusions and crediting schedule match the existing November record; the October campaign is historical."
         }
       ],
       "id": "dbs-posb-cash288-nov2026",
@@ -208,8 +212,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-03T00:18:03Z",
-      "review_due_at": "2026-11-04T00:18:03Z",
+      "verified_at": "2026-11-09T16:01:06Z",
+      "review_due_at": "2026-11-10T16:01:06Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -231,6 +235,10 @@
         {
           "at": "2026-11-03T00:18:03Z",
           "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
+        },
+        {
+          "at": "2026-11-09T16:01:06Z",
+          "change": "Reverified the issuer product page and current linked PDF. Clause 1 lists the rates, eligible markets and extension to 31 December 2027; the promotional cashback is a statement offset and not cash withdrawal. Clauses 3.1–3.2 use a narrower cross-reference to clause 1(a); verify unusual transactions with the issuer."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -241,7 +249,7 @@
       ],
       "apps": [],
       "benefit": "0.5% cashback on eligible FX spend processed in China and defined European countries from 26 March 2026; 1% on other eligible FX spend from 16 March 2026. Australia receives 0.5% from 1 January 2027. All stated windows end 31 December 2027; no minimum spend or cashback cap under the linked terms.",
-      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas SGD transactions do not qualify. Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs are excluded. The linked PDF now extends through 31 December 2027; country, processing and transaction exclusions control.",
+      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas SGD transactions do not qualify. Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs are excluded. The linked PDF now extends through 31 December 2027; country, processing and transaction exclusions control. The promotional reward offsets card transactions and is not withdrawable cash. Clause 1 and the product page specify the rates; clauses 3.1–3.2 refer to clause 1(a). Check unusual transactions with UOB.",
       "source_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
       "terms_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf",
       "starts_at": "2026-03-16T00:00:00+08:00",
