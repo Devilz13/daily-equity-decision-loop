@@ -1,5 +1,8 @@
 name: Equity research
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/research.yml']
   workflow_dispatch:
     inputs:
       tickers:
@@ -23,9 +26,22 @@ jobs:
       - run: python -m unittest discover -s tests
       - run: python -m pip install 'yfinance>=0.2.65,<2'
       - env:
-          TICKERS: ${{ inputs.tickers }}
+          TICKERS: ${{ inputs.tickers || 'AAPL' }}
         run: python research.py --tickers="$TICKERS"
+      - name: Verify fresh provider response on workflow changes
+        if: github.event_name == 'push'
+        run: |
+          python - <<'PYTHON'
+          import json
+          row, = json.load(open("research-output/snapshot.json"))
+          if (row["ticker"] != "AAPL" or not row.get("last_daily_bar_date")
+              or not row.get("last_daily_bar_close")
+              or not row["fundamentals"].get("revenue_ttm")):
+              raise SystemExit("AAPL smoke check did not return a dated price and revenue.")
+          print("AAPL provider smoke test passed:", row["last_daily_bar_date"])
+          PYTHON
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: equity-research
           path: tools/ai-trade-research/research-output/
