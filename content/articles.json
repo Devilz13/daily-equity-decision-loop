@@ -1,5 +1,447 @@
 [
   {
+    "id": "2026-11-09-asia-open-delayed",
+    "title": "Asia 9 November opening — staggered cash sessions and holiday context",
+    "summary": "Delayed Asia opening context with an actual 08:08:47 SGT evidence cutoff. Tokyo’s regular opening was scheduled before this check; Hong Kong cash was scheduled for 09:30 SGT. No historical pre-open observation, live opening print or synchronized regional sector return is asserted. Singapore cash has its own verified holiday exception.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-09T00:08:47Z",
+    "updated_at": "2026-11-09T00:08:47Z",
+    "cutoff_at": "2026-11-09T00:08:47Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "JPX 2026 holidays (undated page; date is access date)",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "tokyo",
+        "title": "Tokyo cash trading hours (undated page; date is access date)",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "hk",
+        "title": "2026 Hong Kong cash holidays (undated page; date is access date)",
+        "publisher": "HKEX",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "hkh",
+        "title": "Hong Kong cash trading hours (undated page; date is access date)",
+        "publisher": "HKEX",
+        "url": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX securities trading calendar policy (undated page; date is access date)",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "mom",
+        "title": "Singapore 2026 public holidays",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "ap",
+        "title": "6 November US cash close",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "jp",
+        "title": "Japan 6 November close and weekly review",
+        "publisher": "Japan Market Desk",
+        "url": "https://japan.co.jp/e/japan-market-desk/index.html",
+        "type": "secondary",
+        "published_at": "2026-11-07",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "bls",
+        "title": "October employment situation",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "cpi",
+        "title": "November release calendar (undated page; date is access date)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "ocbc",
+        "title": "OCBC Q3 results",
+        "publisher": "OCBC",
+        "url": "https://www.ocbc.com/group/media/release/2026/ocbc-group-third-quarter-2026-results.page",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "ot",
+        "title": "Remote operational technology advisory",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-014/",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "ukm",
+        "title": "Maritime incident register (undated page; date is access date)",
+        "publisher": "UKMTO",
+        "url": "https://www.ukmto.org/recent-incidents",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "route",
+        "title": "7–8 November shipping reports and talks",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://au.marketscreener.com/news/trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress-ce785fd2d08ef423",
+        "type": "secondary",
+        "published_at": "2026-11-08",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "tsmc",
+        "title": "TSMC financial calendar (undated page; date is access date)",
+        "publisher": "TSMC",
+        "url": "https://investor.tsmc.com/english/financial-calendar",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      },
+      {
+        "id": "uber",
+        "title": "Uber Q3 results and reconciliations",
+        "publisher": "Uber",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Third-Quarter-2026/",
+        "type": "primary",
+        "published_at": "2026-11-04",
+        "accessed_at": "2026-11-09T00:08:47Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "JPX lists no 9 November holiday; the regular Tokyo cash opening was scheduled for 09:00 JST (08:00 SGT). HKEX’s calendar lists no closure; continuous cash trading was scheduled at 09:30 HKT/SGT. Neither timetable establishes an opening print.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "tokyo",
+          "hk",
+          "hkh"
+        ]
+      },
+      {
+        "text": "Friday Nikkei and TOPIX lost 5.96% and 5.90%, respectively, according to secondary closing data. Later Friday US cash was mixed: Nasdaq +1.1%, S&P 500 +0.3% and Dow −0.5%. No comparable 9 November regional cash print is verified here.",
+        "kind": "fact",
+        "source_ids": [
+          "jp",
+          "ap"
+        ]
+      },
+      {
+        "text": "SGX securities follow the Singapore public-holiday calendar; Monday is observed Deepavali. This separate closure is not a regional market-wide holiday.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "mom"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "US technology rebounded after the Asian Friday close; the timing permits a possible read-through without proving a Monday recovery.",
+        "transmission": "Regional semiconductor prices and credit conditions can diverge if demand, rates or currency differ.",
+        "confidence": "uncertain",
+        "alternatives": "Position covering may explain the Friday US recovery; Japan’s prior broad selloff and a strong US labour print leave room for tighter financial conditions.",
+        "source_ids": [
+          "ap",
+          "jp",
+          "bls"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Broad cash recovery",
+        "outcome": "Multiple Asian sectors advance and volume expands as exchanges enter continuous trading.",
+        "trigger": "Observable comparable advances and turnover beyond large chip shares.",
+        "invalidation": "Weak equal-weight breadth or gains confined to a few names.",
+        "horizon": "9 November Asian cash sessions",
+        "source_ids": [
+          "ap",
+          "jp",
+          "hk",
+          "hkh"
+        ]
+      },
+      {
+        "name": "Rebound fails to broaden",
+        "outcome": "Market remains mixed with Asian cyclicals trailing selected US technology names.",
+        "trigger": "Hong Kong and Tokyo breadth diverge while credit or yields tighten.",
+        "invalidation": "Several sectors gain on comparable turnover with stable rate proxies.",
+        "horizon": "9 November Asian close and 10 November CPI",
+        "source_ids": [
+          "jp",
+          "ap",
+          "cpi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Compare Tokyo and Hong Kong continuous-session breadth, turnover and semiconductor participation.",
+        "due_at": "2026-11-09T02:00:00Z",
+        "confirms": "Broad sourced cash advances on comparable volume.",
+        "contradicts": "Reversal or narrow leadership; no usable evidence leaves the scenario untested.",
+        "source_ids": [
+          "tokyo",
+          "hkh"
+        ]
+      },
+      {
+        "signal": "Check October US CPI release and rates/FX response.",
+        "due_at": "2026-11-10T13:30:00Z",
+        "confirms": "Independent release and comparable price response support or weaken the rates channel.",
+        "contradicts": "Equity breadth diverges without matching bond or currency evidence.",
+        "source_ids": [
+          "cpi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-09T00:08:47Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-09",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "tokyo"
+          ]
+        },
+        {
+          "name": "Hong Kong Exchanges",
+          "status": "verified-session",
+          "source_ids": [
+            "hk",
+            "hkh"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed cross-market starting point, not measured Monday sentiment.",
+        "indicators": "6 Nov Tokyo cash declines followed by a later positive Nasdaq and negative Dow. Live regional breadth, volatility, yields, FX and turnover are unverified.",
+        "source_ids": [
+          "jp",
+          "ap"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Friday US tech-led rebound contrasts with earlier Asia weakness; no Monday regional chip basket verified.",
+          "implication": "A short-covering bounce can lift leaders without improving funded orders or cash.",
+          "watchpoint": "10 Nov TSMC sales; compare Tokyo and Hong Kong breadth first.",
+          "source_ids": [
+            "ap",
+            "jp",
+            "tsmc"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable Monday operator or platform basket.",
+          "implication": "Network investment and security costs differ across operators.",
+          "watchpoint": "Check issuer updates and actual cross-market breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Uber Q3 bookings grew 20%; company result, not an Asia sector print.",
+          "implication": "Travel, discretionary spend and incentives may diverge.",
+          "watchpoint": "Check trips, margins and sector participation separately.",
+          "source_ids": [
+            "uber"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "CSA reported European refrigeration disruptions in October–November; no local outage verified.",
+          "implication": "Supplier downtime could affect food wastage; ordinary equipment failure is a competing explanation locally.",
+          "watchpoint": "Check local operator notices and alternate cold-storage capacity.",
+          "source_ids": [
+            "ot"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "7–8 Nov vessel reports add route uncertainty; no comparable Monday benchmark move verified.",
+          "implication": "Physical disruption can raise delivered cost; weak demand or alternative supply may offset it.",
+          "watchpoint": "Check actual transits, Brent and insurer notices on 9 Nov.",
+          "source_ids": [
+            "ukm",
+            "route"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "OCBC Q3 profit rose 3% year on year and fell 8% quarter on quarter.",
+          "implication": "Insurance investment results and funding costs can mask stronger underlying banking.",
+          "watchpoint": "Compare NIM and impairments; SGX cash next scheduled 10 Nov.",
+          "source_ids": [
+            "ocbc",
+            "sgx",
+            "mom"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "CSA cited a separate French blood-service refrigeration incident; no Singapore healthcare impact established.",
+          "implication": "Redundant storage may contain effects even when one supplier is hit.",
+          "watchpoint": "Look for facility continuity and healthcare operator disclosures.",
+          "source_ids": [
+            "ot"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current sector panel; Gulf shipping allegations are not a verified freight or order-book move.",
+          "implication": "Inventory buffers and alternate routes can limit effects.",
+          "watchpoint": "Check operator delays, insurance terms and dated freight quotes.",
+          "source_ids": [
+            "ukm"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized regional materials basket or input-cost panel.",
+          "implication": "Demand and fuel costs can move in opposite directions.",
+          "watchpoint": "Check comparable metals, energy and producer margin series.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No like-for-like Monday REIT prices or issuer cash-flow screen; SGX cash closed.",
+          "implication": "Lower yields can help refinancing, but occupancy and maturities drive issuer outcomes.",
+          "watchpoint": "Check yields, maturity ladders and distributions after reopening.",
+          "source_ids": [
+            "sgx",
+            "mom"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No new energized megawatts or comparable utility prices verified.",
+          "implication": "AI load requests may precede actual delivery by years.",
+          "watchpoint": "Check signed grid connections, commissioned capacity and cash collections.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Asia price and freight signals may affect the next SGX cash session; Monday is closed.",
+          "trigger": "Persistent regional breadth or operator-confirmed disruptions.",
+          "invalidation": "Regional move reverses or SGX reopening does not confirm.",
+          "source_ids": [
+            "sgx",
+            "mom",
+            "jp",
+            "ukm"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asia tech and energy signals may affect European equities in opposite directions.",
+          "trigger": "Comparable sector and energy evidence after London opens.",
+          "invalidation": "Europe trades on domestic drivers with no comparable Asian link.",
+          "source_ids": [
+            "jp",
+            "ukm"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian chip breadth may frame US technology before Tuesday inflation.",
+          "trigger": "Independent Tokyo and Hong Kong gains followed by broad US cash participation.",
+          "invalidation": "Narrow offshore gains or changes driven chiefly by US rates.",
+          "source_ids": [
+            "jp",
+            "ap",
+            "cpi"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-06-europe-open-delayed",
     "title": "London opening catch-up: stocks fell in early trading after the Bank Rate increase",
     "summary": "At 08:25 GMT on 6 November, secondary reporting put the FTSE 100 down 1.5%. This is early intraday evidence obtained later, not the opening auction. Evidence cutoff 2026-11-06T12:02:03Z; delayed research, not an exact auction observation or first-live timestamp. Original 6 November evidence; release delayed to 8 November. Original intraday and payroll watchpoints are historical.",

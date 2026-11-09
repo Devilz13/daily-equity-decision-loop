@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-06",
+  "latest": "2026-11-09",
   "issues": [
+    {
+      "date": "2026-11-09",
+      "number": 52,
+      "title": "Asia reopens unevenly as Singapore cash pauses for Deepavali",
+      "status": "data incomplete",
+      "path": "issues/2026/11/09/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-09-v1",
+        "summary": "Friday’s US tech rebound followed sharp declines in Asia. Singapore cash is closed for observed Deepavali; the Asia opening report is separate. OCBC results, Gulf vessel reports and the new Singapore cyber advisories frame the next checks.",
+        "headlines": [
+          {
+            "title": "Singapore cash closed for observed Deepavali",
+            "date": "9 Nov 2026",
+            "context": "SGX follows Singapore’s public-holiday calendar. No local cash opening or close; the Asia opening report remains separate.",
+            "source": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+          },
+          {
+            "title": "OCBC profit rises year on year, falls from Q2",
+            "date": "6 Nov 2026",
+            "context": "OCBC reports S$2.04bn Q3 net profit: +3% year on year and −8% quarter on quarter. Banking and insurer investment results diverged.",
+            "source": "https://www.ocbc.com/group/media/release/2026/ocbc-group-third-quarter-2026-results.page"
+          },
+          {
+            "title": "Gulf vessel reports leave key facts unconfirmed",
+            "date": "7–8 Nov 2026",
+            "context": "UKMTO logged a bulk-carrier incident. Claims and reported incidents do not establish a confirmed Singapore shipping or energy disruption.",
+            "source": "https://www.ukmto.org/recent-incidents"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and funds remain DATA INCOMPLETE. Watch Asia breadth, verified vessel transits and 10 Nov US CPI at 21:30 Singapore time.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-08",
       "number": 51,
