@@ -81,6 +81,13 @@ export function build(now=new Date()) {
   rmSync(out,{recursive:true,force:true}); mkdirSync(out);
   const copyFile=p=>{check(!lstatSync(path.join(root,p)).isSymbolicLink(),'Symlinks are not public inputs');write(p,read(p));};
   for(const p of ['.nojekyll','issues.json']) copyFile(p);
+  for(const name of ['index.html','style.css','core.mjs','ui.mjs']) {
+    const src='tools/ai-trade-research/site/'+name;
+    check(lstatSync(path.join(root,src)).isFile(),'AI Trade Research public inputs must be regular files');
+    write('ai-trade-research/'+name,read(src));
+  }
+  write('ai-trade-research/deployment.json',JSON.stringify({repository:'Devilz13/daily-equity-decision-loop'}));
+
   for(const name of readdirSync(path.join(root,'assets'))) if(/\.(css|js|svg|png|jpg|webp)$/.test(name)) {
     // Existing assets are text; binary assets must be explicitly added to the copy contract.
     check(/\.(css|js|svg)$/.test(name),'Review binary asset before adding it');copyFile('assets/'+name);
