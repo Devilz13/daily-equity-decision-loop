@@ -103,4 +103,27 @@ test('built issue carries the exact revision marker without changing source edit
   build();const html=readFileSync(new URL('../dist/'+latest.path+'index.html',import.meta.url),'utf8');
   assert.ok(html.includes(`<meta name="dedl-delivery-key" content="${publicationKey(latest)}">`));
   assert.equal(readFileSync(new URL('../'+latest.path+'index.html',import.meta.url),'utf8'),source);
+  const library=readFileSync(new URL('../dist/investors/index.html',import.meta.url),'utf8');
+  assert.match(library,/data-editorial-shell/);
+  assert.match(library,/href="\.\.\/investors\/"/);
+  for(const file of ['investors.js','portfolios.json']) {
+    assert.equal(readFileSync(new URL('../dist/investors/'+file,import.meta.url),'utf8'),readFileSync(new URL('../investors/'+file,import.meta.url),'utf8'));
+  }
+  for(const page of ['index.html','briefing/index.html','lenses/redl/index.html',latest.path+'index.html']) {
+    assert.match(readFileSync(new URL('../dist/'+page,import.meta.url),'utf8'),/href="(?:\.\.\/)*investors\/"/,'Investor navigation missing on '+page);
+  }
+  assert.deepEqual(readdirSync(new URL('../dist/investors/',import.meta.url)).sort(),['index.html','investors.js','portfolios.json']);
+});
+
+test('Altimeter source points to the original accession filing index',()=>{
+  const manager=json('investors/portfolios.json').investors.find(i=>i.slug==='brad-gerstner');
+  assert.equal(manager.filings[0].source,'https://www.sec.gov/Archives/edgar/data/1541617/000154161726000008/0001541617-26-000008-index.htm');
+});
+
+test('library navigation overrides cannot expose all homepage links on mobile',()=>{
+  const css=readFileSync(new URL('../assets/styles.css',import.meta.url),'utf8');
+  assert.match(css,/\.nav a:not\(:last-child\)\s*\{\s*display:\s*none/);
+  assert.doesNotMatch(css,/(?:^|[}\n])\s*\.nav\s+a\s*\{[^}]*display\s*:[^;}]*!important/);
+  assert.match(css,/\.investor-page\s+\.nav\s*\{[^}]*flex-wrap:\s*wrap/);
+  assert.match(readFileSync(new URL('../investors/index.html',import.meta.url),'utf8'),/<body class="investor-page">/);
 });
