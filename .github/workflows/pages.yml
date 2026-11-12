@@ -80,6 +80,7 @@ jobs:
 
 
   session-notify:
+    timeout-minutes: 75
     needs: deploy
     if: ${{ always() && github.event_name == 'push' && needs.deploy.outputs.page_url != '' }}
     runs-on: ubuntu-latest

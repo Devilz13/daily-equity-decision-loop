@@ -1,7 +1,7 @@
 import {readFileSync,existsSync} from 'node:fs';
 import {execFileSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
-import {selectSessionMessages,sessionKey,sessionMarker,sessionMessage,site} from '../../scripts/session-telegram.mjs';
+import {selectSessionMessages,sessionKey,sessionMarker,sessionMessage,reportClock,site} from '../../scripts/session-telegram.mjs';
 
 const namespace='dedl-session-telegram/v1';
 
@@ -46,10 +46,12 @@ export function createLedger({repo,token,sha,fetchImpl=fetch}) {
   };
 }
 
-export async function sendSession(a,{ledger,token,channel,fetchImpl=fetch,record=()=>{},verifyAttempts=1}){
+export async function sendSession(a,{ledger,token,channel,fetchImpl=fetch,record=()=>{},verifyAttempts=1,now=()=>new Date(),sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms))}){
   const key=sessionKey(a);
   if(!key||!token||!channel)throw new Error('Session send configuration missing; no send attempted.');
   if(await ledger.accepted(key))return {key,status:'already-accepted'};
+  const clock=reportClock(a);
+  if(!clock||now()>=clock.deadline)throw new Error(`${key}: delivery window is closed; no send attempted.`);
   const marker=sessionMarker(a);
   const revision=marker.match(/[a-f0-9]{64}/)[0];
   const url=`${site}reports/${a.id}/?revision=${revision}`;
@@ -62,15 +64,18 @@ export async function sendSession(a,{ledger,token,channel,fetchImpl=fetch,record
     if(!verified&&i+1<verifyAttempts)await new Promise(resolve=>setTimeout(resolve,3000));
   }
   if(!verified)throw new Error(`${key}: exact live report is unverified; no send attempted.`);
+  while(now()<clock.target)await sleep(Math.min(clock.target-now(),30000));
+  if(now()>=clock.deadline)throw new Error(`${key}: delivery window elapsed; no send attempted.`);
   if(!await ledger.reserve(key)){
     if(await ledger.accepted(key))return {key,status:'already-accepted'};
     throw new Error(`${key}: pending reservation; reconcile channel and receipt before any retry.`);
   }
+  if(now()>=clock.deadline)throw new Error(`${key}: delivery window elapsed after reservation; no send attempted.`);
   let response,result;
   try {
     response=await fetchImpl(`https://api.telegram.org/bot${token}/sendMessage`,{
       method:'POST',signal:AbortSignal.timeout(15000),redirect:'error',headers:{'content-type':'application/json'},
-      body:JSON.stringify({chat_id:channel,text:sessionMessage(a),link_preview_options:{is_disabled:true}})
+      body:JSON.stringify({chat_id:channel,text:sessionMessage(a,{now:now()}),link_preview_options:{is_disabled:true}})
     });
     result=await response.json();
   }catch{throw new Error(`${key}: Telegram acceptance UNKNOWN; reservation retained.`);}

@@ -4,7 +4,7 @@ Version 1.0 — 26 October 2026. Authoritative daily entry point. Detailed/excep
 
 ## Daily edition, Market Watch, free sources, private boundary
 
-Current routing (9 November 2026): one ongoing DEDL Master automation serves the full 08:00 Asia/Singapore edition and four Market Watch checkpoints. Use [the current dispatcher instructions](MARKET_WATCH_DISPATCHER.md) for monthly and independent DST alignment. No separate desk task, cron, watchdog or persistent worker. The monthly review updates checkpoint hours when necessary; reporting remains daily.
+Current routing (12 November 2026): one ongoing DEDL Master automation handles the full 08:00 Asia/Singapore edition, daily 19:00 global watch and market-relative session alerts. Use [the current dispatcher instructions](MARKET_WATCH_DISPATCHER.md) for weekly calendar review and independent DST alignment. No separate desk task, cron, watchdog or persistent worker.
 
 Use only permitted **zero-cost public/open-source information**. No purchases, paid APIs/trials, new subscriptions/accounts, paywall/authentication bypass or undocumented/private API scraping. Public visibility is not redistribution/AI permission. Missing access is an explicit gap. ACLED raw/API/AI use is rights-gated; World Monitor's hosted data API is not assumed free; Conflictly/Polyglobe have no verified free ingestion API here; BrotherEye's exact URL remains unconfirmed. Cite an aggregator only if used and retain original evidence. See reference §6 before onboarding/changing a source. No five-provider live feed is deployed.
 

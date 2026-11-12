@@ -1,6 +1,19 @@
 # Market Watch — one dispatcher
 
-Current user override (9 November 2026): one combined DEDL Master task runs four daily Singapore checkpoints. Keep 08:00 SGT for the full edition, guarded Telegram and Asia/Singapore opening context. Review US cash close at 06:00 SGT during US standard time or 05:00 during US daylight time; London opening and available Asian close context at 17:00 on GMT or 16:00 on BST; US opening and remaining close reads at 23:00 during US standard time or 22:00 during US daylight time. The first available 08:00 run each month verifies official calendars and both offsets, with an extra check around actual clock changes inside the month. Adjust only the existing schedule when required; London and New York change independently. These are research checkpoints, not exchange cutoffs. Do not draft the morning edition before 08:00. Retired DEDL tasks remain paused. No new scheduler, watchdog, repository cron or persistent worker.
+Current routing (12 November 2026): one DEDL Master automation runs every day, including weekends. The full 08:00 SGT edition carries the Singapore pre-open briefing and Asia opening developments. The 19:00 SGT global watch covers all 11 sectors, the four REDL filers and dated watchpoints and events for the week. On weekends these are editorial briefings; issue session alerts only for verified open venues.
+
+Market Watch Telegram targets are one hour before the regular cash open and one hour after the regular close. Use the existing four desk anchors: Tokyo opens and India NSE regular cash closes for regional Asia; SGX cash open and the end of Trade at Close for Singapore; LSE and NYSE for Europe and the US. The desk date is always local, including London/US closes delivered after midnight in Singapore. On partial days use an explicitly verified clock or mark the report web-only. Do not assume the regional basket moves in lockstep.
+
+| Desk | Normal opening target SGT | Normal closing target SGT |
+| --- | --- | --- |
+| Asia | 07:00 | 19:00 |
+| Singapore | 08:00 (in the daily edition) | 18:16 |
+| Europe | 15:00 GMT / 14:00 BST | 01:30 next day GMT / 00:30 next day BST |
+| US | 21:30 EST / 20:30 EDT | 06:00 next day EST / 05:00 next day EDT |
+
+At the Sunday 08:00 SGT checkpoint review the next seven desk-local days against the official [JPX calendar](https://www.jpx.co.jp/english/corporate/about-jpx/calendar/), [NSE calendar](https://www.nseindia.com/resources/exchange-communication-holidays), [SGX hours and holiday reference](https://www.sgx.com/securities/trading), [LSE calendar](https://www.londonstockexchange.com/en/resources/markets-products/business-days) and [NYSE calendar](https://www.nyse.com/trade/hours-calendars). Verify independent DST offsets, holidays, half-days and unscheduled changes; recheck if a new exchange notice arrives. Read back the same enabled recurrence and adjust its hourly wake times only when necessary. Add the enclosing hour for verified exceptions if supported; make other wakes quiet when no product is due. No separate task, repository cron, watchdog or worker.
+
+For regular EST/GMT weeks the master wakes at 01:00, 06:00, 07:00, 08:00, 15:00, 18:00, 19:00 and 21:00 SGT. Prepare the due reports at the enclosing hour and use the existing post-deploy job for subhour targets. On a collision finish both distinct products; keep normal Singapore opening Telegram in the morning digest so it is not duplicated. A target is not a promise of exact delivery: authoring and deployment can make the send late. State actual cutoffs; never send a pre-open alert after cash opens. Record missed and late windows.
 
 ## Bounded dispatch
 
@@ -18,7 +31,9 @@ Run tests, build, link/artifact checks, immutable-base history and diff checks; 
 
 ## Market session Telegram delivery
 
-Eligible new Asia, Singapore, Europe and US opens/closes go to the existing destination through the separate session step of the existing Pages workflow. Publish the reviewed report in the normal checkpoint batch; do not edit the daily index to send a session. The session step requires successful Pages deployment and compares the exact live report marker to the reviewed report. It labels the desk, local session date and actual SGT evidence cutoff. Opening context need not contain an exact cash opening print. Closed-only windows, baselines, material events and stale backlog are excluded. The 12-hour bound is a safety limit, not a schedule: it covers inter-checkpoint delays and midnight rollovers. No new scheduler.
+Eligible new session reports and the daily evening global watch use the existing Pages workflow and destination. Successful Pages deployment and the exact live report marker are required. The existing workflow can wait for the target inside the due hour; no Telegram call occurs before the target. If it misses the minute but is still before cash opens (or within an hour after a close-summary or evening target), explicitly label the delay. After the window closes retain a sourced catch-up on the web. Weekends and closures never justify a fictional cash print. For a verified half-day or changed anchor, publish the exact cash time and a cited primary exchange source in `market_read.telegram_clock` (`cash_at`, `source_id`). The normal 08:00 Singapore pre-open Telegram is the daily edition; keep a separate reviewed web session report when due.
+
+Publish the evening article as `YYYY-MM-DD-evening-global-watch`, format `evening-brief`, with the date, all 11 sector evidence/gap rows, and four exact REDL CIK outcomes in `evening_brief`. Give the filing period and filing date when verified. Include dated weekly events and specific confirmation/invalidation watchpoints. The evening alert uses a separate daily receipt key; it does not rewrite or resend the morning edition.
 
 The durable key is `market/YYYY-MM-DD/open|close`. Git tag refs under `dedl-session-telegram/v1/<key>/` are delivery state only and do not trigger a publication. The workflow creates the `pending` ref atomically before the single Telegram request. A successful response is logged and preserved in the annotated `accepted` tag (public report ID and Telegram message ID only). The workflow skips accepted keys. It never retries a pending key automatically, even on cancellation, transport failure or receipt write failure.
 

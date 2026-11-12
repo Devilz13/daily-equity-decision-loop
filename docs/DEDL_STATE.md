@@ -92,3 +92,7 @@ World Watch/NVIDIA: the 10 November independent directors' counsel announcement 
 ## 12 November guarded market-session delivery
 
 The previous four report pages were individually verified after [Pages run 43195413068](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43195413068); that run did not send Telegram. The separate session path now uses the existing Pages workflow, exact live report markers and durable desk/date/open-close receipts. The one-time request selects 12 November London opening context only; the 11 November retrospectives remain web-only. Verify this delivery and the next completed session output against the actual live reports and receipts. Do not infer future sends from configuration. Daily delivery, the image gap and the single four-checkpoint task remain independent.
+
+## 12 November — weekly calendar routing
+
+The latest routing is in [the dispatcher](MARKET_WATCH_DISPATCHER.md). The existing task is the only scheduler. Daily morning and evening briefings remain due on weekends; session messages require open venues and verified live reports. London opening context for 12 November was already accepted as message 59 under the previous rules; reuse its receipt and do not resend. Verify the first new timed session and the first evening alert against actual Pages and Telegram receipts.

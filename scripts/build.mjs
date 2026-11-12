@@ -34,6 +34,15 @@ function legacyList(issues,prefix) {
   return `<p class="muted">Existing editions are linked as originally published; their conclusions have not been re-verified or relabelled as fresh reporting.</p><div class="legacy-list">${issues.slice(0,7).map(i=>`<article><time>${esc(i.date)}</time><div>${link(prefix+i.path,`Issue ${i.number} · ${i.title}`)}<small>${esc(i.status)}</small></div></article>`).join('')}</div>`;
 }
 const section=(title,body)=>`<section class="editorial-section"><h2>${esc(title)}</h2>${body}</section>`;
+function eveningPanels(a) {
+  if(!a.evening_brief)return '';
+  const refs=ids=>ids.map(id=>link(a.sources.find(x=>x.id===id).url,id)).join(', ');
+  const managers={'1541617':'Altimeter','1709323':'Himalaya','1647251':'TCI','1697868':'Valley Forge'};
+  return section('All 11 global sectors',a.evening_brief.sectors.map(x=>
+    `<p><strong>${esc(x.sector)}</strong> · ${esc(x.status)} · ${esc(x.finding)} ${refs(x.source_ids)}</p>`).join(''))+
+    section('REDL filing watch',a.evening_brief.redl.map(x=>
+    `<p><strong>${esc(managers[x.cik])}</strong> · ${esc(x.outcome)} ${refs(x.source_ids)}</p>`).join(''));
+}
 function report(a,prefix) {
   const refs=ids=>sourceRefs(ids,a.sources);
   return `<p class="meta">Published ${esc(a.published_at)} · Updated ${esc(a.updated_at)}<br>Evidence cutoff ${esc(a.cutoff_at)} · ${a.regions.map(r=>esc(regions[r])).join(' · ')}<br>Topics: ${a.topics.map(t=>esc('#'+t)).join(', ')}</p>${a.material_reason?`<aside class="notice"><b>Why this is material</b><p>${esc(a.material_reason)}</p></aside>`:''}`+
@@ -160,7 +169,7 @@ export function build(now=new Date()) {
     corrections.length?corrections.map(({a,c})=>`<article class="evidence-block"><h2>${link('../reports/'+a.id+'/',a.title)}</h2><time>${esc(c.at)}</time><p>${esc(c.reason)}: ${esc(c.change)}</p></article>`).join(''):'<div class="empty"><b>No corrections recorded for the new desk reports.</b><p>This register covers the new editorial collection. Historical corrections and redactions remain labelled within their original editions; they have not been retrospectively audited.</p></div>');
   for(const a of articles) {
     const r='reports/'+a.id+'/';
-    const html=page(r,a.title,a.summary,report(a,'../../'));
+    const html=page(r,a.title,a.summary,eveningPanels(a)+report(a,'../../'));
     write(r+'index.html',sessionKey(a)?html.replace('</head>',sessionMarker(a)+'</head>'):html);
   }
   write('data/articles.json',JSON.stringify(articles,null,2)+'\n');

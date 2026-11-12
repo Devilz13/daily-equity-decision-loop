@@ -1,12 +1,14 @@
 import {createHash} from 'node:crypto';
 import {marketDesks} from './market-read.mjs';
-import {localDate,localInstant} from './market-sessions.mjs';
+import {localDate} from './market-sessions.mjs';
+import {deliveryClock,hour,singapore} from './delivery-clock.mjs';
 
 export const site='https://devilz13.github.io/daily-equity-decision-loop/';
-const hours=60*60*1000;
 const sessionOf=a=>a.format==='market-open'?'open':a.format==='market-close'?'close':null;
 
 export function sessionKey(a) {
+  if(a.format==='evening-brief'&&/^\d{4}-\d{2}-\d{2}$/.test(a.evening_brief?.date))
+    return `evening/${a.evening_brief.date}/brief`;
   const m=a.market_read,s=sessionOf(a);
   return s&&m&&Object.hasOwn(marketDesks,m.market)&&/^\d{4}-\d{2}-\d{2}$/.test(m.session_date)
     ? `${m.market}/${m.session_date}/${s}`:null;
@@ -16,39 +18,56 @@ export function sessionMarker(a) {
   return `<meta name="dedl-session-report" content="${createHash('sha256').update(JSON.stringify(a)).digest('hex')}">`;
 }
 
+export function reportClock(a){
+  const key=sessionKey(a);
+  if(!key)return null;
+  const [market,date,kind]=key.split('/');
+  if(market==='evening')return deliveryClock(market,date,kind);
+  const m=a.market_read;
+  // The daily edition is the 08:00 SGT Singapore pre-open Telegram message.
+  if(market==='singapore'&&kind==='open'&&!m.telegram_clock)return null;
+  if(!m.exchanges.some(x=>['verified-session','early-close'].includes(x.status)))return null;
+  if(!['regular','early-close','partial'].includes(m.calendar_status))return null;
+  if(m.calendar_status!=='regular'&&!m.telegram_clock)return null;
+  return deliveryClock(market,date,kind,m.telegram_clock?.cash_at);
+}
+
 export function selectSessionMessages(articles,previous,{now=new Date(),requestId}={}) {
   const previousKeys=new Set(previous.map(sessionKey).filter(Boolean));
   const counts=new Map();
   for(const a of articles){const key=sessionKey(a);if(key)counts.set(key,(counts.get(key)||0)+1);}
   const eligible=articles.filter(a=>{
-    const key=sessionKey(a),m=a.market_read,requested=a.id===requestId;
+    const key=sessionKey(a),requested=a.id===requestId;
     if(!key||(!requested&&previousKeys.has(key))||a.status!=='published'||a.channel!=='markets'
       ||!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.id)||!a.review?.evidence_checked||!a.review?.privacy_checked
-      ||!a.review?.public_safe||!['regular','early-close','partial'].includes(m.calendar_status)
-      ||!m.exchanges.some(x=>['verified-session','early-close'].includes(x.status)))return false;
-    if(counts.get(key)!==1)throw new Error('Multiple reports match one eligible session key.');
-    const desk=marketDesks[m.market],cutoff=Date.parse(a.cutoff_at),published=Date.parse(a.published_at);
-    const target=Number(localInstant(m.session_date,desk[sessionOf(a)],desk.zone));
-    // An official early close can have a completed observation before the ordinary target.
-    const early=m.calendar_status==='early-close'&&sessionOf(a)==='close'
-      &&localDate(new Date(cutoff),desk.zone)===m.session_date;
-    const reference=early?Math.min(target,cutoff):target;
-    return reference<=cutoff&&cutoff<=published&&published<=now&&now-reference<=12*hours;
+      ||!a.review?.public_safe)return false;
+    if(counts.get(key)!==1)throw new Error('Multiple reports match one eligible delivery key.');
+    const clock=reportClock(a);
+    const cutoff=Date.parse(a.cutoff_at),published=Date.parse(a.published_at);
+    if(!clock)return false;
+    return clock.earliestEvidence<=cutoff&&cutoff<=published&&published<=now
+      &&cutoff<clock.deadline&&now<clock.deadline&&clock.target-now<=hour;
   });
   if(requestId&&!eligible.some(a=>a.id===requestId))throw new Error('Requested report is absent, stale, closed or ineligible.');
-  return eligible.sort((a,b)=>a.cutoff_at.localeCompare(b.cutoff_at)||sessionKey(a).localeCompare(sessionKey(b)));
+  return eligible.sort((a,b)=>reportClock(a).target-reportClock(b).target||sessionKey(a).localeCompare(sessionKey(b)));
 }
 
-export function sessionMessage(a) {
-  const m=a.market_read,s=sessionOf(a),desk=marketDesks[m.market];
-  const timing=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Singapore',dateStyle:'medium',timeStyle:'short',hourCycle:'h23'});
-  const label=s==='open'?'Opening context':'Closing read';
-  const coverage=m.calendar_status==='partial'?' · Partial coverage':m.calendar_status==='early-close'?' · Early close':'';
+const timing=new Intl.DateTimeFormat('en-GB',{timeZone:singapore,dateStyle:'medium',timeStyle:'short',hourCycle:'h23'});
+const when=value=>timing.format(new Date(value))+' SGT';
+export function sessionMessage(a,{now=new Date()}={}) {
+  const key=sessionKey(a),clock=reportClock(a),m=a.market_read,s=sessionOf(a);
+  const evening=a.format==='evening-brief';
+  const headline=evening?'DEDL | Evening global watch':
+    `Market Watch | ${marketDesks[m.market].name} — ${s==='open'?'Pre-open news':'Post-close summary'}`;
+  const coverage=m?.calendar_status==='partial'?' · Partial coverage':m?.calendar_status==='early-close'?' · Early close':'';
+  const later=clock&&now-clock.target>=60000?` Delivery delayed; target was ${when(clock.target)}.`:'';
+  const dated=evening?(a.watchpoints||[]).slice(0,3).map(x=>`• ${when(x.due_at)}: ${x.signal.slice(0,230)}`).join('\n'):'';
   return [
-    `Market Watch | ${desk.name} — ${label}`,
-    `Session date: ${m.session_date}${coverage}`,
-    `Evidence through ${timing.format(new Date(a.cutoff_at))} SGT. Timing is a research cutoff.`,
-    a.summary,
+    headline,
+    `${evening?'Briefing':'Session'} date: ${key.split('/')[1]}${coverage}`,
+    `Evidence through ${when(a.cutoff_at)}.${later}`,
+    a.summary.slice(0,1250),
+    dated&&`This week’s events and watchpoints\n${dated}`,
     `Full report: ${site}reports/${a.id}/`,
-  ].join('\n\n');
+  ].filter(Boolean).join('\n\n');
 }
