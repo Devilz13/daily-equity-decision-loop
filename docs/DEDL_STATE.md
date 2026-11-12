@@ -72,3 +72,9 @@ World Watch: [NVIDIA governance and valuation](https://devilz13.github.io/daily-
 Issue 055 release recovery: [Pages run 43166459305](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43166459305) failed twice before the Telegram step (artifact first unavailable, then duplicate artifacts on the same run). No send was attempted. Use revision v2 for the fresh guarded deployment. The text is unchanged. Do not retry if acceptance becomes uncertain.
 
 The fresh v2 release [43166777911](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43166777911) again failed before sending because Pages could not find the just-uploaded artifact. Recovery v3 waits for one artifact for the current run attempt before deployment. The original live-page and Telegram receipt checks remain in place; neither v1 nor v2 attempted a send.
+
+## 12 November NVIDIA stock watch — 2026-11-12T06:17:46Z
+
+[Issue 056: NVIDIA stock watch](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/) is a separately requested special publication with its own delivery key. The confirmed 8 November inquiry is distinct from the reported 11 November meeting and reported second allegation. Dated cash and after-hours quotes, trailing P/E and explicitly assumed valuation examples are separated. The original daily issue and Issue 055 delivery keys are unchanged. Reconcile exact deployed marker and Telegram acceptance before any retry.
+
+Issue 055 v3 deployed in [run 43167080251](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43167080251). The post-deploy marker was verified, and Telegram accepted message 57 at 14:17:40 SGT. Do not retry it. This NVIDIA issue is a separate send.

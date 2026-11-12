@@ -6,6 +6,42 @@
   "issues": [
     {
       "date": "2026-11-12",
+      "number": 56,
+      "title": "NVIDIA stock watch: what the dip does and does not tell us",
+      "status": "special stock update",
+      "path": "issues/2026/11/12/nvidia-stock-watch/",
+      "markets": [
+        "US"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-12-nvidia-watch-v1",
+        "summary": "NVIDIA: US$173.73 cash close on 11 Nov US time; US$158.76 at 19:59 ET after hours (−8.6%). The board confirmed an investigation. Reuters reported a meeting about Huang’s future and relayed a second allegation. No board decision was verified. A lower price alone does not establish a bargain.",
+        "headlines": [
+          {
+            "title": "Governance: confirmed inquiry, reported board meeting",
+            "date": "8–12 Nov",
+            "context": "The New York Times allegation concerns a direct report, Reuters says. The allegation, its role in the board meeting and an ouster are not confirmed here.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/#facts"
+          },
+          {
+            "title": "What the price implies: 22.0× versus 20.1× P/E",
+            "date": "11 Nov US time",
+            "context": "Both use US$7.91 trailing GAAP earnings per share. The after-hours quote is a dated snapshot. A falling P/E does not tell us whether earnings will hold.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/#earnings"
+          },
+          {
+            "title": "What would make the dip more convincing",
+            "date": "12–18 Nov SGT",
+            "context": "Check board disclosures, regular-session volume and earnings on 18 Nov SGT. Strong guidance, margins and cash would help; cuts or wider curbs would hurt.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/#watch"
+          }
+        ],
+        "market_note": "Assumptions, not targets: US$8 EPS × 15 = US$120; US$10 × 18 = US$180; US$12 × 22 = US$264. The cash close was below both the 50- and 200-session averages. A regular-session recovery above ~US$178 would help; a heavy-volume close below ~US$166 would weaken the case.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-12",
       "number": 55,
       "title": "Singapore data breach alert: what to do if someone calls or messages you",
       "status": "public safety bulletin",
