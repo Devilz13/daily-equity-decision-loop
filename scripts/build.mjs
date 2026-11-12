@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {channels,regions,lenses,topics,validateArticles,validatePromotions,sgDate,check} from './model.mjs';
 import {marketDesks,sectors} from './market-read.mjs';
 import {publicationKey} from './telegram-message.mjs';
+import {sessionKey,sessionMarker} from './session-telegram.mjs';
 
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -157,7 +158,11 @@ export function build(now=new Date()) {
   const corrections=articles.flatMap(a=>a.corrections.map(c=>({a,c}))).sort((a,b)=>Date.parse(b.c.at)-Date.parse(a.c.at));
   put('corrections/','Corrections & updates','What changed, when, and why.',
     corrections.length?corrections.map(({a,c})=>`<article class="evidence-block"><h2>${link('../reports/'+a.id+'/',a.title)}</h2><time>${esc(c.at)}</time><p>${esc(c.reason)}: ${esc(c.change)}</p></article>`).join(''):'<div class="empty"><b>No corrections recorded for the new desk reports.</b><p>This register covers the new editorial collection. Historical corrections and redactions remain labelled within their original editions; they have not been retrospectively audited.</p></div>');
-  for(const a of articles) put('reports/'+a.id+'/',a.title,a.summary,report(a,'../../'));
+  for(const a of articles) {
+    const r='reports/'+a.id+'/';
+    const html=page(r,a.title,a.summary,report(a,'../../'));
+    write(r+'index.html',sessionKey(a)?html.replace('</head>',sessionMarker(a)+'</head>'):html);
+  }
   write('data/articles.json',JSON.stringify(articles,null,2)+'\n');
   write('data/promotions.json',JSON.stringify(promo,null,2)+'\n');
   console.log(`Built public site: ${issues.length} preserved editions, ${articles.length} reviewed reports, ${promo.offers.length} offers, ${promo.cards.length} cards. Build date ${sgDate(now)} SGT.`);

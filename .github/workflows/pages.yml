@@ -17,6 +17,8 @@ concurrency:
 
 jobs:
   deploy:
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -75,3 +77,26 @@ jobs:
           CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         run: node .github/scripts/send_telegram.mjs
 
+
+
+  session-notify:
+    needs: deploy
+    if: ${{ always() && github.event_name == 'push' && needs.deploy.outputs.page_url != '' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Deliver verified market sessions
+        env:
+          SESSION_BASE_SHA: ${{ github.event.before }}
+          GH_TOKEN: ${{ github.token }}
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: node .github/scripts/send_session_telegram.mjs
