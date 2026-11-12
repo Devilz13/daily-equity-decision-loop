@@ -1,5 +1,1433 @@
 [
   {
+    "id": "2026-11-12-us-open",
+    "title": "US pre-open: chip weakness meets claims and earnings tests",
+    "summary": "In Reuters’ 18:32 SGT futures snapshot, Nasdaq-100 futures fell 0.64%, S&P 500 futures fell 0.31% and Dow futures rose 0.12%. NVIDIA was near US$160 in a later premarket report; no official leadership decision was verified. Watch weekly claims at 21:30 SGT, cash breadth from 22:30 and producer prices on 13 November. These are futures and premarket observations, not cash-session returns.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-12T13:01:44Z",
+    "updated_at": "2026-11-12T13:01:44Z",
+    "cutoff_at": "2026-11-12T13:01:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Cash trading hours and holiday calendar",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "fed",
+        "title": "November 2026 economic calendar",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+        "type": "primary",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "bls",
+        "title": "November release calendar and PPI schedule",
+        "publisher": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+        "type": "primary",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "futures",
+        "title": "12 November premarket, 05:32 EST futures snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Independent directors retain outside counsel",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-the-Independent-Members-of-the-NVIDIA-Board/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nvwatch",
+        "title": "12 November 07:15 EST premarket update",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-sp500-down-nvidia-dive-huang-affair-ouster-dow-flat/card/nvidia-s-partial-premarket-rally-fades-aDGCYo5cj0FtnTP6rSDF",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "world",
+        "title": "12 November Europe, bonds and cross-market reporting",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "amat",
+        "title": "Q4 earnings call at 16:30 EST",
+        "publisher": "Applied Materials",
+        "url": "https://ir.appliedmaterials.com/events/event-details/q4-2026-applied-materials-earnings-conference-call",
+        "type": "primary",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "cisco",
+        "title": "Q1 earnings call at 16:30 EST",
+        "publisher": "Cisco",
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+        "type": "primary",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nve",
+        "title": "Q3 FY27 earnings call at 17:00 EST on 17 November",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters’ 05:32 EST / 18:32 SGT snapshot: Dow futures +0.12%, S&P 500 futures −0.31%, Nasdaq-100 futures −0.64%. All are futures observations before the 09:30 EST / 22:30 SGT cash open.",
+        "kind": "fact",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      },
+      {
+        "text": "A MarketWatch update at 07:15 EST / 20:15 SGT put NVIDIA just above US$160 in premarket trading. On 10 November independent directors confirmed outside counsel. The reported board meeting does not establish a decision; no official outcome was verified at this cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "nvwatch",
+          "nvda",
+          "futures"
+        ]
+      },
+      {
+        "text": "US claims and existing-home sales were scheduled for 08:30 and 10:00 EST. The producer-price release is scheduled for 13 November, not today. No actual was used before release.",
+        "kind": "fact",
+        "source_ids": [
+          "fed",
+          "bls"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Weakness in memory and AI shares alongside a weaker Nasdaq futures snapshot is consistent with sensitivity to the NVIDIA governance reports.",
+        "transmission": "Check independently dated equity breadth, rates and currency observations before extending the explanation across markets.",
+        "confidence": "inference",
+        "alternatives": "Rate expectations after inflation and thin premarket trading may explain part of the divergence. The Dow held up in the same snapshot and earnings could separately affect individual companies.",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Pressure broadens",
+        "outcome": "Cash weakness spreads beyond semiconductors as yields rise or broad earnings guidance deteriorates.",
+        "trigger": "Cash weakness spreads beyond semiconductors as yields rise or broad earnings guidance deteriorates.",
+        "invalidation": "Chip weakness remains concentrated and regular-session breadth improves.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      },
+      {
+        "name": "Pressure remains concentrated",
+        "outcome": "Chip weakness remains concentrated and regular-session breadth improves.",
+        "trigger": "Chip weakness remains concentrated and regular-session breadth improves.",
+        "invalidation": "Cash weakness spreads beyond semiconductors as yields rise or broad earnings guidance deteriorates.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT",
+        "due_at": "2026-11-12T13:30:00Z",
+        "confirms": "The actual print and same-time Treasury yields support a broad repricing.",
+        "contradicts": "Yields and equal-weight equity futures barely move.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "NYSE cash open, 12 Nov 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-12T14:30:00Z",
+        "confirms": "Chip and equal-weight cash breadth weaken together.",
+        "contradicts": "Weakness stays concentrated in Nvidia and chip shares.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "US existing home sales, 12 Nov 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-12T15:00:00Z",
+        "confirms": "Activity and cash homebuilder breadth shift together.",
+        "contradicts": "A local housing print does not broaden the equity move.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Cisco and Applied Materials calls, 12 Nov 16:30 EST / 13 Nov 05:30 SGT",
+        "due_at": "2026-11-12T21:30:00Z",
+        "confirms": "Guidance signals changes in networking or equipment demand.",
+        "contradicts": "Guidance holds and supplier pressure stays localized.",
+        "source_ids": [
+          "cisco",
+          "amat"
+        ]
+      },
+      {
+        "signal": "October US producer prices, 13 Nov 08:30 EST / 21:30 SGT",
+        "due_at": "2026-11-13T13:30:00Z",
+        "confirms": "Broad input-price pressure and firmer Treasury yields persist.",
+        "contradicts": "An easing print and falling yields weaken the rate-pressure interpretation.",
+        "source_ids": [
+          "bls"
+        ]
+      },
+      {
+        "signal": "NVIDIA earnings call, 17 Nov 17:00 EST / 18 Nov 06:00 SGT",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Guidance, collections and the leadership update provide evidence on operating continuity.",
+        "contradicts": "Cash conversion or guidance deteriorates, or key questions remain unanswered.",
+        "source_ids": [
+          "nve",
+          "nvda"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T13:01:44Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-12",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "New York Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "In Reuters’ 18:32 SGT futures snapshot, Nasdaq-100 futures fell 0.64%, S&P 500 futures fell 0.31% and Dow futures rose 0.12%. NVIDIA was near US$160 in a later premarket report; no official leadership decision was verified. Watch weekly claims at 21:30 SGT, cash breadth from 22:30 and producer prices on 13 November. These are futures and premarket observations, not cash-session returns.",
+        "indicators": "Divergence across the three dated index-futures contracts is the sentiment proxy. No verified current cash breadth or synchronized sector panel.",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "NVIDIA and several chip names weakened in premarket reports; these are constituent snapshots, not a sector return.",
+          "source_ids": [
+            "futures",
+            "nvwatch"
+          ],
+          "implication": "Separate chip breadth beyond megacaps from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for communication services.",
+          "source_ids": [],
+          "implication": "Separate telecom versus internet platforms from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for consumer discretionary.",
+          "source_ids": [],
+          "implication": "Separate consumer cyclicals and autos from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for consumer staples.",
+          "source_ids": [],
+          "implication": "Separate defensive breadth and pricing from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for energy.",
+          "source_ids": [],
+          "implication": "Separate commodity-sensitive equities and crude from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for financials.",
+          "source_ids": [],
+          "implication": "Separate banks, credit and yields from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for health care.",
+          "source_ids": [],
+          "implication": "Separate provider and pharma participation from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for industrials.",
+          "source_ids": [],
+          "implication": "Separate freight, equipment and orders from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for materials.",
+          "source_ids": [],
+          "implication": "Separate miners versus underlying metals from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for real estate.",
+          "source_ids": [],
+          "implication": "Separate property shares, REITs and financing rates from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified current comparable US sector observation for utilities.",
+          "source_ids": [],
+          "implication": "Separate utilities and yield sensitivity from benchmark direction.",
+          "watchpoint": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT"
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "europe",
+          "scenario": "European cash breadth versus US technology futures",
+          "trigger": "Europe follows the US move beyond chip names",
+          "invalidation": "European cash breadth remains resilient",
+          "source_ids": [
+            "futures",
+            "nyse"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Asian technology and domestic cyclicals",
+          "trigger": "Next Asian session weakness reaches cyclicals outside technology",
+          "invalidation": "Domestic financials and cyclicals hold while chips soften",
+          "source_ids": [
+            "futures",
+            "nyse"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "SGX bank, REIT and electronics participation",
+          "trigger": "SGX weakness broadens into banks and listed property",
+          "invalidation": "Banks and REITs stabilize independently of US technology",
+          "source_ids": [
+            "futures",
+            "nyse"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-12-singapore-close-delayed",
+    "title": "Singapore close catch-up: STI slips; breadth weaker than the index",
+    "summary": "On 12 November the STI closed at 5,282.70, down 6.96 points (about 0.13%). Advancers trailed decliners 224 to 338. This is a delayed web recap based on reported closing data.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-12T13:01:44Z",
+    "updated_at": "2026-11-12T13:01:44Z",
+    "cutoff_at": "2026-11-12T13:01:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx",
+        "title": "Cash hours and trade-at-close rules",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "sgclose",
+        "title": "12 November 18:30 SGT Singapore market close",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-shares-drop-tandem-regional-bourses-sti-down-0-1",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "futures",
+        "title": "12 November premarket, 05:32 EST futures snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The Business Times 18:30 SGT close report put the STI at 5,282.70 and breadth at 224 gainers to 338 decliners. The official SGX timetable puts the end of Trade at Close at 17:16 SGT.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclose",
+          "sgx"
+        ]
+      },
+      {
+        "text": "SATS gained 4.3%, City Developments fell 6.7%, and the three banks finished mixed. These are single-name moves.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclose"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The breadth counts suggest a softer market than the headline index alone. SATS earnings and City Developments’ outlook offer distinct explanations for those shares.",
+        "transmission": "Check independently dated equity breadth, rates and currency observations before extending the explanation across markets.",
+        "confidence": "inference",
+        "alternatives": "Large index weights and local company news can offset regional risk. A broad decline cannot be attributed to NVIDIA without additional evidence.",
+        "source_ids": [
+          "sgclose",
+          "sgx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Pressure broadens",
+        "outcome": "Declines extend into domestic banks and REITs across the next comparable session.",
+        "trigger": "Declines extend into domestic banks and REITs across the next comparable session.",
+        "invalidation": "Next-session bank and REIT breadth stabilizes even if chip names remain weak.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "sgclose",
+          "sgx"
+        ]
+      },
+      {
+        "name": "Pressure remains concentrated",
+        "outcome": "Next-session bank and REIT breadth stabilizes even if chip names remain weak.",
+        "trigger": "Next-session bank and REIT breadth stabilizes even if chip names remain weak.",
+        "invalidation": "Declines extend into domestic banks and REITs across the next comparable session.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "sgclose",
+          "sgx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Compare Singapore cash participation after the next open",
+        "due_at": "2026-11-13T01:00:00Z",
+        "confirms": "Bank and REIT participation recovers.",
+        "contradicts": "Weakness expands to banks and property together.",
+        "source_ids": [
+          "sgclose",
+          "sgx"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T13:01:44Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-12",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "On 12 November the STI closed at 5,282.70, down 6.96 points (about 0.13%). Advancers trailed decliners 224 to 338. This is a delayed web recap based on reported closing data.",
+        "indicators": "224 gainers, 338 decliners, alongside a small negative STI return. No synchronized sector flows or current FX print.",
+        "source_ids": [
+          "sgclose",
+          "sgx"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for information technology.",
+          "source_ids": [],
+          "implication": "Separate chip breadth beyond megacaps from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for communication services.",
+          "source_ids": [],
+          "implication": "Separate telecom versus internet platforms from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for consumer discretionary.",
+          "source_ids": [],
+          "implication": "Separate consumer cyclicals and autos from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for consumer staples.",
+          "source_ids": [],
+          "implication": "Separate defensive breadth and pricing from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for energy.",
+          "source_ids": [],
+          "implication": "Separate commodity-sensitive equities and crude from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "DBS and UOB rose while OCBC fell.",
+          "source_ids": [
+            "sgclose"
+          ],
+          "implication": "Separate banks, credit and yields from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for health care.",
+          "source_ids": [],
+          "implication": "Separate provider and pharma participation from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "SATS gained 4.3% after reported results; not an industry return.",
+          "source_ids": [
+            "sgclose"
+          ],
+          "implication": "Separate freight, equipment and orders from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for materials.",
+          "source_ids": [],
+          "implication": "Separate miners versus underlying metals from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "City Developments fell 6.7% following a weaker outlook; not a REIT index.",
+          "source_ids": [
+            "sgclose"
+          ],
+          "implication": "Separate property shares, REITs and financing rates from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified comparable Singapore sector observation for utilities.",
+          "source_ids": [],
+          "implication": "Separate utilities and yield sensitivity from benchmark direction.",
+          "watchpoint": "Compare Singapore cash participation after the next open"
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "US chips versus equal-weight cash breadth",
+          "trigger": "Weakness reaches equal-weight cash shares and yields move in the same direction",
+          "invalidation": "The move stays in a few chip names",
+          "source_ids": [
+            "sgclose",
+            "sgx"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European cash breadth versus US technology futures",
+          "trigger": "Europe follows the US move beyond chip names",
+          "invalidation": "European cash breadth remains resilient",
+          "source_ids": [
+            "sgclose",
+            "sgx"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Asian technology and domestic cyclicals",
+          "trigger": "Next Asian session weakness reaches cyclicals outside technology",
+          "invalidation": "Domestic financials and cyclicals hold while chips soften",
+          "source_ids": [
+            "sgclose",
+            "sgx"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-12-asia-close-delayed",
+    "title": "Asia close catch-up: Japan slips while Indian financials hold up",
+    "summary": "Reported 12 November closes: Nikkei 225 fell 0.70% to 60,819.36; Nifty 50 rose 0.18% to 25,299.35. The divergence makes a single regional explanation unreliable. This is a partial, delayed cash-close recap.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-12T13:01:44Z",
+    "updated_at": "2026-11-12T13:01:44Z",
+    "cutoff_at": "2026-11-12T13:01:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "Exchange holiday calendar",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nse",
+        "title": "Regular equity hours and market close",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "Equity holiday calendar",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/resources/exchange-communication-holidays",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "india",
+        "title": "India cash close, index and sector observations",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "jpcash",
+        "title": "Japan cash close and split regional snapshot",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/8bf08407eafe1655ed73112f7494029a",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "jpseries",
+        "title": "Dated Nikkei 225 close history",
+        "publisher": "DealPlexus",
+        "url": "https://www.dealplexus.com/markets/nikkei-225-today",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "futures",
+        "title": "12 November premarket, 05:32 EST futures snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Japan’s Nikkei 225 closed at 60,819.36 (−0.70%) in the dated series, corroborated by the AP level. Reuters put India’s Nifty 50 at 25,299.35 (+0.18%). These closes are from separate cash markets.",
+        "kind": "fact",
+        "source_ids": [
+          "jpcash",
+          "jpseries",
+          "india"
+        ]
+      },
+      {
+        "text": "Reuters reported Indian financials rose 1.4% and the auto group fell 1%. Eleven of its 16 major groups fell; that is not the same universe as the 11 desk sectors.",
+        "kind": "fact",
+        "source_ids": [
+          "india"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Technology weakness can pressure Japan’s benchmark, while India’s financials helped it hold up despite weaker auto shares.",
+        "transmission": "Check independently dated equity breadth, rates and currency observations before extending the explanation across markets.",
+        "confidence": "inference",
+        "alternatives": "Separate foreign flows, oil-price sensitivity and local earnings can explain the divergence. Not all regional exchange finals were independently verified.",
+        "source_ids": [
+          "jpcash",
+          "jpseries",
+          "india"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Pressure broadens",
+        "outcome": "Regional banks and domestic cyclicals weaken alongside chip shares.",
+        "trigger": "Regional banks and domestic cyclicals weaken alongside chip shares.",
+        "invalidation": "Indian financials hold up and chip weakness does not spread to regional non-tech groups.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "jpcash",
+          "jpseries",
+          "india"
+        ]
+      },
+      {
+        "name": "Pressure remains concentrated",
+        "outcome": "Indian financials hold up and chip weakness does not spread to regional non-tech groups.",
+        "trigger": "Indian financials hold up and chip weakness does not spread to regional non-tech groups.",
+        "invalidation": "Regional banks and domestic cyclicals weaken alongside chip shares.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "jpcash",
+          "jpseries",
+          "india"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints",
+        "due_at": "2026-11-12T23:00:00Z",
+        "confirms": "India and Japan continue to diverge across matched sector snapshots.",
+        "contradicts": "Weakness broadens across local sectors and markets.",
+        "source_ids": [
+          "jpx",
+          "india",
+          "jpseries"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T13:01:44Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-12",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "NSE India",
+          "status": "verified-session",
+          "source_ids": [
+            "nse",
+            "nsecal"
+          ]
+        },
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Reported 12 November closes: Nikkei 225 fell 0.70% to 60,819.36; Nifty 50 rose 0.18% to 25,299.35. The divergence makes a single regional explanation unreliable. This is a partial, delayed cash-close recap.",
+        "indicators": "Opposite Nikkei and Nifty directions, and a narrow Indian benchmark advance. Hong Kong, Korea and Taiwan final series not adopted.",
+        "source_ids": [
+          "jpcash",
+          "jpseries",
+          "india"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for information technology.",
+          "source_ids": [],
+          "implication": "Separate chip breadth beyond megacaps from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for communication services.",
+          "source_ids": [],
+          "implication": "Separate telecom versus internet platforms from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Nifty Auto fell around 1%; India proxy only.",
+          "source_ids": [
+            "india"
+          ],
+          "implication": "Separate consumer cyclicals and autos from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for consumer staples.",
+          "source_ids": [],
+          "implication": "Separate defensive breadth and pricing from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for energy.",
+          "source_ids": [],
+          "implication": "Separate commodity-sensitive equities and crude from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Nifty Financial Services rose about 1.4% in the Reuters close report.",
+          "source_ids": [
+            "india"
+          ],
+          "implication": "Separate banks, credit and yields from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for health care.",
+          "source_ids": [],
+          "implication": "Separate provider and pharma participation from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for industrials.",
+          "source_ids": [],
+          "implication": "Separate freight, equipment and orders from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for materials.",
+          "source_ids": [],
+          "implication": "Separate miners versus underlying metals from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for real estate.",
+          "source_ids": [],
+          "implication": "Separate property shares, REITs and financing rates from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized regional sector observation for utilities.",
+          "source_ids": [],
+          "implication": "Separate utilities and yield sensitivity from benchmark direction.",
+          "watchpoint": "Compare Friday Tokyo opening breadth, India sector groups and next verified Hong Kong and Korea prints"
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "US chips versus equal-weight cash breadth",
+          "trigger": "Weakness reaches equal-weight cash shares and yields move in the same direction",
+          "invalidation": "The move stays in a few chip names",
+          "source_ids": [
+            "jpcash",
+            "jpseries",
+            "india"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European cash breadth versus US technology futures",
+          "trigger": "Europe follows the US move beyond chip names",
+          "invalidation": "European cash breadth remains resilient",
+          "source_ids": [
+            "jpcash",
+            "jpseries",
+            "india"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "SGX bank, REIT and electronics participation",
+          "trigger": "SGX weakness broadens into banks and listed property",
+          "invalidation": "Banks and REITs stabilize independently of US technology",
+          "source_ids": [
+            "jpcash",
+            "jpseries",
+            "india"
+          ]
+        }
+      ],
+      "telegram_clock": {
+        "cash_at": "2026-11-12T10:00:00Z",
+        "source_id": "nse"
+      }
+    }
+  },
+  {
+    "id": "2026-11-12-evening-global-watch",
+    "title": "Evening global watch: Asia diverges as markets test chip risk",
+    "summary": "12 November evening web catch-up: Japan slipped, India edged up and Singapore breadth weakened. US futures pointed to more pressure in technology than the Dow. Four exact June REDL originals were rechecked; September holdings comparisons remain unverified. Key events: US claims and the cash open, chip and networking earnings, then Friday US PPI.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore",
+      "europe",
+      "us"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-12T13:01:44Z",
+    "updated_at": "2026-11-12T13:01:44Z",
+    "cutoff_at": "2026-11-12T13:01:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "futures",
+        "title": "12 November premarket, 05:32 EST futures snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-fall-nvidia-turmoil-rattles-ai-stocks-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Independent directors retain outside counsel",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-the-Independent-Members-of-the-NVIDIA-Board/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nvwatch",
+        "title": "12 November 07:15 EST premarket update",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-sp500-down-nvidia-dive-huang-affair-ouster-dow-flat/card/nvidia-s-partial-premarket-rally-fades-aDGCYo5cj0FtnTP6rSDF",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "world",
+        "title": "12 November Europe, bonds and cross-market reporting",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "india",
+        "title": "India cash close, index and sector observations",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-likely-consolidate-after-foreign-inflow-driven-rally-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "jpseries",
+        "title": "Dated Nikkei 225 close history",
+        "publisher": "DealPlexus",
+        "url": "https://www.dealplexus.com/markets/nikkei-225-today",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "sgclose",
+        "title": "12 November 18:30 SGT Singapore market close",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-shares-drop-tandem-regional-bourses-sti-down-0-1",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "fed",
+        "title": "November 2026 economic calendar",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+        "type": "primary",
+        "published_at": "2026-11-01",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Cash trading hours and holiday calendar",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "amat",
+        "title": "Q4 earnings call at 16:30 EST",
+        "publisher": "Applied Materials",
+        "url": "https://ir.appliedmaterials.com/events/event-details/q4-2026-applied-materials-earnings-conference-call",
+        "type": "primary",
+        "published_at": "2026-10-22",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "cisco",
+        "title": "Q1 earnings call at 16:30 EST",
+        "publisher": "Cisco",
+        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+        "type": "primary",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "bls",
+        "title": "November release calendar and PPI schedule",
+        "publisher": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+        "type": "primary",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "nve",
+        "title": "Q3 FY27 earnings call at 17:00 EST on 17 November",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "alt",
+        "title": "Altimeter Form 13F-HR",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000008/0001541617-26-000008-index.html",
+        "type": "primary",
+        "published_at": "2026-08-14",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "him",
+        "title": "Himalaya Form 13F-HR",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000022/0002043585-26-000022-index.htm",
+        "type": "primary",
+        "published_at": "2026-08-14",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "tci",
+        "title": "TCI Fund Management Form 13F-HR",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000007/0001647251-26-000007-index.html",
+        "type": "primary",
+        "published_at": "2026-08-14",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "val",
+        "title": "Valley Forge Capital Management Form 13F-HR",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000005/0001697868-26-000005-index.htm",
+        "type": "primary",
+        "published_at": "2026-08-14",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      },
+      {
+        "id": "himindex",
+        "title": "Himalaya exact-filer submissions",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T13:01:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Japan’s Nikkei 225 fell 0.70%, the Nifty 50 rose 0.18%, and the STI closed at 5,282.70. In the earlier US futures snapshot, Nasdaq-100 futures lagged Dow futures.",
+        "kind": "fact",
+        "source_ids": [
+          "jpseries",
+          "india",
+          "sgclose",
+          "futures"
+        ]
+      },
+      {
+        "text": "All four rechecked SEC originals are 13F-HR filings for the period ended 30 June 2026, filed 14 August. No September originals or comparisons were substantiated in this bounded review.",
+        "kind": "fact",
+        "source_ids": [
+          "alt",
+          "him",
+          "tci",
+          "val"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Divergent benchmarks and issuer-specific earnings suggest several forces are at work: technology sentiment, local financials and rates.",
+        "transmission": "Check independently dated equity breadth, rates and currency observations before extending the explanation across markets.",
+        "confidence": "inference",
+        "alternatives": "Different market clocks and benchmark weights can make the moves appear more coordinated than they are. Earlier oil and Treasury snapshots are not contemporaneous with all cash closes.",
+        "source_ids": [
+          "jpseries",
+          "india",
+          "sgclose",
+          "futures"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Pressure broadens",
+        "outcome": "US cash losses extend beyond chips and weakness broadens into Asian cyclical and financial groups.",
+        "trigger": "US cash losses extend beyond chips and weakness broadens into Asian cyclical and financial groups.",
+        "invalidation": "US weakness remains narrow and Asian financial participation holds.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "jpseries",
+          "india",
+          "sgclose",
+          "futures"
+        ]
+      },
+      {
+        "name": "Pressure remains concentrated",
+        "outcome": "US weakness remains narrow and Asian financial participation holds.",
+        "trigger": "US weakness remains narrow and Asian financial participation holds.",
+        "invalidation": "US cash losses extend beyond chips and weakness broadens into Asian cyclical and financial groups.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "jpseries",
+          "india",
+          "sgclose",
+          "futures"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Weekly initial claims, 12 Nov 08:30 EST / 21:30 SGT",
+        "due_at": "2026-11-12T13:30:00Z",
+        "confirms": "The actual print and same-time Treasury yields support a broad repricing.",
+        "contradicts": "Yields and equal-weight equity futures barely move.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "NYSE cash open, 12 Nov 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-12T14:30:00Z",
+        "confirms": "Chip and equal-weight cash breadth weaken together.",
+        "contradicts": "Weakness stays concentrated in Nvidia and chip shares.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "US existing home sales, 12 Nov 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-12T15:00:00Z",
+        "confirms": "Activity and cash homebuilder breadth shift together.",
+        "contradicts": "A local housing print does not broaden the equity move.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Cisco and Applied Materials calls, 12 Nov 16:30 EST / 13 Nov 05:30 SGT",
+        "due_at": "2026-11-12T21:30:00Z",
+        "confirms": "Guidance signals changes in networking or equipment demand.",
+        "contradicts": "Guidance holds and supplier pressure stays localized.",
+        "source_ids": [
+          "cisco",
+          "amat"
+        ]
+      },
+      {
+        "signal": "October US producer prices, 13 Nov 08:30 EST / 21:30 SGT",
+        "due_at": "2026-11-13T13:30:00Z",
+        "confirms": "Broad input-price pressure and firmer Treasury yields persist.",
+        "contradicts": "An easing print and falling yields weaken the rate-pressure interpretation.",
+        "source_ids": [
+          "bls"
+        ]
+      },
+      {
+        "signal": "NVIDIA earnings call, 17 Nov 17:00 EST / 18 Nov 06:00 SGT",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Guidance, collections and the leadership update provide evidence on operating continuity.",
+        "contradicts": "Cash conversion or guidance deteriorates, or key questions remain unanswered.",
+        "source_ids": [
+          "nve",
+          "nvda"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T13:01:44Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-12",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "NVIDIA and chip peers weakened in US premarket observations; no global sector aggregate.",
+          "source_ids": [
+            "futures",
+            "nvwatch"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified global sector observation for communication services.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "India auto sector fell around 1%; local proxy only.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified global sector observation for consumer staples.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Reuters reported Brent futures around US$92 in the India close wrap; commodity context only, not a sector return.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Indian financials rose while the major Singapore banks ended mixed.",
+          "source_ids": [
+            "india",
+            "sgclose"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified global sector observation for health care.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "SATS gained 4.3%; single Singapore name.",
+          "source_ids": [
+            "sgclose"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified global sector observation for materials.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "City Developments fell 6.7% after a weaker outlook; single Singapore issuer.",
+          "source_ids": [
+            "sgclose"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified global sector observation for utilities.",
+          "source_ids": []
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management LP: original Form 13F-HR for 30 June 2026, filed 14 August, verified. September original and change comparison remain unverified.",
+          "source_ids": [
+            "alt"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC: original Form 13F-HR for 30 June 2026, filed 14 August, verified. The exact submissions index showed no September 13F in the retrieved snapshot. The later N-PX is a separate form, not a new holdings table.",
+          "source_ids": [
+            "him",
+            "himindex"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd: original Form 13F-HR for 30 June 2026, filed 14 August, verified. September original and change comparison remain unverified.",
+          "source_ids": [
+            "tci"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management LP: original Form 13F-HR for 30 June 2026, filed 14 August, verified. September original and change comparison remain unverified.",
+          "source_ids": [
+            "val"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-12-europe-open-delayed",
     "title": "London opening context: UK growth firms; the cash opening print is unverified",
     "summary": "The ONS put third-quarter UK growth at 0.7%, up from 0.5%. London’s scheduled cash opening was 16:00 SGT; no independently verified 12 November opening print or current UK sector panel was available.",
