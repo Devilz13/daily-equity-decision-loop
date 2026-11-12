@@ -1,5 +1,1125 @@
 [
   {
+    "id": "2026-11-12-europe-open-delayed",
+    "title": "London opening context: UK growth firms; the cash opening print is unverified",
+    "summary": "The ONS put third-quarter UK growth at 0.7%, up from 0.5%. London’s scheduled cash opening was 16:00 SGT; no independently verified 12 November opening print or current UK sector panel was available.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-12T09:03:12Z",
+    "updated_at": "2026-11-12T09:03:12Z",
+    "cutoff_at": "2026-11-12T09:03:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Business days",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/equities-trading/business-days",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "ons",
+        "title": "UK first quarterly GDP estimate",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "close",
+        "title": "11 November London cash close",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/ftse-100-gains-oil-copper-lift-energy-and-miners",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "us",
+        "title": "12 November Asia and US futures snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "nyse",
+        "title": "US holiday and session hours",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "board",
+        "title": "Independent board members retain counsel",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-the-Independent-Members-of-the-NVIDIA-Board/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The ONS reported the first estimate at 07:00 GMT: GDP rose 0.7% quarter on quarter; September GDP rose 0.2% month on month. These are preliminary economic releases, not market prints.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      {
+        "text": "11 November cash baseline: FTSE 100 closed at 10,835.47 (+0.78%) and FTSE 250 rose 0.72%. Reuters reported S&P e-mini futures down 0.5% in an earlier overnight snapshot; that was not a US cash move.",
+        "kind": "fact",
+        "source_ids": [
+          "close",
+          "us"
+        ]
+      },
+      {
+        "text": "US cash opens 22:30 SGT. NVIDIA confirmed the independent directors retained counsel on 10 November; no official board outcome was verified at this cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "board"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Stronger UK growth could support domestic revenue expectations, but a parallel repricing of gilt yields could pressure rate-sensitive shares.",
+        "transmission": "Compare rates, currencies and non-technology participation across desks before attributing a broad move.",
+        "confidence": "inference",
+        "alternatives": "Growth may already be priced. Prior oil and copper leadership or a global technology shock could dominate the UK release.",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms",
+        "outcome": "Participation supports the cross-market read.",
+        "trigger": "UK domestic shares and sector breadth strengthen alongside stable yields; US weakness remains concentrated in chips.",
+        "invalidation": "Domestic shares lag as yields rise, or US weakness spreads across cash sectors.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      {
+        "name": "Breadth does not confirm",
+        "outcome": "The initial signal is weaker or more concentrated.",
+        "trigger": "Domestic shares lag as yields rise, or US weakness spreads across cash sectors.",
+        "invalidation": "UK domestic shares and sector breadth strengthen alongside stable yields; US weakness remains concentrated in chips.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "At the next London cash read, compare FTSE 250 against FTSE 100, with same-time sterling, gilts and sector breadth. At 22:30 SGT compare US cash chip breadth with the overnight move.",
+        "due_at": "2026-11-12T16:50:00Z",
+        "confirms": "UK domestic shares and sector breadth strengthen alongside stable yields; US weakness remains concentrated in chips.",
+        "contradicts": "Domestic shares lag as yields rise, or US weakness spreads across cash sectors.",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T09:03:12Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-12",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "The ONS put third-quarter UK growth at 0.7%, up from 0.5%. London’s scheduled cash opening was 16:00 SGT; no independently verified 12 November opening print or current UK sector panel was available.",
+        "indicators": "The ONS reported the first estimate at 07:00 GMT: GDP rose 0.7% quarter on quarter; September GDP rose 0.2% month on month. These are preliminary economic releases, not market prints.",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish chip and software breadth.",
+          "watchpoint": "Check chip and software breadth at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish telecom versus platform participation.",
+          "watchpoint": "Check telecom versus platform participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Prior day only: UK homebuilders fell 2.1%. No current sector print.",
+          "implication": "The benchmark alone does not establish retail and rate-sensitive demand.",
+          "watchpoint": "Check retail and rate-sensitive demand at the next comparable observation.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish pricing and input costs.",
+          "watchpoint": "Check pricing and input costs at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Prior day only: UK energy sector gained 1.7%; BP gained 2.7%. No current sector print.",
+          "implication": "The benchmark alone does not establish crude and energy equity participation.",
+          "watchpoint": "Check crude and energy equity participation at the next comparable observation.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Prior day only: IG Group and LSEG rose over 2%. No current sector print.",
+          "implication": "The benchmark alone does not establish bank breadth and credit.",
+          "watchpoint": "Check bank breadth and credit at the next comparable observation.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish healthcare provider and pharma participation.",
+          "watchpoint": "Check healthcare provider and pharma participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish orders and freight proxies.",
+          "watchpoint": "Check orders and freight proxies at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Prior day only: industrial metal miners rose nearly 1.8%. No current sector print.",
+          "implication": "The benchmark alone does not establish metal prices versus miner breadth.",
+          "watchpoint": "Check metal prices versus miner breadth at the next comparable observation.",
+          "source_ids": [
+            "close"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish listed property and yields.",
+          "watchpoint": "Check listed property and yields at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish utility breadth and rate exposure.",
+          "watchpoint": "Check utility breadth and rate exposure at the next comparable observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "US cash equal-weight breadth and chip participation",
+          "trigger": "US cash weakness stays confined to chips",
+          "invalidation": "Weakness spreads to equal-weight or defensives",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Asian chip breadth versus local cyclicals",
+          "trigger": "Regional cyclicals hold up as semiconductor selling eases",
+          "invalidation": "Semiconductor weakness spreads to local cyclicals",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "SGX banks, REITs and electronics breadth",
+          "trigger": "Banks, REITs and electronics participate together",
+          "invalidation": "Weakness spreads beyond electronics",
+          "source_ids": [
+            "ons"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-11-singapore-close-delayed",
+    "title": "Singapore close catch-up: banks and Venture gained, property trust lagged",
+    "summary": "On 11 November the STI closed at 5,289.66 (+0.59%). Gainers led losers 324–242. This is a retrospective using published close data.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-12T09:03:12Z",
+    "updated_at": "2026-11-12T09:03:12Z",
+    "cutoff_at": "2026-11-12T09:03:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx",
+        "title": "Securities trading schedule",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "bt",
+        "title": "11 November Singapore close and breadth",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-shares-rise-venture-leading-way-sti-0-6",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "ft",
+        "title": "11 November STI historical cash print",
+        "publisher": "Financial Times",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=STI%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "STI 5,289.66; gainers 324 and losers 242; reported market turnover S$2.1 billion.",
+        "kind": "fact",
+        "source_ids": [
+          "bt",
+          "ft"
+        ]
+      },
+      {
+        "text": "Venture +5.2%, the three domestic banks higher, and Mapletree Pan Asia Commercial Trust −2.5%. These are single-name comparisons, not sector index returns.",
+        "kind": "fact",
+        "source_ids": [
+          "bt"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Venture’s earlier earnings and gains across all three large banks are consistent with an earnings and large-cap contribution.",
+        "transmission": "Compare rates, currencies and non-technology participation across desks before attributing a broad move.",
+        "confidence": "inference",
+        "alternatives": "Broker repricing and a rebound after the prior technology sell-off could also explain the move. The weak property trust cautions against a uniform risk-on reading.",
+        "source_ids": [
+          "bt",
+          "ft"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms",
+        "outcome": "Participation supports the cross-market read.",
+        "trigger": "Advancers continue to lead and more than just banks and electronics participate.",
+        "invalidation": "Bank leadership fades or fewer names rise even if the STI remains firm.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "bt",
+          "ft"
+        ]
+      },
+      {
+        "name": "Breadth does not confirm",
+        "outcome": "The initial signal is weaker or more concentrated.",
+        "trigger": "Bank leadership fades or fewer names rise even if the STI remains firm.",
+        "invalidation": "Advancers continue to lead and more than just banks and electronics participate.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "bt",
+          "ft"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "At the 12 November Singapore close compare bank and REIT participation, electronics and the advancer/decliner count.",
+        "due_at": "2026-11-12T09:30:00Z",
+        "confirms": "Advancers continue to lead and more than just banks and electronics participate.",
+        "contradicts": "Bank leadership fades or fewer names rise even if the STI remains firm.",
+        "source_ids": [
+          "bt",
+          "ft"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T09:03:12Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-11",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "On 11 November the STI closed at 5,289.66 (+0.59%). Gainers led losers 324–242. This is a retrospective using published close data.",
+        "indicators": "STI 5,289.66; gainers 324 and losers 242; reported market turnover S$2.1 billion.",
+        "source_ids": [
+          "bt",
+          "ft"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Venture rose 5.2%; single name, not the sector return.",
+          "implication": "The benchmark alone does not establish chip and software breadth.",
+          "watchpoint": "Check chip and software breadth at the next comparable observation.",
+          "source_ids": [
+            "bt"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish telecom versus platform participation.",
+          "watchpoint": "Check telecom versus platform participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish retail and rate-sensitive demand.",
+          "watchpoint": "Check retail and rate-sensitive demand at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "First Resources +8.9% and Golden Agri-Resources −3.6% in the next-50 universe; agribusiness examples, not a staples index.",
+          "implication": "The benchmark alone does not establish pricing and input costs.",
+          "watchpoint": "Check pricing and input costs at the next comparable observation.",
+          "source_ids": [
+            "bt"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish crude and energy equity participation.",
+          "watchpoint": "Check crude and energy equity participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "DBS +0.9%, OCBC +0.8%, UOB +0.5%.",
+          "implication": "The benchmark alone does not establish bank breadth and credit.",
+          "watchpoint": "Check bank breadth and credit at the next comparable observation.",
+          "source_ids": [
+            "bt"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish healthcare provider and pharma participation.",
+          "watchpoint": "Check healthcare provider and pharma participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish orders and freight proxies.",
+          "watchpoint": "Check orders and freight proxies at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish metal prices versus miner breadth.",
+          "watchpoint": "Check metal prices versus miner breadth at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Mapletree Pan Asia Commercial Trust fell 2.5%; single trust.",
+          "implication": "The benchmark alone does not establish listed property and yields.",
+          "watchpoint": "Check listed property and yields at the next comparable observation.",
+          "source_ids": [
+            "bt"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish utility breadth and rate exposure.",
+          "watchpoint": "Check utility breadth and rate exposure at the next comparable observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "US cash equal-weight breadth and chip participation",
+          "trigger": "US cash weakness stays confined to chips",
+          "invalidation": "Weakness spreads to equal-weight or defensives",
+          "source_ids": [
+            "bt",
+            "ft"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Asian chip breadth versus local cyclicals",
+          "trigger": "Regional cyclicals hold up as semiconductor selling eases",
+          "invalidation": "Semiconductor weakness spreads to local cyclicals",
+          "source_ids": [
+            "bt",
+            "ft"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "London domestic versus international exposure",
+          "trigger": "FTSE 250 leads with stable gilt yields",
+          "invalidation": "Domestic equities lag as yields rise",
+          "source_ids": [
+            "bt",
+            "ft"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-11-asia-close-delayed",
+    "title": "Asia close catch-up: Japan and Korea rallied; Hong Kong fell",
+    "summary": "11 November cash closes were mixed: Nikkei 225 +1.31%, Kospi +2.60% and Hang Seng −0.98%. This is a retrospective with partial regional coverage.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-12T09:03:12Z",
+    "updated_at": "2026-11-12T09:03:12Z",
+    "cutoff_at": "2026-11-12T09:03:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "Japan Exchange Group market holidays",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "bny",
+        "title": "11 November Asia recap; final and intraday values mixed",
+        "publisher": "BNY / StreetAccount",
+        "url": "https://www.adrbny.com/market-analysis/daily-dr-market-summary/adrnews.2026-11-11-streetaccount-summary-asian-market-recap-nikkei-131-hang-seng-098-shanghai-composite-046-as-of-0310-et.html",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "finals",
+        "title": "Historical Asian cash closes",
+        "publisher": "TeleTrade",
+        "url": "https://www.teletrade.org/analytics/market-analysis/market-news/4055160",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "nifty",
+        "title": "11 November regional close recap",
+        "publisher": "Bloodstone",
+        "url": "https://www.bloodstonecapital.co.uk/research/journal/asia-briefing-2026-11-11",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "11 November Japan, Korea and Hong Kong closes: 61,248.59, 5,375.36 and 24,315.92 respectively. These come from reported historical closes; full primary exchange reconciliation is incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "bny",
+          "finals"
+        ]
+      },
+      {
+        "text": "A secondary post-close recap reported Nifty 50 +0.84% at 25,255.05. Do not use the earlier BNY India intraday level as the cash close.",
+        "kind": "fact",
+        "source_ids": [
+          "nifty",
+          "bny"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The reported strength in semiconductor-linked names is consistent with the Northeast Asian rally; Hong Kong’s decline shows the move was not uniform.",
+        "transmission": "Compare rates, currencies and non-technology participation across desks before attributing a broad move.",
+        "confidence": "inference",
+        "alternatives": "Domestic news, local currency moves and positioning after earlier volatility can also account for the divergences. No cross-market flow attribution was verified.",
+        "source_ids": [
+          "bny",
+          "finals"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms",
+        "outcome": "Participation supports the cross-market read.",
+        "trigger": "Gains broaden beyond chip stocks and Hong Kong stabilizes.",
+        "invalidation": "Chip weakness broadens and Hong Kong still diverges.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "bny",
+          "finals"
+        ]
+      },
+      {
+        "name": "Breadth does not confirm",
+        "outcome": "The initial signal is weaker or more concentrated.",
+        "trigger": "Chip weakness broadens and Hong Kong still diverges.",
+        "invalidation": "Gains broaden beyond chip stocks and Hong Kong stabilizes.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "bny",
+          "finals"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "At the 12 November Asian close compare chip leaders with non-tech breadth and confirm India and Hong Kong finals separately.",
+        "due_at": "2026-11-12T10:15:00Z",
+        "confirms": "Gains broaden beyond chip stocks and Hong Kong stabilizes.",
+        "contradicts": "Chip weakness broadens and Hong Kong still diverges.",
+        "source_ids": [
+          "bny",
+          "finals"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T09:03:12Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-11",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "11 November cash closes were mixed: Nikkei 225 +1.31%, Kospi +2.60% and Hang Seng −0.98%. This is a retrospective with partial regional coverage.",
+        "indicators": "11 November Japan, Korea and Hong Kong closes: 61,248.59, 5,375.36 and 24,315.92 respectively. These come from reported historical closes; full primary exchange reconciliation is incomplete.",
+        "source_ids": [
+          "bny",
+          "finals"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Secondary reports described semiconductor-led gains in Northeast Asia; no aggregate sector return.",
+          "implication": "The benchmark alone does not establish chip and software breadth.",
+          "watchpoint": "Check chip and software breadth at the next comparable observation.",
+          "source_ids": [
+            "nifty"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish telecom versus platform participation.",
+          "watchpoint": "Check telecom versus platform participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish retail and rate-sensitive demand.",
+          "watchpoint": "Check retail and rate-sensitive demand at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish pricing and input costs.",
+          "watchpoint": "Check pricing and input costs at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish crude and energy equity participation.",
+          "watchpoint": "Check crude and energy equity participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "BNY reported banks leading Indian shares intraday. No India financial sector final verified.",
+          "implication": "The benchmark alone does not establish bank breadth and credit.",
+          "watchpoint": "Check bank breadth and credit at the next comparable observation.",
+          "source_ids": [
+            "bny"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish healthcare provider and pharma participation.",
+          "watchpoint": "Check healthcare provider and pharma participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish orders and freight proxies.",
+          "watchpoint": "Check orders and freight proxies at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish metal prices versus miner breadth.",
+          "watchpoint": "Check metal prices versus miner breadth at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish listed property and yields.",
+          "watchpoint": "Check listed property and yields at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish utility breadth and rate exposure.",
+          "watchpoint": "Check utility breadth and rate exposure at the next comparable observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "US cash equal-weight breadth and chip participation",
+          "trigger": "US cash weakness stays confined to chips",
+          "invalidation": "Weakness spreads to equal-weight or defensives",
+          "source_ids": [
+            "bny",
+            "finals"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "London domestic versus international exposure",
+          "trigger": "FTSE 250 leads with stable gilt yields",
+          "invalidation": "Domestic equities lag as yields rise",
+          "source_ids": [
+            "bny",
+            "finals"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "SGX banks, REITs and electronics breadth",
+          "trigger": "Banks, REITs and electronics participate together",
+          "invalidation": "Weakness spreads beyond electronics",
+          "source_ids": [
+            "bny",
+            "finals"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-11-europe-open-delayed",
+    "title": "London opening catch-up: reported FTSE 100 opening gain",
+    "summary": "Alliance News reported the 11 November FTSE 100 opened at 10,833.16 (+0.8%). The report was published at 09:01 London time; this is later retrieval of dated opening coverage.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-12T09:03:12Z",
+    "updated_at": "2026-11-12T09:03:12Z",
+    "cutoff_at": "2026-11-12T09:03:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Business days",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/equities-trading/business-days",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "open",
+        "title": "11 November 09:01 GMT London opening report",
+        "publisher": "Alliance News",
+        "url": "https://shareprices.com/news/london-market-open-ftse-100-rises-as-european-stocks-advance-ehlmzwfr4ahhcp6/",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      },
+      {
+        "id": "close",
+        "title": "Later cash close and sector coverage",
+        "publisher": "Reuters via Euronext",
+        "url": "https://live.euronext.com/en/financial-news/ftse-100-gains-oil-copper-lift-energy-and-miners",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T09:03:12Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Alliance News reported FTSE 100 +0.8% at 10,833.16, with FTSE 250 +0.6% in its opening report. It also reported CAC 40 +0.7% and DAX +1.0% in morning snapshots, not necessarily simultaneous opening prints.",
+        "kind": "fact",
+        "source_ids": [
+          "open"
+        ]
+      },
+      {
+        "text": "The separately covered FTSE 100 close was 10,835.47; it was not known at the opening.",
+        "kind": "fact",
+        "source_ids": [
+          "close"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reported gains in ICG and Spirax and concurrent European equity strength support some participation beyond a single name.",
+        "transmission": "Compare rates, currencies and non-technology participation across desks before attributing a broad move.",
+        "confidence": "inference",
+        "alternatives": "Lower German inflation, domestic corporate news and commodity moves can affect separate parts of the market; no causal contribution or synchronized sector panel was established.",
+        "source_ids": [
+          "open"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms",
+        "outcome": "Participation supports the cross-market read.",
+        "trigger": "Both UK midcaps and large caps hold gains alongside broader participation.",
+        "invalidation": "Opening gains fade or concentrate in a few names.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "open"
+        ]
+      },
+      {
+        "name": "Breadth does not confirm",
+        "outcome": "The initial signal is weaker or more concentrated.",
+        "trigger": "Opening gains fade or concentrate in a few names.",
+        "invalidation": "Both UK midcaps and large caps hold gains alongside broader participation.",
+        "horizon": "12–13 November 2026",
+        "source_ids": [
+          "open"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Use the separately recorded 11 November London close to check follow-through, then compare 12 November domestic and international exposures.",
+        "due_at": "2026-11-12T16:50:00Z",
+        "confirms": "Both UK midcaps and large caps hold gains alongside broader participation.",
+        "contradicts": "Opening gains fade or concentrate in a few names.",
+        "source_ids": [
+          "open"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T09:03:12Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-11",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Alliance News reported the 11 November FTSE 100 opened at 10,833.16 (+0.8%). The report was published at 09:01 London time; this is later retrieval of dated opening coverage.",
+        "indicators": "Alliance News reported FTSE 100 +0.8% at 10,833.16, with FTSE 250 +0.6% in its opening report. It also reported CAC 40 +0.7% and DAX +1.0% in morning snapshots, not necessarily simultaneous opening prints.",
+        "source_ids": [
+          "open"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish chip and software breadth.",
+          "watchpoint": "Check chip and software breadth at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish telecom versus platform participation.",
+          "watchpoint": "Check telecom versus platform participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish retail and rate-sensitive demand.",
+          "watchpoint": "Check retail and rate-sensitive demand at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish pricing and input costs.",
+          "watchpoint": "Check pricing and input costs at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish crude and energy equity participation.",
+          "watchpoint": "Check crude and energy equity participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Alliance News named ICG as an early contributor, not a sector return.",
+          "implication": "The benchmark alone does not establish bank breadth and credit.",
+          "watchpoint": "Check bank breadth and credit at the next comparable observation.",
+          "source_ids": [
+            "open"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish healthcare provider and pharma participation.",
+          "watchpoint": "Check healthcare provider and pharma participation at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Alliance News named Spirax as an early contributor, not a sector return.",
+          "implication": "The benchmark alone does not establish orders and freight proxies.",
+          "watchpoint": "Check orders and freight proxies at the next comparable observation.",
+          "source_ids": [
+            "open"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish metal prices versus miner breadth.",
+          "watchpoint": "Check metal prices versus miner breadth at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish listed property and yields.",
+          "watchpoint": "Check listed property and yields at the next comparable observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified comparable sector observation for this window.",
+          "implication": "The benchmark alone does not establish utility breadth and rate exposure.",
+          "watchpoint": "Check utility breadth and rate exposure at the next comparable observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "US cash equal-weight breadth and chip participation",
+          "trigger": "US cash weakness stays confined to chips",
+          "invalidation": "Weakness spreads to equal-weight or defensives",
+          "source_ids": [
+            "open"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Asian chip breadth versus local cyclicals",
+          "trigger": "Regional cyclicals hold up as semiconductor selling eases",
+          "invalidation": "Semiconductor weakness spreads to local cyclicals",
+          "source_ids": [
+            "open"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "SGX banks, REITs and electronics breadth",
+          "trigger": "Banks, REITs and electronics participate together",
+          "invalidation": "Weakness spreads beyond electronics",
+          "source_ids": [
+            "open"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-12-singapore-breach-and-scam-watch",
     "title": "Singapore breach disclosures: spot fake calls, refunds and claim messages",
     "summary": "Separate incidents affected some Singapore residents. A real name, booking detail or policy number is not proof that a message is genuine. Use an official number to verify; call ScamShield at 1799 if unsure.",
