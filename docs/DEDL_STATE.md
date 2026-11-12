@@ -68,3 +68,5 @@ World Watch: [NVIDIA governance and valuation](https://devilz13.github.io/daily-
 ## 12 November public safety bulletin — 2026-11-12T06:02:54Z
 
 [Issue 055: Singapore data breach and scam guidance](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/) has its own publication key and uses the existing guarded Telegram route. The accepted Issue 054 is unchanged. Source scope, dates and consumer actions are separated; the bulletin does not claim these incidents share a cause. Verify the exact live marker and delivery receipt before any retry. No session or image delivery was requested in this bulletin.
+
+Issue 055 release recovery: [Pages run 43166459305](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43166459305) failed twice before the Telegram step (artifact first unavailable, then duplicate artifacts on the same run). No send was attempted. Use revision v2 for the fresh guarded deployment. The text is unchanged. Do not retry if acceptance becomes uncertain.
