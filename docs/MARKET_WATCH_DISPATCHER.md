@@ -29,6 +29,12 @@ For each real due window preserve the full existing format: all 11 sectors with 
 
 Run tests, build, link/artifact checks, immutable-base history and diff checks; review facts/privacy separately. Commit one coherent batch with an expected-head lease. On head movement, reconcile and re-deduplicate; never force push. Verify the actual Pages run and exact live report, not merely task completion. Session-only and maintenance work does not change `issues.json` or daily delivery revisions. Maintenance sends nothing.
 
+### Unattended publication
+
+Use the connected repository's existing write authorization. Prefer a single Git Trees request with each validated text file supplied inline, based on the exact tree of the current default-branch commit. This needs no separate blob-creation calls and keeps the issue, structured reports and handoff atomic. Use the exact local file bytes from the validated checkout. Compare the returned tree entries' hashes with local Git hashes before creating the commit. Re-read the branch and update it only as a non-forced fast-forward against the expected head. If the head moved, reconcile and deduplicate from the new head. Check the resulting Pages run, exact live pages, and any guarded receipts.
+
+A normal non-interactive Git push is an alternative only where the execution environment already has authorized repository write credentials and an approved route. Neither path grants or bypasses permissions. If the active route is denied, preserve the validated changes, report the exact failed stage, and do not try another route to evade a write denial. Do not substitute one-file writes for a multi-file release.
+
 ## Market session Telegram delivery
 
 Eligible new session reports and the daily evening global watch use the existing Pages workflow and destination. Successful Pages deployment and the exact live report marker are required. The existing workflow can wait for the target inside the due hour; no Telegram call occurs before the target. If it misses the minute but is still before cash opens (or within an hour after a close-summary or evening target), explicitly label the delay. After the window closes retain a sourced catch-up on the web. Weekends and closures never justify a fictional cash print. For a verified half-day or changed anchor, publish the exact cash time and a cited primary exchange source in `market_read.telegram_clock` (`cash_at`, `source_id`). The normal 08:00 Singapore pre-open Telegram is the daily edition; keep a separate reviewed web session report when due.
