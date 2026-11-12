@@ -2,8 +2,90 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-09",
+  "latest": "2026-11-12",
   "issues": [
+    {
+      "date": "2026-11-12",
+      "number": 54,
+      "title": "Wall Street rallied. NVIDIA reversed after the bell.",
+      "status": "data incomplete",
+      "path": "issues/2026/11/12/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-12-v1",
+        "delivery_notice": "Delayed edition: evidence reviewed 13:33:56 SGT. The 11 November catch-up is in the web archive.",
+        "summary": "US stocks rallied, then NVIDIA fell 8.6% in extended trading after reports of a board meeting. An investigation is confirmed; no board decision or export breach was verified at review. Singapore cyber and Gulf shipping risks have separate evidence.",
+        "headlines": [
+          {
+            "title": "NVIDIA board review and cash/after-hours split",
+            "date": "11–12 Nov 2026",
+            "context": "US$173.73 cash close; US$158.76 at 19:59 EST. The reported board deliberations did not establish a decision.",
+            "source": "https://www.reuters.com/technology/nvidia-is-preparing-oust-ceo-jensen-huang-wsj-reports-2026-11-11/"
+          },
+          {
+            "title": "Gulf navigation damage remains unverified",
+            "date": "10–11 Nov 2026",
+            "context": "Reuters reported an attack; extent and Singapore shipping, insurance or fuel effects remain unverified.",
+            "source": "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/"
+          },
+          {
+            "title": "Singapore health operator discloses data incident",
+            "date": "31 Oct–11 Nov 2026",
+            "context": "Fullerton Health says care services remained operational; notification scope remains a watchpoint.",
+            "source": "https://www.fullertonhealth.com/sg/data-security-incident-affecting-the-migrant-workers-primary-care-plan-pcp-portal/"
+          }
+        ],
+        "market_note": "Five market groups: DATA INCOMPLETE. Forex: Reuters reported USD/JPY 159.83 in Asian hours; no matched SGD panel or verified bank orders. Watch UK GDP at 15:00 SGT. Market image unavailable.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "number": 53,
+      "title": "Firm US inflation, a weaker Wall Street and a Singapore rebound",
+      "status": "data incomplete",
+      "path": "issues/2026/11/11/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-11-v1",
+        "delivery_notice": "Historical catch-up prepared on 12 November; 11 November was not published on time.",
+        "summary": "October US inflation stayed firm and US stocks fell in the 10 November cash session. Singapore’s STI gained on 11 November. NVIDIA export scrutiny and a local cyber incident are distinct developments.",
+        "headlines": [
+          {
+            "title": "October US CPI rose 0.4% month on month",
+            "date": "10 Nov 2026",
+            "context": "Core rose 0.3%. The release lacks an October year-on-year comparison.",
+            "source": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+          },
+          {
+            "title": "NVIDIA’s export scrutiny deepens",
+            "date": "10–11 Nov 2026",
+            "context": "The board inquiry is confirmed. Reported shipment facilitation and a security compromise are unproven.",
+            "source": "https://live.euronext.com/en/financial-news/nvidia-faces-deepening-scrutiny-over-china-chip-ties-ceo-affair"
+          },
+          {
+            "title": "Singapore health operator discloses data incident",
+            "date": "9–11 Nov 2026",
+            "context": "The operator reported affected programme data and continuing care services.",
+            "source": "https://www.fullertonhealth.com/sg/data-security-incident-affecting-the-migrant-workers-primary-care-plan-pcp-portal/"
+          }
+        ],
+        "market_note": "Five market groups: DATA INCOMPLETE. No verified major-pair/SGD snapshot for this catch-up. Watch UK GDP on 12 November.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-09",
       "number": 52,
