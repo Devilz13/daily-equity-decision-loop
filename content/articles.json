@@ -1,5 +1,548 @@
 [
   {
+    "id": "2026-11-12-europe-close",
+    "title": "London close: FTSE gains as earnings support selected shares",
+    "summary": "The FTSE 100 closed up 0.25% at 10,863.09 on 12 November. UK third-quarter GDP grew an estimated 0.7% and Rolls-Royce gained 2.01% after a buyback announcement. Continental figures below are intraday, and comparable sector breadth was not verified. Watch Friday participation and US producer prices at 21:30 SGT.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-12T17:24:50Z",
+    "updated_at": "2026-11-12T17:24:50Z",
+    "cutoff_at": "2026-11-12T17:24:50Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Exchange business days and exceptions",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "hours",
+        "title": "London regular cash hours",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/faqs/personal-investing?lang=en",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "cash",
+        "title": "12 November FTSE 100 and Rolls-Royce cash close",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/data-news/rolls-royce-holdings-rallies-thursday-outperforms-market-8b991fcd-be793f0945d6",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "check",
+        "title": "12 November FTSE 100 cross-check",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/data-news/anglo-american-falls-thursday-underperforms-market-e41b3633-2418ef3442a0",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "uk",
+        "title": "11:31 GMT London sector observations",
+        "publisher": "Reuters via MarketScreener",
+        "url": "https://www.marketscreener.com/news/ftse-100-rises-on-strong-earnings-healthcare-industrials-lead-ce785ed8dd81f724",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "eu",
+        "title": "09:26 GMT continental benchmarks and earnings context",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "gdp",
+        "title": "UK first quarterly GDP estimate for July to September 2026",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/julytoseptember2026/pdf",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "rr",
+        "title": "Trading update and interim repurchase announcement",
+        "publisher": "Rolls-Royce",
+        "url": "https://www.rolls-royce.com/media/press-releases/2026/12-11-2026-rr-holdings-plc-trading-update.aspx",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "bur",
+        "title": "Burberry close, 12 November",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/data-news/burberry-group-rises-thursday-outperforms-market-a0a81fd4-2d1cb4e91877",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "staples",
+        "title": "British American Tobacco close, 12 November",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/data-news/british-american-tobacco-climbs-thursday-outperforms-market-44ae9705-571afb858019",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "prop",
+        "title": "Land Securities close, 12 November",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/data-news/land-securities-group-advances-thursday-outperforms-market-5f054bff-1307ade4c125",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "nv",
+        "title": "Board announcement of CEO transition",
+        "publisher": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "edge",
+        "title": "Leadership announcement reported at 22:03 SGT",
+        "publisher": "The Edge Singapore",
+        "url": "https://www.theedgesingapore.com/news/tech/nvidias-jensen-huang-resigns-cfo-colette-kress-serve-interim-ceo",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "ppi",
+        "title": "November 2026 release schedule",
+        "publisher": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The FTSE 100 closed at 10,863.09, up 0.25%, in the cited post-close reports. This is a London cash close, not a synchronized European closing panel.",
+        "kind": "fact",
+        "source_ids": [
+          "cash",
+          "check"
+        ]
+      },
+      {
+        "text": "ONS estimates UK real GDP grew 0.7% in July–September, following 0.5% in April–June; September GDP rose 0.2% month-on-month. The quarter estimate is preliminary.",
+        "kind": "fact",
+        "source_ids": [
+          "gdp"
+        ]
+      },
+      {
+        "text": "Rolls-Royce reaffirmed its annual guidance and announced a £1.5 billion interim buyback within its existing programme; its shares closed up 2.01%.",
+        "kind": "fact",
+        "source_ids": [
+          "rr",
+          "cash"
+        ]
+      },
+      {
+        "text": "Reuters reported STOXX 600 at 665.61, up 0.4%, at 09:26 GMT. This was intraday.",
+        "kind": "fact",
+        "source_ids": [
+          "eu"
+        ]
+      },
+      {
+        "text": "NVIDIA confirmed Jensen Huang resigned as president, CEO and director and named Colette Kress interim CEO while retaining her CFO role. This is distinct from earlier unverified leadership reports.",
+        "kind": "fact",
+        "source_ids": [
+          "nv",
+          "edge"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The UK rise is consistent with selected earnings and buyback support. The Rolls-Royce close and morning healthcare observations show separate contributors.",
+        "transmission": "Compare cash breadth with rates and sterling before interpreting the move as durable across desks.",
+        "confidence": "inference",
+        "alternatives": "Preliminary GDP, index weights and a weaker mining name can coexist; the data do not isolate a single driver or establish a broad rotation.",
+        "source_ids": [
+          "cash",
+          "check",
+          "uk",
+          "gdp",
+          "rr"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Participation broadens",
+        "trigger": "UK gainers expand beyond selected healthcare and industrial names at the next comparable cash read.",
+        "invalidation": "Index gains persist but breadth stays narrow or reverses.",
+        "outcome": "Participation broadens",
+        "horizon": "Next comparable cash session and dated catalysts",
+        "source_ids": [
+          "uk",
+          "cash"
+        ]
+      },
+      {
+        "name": "Rates or earnings pressure broadens",
+        "trigger": "US PPI and same-time yields accompany weaker cash breadth across cyclical and rate-sensitive groups.",
+        "invalidation": "Yields ease and weakness remains isolated to individual names.",
+        "outcome": "Rates or earnings pressure broadens",
+        "horizon": "Next comparable cash session and dated catalysts",
+        "source_ids": [
+          "ppi",
+          "cash"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check London opening breadth and whether the selected gains hold beyond individual companies.",
+        "due_at": "2026-11-13T08:00:00Z",
+        "confirms": "Several sectors participate in the same cash window.",
+        "contradicts": "A small set of index weights masks weak participation.",
+        "source_ids": [
+          "lse",
+          "cash"
+        ]
+      },
+      {
+        "signal": "October US producer prices, 08:30 EST / 21:30 SGT on 13 November.",
+        "due_at": "2026-11-13T13:30:00Z",
+        "confirms": "The release, yields and risk breadth point in the same direction.",
+        "contradicts": "Yields and cross-market breadth do not corroborate the price response.",
+        "source_ids": [
+          "ppi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T17:24:50Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-12",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "The FTSE 100 rose modestly, with divergent constituent moves; UK cash breadth and matched volatility are not verified.",
+        "indicators": "London benchmark close and dated constituent moves. The continental benchmark observation is intraday.",
+        "source_ids": [
+          "cash",
+          "check",
+          "eu"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No comparable verified London or European sector observation at this cutoff.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable verified London or European sector observation at this cutoff.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Burberry rose 8.01% at the close; one luxury company.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": [
+            "bur"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "British American Tobacco rose 1.25% at the close; one constituent.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": [
+            "staples"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable verified London or European sector observation at this cutoff.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No comparable verified London or European sector observation at this cutoff.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Reuters reported AstraZeneca and GSK higher at the morning observation; no synchronized sector close.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": [
+            "uk"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Rolls-Royce rose 2.01% at the close; one constituent.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": [
+            "rr",
+            "cash"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "Anglo American fell 1.95% at the close; no broad miners return inferred.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": [
+            "check"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Land Securities gained 2.13% at the close; one property company.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": [
+            "prop"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable verified London or European sector observation at this cutoff.",
+          "implication": "Do not extrapolate the benchmark to this sector.",
+          "watchpoint": "Compare next-session breadth using matched cash observations.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "Test whether rates and US equal-weight equities support a broad move after PPI.",
+          "trigger": "Cash breadth confirms the yield and index direction.",
+          "invalidation": "The move stays concentrated in a few stocks.",
+          "source_ids": [
+            "ppi",
+            "cash"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Compare semiconductor breadth with domestic shares after the NVIDIA leadership announcement.",
+          "trigger": "Pressure spreads beyond chip shares into local cyclicals.",
+          "invalidation": "Local banks and cyclicals hold while technology diverges.",
+          "source_ids": [
+            "nv",
+            "eu"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Check SGX electronics, banks and REITs against US yields and Asia breadth.",
+          "trigger": "Weakness broadens across SGX electronics and domestic groups.",
+          "invalidation": "Domestic groups stabilize and technology stays isolated.",
+          "source_ids": [
+            "nv",
+            "ppi"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-12-nvidia-ceo-transition",
+    "title": "NVIDIA confirms CEO transition; Kress takes interim role",
+    "summary": "NVIDIA confirmed Jensen Huang resigned effective immediately and appointed Colette Kress interim CEO while retaining her CFO duties. The company also appointed Harvey C. Jones chair and began a permanent CEO search. No new financial guidance or operational disruption is established by the announcement.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "us",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-12T17:24:50Z",
+    "updated_at": "2026-11-12T17:24:50Z",
+    "cutoff_at": "2026-11-12T17:24:50Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nv",
+        "title": "Board announcement of CEO transition",
+        "publisher": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "edge",
+        "title": "Leadership announcement reported at 22:03 SGT",
+        "publisher": "The Edge Singapore",
+        "url": "https://www.theedgesingapore.com/news/tech/nvidias-jensen-huang-resigns-cfo-colette-kress-serve-interim-ceo",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      },
+      {
+        "id": "nve",
+        "title": "Fiscal Q3 earnings call schedule",
+        "publisher": "NVIDIA Newsroom",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-12T17:24:50Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NVIDIA confirmed Huang resigned from the presidency, CEO role and board, effective immediately. Kress serves as interim CEO and remains CFO; Harvey C. Jones became chair.",
+        "kind": "fact",
+        "source_ids": [
+          "nv",
+          "edge"
+        ]
+      },
+      {
+        "text": "NVIDIA maintained the previously scheduled 17 November earnings release and call, approximately 18 November 05:20 and 06:00 SGT respectively.",
+        "kind": "fact",
+        "source_ids": [
+          "nv",
+          "nve"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A leadership transition can alter risk perceptions around roadmap, contracting and policy communication.",
+        "transmission": "Monitor customer commitments, Asian supplier statements and dated Singapore exposure disclosures.",
+        "confidence": "inference",
+        "alternatives": "The company expects continuity. A leadership change alone does not establish a delayed shipment, altered customer contract, or direct Singapore impact.",
+        "source_ids": [
+          "nv",
+          "nve"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Continuity gains support",
+        "trigger": "Earnings materials and independently dated partner disclosures corroborate guidance and roadmap commitments.",
+        "invalidation": "The issuer or affected partners confirm changes to shipments or commitments.",
+        "outcome": "Continuity gains support",
+        "horizon": "Next comparable cash session and dated catalysts",
+        "source_ids": [
+          "nv",
+          "nve"
+        ]
+      },
+      {
+        "name": "Execution risk increases",
+        "trigger": "Issuer or supplier disclosures identify delivery delays, order changes or revised guidance.",
+        "invalidation": "Verified customer and issuer updates show continuity.",
+        "outcome": "Execution risk increases",
+        "horizon": "Next comparable cash session and dated catalysts",
+        "source_ids": [
+          "nv",
+          "nve"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check fiscal Q3 guidance and any changed supplier or customer commitments on the 17 November US earnings call.",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Issuer or counterparties provide concrete dated operating evidence.",
+        "contradicts": "There are no attributable operating disclosures to substantiate an impact.",
+        "source_ids": [
+          "nv",
+          "nve"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T17:24:50Z"
+    },
+    "material_reason": "Primary company confirmation resolves the previously unconfirmed leadership outcome; the operational effect remains unverified."
+  },
+  {
     "id": "2026-11-12-us-open",
     "title": "US pre-open: chip weakness meets claims and earnings tests",
     "summary": "In Reuters’ 18:32 SGT futures snapshot, Nasdaq-100 futures fell 0.64%, S&P 500 futures fell 0.31% and Dow futures rose 0.12%. NVIDIA was near US$160 in a later premarket report; no official leadership decision was verified. Watch weekly claims at 21:30 SGT, cash breadth from 22:30 and producer prices on 13 November. These are futures and premarket observations, not cash-session returns.",
