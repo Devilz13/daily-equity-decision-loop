@@ -6,6 +6,40 @@
   "issues": [
     {
       "date": "2026-11-12",
+      "number": 55,
+      "title": "Singapore data breach alert: what to do if someone calls or messages you",
+      "status": "public safety bulletin",
+      "path": "issues/2026/11/12/singapore-cyber-alert/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-12-cyber-alert-v1",
+        "summary": "SINGAPORE SCAM ALERT. A caller who knows your name, NRIC or booking details can still be a scammer. Hang up. Call the organisation using your card, bill or official app. Never share a one-time code or Singpass approval. If you sent money or gave banking details, call your bank now. Unsure? Call ScamShield: 1799.",
+        "headlines": [
+          {
+            "title": "M1, SPH Media and Singapore Airlines",
+            "date": "3–10 Nov",
+            "context": "Watch for fake telco bills, subscriptions and flight refunds. Booking details and contact data can make messages sound real. Open the official app yourself.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/#incidents"
+          },
+          {
+            "title": "Insurance, clinics and Dementia Singapore CARA",
+            "date": "24 Oct–11 Nov",
+            "context": "Watch for fake claims, medical bills or caregiver messages. Call your insurer or clinic on a known number. Update CARA only through the official app store.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/#incidents"
+          },
+          {
+            "title": "SATS / Tappee school meal app",
+            "date": "10 Nov",
+            "context": "Some student and guardian details were exposed. Confirm school meal messages with the school office. Don’t pay a top-up requested in a text.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/#incidents"
+          }
+        ],
+        "market_note": "Do not scan a QR code, install an app, or share your screen because a caller asks. Save suspicious messages and ask a trusted person to help you check. If money or banking details are involved, call your bank first, then file a police report. Data exposure does not mean money was stolen.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-12",
       "number": 54,
       "title": "Wall Street rallied. NVIDIA reversed after the bell.",
       "status": "data incomplete",

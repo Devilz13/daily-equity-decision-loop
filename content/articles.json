@@ -1,5 +1,237 @@
 [
   {
+    "id": "2026-11-12-singapore-breach-and-scam-watch",
+    "title": "Singapore breach disclosures: spot fake calls, refunds and claim messages",
+    "summary": "Separate incidents affected some Singapore residents. A real name, booking detail or policy number is not proof that a message is genuine. Use an official number to verify; call ScamShield at 1799 if unsure.",
+    "channel": "cybersecurity",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cyber-frontier",
+      "cybersecurity"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-12T06:02:54Z",
+    "updated_at": "2026-11-12T06:02:54Z",
+    "cutoff_at": "2026-11-12T06:02:54Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "alliance",
+        "title": "Alliance Healthcare Group’s follow-up filing",
+        "publisher": "Alliance Healthcare Group via SGX",
+        "url": "https://links.sgx.com/FileOpen/AHG_Ann_Cyber%20Incident_Update_2026.10.26_Final%20SGX.ashx?App=Announcement&FileID=909237",
+        "type": "primary",
+        "published_at": "2026-10-26",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "insurer",
+        "title": "Reported Alliance Medinet scope and affected insurers",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/alliance-medinet-cyber-incident-hsbc-life-singlife-income-insurance-6489076",
+        "type": "secondary",
+        "published_at": "2026-10-24",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "singlife",
+        "title": "Singlife notice on Alliance Medinet",
+        "publisher": "Singlife",
+        "url": "https://singlife.com/en/about-us/newsroom/2026/alliance-medinet-cyber-incident",
+        "type": "primary",
+        "published_at": "2026-10-24",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "sia",
+        "title": "Singapore Airlines statement reported by CNA",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/sia-singapore-airlines-amadeus-data-breach-booking-records-6517151",
+        "type": "secondary",
+        "published_at": "2026-11-03",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "m1",
+        "title": "M1 data breach disclosure",
+        "publisher": "M1",
+        "url": "https://www.m1.com.sg/about-us/news-releases/2026/m1-discloses-data-breach",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "da",
+        "title": "Doctor Anywhere statement reported by CNA",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/doctor-anywhere-data-breach-6530871",
+        "type": "secondary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "income",
+        "title": "Income Insurance notice on Adept Health",
+        "publisher": "Income Insurance",
+        "url": "https://www.income.com.sg/about-us/corporate-information/advisory/adept-health-cyber-incident",
+        "type": "primary",
+        "published_at": "2026-11-06",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "fh",
+        "title": "Fullerton Health notice",
+        "publisher": "Fullerton Health",
+        "url": "https://www.fullertonhealth.com/sg/data-security-incident-affecting-the-migrant-workers-primary-care-plan-pcp-portal/",
+        "type": "primary",
+        "published_at": "2026-11-09",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "sph",
+        "title": "SPH Media’s official statement",
+        "publisher": "SPH Media",
+        "url": "https://www.sph.com.sg/media-centre/media-releases/media-statement-sph-cybersecurity-incident/",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "sats",
+        "title": "SATS statement reported by CNA",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/school-meal-ordering-app-tappee-sats-data-breach-cybersecurity-6539236",
+        "type": "secondary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "minmed",
+        "title": "Minmed statement reported by CNA",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/minmed-cybersecurity-data-breach-healthcare-6542761",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "cara",
+        "title": "Dementia Singapore notice reported by CNA",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/cara-app-dementia-singapore-cybersecurity-incident-6542871",
+        "type": "secondary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "shield",
+        "title": "ScamShield: Call 1799 if unsure",
+        "publisher": "ScamShield",
+        "url": "https://www.scamshield.gov.sg/check-for-scams/scamshield-helpline/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      },
+      {
+        "id": "bank",
+        "title": "ScamShield: If you have been scammed",
+        "publisher": "ScamShield",
+        "url": "https://www.scamshield.gov.sg/i-have-been-scammed/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-12T06:02:54Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Alliance Medinet disclosed a membership database incident, with about 110,000 members reported affected. A separate Adept Health / Doctor Anywhere incident was reported in November. Income’s notice for affected policyholders describes possible bank account details, and does not establish that all Doctor Anywhere users had those fields exposed.",
+        "kind": "fact",
+        "source_ids": [
+          "alliance",
+          "insurer",
+          "singlife",
+          "da",
+          "income"
+        ]
+      },
+      {
+        "text": "M1 reported ID and contact data exposure; SPH Media mainly reported email and other contact data. Both said customer account access and banking or card data were not compromised. SIA’s exposure concerned booking data held by Amadeus, not a breach of SIA’s own systems.",
+        "kind": "fact",
+        "source_ids": [
+          "m1",
+          "sph",
+          "sia"
+        ]
+      },
+      {
+        "text": "Fullerton identified a standalone migrant worker care programme incident; Minmed said clinical records were not affected. CARA names and contact details may have been affected, with NRICs excluded according to Dementia Singapore. SATS described exposed student and parent data in Tappee and said school meal provision continued.",
+        "kind": "fact",
+        "source_ids": [
+          "fh",
+          "minmed",
+          "cara",
+          "sats"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Exposed contact, policy or booking details can make a fake caller sound genuine.",
+        "transmission": "An attacker may attempt impersonation, a fake refund or a payment request. A disclosure alone does not establish misuse or a financial loss.",
+        "confidence": "inference",
+        "alternatives": "Real organisations may also notify affected people. Verify separately by calling a known number or opening the app directly.",
+        "source_ids": [
+          "m1",
+          "sia",
+          "shield",
+          "bank"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "A suspicious contact follows a notice",
+        "outcome": "A short pause and independent callback can prevent the disclosure of a code or payment.",
+        "trigger": "Someone uses your personal details to press for a code, login, app installation or payment.",
+        "invalidation": "The organisation independently confirms the notice through its known channel; do not act on the unsolicited contact itself.",
+        "horizon": "From 12 November 2026",
+        "source_ids": [
+          "shield",
+          "bank"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check provider or regulator updates for corrected scope and continuing services.",
+        "due_at": "2026-11-13T00:00:00Z",
+        "confirms": "An original notice documents affected fields or changes to verified controls.",
+        "contradicts": "No operator confirmation or a recycled notice from another incident.",
+        "source_ids": [
+          "m1",
+          "fh",
+          "sph",
+          "alliance"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-12T06:02:54Z"
+    },
+    "material_reason": "A single practical guide connects separate customer exposures to actionable impersonation prevention, including for caregivers."
+  },
+  {
     "lenses": [
       "dedl"
     ],
