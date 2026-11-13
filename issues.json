@@ -5,6 +5,34 @@
   "latest": "2026-11-13",
   "issues": [
     {
+      "date": "2026-11-14",
+      "number": 62,
+      "title": "Microsoft identifies a network upgrade issue and reports broad recovery",
+      "status": "technology service incident",
+      "path": "issues/2026/11/14/microsoft-365-mo1550821-network-upgrade-broad-recovery/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-14-mo1550821-network-upgrade-broad-recovery-v1",
+        "summary": "MICROSOFT 365 · 14 Nov SGT. Microsoft says it fixed the underlying network issue and is seeing broad recovery. It is still restoring service to some customers and regions. Both tracked notices remained open at this check.",
+        "headlines": [
+          {
+            "title": "What went wrong",
+            "date": "14 Nov SGT",
+            "context": "Microsoft traced the incident to a problem introduced during an earlier network capacity upgrade. A more recent network change exposed it.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          },
+          {
+            "title": "How Microsoft is restoring service",
+            "date": "14 Nov SGT",
+            "context": "Microsoft brought services back in stages, checking stability as it went. Some users may still see Outlook access issues or delayed email.",
+            "source": "https://apnews.com/article/e2330e733db280805dbf7e3eb29ee0e1"
+          }
+        ],
+        "market_note": "Microsoft said the issue was technical and unrelated to a cyberattack or AI agents. Its full post-incident report is pending. The next listed status update is 04:00 SGT, not a full-restoration estimate.",
+        "event_updates": []
+      }
+    },
+    {
       "date": "2026-11-13",
       "number": 61,
       "title": "Microsoft 365 outage disrupts some Singapore government email; Singpass operational",
