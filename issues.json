@@ -6,6 +6,34 @@
   "issues": [
     {
       "date": "2026-11-13",
+      "number": 59,
+      "title": "Microsoft 365: some regions are coming back online; outage continues",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-capacity-recovery/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-capacity-recovery-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 13 Nov. Microsoft reported encouraging results from server restarts at 09:48 SGT and said at 10:10 SGT it was adding capacity where regions were coming back online. Full service restoration and a reliable ETA remain unconfirmed.",
+        "headlines": [
+          {
+            "title": "Outlook and Teams: what can still fail",
+            "date": "13 Nov SGT",
+            "context": "Outlook mailbox access and delivery may still be affected. Teams calendar and scheduling can fail; core chat and meetings were reported largely functional.",
+            "source": "https://www.365fanatic.com/m365-status/"
+          },
+          {
+            "title": "Singapore users reported problems",
+            "date": "13 Nov SGT",
+            "context": "CNA cited 250 Singapore Outlook reports at 07:05 SGT. These are self-reports, not a confirmed count of customers affected.",
+            "source": "https://www.channelnewsasia.com/business/microsoft-global-outage-outlook-teams-thousands-users-6547306"
+          }
+        ],
+        "market_note": "Microsoft identified an overloaded secure-connection process. It is testing a fix and rolling back a recent network change; the trigger is not confirmed. For urgent work, use an approved alternate channel and confirm receipt.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
       "number": 58,
       "title": "Microsoft 365 outage: recovery underway, full restoration unconfirmed",
       "status": "technology service incident",
