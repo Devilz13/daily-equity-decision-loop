@@ -2,8 +2,43 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-12",
+  "latest": "2026-11-13",
   "issues": [
+    {
+      "date": "2026-11-13",
+      "number": 57,
+      "title": "Singapore and Asia morning brief: Tokyo chips rebound; STI breadth is the next test",
+      "status": "data incomplete",
+      "path": "issues/2026/11/13/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-13-v1",
+        "delivery_notice": "Delayed 08:00 SGT edition, after the scheduled Tokyo and SGX cash opens. Singapore figures below are from Thursday’s close.",
+        "summary": "Singapore first: STI closed at 5,282.70 (−0.1%) on Thursday, with 338 decliners and 224 gainers. Tokyo’s Nikkei was up 1.1% at 08:13 SGT on Friday, led by chip names. That is an early Japan reading; watch whether SGX banks and regional breadth confirm.",
+        "headlines": [
+          {
+            "title": "Singapore health-sector cyber update",
+            "date": "12 Nov 2026",
+            "context": "MOH says patient care continued. Be wary of unexpected calls and links; verify via the provider’s official number.",
+            "source": "https://www.moh.gov.sg/newsroom/statement-on-recent-cybersecurity-incidents-in-healthcare-sector/"
+          },
+          {
+            "title": "NVIDIA confirms interim leadership",
+            "date": "12 Nov 2026",
+            "context": "CFO Colette Kress is interim CEO. The company announced no new earnings guidance in the transition release.",
+            "source": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/"
+          }
+        ],
+        "market_note": "SGX prior close and Tokyo intraday are separate. US S&P 500 and Nasdaq closed −0.4%. Forex: USD/JPY 159.84 at 08:13 SGT; delayed USD/SGD 1.2870 at 05:19 SGT. No verified bank orders or market image. Watch US PPI at 21:30 SGT. Five market groups: DATA INCOMPLETE.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-12",
       "number": 56,

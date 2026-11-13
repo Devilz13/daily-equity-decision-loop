@@ -1,5 +1,1160 @@
 [
   {
+    "id": "2026-11-13-asia-open-delayed",
+    "title": "Asia opening catch-up: Tokyo chip shares rise early",
+    "summary": "Tokyo cash opened at 08:00 SGT / 09:00 JST. At 08:13 SGT, the Nikkei 225 was 61,494.24 (+1.1%) in a dated secondary snapshot, with chip names among the leaders. This is an early observation, not the opening print or regional breadth.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-13T00:42:09Z",
+    "updated_at": "2026-11-13T00:42:09Z",
+    "cutoff_at": "2026-11-13T00:42:09Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg",
+        "title": "12 November Singapore cash close",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-shares-drop-tandem-regional-bourses-sti-down-0-1",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "jp",
+        "title": "Nikkei intraday update, 08:13 SGT",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-rises-1-1-led-by-chip-stocks-eb2ed881",
+        "type": "secondary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "us",
+        "title": "12 November US index cash closes",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "risk",
+        "title": "12 November US session and cross-asset analysis",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "ppi",
+        "title": "US November release schedule (live register checked 2026-11-13)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "sats",
+        "title": "SATS Q2 FY27 earnings",
+        "publisher": "SATS",
+        "url": "https://www.sats.com.sg/content/dam/sats/corporate/documents/investors/financial-results/11Nov26%20Q2%20FY27%20Press%20Release.pdf.downloadasset.pdf",
+        "type": "primary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "moh",
+        "title": "Statement on recent healthcare cybersecurity incidents",
+        "publisher": "Singapore MOH",
+        "url": "https://www.moh.gov.sg/newsroom/statement-on-recent-cybersecurity-incidents-in-healthcare-sector/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "cpi",
+        "title": "US October CPI",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "ukmto",
+        "title": "Maritime incident register (live register checked 2026-11-13)",
+        "publisher": "UKMTO",
+        "url": "https://www.ukmto.org/recent-incidents",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "jpx",
+        "title": "JPX market holidays (live register checked 2026-11-13)",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "jhours",
+        "title": "Tokyo cash trading hours (live register checked 2026-11-13)",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Tokyo cash opened at 08:00 SGT / 09:00 JST. At 08:13 SGT, the Nikkei 225 was 61,494.24 (+1.1%) in a dated secondary snapshot, with chip names among the leaders. This is an early observation, not the opening print or regional breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "jp",
+          "jpx",
+          "jhours"
+        ]
+      },
+      {
+        "text": "Other Asian cash markets were not independently verified in this read.",
+        "kind": "fact",
+        "source_ids": [
+          "jp"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The early Nikkei move coincided with reported gains in several chip shares.",
+        "transmission": "Check whether subsequent breadth and volume support transmission beyond the identified names.",
+        "confidence": "inference",
+        "alternatives": "Local earnings, rates or rotation can dominate; the quotes alone do not establish causation.",
+        "source_ids": [
+          "jp",
+          "sg",
+          "sats",
+          "us",
+          "risk"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Conditional breadth test",
+        "outcome": "A wider Asian advance requires domestic cyclicals to join chip names.",
+        "trigger": "Non-tech breadth improves after additional cash opens.",
+        "invalidation": "Chip names lead while most domestic shares lag.",
+        "horizon": "13 November cash sessions and US macro release",
+        "source_ids": [
+          "jp",
+          "sg",
+          "us",
+          "ppi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US October PPI at 21:30 SGT / 08:30 EST",
+        "due_at": "2026-11-13T13:30:00Z",
+        "confirms": "A persistent post-release rates and breadth move.",
+        "contradicts": "Rates or breadth fail to confirm.",
+        "source_ids": [
+          "ppi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-13T00:42:09Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-13",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "jhours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Technology strength in one market is narrower than a regional risk-on move.",
+        "indicators": "Dated Japanese index and individual shares; no common breadth, volatility or sector panel.",
+        "source_ids": [
+          "jp"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Japan chip shares rose in the early update; NVIDIA fell in the prior US cash session.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Compare chip breadth and local electronics after more cash trading.",
+          "source_ids": [
+            "jp",
+            "risk"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized platform and telecom returns.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check telecom and platform names independently of chip moves.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable retail or travel basket.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check whether domestic demand offsets fuel or FX pressure.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable staples returns; US CPI is a macro input.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check pricing and margins separately.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Reuters noted rising oil during the US session; no comparable regional equity panel.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check fresh physical shipping notices and whether equity moves follow crude.",
+          "source_ids": [
+            "risk",
+            "ukmto"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "DBS and UOB rose while OCBC declined at the prior SGX close.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check whether banks confirm wider local breadth.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Singapore MOH confirmed recent cyber incidents without reported disruption to patient care.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Monitor notification scope and continuity; sector price impact not established.",
+          "source_ids": [
+            "moh"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "SATS announced S$81.1 million quarterly net profit; the shares rose on 12 November.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check whether other logistics names confirm rather than extrapolating from SATS.",
+          "source_ids": [
+            "sats",
+            "sg"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No matched copper, miners and regional chemical equities panel.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check cross-market participation before attributing a sector move.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "City Developments fell 6.7% at the prior Singapore close; no synchronized REIT basket.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Test whether declines spread to other developers and REITs.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No matched utilities, grid or independent power producer panel.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Look for commissioned capacity and funding rather than announcement size.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Singapore electronics, banks and REITs can diverge from Tokyo and US benchmarks.",
+          "trigger": "Local cash breadth confirms a shared direction.",
+          "invalidation": "Banks and domestic shares offset electronics weakness.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "London exporters and rates-sensitive shares may react to US inflation and USD.",
+          "trigger": "US producer prices and cross-market rates move together.",
+          "invalidation": "Local earnings explain divergence or rates reverse.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "PPI and rates can widen or reverse the prior cash move.",
+          "trigger": "Cash breadth follows the rate move after the release.",
+          "invalidation": "Only selected chip names move while broad breadth stabilizes.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-13-singapore-open-delayed",
+    "title": "Singapore opening context: watch bank breadth and earnings divergence",
+    "summary": "The STI ended 12 November at 5,282.70 (−0.1%); decliners outnumbered gainers 338 to 224. SGX regular cash is scheduled to start at 09:00 SGT; no current cash print is claimed.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-13T00:42:09Z",
+    "updated_at": "2026-11-13T00:42:09Z",
+    "cutoff_at": "2026-11-13T00:42:09Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg",
+        "title": "12 November Singapore cash close",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-shares-drop-tandem-regional-bourses-sti-down-0-1",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "jp",
+        "title": "Nikkei intraday update, 08:13 SGT",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-rises-1-1-led-by-chip-stocks-eb2ed881",
+        "type": "secondary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "us",
+        "title": "12 November US index cash closes",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "risk",
+        "title": "12 November US session and cross-asset analysis",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "ppi",
+        "title": "US November release schedule (live register checked 2026-11-13)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "sats",
+        "title": "SATS Q2 FY27 earnings",
+        "publisher": "SATS",
+        "url": "https://www.sats.com.sg/content/dam/sats/corporate/documents/investors/financial-results/11Nov26%20Q2%20FY27%20Press%20Release.pdf.downloadasset.pdf",
+        "type": "primary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "moh",
+        "title": "Statement on recent healthcare cybersecurity incidents",
+        "publisher": "Singapore MOH",
+        "url": "https://www.moh.gov.sg/newsroom/statement-on-recent-cybersecurity-incidents-in-healthcare-sector/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "cpi",
+        "title": "US October CPI",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "ukmto",
+        "title": "Maritime incident register (live register checked 2026-11-13)",
+        "publisher": "UKMTO",
+        "url": "https://www.ukmto.org/recent-incidents",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX securities trading phases (live register checked 2026-11-13)",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "mom",
+        "title": "2026 Singapore public holidays",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The STI ended 12 November at 5,282.70 (−0.1%); decliners outnumbered gainers 338 to 224. SGX regular cash is scheduled to start at 09:00 SGT; no current cash print is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "sgx",
+          "mom"
+        ]
+      },
+      {
+        "text": "SATS reported S$81.1m quarterly net profit; the STI and its breadth measures are prior-session observations.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "sats"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reported SATS and CDL moves point to earnings and outlook differences in the prior session.",
+        "transmission": "Check whether subsequent breadth and volume support transmission beyond the identified names.",
+        "confidence": "inference",
+        "alternatives": "Local earnings, rates or rotation can dominate; the quotes alone do not establish causation.",
+        "source_ids": [
+          "jp",
+          "sg",
+          "sats",
+          "us",
+          "risk"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Conditional breadth test",
+        "outcome": "Singapore electronics, banks and REITs can diverge from Tokyo and US benchmarks.",
+        "trigger": "Local cash breadth confirms a shared direction.",
+        "invalidation": "Banks and domestic shares offset electronics weakness.",
+        "horizon": "13 November cash sessions and US macro release",
+        "source_ids": [
+          "jp",
+          "sg",
+          "us",
+          "ppi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US October PPI at 21:30 SGT / 08:30 EST",
+        "due_at": "2026-11-13T13:30:00Z",
+        "confirms": "A persistent post-release rates and breadth move.",
+        "contradicts": "Rates or breadth fail to confirm.",
+        "source_ids": [
+          "ppi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-13T00:42:09Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-13",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "The preceding close showed weaker breadth despite mixed banks.",
+        "indicators": "Prior cash advance/decline counts and constituent moves; not Friday direction.",
+        "source_ids": [
+          "sg"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Compare chip breadth and local electronics after more cash trading.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized platform and telecom returns.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check telecom and platform names independently of chip moves.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable retail or travel basket.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check whether domestic demand offsets fuel or FX pressure.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable staples returns; US CPI is a macro input.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check pricing and margins separately.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Reuters noted rising oil during the US session; no comparable regional equity panel.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check fresh physical shipping notices and whether equity moves follow crude.",
+          "source_ids": [
+            "risk",
+            "ukmto"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "DBS and UOB rose while OCBC declined at the prior SGX close.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check whether banks confirm wider local breadth.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Singapore MOH confirmed recent cyber incidents without reported disruption to patient care.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Monitor notification scope and continuity; sector price impact not established.",
+          "source_ids": [
+            "moh"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "SATS announced S$81.1 million quarterly net profit; the shares rose on 12 November.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check whether other logistics names confirm rather than extrapolating from SATS.",
+          "source_ids": [
+            "sats",
+            "sg"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No matched copper, miners and regional chemical equities panel.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check cross-market participation before attributing a sector move.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "City Developments fell 6.7% at the prior Singapore close; no synchronized REIT basket.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Test whether declines spread to other developers and REITs.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No matched utilities, grid or independent power producer panel.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Look for commissioned capacity and funding rather than announcement size.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "A wider Asian advance requires domestic cyclicals to join chip names.",
+          "trigger": "Non-tech breadth improves after additional cash opens.",
+          "invalidation": "Chip names lead while most domestic shares lag.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "London exporters and rates-sensitive shares may react to US inflation and USD.",
+          "trigger": "US producer prices and cross-market rates move together.",
+          "invalidation": "Local earnings explain divergence or rates reverse.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "PPI and rates can widen or reverse the prior cash move.",
+          "trigger": "Cash breadth follows the rate move after the release.",
+          "invalidation": "Only selected chip names move while broad breadth stabilizes.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-12-us-close-delayed",
+    "title": "US close catch-up: small caps lag after a mixed session",
+    "summary": "On 12 November US local time the S&P 500 closed 7,592.40 and Nasdaq Composite 25,366.09, both down 0.4%; Russell 2000 fell 1.7%. NVIDIA fell about 4% for the day in Reuters reporting, after a much larger early decline.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-13T00:42:09Z",
+    "updated_at": "2026-11-13T00:42:09Z",
+    "cutoff_at": "2026-11-13T00:42:09Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sg",
+        "title": "12 November Singapore cash close",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-shares-drop-tandem-regional-bourses-sti-down-0-1",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "jp",
+        "title": "Nikkei intraday update, 08:13 SGT",
+        "publisher": "The Wall Street Journal",
+        "url": "https://www.wsj.com/finance/stocks/nikkei-rises-1-1-led-by-chip-stocks-eb2ed881",
+        "type": "secondary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "us",
+        "title": "12 November US index cash closes",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "risk",
+        "title": "12 November US session and cross-asset analysis",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-12/",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "ppi",
+        "title": "US November release schedule (live register checked 2026-11-13)",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "sats",
+        "title": "SATS Q2 FY27 earnings",
+        "publisher": "SATS",
+        "url": "https://www.sats.com.sg/content/dam/sats/corporate/documents/investors/financial-results/11Nov26%20Q2%20FY27%20Press%20Release.pdf.downloadasset.pdf",
+        "type": "primary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "moh",
+        "title": "Statement on recent healthcare cybersecurity incidents",
+        "publisher": "Singapore MOH",
+        "url": "https://www.moh.gov.sg/newsroom/statement-on-recent-cybersecurity-incidents-in-healthcare-sector/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "cpi",
+        "title": "US October CPI",
+        "publisher": "BLS",
+        "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "ukmto",
+        "title": "Maritime incident register (live register checked 2026-11-13)",
+        "publisher": "UKMTO",
+        "url": "https://www.ukmto.org/recent-incidents",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "nyse",
+        "title": "NYSE hours and 2026 holidays (live register checked 2026-11-13)",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/markets/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "On 12 November US local time the S&P 500 closed 7,592.40 and Nasdaq Composite 25,366.09, both down 0.4%; Russell 2000 fell 1.7%. NVIDIA fell about 4% for the day in Reuters reporting, after a much larger early decline.",
+        "kind": "fact",
+        "source_ids": [
+          "us",
+          "risk"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Leadership uncertainty and stronger oil were contemporaneous with a softer broad US cash close.",
+        "transmission": "Check whether subsequent breadth and volume support transmission beyond the identified names.",
+        "confidence": "inference",
+        "alternatives": "Local earnings, rates or rotation can dominate; the quotes alone do not establish causation.",
+        "source_ids": [
+          "jp",
+          "sg",
+          "sats",
+          "us",
+          "risk"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Conditional breadth test",
+        "outcome": "PPI and rates can widen or reverse the prior cash move.",
+        "trigger": "Cash breadth follows the rate move after the release.",
+        "invalidation": "Only selected chip names move while broad breadth stabilizes.",
+        "horizon": "13 November cash sessions and US macro release",
+        "source_ids": [
+          "jp",
+          "sg",
+          "us",
+          "ppi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US October PPI at 21:30 SGT / 08:30 EST",
+        "due_at": "2026-11-13T13:30:00Z",
+        "confirms": "A persistent post-release rates and breadth move.",
+        "contradicts": "Rates or breadth fail to confirm.",
+        "source_ids": [
+          "ppi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-13T00:42:09Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-12",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "New York Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Small-cap underperformance signals caution outside headline benchmarks; factor and full sector breadth unavailable.",
+        "indicators": "Russell 2000 and broad US index close comparison.",
+        "source_ids": [
+          "us"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "NVIDIA fell about 4% for the US cash session; a matched sector series was not verified.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Compare chip breadth and local electronics after more cash trading.",
+          "source_ids": [
+            "risk"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check telecom and platform names independently of chip moves.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check whether domestic demand offsets fuel or FX pressure.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check pricing and margins separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Reuters noted rising oil during the US session; no comparable regional equity panel.",
+          "implication": "Dated context or individual move; no verified broad desk return.",
+          "watchpoint": "Check fresh physical shipping notices and whether equity moves follow crude.",
+          "source_ids": [
+            "risk",
+            "ukmto"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check whether banks confirm wider local breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Monitor notification scope and continuity; sector price impact not established.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check whether other logistics names confirm rather than extrapolating from SATS.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Check cross-market participation before attributing a sector move.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Test whether declines spread to other developers and REITs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized desk sector return verified.",
+          "implication": "No evidence sufficient for a sector direction.",
+          "watchpoint": "Look for commissioned capacity and funding rather than announcement size.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "A wider Asian advance requires domestic cyclicals to join chip names.",
+          "trigger": "Non-tech breadth improves after additional cash opens.",
+          "invalidation": "Chip names lead while most domestic shares lag.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Singapore electronics, banks and REITs can diverge from Tokyo and US benchmarks.",
+          "trigger": "Local cash breadth confirms a shared direction.",
+          "invalidation": "Banks and domestic shares offset electronics weakness.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "London exporters and rates-sensitive shares may react to US inflation and USD.",
+          "trigger": "US producer prices and cross-market rates move together.",
+          "invalidation": "Local earnings explain divergence or rates reverse.",
+          "source_ids": [
+            "jp",
+            "sg",
+            "us",
+            "ppi"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-13-singapore-healthcare-cyber-follow-up",
+    "title": "Singapore healthcare cyber incidents: what MOH confirmed and what to do",
+    "summary": "MOH confirmed unauthorized access at six healthcare-related entities and said patient care had not been disrupted. AIC separately reported possible employee contact and identity data exposure; patient health record access and a common cause were not established.",
+    "channel": "cybersecurity",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-13T00:42:09Z",
+    "updated_at": "2026-11-13T00:42:09Z",
+    "cutoff_at": "2026-11-13T00:42:09Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "moh",
+        "title": "Statement on recent healthcare cybersecurity incidents",
+        "publisher": "Singapore MOH",
+        "url": "https://www.moh.gov.sg/newsroom/statement-on-recent-cybersecurity-incidents-in-healthcare-sector/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "aic",
+        "title": "AIC exposure scope as reported by CNA",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/aic-cybersecurity-cyber-attack-healthcare-6545671",
+        "type": "secondary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      },
+      {
+        "id": "csa",
+        "title": "Joint advisory on insecure APIs",
+        "publisher": "CSA and PDPC",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-16/",
+        "type": "primary",
+        "published_at": "2026-11-12",
+        "accessed_at": "2026-11-13T00:42:09Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MOH on 12 November named AIC, Alliance Medinet, Doctor Anywhere Group, Fullerton Health Group, Minmed Group and Dementia Singapore’s CARA app. It said care continued and it knew of no unauthorized access to patient health records at that point.",
+        "kind": "fact",
+        "source_ids": [
+          "moh"
+        ]
+      },
+      {
+        "text": "CNA quoted AIC on 12 November: a 10 November detection concerned up to 4,064 healthcare or community care employees, and names, telephone numbers, email and NRIC data may have been accessed. This was potential exposure, not a confirmed total.",
+        "kind": "fact",
+        "source_ids": [
+          "aic"
+        ]
+      },
+      {
+        "text": "A separate CSA and PDPC warning covers insecure APIs; it does not establish the cause of the six incidents.",
+        "kind": "fact",
+        "source_ids": [
+          "csa",
+          "moh"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Contact and identity data could support convincing impersonation if accessed.",
+        "transmission": "Verify unexpected calls or messages via the provider’s official number. Never disclose OTPs or approve unexpected Singpass requests; contact your bank promptly if you shared banking details. ScamShield 1799 can help verify a suspected scam.",
+        "confidence": "inference",
+        "alternatives": "No confirmed misuse, common attacker or patient-care disruption was established by the cited notices.",
+        "source_ids": [
+          "moh",
+          "aic"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Conditional phishing risk",
+        "outcome": "Leaked data could make targeted messages more convincing.",
+        "trigger": "A provider or regulator confirms broader exposure or verified follow-on scams.",
+        "invalidation": "Updated notices narrow exposure or confirm no access to the relevant data.",
+        "horizon": "Next operator or regulator notice",
+        "source_ids": [
+          "moh",
+          "aic"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check notification scope and continuity during the 13 November evening review.",
+        "due_at": "2026-11-13T11:00:00Z",
+        "confirms": "Updated operator or regulator findings.",
+        "contradicts": "No further corroboration; do not treat this as clearance.",
+        "source_ids": [
+          "moh",
+          "aic"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-13T00:42:09Z"
+    },
+    "material_reason": "New official cross-provider statement and newly disclosed potential AIC employee exposure with actionable consumer guidance."
+  },
+  {
     "id": "2026-11-12-europe-close",
     "title": "London close: FTSE gains as earnings support selected shares",
     "summary": "The FTSE 100 closed up 0.25% at 10,863.09 on 12 November. UK third-quarter GDP grew an estimated 0.7% and Rolls-Royce gained 2.01% after a buyback announcement. Continental figures below are intraday, and comparable sector breadth was not verified. Watch Friday participation and US producer prices at 21:30 SGT.",
