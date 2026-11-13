@@ -6,6 +6,34 @@
   "issues": [
     {
       "date": "2026-11-13",
+      "number": 58,
+      "title": "Microsoft 365 outage: recovery underway, full restoration unconfirmed",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-initial/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-initial-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 10:02 SGT, 13 Nov. Outlook/Exchange Online and Teams are among the affected services. Microsoft is bringing servers back and rerouting traffic, but full restoration has not been verified. Incident: MO1550821; Exchange Online: EX1550543.",
+        "headlines": [
+          {
+            "title": "What users may notice",
+            "date": "13 Nov SGT",
+            "context": "Mail, Teams or some SharePoint and Copilot functions may fail or load slowly. Scope varies by service and user.",
+            "source": "https://thersac.icts.thers.ac.jp/hc/en-us/articles/64262985209881-November-13-2026-Microsoft-365-Outage-MO1550821"
+          },
+          {
+            "title": "What Microsoft is investigating",
+            "date": "13 Nov SGT",
+            "context": "A server process was overwhelmed and some servers stopped responding. Microsoft is testing recovery and rollback; the root cause is not confirmed.",
+            "source": "https://statusstack.com/service/outlookcom/incidents/01a1d207-a173-7635-8a7b-60ca3c9e5d63"
+          }
+        ],
+        "market_note": "For urgent work, use an approved alternate channel and confirm receipt. Check your IT team or Microsoft’s status page. This is a service outage bulletin. A cyberattack or specific Singapore outage has not been established.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
       "number": 57,
       "title": "Singapore and Asia morning brief: Tokyo chips rebound; STI breadth is the next test",
       "status": "data incomplete",
