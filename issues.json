@@ -6,6 +6,34 @@
   "issues": [
     {
       "date": "2026-11-13",
+      "number": 60,
+      "title": "Microsoft 365 outage continues after recovery changes fall short",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-routing-setback/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-routing-setback-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 13 Nov. Microsoft says changes intended to improve service did not work as expected. It is investigating persistent traffic imbalances and reviewing alternate routing and ways to add capacity. Full restoration and an ETA remain unconfirmed.",
+        "headlines": [
+          {
+            "title": "Outlook problems persisted at 11:00 SGT",
+            "date": "13 Nov SGT",
+            "context": "Independent monitoring found widespread connection timeouts and continuing packet loss inside Microsoft’s network.",
+            "source": "https://www.thousandeyes.com/blog/microsoft-365-outage-analysis-november-12-2026"
+          },
+          {
+            "title": "Exchange Online is still degraded",
+            "date": "13 Nov SGT",
+            "context": "The public mirror of Microsoft’s Exchange notice still lists EX1550543 as degraded. Microsoft said it saw no indication of malicious activity.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          }
+        ],
+        "market_note": "For urgent work, use an alternate channel your organisation approves and confirm receipt. Microsoft listed a further Exchange status update by 12:30 SGT; that is not a restoration estimate.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
       "number": 59,
       "title": "Microsoft 365: some regions are coming back online; outage continues",
       "status": "technology service incident",
