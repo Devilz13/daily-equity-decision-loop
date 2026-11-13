@@ -6,6 +6,34 @@
   "issues": [
     {
       "date": "2026-11-13",
+      "number": 61,
+      "title": "Microsoft 365 outage disrupts some Singapore government email; Singpass operational",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-singapore-government-email/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-singapore-government-email-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 13 Nov. GovTech says some Singapore government email services are affected. Singpass and emergency services are operational. Email replies may be delayed; for urgent requests, use the agency’s official call centre or another listed channel.",
+        "headlines": [
+          {
+            "title": "Singapore Courts and IRAS alternatives",
+            "date": "13 Nov SGT",
+            "context": "Online court filing remains available. IRAS directs taxpayers to Live Chat or myTax Mail through myTax Portal if email fails.",
+            "source": "https://www.straitstimes.com/singapore/some-spore-govt-systems-affected-by-microsoft-outage-no-impact-on-singpass-govtech"
+          },
+          {
+            "title": "Microsoft still working on recovery",
+            "date": "13 Nov SGT",
+            "context": "Routing changes brought temporary improvement. Microsoft is investigating a surge in internal requests during mitigation. No all-clear or recovery ETA.",
+            "source": "https://www.365fanatic.com/m365-status/"
+          }
+        ],
+        "market_note": "Open agency websites directly for contact details. Singpass shows normal service on its own status page. Microsoft has not confirmed the underlying trigger or full restoration.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
       "number": 60,
       "title": "Microsoft 365 outage continues after recovery changes fall short",
       "status": "technology service incident",
