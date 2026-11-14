@@ -6,6 +6,34 @@
   "issues": [
     {
       "date": "2026-11-14",
+      "number": 63,
+      "title": "Microsoft marks the Microsoft 365 and Exchange Online disruption resolved",
+      "status": "technology service incident",
+      "path": "issues/2026/11/14/microsoft-365-mo1550821-resolved/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-14-mo1550821-resolved-v1",
+        "summary": "MICROSOFT 365 · 14 Nov SGT. Microsoft marked Exchange Online restored at 12:15 and Microsoft 365 at 12:17. The vendor lists an impact end of 00:10 SGT for Exchange, but its Microsoft 365 notice contains conflicting end times.",
+        "headlines": [
+          {
+            "title": "What caused the disruption",
+            "date": "14 Nov SGT",
+            "context": "Microsoft says a later network change exposed a problem from an earlier capacity upgrade. It says the incident was unrelated to cyber activity or AI agents.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          },
+          {
+            "title": "What recovery looked like",
+            "date": "13–14 Nov SGT",
+            "context": "Microsoft restored capacity in stages and monitored delayed mail. The closing notices do not give an exact time when all queued mail cleared.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          }
+        ],
+        "market_note": "The cause is preliminary. Microsoft says it plans a preliminary post-incident report within two business days and a final report within five. If an urgent message is still missing, verify delivery via an approved alternate channel.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-14",
       "number": 62,
       "title": "Microsoft identifies a network upgrade issue and reports broad recovery",
       "status": "technology service incident",
