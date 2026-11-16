@@ -1,5 +1,788 @@
 [
   {
+    "id": "2026-11-16-europe-open",
+    "title": "London pre-open: chip weakness tests Friday’s FTSE resilience",
+    "summary": "London’s regular cash open is 16:00 SGT (08:00 GMT). The FTSE 100 gained 0.36% on Friday, while the Nasdaq lost 0.91%. Monday’s early Asian chip weakness raises a test for London breadth; no Monday London cash or futures quote was verified.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-16T06:05:53Z",
+    "updated_at": "2026-11-16T06:05:53Z",
+    "cutoff_at": "2026-11-16T06:05:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Trading business days",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      },
+      {
+        "id": "hlb",
+        "title": "16 November market highlights; Friday close figures",
+        "publisher": "Hong Leong Bank",
+        "url": "https://www.hlb.com.my/content/dam/hlb/my/docs/pdf/Global_Markets/daily-market-watch/2026/16-11-2026.pdf",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      },
+      {
+        "id": "edge",
+        "title": "16 November 02:38 GMT snapshot",
+        "publisher": "The Edge for Economic Consultancy",
+        "url": "https://edgeconsultancykw.com/asia-market-wrap-16-november-2026/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      },
+      {
+        "id": "ons",
+        "title": "October consumer price inflation release calendar",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London’s regular cash open is 16:00 SGT (08:00 GMT). The FTSE 100 gained 0.36% on Friday, while the Nasdaq lost 0.91%. Monday’s early Asian chip weakness raises a test for London breadth; no Monday London cash or futures quote was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hlb",
+          "edge",
+          "ons"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Chip weakness could transmit through comparable technology exposures and risk appetite.",
+        "transmission": "Compare same-session benchmark and sector performance before treating the spillover as broad.",
+        "confidence": "inference",
+        "alternatives": "Local currency, rates and sector weights can explain an index divergence even if chip sentiment remains weak.",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Weakness spreads",
+        "outcome": "Broader equity breadth deteriorates.",
+        "trigger": "Chip losses persist and multiple non-tech sectors weaken.",
+        "invalidation": "Comparable non-tech groups hold or strengthen.",
+        "horizon": "Next verified cash-session checkpoint",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      },
+      {
+        "name": "Weakness stays concentrated",
+        "outcome": "Local market performance diverges from chip-heavy peers.",
+        "trigger": "Non-tech groups hold while semiconductor names lag.",
+        "invalidation": "Weakness broadens across financials, industrials and defensives.",
+        "horizon": "Next verified cash-session checkpoint",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "ONS UK CPI, 18 November at 15:00 SGT (07:00 GMT), is the next domestic rate check.",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Dated official release or matched cash-session observations.",
+        "contradicts": "A different release timing or opposite breadth at the verified checkpoint.",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-16T06:05:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-16",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed global cues; no current London breadth verified.",
+        "indicators": "London’s regular cash open is 16:00 SGT (08:00 GMT). The FTSE 100 gained 0.36% on Friday, while the Nasdaq lost 0.91%. Monday’s early Asian chip weakness raises a test for London breadth; no Monday London cash or futures quote was verified.",
+        "source_ids": [
+          "lse",
+          "hlb",
+          "edge",
+          "ons"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized information technology sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish AI demand and valuation sensitivity.",
+          "watchpoint": "Check chip and software participation at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized communication services sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive flows and ad demand.",
+          "watchpoint": "Check telecom and media breadth at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized consumer discretionary sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish consumer demand and financing costs.",
+          "watchpoint": "Check retail and travel participation at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized consumer staples sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive rotation.",
+          "watchpoint": "Check staples versus the broad index at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized energy sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish commodity and supply sensitivity.",
+          "watchpoint": "Check oil producers alongside dated crude prices at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized financials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish margins, funding costs and credit conditions.",
+          "watchpoint": "Check banks and insurers against yields at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized health care sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive demand and issuer-specific moves.",
+          "watchpoint": "Check pharma and healthcare breadth at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized industrials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish trade and demand sensitivity.",
+          "watchpoint": "Check transport and exporters versus peers at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized materials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish industrial demand.",
+          "watchpoint": "Check miners and chemicals alongside commodities at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized real estate sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish refinancing and duration risk.",
+          "watchpoint": "Check property shares and REITs against local yields at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized utilities sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish duration and defensive demand.",
+          "watchpoint": "Check utility shares alongside yields at the next same-session observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Watch chip-heavy North Asian benchmarks for a repeat of risk reduction.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Watch whether locally listed technology suppliers weaken alongside the STI.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Watch whether Nasdaq and semiconductor breadth confirm the earlier pressure.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-16-asia-open-delayed",
+    "title": "Asia opening catch-up: chip-heavy markets lagged Hong Kong",
+    "summary": "Web-only catch-up. At 10:38 SGT or the latest available print, the Nikkei was down 1.57%, Taiwan’s Taiex down 3.41%, and Hong Kong’s Hang Seng up 0.97%. Tokyo’s figure was the morning-session close; none of these figures is an opening print.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-16T06:05:53Z",
+    "updated_at": "2026-11-16T06:05:53Z",
+    "cutoff_at": "2026-11-16T06:05:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "Tokyo exchange market holidays",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      },
+      {
+        "id": "edge",
+        "title": "16 November 02:38 GMT snapshot",
+        "publisher": "The Edge for Economic Consultancy",
+        "url": "https://edgeconsultancykw.com/asia-market-wrap-16-november-2026/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      },
+      {
+        "id": "hlb",
+        "title": "16 November market highlights; Friday close figures",
+        "publisher": "Hong Leong Bank",
+        "url": "https://www.hlb.com.my/content/dam/hlb/my/docs/pdf/Global_Markets/daily-market-watch/2026/16-11-2026.pdf",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Web-only catch-up. At 10:38 SGT or the latest available print, the Nikkei was down 1.57%, Taiwan’s Taiex down 3.41%, and Hong Kong’s Hang Seng up 0.97%. Tokyo’s figure was the morning-session close; none of these figures is an opening print.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Chip weakness could transmit through comparable technology exposures and risk appetite.",
+        "transmission": "Compare same-session benchmark and sector performance before treating the spillover as broad.",
+        "confidence": "inference",
+        "alternatives": "Local currency, rates and sector weights can explain an index divergence even if chip sentiment remains weak.",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Weakness spreads",
+        "outcome": "Broader equity breadth deteriorates.",
+        "trigger": "Chip losses persist and multiple non-tech sectors weaken.",
+        "invalidation": "Comparable non-tech groups hold or strengthen.",
+        "horizon": "Next verified cash-session checkpoint",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      },
+      {
+        "name": "Weakness stays concentrated",
+        "outcome": "Local market performance diverges from chip-heavy peers.",
+        "trigger": "Non-tech groups hold while semiconductor names lag.",
+        "invalidation": "Weakness broadens across financials, industrials and defensives.",
+        "horizon": "Next verified cash-session checkpoint",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check whether Taiwan and Korea weakness persists into completed cash closes and whether Hong Kong continues to diverge.",
+        "due_at": "2026-11-16T11:00:00Z",
+        "confirms": "Dated official release or matched cash-session observations.",
+        "contradicts": "A different release timing or opposite breadth at the verified checkpoint.",
+        "source_ids": [
+          "edge"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-16T06:05:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-16",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Weak in the chip-heavy markets sampled, with Hong Kong a counterexample.",
+        "indicators": "Web-only catch-up. At 10:38 SGT or the latest available print, the Nikkei was down 1.57%, Taiwan’s Taiex down 3.41%, and Hong Kong’s Hang Seng up 0.97%. Tokyo’s figure was the morning-session close; none of these figures is an opening print.",
+        "source_ids": [
+          "jpx",
+          "edge",
+          "hlb"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized information technology sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish AI demand and valuation sensitivity.",
+          "watchpoint": "Check chip and software participation at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized communication services sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive flows and ad demand.",
+          "watchpoint": "Check telecom and media breadth at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized consumer discretionary sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish consumer demand and financing costs.",
+          "watchpoint": "Check retail and travel participation at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized consumer staples sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive rotation.",
+          "watchpoint": "Check staples versus the broad index at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized energy sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish commodity and supply sensitivity.",
+          "watchpoint": "Check oil producers alongside dated crude prices at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized financials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish margins, funding costs and credit conditions.",
+          "watchpoint": "Check banks and insurers against yields at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized health care sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive demand and issuer-specific moves.",
+          "watchpoint": "Check pharma and healthcare breadth at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized industrials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish trade and demand sensitivity.",
+          "watchpoint": "Check transport and exporters versus peers at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized materials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish industrial demand.",
+          "watchpoint": "Check miners and chemicals alongside commodities at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized real estate sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish refinancing and duration risk.",
+          "watchpoint": "Check property shares and REITs against local yields at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized utilities sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish duration and defensive demand.",
+          "watchpoint": "Check utility shares alongside yields at the next same-session observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "europe",
+          "scenario": "Watch whether the tech signal spreads beyond continental chip names into London breadth.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Watch whether locally listed technology suppliers weaken alongside the STI.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Watch whether Nasdaq and semiconductor breadth confirm the earlier pressure.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-16-singapore-open-delayed",
+    "title": "Singapore opening catch-up: STI eased in morning trade",
+    "summary": "Web-only catch-up. The STI was 5,215.98, down 0.30% versus Friday, at or before 10:38 SGT. This is a morning snapshot, without a verified opening auction price, contribution breakdown, or synchronized REIT panel.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-16T06:05:53Z",
+    "updated_at": "2026-11-16T06:05:53Z",
+    "cutoff_at": "2026-11-16T06:05:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "edge",
+        "title": "16 November 02:38 GMT snapshot",
+        "publisher": "The Edge for Economic Consultancy",
+        "url": "https://edgeconsultancykw.com/asia-market-wrap-16-november-2026/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      },
+      {
+        "id": "hlb",
+        "title": "16 November market highlights; Friday close figures",
+        "publisher": "Hong Leong Bank",
+        "url": "https://www.hlb.com.my/content/dam/hlb/my/docs/pdf/Global_Markets/daily-market-watch/2026/16-11-2026.pdf",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T06:05:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Web-only catch-up. The STI was 5,215.98, down 0.30% versus Friday, at or before 10:38 SGT. This is a morning snapshot, without a verified opening auction price, contribution breakdown, or synchronized REIT panel.",
+        "kind": "fact",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Chip weakness could transmit through comparable technology exposures and risk appetite.",
+        "transmission": "Compare same-session benchmark and sector performance before treating the spillover as broad.",
+        "confidence": "inference",
+        "alternatives": "Local currency, rates and sector weights can explain an index divergence even if chip sentiment remains weak.",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Weakness spreads",
+        "outcome": "Broader equity breadth deteriorates.",
+        "trigger": "Chip losses persist and multiple non-tech sectors weaken.",
+        "invalidation": "Comparable non-tech groups hold or strengthen.",
+        "horizon": "Next verified cash-session checkpoint",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      },
+      {
+        "name": "Weakness stays concentrated",
+        "outcome": "Local market performance diverges from chip-heavy peers.",
+        "trigger": "Non-tech groups hold while semiconductor names lag.",
+        "invalidation": "Weakness broadens across financials, industrials and defensives.",
+        "horizon": "Next verified cash-session checkpoint",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check the STI at trade-at-close and confirm whether the banks and REITs moved together.",
+        "due_at": "2026-11-16T09:16:00Z",
+        "confirms": "Dated official release or matched cash-session observations.",
+        "contradicts": "A different release timing or opposite breadth at the verified checkpoint.",
+        "source_ids": [
+          "edge"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-16T06:05:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-16",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "edge"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Soft index snapshot; insufficient evidence for broad local risk aversion.",
+        "indicators": "Web-only catch-up. The STI was 5,215.98, down 0.30% versus Friday, at or before 10:38 SGT. This is a morning snapshot, without a verified opening auction price, contribution breakdown, or synchronized REIT panel.",
+        "source_ids": [
+          "edge",
+          "hlb"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized information technology sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish AI demand and valuation sensitivity.",
+          "watchpoint": "Check chip and software participation at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized communication services sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive flows and ad demand.",
+          "watchpoint": "Check telecom and media breadth at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized consumer discretionary sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish consumer demand and financing costs.",
+          "watchpoint": "Check retail and travel participation at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized consumer staples sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive rotation.",
+          "watchpoint": "Check staples versus the broad index at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized energy sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish commodity and supply sensitivity.",
+          "watchpoint": "Check oil producers alongside dated crude prices at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized financials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish margins, funding costs and credit conditions.",
+          "watchpoint": "Check banks and insurers against yields at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized health care sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish defensive demand and issuer-specific moves.",
+          "watchpoint": "Check pharma and healthcare breadth at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized industrials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish trade and demand sensitivity.",
+          "watchpoint": "Check transport and exporters versus peers at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized materials sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish industrial demand.",
+          "watchpoint": "Check miners and chemicals alongside commodities at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized real estate sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish refinancing and duration risk.",
+          "watchpoint": "Check property shares and REITs against local yields at the next same-session observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized utilities sector return verified for this desk.",
+          "implication": "The index snapshot cannot establish duration and defensive demand.",
+          "watchpoint": "Check utility shares alongside yields at the next same-session observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Watch chip-heavy North Asian benchmarks for a repeat of risk reduction.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Watch whether the tech signal spreads beyond continental chip names into London breadth.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Watch whether Nasdaq and semiconductor breadth confirm the earlier pressure.",
+          "trigger": "Aligned losses appear in the named market at its own cash checkpoint.",
+          "invalidation": "Local benchmark or related equities diverge despite ongoing chip pressure.",
+          "source_ids": [
+            "edge",
+            "hlb"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-13-asia-open-delayed",
     "title": "Asia opening catch-up: Tokyo chip shares rise early",
     "summary": "Tokyo cash opened at 08:00 SGT / 09:00 JST. At 08:13 SGT, the Nikkei 225 was 61,494.24 (+1.1%) in a dated secondary snapshot, with chip names among the leaders. This is an early observation, not the opening print or regional breadth.",
