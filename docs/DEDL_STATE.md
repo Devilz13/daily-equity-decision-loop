@@ -126,3 +126,9 @@ Prepared separate 16 November Asia and Singapore opening catch-ups using explici
 Base `7b8bb960d94fa64f2250d0d3ddeb0e16c1457396`. Issue 064 live key `64:2026-11-16:2026-11-16-v1` accepted as 69 at 10:43:59 SGT ([run 43793894162](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43793894162)); London pre-open exact page and `europe/2026-11-16/open` receipt 70 at 15:00:01 SGT ([run 43816397480](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43816397480)) reconciled. Do not resend.
 
 Prepared exact keys `singapore/2026-11-16/close`, `asia/2026-11-16/close` and `evening/2026-11-16/brief`. Verify exact Pages markers and all three acceptance refs separately. Singapore target 18:16 SGT; Asia/evening 19:00 SGT. Four exact SEC submission snapshots show June originals as latest retrieved; recheck for September originals after US filing hours. Earlier market/evening gaps remain as above; next fresh key is US pre-open (21:30 SGT), then 16 November London and US cash closes.
+
+## 16 November — US pre-open, evidence 2026-11-16T13:06:00Z
+
+Base `16be57bdf3aeb37fe8ad6458f213bcb288e3bae6`. Issue 064 and London pre-open retain receipts 69/70. The [19:00 close and evening workflow](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43853887882) deployed the exact Singapore close, Asia close and evening watch reports; keys `singapore/2026-11-16/close`, `asia/2026-11-16/close`, and `evening/2026-11-16/brief` were accepted as 71 (19:01:07 SGT, delayed), 72 (19:01:09) and 73 (19:01:12). Do not resend.
+
+US local session 16 November: prepared `us/2026-11-16/open` for 21:30 SGT, with a 22:30 SGT cash-open deadline. Reconcile the exact public marker and accepted ref. No new daily or evening issue. Next fresh due keys: `europe/2026-11-16/close` (17 November 01:30 SGT) and `us/2026-11-16/close` (17 November 06:00 SGT). The six older 13 November windows remain web-only gaps.

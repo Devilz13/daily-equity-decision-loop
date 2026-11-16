@@ -1,5 +1,339 @@
 [
   {
+    "id": "2026-11-16-us-open",
+    "title": "US pre-open: Nasdaq futures lag as chip stocks face another test",
+    "summary": "NYSE cash opens at 22:30 SGT (09:30 EST). Reuters at 19:56 SGT reported S&P 500 futures −0.35%, Nasdaq 100 −0.95%, Dow +0.15%. A later Investopedia dispatch reported S&P futures −0.7% and Nasdaq 100 −1.5%. These are premarket snapshots, not cash returns.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-16T13:06:00Z",
+    "updated_at": "2026-11-16T13:06:00Z",
+    "cutoff_at": "2026-11-16T13:06:00Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "NYSE regular sessions and holiday calendar",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      },
+      {
+        "id": "reut",
+        "title": "16 November US premarket futures and chip names",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      },
+      {
+        "id": "iv",
+        "title": "16 November 12:42 UTC premarket dispatch",
+        "publisher": "Investopedia",
+        "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-16-2026-12252523",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      },
+      {
+        "id": "za",
+        "title": "Asian and Singapore cash closing report",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-tumble-tech-sell-dragging-sti-down-nearly-1",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      },
+      {
+        "id": "nv",
+        "title": "Fiscal Q3 results and call time",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      },
+      {
+        "id": "fed",
+        "title": "November FOMC calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      },
+      {
+        "id": "ons",
+        "title": "October UK CPI release calendar",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T13:06:00Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE cash opens at 22:30 SGT (09:30 EST). Reuters at 19:56 SGT reported S&P 500 futures −0.35%, Nasdaq 100 −0.95%, Dow +0.15%. A later Investopedia dispatch reported S&P futures −0.7% and Nasdaq 100 −1.5%. These are premarket snapshots, not cash returns.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "reut",
+          "iv"
+        ]
+      },
+      {
+        "text": "Asian cash context: Nikkei −2.42%, Kospi −3.59%, STI −0.93%; Hong Kong gained 0.49%. These are local closes reached before US cash trading.",
+        "kind": "fact",
+        "source_ids": [
+          "za"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Premarket selling was pronounced in chips, cloud infrastructure and other AI-linked names ahead of NVIDIA earnings.",
+        "transmission": "Semiconductor weakness can weigh on cap-weighted benchmarks and comparable suppliers abroad.",
+        "confidence": "inference",
+        "alternatives": "Rates, positioning or thin premarket liquidity can also explain the move. The earlier Dow futures gain and Hong Kong close argue against treating this as synchronized global selling.",
+        "source_ids": [
+          "reut",
+          "iv",
+          "za"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Weakness broadens",
+        "outcome": "US cash sector breadth confirms broader risk reduction.",
+        "trigger": "Semiconductor selling persists and losses extend to the equal-weight benchmark, financials and cyclicals.",
+        "invalidation": "Equal-weight shares and non-tech sectors hold up.",
+        "horizon": "First cash hour and US close",
+        "source_ids": [
+          "reut",
+          "nyse"
+        ]
+      },
+      {
+        "name": "Selling stays concentrated",
+        "outcome": "Chip losses weigh on the Nasdaq while other sectors stabilize.",
+        "trigger": "US cash opens with technology weak but non-tech participation steady.",
+        "invalidation": "Non-tech breadth and liquidity deteriorate together.",
+        "horizon": "First cash hour and US close",
+        "source_ids": [
+          "reut",
+          "iv",
+          "nyse"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NYSE cash open: verify cash breadth and chip participation.",
+        "due_at": "2026-11-16T14:30:00Z",
+        "confirms": "Equal-weight and sector returns confirm early breadth.",
+        "contradicts": "Cash prices reverse the earlier futures pattern.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "NVIDIA results around 18 Nov 05:20 SGT; call at 06:00 SGT. Distinguish guidance and order conversion from financing commitments.",
+        "due_at": "2026-11-17T21:20:00Z",
+        "confirms": "Guidance, shipment and customer demand evidence support durable demand.",
+        "contradicts": "Weaker forward guidance or delayed delivery weakens that case.",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "signal": "UK October CPI at 18 Nov 15:00 SGT (07:00 GMT).",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Gilts and sterling respond consistently to the release.",
+        "contradicts": "Muted or divergent pricing weakens the link.",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      {
+        "signal": "FOMC minutes at 19 Nov 03:00 SGT (18 Nov 14:00 EST).",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Repricing is visible in Treasury yields and rate expectations.",
+        "contradicts": "Stable yields with weak chips favors a sector explanation.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-16T13:06:00Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-16",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "New York Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Technology-led pressure in two separate snapshots; broader cash breadth still unknown.",
+        "indicators": "NYSE cash opens at 22:30 SGT (09:30 EST). Reuters at 19:56 SGT reported S&P 500 futures −0.35%, Nasdaq 100 −0.95%, Dow +0.15%. A later Investopedia dispatch reported S&P futures −0.7% and Nasdaq 100 −1.5%. These are premarket snapshots, not cash returns.",
+        "source_ids": [
+          "reut",
+          "iv"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Reuters reported premarket weakness in NVIDIA, AMD, Broadcom and Micron. No cash sector return.",
+          "implication": "Selected issuer quotes are consistent with chip pressure, with uncertain sector breadth.",
+          "watchpoint": "Check semiconductor and software breadth in the first comparable cash window.",
+          "source_ids": [
+            "reut"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check media and telecom breadth in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check retail and autos in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check consumer staples in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check integrated producers against crude in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check banks and insurers against Treasury yields in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check pharma and providers in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check transport and capital goods in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check miners and chemicals in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check REITs against yields in the first comparable cash window.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "Synchronized US cash sector return unavailable before the open.",
+          "implication": "Futures do not establish cash sector breadth.",
+          "watchpoint": "Check utilities against yields in the first comparable cash window.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Watch Asian chip and memory names at the next local cash open.",
+          "trigger": "Local traded names and benchmark breadth confirm the same direction.",
+          "invalidation": "Local relative performance holds or reverses despite US weakness.",
+          "source_ids": [
+            "reut",
+            "za"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Check electronics-exposed names and the STI independently of bank and REIT moves.",
+          "trigger": "Local traded names and benchmark breadth confirm the same direction.",
+          "invalidation": "Local relative performance holds or reverses despite US weakness.",
+          "source_ids": [
+            "reut",
+            "za"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Compare chip and non-tech participation in the remaining European cash session.",
+          "trigger": "Local traded names and benchmark breadth confirm the same direction.",
+          "invalidation": "Local relative performance holds or reverses despite US weakness.",
+          "source_ids": [
+            "reut",
+            "za"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-16-singapore-close",
     "title": "Singapore close: STI loses 0.93% as banks and ST Engineering fall",
     "summary": "STI closed at 5,183.18, down 0.93%. Across SGX, 363 issues fell and 220 rose. ST Engineering fell 6.62% and all three major banks declined, while select REITs rose. These are group and constituent observations, not sector-index returns.",
