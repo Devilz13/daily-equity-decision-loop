@@ -33,6 +33,25 @@ function articleList(articles,prefix) {
 function legacyList(issues,prefix) {
   return `<p class="muted">Existing editions are linked as originally published; their conclusions have not been re-verified or relabelled as fresh reporting.</p><div class="legacy-list">${issues.slice(0,7).map(i=>`<article><time>${esc(i.date)}</time><div>${link(prefix+i.path,`Issue ${i.number} · ${i.title}`)}<small>${esc(i.status)}</small></div></article>`).join('')}</div>`;
 }
+const editionDate=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+const dateLabel=i=>editionDate.format(new Date(`${i.date}T00:00:00Z`));
+const issueLabel=i=>`Issue ${String(i.number).padStart(3,'0')}`;
+const statusLabel=i=>i.status.replace(/^data incomplete/i,'Data incomplete').replace(/^\p{Ll}/u,c=>c.toUpperCase());
+const regularEdition=i=>i.path===`issues/${i.date.replaceAll('-','/')}/`;
+function homePage(html,issues) {
+  const latest=issues.find(regularEdition) ?? issues[0];
+  const featured=`<div data-featured-edition="${esc(latest.path)}">
+        <div class="issue-meta"><span class="chip">${issueLabel(latest)}</span><time class="chip" datetime="${esc(latest.date)}">${dateLabel(latest)}</time><span class="chip">${regularEdition(latest)?'Latest regular edition':'Latest edition'}</span></div>
+        <section class="hero"><h1>${esc(latest.title)}</h1></section>
+        <div class="statusbar"><p>${link(latest.path,'Read the full issue')}</p><span class="chip">${esc(statusLabel(latest))}</span></div>
+      </div>`;
+  const rows=issues.map(i=>`<a class="archive-row" href="${esc(i.path)}"><time class="date" datetime="${esc(i.date)}">${dateLabel(i)}</time><span class="number">${issueLabel(i)}${regularEdition(i)?'':' · Special'}</span><span class="title">${esc(i.title)}</span><span class="state">${esc(statusLabel(i))}</span></a>`).join('\n');
+  for(const [marker,content] of [['<!-- latest-edition -->',featured],['<!-- edition-archive -->',rows]]) {
+    check(html.split(marker).length===2,`Expected one homepage template marker: ${marker}`);
+    html=html.replace(marker,()=>content);
+  }
+  return html;
+}
 const section=(title,body)=>`<section class="editorial-section"><h2>${esc(title)}</h2>${body}</section>`;
 function eveningPanels(a) {
   if(!a.evening_brief)return '';
@@ -85,7 +104,11 @@ export function build(now=new Date()) {
   const promo=validatePromotions(json('content/promotions.json'),now);
   const issues=json('issues.json').issues;
   check(Array.isArray(issues)&&issues.length,'Legacy issue index is empty');
-  for(const i of issues) check(/^issues\/\d{4}\/\d{2}\/[\w-]+\/(?:[\w-]+\/)?$/.test(i.path),'Unsafe legacy issue path');
+  for(const i of issues) {
+    check(/^issues\/\d{4}\/\d{2}\/[\w-]+\/(?:[\w-]+\/)?$/.test(i.path),'Unsafe legacy issue path');
+    check(Number.isInteger(i.number)&&i.number>0&&/^\d{4}-\d{2}-\d{2}$/.test(i.date)&&Number.isFinite(Date.parse(i.date))&&typeof i.title==='string'&&typeof i.status==='string','Invalid legacy issue metadata');
+  }
+  issues.sort((a,b)=>b.date.localeCompare(a.date)||b.number-a.number);
   // Delete only this fixed build directory, never a caller-supplied path.
   check(path.dirname(out)===root && path.basename(out)==='dist','Unsafe build output');
   rmSync(out,{recursive:true,force:true}); mkdirSync(out);
@@ -106,7 +129,7 @@ export function build(now=new Date()) {
     check(!html.includes('data-editorial-shell'),'Do not commit generated output over source editions');
     return html.replace('</head>',`<link rel="stylesheet" href="${prefix}assets/editorial.css"></head>`).replace(/<body([^>]*)>/,`<body$1><div data-editorial-shell class="legacy-editorial-shell"><div class="wrap">${navigation(prefix)}${facets(prefix)}</div></div>`);
   };
-  write('index.html',inject(read('index.html'),''));
+  write('index.html',inject(homePage(read('index.html'),issues),''));
   for(const issue of issues) {
     const p=issue.path+'index.html';check(!lstatSync(path.join(root,p)).isSymbolicLink(),'Issue symlinks forbidden');
     const html=inject(read(p),'../'.repeat(issue.path.split('/').filter(Boolean).length));

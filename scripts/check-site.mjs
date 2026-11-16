@@ -4,6 +4,12 @@ import {check} from './model.mjs';
 const root=path.resolve('dist');
 function walk(dir) {return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);}
 const files=walk(root);const errors=[];
+const homepage=readFileSync(path.join(root,'index.html'),'utf8');
+const issues=JSON.parse(readFileSync(path.join(root,'issues.json'),'utf8')).issues.sort((a,b)=>b.date.localeCompare(a.date)||b.number-a.number);
+const archivePaths=[...homepage.matchAll(/class="archive-row" href="([^"]+)"/g)].map(m=>m[1]);
+check(new Set(archivePaths).size===archivePaths.length&&JSON.stringify(archivePaths)===JSON.stringify(issues.map(i=>i.path)),'Homepage archive must list each indexed edition exactly once, newest first');
+const featured=issues.find(i=>i.path===`issues/${i.date.replaceAll('-','/')}/`)??issues[0];
+check(homepage.includes(`data-featured-edition="${featured.path}"`),'Homepage must feature the latest regular edition');
 for(const file of files.filter(f=>f.endsWith('.html'))) {
   const html=readFileSync(file,'utf8');
   for(const [,raw] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
