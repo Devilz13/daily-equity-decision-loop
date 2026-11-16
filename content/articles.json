@@ -1,5 +1,334 @@
 [
   {
+    "id": "2026-11-16-europe-close",
+    "title": "London post-close: midday blue-chip gains, final prints unverified",
+    "summary": "London’s regular session ended at 16:30 GMT (00:30 SGT on 17 November). At 12:10 GMT, the FTSE 100 was up 0.3% at 10,939.35 and the FTSE 250 down 0.1%, with defence shares firmer. A verified final index print and synchronized closing sector returns were unavailable at cutoff.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-16T17:00:36Z",
+    "updated_at": "2026-11-16T17:00:36Z",
+    "cutoff_at": "2026-11-16T17:00:36Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Exchange business days",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "lseg",
+        "title": "FTSE UK Index Series ground rules: 16:30 closing time",
+        "publisher": "FTSE Russell",
+        "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/ground-rules/ftse-uk-index-series-ground-rules.pdf",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "an",
+        "title": "London midday at 12:10 GMT",
+        "publisher": "Alliance News",
+        "url": "https://shareprices.com/news/london-market-midday-ftse-100-climbs-as-european-stocks-mixed-03qzrjcwf6gs67v/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "uk",
+        "title": "UK defence and miners intraday",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/uks-ftse-100-nears-2-week-high-defence-stocks-offset-mining-weakness-2026-11-16/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "ft",
+        "title": "FTSE series: latest retrieved 11:48 GMT, intraday",
+        "publisher": "Financial Times market data",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "as",
+        "title": "Asia and Singapore cash closes",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-tumble-tech-sell-dragging-sti-down-nearly-1",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "jobs",
+        "title": "UK November labour market release calendar",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releasecalendar?keywords=labour+market&release-type=type-upcoming",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      },
+      {
+        "id": "cpi",
+        "title": "UK October consumer price inflation release",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-16T17:00:36Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London’s regular session ended at 16:30 GMT (00:30 SGT on 17 November). At 12:10 GMT, the FTSE 100 was up 0.3% at 10,939.35 and the FTSE 250 down 0.1%, with defence shares firmer. A verified final index print and synchronized closing sector returns were unavailable at cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "lseg",
+          "an"
+        ]
+      },
+      {
+        "text": "The retrieved FT history row for 16 November matched its live 11:48 GMT quote. It was not used as a closing print. No verified same-day STOXX 600 close was available at cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "ft",
+          "an"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "By late morning London aerospace and defence shares had risen while metal miners weakened.",
+        "transmission": "Sector weights can lift the FTSE 100 while domestic mid-caps or continental peers lag.",
+        "confidence": "inference",
+        "alternatives": "Rate expectations, commodity prices, issuer news and later US moves could change the pattern. The intraday evidence does not establish closing drivers.",
+        "source_ids": [
+          "an",
+          "uk"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Defence demand supports selective gains",
+        "outcome": "Industrial leaders outperform and weaker groups remain a drag.",
+        "trigger": "Closing or next-session sector evidence confirms defence outperformance.",
+        "invalidation": "Defence shares reverse or participation broadens materially.",
+        "horizon": "Next verified closing panel and the next London session",
+        "source_ids": [
+          "an",
+          "uk"
+        ]
+      },
+      {
+        "name": "Rates overwhelm stock-specific moves",
+        "outcome": "UK rate-sensitive shares lag even if defence names hold up.",
+        "trigger": "Gilts reprice after wages or inflation and property and mid-caps weaken together.",
+        "invalidation": "Yields are stable or rate-sensitive groups strengthen.",
+        "horizon": "Through UK labour and CPI releases",
+        "source_ids": [
+          "jobs",
+          "cpi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "UK labour market release, 17 Nov 15:00 SGT (07:00 GMT).",
+        "due_at": "2026-11-17T07:00:00Z",
+        "confirms": "Wage data and gilt repricing point in the same direction.",
+        "contradicts": "Muted or opposite cross-asset moves weaken the rates explanation.",
+        "source_ids": [
+          "jobs"
+        ]
+      },
+      {
+        "signal": "UK CPI, 18 Nov 15:00 SGT (07:00 GMT).",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Sterling and gilts respond consistently to inflation surprises.",
+        "contradicts": "Little change in expected rates suggests other drivers.",
+        "source_ids": [
+          "cpi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-16T17:00:36Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-16",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "lseg",
+            "an"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Intraday proxies showed divergence; session-end breadth is unknown.",
+        "indicators": "London’s regular session ended at 16:30 GMT (00:30 SGT on 17 November). At 12:10 GMT, the FTSE 100 was up 0.3% at 10,939.35 and the FTSE 250 down 0.1%, with defence shares firmer. A verified final index print and synchronized closing sector returns were unavailable at cutoff.",
+        "source_ids": [
+          "an",
+          "uk",
+          "lseg"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify semiconductors and software using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify telecom and media using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify retail, autos and travel using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify food and household goods using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify energy versus dated crude using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify banks versus gilt moves using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify pharma and providers using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Reuters reported firmer aerospace and defence shares intraday. Closing sector return remains unverified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify defence and capital goods using comparable closing data.",
+          "source_ids": [
+            "uk"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Reuters reported weakness in precious- and industrial-metal miners intraday. Closing sector return remains unverified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify metals and chemicals using comparable closing data.",
+          "source_ids": [
+            "uk"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify UK property versus gilt yields using comparable closing data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing return verified.",
+          "implication": "Midday index direction cannot establish closing sector participation.",
+          "watchpoint": "Verify regulated utilities versus yields using comparable closing data.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "UK industrial resilience need not carry to Asian technology shares.",
+          "trigger": "Check the relevant market breadth at its own cash checkpoint.",
+          "invalidation": "Local sectors move independently of the London midday pattern.",
+          "source_ids": [
+            "an",
+            "as"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Watch industrial and REIT groups independently of bank-heavy STI moves.",
+          "trigger": "Check the relevant market breadth at its own cash checkpoint.",
+          "invalidation": "Local sectors move independently of the London midday pattern.",
+          "source_ids": [
+            "an",
+            "as"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Verify whether NYSE cash performance follows local rates or chip earnings expectations.",
+          "trigger": "Check the relevant market breadth at its own cash checkpoint.",
+          "invalidation": "Local sectors move independently of the London midday pattern.",
+          "source_ids": [
+            "an",
+            "as"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-16-us-open",
     "title": "US pre-open: Nasdaq futures lag as chip stocks face another test",
     "summary": "NYSE cash opens at 22:30 SGT (09:30 EST). Reuters at 19:56 SGT reported S&P 500 futures −0.35%, Nasdaq 100 −0.95%, Dow +0.15%. A later Investopedia dispatch reported S&P futures −0.7% and Nasdaq 100 −1.5%. These are premarket snapshots, not cash returns.",
