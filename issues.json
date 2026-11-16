@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-13",
+  "latest": "2026-11-16",
   "issues": [
+    {
+      "date": "2026-11-16",
+      "number": 64,
+      "title": "A positive US week ends with a chip selloff; Monday puts the AI trade back under scrutiny",
+      "status": "DATA INCOMPLETE · delayed Monday and weekly recap",
+      "path": "issues/2026/11/16/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-16-v1",
+        "summary": "WEEKLY (9–13 Nov): S&P 500 +2.5%, Nasdaq +2.3%, but both fell Friday. MONDAY (16 Nov): early Asian shares eased. This week tests AI demand and rate sensitivity; no synchronized sector panel or live SGX close was verified.",
+        "headlines": [
+          {
+            "title": "NVIDIA results and outlook after leadership change",
+            "date": "18 Nov SGT",
+            "context": "Results are scheduled around 05:20 SGT; call 06:00. Watch forward guidance and evidence of customer spending. A return by Huang is not confirmed.",
+            "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+          },
+          {
+            "title": "US rates: inflation pressure precedes Fed minutes",
+            "date": "19 Nov SGT",
+            "context": "US October PPI rose 0.3% m/m. The Fed’s October minutes are due 03:00 SGT Thursday. A reversal in yields would challenge the rate-pressure case.",
+            "source": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+          },
+          {
+            "title": "Singapore: October exports next",
+            "date": "17 Nov SGT",
+            "context": "Enterprise Singapore’s cadence points to Tuesday. Check electronics separately from volatile shipment categories. The October print was not verified at cutoff.",
+            "source": "https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/october/mr04626_singapore-external-trade-september-2026"
+          }
+        ],
+        "market_note": "Friday cash: S&P 500 7,561.67 (−0.4%), Nasdaq 25,136.27 (−0.9%). Monday early Reuters: Nikkei −0.6%, Kospi −0.2%; US equity futures were higher. These are different sessions. No SGX closing print claimed.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-14",
       "number": 63,
