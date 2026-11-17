@@ -162,3 +162,9 @@ Prepared `singapore/2026-11-17/close` for 18:16 SGT after SGX Trade at Close end
 Base `62ace3091d031d4b0c43c676fab278a439a823e6`. The [Singapore close](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-singapore-close/) report marker matched; [run 44061488815](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44061488815) accepted `singapore/2026-11-17/close` as Telegram message 78 at 18:16:01 SGT. Daily Issue 065 remains delivery 76.
 
 Prepared separate `asia/2026-11-17/close` and `evening/2026-11-17/brief`; verify both live markers and distinct acceptance receipts. Reuters India close is source-attributed owing to conflicting untimed vendor rows; do not replace it with an unverified official print. US sector estimates retain their Monday basis. All four REDL SEC indexes were refreshed, including Altimeter's separate Cerebras 13G/A. No archive change. Next fresh key: `us/2026-11-17/open` (21:30 SGT, cash opens 22:30 SGT).
+
+## 17 November — US pre-open, evidence 2026-11-17T13:04:46Z
+
+Base `95b60b4af383506eca85ab0d36af28e86a6b4294`. Both [Asia close and evening reports](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44071173238) matched their live markers: `asia/2026-11-17/close` accepted as 79 at 19:08:28 SGT; `evening/2026-11-17/brief` accepted as 80 at 19:08:31 SGT. No repeat send.
+
+Prepared `us/2026-11-17/open` for 21:30 SGT ahead of NYSE cash open at 22:30 SGT. Distinguish Reuters 07:09 EST futures, Monday sector estimates and new single-issuer disclosures. Census October retail-sales actual not verified at cutoff. Check exact live marker and accepted receipt. Next London close uses 17 November London session date; next US close uses 17 November NYSE date.

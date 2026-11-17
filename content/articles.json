@@ -1,5 +1,445 @@
 [
   {
+    "id": "2026-11-17-us-open",
+    "title": "US pre-open: Nasdaq leads mixed futures ahead of NVIDIA and retail sales",
+    "summary": "At 07:09 EST, Reuters reported Nasdaq 100 futures up 0.39%, S&P futures nearly flat and Dow futures down 0.47%. Home Depot reported higher comparable sales. Watch October retail sales, opening breadth and NVIDIA guidance after cash trading.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-17T13:04:46Z",
+    "updated_at": "2026-11-17T13:04:46Z",
+    "cutoff_at": "2026-11-17T13:04:46Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Core trading hours and 2026 calendar, checked 17 November",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "futures",
+        "title": "US 07:09 EST futures and premarket issuer snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "close",
+        "title": "16 November US cash close",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2e6a9c41b6336e9240c1b01585d20cd4",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "sector",
+        "title": "16 November sector estimates and methodology, in Issue 065",
+        "publisher": "Quantisnow / DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "hd",
+        "title": "Home Depot fiscal Q3 2026 results and guidance",
+        "publisher": "Home Depot",
+        "url": "https://ir.homedepot.com/news-releases/2026/11-17-2026-110221331",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "census",
+        "title": "Advance monthly retail trade release schedule",
+        "publisher": "US Census Bureau",
+        "url": "https://www.census.gov/retail/release_schedule.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "nv",
+        "title": "NVIDIA fiscal Q3 2027 results timing",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "board",
+        "title": "New board committee on national security and export-control oversight",
+        "publisher": "NVIDIA",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "bis",
+        "title": "US interim rule on remote access to advanced computing",
+        "publisher": "Bureau of Industry and Security",
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "mddi",
+        "title": "Singapore ministries’ statement on the US rule",
+        "publisher": "MDDI / METI",
+        "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "fed",
+        "title": "November Federal Reserve calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      },
+      {
+        "id": "eve",
+        "title": "17 November regional evidence and data gaps",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-evening-global-watch/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T13:04:46Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE regular cash trading opens 09:30 EST (22:30 SGT) on 17 November; the 21:30 SGT pre-open alert target is one hour earlier. US cash had not opened at cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters at 07:09 EST (20:09 SGT): Dow E-mini −0.47%, S&P 500 E-mini +0.02%, Nasdaq 100 E-mini +0.39%. It also reported NVIDIA shares up about 1% premarket and individual chip peers higher. These are early observations, not current cash returns or full breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "text": "Monday cash close: S&P 500 7,416.59 (−1.9%), Nasdaq Composite 24,509.76 (−2.5%), Dow 51,608.17 (−1.4%). Monday’s constituent estimates are separate from Tuesday futures.",
+        "kind": "fact",
+        "source_ids": [
+          "close",
+          "sector"
+        ]
+      },
+      {
+        "text": "Home Depot’s fiscal Q3 sales were US$43.4 billion (+4.9% year on year), comparable sales +2.2% and GAAP diluted EPS US$3.72 versus US$3.62. Its FY2026 guidance now calls for comparable sales growth of about 1.4%. Company comparable sales do not establish economy-wide demand.",
+        "kind": "fact",
+        "source_ids": [
+          "hd"
+        ]
+      },
+      {
+        "text": "NVIDIA announced a standing board committee to oversee national security, export controls and global trade risk. That announcement does not establish the impact on shipments, costs or revenue. BIS has issued an interim rule on remote access to advanced computing; Singapore ministries said they are assessing its implications.",
+        "kind": "fact",
+        "source_ids": [
+          "board",
+          "bis",
+          "mddi"
+        ]
+      },
+      {
+        "text": "The Census advance October retail-sales report was scheduled for 08:30 EST (21:30 SGT). No actual or surprise was verified at cutoff. NVIDIA scheduled results for approximately 16:20 EST and its call for 17:00 EST, 05:20 and 06:00 SGT on 18 November.",
+        "kind": "fact",
+        "source_ids": [
+          "census",
+          "nv"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The Nasdaq futures rebound coincided with early strength in some chip names while Dow futures were weaker.",
+        "transmission": "Broader chip equipment, memory, networking and software participation would strengthen the earnings-led recovery interpretation.",
+        "alternatives": "A short-covering bounce, index concentration or rates changes could produce the same pattern. The updated rule or board oversight announcement does not prove demand loss.",
+        "confidence": "inference",
+        "source_ids": [
+          "futures",
+          "nv",
+          "board",
+          "bis"
+        ]
+      },
+      {
+        "explanation": "Home Depot’s earnings indicate positive comparables at that retailer, while broader October retail sales remained unverified.",
+        "transmission": "Broad demand would need corroboration across categories and from housing-sensitive and unrelated retailers. Treasury repricing could either help or offset earnings effects.",
+        "alternatives": "Home improvement has a distinct exposure to housing and project timing; company-specific factors do not establish a consumer rebound.",
+        "confidence": "inference",
+        "source_ids": [
+          "hd",
+          "census",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Technology rebound broadens",
+        "outcome": "Chip suppliers and non-technology groups participate, reducing reliance on individual leaders.",
+        "trigger": "Cash breadth improves and equipment, memory and networking rise alongside leading chip names.",
+        "invalidation": "Futures gains reverse or breadth remains narrow.",
+        "horizon": "17 November first cash hour and after earnings",
+        "source_ids": [
+          "futures",
+          "nv"
+        ]
+      },
+      {
+        "name": "Rates outweigh earnings",
+        "outcome": "Broad cyclicals and rate-sensitive shares remain weak despite isolated positive earnings.",
+        "trigger": "Retail data or Fed commentary shift short yields higher and discretionary and property breadth weaken.",
+        "invalidation": "Yields do not confirm the move and equity participation broadens.",
+        "horizon": "17 November US session and 18 November Fed minutes",
+        "source_ids": [
+          "census",
+          "fed",
+          "hd"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "October retail sales (21:30 SGT, 08:30 EST) and NYSE cash open (22:30 SGT, 09:30 EST)",
+        "due_at": "2026-11-17T14:30:00Z",
+        "confirms": "The retrieved Census release and opening rates or equity breadth align with the market’s demand interpretation.",
+        "contradicts": "Sales mix and broad participation contradict a single-issuer or single-index read.",
+        "source_ids": [
+          "census",
+          "nyse",
+          "hd"
+        ]
+      },
+      {
+        "signal": "NVIDIA fiscal Q3 FY2027 results around 05:20 SGT and call at 06:00 SGT on 18 November",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Guidance and shipment evidence clarify order conversion, margins and licensed customer access.",
+        "contradicts": "Issuer or supplier evidence does not corroborate a broad demand or delivery shift.",
+        "source_ids": [
+          "nv",
+          "bis",
+          "board"
+        ]
+      },
+      {
+        "signal": "October FOMC minutes: 19 November 03:00 SGT (18 November 14:00 EST)",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Rates and breadth move together after the details.",
+        "contradicts": "The initial move reverses or no broad repricing follows.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T13:04:46Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Selective technology rebound in an otherwise mixed futures snapshot.",
+        "indicators": "07:09 EST Nasdaq, S&P and Dow contracts diverged; early chip issuer moves do not measure market-wide breadth, positioning or volume.",
+        "source_ids": [
+          "futures",
+          "close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -3.03% in a market-cap-weighted constituent estimate, not an official sector index. Reuters reported some chip peers higher premarket.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Check equipment, memory and networking participation after cash opens.",
+          "source_ids": [
+            "sector",
+            "futures",
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -2.97% in a market-cap-weighted constituent estimate, not an official sector index. No current group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Compare platform, telecom and media breadth.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -2.15% in a market-cap-weighted constituent estimate, not an official sector index. Home Depot comparable sales rose 2.2%; this is one issuer.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Compare with Census retail-category data and cash breadth.",
+          "source_ids": [
+            "sector",
+            "hd",
+            "census"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: +0.35% in a market-cap-weighted constituent estimate, not an official sector index. No current group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Check whether staples retain Monday’s relative strength.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -2.08% in a market-cap-weighted constituent estimate, not an official sector index. No synchronized crude or producer return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Compare same-time crude and producer returns.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -0.87% in a market-cap-weighted constituent estimate, not an official sector index. No current bank or insurer group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Compare financial breadth with the curve after the data.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -0.47% in a market-cap-weighted constituent estimate, not an official sector index. No current group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Check drugmakers and providers separately.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -1.78% in a market-cap-weighted constituent estimate, not an official sector index. No current industrial group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Check transport, machinery and defence participation.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -1.50% in a market-cap-weighted constituent estimate, not an official sector index. No current group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Compare metals and chemical producers with dated inputs.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: -0.28% in a market-cap-weighted constituent estimate, not an official sector index. No current REIT group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Check property breadth against the Treasury curve.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "16 November 16:10 EST: +0.16% in a market-cap-weighted constituent estimate, not an official sector index. No current group return verified.",
+          "implication": "Use the prior session as a baseline; judge a reversal from current cash participation.",
+          "watchpoint": "Check dividend-sensitive shares against short and long yields.",
+          "source_ids": [
+            "sector"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "The chip outlook could affect Asia’s equipment and component suppliers.",
+          "trigger": "Guidance and subsequent supplier breadth agree on a change in delivery or demand.",
+          "invalidation": "Guidance and regional suppliers diverge.",
+          "source_ids": [
+            "nv",
+            "eve"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Licensing implementation could alter covered customer or project timing.",
+          "trigger": "A regulator or issuer documents delays, narrower access or compliance costs.",
+          "invalidation": "Licences and exceptions preserve schedules without measurable disruption.",
+          "source_ids": [
+            "mddi",
+            "bis"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US technology breadth and rate moves could inform the following European session.",
+          "trigger": "US gains broaden and European exporters participate at their next cash open.",
+          "invalidation": "US gains stay concentrated or Europe reacts chiefly to domestic data.",
+          "source_ids": [
+            "futures",
+            "eve"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-evening-global-watch",
     "title": "Evening global watch: chip licensing, divergent Asian markets and UK pay growth",
     "summary": "The Nikkei fell 1.34%, while Indian benchmarks rose in Reuters’ closing report. UK unemployment and regular pay growth both eased from the prior overlapping period. Watch NVIDIA guidance, UK CPI and the Fed minutes for confirmation across markets.",
