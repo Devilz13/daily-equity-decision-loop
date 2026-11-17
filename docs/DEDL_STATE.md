@@ -168,3 +168,9 @@ Prepared separate `asia/2026-11-17/close` and `evening/2026-11-17/brief`; verify
 Base `95b60b4af383506eca85ab0d36af28e86a6b4294`. Both [Asia close and evening reports](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44071173238) matched their live markers: `asia/2026-11-17/close` accepted as 79 at 19:08:28 SGT; `evening/2026-11-17/brief` accepted as 80 at 19:08:31 SGT. No repeat send.
 
 Prepared `us/2026-11-17/open` for 21:30 SGT ahead of NYSE cash open at 22:30 SGT. Distinguish Reuters 07:09 EST futures, Monday sector estimates and new single-issuer disclosures. Census October retail-sales actual not verified at cutoff. Check exact live marker and accepted receipt. Next London close uses 17 November London session date; next US close uses 17 November NYSE date.
+
+## 18 November SGT — 17 November London close, evidence 2026-11-17T17:04:04Z
+
+Base `bc2021fee9a73ba1b9834269be4b640675e5bd42`. US pre-open `us/2026-11-17/open` accepted as message 81 at 21:30:03 SGT; [run 44089248744](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44089248744). Do not resend.
+
+Prepared `europe/2026-11-17/close` for 01:30 SGT. Conflicting closing feeds remain explicit; Reuters morning figures are not closing marks. No synchronized final sector, rates or FX panel. Verify exact live marker and accepted receipt. Next US close remains dated 17 November; 18 November morning edition is not due before 08:00 SGT.

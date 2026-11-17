@@ -1,5 +1,415 @@
 [
   {
+    "id": "2026-11-17-europe-close",
+    "title": "London post-close: weaker equities, with final index feeds in conflict",
+    "summary": "London’s 17 November cash session has ended. Reports agree on weakness but available closing figures conflict; no definitive final FTSE print is claimed. UK pay growth slowed, while technology and miners fell in a dated European morning snapshot.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-17T17:04:04Z",
+    "updated_at": "2026-11-17T17:04:04Z",
+    "cutoff_at": "2026-11-17T17:04:04Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Regular trading hours, checked 18 November SGT",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/faqs/personal-investing",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "cal",
+        "title": "Exchange business days, checked 18 November SGT",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "uk",
+        "title": "UK equities at 10:57 GMT, not a closing mark",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/uk/uk-stocks-fall-investors-edge-ahead-of-nvidia-results-uk-data-keeps-rate-bets-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "eu",
+        "title": "Europe 09:30 GMT snapshot, not closing prices",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/markets/europe/european-shares-ease-tech-stocks-deutsche-bank-slide-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "guardian",
+        "title": "London closing report",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/business/live/2026/nov/17/uk-jobs-market-wage-growth-payrolls-unemployment-milburn-china-us-chips-latest-news-updates",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "vendor",
+        "title": "Untimed FTSE historical row",
+        "publisher": "Investing.com",
+        "url": "https://ca.investing.com/indices/uk-100-historical-data?cid=27517",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "ons",
+        "title": "November UK labour market bulletin",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "cpi",
+        "title": "18 November UK CPI release calendar",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "nv",
+        "title": "NVIDIA results call, 17 November US date",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "bis",
+        "title": "Interim rule on remote access to advanced computing",
+        "publisher": "BIS",
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "asia",
+        "title": "Dated Asia close and evidence limitations",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-asia-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      },
+      {
+        "id": "sg",
+        "title": "Singapore chip-licensing statement",
+        "publisher": "MDDI / METI",
+        "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T17:04:04Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London regular cash trading ended at 16:30 GMT on 17 November (00:30 SGT on 18 November). The alert target is 01:30 SGT; the session label remains 17 November.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "cal"
+        ]
+      },
+      {
+        "text": "Closing feeds conflict: Guardian says −1.76% near 10,689; Investing’s untimed row shows 10,801.05. Definitive final FTSE level withheld.",
+        "kind": "fact",
+        "source_ids": [
+          "guardian",
+          "vendor"
+        ]
+      },
+      {
+        "text": "Reuters’ 10:57 GMT UK snapshot put the FTSE 100 at 10,809.49 (−0.66%) and FTSE 250 down 0.8%; neither is a closing value.",
+        "kind": "fact",
+        "source_ids": [
+          "uk"
+        ]
+      },
+      {
+        "text": "Reuters at 09:30 GMT: STOXX 600 −0.9%, European technology −2.2%, miners −1.7%; ASML −3.1% and Infineon −2.2%. No synchronized closing sector panel verified.",
+        "kind": "fact",
+        "source_ids": [
+          "eu"
+        ]
+      },
+      {
+        "text": "ONS: July–September unemployment was 4.6%, versus 4.7% in the prior overlapping period. Annual regular pay growth eased to 3.5% from 3.7%; data alone do not establish a policy decision.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Morning technology and miner weakness coincided with US chip-access changes and earnings uncertainty.",
+        "transmission": "An actual licensing or demand change would need to show up in supplier guidance, shipment timelines or utilization.",
+        "alternatives": "Commodity prices, valuation and issuer-specific effects can explain moves; morning co-movement does not isolate a closing driver.",
+        "confidence": "inference",
+        "source_ids": [
+          "eu",
+          "bis",
+          "nv"
+        ]
+      },
+      {
+        "explanation": "UK pay growth slowed while unemployment eased on overlapping windows.",
+        "transmission": "A local rates interpretation needs matching sterling, gilt and domestic equity breadth evidence.",
+        "alternatives": "Global risk reduction and index composition can outweigh domestic labour data. No same-time gilt and FX panel verified.",
+        "confidence": "inference",
+        "source_ids": [
+          "ons",
+          "uk"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Earnings stabilise growth exposure",
+        "outcome": "A broader supplier rebound replaces isolated leader moves.",
+        "trigger": "NVIDIA guidance and subsequent equipment and component participation agree on firm demand and conversion.",
+        "invalidation": "Guidance disappoints or participation stays narrow.",
+        "horizon": "18 November SGT results and European cash session",
+        "source_ids": [
+          "nv",
+          "eu"
+        ]
+      },
+      {
+        "name": "UK CPI changes the rates reading",
+        "outcome": "Sterling and short gilts reprice consistently with services-price data.",
+        "trigger": "Official CPI and same-time rates and equity breadth corroborate each other.",
+        "invalidation": "Rates reverse or sector participation contradicts the initial reading.",
+        "horizon": "18 November CPI and London cash trading",
+        "source_ids": [
+          "cpi",
+          "ons"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA call: 18 November 06:00 SGT (17 November 14:00 PST)",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Guidance quantifies demand, margin or delivery effects.",
+        "contradicts": "No supported change in conversion or supplier activity.",
+        "source_ids": [
+          "nv",
+          "bis"
+        ]
+      },
+      {
+        "signal": "UK October CPI: 18 November 15:00 SGT (07:00 GMT)",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Services prices and gilt/sterling moves align.",
+        "contradicts": "A rates move fades or survey signals conflict.",
+        "source_ids": [
+          "cpi",
+          "ons"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T17:04:04Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "cal"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Weak equity tone; exact closing magnitude unresolved.",
+        "indicators": "UK and continental morning index snapshots were negative. Closing feeds differ. No verified final breadth, turnover, volatility or synchronized rates and FX panel.",
+        "source_ids": [
+          "uk",
+          "eu",
+          "guardian",
+          "vendor"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Reuters’ 09:30 GMT technology basket fell 2.2%; this is not a close.",
+          "implication": "Licensing and earnings uncertainty may affect suppliers differently.",
+          "watchpoint": "Check guidance and equipment, memory and software participation.",
+          "source_ids": [
+            "eu",
+            "nv",
+            "bis"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for communication services.",
+          "implication": "An index decline cannot establish this group’s closing direction.",
+          "watchpoint": "Check multiple constituents and the sector benchmark in the next same-time sample.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for consumer discretionary.",
+          "implication": "An index decline cannot establish this group’s closing direction.",
+          "watchpoint": "Check multiple constituents and the sector benchmark in the next same-time sample.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for consumer staples.",
+          "implication": "An index decline cannot establish this group’s closing direction.",
+          "watchpoint": "Check multiple constituents and the sector benchmark in the next same-time sample.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for energy.",
+          "implication": "An index decline cannot establish this group’s closing direction.",
+          "watchpoint": "Check multiple constituents and the sector benchmark in the next same-time sample.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for financials.",
+          "implication": "Debt costs and local policy exposure may matter; no rate transmission established.",
+          "watchpoint": "Check sector breadth against short and long gilt yields after CPI.",
+          "source_ids": [
+            "ons",
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for health care.",
+          "implication": "An index decline cannot establish this group’s closing direction.",
+          "watchpoint": "Check multiple constituents and the sector benchmark in the next same-time sample.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for industrials.",
+          "implication": "An index decline cannot establish this group’s closing direction.",
+          "watchpoint": "Check multiple constituents and the sector benchmark in the next same-time sample.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Reuters’ morning miners basket fell 1.7%; final materials return unverified.",
+          "implication": "Commodity and currency changes can differ from technology effects.",
+          "watchpoint": "Compare same-time metals and mining breadth.",
+          "source_ids": [
+            "eu"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for real estate.",
+          "implication": "Debt costs and local policy exposure may matter; no rate transmission established.",
+          "watchpoint": "Check sector breadth against short and long gilt yields after CPI.",
+          "source_ids": [
+            "ons",
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No comparable verified closing return for utilities.",
+          "implication": "Debt costs and local policy exposure may matter; no rate transmission established.",
+          "watchpoint": "Check sector breadth against short and long gilt yields after CPI.",
+          "source_ids": [
+            "ons",
+            "cpi"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "European supplier weakness could add evidence of wider growth repricing.",
+          "trigger": "The next Asian hardware session and European supplier guidance confirm weakness.",
+          "invalidation": "Supplier guidance holds and breadth recovers.",
+          "source_ids": [
+            "eu",
+            "nv",
+            "asia"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Licensing implementation can affect covered projects and customers.",
+          "trigger": "An issuer or authority confirms changed delivery or access.",
+          "invalidation": "Approved access preserves project timelines.",
+          "source_ids": [
+            "sg",
+            "bis"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "European technology weakness may persist into US cash or reverse after earnings.",
+          "trigger": "US supplier breadth and guidance reinforce the pattern.",
+          "invalidation": "Breadth strengthens across unrelated groups.",
+          "source_ids": [
+            "eu",
+            "nv"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-us-open",
     "title": "US pre-open: Nasdaq leads mixed futures ahead of NVIDIA and retail sales",
     "summary": "At 07:09 EST, Reuters reported Nasdaq 100 futures up 0.39%, S&P futures nearly flat and Dow futures down 0.47%. Home Depot reported higher comparable sales. Watch October retail sales, opening breadth and NVIDIA guidance after cash trading.",
