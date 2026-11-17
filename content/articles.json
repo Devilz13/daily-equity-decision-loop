@@ -1,5 +1,386 @@
 [
   {
+    "id": "2026-11-18-asia-open",
+    "title": "Asia pre-open: test whether NVIDIA’s revenue outlook outweighs broad US losses",
+    "summary": "Tokyo regular cash opens at 08:00 SGT. The prior US session fell broadly before NVIDIA reported US$115.8bn quarterly revenue and a higher revenue outlook with lower gross margins. Asian cash and sector opening prices remain unverified.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-17T22:58:42Z",
+    "updated_at": "2026-11-17T22:58:42Z",
+    "cutoff_at": "2026-11-17T22:58:42Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ap",
+        "title": "17 November US index closing scorecard",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/ff6caef4d9289cf7f1e6ee48a706eddc",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "r",
+        "title": "17 November cash close and breadth",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "nv",
+        "title": "Third-quarter fiscal 2027 results and outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "fed",
+        "title": "November Federal Reserve calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "cpi",
+        "title": "UK CPI release calendar",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Market calendar, checked 18 November SGT",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:58:42Z"
+      },
+      {
+        "id": "hours",
+        "title": "Domestic cash trading hours",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:58:42Z"
+      },
+      {
+        "id": "prior",
+        "title": "17 November Asia close, earlier checked evidence",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-asia-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:58:42Z"
+      },
+      {
+        "id": "wrap",
+        "title": "17 November late global-market update",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:58:42Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Tokyo is scheduled for a regular 18 November cash session, opening 09:00 JST (08:00 SGT). Other Asian venues open later and are not assumed to share its calendar. No 18 November Asian cash observation is claimed before Tokyo opens.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hours"
+        ]
+      },
+      {
+        "text": "17 November close: S&P 500 7,340.53 (−1.03%); Dow 50,759.42 (−1.64%); Nasdaq Composite 24,328.38 (−0.74%); Russell 2000 2,701.87 (−1.5%, rounded).",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Reuters reported NYSE decliners beating advancers 3.76 to one; Nasdaq had 1,273 rises versus 3,527 falls. Software and banks underperformed. These are cash-session observations, not after-hours breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "r"
+        ]
+      },
+      {
+        "text": "After cash closed, NVIDIA reported fiscal Q3 FY2027 revenue of US$115.8 billion (+103% year on year), including US$107.6 billion Data Center revenue. GAAP gross margin was 74.8%; GAAP diluted EPS US$2.70. The company says Vera Rubin NVL72 has shipped. This is issuer reporting, not independent verification of end-user installations.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "NVIDIA’s Q4 FY2027 outlook includes an extra week: revenue US$130 billion ±3%, no assumed China Data Center compute revenue, and GAAP/non-GAAP gross margins between 71% and 72%. Estimates are forward-looking; reported growth does not eliminate execution, funding or licensing risks.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "Reuters’ updated global report described a rebound in US futures and a Korean technology ETF after NVIDIA’s results. No independently verified live Asia futures, ETF timestamp or exchange-wide sector basket was retrieved; the ETF is not Korean cash trading.",
+        "kind": "fact",
+        "source_ids": [
+          "wrap"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The negative US cash session and the later NVIDIA release give Asia different observation periods to evaluate.",
+        "transmission": "An earnings-led change should be tested across multiple suppliers and unrelated Asian sectors after their own cash opens.",
+        "alternatives": "Index concentration, FX, rates and domestic news may dominate; a US-listed Korean ETF cannot establish a local cash rebound.",
+        "confidence": "inference",
+        "source_ids": [
+          "r",
+          "ap"
+        ]
+      },
+      {
+        "explanation": "NVIDIA’s revenue outlook rises while forecast gross margins fall below the reported quarter.",
+        "transmission": "Mix, ramp costs and shipment conversion should be checked against management’s explanations and subsequent supplier evidence.",
+        "alternatives": "The extra week, product mix or costs can change comparisons; no unsupported root cause for the margin change is assigned.",
+        "confidence": "inference",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Revenue strength supports a broader rebound",
+        "outcome": "Supplier participation improves beyond isolated chip leaders.",
+        "trigger": "Asian equipment, memory and networking breadth improves and supplier disclosures corroborate demand.",
+        "invalidation": "Only a few leaders gain or shipment and margin evidence deteriorates.",
+        "horizon": "18 November Asian cash sessions",
+        "source_ids": [
+          "nv",
+          "r"
+        ]
+      },
+      {
+        "name": "Margin and funding concerns persist",
+        "outcome": "Higher forecast revenue does not translate proportionately into profit or cash.",
+        "trigger": "Management or subsequent filings identify sustained cost pressure or slower collections.",
+        "invalidation": "Margins stabilize and verified cash conversion remains robust.",
+        "horizon": "Earnings follow-up and next reporting period",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Tokyo cash open 18 November 09:00 JST (08:00 SGT)",
+        "due_at": "2026-11-18T00:00:00Z",
+        "confirms": "Hardware gains broaden into equipment, memory and unrelated groups with verified turnover.",
+        "contradicts": "Only isolated leaders rise or broader participation stays negative.",
+        "source_ids": [
+          "jpx",
+          "hours",
+          "nv"
+        ]
+      },
+      {
+        "signal": "UK October CPI, 18 November 15:00 SGT (07:00 GMT)",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Rates and equity breadth corroborate the inflation reading.",
+        "contradicts": "An initial move fades or breadth diverges.",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "signal": "FOMC minutes, 19 November 03:00 SGT (18 November 14:00 EST)",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Broad rates and equity response agrees on a policy repricing.",
+        "contradicts": "No durable rates or breadth change.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T22:58:42Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed lead before cash: broad US losses versus a later earnings-driven rebound signal.",
+        "indicators": "Prior US cash declines and negative breadth are verified. Reuters described later US futures/ETF gains; no current Asian cash breadth, price, volume or volatility panel.",
+        "source_ids": [
+          "ap",
+          "r",
+          "nv",
+          "wrap"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "NVIDIA reported strong revenue and lower forecast margins after the US close. Asian hardware participation is unverified.",
+          "implication": "Test orders, shipments, utilization and margins separately.",
+          "watchpoint": "Track hardware versus software breadth after earnings.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for communication services.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "Check platforms, advertising and telecom separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for consumer discretionary.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "Compare retailer participation with dated sales releases.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for consumer staples.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "Check defensive staples against broader participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for energy.",
+          "implication": "Fuel buyers and producers may react differently; no same-time crude or group return.",
+          "watchpoint": "Compare producers and refiners with same-time crude.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for financials.",
+          "implication": "Bank and insurer exposure varies with local yields, lending and currency movements.",
+          "watchpoint": "Compare lenders and insurers with yields and credit indicators.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for health care.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "Check provider and drugmaker breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for industrials.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "Compare freight, machinery and aerospace.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for materials.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "Compare miners and chemicals with dated input prices.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for real estate.",
+          "implication": "Local funding rates, occupancy or contracted load may matter more than a US chipmaker’s report.",
+          "watchpoint": "Check REIT breadth and financing rates.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 18 November Asia cash-sector opening observation for utilities.",
+          "implication": "Local funding rates, occupancy or contracted load may matter more than a US chipmaker’s report.",
+          "watchpoint": "Check regulated utilities against yields and grid-investment guidance.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Supplier sentiment and computing investment may influence selected local exposures.",
+          "trigger": "Local companies confirm orders and delivery or commissioning schedules.",
+          "invalidation": "Licensing, funding or execution delays prevent conversion.",
+          "source_ids": [
+            "nv",
+            "prior"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "A broad Asian hardware response could inform European equipment suppliers.",
+          "trigger": "Several Asian supplier groups and subsequent European cash breadth agree.",
+          "invalidation": "Isolated gains fail to broaden or UK inflation dominates local trading.",
+          "source_ids": [
+            "nv",
+            "cpi"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asia may indicate how widely investors accept the after-hours revenue outlook.",
+          "trigger": "Regional breadth and new issuer evidence support shipment conversion.",
+          "invalidation": "Margin concerns dominate or cash participation remains narrow.",
+          "source_ids": [
+            "nv",
+            "ap"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-us-close",
     "title": "US close: broad losses precede NVIDIA’s strong revenue and lower margin outlook",
     "summary": "S&P 500 closed at 7,340.53 (−1.03%), Dow at 50,759.42 (−1.64%) and Nasdaq at 24,328.38 (−0.74%). NVIDIA then reported US$115.8bn quarterly revenue and guided to US$130bn ±3% next quarter, with lower gross margins. Cash closes and subsequent earnings are separate.",
