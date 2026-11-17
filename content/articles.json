@@ -1,5 +1,373 @@
 [
   {
+    "id": "2026-11-17-us-close",
+    "title": "US close: broad losses precede NVIDIA’s strong revenue and lower margin outlook",
+    "summary": "S&P 500 closed at 7,340.53 (−1.03%), Dow at 50,759.42 (−1.64%) and Nasdaq at 24,328.38 (−0.74%). NVIDIA then reported US$115.8bn quarterly revenue and guided to US$130bn ±3% next quarter, with lower gross margins. Cash closes and subsequent earnings are separate.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-17T22:05:55Z",
+    "updated_at": "2026-11-17T22:05:55Z",
+    "cutoff_at": "2026-11-17T22:05:55Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Regular hours and 2026 calendar, observed 18 November SGT",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "ap",
+        "title": "17 November US index closing scorecard",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/ff6caef4d9289cf7f1e6ee48a706eddc",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "r",
+        "title": "17 November cash close and breadth",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "nv",
+        "title": "Third-quarter fiscal 2027 results and outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "fed",
+        "title": "November Federal Reserve calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "cpi",
+        "title": "UK CPI release calendar",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "qt",
+        "title": "Sector snapshot without verified closing timestamp",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      },
+      {
+        "id": "prior",
+        "title": "Dated London closing evidence",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-europe-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T22:05:55Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE regular trading ended at 16:00 EST on 17 November (05:00 SGT on 18 November); this report follows the 06:00 SGT target.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "17 November close: S&P 500 7,340.53 (−1.03%); Dow 50,759.42 (−1.64%); Nasdaq Composite 24,328.38 (−0.74%); Russell 2000 2,701.87 (−1.5%, rounded).",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Reuters reported NYSE decliners beating advancers 3.76 to one; Nasdaq had 1,273 rises versus 3,527 falls. Software and banks underperformed. These are cash-session observations, not after-hours breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "r"
+        ]
+      },
+      {
+        "text": "After cash closed, NVIDIA reported fiscal Q3 FY2027 revenue of US$115.8 billion (+103% year on year), including US$107.6 billion Data Center revenue. GAAP gross margin was 74.8%; GAAP diluted EPS US$2.70. The company says Vera Rubin NVL72 has shipped. This is issuer reporting, not independent verification of end-user installations.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "NVIDIA’s Q4 FY2027 outlook includes an extra week: revenue US$130 billion ±3%, no assumed China Data Center compute revenue, and GAAP/non-GAAP gross margins between 71% and 72%. Estimates are forward-looking; reported growth does not eliminate execution, funding or licensing risks.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "The retrieved Quantisnow table was labelled “so far” and its closing time was unverified. It is excluded from final sector-return comparisons. No synchronized final 11-sector numerical panel or timestamped after-hours price was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "qt"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Widespread declining breadth shows that weakness extended beyond one chipmaker.",
+        "transmission": "A broad earnings or risk-premium change should affect multiple industries and equal-weight participation.",
+        "alternatives": "Sector weights, rates and issuer-specific news can create uneven index losses without a single common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "r",
+          "ap"
+        ]
+      },
+      {
+        "explanation": "NVIDIA’s revenue outlook rises while forecast gross margins fall below the reported quarter.",
+        "transmission": "Mix, ramp costs and shipment conversion should be checked against management’s explanations and subsequent supplier evidence.",
+        "alternatives": "The extra week, product mix or costs can change comparisons; no unsupported root cause for the margin change is assigned.",
+        "confidence": "inference",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Revenue strength supports a broader rebound",
+        "outcome": "Supplier participation improves beyond isolated chip leaders.",
+        "trigger": "Guidance and actual supplier shipments corroborate demand quality.",
+        "invalidation": "Orders fail to convert or broad equity participation remains weak.",
+        "horizon": "18 November Asian and European trading, subsequent US session",
+        "source_ids": [
+          "nv",
+          "r"
+        ]
+      },
+      {
+        "name": "Margin and funding concerns persist",
+        "outcome": "Higher forecast revenue does not translate proportionately into profit or cash.",
+        "trigger": "Management or subsequent filings identify sustained cost pressure or slower collections.",
+        "invalidation": "Margins stabilize and verified cash conversion remains robust.",
+        "horizon": "Earnings follow-up and next reporting period",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA call and written commentary, 18 November 06:00 SGT onward",
+        "due_at": "2026-11-17T23:00:00Z",
+        "confirms": "Specific answers on gross margin, China exclusion, product ramps and cash conversion support the demand assessment.",
+        "contradicts": "Claims remain unsupported or management qualifies expected shipments.",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "signal": "UK October CPI, 18 November 15:00 SGT (07:00 GMT)",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Rates and equity breadth corroborate the inflation reading.",
+        "contradicts": "An initial move fades or breadth diverges.",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "signal": "FOMC minutes, 19 November 03:00 SGT (18 November 14:00 EST)",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Broad rates and equity response agrees on a policy repricing.",
+        "contradicts": "No durable rates or breadth change.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T22:05:55Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Broad cash-session risk reduction; after-hours outlook still requires follow-up.",
+        "indicators": "All major indices declined. Negative NYSE and Nasdaq breadth is verified; no current implied-volatility or positioning panel.",
+        "source_ids": [
+          "ap",
+          "r"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Reuters identified software weakness during the cash session; NVIDIA’s results followed after cash trading.",
+          "implication": "Different earnings timing prevents a simple cash-to-after-hours comparison.",
+          "watchpoint": "Track hardware versus software breadth after earnings.",
+          "source_ids": [
+            "r",
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final communication services sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Check platforms, advertising and telecom separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final consumer discretionary sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Compare retailer participation with dated sales releases.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final consumer staples sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Check defensive staples against broader participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final energy sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Compare producers and refiners with same-time crude.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Reuters identified banks among cash-session underperformers; aggregate return unverified.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Compare lenders and insurers with yields and credit indicators.",
+          "source_ids": [
+            "r"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final health care sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Check provider and drugmaker breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final industrials sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Compare freight, machinery and aerospace.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final materials sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Compare miners and chemicals with dated input prices.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final real estate sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Check REIT breadth and financing rates.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized final utilities sector return.",
+          "implication": "Broad market declines do not identify this sector’s return or all its constituents.",
+          "watchpoint": "Check regulated utilities against yields and grid-investment guidance.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "NVIDIA’s outlook may affect chip, memory and equipment suppliers differently.",
+          "trigger": "Guidance and regional supplier participation agree.",
+          "invalidation": "Regional breadth remains narrow or supplier disclosures conflict.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Computing demand may support investment while licensing and execution remain separate constraints.",
+          "trigger": "Operators confirm approved access and delivery schedules.",
+          "invalidation": "Financing, permissions or deployment delay projects.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian hardware response and the UK CPI reading may influence the next European session.",
+          "trigger": "Supplier breadth and rates confirm a common change in outlook.",
+          "invalidation": "Local rates or earnings offset the US lead.",
+          "source_ids": [
+            "nv",
+            "cpi",
+            "prior"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-europe-close",
     "title": "London post-close: weaker equities, with final index feeds in conflict",
     "summary": "London’s 17 November cash session has ended. Reports agree on weakness but available closing figures conflict; no definitive final FTSE print is claimed. UK pay growth slowed, while technology and miners fell in a dated European morning snapshot.",

@@ -174,3 +174,9 @@ Prepared `us/2026-11-17/open` for 21:30 SGT ahead of NYSE cash open at 22:30 SGT
 Base `bc2021fee9a73ba1b9834269be4b640675e5bd42`. US pre-open `us/2026-11-17/open` accepted as message 81 at 21:30:03 SGT; [run 44089248744](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44089248744). Do not resend.
 
 Prepared `europe/2026-11-17/close` for 01:30 SGT. Conflicting closing feeds remain explicit; Reuters morning figures are not closing marks. No synchronized final sector, rates or FX panel. Verify exact live marker and accepted receipt. Next US close remains dated 17 November; 18 November morning edition is not due before 08:00 SGT.
+
+## 18 November — US close for 17 November local, evidence 2026-11-17T22:05:55Z
+
+Base `08c0dcab0b1e7844ee74e661ecf534c29284e574`. London close `europe/2026-11-17/close` accepted as message 82 at 01:30:01 SGT ([run 44132951330](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44132951330)); do not resend.
+
+Prepared `us/2026-11-17/close` with final major cash indices and NVIDIA after-hours company results separated. No synchronized final numerical sector panel; the untimed Quantisnow table is not used as a closing panel. No after-hours quote or completed call transcript verified. Verify exact live marker and accepted receipt. Next products are Asia pre-open and the 08:00 canonical morning edition.
