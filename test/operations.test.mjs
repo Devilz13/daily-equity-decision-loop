@@ -114,7 +114,6 @@ test('built issue carries the exact revision marker without changing source edit
   }
   assert.deepEqual(readdirSync(new URL('../dist/investors/',import.meta.url)).sort(),['index.html','investors.js','portfolios.json']);
 });
-
 test('Altimeter source points to the original accession filing index',()=>{
   const manager=json('investors/portfolios.json').investors.find(i=>i.slug==='brad-gerstner');
   assert.equal(manager.filings[0].source,'https://www.sec.gov/Archives/edgar/data/1541617/000154161726000008/0001541617-26-000008-index.htm');

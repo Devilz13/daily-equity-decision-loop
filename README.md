@@ -48,7 +48,7 @@ This site and its editions are generated and maintained using generative AI supp
 
 ## Investor research library
 
-The public [investor library](investors/) tracks source-linked, dated SEC 13F securities disclosures and public investment philosophies, starting with Brad Gerstner (Altimeter Capital) and Li Lu (Himalaya Capital).
+The public [investor library](investors/) tracks source-linked, dated SEC 13F securities disclosures and public investment philosophies, covering Brad Gerstner (Altimeter Capital), Li Lu (Himalaya Capital), Chris Hohn (TCI) and Dev Kantesaria (Valley Forge).
 
 - `investors/portfolios.json` is a structured, extensible data store containing manager identities, documented philosophy sources, explicit DEDL research interpretations, and historical quarter-end holdings.
 - `investors/index.html` and `investors/investors.js` provide the view. The page loads source JSON and allows switching between managers; it does not imply positions are live.

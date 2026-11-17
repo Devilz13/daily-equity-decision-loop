@@ -1,4 +1,4 @@
-import {validateMarketRead} from './market-read.mjs';
+import {sectors,validateMarketRead} from './market-read.mjs';
 export const channels = {
   markets: {name:'Markets', cadence:'Session opens & closes · four market desks', description:'The Lighthouse: opening and closing reads for LSE-anchored Europe, NYSE-anchored US, the Japan-open to India-close Asia basket, and separate SGX sessions. Material developments enter the next scheduled read; additional to the full 08:00 SGT news edition.'},
   military: {name:'Military', cadence:'3 shorts / week', description:'Public regional exercises, defence policy, capability development and strategic implications.'},
@@ -39,7 +39,7 @@ export function validateArticles(items, now=new Date()) {
   check(Array.isArray(items),'Articles must be an array'); const ids=new Set(); const conflictWeeks={};
   for (const a of items) {
     const label=a.id || 'Article';
-    keys(a,['id','title','summary','channel','regions','lenses','topics','format','published_at','updated_at','cutoff_at','status','sources','claims','causation','scenarios','watchpoints','corrections','review','material_reason','market_read'],label);
+    keys(a,['id','title','summary','channel','regions','lenses','topics','format','published_at','updated_at','cutoff_at','status','sources','claims','causation','scenarios','watchpoints','corrections','review','material_reason','market_read','evening_brief'],label);
     check(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.id) && !ids.has(a.id),'Unique safe article id required'); ids.add(a.id);
     stringFields(a,['title','summary'],label);
     check(a.channel in channels,`${label}: invalid channel`);
@@ -48,7 +48,7 @@ export function validateArticles(items, now=new Date()) {
     }
     check(a.regions.length>0,`${label}: region required`);
     check(!a.regions.includes('singapore') || a.topics.length>0,`${label}: Singapore topic required`);
-    check(['short','weekend-review','material-update','market-open','market-close','market-event'].includes(a.format),`${label}: invalid format`);
+    check(['short','weekend-review','material-update','market-open','market-close','market-event','evening-brief'].includes(a.format),`${label}: invalid format`);
     check(a.status==='published',`${label}: drafts must not enter public content`);
     for(const k of ['published_at','updated_at','cutoff_at']) check(timestamp(a[k]) && Date.parse(a[k])<=now.getTime(),`${label}: invalid or future ${k}`);
     check(Date.parse(a.cutoff_at)<=Date.parse(a.published_at) && Date.parse(a.published_at)<=Date.parse(a.updated_at),`${label}: inconsistent timestamps`);
@@ -82,6 +82,30 @@ export function validateArticles(items, now=new Date()) {
     if(a.channel==='markets' || a.topics.includes('markets')) check(a.causation.length && a.scenarios.length && a.watchpoints.length,`${label}: markets require causation, scenarios and watchpoints`);
     validateMarketRead(a,{check,keys,text,timestamp},sourceIds);
     if(['market-open','market-close'].includes(a.format))check(items.filter(b=>b.format===a.format&&b.market_read?.market===a.market_read.market&&b.market_read?.session_date===a.market_read.session_date).length===1,'Duplicate market session; correct the existing report instead');
+    if(a.format==='evening-brief'){
+      const b=a.evening_brief;
+      keys(b,['date','sectors','redl'],'Evening brief');
+      check(a.channel==='markets'&&a.regions.includes('global')&&a.lenses.includes('redl')
+        &&b.date===sgDate(new Date(a.cutoff_at))&&a.id===b.date+'-evening-global-watch',
+        'Evening brief needs its exact Singapore date, global markets and REDL');
+      check(Array.isArray(b.sectors)&&b.sectors.length===11
+        &&new Set(b.sectors.map(x=>x.sector)).size===11,'Evening brief requires all 11 sectors');
+      for(const row of b.sectors){
+        keys(row,['sector','finding','status','source_ids'],'Evening sector');
+        check(sectors.includes(row.sector)&&text(row.finding)&&['reviewed','data-incomplete'].includes(row.status),
+          'Evening sector evidence or explicit gap required');
+        if(row.status==='reviewed')refs(row.source_ids);
+        else check(Array.isArray(row.source_ids)&&row.source_ids.every(id=>sourceIds.has(id)),'Invalid gap source');
+      }
+      const ciks=['1541617','1709323','1647251','1697868'];
+      check(Array.isArray(b.redl)&&b.redl.length===4&&ciks.every(c=>b.redl.some(x=>x.cik===c)),
+        'Evening brief requires the four exact REDL filers');
+      for(const row of b.redl){
+        keys(row,['cik','outcome','source_ids'],'REDL outcome');
+        check(text(row.outcome),'REDL outcome or access gap required');
+        refs(row.source_ids);
+      }
+    }else check(a.evening_brief===undefined,'Evening data requires the evening brief format');
     check(Array.isArray(a.corrections),'Correction history required');
     for(const c of a.corrections) { keys(c,['at','reason','change','source_ids'],'Correction'); stringFields(c,['reason','change'],'Correction'); check(timestamp(c.at) && Date.parse(c.at)>Date.parse(a.published_at) && Date.parse(c.at)<=Date.parse(a.updated_at),'Invalid correction time'); refs(c.source_ids); }
     if(Date.parse(a.updated_at)>Date.parse(a.published_at)) check(a.corrections.length>0,`${label}: updates require a correction entry`);

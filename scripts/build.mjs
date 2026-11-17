@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {channels,regions,lenses,topics,validateArticles,validatePromotions,sgDate,check} from './model.mjs';
 import {marketDesks,sectors} from './market-read.mjs';
 import {publicationKey} from './telegram-message.mjs';
+import {sessionKey,sessionMarker} from './session-telegram.mjs';
 
 export const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const out=path.join(root,'dist');
@@ -32,7 +33,35 @@ function articleList(articles,prefix) {
 function legacyList(issues,prefix) {
   return `<p class="muted">Existing editions are linked as originally published; their conclusions have not been re-verified or relabelled as fresh reporting.</p><div class="legacy-list">${issues.slice(0,7).map(i=>`<article><time>${esc(i.date)}</time><div>${link(prefix+i.path,`Issue ${i.number} · ${i.title}`)}<small>${esc(i.status)}</small></div></article>`).join('')}</div>`;
 }
+const editionDate=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+const dateLabel=i=>editionDate.format(new Date(`${i.date}T00:00:00Z`));
+const issueLabel=i=>`Issue ${String(i.number).padStart(3,'0')}`;
+const statusLabel=i=>i.status.replace(/^data incomplete/i,'Data incomplete').replace(/^\p{Ll}/u,c=>c.toUpperCase());
+const regularEdition=i=>i.path===`issues/${i.date.replaceAll('-','/')}/`;
+function homePage(html,issues) {
+  const latest=issues.find(regularEdition) ?? issues[0];
+  const featured=`<div data-featured-edition="${esc(latest.path)}">
+        <div class="issue-meta"><span class="chip">${issueLabel(latest)}</span><time class="chip" datetime="${esc(latest.date)}">${dateLabel(latest)}</time><span class="chip">${regularEdition(latest)?'Latest regular edition':'Latest edition'}</span></div>
+        <section class="hero"><h1>${esc(latest.title)}</h1></section>
+        <div class="statusbar"><p>${link(latest.path,'Read the full issue')}</p><span class="chip">${esc(statusLabel(latest))}</span></div>
+      </div>`;
+  const rows=issues.map(i=>`<a class="archive-row" href="${esc(i.path)}"><time class="date" datetime="${esc(i.date)}">${dateLabel(i)}</time><span class="number">${issueLabel(i)}${regularEdition(i)?'':' · Special'}</span><span class="title">${esc(i.title)}</span><span class="state">${esc(statusLabel(i))}</span></a>`).join('\n');
+  for(const [marker,content] of [['<!-- latest-edition -->',featured],['<!-- edition-archive -->',rows]]) {
+    check(html.split(marker).length===2,`Expected one homepage template marker: ${marker}`);
+    html=html.replace(marker,()=>content);
+  }
+  return html;
+}
 const section=(title,body)=>`<section class="editorial-section"><h2>${esc(title)}</h2>${body}</section>`;
+function eveningPanels(a) {
+  if(!a.evening_brief)return '';
+  const refs=ids=>ids.map(id=>link(a.sources.find(x=>x.id===id).url,id)).join(', ');
+  const managers={'1541617':'Altimeter','1709323':'Himalaya','1647251':'TCI','1697868':'Valley Forge'};
+  return section('All 11 global sectors',a.evening_brief.sectors.map(x=>
+    `<p><strong>${esc(x.sector)}</strong> · ${esc(x.status)} · ${esc(x.finding)} ${refs(x.source_ids)}</p>`).join(''))+
+    section('REDL filing watch',a.evening_brief.redl.map(x=>
+    `<p><strong>${esc(managers[x.cik])}</strong> · ${esc(x.outcome)} ${refs(x.source_ids)}</p>`).join(''));
+}
 function report(a,prefix) {
   const refs=ids=>sourceRefs(ids,a.sources);
   return `<p class="meta">Published ${esc(a.published_at)} · Updated ${esc(a.updated_at)}<br>Evidence cutoff ${esc(a.cutoff_at)} · ${a.regions.map(r=>esc(regions[r])).join(' · ')}<br>Topics: ${a.topics.map(t=>esc('#'+t)).join(', ')}</p>${a.material_reason?`<aside class="notice"><b>Why this is material</b><p>${esc(a.material_reason)}</p></aside>`:''}`+
@@ -75,12 +104,23 @@ export function build(now=new Date()) {
   const promo=validatePromotions(json('content/promotions.json'),now);
   const issues=json('issues.json').issues;
   check(Array.isArray(issues)&&issues.length,'Legacy issue index is empty');
-  for(const i of issues) check(/^issues\/\d{4}\/\d{2}\/[\w-]+\/(?:[\w-]+\/)?$/.test(i.path),'Unsafe legacy issue path');
+  for(const i of issues) {
+    check(/^issues\/\d{4}\/\d{2}\/[\w-]+\/(?:[\w-]+\/)?$/.test(i.path),'Unsafe legacy issue path');
+    check(Number.isInteger(i.number)&&i.number>0&&/^\d{4}-\d{2}-\d{2}$/.test(i.date)&&Number.isFinite(Date.parse(i.date))&&typeof i.title==='string'&&typeof i.status==='string','Invalid legacy issue metadata');
+  }
+  issues.sort((a,b)=>b.date.localeCompare(a.date)||b.number-a.number);
   // Delete only this fixed build directory, never a caller-supplied path.
   check(path.dirname(out)===root && path.basename(out)==='dist','Unsafe build output');
   rmSync(out,{recursive:true,force:true}); mkdirSync(out);
   const copyFile=p=>{check(!lstatSync(path.join(root,p)).isSymbolicLink(),'Symlinks are not public inputs');write(p,read(p));};
   for(const p of ['.nojekyll','issues.json']) copyFile(p);
+  for(const name of ['index.html','style.css','core.mjs','ui.mjs']) {
+    const src='tools/ai-trade-research/site/'+name;
+    check(lstatSync(path.join(root,src)).isFile(),'AI Trade Research public inputs must be regular files');
+    write('ai-trade-research/'+name,read(src));
+  }
+  write('ai-trade-research/deployment.json',JSON.stringify({repository:'Devilz13/daily-equity-decision-loop'}));
+
   for(const name of readdirSync(path.join(root,'assets'))) if(/\.(css|js|svg|png|jpg|webp)$/.test(name)) {
     // Existing assets are text; binary assets must be explicitly added to the copy contract.
     check(/\.(css|js|svg)$/.test(name),'Review binary asset before adding it');copyFile('assets/'+name);
@@ -89,8 +129,8 @@ export function build(now=new Date()) {
     check(!html.includes('data-editorial-shell'),'Do not commit generated output over source editions');
     return html.replace('</head>',`<link rel="stylesheet" href="${prefix}assets/editorial.css"></head>`).replace(/<body([^>]*)>/,`<body$1><div data-editorial-shell class="legacy-editorial-shell"><div class="wrap">${navigation(prefix)}${facets(prefix)}</div></div>`);
   };
-  write('index.html',inject(read('index.html'),''));
-  // Explicit public-library allowlist: never recursively publish source directories.
+  write('index.html',inject(homePage(read('index.html'),issues),''));
+  // Explicit investor-library allowlist; never recursively publish private source directories.
   check(!lstatSync(path.join(root,'investors')).isSymbolicLink(),'Investor directory symlinks forbidden');
   write('investors/index.html',inject(read('investors/index.html'),'../'));
   for(const p of ['investors/investors.js','investors/portfolios.json']) copyFile(p);
@@ -154,7 +194,11 @@ export function build(now=new Date()) {
   const corrections=articles.flatMap(a=>a.corrections.map(c=>({a,c}))).sort((a,b)=>Date.parse(b.c.at)-Date.parse(a.c.at));
   put('corrections/','Corrections & updates','What changed, when, and why.',
     corrections.length?corrections.map(({a,c})=>`<article class="evidence-block"><h2>${link('../reports/'+a.id+'/',a.title)}</h2><time>${esc(c.at)}</time><p>${esc(c.reason)}: ${esc(c.change)}</p></article>`).join(''):'<div class="empty"><b>No corrections recorded for the new desk reports.</b><p>This register covers the new editorial collection. Historical corrections and redactions remain labelled within their original editions; they have not been retrospectively audited.</p></div>');
-  for(const a of articles) put('reports/'+a.id+'/',a.title,a.summary,report(a,'../../'));
+  for(const a of articles) {
+    const r='reports/'+a.id+'/';
+    const html=page(r,a.title,a.summary,eveningPanels(a)+report(a,'../../'));
+    write(r+'index.html',sessionKey(a)?html.replace('</head>',sessionMarker(a)+'</head>'):html);
+  }
   write('data/articles.json',JSON.stringify(articles,null,2)+'\n');
   write('data/promotions.json',JSON.stringify(promo,null,2)+'\n');
   console.log(`Built public site: ${issues.length} preserved editions, ${articles.length} reviewed reports, ${promo.offers.length} offers, ${promo.cards.length} cards. Build date ${sgDate(now)} SGT.`);

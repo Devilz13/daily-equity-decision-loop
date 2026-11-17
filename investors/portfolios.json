@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-11-17",
   "disclosure_note": "13F snapshot of reportable US securities as of June 30, 2026, filed August 14, 2026. Not live holdings, not full portfolios, not a trading feed. Weights are a percentage of reported 13F value and may include different share classes, warrants or unusual securities. No private DEDL mechanics or owner data. Holdings with null values are intentionally withheld pending line-by-line SEC verification; totals can be confirmed independently of the constituent rows.",
   "future_updates": "Append future quarter records only after verifying an SEC filing. Keep original snapshots immutable in version history; compare share counts, not fluctuations in reported market value. Add more investors by appending their objects. Do not infer a person's motive from an individual position.",
   "investors": [
