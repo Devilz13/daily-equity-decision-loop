@@ -150,3 +150,9 @@ Prepared canonical Issue 65, plus strategic coverage of Exercise Trident, report
 Base `56c7e83c8e1f8492e1e59629655d9c892d09f0d7`. [Issue 065 deployment run](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/43985553027) verified key `65:2026-11-17:2026-11-17-v1` and accepted Telegram message 76 at 08:11:31 SGT. The morning US close and Asia opening catch-ups were web-only; the Singapore open had no separate session message.
 
 Prepared `europe/2026-11-17/open` for 15:00 SGT; LSE regular cash open 16:00 SGT (08:00 GMT). Monday final cash closes and Tuesday indicative futures are separate. No synchronized European sector panel. Verify exact deployed report and accepted receipt before any recovery. The next distinct due reports are Singapore close, Asia close and evening watch.
+
+## 17 November — Singapore close, evidence 2026-11-17T10:04:24Z
+
+Base `8aabf5d01312604054f632c79f369cfd08268fbc`. The [London pre-open run](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44035354385) deployed the exact report and accepted `europe/2026-11-17/open` as Telegram message 77 at 15:00:56 SGT, before cash open. Daily Issue 065 receipt 76 remains unchanged.
+
+Prepared `singapore/2026-11-17/close` for 18:16 SGT after SGX Trade at Close ended at 17:16. A vendor daily STI row is provisional pending a matching final print; dated morning breadth is separate. No synchronized closing sector panel. October export figures and US licensing/Singapore ministry statements are cited. Verify the exact live report and accepted receipt. Asia close and the distinct evening global watch follow at 19:00 SGT.

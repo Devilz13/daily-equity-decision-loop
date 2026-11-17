@@ -1,5 +1,404 @@
 [
   {
+    "id": "2026-11-17-singapore-close",
+    "title": "Singapore close: STI weaker as exports surge and chip rules come into focus",
+    "summary": "Available 17 November quotes point to a weaker STI. Yahoo’s daily row shows 5,131.97 (−0.99% versus Monday), but the final print lacks matching confirmation. October non-oil export growth was strong and uneven; the impact of new US chip rules remains under assessment.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-17T10:04:24Z",
+    "updated_at": "2026-11-17T10:04:24Z",
+    "cutoff_at": "2026-11-17T10:04:24Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "clock",
+        "title": "Equity trading hours and Trade at Close (observed 17 November)",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "sgx",
+        "title": "09:32 SGT STI and market activity snapshot",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/?lightbox=4bc4f9dc-5f05-11ef-937a-5a8fa2d4e9ec",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "sti",
+        "title": "17 November STI daily row",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ESTI/history/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "conflict",
+        "title": "Alternative market snapshot published before final trading phase",
+        "publisher": "Business Upturn",
+        "url": "https://businessupturn.com/asia/southeast-asia/singapore/singapore-stocks-fall-as-straits-times-index-retreats-1-36/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "trade",
+        "title": "October NODX and product breakdown",
+        "publisher": "CNA citing Enterprise Singapore",
+        "url": "https://www.channelnewsasia.com/singapore/nodx-october-electronics-pharmaceuticals-us-china-6557476",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "mddi",
+        "title": "Singapore joint ministry statement on US semiconductor rule",
+        "publisher": "MDDI / METI",
+        "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "bis",
+        "title": "US rule addressing remote use of advanced computing",
+        "publisher": "US BIS",
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "reuters",
+        "title": "Asian equity and futures snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "nv",
+        "title": "Third-quarter results call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "ons",
+        "title": "October 2026 UK CPI release calendar",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T10:04:24Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX’s regular Trade at Close phase runs 17:06–17:16 SGT when an eligible closing-auction price exists; 18:16 SGT is the closing alert target.",
+        "kind": "fact",
+        "source_ids": [
+          "clock"
+        ]
+      },
+      {
+        "text": "Yahoo’s 17 November daily row lists the STI close at 5,131.97 versus 5,183.18 on 16 November, a drop of 51.21 points (0.99%). The row had no volume. An alternative lower number was published at 16:55 SGT, before the closing phase ended, and cannot establish the final close. No matching independent final print or closing breadth verified.",
+        "kind": "estimate",
+        "source_ids": [
+          "sti",
+          "conflict",
+          "clock"
+        ]
+      },
+      {
+        "text": "SGX’s 09:32 SGT snapshot showed 5,145.40 (−0.73%), with 94 advancers and 206 decliners. This was morning breadth, not closing breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx"
+        ]
+      },
+      {
+        "text": "CNA, citing Enterprise Singapore, reported that October NODX rose 79.8% year on year; non-electronics rose 81.9% and electronics 73.9%. Ship and boat structures added S$4.8 billion against a low base; pharmaceuticals were also a major contributor. These are trade flows, not listed-company revenue.",
+        "kind": "fact",
+        "source_ids": [
+          "trade"
+        ]
+      },
+      {
+        "text": "US BIS announced tighter controls on remote access to advanced compute on 16 November. Singapore’s joint ministry statement says specified advanced semiconductor transfers to Singapore need a licence, with a conditional carve-out for eligible US-headquartered companies or ultimate parents. The ministries are assessing implementation with firms and US authorities. No issuer-level loss, blanket ban or shipment stoppage is verified.",
+        "kind": "fact",
+        "source_ids": [
+          "bis",
+          "mddi"
+        ]
+      },
+      {
+        "text": "Reuters reported weaker Asian equities led by technology in a 17 November snapshot; regional and local closes must be validated separately.",
+        "kind": "fact",
+        "source_ids": [
+          "reuters"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The local decline coincided with softer Asian equities and news of US licensing restrictions, but the available data do not isolate either as the driver of the STI move.",
+        "transmission": "A tighter licensing path could delay some equipment deliveries or investments if customer or project eligibility changes.",
+        "alternatives": "Global de-risking, heavyweight banks and company-specific moves could explain weakness; exports reflect past deliveries and can coexist with weaker shares.",
+        "confidence": "inference",
+        "source_ids": [
+          "reuters",
+          "bis",
+          "mddi",
+          "sgx",
+          "trade"
+        ]
+      },
+      {
+        "explanation": "The export surge reflected a mix of large, uneven shipments and growth in electronics.",
+        "transmission": "Repeated increases across more product categories would support a broader external-demand reading.",
+        "alternatives": "A low base and shipment timing can lift the headline without a sustained rise in orders.",
+        "confidence": "inference",
+        "source_ids": [
+          "trade"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Licensing frictions persist",
+        "outcome": "Project or shipment timelines drift for businesses exposed to covered hardware.",
+        "trigger": "A company reports a delay, higher compliance cost or changed end-user access.",
+        "invalidation": "Licences or carve-outs preserve delivery timelines and utilization.",
+        "horizon": "Next issuer disclosures and licensing notices",
+        "source_ids": [
+          "bis",
+          "mddi"
+        ]
+      },
+      {
+        "name": "Exports prove more durable",
+        "outcome": "Electronics and industrial demand broaden beyond the day’s weaker equity signal.",
+        "trigger": "Repeated shipment gains and stronger issuer orders extend beyond vessel and pharma timing.",
+        "invalidation": "Gains reverse when unusual shipments and base effects fall away.",
+        "horizon": "Next monthly trade release and corporate updates",
+        "source_ids": [
+          "trade"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA Q3 results call and forward guidance",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Management quantifies restricted demand, shipment timing or customer access effects.",
+        "contradicts": "No supported evidence of a change to shipments or guidance attributable to the rule.",
+        "source_ids": [
+          "nv",
+          "bis"
+        ]
+      },
+      {
+        "signal": "Next SGX cash session: verify final prior close and bank, REIT and technology breadth",
+        "due_at": "2026-11-18T01:00:00Z",
+        "confirms": "Matching close records and broad participation corroborate the market direction.",
+        "contradicts": "Official data revise the provisional close or participation is narrow.",
+        "source_ids": [
+          "clock",
+          "sti",
+          "sgx"
+        ]
+      },
+      {
+        "signal": "October UK CPI release and cross-market rate response",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Sterling and gilts reprice alongside listed rate-sensitive groups.",
+        "contradicts": "Price and rates response fades or local exposures decouple.",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T10:04:24Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX",
+          "status": "verified-session",
+          "source_ids": [
+            "clock",
+            "sgx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Weak local equity tone; closing breadth unavailable.",
+        "indicators": "SGX’s 09:32 SGT decliners exceeded advancers. Yahoo’s daily row also implies a decline. No independently matched final close, closing turnover, verified volatility or flow series.",
+        "source_ids": [
+          "sgx",
+          "sti",
+          "conflict"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "The chip licensing rule is verified; no SG technology group return was verified.",
+          "implication": "Covered deliveries and end-user checks may affect project execution.",
+          "watchpoint": "Look for documented changes to shipment timing or licensing.",
+          "source_ids": [
+            "bis",
+            "mddi"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized communications marks.",
+          "implication": "Data traffic demand and hosting capacity are separate risks.",
+          "watchpoint": "Compare telecom and infrastructure disclosures.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No discretionary group closing return verified.",
+          "implication": "Exports are not a direct measure of household spending.",
+          "watchpoint": "Check domestic sales and breadth in local retail.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No staples group closing return verified.",
+          "implication": "The STI snapshot cannot establish defensive rotation.",
+          "watchpoint": "Compare several staples shares against the broad market.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized local energy group or commodity closing sample.",
+          "implication": "Freight and fuel can affect producers, refiners and buyers differently.",
+          "watchpoint": "Check dated crude and refined-product marks separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized closing bank basket.",
+          "implication": "Index weights can obscure broader participation.",
+          "watchpoint": "Check DBS, OCBC and UOB against the broader index.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Pharmaceutical shipments materially contributed to exports; local group closing return unavailable.",
+          "implication": "Shipments do not establish issuer earnings or care demand.",
+          "watchpoint": "Check repeat volumes and firm-level evidence.",
+          "source_ids": [
+            "trade"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Ship and boat structures helped lift exports; no aggregate industrials closing mark.",
+          "implication": "Shipment timing can dominate one monthly comparison.",
+          "watchpoint": "Look for new orders and recurring deliveries.",
+          "source_ids": [
+            "trade"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No materials group closing return verified.",
+          "implication": "Global cyclicals and input costs matter, but no local basket move can be inferred.",
+          "watchpoint": "Compare materials names against dated regional commodity data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized SGX real estate and REIT closing sample.",
+          "implication": "Funding and occupancy matter independently of daily equity direction.",
+          "watchpoint": "Check multiple REITs against dated SGD rates.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No utilities closing basket verified.",
+          "implication": "Power demand from new data centres depends on actual project timing.",
+          "watchpoint": "Look for signed offtake or project commissioning updates.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Comparable controls may affect projects across multiple ASEAN markets.",
+          "trigger": "Country or operator guidance confirms restricted deployment or delay.",
+          "invalidation": "Trusted access channels preserve commissioning schedules.",
+          "source_ids": [
+            "mddi",
+            "bis"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Sustained broad shipment growth could support a firmer external-demand view despite mixed equities.",
+          "trigger": "Growth persists across multiple export groups and is reflected in European orders.",
+          "invalidation": "Uneven vessel or pharmaceutical shipments account for most of the improvement.",
+          "source_ids": [
+            "trade"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "NVIDIA’s guidance can help distinguish order demand from licensing and delivery constraints.",
+          "trigger": "The company identifies a measurable change in shipments, guidance or customer access.",
+          "invalidation": "Guidance and shipment evidence do not corroborate a material change.",
+          "source_ids": [
+            "nv",
+            "bis"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-europe-open",
     "title": "London pre-open: UK jobs data meets a weaker global equity lead",
     "summary": "Monday’s FTSE 100 fell 0.1% and the FTSE 250 fell 0.4%. Tuesday’s indicative FTSE futures were lower in the Reuters Asia snapshot. Watch whether sterling, gilts and domestic shares confirm a UK jobs-driven move after the 07:00 GMT release.",
