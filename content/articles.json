@@ -1,5 +1,968 @@
 [
   {
+    "id": "2026-11-17-evening-global-watch",
+    "title": "Evening global watch: chip licensing, divergent Asian markets and UK pay growth",
+    "summary": "The Nikkei fell 1.34%, while Indian benchmarks rose in Reuters’ closing report. UK unemployment and regular pay growth both eased from the prior overlapping period. Watch NVIDIA guidance, UK CPI and the Fed minutes for confirmation across markets.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore",
+      "europe",
+      "us"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-17T11:06:57Z",
+    "updated_at": "2026-11-17T11:06:57Z",
+    "cutoff_at": "2026-11-17T11:06:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ap",
+        "title": "16 November US cash close",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2e6a9c41b6336e9240c1b01585d20cd4",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "jp",
+        "title": "Nikkei cash close, 17 November",
+        "publisher": "News On Japan",
+        "url": "https://newsonjapan.com/article/151414.php",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "region",
+        "title": "Asia market snapshot and early futures",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Tokyo exchange market holidays, checked 17 November",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "in",
+        "title": "India cash close and sector breadth, 17 November",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-track-muted-start-global-cues-weaken-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "indiaft",
+        "title": "Vendor India historical row, timing unconfirmed",
+        "publisher": "Financial Times market data",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=NIFTY%3ANSI",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "indiay",
+        "title": "Vendor India historical row, timing unconfirmed",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/history/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "bis",
+        "title": "US rule addressing remote access to advanced computing",
+        "publisher": "US BIS",
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "mddi",
+        "title": "Joint ministry statement on US chip controls",
+        "publisher": "MDDI / METI",
+        "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sgtrade",
+        "title": "October NODX breakdown",
+        "publisher": "CNA citing Enterprise Singapore",
+        "url": "https://www.channelnewsasia.com/singapore/nodx-october-electronics-pharmaceuticals-us-china-6557476",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sg",
+        "title": "Singapore close; provisional STI and dated breadth",
+        "publisher": "DEDL (source-linked)",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "ons",
+        "title": "November UK labour-market bulletin",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/november2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "uk",
+        "title": "London pre-open, dated prior close and futures",
+        "publisher": "DEDL (source-linked)",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-europe-open/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "quant",
+        "title": "16 November 16:10 EST sector estimates, summarized in the morning edition",
+        "publisher": "Quantisnow / DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "nv",
+        "title": "Third-quarter results call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October UK CPI release",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "fed",
+        "title": "November policy calendar and minutes",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "SEC EDGAR filer submissions: Altimeter Capital Management, LP",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "filing1541617",
+        "title": "Original September 13F-HR: Altimeter Capital Management, LP",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000010/0001541617-26-000010-index.html",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "cerebras",
+        "title": "Altimeter Cerebras Schedule 13G amendment",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000011/0001541617-26-000011-index.html",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "SEC EDGAR filer submissions: Himalaya Capital Management LLC",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "filing1709323",
+        "title": "Original September 13F-HR: Himalaya Capital Management LLC",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1709323/000204358526000030/0002043585-26-000030-index.html",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "SEC EDGAR filer submissions: TCI Fund Management Ltd",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "filing1647251",
+        "title": "Original September 13F-HR: TCI Fund Management Ltd",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1647251/000164725126000011/0001647251-26-000011-index.html",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "SEC EDGAR filer submissions: Valley Forge Capital Management, LP",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "filing1697868",
+        "title": "Original September 13F-HR: Valley Forge Capital Management, LP",
+        "publisher": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1697868/000169786826000007/0001697868-26-000007-index.html",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "US prior cash session, 16 November: S&P 500 −1.9% and Nasdaq Composite −2.5%, per AP’s closing data. The 17 November US cash session had not opened at this cutoff; no Tuesday US cash returns are claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "The Nikkei 225 closed at 58,860.43 (−1.34%) at 15:30 JST (14:30 SGT), per the dated Japan closing report. Reuters’ earlier regional coverage showed weakness in South Korea and Taiwan; no comparable final close for those two, mainland China, Hong Kong or other ASEAN markets was independently verified for this report.",
+        "kind": "fact",
+        "source_ids": [
+          "jp",
+          "region",
+          "jpx"
+        ]
+      },
+      {
+        "text": "Reuters’ 17 November closing report put the Nifty 50 at 25,387.40 (+0.38%) and the Sensex at 82,532.19 (+0.52%). FT and Yahoo showed different Nifty daily rows without matching observation times; the exact Nifty print remains source-attributed pending official confirmation. Reuters also reported Bank Nifty +1.1%, broader small caps −0.2% and mid-caps about +0.3%.",
+        "kind": "fact",
+        "source_ids": [
+          "in",
+          "indiaft",
+          "indiay"
+        ]
+      },
+      {
+        "text": "The US announced tighter controls on 16 November. Singapore’s ministries say covered advanced semiconductor transfers to Singapore require licensing, with a conditional carve-out for eligible US-headquartered companies or ultimate parents. Potential project or customer impacts remain under assessment; no confirmed shutdown or issuer loss.",
+        "kind": "fact",
+        "source_ids": [
+          "bis",
+          "mddi"
+        ]
+      },
+      {
+        "text": "Singapore October non-oil domestic exports rose 79.8% year on year, with electronics up 73.9% and substantial vessel and pharmaceutical shipments. That does not establish broad issuer revenue growth. The Singapore close report marks its STI number provisional.",
+        "kind": "fact",
+        "source_ids": [
+          "sgtrade",
+          "sg"
+        ]
+      },
+      {
+        "text": "The 17 November ONS report put UK unemployment at 4.6% for July–September, versus 4.7% in the overlapping June–August window; annual regular pay growth was 3.5% versus 3.7%. The two series do not, by themselves, prescribe a Bank of England decision.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      {
+        "text": "London cash remained in progress at cutoff. The earlier London briefing used Monday final cash figures and Tuesday indicative futures; no synchronized Tuesday European cash sector panel was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "uk"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The US prior-session sector split and Asian technology weakness are consistent with a repricing of growth exposure.",
+        "transmission": "Watch whether guidance changes earnings and capacity expectations in the wider supply chain.",
+        "alternatives": "Rates, index weights and local policy can drive divergences; India and Singapore cannot be read as a single bloc.",
+        "confidence": "inference",
+        "source_ids": [
+          "ap",
+          "quant",
+          "region",
+          "in",
+          "mddi"
+        ]
+      },
+      {
+        "explanation": "UK regular pay slowed while unemployment eased on overlapping windows.",
+        "transmission": "A rates interpretation needs agreement between short gilt yields, sterling and domestic equity breadth.",
+        "alternatives": "Differences in survey and pay coverage, or broader risk moves, can obscure the labour signal.",
+        "confidence": "inference",
+        "source_ids": [
+          "ons",
+          "uk"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Chip weakness broadens",
+        "outcome": "Suppliers and customers show confirmation of slower conversion or lower utilization.",
+        "trigger": "NVIDIA guidance or issuer follow-ups quantify delays, restricted demand or weaker deliveries.",
+        "invalidation": "Strong guidance and stable delivery schedules are joined by broader supplier gains.",
+        "horizon": "18 November SGT and issuer follow-ups",
+        "source_ids": [
+          "nv",
+          "mddi",
+          "bis"
+        ]
+      },
+      {
+        "name": "UK price data reinforce disinflation",
+        "outcome": "A coherent gilt and sterling response supports a repricing of expected UK policy.",
+        "trigger": "Services prices ease and the front of the yield curve declines alongside sterling.",
+        "invalidation": "Sticky services inflation or a reversal in front-end yields weakens the case.",
+        "horizon": "18 November CPI and subsequent cash session",
+        "source_ids": [
+          "ons",
+          "cpi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA Q3 guidance and conference call: 18 November 06:00 SGT (17 November 14:00 PST)",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Management ties shipment timing, customer access, financing or margins to dated commitments.",
+        "contradicts": "No measurable effect, or the market moves narrowly without supplier confirmation.",
+        "source_ids": [
+          "nv",
+          "mddi"
+        ]
+      },
+      {
+        "signal": "UK October CPI: 18 November 15:00 SGT (07:00 GMT)",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "Services prices and front-end rates corroborate the UK pay signal.",
+        "contradicts": "Rates reverse or price pressures remain persistent.",
+        "source_ids": [
+          "ons",
+          "cpi"
+        ]
+      },
+      {
+        "signal": "FOMC minutes: 19 November 03:00 SGT (18 November 14:00 EST)",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "The policy discussion shifts yields and market breadth in a coherent direction.",
+        "contradicts": "Yields and broad participation show little sustained response.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T11:06:57Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-17",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -3.03% (market-cap-weighted constituent estimate; not an official sector index). Reuters reported Asian technology weakness, with licensing scope a separate driver from demand. No same-time global sector return verified.",
+          "source_ids": [
+            "quant",
+            "region",
+            "bis"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -2.97% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -2.15% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: +0.35% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -2.08% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -0.87% (market-cap-weighted constituent estimate; not an official sector index). Reuters’ India close reported Bank Nifty +1.1%; this is an Indian index, not an Asian return. No same-time global sector return verified.",
+          "source_ids": [
+            "quant",
+            "in"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -0.47% (market-cap-weighted constituent estimate; not an official sector index). Singapore pharma shipments contributed to exports, not a sector close. No same-time global sector return verified.",
+          "source_ids": [
+            "quant",
+            "sgtrade"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -1.78% (market-cap-weighted constituent estimate; not an official sector index). Singapore vessel deliveries materially lifted the export headline; output timing limits extrapolation. No same-time global sector return verified.",
+          "source_ids": [
+            "quant",
+            "sgtrade"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -1.50% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: -0.28% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "US 16 Nov at 16:10 EST: +0.16% (market-cap-weighted constituent estimate; not an official sector index). No same-time global sector return verified.",
+          "source_ids": [
+            "quant"
+          ]
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP: latest 13F-HR remains 30 September 2026, filed 16 November 2026. Morning comparison with 30 June showed Uber shares 7,372,440 to 8,807,790. This is a filing comparison; timing and intent of trades are unknown. Separate 16 November Schedule 13G/A: the manager reported 5,953,504 Cerebras Class A shares (3.7%) as of 30 September; the percentage denominator is issuer shares outstanding at 5 November. Do not sum overlapping reporting persons. No archive edit.",
+          "source_ids": [
+            "sec1541617",
+            "filing1541617",
+            "cerebras"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC: latest 13F-HR remains 30 September 2026, filed 16 November 2026. Morning comparison with 30 June showed Tencent Music reported quantity 6,590,836 to 14,824,464. This is a filing comparison; timing and intent of trades are unknown. No archive edit.",
+          "source_ids": [
+            "sec1709323",
+            "filing1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd: latest 13F-HR remains 30 September 2026, filed 16 November 2026. Morning comparison with 30 June showed Canadian Pacific Kansas City shares 45,325,726 to 44,469,458. This is a filing comparison; timing and intent of trades are unknown. No archive edit.",
+          "source_ids": [
+            "sec1647251",
+            "filing1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP: latest 13F-HR remains 30 September 2026, filed 16 November 2026. Morning comparison with 30 June showed Mastercard shares 1,065,934 to 169,513. This is a filing comparison; timing and intent of trades are unknown. No archive edit.",
+          "source_ids": [
+            "sec1697868",
+            "filing1697868"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-17-asia-close",
+    "title": "Asia close: Japan fell while India bucked the regional selloff",
+    "summary": "Nikkei 225 closed 1.34% lower. Reuters reported Nifty 50 up 0.38%, led by banks; other feeds disagree on the exact index level. Chip licensing, earnings guidance and uneven Singapore exports are the next cross-market checks.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-17T11:06:57Z",
+    "updated_at": "2026-11-17T11:06:57Z",
+    "cutoff_at": "2026-11-17T11:06:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nse",
+        "title": "NSE market timings and holidays, checked 17 November",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/resources/exchange-communication-holidays?article_id=432919950.0",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Tokyo exchange market holidays, checked 17 November",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "in",
+        "title": "India cash close and sector breadth, 17 November",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-track-muted-start-global-cues-weaken-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "jp",
+        "title": "Nikkei cash close, 17 November",
+        "publisher": "News On Japan",
+        "url": "https://newsonjapan.com/article/151414.php",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "region",
+        "title": "Asia market snapshot and early futures",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "indiaft",
+        "title": "Vendor India historical row, timing unconfirmed",
+        "publisher": "Financial Times market data",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=NIFTY%3ANSI",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "indiay",
+        "title": "Vendor India historical row, timing unconfirmed",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ENSEI/history/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "bis",
+        "title": "US rule addressing remote access to advanced computing",
+        "publisher": "US BIS",
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "mddi",
+        "title": "Joint ministry statement on US chip controls",
+        "publisher": "MDDI / METI",
+        "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sgtrade",
+        "title": "October NODX breakdown",
+        "publisher": "CNA citing Enterprise Singapore",
+        "url": "https://www.channelnewsasia.com/singapore/nodx-october-electronics-pharmaceuticals-us-china-6557476",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "sg",
+        "title": "Singapore close; provisional STI and dated breadth",
+        "publisher": "DEDL (source-linked)",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      },
+      {
+        "id": "nv",
+        "title": "Third-quarter results call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T11:06:57Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NSE regular cash trading closes at 15:30 IST (18:00 SGT); 17 November was a regular trading day. The 19:00 SGT alert follows that anchor. Japan closes earlier and Singapore uses a separate report.",
+        "kind": "fact",
+        "source_ids": [
+          "nse",
+          "jpx",
+          "in"
+        ]
+      },
+      {
+        "text": "The Nikkei 225 closed at 58,860.43 (−1.34%) at 15:30 JST (14:30 SGT), per the dated Japan closing report. Reuters’ earlier regional coverage showed weakness in South Korea and Taiwan; no comparable final close for those two, mainland China, Hong Kong or other ASEAN markets was independently verified for this report.",
+        "kind": "fact",
+        "source_ids": [
+          "jp",
+          "region",
+          "jpx"
+        ]
+      },
+      {
+        "text": "Reuters’ 17 November closing report put the Nifty 50 at 25,387.40 (+0.38%) and the Sensex at 82,532.19 (+0.52%). FT and Yahoo showed different Nifty daily rows without matching observation times; the exact Nifty print remains source-attributed pending official confirmation. Reuters also reported Bank Nifty +1.1%, broader small caps −0.2% and mid-caps about +0.3%.",
+        "kind": "fact",
+        "source_ids": [
+          "in",
+          "indiaft",
+          "indiay"
+        ]
+      },
+      {
+        "text": "The US announced tighter controls on 16 November. Singapore’s ministries say covered advanced semiconductor transfers to Singapore require licensing, with a conditional carve-out for eligible US-headquartered companies or ultimate parents. Potential project or customer impacts remain under assessment; no confirmed shutdown or issuer loss.",
+        "kind": "fact",
+        "source_ids": [
+          "bis",
+          "mddi"
+        ]
+      },
+      {
+        "text": "Singapore October non-oil domestic exports rose 79.8% year on year, with electronics up 73.9% and substantial vessel and pharmaceutical shipments. That does not establish broad issuer revenue growth. The Singapore close report marks its STI number provisional.",
+        "kind": "fact",
+        "source_ids": [
+          "sgtrade",
+          "sg"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Tech weakness in Japan coincided with tighter chip-access rules and caution ahead of NVIDIA’s results.",
+        "transmission": "Covered cloud capacity and equipment timelines matter only if licensing changes actual orders, shipments or utilization.",
+        "alternatives": "Global valuation compression or domestic macro exposure could explain part of the move; India’s positive close shows the regional move was not uniform.",
+        "confidence": "inference",
+        "source_ids": [
+          "jp",
+          "region",
+          "in",
+          "bis",
+          "mddi"
+        ]
+      },
+      {
+        "explanation": "Indian banks outperformed while smaller Indian names lagged.",
+        "transmission": "Local bank participation helps explain positive large-cap benchmarks despite weaker regional technology.",
+        "alternatives": "A concentrated move or positioning effect could reverse without sustained wider participation.",
+        "confidence": "inference",
+        "source_ids": [
+          "in"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Chip weakness broadens",
+        "outcome": "Suppliers and customers show confirmation of slower conversion or lower utilization.",
+        "trigger": "NVIDIA guidance or issuer follow-ups quantify delays, restricted demand or weaker deliveries.",
+        "invalidation": "Strong guidance and stable delivery schedules are joined by broader supplier gains.",
+        "horizon": "18 November SGT and issuer follow-ups",
+        "source_ids": [
+          "nv",
+          "mddi",
+          "bis"
+        ]
+      },
+      {
+        "name": "India holds a different trajectory",
+        "outcome": "Banks support larger names while broader regional risk remains mixed.",
+        "trigger": "Bank strength persists and mid- and small-cap participation improves.",
+        "invalidation": "Small-cap weakness spreads and banks reverse.",
+        "horizon": "Next India cash session",
+        "source_ids": [
+          "in"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA Q3 guidance and conference call: 18 November 06:00 SGT (17 November 14:00 PST)",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Management ties shipment timing, customer access, financing or margins to dated commitments.",
+        "contradicts": "No measurable effect, or the market moves narrowly without supplier confirmation.",
+        "source_ids": [
+          "nv",
+          "mddi"
+        ]
+      },
+      {
+        "signal": "Next regular NSE cash open: 18 November 11:45 SGT (09:15 IST)",
+        "due_at": "2026-11-18T03:45:00Z",
+        "confirms": "Official prior closing records reconcile, and gains broaden beyond banks.",
+        "contradicts": "Closing discrepancies persist or banks reverse without broader participation.",
+        "source_ids": [
+          "nse",
+          "in"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T11:06:57Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "National Stock Exchange of India",
+          "status": "verified-session",
+          "source_ids": [
+            "nse",
+            "in"
+          ]
+        },
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "jp"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Risk appetite differed by market.",
+        "indicators": "Japan’s Nikkei fell while Reuters reported rising Indian large caps and falling small caps. This is not a synchronized regional breadth, volume, volatility or fund-flow measure.",
+        "source_ids": [
+          "jp",
+          "in",
+          "region"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "AI-exposed shares weakened in the Reuters regional snapshot. No regional sector close.",
+          "implication": "Licensing and actual demand are separate risks.",
+          "watchpoint": "Check guidance and equipment breadth.",
+          "source_ids": [
+            "region",
+            "bis",
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Reuters noted Alibaba and Baidu weakness in its snapshot; not a sector close.",
+          "implication": "Cloud exposure could matter alongside advertising and telecom.",
+          "watchpoint": "Check same-session participation beyond two names.",
+          "source_ids": [
+            "region"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Comparable autos, retail and travel closing basket unavailable.",
+          "implication": "Export growth does not identify domestic spending.",
+          "watchpoint": "Check breadth across those groups.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No comparable staples basket.",
+          "implication": "Relative resilience would be consistent with defensive positioning.",
+          "watchpoint": "Check defensive breadth against the next broad index print.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No comparable producer basket or synchronized end-of-session oil mark.",
+          "implication": "Importers and producers may react differently to a price change.",
+          "watchpoint": "Check dated oil and refiner marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Reuters reported Bank Nifty +1.1% and Indian financials +0.6%; no pan-Asia return.",
+          "implication": "Indian bank leadership helps explain local divergence.",
+          "watchpoint": "Check persistence beyond large banks.",
+          "source_ids": [
+            "in"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Singapore pharma shipments helped lift October exports; no sector closing return.",
+          "implication": "Product shipments do not establish recurring issuer revenue.",
+          "watchpoint": "Check repeat deliveries and guidance.",
+          "source_ids": [
+            "sgtrade"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Singapore vessel structures helped lift October exports; no comparable sector close.",
+          "implication": "Delivery timing may overstate demand growth.",
+          "watchpoint": "Check order backlog and recurring shipments.",
+          "source_ids": [
+            "sgtrade"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Reuters cited weak LME copper during its snapshot; no Asian miner basket close.",
+          "implication": "A demand interpretation needs corroboration from miners and orders.",
+          "watchpoint": "Check materials breadth against timestamped metals.",
+          "source_ids": [
+            "region"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized regional property or REIT marks.",
+          "implication": "Debt costs and property exposure differ by country.",
+          "watchpoint": "Check property and REIT breadth against yields.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized regional utilities marks.",
+          "implication": "Future computing load depends on commissioning rather than orders alone.",
+          "watchpoint": "Check utility and grid guidance.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Covered semiconductor and data-centre investment may face added licensing work.",
+          "trigger": "Local operators quantify delays or altered shipments.",
+          "invalidation": "Trusted access and exemptions maintain schedules.",
+          "source_ids": [
+            "mddi",
+            "bis"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Tech and materials selling could persist into European stocks.",
+          "trigger": "European suppliers participate in broader losses.",
+          "invalidation": "Supplier breadth stabilizes while Asia remains weaker.",
+          "source_ids": [
+            "region",
+            "jp"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian weakness raises the bar for earnings to stabilize hardware sentiment.",
+          "trigger": "US sector breadth and guidance agree with weaker orders or conversion.",
+          "invalidation": "Robust guidance and broad supplier participation offset the Asian lead.",
+          "source_ids": [
+            "region",
+            "nv"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-singapore-close",
     "title": "Singapore close: STI weaker as exports surge and chip rules come into focus",
     "summary": "Available 17 November quotes point to a weaker STI. Yahoo’s daily row shows 5,131.97 (−0.99% versus Monday), but the final print lacks matching confirmation. October non-oil export growth was strong and uneven; the impact of new US chip rules remains under assessment.",

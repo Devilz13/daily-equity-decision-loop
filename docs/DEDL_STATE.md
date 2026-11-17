@@ -156,3 +156,9 @@ Prepared `europe/2026-11-17/open` for 15:00 SGT; LSE regular cash open 16:00 SGT
 Base `8aabf5d01312604054f632c79f369cfd08268fbc`. The [London pre-open run](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44035354385) deployed the exact report and accepted `europe/2026-11-17/open` as Telegram message 77 at 15:00:56 SGT, before cash open. Daily Issue 065 receipt 76 remains unchanged.
 
 Prepared `singapore/2026-11-17/close` for 18:16 SGT after SGX Trade at Close ended at 17:16. A vendor daily STI row is provisional pending a matching final print; dated morning breadth is separate. No synchronized closing sector panel. October export figures and US licensing/Singapore ministry statements are cited. Verify the exact live report and accepted receipt. Asia close and the distinct evening global watch follow at 19:00 SGT.
+
+## 17 November — Asia close and evening watch, evidence 2026-11-17T11:06:57Z
+
+Base `62ace3091d031d4b0c43c676fab278a439a823e6`. The [Singapore close](https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-singapore-close/) report marker matched; [run 44061488815](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44061488815) accepted `singapore/2026-11-17/close` as Telegram message 78 at 18:16:01 SGT. Daily Issue 065 remains delivery 76.
+
+Prepared separate `asia/2026-11-17/close` and `evening/2026-11-17/brief`; verify both live markers and distinct acceptance receipts. Reuters India close is source-attributed owing to conflicting untimed vendor rows; do not replace it with an unverified official print. US sector estimates retain their Monday basis. All four REDL SEC indexes were refreshed, including Altimeter's separate Cerebras 13G/A. No archive change. Next fresh key: `us/2026-11-17/open` (21:30 SGT, cash opens 22:30 SGT).
