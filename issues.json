@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-16",
+  "latest": "2026-11-17",
   "issues": [
+    {
+      "date": "2026-11-17",
+      "number": 65,
+      "title": "US losses spread beyond chips; Singapore trade and NVIDIA guidance in focus",
+      "status": "DATA INCOMPLETE · delayed morning edition",
+      "path": "issues/2026/11/17/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-17-v1",
+        "summary": "16 Nov US cash: S&P 500 −1.9%, Nasdaq −2.5%; selling extended beyond chips. Tokyo is open; SGX cash opens at 09:00 SGT. Watch Singapore October trade and NVIDIA guidance. Delayed morning edition; market image unavailable.",
+        "headlines": [
+          {
+            "title": "Hormuz transit risk rises",
+            "date": "16 Nov",
+            "context": "UKMTO carried incident reports and Reuters reported slower observed weekend traffic. This does not establish a formal closure or direct Singapore disruption.",
+            "source": "https://www.ukmto.org/recent-incidents"
+          },
+          {
+            "title": "CSA flags active Barracuda exploitation",
+            "date": "16 Nov",
+            "context": "Review vendor guidance, patch affected devices and check exposed management interfaces. No local victim identified in the alert.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-162/"
+          },
+          {
+            "title": "Four September REDL filings verified",
+            "date": "16 Nov ET",
+            "context": "Original September holdings tables were compared with June. They are historical snapshots and do not establish current positions or trading dates.",
+            "source": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000010/0001541617-26-000010-index.html"
+          }
+        ],
+        "market_note": "US 16 Nov cash: S&P 500 7,416.59; Nasdaq 24,509.76; Dow 51,608.17. SGX 16 Nov close: STI 5,183.18 (−0.93%). No Tuesday SGX cash print claimed. NVIDIA results around 05:20 SGT on 18 Nov.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-16",
       "number": 64,

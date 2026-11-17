@@ -1,5 +1,1024 @@
 [
   {
+    "id": "2026-11-17-barracuda-active-exploitation",
+    "title": "CSA flags active exploitation affecting Barracuda products",
+    "summary": "On 16 November CSA reported active exploitation of two Barracuda vulnerabilities that can bypass authorization or allow root access on affected devices. Check vendor version guidance, patch, review exposure and logs; the alert does not identify a compromised Singapore organization.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity",
+      "cyber-frontier"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-17T00:09:21Z",
+    "updated_at": "2026-11-17T00:09:21Z",
+    "cutoff_at": "2026-11-17T00:09:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "csa",
+        "title": "Barracuda: active exploitation warning",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-162/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "On 16 November CSA reported active exploitation of two Barracuda vulnerabilities that can bypass authorization or allow root access on affected devices. Check vendor version guidance, patch, review exposure and logs; the alert does not identify a compromised Singapore organization.",
+        "kind": "fact",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "causation": [],
+    "scenarios": [],
+    "watchpoints": [],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T00:09:21Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-17-hormuz-transit-risk",
+    "title": "Hormuz traffic slows after reported tanker incidents",
+    "summary": "On 16 November UKMTO carried reports of tanker incidents, and Reuters reported slower observed weekend transits. Vessel reports and tracking observations do not establish a formal closure or actor attribution. Rising freight or war-risk premiums could affect Asian importers; no direct Singapore disruption was verified.",
+    "channel": "conflict",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-17T00:09:21Z",
+    "updated_at": "2026-11-17T00:09:21Z",
+    "cutoff_at": "2026-11-17T00:09:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "gulf",
+        "title": "Hormuz incident register",
+        "publisher": "UKMTO",
+        "url": "https://www.ukmto.org/recent-incidents",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "flow",
+        "title": "Hormuz traffic report, 16 November",
+        "publisher": "Reuters via Gulf Times",
+        "url": "https://www.gulf-times.com/article/731298/shopping/shipping-slows-through-strait-of-hormuz-after-tanker-attacks/amp",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "oil",
+        "title": "Oil prices and recovering flows, 16 November",
+        "publisher": "Reuters via The Edge Malaysia",
+        "url": "https://theedgemalaysia.com/node/825855",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "On 16 November UKMTO carried reports of tanker incidents, and Reuters reported slower observed weekend transits. Vessel reports and tracking observations do not establish a formal closure or actor attribution. Rising freight or war-risk premiums could affect Asian importers; no direct Singapore disruption was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "gulf",
+          "flow",
+          "oil"
+        ]
+      }
+    ],
+    "causation": [],
+    "scenarios": [],
+    "watchpoints": [],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-17T00:09:21Z"
+    },
+    "material_reason": "Fresh maritime incident reports and dated traffic evidence merit a follow-up; attribution and direct local impact remain unverified."
+  },
+  {
+    "id": "2026-11-17-exercise-trident",
+    "title": "Exercise Trident highlights established Singapore–Australia training ties",
+    "summary": "MINDEF reported the defence minister’s 15 November visit to Exercise Trident in Australia. The direct Singapore relevance is continued joint training access. It is a scheduled bilateral exercise; no escalation or immediate effect on shipping, aviation or markets was established.",
+    "channel": "military",
+    "regions": [
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "short",
+    "published_at": "2026-11-17T00:09:21Z",
+    "updated_at": "2026-11-17T00:09:21Z",
+    "cutoff_at": "2026-11-17T00:09:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "mil",
+        "title": "Exercise Trident ministerial visit",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/15nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-15",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MINDEF reported the defence minister’s 15 November visit to Exercise Trident in Australia. The direct Singapore relevance is continued joint training access. It is a scheduled bilateral exercise; no escalation or immediate effect on shipping, aviation or markets was established.",
+        "kind": "fact",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "causation": [],
+    "scenarios": [],
+    "watchpoints": [],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-17T00:09:21Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-16-us-close-delayed",
+    "title": "US close catch-up: losses extend beyond chips",
+    "summary": "16 November US cash close: S&P 500 7,416.59 (−1.9%), Nasdaq Composite 24,509.76 (−2.5%), Dow 51,608.17 (−1.4%), Russell 2000 2,742.94 (−1.7%).",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-17T00:09:21Z",
+    "updated_at": "2026-11-17T00:09:21Z",
+    "cutoff_at": "2026-11-17T00:09:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Core equity trading hours and holidays",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "ap",
+        "title": "US index closes, 16 November",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2e6a9c41b6336e9240c1b01585d20cd4",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "quant",
+        "title": "US constituent estimates, 16:10 EST",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "reu",
+        "title": "Global markets, 16 November",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "nv",
+        "title": "Q3 announcement and call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "16 November US cash close: S&P 500 7,416.59 (−1.9%), Nasdaq Composite 24,509.76 (−2.5%), Dow 51,608.17 (−1.4%), Russell 2000 2,742.94 (−1.7%).",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "ap",
+          "quant",
+          "reu",
+          "nv"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The selloff in chips coincided with broader weakness in US cash equities.",
+        "transmission": "Check semiconductor suppliers and local breadth independently; index weights and yields can alter transmission.",
+        "confidence": "inference",
+        "alternatives": "Local rates, sector composition and policy news can dominate; Hong Kong’s prior-session gain is a counterexample.",
+        "source_ids": [
+          "ap",
+          "quant"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth deteriorates",
+        "outcome": "Chip pressure extends to more groups.",
+        "trigger": "Local cash breadth and non-tech groups weaken alongside chips.",
+        "invalidation": "Non-tech groups hold while only chips fall.",
+        "horizon": "Next verified local cash observation",
+        "source_ids": [
+          "ap",
+          "quant"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA results around 05:20 SGT and call at 06:00 SGT, 18 November.",
+        "due_at": "2026-11-17T21:20:00Z",
+        "confirms": "Guidance shows weakening shipments or margin pressure.",
+        "contradicts": "Firm guidance and breadth stabilize the sector.",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T00:09:21Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-16",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "New York Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Nine of eleven sector estimates were negative. Defensive groups outperformed.",
+        "indicators": "16 November US cash close: S&P 500 7,416.59 (−1.9%), Nasdaq Composite 24,509.76 (−2.5%), Dow 51,608.17 (−1.4%), Russell 2000 2,742.94 (−1.7%).",
+        "source_ids": [
+          "ap",
+          "quant"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "−3.03% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable information technology breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "−2.97% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable communication services breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "−2.15% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable consumer discretionary breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "+0.35% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable consumer staples breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "−2.08% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable energy breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "−0.87% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable financials breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "−0.47% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable health care breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "−1.78% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable industrials breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "−1.50% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable materials breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "−0.28% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable real estate breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "+0.16% in the 16:10 EST constituent-weighted snapshot, not an official sector-index return.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable utilities breadth at the next local cash observation.",
+          "source_ids": [
+            "quant"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "europe",
+          "scenario": "Compare technology against gilt and bund moves.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "ap",
+            "quant"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Check Japan and Korea chip and memory names alongside broader participation.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "ap",
+            "quant"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Separate bank, industrial and REIT reactions in SGX.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "ap",
+            "quant"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-17-asia-open-delayed",
+    "title": "Asia opening catch-up: chip pressure carries into the watchlist",
+    "summary": "Tokyo’s regular cash session opened at 08:00 SGT. No reliable 17 November opening index level was verified. The 16 November Nikkei fell 2.42%, Kospi 3.59% and Taiwan 6.03%, while Hong Kong gained 0.49%; these are prior-session observations.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-17T00:09:21Z",
+    "updated_at": "2026-11-17T00:09:21Z",
+    "cutoff_at": "2026-11-17T00:09:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "Tokyo cash trading hours",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/systems/equities-trading/index.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "jcal",
+        "title": "Tokyo market holiday calendar",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "za",
+        "title": "Asia and Singapore cash closes",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-tumble-tech-sell-dragging-sti-down-nearly-1",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "ap",
+        "title": "US index closes, 16 November",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2e6a9c41b6336e9240c1b01585d20cd4",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "nv",
+        "title": "Q3 announcement and call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Tokyo’s regular cash session opened at 08:00 SGT. No reliable 17 November opening index level was verified. The 16 November Nikkei fell 2.42%, Kospi 3.59% and Taiwan 6.03%, while Hong Kong gained 0.49%; these are prior-session observations.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "jcal",
+          "za",
+          "ap",
+          "nv"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The selloff in chips coincided with broader weakness in US cash equities.",
+        "transmission": "Check semiconductor suppliers and local breadth independently; index weights and yields can alter transmission.",
+        "confidence": "inference",
+        "alternatives": "Local rates, sector composition and policy news can dominate; Hong Kong’s prior-session gain is a counterexample.",
+        "source_ids": [
+          "za",
+          "ap"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth deteriorates",
+        "outcome": "Chip pressure extends to more groups.",
+        "trigger": "Local cash breadth and non-tech groups weaken alongside chips.",
+        "invalidation": "Non-tech groups hold while only chips fall.",
+        "horizon": "Next verified local cash observation",
+        "source_ids": [
+          "za",
+          "ap"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "NVIDIA results around 05:20 SGT and call at 06:00 SGT, 18 November.",
+        "due_at": "2026-11-17T21:20:00Z",
+        "confirms": "Guidance shows weakening shipments or margin pressure.",
+        "contradicts": "Firm guidance and breadth stabilize the sector.",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T00:09:21Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-17",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "US weakness was broad; the current Asian or Singapore breadth is not inferred from it.",
+        "indicators": "Tokyo’s regular cash session opened at 08:00 SGT. No reliable 17 November opening index level was verified. The 16 November Nikkei fell 2.42%, Kospi 3.59% and Taiwan 6.03%, while Hong Kong gained 0.49%; these are prior-session observations.",
+        "source_ids": [
+          "za",
+          "ap"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable information technology breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable communication services breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable consumer discretionary breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable consumer staples breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable energy breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable financials breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable health care breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable industrials breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable materials breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable real estate breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable utilities breadth at the next local cash observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "Check chip versus equal-weight breadth.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "za",
+            "ap"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Compare technology against gilt and bund moves.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "za",
+            "ap"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Separate bank, industrial and REIT reactions in SGX.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "za",
+            "ap"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-17-singapore-open",
+    "title": "Singapore opening watch: breadth and October trade in focus",
+    "summary": "SGX’s 09:00 SGT regular cash open was still ahead at cutoff. The STI closed 16 November at 5,183.18 (−0.93%); 363 issues fell and 220 rose. No Tuesday cash print is claimed.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-17T00:09:21Z",
+    "updated_at": "2026-11-17T00:09:21Z",
+    "cutoff_at": "2026-11-17T00:09:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgx",
+        "title": "Trading phases",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/rulebook/practice-note-131-trading-halt-and-suspension",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "za",
+        "title": "Asia and Singapore cash closes",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/asian-stocks-tumble-tech-sell-dragging-sti-down-nearly-1",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "trade",
+        "title": "October merchandise trade release date",
+        "publisher": "SingStat",
+        "url": "https://www.singstat.gov.sg/data-tools-services/advance-release-calendar",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "ap",
+        "title": "US index closes, 16 November",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2e6a9c41b6336e9240c1b01585d20cd4",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      },
+      {
+        "id": "nv",
+        "title": "Q3 announcement and call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T00:09:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX’s 09:00 SGT regular cash open was still ahead at cutoff. The STI closed 16 November at 5,183.18 (−0.93%); 363 issues fell and 220 rose. No Tuesday cash print is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "za",
+          "trade",
+          "ap",
+          "nv"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The selloff in chips coincided with broader weakness in US cash equities.",
+        "transmission": "Check semiconductor suppliers and local breadth independently; index weights and yields can alter transmission.",
+        "confidence": "inference",
+        "alternatives": "Local rates, sector composition and policy news can dominate; Hong Kong’s prior-session gain is a counterexample.",
+        "source_ids": [
+          "za",
+          "ap"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth deteriorates",
+        "outcome": "Chip pressure extends to more groups.",
+        "trigger": "Local cash breadth and non-tech groups weaken alongside chips.",
+        "invalidation": "Non-tech groups hold while only chips fall.",
+        "horizon": "Next verified local cash observation",
+        "source_ids": [
+          "za",
+          "ap"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Check official October merchandise trade and separate electronics from non-electronics.",
+        "due_at": "2026-11-17T00:30:00Z",
+        "confirms": "Release and SGX breadth corroborate the trade signal.",
+        "contradicts": "Mixed export components or contrary SGX breadth.",
+        "source_ids": [
+          "trade"
+        ]
+      },
+      {
+        "signal": "NVIDIA results around 05:20 SGT and call at 06:00 SGT, 18 November.",
+        "due_at": "2026-11-17T21:20:00Z",
+        "confirms": "Guidance shows weakening shipments or margin pressure.",
+        "contradicts": "Firm guidance and breadth stabilize the sector.",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T00:09:21Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "sgx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "US weakness was broad; the current Asian or Singapore breadth is not inferred from it.",
+        "indicators": "SGX’s 09:00 SGT regular cash open was still ahead at cutoff. The STI closed 16 November at 5,183.18 (−0.93%); 363 issues fell and 220 rose. No Tuesday cash print is claimed.",
+        "source_ids": [
+          "za",
+          "ap"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable information technology breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable communication services breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable consumer discretionary breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable consumer staples breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable energy breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable financials breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable health care breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable industrials breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable materials breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable real estate breadth at the next local cash observation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized local sector return verified.",
+          "implication": "Compare with the next local cash session before inferring persistence.",
+          "watchpoint": "Check comparable utilities breadth at the next local cash observation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "Check chip versus equal-weight breadth.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "za",
+            "ap"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Compare technology against gilt and bund moves.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "za",
+            "ap"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Check Japan and Korea chip and memory names alongside broader participation.",
+          "trigger": "Local cash evidence shows similar sector divergence.",
+          "invalidation": "The local cash tape diverges from the overnight pattern.",
+          "source_ids": [
+            "za",
+            "ap"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-16-europe-close",
     "title": "London post-close: midday blue-chip gains, final prints unverified",
     "summary": "London’s regular session ended at 16:30 GMT (00:30 SGT on 17 November). At 12:10 GMT, the FTSE 100 was up 0.3% at 10,939.35 and the FTSE 250 down 0.1%, with defence shares firmer. A verified final index print and synchronized closing sector returns were unavailable at cutoff.",
