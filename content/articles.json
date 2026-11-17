@@ -1,5 +1,423 @@
 [
   {
+    "id": "2026-11-17-europe-open",
+    "title": "London pre-open: UK jobs data meets a weaker global equity lead",
+    "summary": "Monday’s FTSE 100 fell 0.1% and the FTSE 250 fell 0.4%. Tuesday’s indicative FTSE futures were lower in the Reuters Asia snapshot. Watch whether sterling, gilts and domestic shares confirm a UK jobs-driven move after the 07:00 GMT release.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-17T06:59:39Z",
+    "updated_at": "2026-11-17T06:59:39Z",
+    "cutoff_at": "2026-11-17T06:59:39Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Trading business days",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "hours",
+        "title": "Standard Main Market hours",
+        "publisher": "London Stock Exchange Group",
+        "url": "https://www.londonstockexchange.com/en/press-releases/2026/london-stock-exchange-launch-lse-24",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "ukclose",
+        "title": "UK shares ahead of jobs and inflation",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/aerospace-defense/uks-ftse-100-nears-2-week-high-defence-stocks-offset-mining-weakness-2026-11-16/",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "asia",
+        "title": "Asian trading and indicative equity futures",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "late",
+        "title": "Monday London closing market report",
+        "publisher": "AJ Bell / Alliance News",
+        "url": "https://www.ajbell.co.uk/news/articles/late-market-roundup-ftse-100-down-us-tech-stocks-falter",
+        "type": "secondary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "ons",
+        "title": "Official release calendar: UK labour market",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/releasecalendar?page=1&release-type=type-upcoming",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October 2026 UK CPI release",
+        "publisher": "Office for National Statistics",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "nv",
+        "title": "Third-quarter results call",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+        "type": "primary",
+        "published_at": "2026-10-28",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "bis",
+        "title": "Interim final rule on remote access to advanced computing",
+        "publisher": "US Bureau of Industry and Security",
+        "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      },
+      {
+        "id": "sg",
+        "title": "October exports and composition",
+        "publisher": "CNA citing Enterprise Singapore",
+        "url": "https://www.channelnewsasia.com/singapore/nodx-october-electronics-pharmaceuticals-us-china-6557476",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-17T06:59:39Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London’s regular session on 17 November opens at 08:00 GMT (16:00 SGT). The 15:00 SGT briefing target is one hour earlier. No Tuesday London cash prices are claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "At the 16 November London cash close the FTSE 100 was 10,892.93 (−0.1%) and the FTSE 250 was 24,700.06 (−0.4%).",
+        "kind": "fact",
+        "source_ids": [
+          "ukclose"
+        ]
+      },
+      {
+        "text": "Reuters’ Tuesday Asia reporting showed FTSE futures −0.8%, DAX futures −0.54% and Euro Stoxx 50 futures −0.6%. Its article was first published at 01:22 UTC; the precise snapshot time was not independently verified. These are indicative moves; check live futures and the actual London opening breadth before extending them.",
+        "kind": "fact",
+        "source_ids": [
+          "asia"
+        ]
+      },
+      {
+        "text": "ONS scheduled the UK labour report for 07:00 GMT on 17 November and October consumer prices for 07:00 GMT on 18 November (both 15:00 SGT).",
+        "kind": "fact",
+        "source_ids": [
+          "ons",
+          "cpi"
+        ]
+      },
+      {
+        "text": "Singapore’s October non-oil domestic exports rose 79.8% year on year according to CNA citing Enterprise Singapore, with pharmaceuticals and vessel structures prominent. The headline does not establish a broad European demand rebound.",
+        "kind": "fact",
+        "source_ids": [
+          "sg"
+        ]
+      },
+      {
+        "text": "On 16 November BIS announced an interim final rule addressing remote access to certain US advanced computing capabilities. Specific licensing and customer effects depend on the rule’s scope and implementation; no direct impact on a Singapore issuer was established.",
+        "kind": "fact",
+        "source_ids": [
+          "bis"
+        ]
+      },
+      {
+        "text": "NVIDIA scheduled its results call for 14:00 PST on 17 November (06:00 SGT on 18 November).",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "The new jobs figures were not independently verified by the evidence cutoff. No actual or consensus surprise is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reuters reported that consumer staples cushioned mining weakness on Monday. The greater FTSE 250 decline is consistent with differing index weights; it does not by itself prove that domestic demand weakened.",
+        "transmission": "A local rates repricing should show up in short gilts, sterling and domestic cyclicals together.",
+        "alternatives": "Global risk reduction, sector composition or issuer-specific moves could explain the divergence without a UK macro shock.",
+        "confidence": "inference",
+        "source_ids": [
+          "ukclose",
+          "ons"
+        ]
+      },
+      {
+        "explanation": "Tuesday’s softer European futures coincided with weakness in Asian shares in Reuters reporting.",
+        "transmission": "If common tech and cyclical exposure is driving the move, selling should broaden from Asian chip names to European technology and materials.",
+        "alternatives": "UK data or a futures reversal could cause London cash to decouple; futures do not establish net flows or opening prices.",
+        "confidence": "inference",
+        "source_ids": [
+          "asia",
+          "ons"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Global weakness carries into cash",
+        "outcome": "Technology and cyclicals underperform while selected defensives hold up.",
+        "trigger": "Negative futures persist and selling spans several groups after the London open.",
+        "invalidation": "Futures recover and opening breadth improves outside staples.",
+        "horizon": "First London cash hour on 17 November",
+        "source_ids": [
+          "asia",
+          "ukclose"
+        ]
+      },
+      {
+        "name": "UK rates dominate the open",
+        "outcome": "Sterling, short gilts and UK domestic shares reprice more than the wider European market.",
+        "trigger": "Jobs and wage data shift rate expectations and gilt and FX moves agree.",
+        "invalidation": "Payroll and wage indicators conflict or gilt and FX moves fade quickly.",
+        "horizon": "17 November open through 18 November CPI",
+        "source_ids": [
+          "ons",
+          "cpi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "UK payrolls and regular pay, then sterling and short gilts into the London cash open",
+        "due_at": "2026-11-17T08:00:00Z",
+        "confirms": "Aligned rates and FX changes plus divergence between domestic UK shares and continental benchmarks.",
+        "contradicts": "UK and continental cyclicals move together while gilts and sterling are little changed.",
+        "source_ids": [
+          "ons",
+          "hours"
+        ]
+      },
+      {
+        "signal": "Official October UK consumer prices",
+        "due_at": "2026-11-18T07:00:00Z",
+        "confirms": "A coherent change in services prices and short yields reinforces the rates interpretation.",
+        "contradicts": "Rates and breadth reverse or the price result conflicts with the wages signal.",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "signal": "NVIDIA results call and guidance",
+        "due_at": "2026-11-17T22:00:00Z",
+        "confirms": "Demand and shipment commentary coincides with broad moves across chip equipment and components.",
+        "contradicts": "A move limited to a single name or gains reversed by the next cash open.",
+        "source_ids": [
+          "nv",
+          "asia"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-17T06:59:39Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-17",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Cautious indicative lead; London breadth unverified.",
+        "indicators": "FTSE and continental futures were lower in the Reuters Asia report; the previous FTSE 250 close underperformed the FTSE 100. No synchronized European breadth, volatility or volume panel was verified.",
+        "source_ids": [
+          "asia",
+          "ukclose"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified Europe technology basket; Reuters reported Asian technology pressure.",
+          "implication": "Chip exposure could transmit to EU suppliers. Verify the scope of the new US remote-access rule before estimating supplier exposure.",
+          "watchpoint": "Check semiconductor equipment versus software at the open.",
+          "source_ids": [
+            "asia",
+            "bis"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified European communications basket.",
+          "implication": "Defensive telecom and advertising exposure can react differently.",
+          "watchpoint": "Compare telecom operators with media after the open.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified Europe discretionary basket.",
+          "implication": "UK demand and currency may matter more to UK retail than to exporters.",
+          "watchpoint": "Check retailers versus autos alongside sterling.",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Reuters reported that consumer staples cushioned Monday’s UK session; group return unverified.",
+          "implication": "Relative resilience would be consistent with defence against broad equity selling.",
+          "watchpoint": "Look for more than a move in an individual heavyweight.",
+          "source_ids": [
+            "ukclose"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "AJ Bell’s Monday London-close report quoted lower Brent than Friday; no Tuesday sector return verified.",
+          "implication": "A lower crude price can weigh on producers and ease costs for fuel buyers.",
+          "watchpoint": "Compare crude changes with producer breadth.",
+          "source_ids": [
+            "late"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified finance basket or fresh UK gilt snapshot.",
+          "implication": "Jobs-driven rate changes can affect funding and growth expectations differently.",
+          "watchpoint": "Check banks and insurers alongside short gilt yields.",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified health care basket.",
+          "implication": "Defensive inflows are plausible if risk drops, but cannot be inferred from the index.",
+          "watchpoint": "Check participation across multiple drugmakers.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified Europe industrials basket.",
+          "implication": "Domestic orders and global equipment demand can diverge.",
+          "watchpoint": "Compare equipment and transport stocks after cash opens.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Reuters reported weak miners in the prior UK session; no current materials return verified.",
+          "implication": "China demand and local currency can matter separately from a broad equity move.",
+          "watchpoint": "Compare miner breadth with copper and GBP.",
+          "source_ids": [
+            "ukclose",
+            "asia"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified real estate sector return or synchronized gilt print.",
+          "implication": "Rate sensitivity is a hypothesis pending yields and property shares.",
+          "watchpoint": "Check UK property breadth versus the front-end gilt move.",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified utilities basket.",
+          "implication": "Lower yields can support valuation while fuel and regulation may offset it.",
+          "watchpoint": "Compare utilities with broader defensive participation.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Broad European semiconductor and materials weakness would add evidence that the Asian selloff crossed regions.",
+          "trigger": "EU opening weakness spans those groups and persists.",
+          "invalidation": "European chip names and miners stabilize or recover.",
+          "source_ids": [
+            "asia"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Weaker European cyclicals would temper confidence that the October export headline reflects broad demand.",
+          "trigger": "Manufacturers and freight-exposed equities weaken together.",
+          "invalidation": "Local export-sensitive shares broaden gains or shipment detail shows recurring demand.",
+          "source_ids": [
+            "sg",
+            "asia"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Persistent European technology weakness would be an added sentiment signal ahead of NVIDIA’s report.",
+          "trigger": "US index futures and chip participation weaken together before the US cash open.",
+          "invalidation": "US futures strengthen and chip breadth improves despite Europe.",
+          "source_ids": [
+            "asia",
+            "nv"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-17-barracuda-active-exploitation",
     "title": "CSA flags active exploitation affecting Barracuda products",
     "summary": "On 16 November CSA reported active exploitation of two Barracuda vulnerabilities that can bypass authorization or allow root access on affected devices. Check vendor version guidance, patch, review exposure and logs; the alert does not identify a compromised Singapore organization.",
