@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Trade Research</title><link rel="stylesheet" href="./style.css">
+<script type="module" src="./ui.mjs"></script>
+</head>
+<body><main>
+<header><a href="../">← DEDL Market Brief</a><p class="eyebrow">EQUITY WORKBENCH</p><h1>AI Trade Research</h1><p class="lede">Fundamentals with sources. Options payoffs with explicit assumptions.</p></header>
+<section><h2>01 · Request equity research</h2>
+<label for="tickers">Ticker symbols</label><input id="tickers" value="AAPL, NVDA" maxlength="249" aria-describedby="ticker-help">
+<p id="ticker-help">Up to ten symbols. GitHub repository write access is required to start a data run.</p>
+<div class="actions"><button id="copy" type="button">Copy tickers</button><a id="workflow" hidden>Open research workflow ↗</a></div>
+<p id="research-status" role="status"></p>
+<p>On GitHub, select <strong>Run workflow</strong> and paste the tickers. Download the <strong>equity-research</strong> artifact, then extract <code>snapshot.json</code> or read <code>report.md</code>.</p>
+</section>
+<section><h2>02 · View a research snapshot</h2>
+<label for="snapshot">Open snapshot.json</label><input id="snapshot" type="file" accept=".json,application/json">
+<p>Files stay in this browser. Provider bars may be delayed or incomplete. Check reporting periods and numbers against original filings.</p>
+<p id="import-status" role="status"></p><div id="results"></div>
+</section>
+<section><h2>03 · Simulate an options payoff</h2>
+<p>Hypothetical cash profit or loss at expiration. Excludes fees, liquidity, assignment and interim valuation.</p>
+<form id="options">
+<label>Strategy<select id="strategy"><option>Long call</option><option>Long put</option><option>Bull call spread</option><option>Bear put spread</option></select></label>
+<div class="fields">
+<label>Strike / lower strike<input id="strike" type="number" value="100" min="0.01" step="any" required></label>
+<label>Upper strike (spreads only)<input id="upper" type="number" value="110" min="0.01" step="any"></label>
+<label>Net debit per share<input id="debit" type="number" value="4" min="0" step="any" required></label>
+<label>Contract multiplier<input id="multiplier" type="number" value="100" min="1" step="1" required></label>
+<label>Minimum ending price<input id="minimum" type="number" value="75" min="0" step="any" required></label>
+<label>Maximum ending price<input id="maximum" type="number" value="125" min="0" step="any" required></label>
+</div><button type="submit">Simulate</button>
+</form>
+<p id="options-status" role="status"></p>
+<table><caption>Expiry scenarios · in your input currency</caption><thead><tr><th scope="col">Ending price</th><th scope="col">P/L per contract</th></tr></thead><tbody id="payoffs"></tbody></table>
+</section>
+<footer>Educational research only. The site does not place trades or require an API key. Optional Ollama commentary is available in the local Gradio app.</footer>
+</main></body></html>

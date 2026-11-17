@@ -1,4 +1,4 @@
-# DEDL single-task consolidation — 27 October 2026
+# DEDL single-task consolidation — historical 27 October 2026 snapshot
 
 ## Saved configuration and inventory readback
 
@@ -16,7 +16,7 @@ Implementation was tested against immutable default-branch base `93497f814481acc
 
 | Check | Result |
 | --- | --- |
-| Node suite | **50 passed; zero failed** |
+| Node suite (27 October local snapshot) | **50 passed; zero failed**; use current GitHub Actions for the integrated branch |
 | 08:00 collision | Full daily edition and Asia opening read are both selected |
 | Before 08:00 / late recovery | No early daily edition; a late wake retains the daily target and session work |
 | Same-day special letter | Cannot suppress a missing canonical morning edition or mislead the context report |
@@ -37,3 +37,7 @@ The editorial audit still lists nine calendar-unverified overdue weekday targets
 This maintenance changes task routing, operational instructions and bounded context selection. It does not rewrite source editions, add research claims, alter delivery revisions or change the public layout. The unchanged-issue guard must suppress Telegram delivery for its release.
 
 Verify the release run against the actual consolidation commit and verify live report receipts when the merged task next executes. The first two completed post-repair session windows and the next real 08:00 full-edition run remain operational follow-ups within this same task. A successful local test or enabled task alone cannot certify them. No extra follow-up scheduler is authorized.
+
+## Later integration — 17 November 2026
+
+The saved-task inventory, hourly cadence, 50-test count, and 85-page build above are the **27 October historical snapshot**, not current live-state assertions. On 12 November the unified DEDL Master task adopted its configured daily/global/market-relative checkpoints. The newer runbook and `docs/MARKET_WATCH_DISPATCHER.md` govern those times. `scripts/dedl-dispatch.mjs` is a deterministic metadata selector that does not trigger actions or certify reports. Current test and merge evidence must be read from the PR validation workflow; do not represent this dated snapshot as a current CI count.

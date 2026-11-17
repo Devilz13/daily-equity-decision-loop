@@ -14,8 +14,8 @@ export function buildRunContext({issues,articles,promotions},now=new Date()) {
     if(!old || Date.parse(s.accessed_at)>Date.parse(old.accessed_at)) sourceMap.set(s.url,{...s,report:a.id});
   }
   return {
-    generated_at:now.toISOString(),singapore_date:today,research_slot:'ONE active hourly DEDL task: 08:00 Asia/Singapore full edition plus desk open/close windows',
-    dedl_dispatch:{daily:dispatch.daily,selected_sessions:dispatch.market_watch.selected,quiet:dispatch.quiet},
+    generated_at:now.toISOString(),singapore_date:today,research_slot:'One DEDL Master task: 08:00 Asia/Singapore edition, 19:00 global watch and market-relative windows',
+    dedl_dispatch:{daily:dispatch.daily,selected_sessions:dispatch.market_watch.selected,quiet:dispatch.quiet,caveat:'Selection metadata only; consult verified Master checkpoint schedule and official calendars.'},
     market_watch:{overdue_weekday_targets:sessionAudit(now,articles).filter(x=>x.status==='overdue-calendar-unverified').map(({market,session,date,target_at})=>({market,session,date,target_at})),caveat:'Calendar verification required; baseline research and daily newsletters do not satisfy session reads.'},
     latest_issue:{number:latest.number,date:latest.date,path:latest.path,status:latest.status},
     publication_state:dispatch.daily.state==='indexed-verify-delivery'?'already-indexed daily edition: inspect delivery/corrections; do not duplicate':dispatch.daily.selected?'today-not-indexed: research/resume daily edition required':'before-daily-target: no new morning edition yet',

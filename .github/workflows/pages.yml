@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -16,6 +17,8 @@ concurrency:
 
 jobs:
   deploy:
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -43,9 +46,29 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+          name: github-pages-${{ github.run_attempt }}
+      - name: Wait for the current Pages artifact to become visible
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_ARTIFACT: github-pages-${{ github.run_attempt }}
+        run: |
+          for attempt in {1..12}; do
+            if count=$(timeout 5s gh api -X GET "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" -f "name=$PAGES_ARTIFACT" --jq '.total_count'); then
+              case "$count" in
+                1) exit 0 ;;
+                0) ;;
+                *) echo "::error::Expected a unique Pages artifact for this attempt."; exit 1 ;;
+              esac
+            fi
+            if [ "$attempt" -lt 12 ]; then sleep 3; fi
+          done
+          echo "::error::Pages artifact is not visible; deployment and Telegram delivery were not attempted."
+          exit 1
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
       - name: Deliver changed edition after deployment
         if: github.event_name == 'push'
         env:
@@ -54,3 +77,27 @@ jobs:
           CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
         run: node .github/scripts/send_telegram.mjs
 
+
+
+  session-notify:
+    timeout-minutes: 75
+    needs: deploy
+    if: ${{ always() && github.event_name == 'push' && needs.deploy.outputs.page_url != '' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Deliver verified market sessions
+        env:
+          SESSION_BASE_SHA: ${{ github.event.before }}
+          GH_TOKEN: ${{ github.token }}
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: node .github/scripts/send_session_telegram.mjs

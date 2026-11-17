@@ -2,8 +2,965 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-10-27",
+  "latest": "2026-11-17",
   "issues": [
+    {
+      "date": "2026-11-17",
+      "number": 65,
+      "title": "US losses spread beyond chips; Singapore trade and NVIDIA guidance in focus",
+      "status": "DATA INCOMPLETE · delayed morning edition",
+      "path": "issues/2026/11/17/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-17-v1",
+        "summary": "16 Nov US cash: S&P 500 −1.9%, Nasdaq −2.5%; selling extended beyond chips. Tokyo is open; SGX cash opens at 09:00 SGT. Watch Singapore October trade and NVIDIA guidance. Delayed morning edition; market image unavailable.",
+        "headlines": [
+          {
+            "title": "Hormuz transit risk rises",
+            "date": "16 Nov",
+            "context": "UKMTO carried incident reports and Reuters reported slower observed weekend traffic. This does not establish a formal closure or direct Singapore disruption.",
+            "source": "https://www.ukmto.org/recent-incidents"
+          },
+          {
+            "title": "CSA flags active Barracuda exploitation",
+            "date": "16 Nov",
+            "context": "Review vendor guidance, patch affected devices and check exposed management interfaces. No local victim identified in the alert.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-162/"
+          },
+          {
+            "title": "Four September REDL filings verified",
+            "date": "16 Nov ET",
+            "context": "Original September holdings tables were compared with June. They are historical snapshots and do not establish current positions or trading dates.",
+            "source": "https://www.sec.gov/Archives/edgar/data/1541617/000154161726000010/0001541617-26-000010-index.html"
+          }
+        ],
+        "market_note": "US 16 Nov cash: S&P 500 7,416.59; Nasdaq 24,509.76; Dow 51,608.17. SGX 16 Nov close: STI 5,183.18 (−0.93%). No Tuesday SGX cash print claimed. NVIDIA results around 05:20 SGT on 18 Nov.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "number": 64,
+      "title": "A positive US week ends with a chip selloff; Monday puts the AI trade back under scrutiny",
+      "status": "DATA INCOMPLETE · delayed Monday and weekly recap",
+      "path": "issues/2026/11/16/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-16-v1",
+        "summary": "WEEKLY (9–13 Nov): S&P 500 +2.5%, Nasdaq +2.3%, but both fell Friday. MONDAY (16 Nov): early Asian shares eased. This week tests AI demand and rate sensitivity; no synchronized sector panel or live SGX close was verified.",
+        "headlines": [
+          {
+            "title": "NVIDIA results and outlook after leadership change",
+            "date": "18 Nov SGT",
+            "context": "Results are scheduled around 05:20 SGT; call 06:00. Watch forward guidance and evidence of customer spending. A return by Huang is not confirmed.",
+            "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+          },
+          {
+            "title": "US rates: inflation pressure precedes Fed minutes",
+            "date": "19 Nov SGT",
+            "context": "US October PPI rose 0.3% m/m. The Fed’s October minutes are due 03:00 SGT Thursday. A reversal in yields would challenge the rate-pressure case.",
+            "source": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+          },
+          {
+            "title": "Singapore: October exports next",
+            "date": "17 Nov SGT",
+            "context": "Enterprise Singapore’s cadence points to Tuesday. Check electronics separately from volatile shipment categories. The October print was not verified at cutoff.",
+            "source": "https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/october/mr04626_singapore-external-trade-september-2026"
+          }
+        ],
+        "market_note": "Friday cash: S&P 500 7,561.67 (−0.4%), Nasdaq 25,136.27 (−0.9%). Monday early Reuters: Nikkei −0.6%, Kospi −0.2%; US equity futures were higher. These are different sessions. No SGX closing print claimed.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "number": 63,
+      "title": "Microsoft marks the Microsoft 365 and Exchange Online disruption resolved",
+      "status": "technology service incident",
+      "path": "issues/2026/11/14/microsoft-365-mo1550821-resolved/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-14-mo1550821-resolved-v1",
+        "summary": "MICROSOFT 365 · 14 Nov SGT. Microsoft marked Exchange Online restored at 12:15 and Microsoft 365 at 12:17. The vendor lists an impact end of 00:10 SGT for Exchange, but its Microsoft 365 notice contains conflicting end times.",
+        "headlines": [
+          {
+            "title": "What caused the disruption",
+            "date": "14 Nov SGT",
+            "context": "Microsoft says a later network change exposed a problem from an earlier capacity upgrade. It says the incident was unrelated to cyber activity or AI agents.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          },
+          {
+            "title": "What recovery looked like",
+            "date": "13–14 Nov SGT",
+            "context": "Microsoft restored capacity in stages and monitored delayed mail. The closing notices do not give an exact time when all queued mail cleared.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          }
+        ],
+        "market_note": "The cause is preliminary. Microsoft says it plans a preliminary post-incident report within two business days and a final report within five. If an urgent message is still missing, verify delivery via an approved alternate channel.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "number": 62,
+      "title": "Microsoft identifies a network upgrade issue and reports broad recovery",
+      "status": "technology service incident",
+      "path": "issues/2026/11/14/microsoft-365-mo1550821-network-upgrade-broad-recovery/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-14-mo1550821-network-upgrade-broad-recovery-v1",
+        "summary": "MICROSOFT 365 · 14 Nov SGT. Microsoft says it fixed the underlying network issue and is seeing broad recovery. It is still restoring service to some customers and regions. Both tracked notices remained open at this check.",
+        "headlines": [
+          {
+            "title": "What went wrong",
+            "date": "14 Nov SGT",
+            "context": "Microsoft traced the incident to a problem introduced during an earlier network capacity upgrade. A more recent network change exposed it.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          },
+          {
+            "title": "How Microsoft is restoring service",
+            "date": "14 Nov SGT",
+            "context": "Microsoft brought services back in stages, checking stability as it went. Some users may still see Outlook access issues or delayed email.",
+            "source": "https://apnews.com/article/e2330e733db280805dbf7e3eb29ee0e1"
+          }
+        ],
+        "market_note": "Microsoft said the issue was technical and unrelated to a cyberattack or AI agents. Its full post-incident report is pending. The next listed status update is 04:00 SGT, not a full-restoration estimate.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "number": 61,
+      "title": "Microsoft 365 outage disrupts some Singapore government email; Singpass operational",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-singapore-government-email/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-singapore-government-email-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 13 Nov. GovTech says some Singapore government email services are affected. Singpass and emergency services are operational. Email replies may be delayed; for urgent requests, use the agency’s official call centre or another listed channel.",
+        "headlines": [
+          {
+            "title": "Singapore Courts and IRAS alternatives",
+            "date": "13 Nov SGT",
+            "context": "Online court filing remains available. IRAS directs taxpayers to Live Chat or myTax Mail through myTax Portal if email fails.",
+            "source": "https://www.straitstimes.com/singapore/some-spore-govt-systems-affected-by-microsoft-outage-no-impact-on-singpass-govtech"
+          },
+          {
+            "title": "Microsoft still working on recovery",
+            "date": "13 Nov SGT",
+            "context": "Routing changes brought temporary improvement. Microsoft is investigating a surge in internal requests during mitigation. No all-clear or recovery ETA.",
+            "source": "https://www.365fanatic.com/m365-status/"
+          }
+        ],
+        "market_note": "Open agency websites directly for contact details. Singpass shows normal service on its own status page. Microsoft has not confirmed the underlying trigger or full restoration.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "number": 60,
+      "title": "Microsoft 365 outage continues after recovery changes fall short",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-routing-setback/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-routing-setback-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 13 Nov. Microsoft says changes intended to improve service did not work as expected. It is investigating persistent traffic imbalances and reviewing alternate routing and ways to add capacity. Full restoration and an ETA remain unconfirmed.",
+        "headlines": [
+          {
+            "title": "Outlook problems persisted at 11:00 SGT",
+            "date": "13 Nov SGT",
+            "context": "Independent monitoring found widespread connection timeouts and continuing packet loss inside Microsoft’s network.",
+            "source": "https://www.thousandeyes.com/blog/microsoft-365-outage-analysis-november-12-2026"
+          },
+          {
+            "title": "Exchange Online is still degraded",
+            "date": "13 Nov SGT",
+            "context": "The public mirror of Microsoft’s Exchange notice still lists EX1550543 as degraded. Microsoft said it saw no indication of malicious activity.",
+            "source": "https://mailservices.isc.upenn.edu/computing/email/penno365/alerts/ms-incidents.html"
+          }
+        ],
+        "market_note": "For urgent work, use an alternate channel your organisation approves and confirm receipt. Microsoft listed a further Exchange status update by 12:30 SGT; that is not a restoration estimate.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "number": 59,
+      "title": "Microsoft 365: some regions are coming back online; outage continues",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-capacity-recovery/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-capacity-recovery-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 13 Nov. Microsoft reported encouraging results from server restarts at 09:48 SGT and said at 10:10 SGT it was adding capacity where regions were coming back online. Full service restoration and a reliable ETA remain unconfirmed.",
+        "headlines": [
+          {
+            "title": "Outlook and Teams: what can still fail",
+            "date": "13 Nov SGT",
+            "context": "Outlook mailbox access and delivery may still be affected. Teams calendar and scheduling can fail; core chat and meetings were reported largely functional.",
+            "source": "https://www.365fanatic.com/m365-status/"
+          },
+          {
+            "title": "Singapore users reported problems",
+            "date": "13 Nov SGT",
+            "context": "CNA cited 250 Singapore Outlook reports at 07:05 SGT. These are self-reports, not a confirmed count of customers affected.",
+            "source": "https://www.channelnewsasia.com/business/microsoft-global-outage-outlook-teams-thousands-users-6547306"
+          }
+        ],
+        "market_note": "Microsoft identified an overloaded secure-connection process. It is testing a fix and rolling back a recent network change; the trigger is not confirmed. For urgent work, use an approved alternate channel and confirm receipt.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "number": 58,
+      "title": "Microsoft 365 outage: recovery underway, full restoration unconfirmed",
+      "status": "technology service incident",
+      "path": "issues/2026/11/13/microsoft-365-mo1550821-initial/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-13-mo1550821-initial-v1",
+        "summary": "MICROSOFT 365 OUTAGE · 10:02 SGT, 13 Nov. Outlook/Exchange Online and Teams are among the affected services. Microsoft is bringing servers back and rerouting traffic, but full restoration has not been verified. Incident: MO1550821; Exchange Online: EX1550543.",
+        "headlines": [
+          {
+            "title": "What users may notice",
+            "date": "13 Nov SGT",
+            "context": "Mail, Teams or some SharePoint and Copilot functions may fail or load slowly. Scope varies by service and user.",
+            "source": "https://thersac.icts.thers.ac.jp/hc/en-us/articles/64262985209881-November-13-2026-Microsoft-365-Outage-MO1550821"
+          },
+          {
+            "title": "What Microsoft is investigating",
+            "date": "13 Nov SGT",
+            "context": "A server process was overwhelmed and some servers stopped responding. Microsoft is testing recovery and rollback; the root cause is not confirmed.",
+            "source": "https://statusstack.com/service/outlookcom/incidents/01a1d207-a173-7635-8a7b-60ca3c9e5d63"
+          }
+        ],
+        "market_note": "For urgent work, use an approved alternate channel and confirm receipt. Check your IT team or Microsoft’s status page. This is a service outage bulletin. A cyberattack or specific Singapore outage has not been established.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "number": 57,
+      "title": "Singapore and Asia morning brief: Tokyo chips rebound; STI breadth is the next test",
+      "status": "data incomplete",
+      "path": "issues/2026/11/13/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-13-v1",
+        "delivery_notice": "Delayed 08:00 SGT edition, after the scheduled Tokyo and SGX cash opens. Singapore figures below are from Thursday’s close.",
+        "summary": "Singapore first: STI closed at 5,282.70 (−0.1%) on Thursday, with 338 decliners and 224 gainers. Tokyo’s Nikkei was up 1.1% at 08:13 SGT on Friday, led by chip names. That is an early Japan reading; watch whether SGX banks and regional breadth confirm.",
+        "headlines": [
+          {
+            "title": "Singapore health-sector cyber update",
+            "date": "12 Nov 2026",
+            "context": "MOH says patient care continued. Be wary of unexpected calls and links; verify via the provider’s official number.",
+            "source": "https://www.moh.gov.sg/newsroom/statement-on-recent-cybersecurity-incidents-in-healthcare-sector/"
+          },
+          {
+            "title": "NVIDIA confirms interim leadership",
+            "date": "12 Nov 2026",
+            "context": "CFO Colette Kress is interim CEO. The company announced no new earnings guidance in the transition release.",
+            "source": "https://nvidianews.nvidia.com/_gallery/download_pdf/6af5c3cc3d6332f541088655/"
+          }
+        ],
+        "market_note": "SGX prior close and Tokyo intraday are separate. US S&P 500 and Nasdaq closed −0.4%. Forex: USD/JPY 159.84 at 08:13 SGT; delayed USD/SGD 1.2870 at 05:19 SGT. No verified bank orders or market image. Watch US PPI at 21:30 SGT. Five market groups: DATA INCOMPLETE.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "number": 56,
+      "title": "NVIDIA stock watch: what the dip does and does not tell us",
+      "status": "special stock update",
+      "path": "issues/2026/11/12/nvidia-stock-watch/",
+      "markets": [
+        "US"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-12-nvidia-watch-v1",
+        "summary": "NVIDIA: US$173.73 cash close on 11 Nov US time; US$158.76 at 19:59 ET after hours (−8.6%). The board confirmed an investigation. Reuters reported a meeting about Huang’s future and relayed a second allegation. No board decision was verified. A lower price alone does not establish a bargain.",
+        "headlines": [
+          {
+            "title": "Governance: confirmed inquiry, reported board meeting",
+            "date": "8–12 Nov",
+            "context": "The New York Times allegation concerns a direct report, Reuters says. The allegation, its role in the board meeting and an ouster are not confirmed here.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/#facts"
+          },
+          {
+            "title": "What the price implies: 22.0× versus 20.1× P/E",
+            "date": "11 Nov US time",
+            "context": "Both use US$7.91 trailing GAAP earnings per share. The after-hours quote is a dated snapshot. A falling P/E does not tell us whether earnings will hold.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/#earnings"
+          },
+          {
+            "title": "What would make the dip more convincing",
+            "date": "12–18 Nov SGT",
+            "context": "Check board disclosures, regular-session volume and earnings on 18 Nov SGT. Strong guidance, margins and cash would help; cuts or wider curbs would hurt.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/nvidia-stock-watch/#watch"
+          }
+        ],
+        "market_note": "Assumptions, not targets: US$8 EPS × 15 = US$120; US$10 × 18 = US$180; US$12 × 22 = US$264. The cash close was below both the 50- and 200-session averages. A regular-session recovery above ~US$178 would help; a heavy-volume close below ~US$166 would weaken the case.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "number": 55,
+      "title": "Singapore data breach alert: what to do if someone calls or messages you",
+      "status": "public safety bulletin",
+      "path": "issues/2026/11/12/singapore-cyber-alert/",
+      "markets": [],
+      "telegram": {
+        "delivery_revision": "2026-11-12-cyber-alert-v3",
+        "summary": "SINGAPORE SCAM ALERT. A caller who knows your name, NRIC or booking details can still be a scammer. Hang up. Call the organisation using your card, bill or official app. Never share a one-time code or Singpass approval. If you sent money or gave banking details, call your bank now. Unsure? Call ScamShield: 1799.",
+        "headlines": [
+          {
+            "title": "M1, SPH Media and Singapore Airlines",
+            "date": "3–10 Nov",
+            "context": "Watch for fake telco bills, subscriptions and flight refunds. Booking details and contact data can make messages sound real. Open the official app yourself.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/#incidents"
+          },
+          {
+            "title": "Insurance, clinics and Dementia Singapore CARA",
+            "date": "24 Oct–11 Nov",
+            "context": "Watch for fake claims, medical bills or caregiver messages. Call your insurer or clinic on a known number. Update CARA only through the official app store.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/#incidents"
+          },
+          {
+            "title": "SATS / Tappee school meal app",
+            "date": "10 Nov",
+            "context": "Some student and guardian details were exposed. Confirm school meal messages with the school office. Don’t pay a top-up requested in a text.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/12/singapore-cyber-alert/#incidents"
+          }
+        ],
+        "market_note": "Do not scan a QR code, install an app, or share your screen because a caller asks. Save suspicious messages and ask a trusted person to help you check. If money or banking details are involved, call your bank first, then file a police report. Data exposure does not mean money was stolen.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "number": 54,
+      "title": "Wall Street rallied. NVIDIA reversed after the bell.",
+      "status": "data incomplete",
+      "path": "issues/2026/11/12/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-12-v1",
+        "delivery_notice": "Delayed edition: evidence reviewed 13:33:56 SGT. The 11 November catch-up is in the web archive.",
+        "summary": "US stocks rallied, then NVIDIA fell 8.6% in extended trading after reports of a board meeting. An investigation is confirmed; no board decision or export breach was verified at review. Singapore cyber and Gulf shipping risks have separate evidence.",
+        "headlines": [
+          {
+            "title": "NVIDIA board review and cash/after-hours split",
+            "date": "11–12 Nov 2026",
+            "context": "US$173.73 cash close; US$158.76 at 19:59 EST. The reported board deliberations did not establish a decision.",
+            "source": "https://www.reuters.com/technology/nvidia-is-preparing-oust-ceo-jensen-huang-wsj-reports-2026-11-11/"
+          },
+          {
+            "title": "Gulf navigation damage remains unverified",
+            "date": "10–11 Nov 2026",
+            "context": "Reuters reported an attack; extent and Singapore shipping, insurance or fuel effects remain unverified.",
+            "source": "https://www.reuters.com/world/middle-east/iran-attacks-shipping-navigation-systems-omans-didamar-island-sources-say-2026-11-11/"
+          },
+          {
+            "title": "Singapore health operator discloses data incident",
+            "date": "31 Oct–11 Nov 2026",
+            "context": "Fullerton Health says care services remained operational; notification scope remains a watchpoint.",
+            "source": "https://www.fullertonhealth.com/sg/data-security-incident-affecting-the-migrant-workers-primary-care-plan-pcp-portal/"
+          }
+        ],
+        "market_note": "Five market groups: DATA INCOMPLETE. Forex: Reuters reported USD/JPY 159.83 in Asian hours; no matched SGD panel or verified bank orders. Watch UK GDP at 15:00 SGT. Market image unavailable.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "number": 53,
+      "title": "Firm US inflation, a weaker Wall Street and a Singapore rebound",
+      "status": "data incomplete",
+      "path": "issues/2026/11/11/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-11-v1",
+        "delivery_notice": "Historical catch-up prepared on 12 November; 11 November was not published on time.",
+        "summary": "October US inflation stayed firm and US stocks fell in the 10 November cash session. Singapore’s STI gained on 11 November. NVIDIA export scrutiny and a local cyber incident are distinct developments.",
+        "headlines": [
+          {
+            "title": "October US CPI rose 0.4% month on month",
+            "date": "10 Nov 2026",
+            "context": "Core rose 0.3%. The release lacks an October year-on-year comparison.",
+            "source": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+          },
+          {
+            "title": "NVIDIA’s export scrutiny deepens",
+            "date": "10–11 Nov 2026",
+            "context": "The board inquiry is confirmed. Reported shipment facilitation and a security compromise are unproven.",
+            "source": "https://live.euronext.com/en/financial-news/nvidia-faces-deepening-scrutiny-over-china-chip-ties-ceo-affair"
+          },
+          {
+            "title": "Singapore health operator discloses data incident",
+            "date": "9–11 Nov 2026",
+            "context": "The operator reported affected programme data and continuing care services.",
+            "source": "https://www.fullertonhealth.com/sg/data-security-incident-affecting-the-migrant-workers-primary-care-plan-pcp-portal/"
+          }
+        ],
+        "market_note": "Five market groups: DATA INCOMPLETE. No verified major-pair/SGD snapshot for this catch-up. Watch UK GDP on 12 November.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "number": 52,
+      "title": "Asia reopens unevenly as Singapore cash pauses for Deepavali",
+      "status": "data incomplete",
+      "path": "issues/2026/11/09/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-09-v1",
+        "summary": "Friday’s US tech rebound followed sharp declines in Asia. Singapore cash is closed for observed Deepavali; the Asia opening report is separate. OCBC results, Gulf vessel reports and the new Singapore cyber advisories frame the next checks.",
+        "headlines": [
+          {
+            "title": "Singapore cash closed for observed Deepavali",
+            "date": "9 Nov 2026",
+            "context": "SGX follows Singapore’s public-holiday calendar. No local cash opening or close; the Asia opening report remains separate.",
+            "source": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+          },
+          {
+            "title": "OCBC profit rises year on year, falls from Q2",
+            "date": "6 Nov 2026",
+            "context": "OCBC reports S$2.04bn Q3 net profit: +3% year on year and −8% quarter on quarter. Banking and insurer investment results diverged.",
+            "source": "https://www.ocbc.com/group/media/release/2026/ocbc-group-third-quarter-2026-results.page"
+          },
+          {
+            "title": "Gulf vessel reports leave key facts unconfirmed",
+            "date": "7–8 Nov 2026",
+            "context": "UKMTO logged a bulk-carrier incident. Claims and reported incidents do not establish a confirmed Singapore shipping or energy disruption.",
+            "source": "https://www.ukmto.org/recent-incidents"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and funds remain DATA INCOMPLETE. Watch Asia breadth, verified vessel transits and 10 Nov US CPI at 21:30 Singapore time.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "number": 51,
+      "title": "Friday’s uneven rebound and the week ahead",
+      "status": "data incomplete",
+      "path": "issues/2026/11/08/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-08-v1",
+        "delivery_notice": "Sunday catch-up. Actual evidence cutoff: 09:28:27 SGT. The Saturday cyber edition is separately archived.",
+        "summary": "Friday’s US rebound was selective. The Sunday edition checks inflation and GDP dates, reported Hormuz developments, and the separate Saturday cyber and Ready Bag guide.",
+        "headlines": [
+          {
+            "title": "US cash close was mixed",
+            "date": "6 Nov 2026",
+            "context": "S&P 500 +0.3%, Nasdaq +1.1%, Dow −0.5%. Friday’s rebound did not erase weekly losses.",
+            "source": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad"
+          },
+          {
+            "title": "Reports of explosions near Hormuz",
+            "date": "7 Nov 2026",
+            "context": "Reported cause and damage remain unverified. No direct Singapore disruption was established.",
+            "source": "https://www.reuters.com/world/middle-east/explosions-heard-irans-qeshm-island-iranian-media-reports-2026-11-07/"
+          }
+        ],
+        "market_note": "All five market groups remain DATA INCOMPLETE. Cash closes and scheduled releases are distinct; see the full edition for sourced gaps.",
+        "event_updates": [],
+        "week_ahead": {
+          "days": [
+            {
+              "date": "2026-11-09",
+              "items": [
+                "Singapore observes Deepavali; check venue schedules separately."
+              ],
+              "day": "Monday"
+            },
+            {
+              "date": "2026-11-10",
+              "items": [
+                "US October CPI, 08:30 EST / 21:30 SGT."
+              ],
+              "day": "Tuesday"
+            },
+            {
+              "date": "2026-11-11",
+              "items": [
+                "US Veterans Day; do not assume all asset classes share one schedule."
+              ],
+              "day": "Wednesday"
+            },
+            {
+              "date": "2026-11-12",
+              "items": [
+                "UK Q3 GDP first estimate, 07:00 GMT / 15:00 SGT."
+              ],
+              "day": "Thursday"
+            },
+            {
+              "date": "2026-11-13",
+              "items": [
+                "US October PPI, 08:30 EST / 21:30 SGT."
+              ],
+              "day": "Friday"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "number": 50,
+      "title": "Weekend resilience: cloud recovery, cash and a Singapore Ready Bag",
+      "status": "data incomplete",
+      "path": "issues/2026/11/07/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-07-v1",
+        "delivery_notice": "Delayed Saturday edition. Actual evidence cutoff: 16:33:47 SGT.",
+        "summary": "Weekend cyber review: SingCERT’s cold-chain alert, the October IDC Frontier ransomware case, and a Singapore Ready Bag for payment outages and evacuation.",
+        "headlines": [
+          {
+            "title": "IDC Frontier ransomware: October case study",
+            "date": "7 Oct / 27 Oct 2026",
+            "context": "The provider confirmed VM encryption and separate unauthorised portal queries. Test restores independently of the affected service.",
+            "source": "https://www.idcf.jp/news/topics/20261027001"
+          },
+          {
+            "title": "SingCERT warns of cold-chain cyberattacks",
+            "date": "6 Nov 2026",
+            "context": "Reported European disruptions highlight remote-access and continuity risks. No direct Singapore outage was verified.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-014/"
+          },
+          {
+            "title": "Build a Singapore Ready Bag",
+            "date": "SCDF standing guidance",
+            "context": "Cash is optional with no prescribed amount. Pack document copies, essential medication and a torch; keep separate supplies at home.",
+            "source": "https://www.scdf.gov.sg/home/community-and-volunteers/fire-emergency-guides/ready-bag-for-emergency"
+          }
+        ],
+        "market_note": "Five market groups remain DATA INCOMPLETE. US October payrolls rose 165,000; Singapore and Japan cash observations carry separate dates.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "number": 49,
+      "title": "After the reversal, check the cash and the clock",
+      "status": "data incomplete",
+      "path": "issues/2026/11/06/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-06-v1",
+        "delivery_notice": "We apologise: the 4 and 5 November morning editions and Telegram digests were missed. This 6 November recovery uses an actual 08:58:53 SGT evidence cutoff. Older session gaps remain open.",
+        "summary": "The 5 Nov US cash selloff sharply reversed Wednesday’s rally. DBS reports Q3 profit S$2.81bn with weaker trading income; Singapore policy, cyber and maritime items retain distinct dates and verification limits. Five market groups are DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "US 5 Nov close reverses prior rally",
+            "date": "5 Nov 2026 cash",
+            "context": "AP reports S&P 500 −4.4% and Nasdaq −5.5%. Election and AI-regulation narratives are interpretations, not enacted policy or proven sole causes.",
+            "source": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-afe254c608c3d1fe2ea792812ba9765a"
+          },
+          {
+            "title": "DBS Q3: wealth growth and trading weakness coexist",
+            "date": "5 Nov 2026",
+            "context": "DBS reports S$2.81bn profit, down 5% year on year, and S$152m markets trading income, down 65%. Compare capital and margin definitions.",
+            "source": "https://www.dbs.com/NewsPrinter.page?locale=en&newsId=mu8oho2k"
+          },
+          {
+            "title": "UKMTO reports tanker hit; local impact unverified",
+            "date": "4 Nov late UTC; reported 5 Nov",
+            "context": "Unidentified projectiles and unconfirmed crew/damage status at report time. No attacker or new Singapore shipping loss is established.",
+            "source": "https://www.ukmto.org/recent-incidents"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and funds: DATA INCOMPLETE. 4–5 Nov editions and distinct session reads were missed. See the dated catch-up, sources, and unresolved gaps.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "number": 48,
+      "title": "Cash, capacity and what is actually in force",
+      "status": "data incomplete",
+      "path": "issues/2026/11/03/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-03-v1",
+        "delivery_notice": "We apologise for the delayed edition. Actual evidence cutoff 08:18:03 SGT. Japan cash is closed; partial Asia context and the delayed US close have separate reports and explicit gaps.",
+        "summary": "The US closing reversal differs from earlier intraday trading. New Apple and Palantir originals require cash-quality checks. Singapore’s effective insurer grant, proposed capital rules, Oracle alert and scheduled maritime bill reading have different evidence and legal status. Five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Fresh earnings need consistent cash definitions",
+            "date": "2 Nov 2026",
+            "context": "Palantir’s original appendix distinguishes operating cash, capital purchases and adjusted FCF. New results are not a broad AI supply-chain or valuation pass.",
+            "source": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf"
+          },
+          {
+            "title": "MAS grant is effective; capital proposals remain under consultation",
+            "date": "2 Nov 2026",
+            "context": "Capability support is not project principal or guaranteed returns. Final rules and actual funded projects are separate tests.",
+            "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-announces-measures-to-support-insurers-investments-in-infrastructure-and-securitised-assets"
+          },
+          {
+            "title": "CSA flags Oracle application-library vulnerabilities",
+            "date": "2 Nov 2026",
+            "context": "Reported attempts and a confirmed Singapore breach are distinct. Verify affected versions and vendor-directed remediation; no victim or attribution is inferred.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-156/"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and Funds: DATA INCOMPLETE. Completed US cash and partial Asia opening context retain all11sectors. Primary finals, current regional prices and older gaps remain unresolved.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "number": 47,
+      "title": "Plans, flows and the evidence between",
+      "status": "data incomplete",
+      "path": "issues/2026/11/02/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-02-v1",
+        "delivery_notice": "We apologise for the delayed edition. Actual evidence cutoff 08:07:37 SGT; the separate Asia opening read is delayed and current equity-price gaps remain explicit.",
+        "summary": "Oil targets, actual shipments and futures prices need separate evidence. Singapore’s maritime statement is diplomacy; Binance’s phased recovery is not a full restoration audit. A new DBS promotion retains October’s expired record. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "OPEC holds December targets; early oil quote has a separate clock",
+            "date": "1–2 Nov 2026",
+            "context": "Required production is not actual exports or safe transit. Early futures and Friday’s expiring contract are not a continuous comparable return.",
+            "source": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+          },
+          {
+            "title": "Singapore argues against normalising maritime insecurity",
+            "date": "1 Nov 2026",
+            "context": "MINDEF’s original Manama speech links trade resilience and practical cooperation. It is not a combat alert or a new quantified local loss.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/1nov26-speech/"
+          },
+          {
+            "title": "DBS publishes a distinct November–February acquisition period",
+            "date": "1 Nov 2026",
+            "context": "The new PDF has separate approval and fulfilment dates. October remains archived; lookback, qualifying spend and account conditions still apply.",
+            "source": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/acquisition/dbs-cc-acqui-promo-tnc.pdf"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and Funds: DATA INCOMPLETE. Separate Asia read covers11sectors. Current equity breadth/prices, older session gaps and primary finals remain incomplete.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "number": 46,
+      "title": "New month; verify the next catalyst",
+      "status": "data incomplete",
+      "path": "issues/2026/11/01/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-01-v1",
+        "delivery_notice": "We apologise for the delayed edition. Actual evidence cutoff 08:08:19 SGT; Friday cash prices remain historical, not Sunday observations.",
+        "summary": "The new month brings effective card changes, a Singapore clarification and a verified five-day outlook. Friday market weakness remains the cash baseline. Gulf claims and mediation, cyber warnings and AI funding require different evidence. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Singapore corrects attribution; separate investigation remains ongoing",
+            "date": "31 Oct 2026",
+            "context": "MHA denies a reported personal-investigation claim; its annex separately retains the company investigation. No proven NVIDIA cash loss follows.",
+            "source": "https://www.mha.gov.sg/media-room/newsroom/clarification-statement-on-wall-street-journals-article/"
+          },
+          {
+            "title": "OCBC posting-date regime starts; DBS application offer expires",
+            "date": "1 Nov 2026",
+            "context": "Rates, categories, minimum spend, caps and eligibility matter. October applications retain their own later approval/spend requirements.",
+            "source": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card"
+          },
+          {
+            "title": "Gulf mediation report is not a peace agreement",
+            "date": "31 Oct 2026",
+            "context": "Talks and unconfirmed incident claims remain distinct. No new direct Singapore transport disruption was established in this review.",
+            "source": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
+          }
+        ],
+        "market_note": "US, Singapore, global, direct REITs and Funds: DATA INCOMPLETE. No new weekend cash session selected. Friday baselines, older gaps and missing primary prices remain explicit.",
+        "event_updates": [],
+        "week_ahead": {
+          "days": [
+            {
+              "day": "Monday",
+              "date": "2026-11-02",
+              "items": [
+                "ISM manufacturing · 10:00 EST / 23:00 SGT"
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "date": "2026-11-03",
+              "items": [
+                "JOLTS September · 10:00 EST / 23:00 SGT"
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "date": "2026-11-04",
+              "items": [
+                "Uber call · 08:00 EST / 21:00 SGT; ISM services · 10:00 EST / 23:00 SGT"
+              ]
+            },
+            {
+              "day": "Thursday",
+              "date": "2026-11-05",
+              "items": [
+                "BoE decision/report · 12:00 GMT / 20:00 SGT; US productivity · 08:30 EST / 21:30 SGT"
+              ]
+            },
+            {
+              "day": "Friday",
+              "date": "2026-11-06",
+              "items": [
+                "US October employment · 08:30 EST / 21:30 SGT"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "number": 45,
+      "title": "Prices fall; cash and evidence still matter",
+      "status": "data incomplete",
+      "path": "issues/2026/10/31/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-31-v1",
+        "delivery_notice": "We apologise for the delayed edition. Evidence cutoff 08:24:07 SGT; Friday US close is a distinct delayed read. No Saturday Asian opening quote is invented.",
+        "summary": "Issue045 weighs broader US selling against sector dispersion, original yields and cash. Singapore has fresh cyber, naval-cooperation and haze notices. AV plans and recovery promises retain their limits; all five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Friday selloff broadens; final prices replace intraday snapshots",
+            "date": "30 Oct 2026",
+            "context": "Negative participation supports real weakness. Positive sector counterweights and missing credit/liquidity evidence limit a universal-crash claim.",
+            "source": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/"
+          },
+          {
+            "title": "CSA flags exploitation; vendor update dates remain separate",
+            "date": "30 Oct 2026",
+            "context": "Brotli product/version scope matters. Follow vendor guidance and verify deployed fixes; no causal link to Binance established.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-154/"
+          },
+          {
+            "title": "Singapore–Malaysia exercise is cooperation, not combat",
+            "date": "26–30 Oct 2026",
+            "context": "Original MINDEF describes shore-based professional exchanges. No direct new shipping or market disruption is established.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/30oct26-nr/"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. Distinct US close retains all11sectors. Saturday prices, primary finals, complete screening, Parliament and older gaps remain explicit.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "number": 44,
+      "title": "Demand keeps growing; investment must earn its keep",
+      "status": "data incomplete",
+      "path": "issues/2026/10/30/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-30-v1",
+        "delivery_notice": "We apologise for the delayed edition. Evidence cutoff 08:07:03 SGT; US close and Asia opening are distinct delayed reads. Singapore opening context remains future.",
+        "summary": "Issue044 weighs new Amazon/Intel results against investment cash, distinguishes concentrated US losses from broad panic, and reviews Singapore haze, defence diplomacy and cyber evidence. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Amazon cloud growth comes with a wider cash-investment burden",
+            "date": "29 Oct 2026",
+            "context": "Actual Q3 and TTM results are available. Customer growth, operating cash, equipment investment and forecasts remain separate.",
+            "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+          },
+          {
+            "title": "US close: headline losses coexist with positive participation",
+            "date": "29 Oct 2026",
+            "context": "Completed AP prices take precedence over preliminary values. After-hours results are a later information window, not an earlier closing cause.",
+            "source": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-2c26b0b1bbc3bfab9f3f4b902172f458"
+          },
+          {
+            "title": "Singapore: haze forecast improves; defence chairmanship handed over",
+            "date": "29 Oct 2026",
+            "context": "Official NEA/MINDEF updates separate forecasts and diplomacy from live readings or combat. No new direct local transport disruption established.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-nr/"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. Two distinct session reads retain all11sectors. Current Asia/SGX prices, matched rates/FX/gold and older coverage gaps remain explicit.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "number": 43,
+      "title": "Cloud growth is real; cash discipline still decides",
+      "status": "data incomplete",
+      "path": "issues/2026/10/29/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-29-v1",
+        "delivery_notice": "We apologise for the delayed edition. Evidence cutoff 08:11:57 SGT; US close and Asia opening context are separate delayed reads. Singapore opening target remains future at cutoff.",
+        "summary": "Issue 043 separates cloud revenue growth from infrastructure cash costs, the Fed hold from future rate promises, and Singapore haze policy from unproven losses. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "Fed holds 3.75%–4.00%; two dissenters prefer a hike",
+            "date": "28 Oct 2026",
+            "context": "The official statement resolves the earlier access gap. A hold does not promise a cut or establish synchronized market reactions.",
+            "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+          },
+          {
+            "title": "Cloud growth and capital spending need separate tests",
+            "date": "28 Oct 2026",
+            "context": "Microsoft and Alphabet release actual results after the US close. Operating cash, equipment purchases, leases and investment marks need distinct treatment.",
+            "source": "https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast"
+          },
+          {
+            "title": "MAS sets out haze-related banking risk expectations",
+            "date": "28 Oct 2026",
+            "context": "Customer engagement and material-risk assessment are documented. No blanket divestment order, proven wrongdoing or quantified bank loss is established.",
+            "source": "https://www.mas.gov.sg/news/media-releases/2026/statement-on-banks-management-of-haze-related-environmental-risks"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. US closing and Asia opening reads retain all 11 sectors, actual cutoffs and regional gaps. Singapore current opening prices and a complete rates/FX panel remain unverified.",
+        "event_updates": []
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "number": 42,
+      "title": "Capacity finds customers; cash and power decide returns",
+      "status": "data incomplete",
+      "path": "issues/2026/10/28/",
+      "markets": [
+        "US",
+        "SG",
+        "GLOBAL",
+        "REITS",
+        "FUNDS"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-10-28-v1",
+        "delivery_notice": "We apologise for the delayed edition. This issue uses an 08:10:02 SGT evidence cutoff; Singapore's opening target remained future at cutoff.",
+        "summary": "Issue 042 reviews memory capacity agreements, NVIDIA/Oracle cloud expansion and Singapore's new WhatsApp malware warning. Funding, availability and future commitments still need productive use and cash returns. All five market groups remain DATA INCOMPLETE.",
+        "headlines": [
+          {
+            "title": "SK hynix adds contracted capacity visibility",
+            "date": "28 Oct 2026",
+            "context": "Signed agreements cover over half of 2027–28 capacity. Management's growth and shortage outlook remains a forecast; contracts are not collected cash.",
+            "source": "https://www.prnewswire.com/news-releases/sk-hynix-announces-3q26-financial-results-302921407.html"
+          },
+          {
+            "title": "NVIDIA / Oracle: availability versus future expansion",
+            "date": "27 Oct 2026",
+            "context": "Specified Vera Rubin systems and Vera CPUs are generally available on OCI; the multi-gigawatt expansion remains planned, not all energized capacity.",
+            "source": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure"
+          },
+          {
+            "title": "CSA warns of malware sent through familiar contacts",
+            "date": "27 Oct 2026",
+            "context": "Compromised WhatsApp accounts can spread malicious attachments. Verify unexpected files separately; no named issuer breach or total loss is established.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-013/"
+          }
+        ],
+        "market_note": "US, Singapore, Global, direct REITs and Funds: DATA INCOMPLETE. Separate Asia opening context is published with actual delay and gaps. Current Asian prices/breadth and several calendars remain incomplete. No security certified or trade placed.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-10-27",
       "number": 41,
