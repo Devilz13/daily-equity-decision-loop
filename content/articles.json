@@ -43416,5 +43416,336 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-19-asia-open",
+    "title": "Asia pre-open: mixed US lead meets AI financing and IPO scrutiny",
+    "summary": "Tokyo cash opens at 08:00 SGT. US benchmarks ended mixed; Asia’s cash response is not yet observed. Reuters reports Anthropic pricing at $83, while its issuer page still describes pricing as expected. Treat reported offering terms, trading prices and supplier cash conversion separately.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-18T23:02:04Z",
+    "updated_at": "2026-11-18T23:02:04Z",
+    "cutoff_at": "2026-11-18T23:02:04Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "2026 JPX holiday calendar checked; 19 November regular day",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      },
+      {
+        "id": "hours",
+        "title": "Tokyo stock cash hours 09:00–11:30 and 12:30–15:30 JST",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      },
+      {
+        "id": "us",
+        "title": "18 November completed US cash and timestamped sector estimates",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      },
+      {
+        "id": "ipo",
+        "title": "18 November Reuters report: source says IPO price US$83",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      },
+      {
+        "id": "issuer",
+        "title": "Issuer IPO page and Q3 financial highlights; timetable remains conditional",
+        "publisher": "Anthropic",
+        "url": "https://ipo.anthropic.com/us/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "JPX’s 2026 calendar lists November closures on the 3rd and 23rd, not the 19th. Tokyo regular cash opens at 09:00 JST (08:00 SGT); the Asia pre-open target is 07:00 SGT. Other regional venues have separate clocks and are not certified by this Japan check.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hours"
+        ]
+      },
+      {
+        "text": "The completed 18 November US report records S&P 500 7,323.63 (−0.2%), Dow 50,198.17 (−1.1%), Nasdaq 24,429.88 (+0.4%) and Russell 2000 2,714.31 (+0.5%), with source-rounded changes. Its US sector estimates are dated 16:10 EST, not Asian returns or official sector indexes.",
+        "kind": "fact",
+        "source_ids": [
+          "us"
+        ]
+      },
+      {
+        "text": "Reuters reported, citing a person familiar with the matter, that Anthropic priced its IPO at US$83 per share, above its initial US$70–78 range. The report says offering size increased but does not establish a final issuer-confirmed amount here; Anthropic declined comment.",
+        "kind": "allegation",
+        "source_ids": [
+          "ipo"
+        ]
+      },
+      {
+        "text": "The issuer page still says pricing is expected on 18 November EST and trading on 19 November EST, subject to clearance. It shows Q3 revenue about US$17.0bn, operating margin −3% and adjusted operating margin 15%. Net loss US$23.3bn includes a US$21.9bn non-cash fair-value charge. Reported and adjusted profitability, offering price and subsequent trading price are different measures.",
+        "kind": "fact",
+        "source_ids": [
+          "issuer"
+        ]
+      },
+      {
+        "text": "No current 19 November Asian cash, synchronized regional sector, breadth, volume, volatility or independently confirmed futures/FX panel was obtained at cutoff. Retained prior US observations cannot establish an Asian opening gap.",
+        "kind": "fact",
+        "source_ids": [
+          "us",
+          "hours"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The US lead was mixed and AI-related financing remains a focus.",
+        "transmission": "Asian component, packaging, equipment, rack, networking, power and cooling exposures depend on funded orders and actual delivery/utilization.",
+        "alternatives": "Currency, domestic demand and index weights can override a US lead. An IPO price or headline revenue is not evidence of supplier cash receipts.",
+        "confidence": "inference",
+        "source_ids": [
+          "us",
+          "ipo",
+          "issuer"
+        ]
+      },
+      {
+        "explanation": "The issuer presents both operating and adjusted margins, with a large non-cash fair-value charge in net loss.",
+        "transmission": "Capital structure and compute costs can affect funding needs and the durability of infrastructure demand.",
+        "alternatives": "Non-cash valuation charges do not equal current cash spending, while adjusted earnings exclude costs that still matter to owners.",
+        "confidence": "inference",
+        "source_ids": [
+          "issuer"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Asian suppliers confirm durable demand",
+        "outcome": "Participation broadens alongside evidence of financed deliveries.",
+        "trigger": "Several supplier groups and issuer disclosures confirm shipments, commissioning and cash conversion.",
+        "invalidation": "Only isolated names rise or financing and utilization deteriorate.",
+        "horizon": "19 November Asian cash and subsequent issuer updates",
+        "source_ids": [
+          "us",
+          "issuer"
+        ]
+      },
+      {
+        "name": "IPO sentiment remains separate from economics",
+        "outcome": "Trading demand fails to settle the investment-return question.",
+        "trigger": "Offering terms and trading are verified but supplier cash/funding evidence remains weak.",
+        "invalidation": "Realized utilization and funding outcomes improve alongside broader participation.",
+        "horizon": "19 November US expected debut and supplier follow-ups",
+        "source_ids": [
+          "ipo",
+          "issuer"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "19 November Tokyo cash open: 09:00 JST / 08:00 SGT",
+        "due_at": "2026-11-19T00:00:00Z",
+        "confirms": "Verified cash breadth and multiple suppliers corroborate the external lead.",
+        "contradicts": "Regional evidence diverges or no reliable opening panel is available.",
+        "source_ids": [
+          "hours",
+          "us"
+        ]
+      },
+      {
+        "signal": "19 November expected Anthropic US trading day: confirm final issuer terms and first actual trade",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "Official final documents and exchange evidence establish terms and actual trading; a new listing may open after regular cash begins.",
+        "contradicts": "The issuer remains conditional or no exchange-confirmed first trade exists.",
+        "source_ids": [
+          "issuer",
+          "ipo"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T23:02:04Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange — Asia opening anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed external lead; Asian cash risk appetite not yet observed.",
+        "indicators": "Prior US benchmarks diverged. No current Asian breadth, turnover, positioning or volatility observation is established.",
+        "source_ids": [
+          "us",
+          "hours"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian information technology cash-sector panel before Tokyo opens.",
+          "implication": "Funded orders, delivery and utilization must substantiate AI demand claims.",
+          "watchpoint": "Check memory, foundry/packaging, equipment and networking breadth against shipment evidence.",
+          "source_ids": [
+            "us",
+            "issuer"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian communication services cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Compare platforms, media and telecom participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian consumer discretionary cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Compare autos, retailers and travel with local demand evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian consumer staples cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Check participation across several defensive names.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian energy cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Compare producers and refiners against dated crude and currency marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian financials cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Compare banks and insurers with local curves and credit evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian health care cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Check providers and pharma separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian industrials cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Compare equipment, transport and aerospace participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian materials cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Compare miners and chemicals against dated metals and currencies.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian real estate cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Check property/REIT breadth, occupancy and funding terms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Asian utilities cash-sector panel before Tokyo opens.",
+          "implication": "A prior US return does not establish the regional sector’s direction.",
+          "watchpoint": "Check contracted power demand and commissioned projects, not proposed capacity.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Regional supplier and funding evidence may affect local hardware, infrastructure and rate-sensitive exposures differently.",
+          "trigger": "Local issuer evidence corroborates a measurable change.",
+          "invalidation": "Local operations diverge or only foreign price moves are available.",
+          "source_ids": [
+            "us",
+            "issuer"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian equipment participation may influence the next European lead.",
+          "trigger": "Several Asian suppliers and later European cash breadth agree.",
+          "invalidation": "Country or issuer evidence diverges.",
+          "source_ids": [
+            "us",
+            "issuer"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian participation can qualify the lead into the expected US AI listing day.",
+          "trigger": "Verified supplier deliveries and broader participation confirm demand conversion.",
+          "invalidation": "IPO sentiment has no matching operating or funding evidence.",
+          "source_ids": [
+            "issuer",
+            "ipo"
+          ]
+        }
+      ]
+    }
   }
 ]
