@@ -41381,5 +41381,922 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-18-asia-close",
+    "title": "Asia close: modest Japanese rebound contrasts with Indian weakness",
+    "summary": "Japan’s reported rebound was modest; Indian benchmarks declined. UK inflation rose to 3.6%. NVIDIA’s stronger revenue outlook carries lower margin guidance. Observations have different timestamps; missing regional finals and sector panels remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-18T10:59:44Z",
+    "updated_at": "2026-11-18T10:59:44Z",
+    "cutoff_at": "2026-11-18T10:59:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nse",
+        "title": "NSE regular equity hours",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "holidays",
+        "title": "NSE holiday calendar checked; normal session corroborated by dated market report",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/resources/exchange-communication-holidays",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "jpx",
+        "title": "JPX calendar checked; no full regional calendar certification",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "region",
+        "title": "18 November mixed regional/European snapshot; exact quote times not independently confirmed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "india",
+        "title": "18 November Indian benchmark and sector report; official final matching pending",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "nv",
+        "title": "FY2027 Q3 results and Q4 outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October CPI bulletin, released 18 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "fed",
+        "title": "November FOMC minutes and speeches calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "retail",
+        "title": "October retail sales due 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "sg",
+        "title": "18 November SGX close: conflicting final quotes retained",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "morning",
+        "title": "18 November canonical morning edition: prior US cash, five market statuses and desk gaps",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "mil",
+        "title": "Kocha Singa completed 10–18 November; release dated 18 November",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/18nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NSE normal equity cash closes 15:30 IST (18:00 SGT), anchoring the 19:00 SGT Asia closing alert. Dated trading reporting corroborates a regular 18 November session. This does not certify every Asian venue; mainland China, Hong Kong, Korea, Taiwan and ASEAN final panels remain unverified here.",
+        "kind": "fact",
+        "source_ids": [
+          "nse",
+          "holidays",
+          "india"
+        ]
+      },
+      {
+        "text": "Reuters’ later 18 November snapshot: Japan +0.3%, Asia ex-Japan +0.1%; Europe flat, London −0.3%. These are source-attributed mixed-time observations, not a synchronized closing panel.",
+        "kind": "fact",
+        "source_ids": [
+          "region"
+        ]
+      },
+      {
+        "text": "Reuters reports Nifty 25,227.95 (−0.63%) and Sensex 82,031.81 (−0.61%). Thirteen of sixteen Indian groups declined. Official final matching remains pending.",
+        "kind": "fact",
+        "source_ids": [
+          "india"
+        ]
+      },
+      {
+        "text": "NVIDIA reported fiscal Q3 revenue US$115.8bn and GAAP gross margin 74.8%. Q4 revenue guidance US$130bn ±3% includes an additional week and assumes no China Data Center compute revenue; guided GAAP/non-GAAP margins are 71–72%. Forecasts are separate from reported results.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "ONS October CPI rose 3.6% year on year versus September 3.5%, and 0.5% month on month. CPIH was 3.7%, versus 3.6%. This is a higher annual inflation reading; no independently verified consensus surprise or causal asset-price response is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "text": "The Singapore close report retains conflicting vendor rows and no independently matched 18 November final STI print. Its publication and Telegram acceptance do not certify market data completeness. Prior US cash and five market statuses remain dated in the morning edition; no current US cash result is claimed before opening.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "morning"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reported Asian gains were small while India weakened; this is not a uniform regional recovery.",
+        "transmission": "Revenue guidance can support equipment demand expectations, while financing, margins and delivery constraints can limit broader participation.",
+        "alternatives": "Country rates, currency, index weights and positioning can explain differences without a single global cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "region",
+          "india",
+          "nv"
+        ]
+      },
+      {
+        "explanation": "UK inflation increased from the previous month’s annual rate.",
+        "transmission": "Persistent inflation can affect rate expectations and funding-sensitive firms, subject to observed yields and prices.",
+        "alternatives": "A higher annual rate may still be below an expected figure; no expectation gap or full gilt/sterling panel was independently verified.",
+        "confidence": "inference",
+        "source_ids": [
+          "cpi"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Hardware recovery broadens",
+        "outcome": "More suppliers participate and earnings convert into cash.",
+        "trigger": "HBM, packaging, racks, networking, cooling and power suppliers confirm shipments and realized utilization.",
+        "invalidation": "Financing terms worsen, margins compress or orders fail to turn into commissioned capacity.",
+        "horizon": "18–20 November US sessions and next issuer disclosures",
+        "source_ids": [
+          "nv",
+          "region"
+        ]
+      },
+      {
+        "name": "Rates constrain participation",
+        "outcome": "Financing-sensitive groups struggle despite company revenue growth.",
+        "trigger": "Policy minutes and sustained yields corroborate restrictive financial conditions.",
+        "invalidation": "Yields ease sustainably and equity breadth improves across unrelated groups.",
+        "horizon": "19 November SGT policy minutes and 20 November UK retail release",
+        "source_ids": [
+          "fed",
+          "cpi",
+          "retail"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "FOMC minutes: 18 November 14:00 EST / 19 November 03:00 SGT",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Rates, dollar and broad sector participation sustain a consistent policy repricing.",
+        "contradicts": "Initial moves fade or evidence contradicts the policy narrative.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Fed AI discussion: 19 November 14:15 EST / 20 November 03:15 SGT",
+        "due_at": "2026-11-19T19:15:00Z",
+        "confirms": "Published remarks identify concrete financing, productivity or risk evidence.",
+        "contradicts": "Remarks are general or unsupported by business outcomes.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "UK October retail sales: 20 November 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Volume and breadth support resilient real demand alongside inflation.",
+        "contradicts": "Nominal growth masks declining volume or concentrated categories.",
+        "source_ids": [
+          "retail",
+          "cpi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T10:59:44Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "National Stock Exchange of India — closing anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "nse",
+            "holidays",
+            "india"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Uneven regional risk appetite; no synchronized final breadth panel.",
+        "indicators": "Source-attributed Japanese gains contrasted with Indian losses. Comparable regional volume, volatility and fund-flow measures are unavailable.",
+        "source_ids": [
+          "region",
+          "india"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "NVIDIA results and outlook verified; no regional technology closing basket.",
+          "implication": "HBM, packaging, racks, networking, power and cooling require supplier-level shipment and cash evidence.",
+          "watchpoint": "Compare reported growth with margins, funded orders and commissioned capacity.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional communication services closing return or breadth verified.",
+          "implication": "Country indices and isolated issuers cannot establish a regional sector return.",
+          "watchpoint": "Check multiple constituents, final timestamps and regional participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional consumer discretionary closing return or breadth verified.",
+          "implication": "Country indices and isolated issuers cannot establish a regional sector return.",
+          "watchpoint": "Check multiple constituents, final timestamps and regional participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional consumer staples closing return or breadth verified.",
+          "implication": "Country indices and isolated issuers cannot establish a regional sector return.",
+          "watchpoint": "Check multiple constituents, final timestamps and regional participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional energy closing return or breadth verified.",
+          "implication": "Country indices and isolated issuers cannot establish a regional sector return.",
+          "watchpoint": "Check multiple constituents, final timestamps and regional participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Reuters: Indian financials −0.7%; no pan-Asia close.",
+          "implication": "Local heavyweight banks can differ from regional demand.",
+          "watchpoint": "Compare bank breadth with curve and credit evidence.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional health care closing return or breadth verified.",
+          "implication": "Country indices and isolated issuers cannot establish a regional sector return.",
+          "watchpoint": "Check multiple constituents, final timestamps and regional participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional industrials closing return or breadth verified.",
+          "implication": "Country indices and isolated issuers cannot establish a regional sector return.",
+          "watchpoint": "Check multiple constituents, final timestamps and regional participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Reuters: Indian metals −2.5%; no pan-Asia close.",
+          "implication": "Currency and underlying demand can affect producers differently.",
+          "watchpoint": "Compare miners and metals with timestamped currencies.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional real estate closing return or breadth verified.",
+          "implication": "Debt costs and commissioned capacity matter separately from AI demand headlines.",
+          "watchpoint": "Check funding terms, occupancy or offtake evidence against dated rates.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional utilities closing return or breadth verified.",
+          "implication": "Debt costs and commissioned capacity matter separately from AI demand headlines.",
+          "watchpoint": "Check funding terms, occupancy or offtake evidence against dated rates.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Supplier and funding expectations can affect local infrastructure exposures.",
+          "trigger": "Local issuer orders and financing corroborate the channel.",
+          "invalidation": "Local evidence differs or licensing/delivery preserves schedules.",
+          "source_ids": [
+            "nv",
+            "sg"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian supplier participation may influence European equipment sentiment.",
+          "trigger": "European cash breadth and supplier evidence agree.",
+          "invalidation": "Moves are narrow or reverse independently.",
+          "source_ids": [
+            "region",
+            "nv"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian divergence sets a mixed lead into the next US cash session.",
+          "trigger": "US breadth and supplier earnings confirm improving conversion.",
+          "invalidation": "Futures gains fail to broaden or margins weaken further.",
+          "source_ids": [
+            "region",
+            "nv"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-18-evening-global-watch",
+    "title": "Evening global watch: uneven recovery, UK inflation and AI margin discipline",
+    "summary": "Asian performance diverged after NVIDIA’s results. UK CPI rose to 3.6%; tonight’s Fed minutes are the next policy check. All 11 sectors and four exact SEC filers are covered, with incomplete closing data and unchanged disclosure dates labelled.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore",
+      "europe",
+      "us"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-18T10:59:44Z",
+    "updated_at": "2026-11-18T10:59:44Z",
+    "cutoff_at": "2026-11-18T10:59:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nse",
+        "title": "NSE regular equity hours",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "holidays",
+        "title": "NSE holiday calendar checked; normal session corroborated by dated market report",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/resources/exchange-communication-holidays",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "jpx",
+        "title": "JPX calendar checked; no full regional calendar certification",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "region",
+        "title": "18 November mixed regional/European snapshot; exact quote times not independently confirmed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "india",
+        "title": "18 November Indian benchmark and sector report; official final matching pending",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-set-lower-open-foreign-inflows-easing-crude-lend-support-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "nv",
+        "title": "FY2027 Q3 results and Q4 outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October CPI bulletin, released 18 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "fed",
+        "title": "November FOMC minutes and speeches calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "retail",
+        "title": "October retail sales due 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "sg",
+        "title": "18 November SGX close: conflicting final quotes retained",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "morning",
+        "title": "18 November canonical morning edition: prior US cash, five market statuses and desk gaps",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "mil",
+        "title": "Kocha Singa completed 10–18 November; release dated 18 November",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/18nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Current filer submissions index: Altimeter Capital Management, LP",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Current filer submissions index: Himalaya Capital Management LLC",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "Current filer submissions index: TCI Fund Management Ltd",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Current filer submissions index: Valley Forge Capital Management, LP",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters’ later 18 November snapshot: Japan +0.3%, Asia ex-Japan +0.1%; Europe flat, London −0.3%. These are source-attributed mixed-time observations, not a synchronized closing panel.",
+        "kind": "fact",
+        "source_ids": [
+          "region"
+        ]
+      },
+      {
+        "text": "Reuters reports Nifty 25,227.95 (−0.63%) and Sensex 82,031.81 (−0.61%). Thirteen of sixteen Indian groups declined. Official final matching remains pending.",
+        "kind": "fact",
+        "source_ids": [
+          "india"
+        ]
+      },
+      {
+        "text": "NVIDIA reported fiscal Q3 revenue US$115.8bn and GAAP gross margin 74.8%. Q4 revenue guidance US$130bn ±3% includes an additional week and assumes no China Data Center compute revenue; guided GAAP/non-GAAP margins are 71–72%. Forecasts are separate from reported results.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "ONS October CPI rose 3.6% year on year versus September 3.5%, and 0.5% month on month. CPIH was 3.7%, versus 3.6%. This is a higher annual inflation reading; no independently verified consensus surprise or causal asset-price response is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "text": "The Singapore close report retains conflicting vendor rows and no independently matched 18 November final STI print. Its publication and Telegram acceptance do not certify market data completeness. Prior US cash and five market statuses remain dated in the morning edition; no current US cash result is claimed before opening.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "morning"
+        ]
+      },
+      {
+        "text": "Wednesday military review: MINDEF’s 18 November release confirms Exercise Kocha Singa ran 10–18 November in Thailand. It is bilateral training, not evidence of combat or an imminent regional conflict. Direct Singapore relevance is defence cooperation and professional interoperability; no shipping, energy, aviation or market disruption is established by this release.",
+        "kind": "fact",
+        "source_ids": [
+          "mil"
+        ]
+      },
+      {
+        "text": "Coverage outcomes: Markets and World Watch updated in this brief; Wednesday Military has a separate strategic report. Parliament is not a scheduled Wednesday review; prior access gap remains. Morning Cybersecurity/agentic and Promotions & Cards gaps are carried forward without a new full scan or terms-freshness claim. No new Conflict report or weekly cap increment. US, Singapore, global ex-US/ex-Singapore, direct REIT and funds/ETF statuses remain DATA INCOMPLETE; no core-screen pass inferred. Market image attachment unavailable. Private weekly UBER debate and completed-week USAspending research remain unfinished.",
+        "kind": "fact",
+        "source_ids": [
+          "morning",
+          "mil",
+          "sg"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reported Asian gains were small while India weakened; this is not a uniform regional recovery.",
+        "transmission": "Revenue guidance can support equipment demand expectations, while financing, margins and delivery constraints can limit broader participation.",
+        "alternatives": "Country rates, currency, index weights and positioning can explain differences without a single global cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "region",
+          "india",
+          "nv"
+        ]
+      },
+      {
+        "explanation": "UK inflation increased from the previous month’s annual rate.",
+        "transmission": "Persistent inflation can affect rate expectations and funding-sensitive firms, subject to observed yields and prices.",
+        "alternatives": "A higher annual rate may still be below an expected figure; no expectation gap or full gilt/sterling panel was independently verified.",
+        "confidence": "inference",
+        "source_ids": [
+          "cpi"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Hardware recovery broadens",
+        "outcome": "More suppliers participate and earnings convert into cash.",
+        "trigger": "HBM, packaging, racks, networking, cooling and power suppliers confirm shipments and realized utilization.",
+        "invalidation": "Financing terms worsen, margins compress or orders fail to turn into commissioned capacity.",
+        "horizon": "18–20 November US sessions and next issuer disclosures",
+        "source_ids": [
+          "nv",
+          "region"
+        ]
+      },
+      {
+        "name": "Rates constrain participation",
+        "outcome": "Financing-sensitive groups struggle despite company revenue growth.",
+        "trigger": "Policy minutes and sustained yields corroborate restrictive financial conditions.",
+        "invalidation": "Yields ease sustainably and equity breadth improves across unrelated groups.",
+        "horizon": "19 November SGT policy minutes and 20 November UK retail release",
+        "source_ids": [
+          "fed",
+          "cpi",
+          "retail"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "FOMC minutes: 18 November 14:00 EST / 19 November 03:00 SGT",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Rates, dollar and broad sector participation sustain a consistent policy repricing.",
+        "contradicts": "Initial moves fade or evidence contradicts the policy narrative.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "Fed AI discussion: 19 November 14:15 EST / 20 November 03:15 SGT",
+        "due_at": "2026-11-19T19:15:00Z",
+        "confirms": "Published remarks identify concrete financing, productivity or risk evidence.",
+        "contradicts": "Remarks are general or unsupported by business outcomes.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "UK October retail sales: 20 November 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Volume and breadth support resilient real demand alongside inflation.",
+        "contradicts": "Nominal growth masks declining volume or concentrated categories.",
+        "source_ids": [
+          "retail",
+          "cpi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T10:59:44Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-18",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "NVIDIA results and outlook verified; no regional technology closing basket. No synchronized global sector closing return verified.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional communication services closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional consumer discretionary closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional consumer staples closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional energy closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Reuters: Indian financials −0.7%; no pan-Asia close. No synchronized global sector closing return verified.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional health care closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional industrials closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Reuters: Indian metals −2.5%; no pan-Asia close. No synchronized global sector closing return verified.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional real estate closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November regional utilities closing return or breadth verified. No synchronized global sector closing return verified.",
+          "source_ids": []
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP: exact CIK verified against SEC submissions. Latest 13F remains 13F-HR, reporting period 2026-09-30, filed 2026-11-16, accession 0001541617-26-000010. No newer 13F found at this check. This is disclosure-index reconciliation, not a fresh holdings comparison or investor-library/archive edit. Prior disclosed positions are lagged; no filing is not evidence of no trading or investor intent.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC: exact CIK verified against SEC submissions. Latest 13F remains 13F-HR, reporting period 2026-09-30, filed 2026-11-16, accession 0002043585-26-000030. No newer 13F found at this check. This is disclosure-index reconciliation, not a fresh holdings comparison or investor-library/archive edit. Prior disclosed positions are lagged; no filing is not evidence of no trading or investor intent.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd: exact CIK verified against SEC submissions. Latest 13F remains 13F-HR, reporting period 2026-09-30, filed 2026-11-16, accession 0001647251-26-000011. No newer 13F found at this check. This is disclosure-index reconciliation, not a fresh holdings comparison or investor-library/archive edit. Prior disclosed positions are lagged; no filing is not evidence of no trading or investor intent.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP: exact CIK verified against SEC submissions. Latest 13F remains 13F-HR, reporting period 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007. No newer 13F found at this check. This is disclosure-index reconciliation, not a fresh holdings comparison or investor-library/archive edit. Prior disclosed positions are lagged; no filing is not evidence of no trading or investor intent.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-18-kocha-singa-training-concludes",
+    "title": "Singapore–Thailand exercise concludes: cooperation, not combat",
+    "summary": "MINDEF confirms Exercise Kocha Singa ran 10–18 November in Thailand. The direct Singapore outcome is bilateral professional cooperation; this notice does not establish a conflict escalation or economic disruption.",
+    "channel": "military",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "short",
+    "published_at": "2026-11-18T10:59:44Z",
+    "updated_at": "2026-11-18T10:59:44Z",
+    "cutoff_at": "2026-11-18T10:59:44Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "mil",
+        "title": "Kocha Singa completed 10–18 November; release dated 18 November",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/18nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:59:44Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MINDEF’s release dated 18 November confirms the 26th Exercise Kocha Singa was conducted in Thailand from 10 to 18 November 2026. It describes longstanding bilateral defence cooperation and professional exchanges. Event dates differ from the release date.",
+        "kind": "fact",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "MINDEF presents the activity as a recurring bilateral training relationship.",
+        "transmission": "Direct Singapore relevance is professional exchange and interoperability; security confidence could matter conditionally to regional business.",
+        "alternatives": "An exercise announcement does not prove increased combat readiness, deterrence success, imminent conflict or a shipping/energy/aviation disruption. No independent outcome assessment was obtained.",
+        "confidence": "inference",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Routine cooperation continues",
+        "outcome": "Further official exchanges confirm continuity.",
+        "trigger": "A dated follow-up documents institutional cooperation.",
+        "invalidation": "An official policy change materially alters the relationship.",
+        "horizon": "Next scheduled Friday military review, 20 November",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "20 November strategic military review: official follow-up and independently verified consequences",
+        "due_at": "2026-11-20T00:00:00Z",
+        "confirms": "Public policy or outcome evidence supports a concrete regional implication.",
+        "contradicts": "Only routine exercise publicity remains, with no measured economic disruption.",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-18T10:59:44Z"
+    },
+    "material_reason": null
   }
 ]
