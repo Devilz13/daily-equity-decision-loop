@@ -42657,5 +42657,391 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-18-europe-close",
+    "title": "London close: final marks unconfirmed as inflation and commodities diverge",
+    "summary": "London’s 18 November session has ended, but retrieved FTSE rows still carry intraday timestamps. Earlier evidence showed weaker large caps and firmer midcaps. UK CPI rose to 3.6%; no definitive final index, breadth or sector closing panel is claimed.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-18T17:04:53Z",
+    "updated_at": "2026-11-18T17:04:53Z",
+    "cutoff_at": "2026-11-18T17:04:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Regular London hours 08:00–16:30",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/faqs/personal-investing",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "cal",
+        "title": "Business days and early closes, checked 18 November",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "uk",
+        "title": "Reuters 11:18 GMT UK snapshot; not a closing report",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/uk/uk-inflation-one-year-high-weighs-ftse-100-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "vendor",
+        "title": "FTSE daily row with 13:11 GMT delayed-data timestamp in public search index; direct access 403",
+        "publisher": "FT market data",
+        "url": "https://markets.ptc.ft.markitdigital.com/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "index",
+        "title": "LSE FTSE page: numerical final not returned in retrieved text",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/indices/ftse-100",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "cpi",
+        "title": "ONS October consumer inflation bulletin, released 18 November",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "fed",
+        "title": "November FOMC minutes release calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "retail",
+        "title": "October retail sales release due 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "eve",
+        "title": "18 November evening watch: dated region, NVIDIA and SEC outcomes",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-evening-global-watch/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London’s regular trading hours are 08:00–16:30 GMT. The 18 November desk-local session anchors the closing report at 19 November 01:30 SGT. No date-specific half-day exception appears on the checked LSE business calendar. London GMT and New York EST are independent offsets.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "cal"
+        ]
+      },
+      {
+        "text": "Reuters’ 11:18 GMT snapshot showed FTSE 100 10,655.44 (−0.32%) and FTSE 250 +0.41%. That is intraday evidence, not the final close.",
+        "kind": "fact",
+        "source_ids": [
+          "uk"
+        ]
+      },
+      {
+        "text": "The FT search-index daily table labels 10,628.57 as Close, but the page says data as of 13:11 GMT, delayed at least 15 minutes. It is not a verified final. Direct FT access returned 403 and Yahoo returned 429; neither was bypassed. LSE’s retrieved FTSE page supplied no numerical final. No matched official final, closing turnover or closing breadth was obtained.",
+        "kind": "fact",
+        "source_ids": [
+          "vendor",
+          "index"
+        ]
+      },
+      {
+        "text": "ONS October CPI rose 3.6% year on year from September 3.5%, and 0.5% month on month. CPIH was 3.7%, up from 3.6%. A higher annual reading and a surprise versus expectations are different questions; no independently verified expectation or full closing gilt/sterling panel is supplied here.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "text": "The Federal Reserve schedules October-meeting minutes for 18 November 14:00 EST, or 19 November 03:00 SGT, after London’s regular session. UK October retail sales are scheduled for 20 November 07:00 GMT, or 15:00 SGT. Neither result is claimed in advance.",
+        "kind": "fact",
+        "source_ids": [
+          "fed",
+          "retail"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Earlier large-cap weakness coexisted with firmer midcaps.",
+        "transmission": "Commodity weights and domestic financing exposures can produce different index responses.",
+        "alternatives": "Currency, company news and index composition can explain divergence; no final basket or synchronized rates panel establishes one dominant cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "uk",
+          "cpi"
+        ]
+      },
+      {
+        "explanation": "Annual CPI increased, while markets also weigh the policy outlook.",
+        "transmission": "Persistent inflation can affect funding-sensitive property, utilities, banks and consumer demand.",
+        "alternatives": "Base effects or an expected increase can limit price impact; a headline CPI change alone cannot prove a closing market reaction.",
+        "confidence": "inference",
+        "source_ids": [
+          "cpi",
+          "retail"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Final records reconcile",
+        "outcome": "A reliable completed-session baseline replaces intraday ambiguity.",
+        "trigger": "A dated exchange/benchmark final and an independent closing record agree.",
+        "invalidation": "Only earlier rows or mismatched timestamps remain available.",
+        "horizon": "Next morning evidence pass, 19 November SGT",
+        "source_ids": [
+          "index",
+          "vendor",
+          "lse"
+        ]
+      },
+      {
+        "name": "Domestic and exporter exposures diverge",
+        "outcome": "Rate-sensitive domestic groups and global commodity weights follow different paths.",
+        "trigger": "Verified yields, sterling and sector breadth corroborate the difference.",
+        "invalidation": "Broader participation converges or price changes are issuer-specific.",
+        "horizon": "19–20 November sessions and UK retail sales",
+        "source_ids": [
+          "uk",
+          "cpi",
+          "retail"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "October FOMC minutes, 18 November 14:00 EST / 19 November 03:00 SGT",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Sustained rates and broad equity participation support a changed policy interpretation.",
+        "contradicts": "Initial moves fade or minutes add little information.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "19 November London cash open, 08:00 GMT / 16:00 SGT: reconcile prior final and breadth",
+        "due_at": "2026-11-19T08:00:00Z",
+        "confirms": "Official prior final and multiple sector groups corroborate the baseline.",
+        "contradicts": "Only intraday or inconsistent final records remain.",
+        "source_ids": [
+          "lse",
+          "index"
+        ]
+      },
+      {
+        "signal": "20 November UK October retail sales, 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Volumes and category breadth support real demand resilience.",
+        "contradicts": "Nominal gains mask weak volumes or narrow categories.",
+        "source_ids": [
+          "retail",
+          "cpi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T17:04:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "cal"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Earlier UK large-cap weakness; final magnitude and closing breadth unconfirmed.",
+        "indicators": "Intraday FTSE 100 and FTSE 250 diverged. A daily row still carried a 13:11 GMT timestamp. No synchronized final volume, volatility, fund-flow, rates or FX panel.",
+        "source_ids": [
+          "uk",
+          "vendor",
+          "index"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European information technology closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Compare equipment, memory, software and networking breadth against reported shipments.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European communication services closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Compare telecom, media and platforms separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European consumer discretionary closing return or breadth verified.",
+          "implication": "Nominal spending and real volumes must be distinguished.",
+          "watchpoint": "Check real retail volumes and autos/travel participation.",
+          "source_ids": [
+            "retail",
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European consumer staples closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Check defensive participation across several names.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European energy closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Compare dated crude, refiners and producers; do not substitute an oil price for equity returns.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European financials closing return or breadth verified.",
+          "implication": "Inflation and rates may affect funding and valuation, subject to actual prices and business evidence.",
+          "watchpoint": "Compare banks and insurers with the yield curve.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European health care closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Check pharma and provider participation separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European industrials closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Compare equipment, transport and aerospace beyond one issuer.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European materials closing return or breadth verified.",
+          "implication": "An index snapshot cannot establish a sector’s completed-session direction.",
+          "watchpoint": "Check miners and chemicals against dated metals and currencies.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European real estate closing return or breadth verified.",
+          "implication": "Inflation and rates may affect funding and valuation, subject to actual prices and business evidence.",
+          "watchpoint": "Compare multiple REITs and property shares with financing costs.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November European utilities closing return or breadth verified.",
+          "implication": "Inflation and rates may affect funding and valuation, subject to actual prices and business evidence.",
+          "watchpoint": "Check regulated utility participation, funding and contracted power demand.",
+          "source_ids": [
+            "cpi"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "European supplier participation and funding conditions can inform the next Asian lead.",
+          "trigger": "Supplier disclosures and synchronized breadth corroborate a shared shift.",
+          "invalidation": "Country and issuer evidence diverge.",
+          "source_ids": [
+            "eve",
+            "uk"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Global financing and external-demand channels can affect local banks, REITs and suppliers differently.",
+          "trigger": "Local issuer evidence and dated rates confirm a concrete effect.",
+          "invalidation": "Local operating data contradict the foreign lead.",
+          "source_ids": [
+            "cpi",
+            "eve"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "London’s intraday divergence supplies limited context ahead of policy minutes.",
+          "trigger": "US rates and broad participation confirm the same interpretation.",
+          "invalidation": "US moves differ or remain concentrated.",
+          "source_ids": [
+            "fed",
+            "uk"
+          ]
+        }
+      ]
+    }
   }
 ]
