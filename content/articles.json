@@ -43043,5 +43043,378 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-18-us-close",
+    "title": "US close: Nasdaq and small caps rise, while S&P and Dow fall",
+    "summary": "18 November cash ended mixed: S&P 500 7,323.63, Dow 50,198.17, Nasdaq 24,429.88 and Russell 2000 2,714.31. Sector estimates show selective participation. Fed minutes discuss AI financing and inflation risks; those scenarios are not proof of a present failure.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-18T22:07:57Z",
+    "updated_at": "2026-11-18T22:07:57Z",
+    "cutoff_at": "2026-11-18T22:07:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Regular NYSE hours and calendar",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T22:07:57Z"
+      },
+      {
+        "id": "ap",
+        "title": "18 November closing index figures, published 21:20 UTC",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/990749d3d269f7ef05b9f6c089713a58",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T22:07:57Z"
+      },
+      {
+        "id": "r",
+        "title": "Reuters closing report; preliminary figures differ from AP",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T22:07:57Z"
+      },
+      {
+        "id": "sector",
+        "title": "16:10 EST constituent-weighted sector estimates and methodology",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T22:07:57Z"
+      },
+      {
+        "id": "fed",
+        "title": "October 27–28 minutes, released 18 November",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T22:07:57Z"
+      },
+      {
+        "id": "pre",
+        "title": "Earlier 18 November US pre-open: dated futures and NVIDIA outlook",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-us-open/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T22:07:57Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The 18 November NYSE regular session ended at 16:00 EST, or 19 November 05:00 SGT. The closing report target is 06:00 SGT; actual cutoff and delivery may be later.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP’s completed-session figures: S&P 500 7,323.63 (−0.2%); Dow 50,198.17 (−1.1%); Nasdaq Composite 24,429.88 (+0.4%); Russell 2000 2,714.31 (+0.5%). Percentages are source-rounded.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Reuters’ explicitly preliminary values were S&P 7,322.53, Nasdaq 24,429.89 and Dow 50,193.03. AP’s later published close is used here; exact matching with official benchmark finals remains outstanding. Reuters described the semiconductor index as slightly lower; no full numerical official sector panel was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "r",
+          "ap"
+        ]
+      },
+      {
+        "text": "Quantisnow’s 18 November 16:10 EST table estimates price-only sector returns using full constituent market values. Its 496-company sample uses June fund holdings and may lag index changes. It reports 235 rises and 260 falls; one constituent is outside those two counts. These estimates are not official sector indexes, ETF returns or exchange-wide breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "sector"
+        ]
+      },
+      {
+        "text": "The October 27–28 Fed minutes, released 18 November, record a 10–2 vote to hold 3.75–4.00%; dissenters preferred a quarter-point increase. Participants discussed AI-return disappointment, opaque financing and leveraged-loss amplification as risks, alongside banking resilience. This is retrospective discussion, not a new policy decision or confirmation of an actual systemic failure. Direct local retrieval returned 403; the public primary document was readable through web retrieval.",
+        "kind": "fact",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "text": "Earlier futures and company guidance remain dated in the pre-open report. They are not today’s cash-sector returns, after-hours prices or proof that anticipated revenue has converted into supplier cash. No verified after-hours market panel is supplied.",
+        "kind": "fact",
+        "source_ids": [
+          "pre"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Benchmark and sample-sector results show selective participation.",
+        "transmission": "Supplier demand and financing should be checked independently before extrapolating an AI-led recovery.",
+        "alternatives": "Index weights, issuer news, positioning and price timing can explain divergent returns without a common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "ap",
+          "sector",
+          "r"
+        ]
+      },
+      {
+        "explanation": "The minutes describe risks around investment returns and financing.",
+        "transmission": "Credit terms, funding costs and project utilization could transmit those risks if they change in observed data.",
+        "alternatives": "The discussion predates later information; investment can also raise productive capacity. Risk scenarios do not establish that losses have occurred.",
+        "confidence": "inference",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Recovery broadens beyond selected groups",
+        "outcome": "More suppliers and unrelated sectors participate alongside improving orders and cash conversion.",
+        "trigger": "Several cash-sector baskets improve with independently confirmed breadth and funded shipments.",
+        "invalidation": "Benchmark divergence persists or gains remain confined to a few constituents.",
+        "horizon": "19 November US session and supplier updates",
+        "source_ids": [
+          "sector",
+          "pre"
+        ]
+      },
+      {
+        "name": "Financing discipline changes execution",
+        "outcome": "Some investment plans slow or require better funding terms.",
+        "trigger": "Issuer disclosures quantify changed credit costs, project timing or utilization.",
+        "invalidation": "Stable funding and realized cash conversion support existing schedules.",
+        "horizon": "Next issuer filings and policy evidence",
+        "source_ids": [
+          "fed",
+          "pre"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "19 November Asia pre-open and supplier participation: 07:00 SGT briefing before Tokyo cash",
+        "due_at": "2026-11-18T23:00:00Z",
+        "confirms": "Regional supplier and funding disclosures corroborate the US signal.",
+        "contradicts": "Local evidence differs or only index headlines are available.",
+        "source_ids": [
+          "pre",
+          "sector"
+        ]
+      },
+      {
+        "signal": "19 November US regular cash open: 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "Fresh breadth and several sector groups agree on broader participation.",
+        "contradicts": "A narrow rebound fades or verified data revise the prior baseline.",
+        "source_ids": [
+          "nyse",
+          "sector"
+        ]
+      },
+      {
+        "signal": "Next scheduled FOMC meeting, 8–9 December 2026; fresh data before then",
+        "due_at": "2026-12-09T00:00:00Z",
+        "confirms": "Incoming inflation, demand and funding evidence support the policy interpretation.",
+        "contradicts": "New data contradict the October discussion or market expectations.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T22:07:57Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Selective participation rather than a uniform rebound.",
+        "indicators": "Nasdaq/small-cap gains contrasted with S&P/Dow losses. The sample’s rising and falling counts are not exchange breadth; current final volatility, turnover, rates and FX panels remain unverified.",
+        "source_ids": [
+          "ap",
+          "sector"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "+0.15% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "+0.38% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "+2.14% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "−0.44% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "−3.40% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "−1.13% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "−2.30% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "−0.06% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "−1.24% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "+0.16% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "+0.23% (16:10 EST estimate).",
+          "implication": "Persistence needs independent confirmation.",
+          "watchpoint": "Compare official final records and several constituent disclosures before inferring persistence.",
+          "source_ids": [
+            "sector"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US selective participation may produce different leads for suppliers and domestic groups.",
+          "trigger": "Several local supplier groups and issuer evidence corroborate improved conversion.",
+          "invalidation": "Regional evidence diverges or gains remain concentrated.",
+          "source_ids": [
+            "sector",
+            "pre"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Funding costs and external demand can affect banks, REITs and hardware exposures differently.",
+          "trigger": "Local issuer evidence quantifies funding or execution changes.",
+          "invalidation": "Local operating evidence contradicts the proposed channel.",
+          "source_ids": [
+            "fed",
+            "pre"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "The next European session can test whether US participation extends across equipment and domestic groups.",
+          "trigger": "Verified European breadth and issuer evidence support the same direction.",
+          "invalidation": "Domestic drivers dominate or US sector estimates fail to reconcile.",
+          "source_ids": [
+            "sector",
+            "pre"
+          ]
+        }
+      ]
+    }
   }
 ]
