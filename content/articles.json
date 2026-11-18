@@ -1,5 +1,367 @@
 [
   {
+    "id": "2026-11-18-europe-open",
+    "title": "London pre-open: CPI meets a fragile post-NVIDIA risk recovery",
+    "summary": "London cash opens at 08:00 GMT (16:00 SGT). UK CPI is due an hour earlier. Asia’s early rebound faded in the Reuters snapshot despite NVIDIA’s strong revenue forecast; no verified European opening prices or fresh sector panel are claimed.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-18T06:57:32Z",
+    "updated_at": "2026-11-18T06:57:32Z",
+    "cutoff_at": "2026-11-18T06:57:32Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Exchange business days, checked 18 November",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "hours",
+        "title": "Regular cash trading hours",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/faqs/personal-investing",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October CPI release: 18 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "asia",
+        "title": "18 November Asia snapshot; exact observation time not separately verified",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "prior",
+        "title": "17 November London close, conflicting feeds unresolved",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-europe-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "nv",
+        "title": "Fiscal Q3 FY2027 results and outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "fed",
+        "title": "November FOMC minutes calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      },
+      {
+        "id": "morning",
+        "title": "18 November extensive morning briefing",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T06:57:32Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London is scheduled for regular 18 November cash trading, 08:00–16:30 GMT. The opening alert target is 15:00 SGT (07:00 GMT); cash opens 16:00 SGT. No current cash opening observation is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "ONS schedules October CPI at 07:00 GMT (15:00 SGT). The public release page still said not yet published when checked; no actual figure or consensus surprise was verified at cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "text": "Reuters’ 18 November Asia snapshot: MSCI ex-Japan −0.1%, Nikkei −0.3%, S&P E-mini +0.3%. Its article began at 01:46 UTC; the quote time was not independently established. These are earlier mixed regional and futures observations, not European cash or final Asian marks.",
+        "kind": "fact",
+        "source_ids": [
+          "asia"
+        ]
+      },
+      {
+        "text": "NVIDIA reported US$115.8bn fiscal Q3 FY2027 revenue. Its Q4 US$130bn ±3% outlook includes an extra week, excludes assumed China Data Center compute sales and forecasts GAAP/non-GAAP gross margins of 71–72% versus Q3 GAAP 74.8%. Reported growth and forward margins are different measures.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "The prior London closing brief retains conflicting final FTSE quotes. No definitive prior cash close is substituted, and no synchronized new European futures, volume, breadth, sterling or gilt panel was verified.",
+        "kind": "fact",
+        "source_ids": [
+          "prior"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Asian early gains faded despite stronger NVIDIA revenue guidance in the retrieved snapshot.",
+        "transmission": "A durable earnings-led recovery should broaden across equipment, components and unrelated cyclical groups.",
+        "alternatives": "FX, domestic news and profit taking can outweigh a US issuer; the snapshot does not identify European flows.",
+        "confidence": "inference",
+        "source_ids": [
+          "asia",
+          "nv"
+        ]
+      },
+      {
+        "explanation": "The coming UK CPI print can alter domestic rate expectations, but no actual is yet verified.",
+        "transmission": "Compare services inflation with short gilts, sterling, property and domestic mid-cap breadth.",
+        "alternatives": "Energy and currency translation can affect multinational index weights independently; no causal response should be assigned before observing data and prices.",
+        "confidence": "inference",
+        "source_ids": [
+          "cpi",
+          "hours"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "CPI and rates support domestic breadth",
+        "outcome": "Rate-sensitive UK groups participate in a broader recovery.",
+        "trigger": "Official inflation detail and front-end yields shift together, with improved domestic equity breadth.",
+        "invalidation": "Rates reverse or gains stay confined to a few exporters.",
+        "horizon": "18 November CPI and first London cash hour",
+        "source_ids": [
+          "cpi",
+          "hours"
+        ]
+      },
+      {
+        "name": "AI rebound remains narrow",
+        "outcome": "European hardware and wider cyclicals fail to confirm the revenue optimism.",
+        "trigger": "Equipment and supplier breadth remains weak after opening despite solid issuer guidance.",
+        "invalidation": "Multiple supplier groups improve and product conversion evidence strengthens.",
+        "horizon": "18 November European session",
+        "source_ids": [
+          "asia",
+          "nv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "October CPI then London opening breadth, 18 November 15:00/16:00 SGT",
+        "due_at": "2026-11-18T08:00:00Z",
+        "confirms": "Services prices, sterling, gilts and domestic groups agree on a changed outlook.",
+        "contradicts": "Isolated moves or reversals undermine a common rate explanation.",
+        "source_ids": [
+          "cpi",
+          "hours"
+        ]
+      },
+      {
+        "signal": "FOMC minutes, 19 November 03:00 SGT (18 November 14:00 EST)",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Policy detail produces a sustained rates and breadth repricing.",
+        "contradicts": "Initial moves fade or prices do not corroborate the narrative.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T06:57:32Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Fragile cross-market lead ahead of a domestic inflation catalyst.",
+        "indicators": "Earlier Asian benchmark losses coexisted with S&P futures gains. No synchronized European sentiment, volatility, breadth or volume measure.",
+        "source_ids": [
+          "asia",
+          "cpi"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "NVIDIA earnings provide supplier context; no European hardware basket verified.",
+          "implication": "Higher reported revenue and lower guided margins need separate supplier checks.",
+          "watchpoint": "Compare chip equipment, memory and software participation.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified current European communication services sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Compare telecom operators with media and platforms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified current European consumer discretionary sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Check autos, retail and travel with real income and rates.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified current European consumer staples sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Check defensive participation against the broad market.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified current European energy sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Compare producers and refiners with dated crude marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified current European financials sector return or same-time opening basket.",
+          "implication": "UK CPI may matter through rates, subject to observed cross-market confirmation.",
+          "watchpoint": "Compare banks and insurers against the curve.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified current European health care sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Check pharmaceutical and provider breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified current European industrials sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Check equipment, logistics and aerospace participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified current European materials sector return or same-time opening basket.",
+          "implication": "Country indices and a US issuer cannot establish this sector’s direction.",
+          "watchpoint": "Compare miners and chemicals against dated metals and FX.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified current European real estate sector return or same-time opening basket.",
+          "implication": "UK CPI may matter through rates, subject to observed cross-market confirmation.",
+          "watchpoint": "Check property and REIT breadth against financing rates.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified current European utilities sector return or same-time opening basket.",
+          "implication": "UK CPI may matter through rates, subject to observed cross-market confirmation.",
+          "watchpoint": "Compare regulated utilities with yields and power guidance.",
+          "source_ids": [
+            "cpi"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "European supplier participation could corroborate or contradict the mixed Asian response.",
+          "trigger": "Equipment and component breadth agree across venues.",
+          "invalidation": "Moves remain narrow or diverge by country.",
+          "source_ids": [
+            "asia",
+            "nv"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "External demand and rates can affect local hardware, banks and REITs differently.",
+          "trigger": "Local company disclosures and same-time rates support the channel.",
+          "invalidation": "Local evidence contradicts foreign price signals.",
+          "source_ids": [
+            "morning",
+            "cpi"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "European cash breadth and CPI could change the lead into the next US session.",
+          "trigger": "Futures and broad sector participation confirm an earnings or rates shift.",
+          "invalidation": "US prices diverge or European moves fade.",
+          "source_ids": [
+            "nv",
+            "cpi",
+            "fed"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "2026-11-18-apache-mod-http2-active-exploitation",
     "title": "CSA flags active exploitation of Apache mod_http2 vulnerability",
     "summary": "CSA’s 17 November alert advises patching affected Apache HTTP Server installations with mod_http2 enabled. The alert reports active exploitation; no specific Singapore victim is identified.",

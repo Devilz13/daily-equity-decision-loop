@@ -192,3 +192,9 @@ Prepared `asia/2026-11-18/open` for 07:00 SGT ahead of Tokyo’s 08:00 SGT regul
 Base `23ca317dd0f705fb18cfb0b59d0ed17166befa41`. Asia pre-open `asia/2026-11-18/open` accepted as message 84 at 07:00:01 SGT ([run 44195242829](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44195242829)); US close remains 83. Do not resend.
 
 Prepared canonical Issue 066 with separate Singapore opening web report (normal Telegram coverage stays in the daily digest), plus CSA Apache exploitation report. All four SEC indexes checked: latest originals remain September, filed 16 November. Discovery-feed/Parliament gaps, market image and sector gaps, and full product/terms review backlog remain explicit. All 11 Promotions & Cards endpoint pairs checked: DBS 403; other endpoints accessible but full fields not reconciled; no freshness advanced. Completed-week award research and owner-only weekly debate remain incomplete, not refreshed by this edition. Validate exact issue/report markers and acceptance receipt. Next fresh session is London pre-open; morning index and delivery key must not change during session-only work.
+
+## 18 November — London pre-open, evidence 2026-11-18T06:57:32Z
+
+Base `43437ae09f03fa8c5860139675c243cdf6635e3f`. Issue 066 live marker and [run 44205435080](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44205435080) acceptance confirmed: key `66:2026-11-18:2026-11-18-v1`, message 85 at 08:09:31 SGT. No second SGX open alert.
+
+Prepared `europe/2026-11-18/open` for 15:00 SGT before 16:00 SGT cash open. ONS CPI actual not yet verified; Reuters Asia snapshot is separately dated and not European cash. Prior FTSE close conflicts and current European sector/rates/FX panel gaps remain. Verify exact live report and accepted receipt. Singapore close, Asia close and evening watch remain next due distinct products.
