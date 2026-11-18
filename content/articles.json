@@ -42298,5 +42298,364 @@
       "reviewed_at": "2026-11-18T10:59:44Z"
     },
     "material_reason": null
+  },
+  {
+    "id": "2026-11-18-us-open",
+    "title": "US pre-open: futures rebound meets the cash breadth test",
+    "summary": "US cash opens at 22:30 SGT. Earlier Nasdaq and S&P futures rose after NVIDIA’s results, but no current cash breadth or sector panel is established. Watch whether supplier participation persists, then compare rates and breadth after the 03:00 SGT Fed minutes.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-18T13:03:28Z",
+    "updated_at": "2026-11-18T13:03:28Z",
+    "cutoff_at": "2026-11-18T13:03:28Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "NYSE regular hours and 2026 holiday/early-close calendar",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      },
+      {
+        "id": "futures",
+        "title": "18 November 06:47 EST futures and premarket snapshot, retrieved from public Reuters search output",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-jump-nvidia-forecast-lifts-ai-trade-ahead-anthropic-pricing-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      },
+      {
+        "id": "nv",
+        "title": "Fiscal Q3 FY2027 results and Q4 outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      },
+      {
+        "id": "fed",
+        "title": "November calendar and October meeting minutes release",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      },
+      {
+        "id": "close",
+        "title": "17 November completed US cash, separately dated from results after hours",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-17-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      },
+      {
+        "id": "eve",
+        "title": "18 November evening global watch: regional observations, UK CPI and four SEC index outcomes",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-evening-global-watch/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      },
+      {
+        "id": "sg",
+        "title": "18 November Singapore close; final quotes unconfirmed",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T13:03:28Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE regular core trading is 09:30–16:00 EST on 18 November, or 22:30 SGT to 05:00 SGT next day. The pre-open delivery target is 21:30 SGT. The published 2026 calendar shows no holiday or early-close exception for this session. US and London offsets are independently EST and GMT.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters at 06:47 EST (19:47 SGT): Nasdaq 100 E-minis +0.9%, S&P 500 E-minis +0.41%, Dow E-minis +0.11%; NVIDIA +2.7% premarket. These are earlier futures/extended-hours observations, not opening prices or whole-market breadth. Direct article retrieval was unavailable; the dated public search output supplied the snapshot.",
+        "kind": "fact",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "text": "NVIDIA reported fiscal Q3 revenue US$115.8bn and GAAP gross margin 74.8%. Q4 revenue guidance US$130bn ±3% includes an additional week, assumes no China Data Center compute revenue and forecasts GAAP/non-GAAP margins of 71–72%. Revenue guidance is not realized shipments or cash.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "The prior 17 November cash report records S&P 500 7,340.53 (−1.03%), Dow 50,759.42 (−1.64%) and Nasdaq Composite 24,328.38 (−0.74%). These are retained prior-session observations, not re-fetched official finals or 18 November US returns. The evening watch separately dates Asian and European observations and UK CPI; Singapore final quote discrepancies remain explicit.",
+        "kind": "fact",
+        "source_ids": [
+          "close",
+          "eve",
+          "sg"
+        ]
+      },
+      {
+        "text": "The Federal Reserve schedules minutes of the 27–28 October meeting for 18 November 14:00 EST (19 November 03:00 SGT). No minutes outcome is yet claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Higher futures followed a strong issuer revenue forecast.",
+        "transmission": "A durable improvement should spread into suppliers and unrelated sectors after cash opens, with orders turning into shipments and cash.",
+        "alternatives": "Short covering, thin extended-hours liquidity or concentrated index weights can support futures without broader demand improvement. Lower guided margins and financing risk remain competing signals.",
+        "confidence": "inference",
+        "source_ids": [
+          "nv",
+          "futures"
+        ]
+      },
+      {
+        "explanation": "Policy minutes arrive during the coming US cash session.",
+        "transmission": "Rates and dollar repricing can affect growth duration, funding costs, banks, REITs and utilities differently.",
+        "alternatives": "Minutes describe the October discussion and may add little to newer information; co-movement alone does not establish policy causation.",
+        "confidence": "inference",
+        "source_ids": [
+          "fed",
+          "nyse"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash participation validates the rebound",
+        "outcome": "Recovery extends beyond one hardware issuer and index-heavy stocks.",
+        "trigger": "Equipment, memory, networking and wider cyclicals improve together with broad cash participation.",
+        "invalidation": "Futures gains fade or leadership stays narrowly concentrated.",
+        "horizon": "18 November first cash hour and subsequent close",
+        "source_ids": [
+          "futures",
+          "nv",
+          "nyse"
+        ]
+      },
+      {
+        "name": "Financing and rates constrain conversion",
+        "outcome": "Revenue optimism fails to support broader funding-sensitive groups.",
+        "trigger": "Minutes, yields and issuer financing or margin evidence point to persistent constraints.",
+        "invalidation": "Funding remains available, shipments convert and gains broaden despite policy concerns.",
+        "horizon": "19 November 03:00 SGT minutes through US close",
+        "source_ids": [
+          "fed",
+          "nv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "18 November cash open and first-hour supplier breadth, 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-18T14:30:00Z",
+        "confirms": "Current cash breadth and several supplier groups confirm the futures lead.",
+        "contradicts": "Opening gains fade or one stock accounts for most of the move.",
+        "source_ids": [
+          "nyse",
+          "futures",
+          "nv"
+        ]
+      },
+      {
+        "signal": "October FOMC minutes, 18 November 14:00 EST / 19 November 03:00 SGT",
+        "due_at": "2026-11-18T19:00:00Z",
+        "confirms": "Policy details and sustained yields/dollar/sector participation support the same interpretation.",
+        "contradicts": "Responses reverse or minutes add no material information.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "US cash close, 18 November 16:00 EST / 19 November 05:00 SGT; closing report target 06:00 SGT",
+        "due_at": "2026-11-18T21:00:00Z",
+        "confirms": "Final index, turnover and sector records establish whether the rebound broadened.",
+        "contradicts": "Only after-hours or unmatched quotes are available.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T13:03:28Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Earlier futures suggest a technology-led rebound; cash confirmation pending.",
+        "indicators": "Nasdaq futures outperformed the S&P and Dow in the 06:47 EST Reuters snapshot. No synchronized current cash breadth, volume, volatility or positioning measure verified.",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "NVIDIA reported results and lower margin outlook verified; no current sector-wide cash return.",
+          "implication": "Supplier shipments, funded orders, utilization and cash conversion must corroborate revenue optimism.",
+          "watchpoint": "Check equipment, HBM/memory, networking and supplier cash conversion.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US communication services cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare platforms, telecom and media participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US consumer discretionary cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare retail, autos and travel against dated issuer guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US consumer staples cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Check relative resilience across several constituents.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US energy cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare producers and refiners with same-time crude marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US financials cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare banks and insurers against the curve and credit evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US health care cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Check providers and drugmakers separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US industrials cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare machinery, aerospace and transport breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US materials cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare metals and chemicals with dated currencies and inputs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US real estate cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Check multiple REITs against financing costs and operating evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 18 November US utilities cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare regulated utilities, power demand and contracted offtake against yields.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US supplier and funding evidence may inform the next Asian cash session.",
+          "trigger": "Several hardware groups and cash breadth agree on improving conversion.",
+          "invalidation": "Futures gains fade or Asian supplier evidence differs.",
+          "source_ids": [
+            "nv",
+            "futures",
+            "eve"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Hardware availability and financing can affect local infrastructure and rate-sensitive groups differently.",
+          "trigger": "Local issuer disclosures and dated rates corroborate a concrete project or funding change.",
+          "invalidation": "Local operating evidence diverges and no measurable effect is established.",
+          "source_ids": [
+            "nv",
+            "fed",
+            "sg"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US rates and equipment participation can qualify the next European lead.",
+          "trigger": "European suppliers and domestic groups corroborate the US breadth/rates interpretation.",
+          "invalidation": "Domestic data dominate or US moves remain concentrated.",
+          "source_ids": [
+            "nv",
+            "fed",
+            "eve"
+          ]
+        }
+      ]
+    }
   }
 ]
