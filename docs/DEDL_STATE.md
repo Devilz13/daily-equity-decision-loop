@@ -186,3 +186,9 @@ Prepared `us/2026-11-17/close` with final major cash indices and NVIDIA after-ho
 Base `e26f83ce3ea7e7a690796f35a7999db7f9c49c7a`. US close `us/2026-11-17/close` matched its live marker and was accepted as message 83 at 06:06:58 SGT ([run 44186699517](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44186699517)). Do not resend.
 
 Prepared `asia/2026-11-18/open` for 07:00 SGT ahead of Tokyo’s 08:00 SGT regular open. Prior cash, NVIDIA results and later US futures/ETF reports stay distinct. No Asian cash sector marks or completed call transcript verified. Verify exact live report and receipt. The canonical 18 November morning edition remains due at 08:00; no early edition or separate normal SGX opening message.
+
+## 18 November — morning edition, evidence 2026-11-18T00:08:16Z
+
+Base `23ca317dd0f705fb18cfb0b59d0ed17166befa41`. Asia pre-open `asia/2026-11-18/open` accepted as message 84 at 07:00:01 SGT ([run 44195242829](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44195242829)); US close remains 83. Do not resend.
+
+Prepared canonical Issue 066 with separate Singapore opening web report (normal Telegram coverage stays in the daily digest), plus CSA Apache exploitation report. All four SEC indexes checked: latest originals remain September, filed 16 November. Discovery-feed/Parliament gaps, market image and sector gaps, and full product/terms review backlog remain explicit. All 11 Promotions & Cards endpoint pairs checked: DBS 403; other endpoints accessible but full fields not reconciled; no freshness advanced. Completed-week award research and owner-only weekly debate remain incomplete, not refreshed by this edition. Validate exact issue/report markers and acceptance receipt. Next fresh session is London pre-open; morning index and delivery key must not change during session-only work.

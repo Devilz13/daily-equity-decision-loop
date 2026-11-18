@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-17",
+  "latest": "2026-11-18",
   "issues": [
+    {
+      "date": "2026-11-18",
+      "number": 66,
+      "title": "NVIDIA growth meets margin risk; Asia tests the US lead",
+      "status": "DATA INCOMPLETE · delayed morning edition",
+      "path": "issues/2026/11/18/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-18-v1",
+        "summary": "Delayed morning edition: US cash fell broadly before NVIDIA reported strong revenue and a lower margin outlook. Tokyo is open; SGX regular cash opens at 09:00 SGT. Watch supplier breadth, licensing and UK CPI. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "CSA: Apache exploitation alert",
+            "date": "17 Nov",
+            "context": "Affected mod_http2 deployments need patching and review. No specific Singapore victim confirmed; check vendor and CSA guidance.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-164/"
+          },
+          {
+            "title": "NVIDIA revenue rises; margins in focus",
+            "date": "17 Nov US",
+            "context": "Q3 revenue US$115.8bn; Q4 outlook US$130bn ±3% includes an extra week and lower margins. Reported results are separate from forward estimates.",
+            "source": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+          },
+          {
+            "title": "Singapore chip access under assessment",
+            "date": "16–18 Nov",
+            "context": "Ministries are engaging companies and US authorities. No blanket local shutdown or quantified issuer loss is established.",
+            "source": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/"
+          }
+        ],
+        "market_note": "17 Nov US cash: S&P 500 7,340.53 (−1.03%); Nasdaq 24,328.38 (−0.74%); Dow 50,759.42 (−1.64%). Current SGX opening prices unverified. UK CPI 18 Nov 15:00 SGT; FOMC minutes 19 Nov 03:00 SGT.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-17",
       "number": 65,
