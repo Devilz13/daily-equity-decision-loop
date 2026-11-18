@@ -3464,7 +3464,7 @@
     ],
     "format": "market-close",
     "published_at": "2026-11-17T10:04:24Z",
-    "updated_at": "2026-11-17T10:04:24Z",
+    "updated_at": "2026-11-18T10:01:39Z",
     "cutoff_at": "2026-11-17T10:04:24Z",
     "status": "published",
     "sources": [
@@ -3557,6 +3557,15 @@
         "type": "primary",
         "published_at": "2026-11-17",
         "accessed_at": "2026-11-17T10:04:24Z"
+      },
+      {
+        "id": "priorpress",
+        "title": "17 November final close corroboration in public search excerpt",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/us-ai-chip-export-curbs-hit-singapore-sti-falls-over-1-4-five-month-low-tuesday",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:01:39Z"
       }
     ],
     "claims": [
@@ -3685,13 +3694,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-11-18T10:01:39Z",
+        "reason": "Reconcile the provisional 17 November STI close against later corroborating records.",
+        "change": "The provisional Yahoo value 5,131.97 in the original report is superseded. The latest SGX public indexed closing snapshot at 17:20 SGT, current Yahoo/Investing daily rows and Zaobao reporting corroborate 5,109.13, down 74.05 points (1.43%) from 5,183.18. This later verification does not change the original cutoff or establish what was known then.",
+        "source_ids": [
+          "priorpress"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": false,
-      "reviewed_at": "2026-11-17T10:04:24Z"
+      "reviewed_at": "2026-11-18T10:01:39Z"
     },
     "material_reason": null,
     "market_read": {
@@ -40995,6 +41013,370 @@
           "source_ids": [
             "fed",
             "msft"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-18-singapore-close",
+    "title": "Singapore close: weaker snapshots, final STI print unconfirmed",
+    "summary": "Available 18 November snapshots point to further STI weakness, but the final close is not matched. Yahoo’s daily row and Investing.com differ; the latter is labelled delayed intraday. Yesterday’s final STI close is now corroborated at 5,109.13 (−1.43%).",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-18T10:01:39Z",
+    "updated_at": "2026-11-18T10:01:39Z",
+    "cutoff_at": "2026-11-18T10:01:39Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "clock",
+        "title": "SGX regular cash and Trade at Close rules",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "holiday",
+        "title": "2026 gazetted public holidays",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Prior session STI closing snapshot in public search index; live page shell unavailable",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/?origen=app",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "yahoo",
+        "title": "18 November daily row from public search index; direct page returned 429",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ESTI/history/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "invest",
+        "title": "18 November daily row and delayed intraday header",
+        "publisher": "Investing.com",
+        "url": "https://au.investing.com/indices/singapore-straits-time-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "mddi",
+        "title": "Semiconductor licensing statement, 16 November; rechecked 18 November",
+        "publisher": "MDDI / METI",
+        "url": "https://www.mddi.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "priorpress",
+        "title": "17 November final close corroboration in public search excerpt",
+        "publisher": "Lianhe Zaobao",
+        "url": "https://www.zaobao.com.sg/en/finance/singapore/us-ai-chip-export-curbs-hit-singapore-sti-falls-over-1-4-five-month-low-tuesday",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "sginvest",
+        "title": "14:09 SGT STI snapshot in search index; direct page challenge not bypassed",
+        "publisher": "SGinvestors.io",
+        "url": "https://sginvestors.io/market/ftse-st-indices-straits-times-index-constituents",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T10:01:39Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX regular cash trading ends at 17:00 SGT, followed by the closing routine and Trade at Close ending 17:16; the alert target is 18:16 SGT. SGX follows the Singapore holiday calendar and 18 November is not a gazetted holiday. No changed session clock was found.",
+        "kind": "fact",
+        "source_ids": [
+          "clock",
+          "holiday"
+        ]
+      },
+      {
+        "text": "The retrieved Yahoo search-index daily row lists 18 November at 5,054.71 with no volume, while Investing.com lists 5,043.89 (−1.28%) and a 13:53:51 delayed-data header. Their matching final-close status is not established. Do not treat either number as a verified final or use the intraday volume as closing turnover. Direct Yahoo retrieval returned 429.",
+        "kind": "fact",
+        "source_ids": [
+          "yahoo",
+          "invest"
+        ]
+      },
+      {
+        "text": "SGinvestors’ indexed 14:09 SGT snapshot shows STI 5,048.63 (−1.18%). Its direct page presented a JavaScript verification challenge, which was not bypassed. This is an intraday observation, not closing breadth or a completed sector panel.",
+        "kind": "fact",
+        "source_ids": [
+          "sginvest"
+        ]
+      },
+      {
+        "text": "For 17 November, the SGX indexed 17:20 SGT snapshot, the latest daily rows and Zaobao’s report agree on 5,109.13, down 74.05 points (1.43%) from 5,183.18. This supersedes the earlier provisional 5,131.97 row retained in yesterday’s DEDL report; that report receives an append-only correction.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "yahoo",
+          "invest",
+          "priorpress"
+        ]
+      },
+      {
+        "text": "The rechecked 16 November joint ministry statement describes a licence requirement for advanced semiconductor transfers to Singapore and four other countries, with a conditional US-headquartered/ultimate-parent exception. Ministries are assessing implementation with firms and US authorities. No quantified Singapore issuer loss or blanket shutdown is confirmed by that statement.",
+        "kind": "fact",
+        "source_ids": [
+          "mddi"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Available local observations point to weakness, but final index, breadth, turnover and bank attribution remain unverified.",
+        "transmission": "Licensing uncertainty could affect covered hardware delivery and data-centre investment timing.",
+        "alternatives": "Bank weights, interest rates, positioning and unrelated issuer news may explain index changes; the retrieved evidence does not isolate a cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "yahoo",
+          "invest",
+          "mddi"
+        ]
+      },
+      {
+        "explanation": "An intraday quote can appear in a daily history table before final reconciliation.",
+        "transmission": "Treating such a row as final can distort daily comparisons and sector interpretation.",
+        "alternatives": "Feed timing or later corrections can explain discrepancies without implying exchange disruption.",
+        "confidence": "inference",
+        "source_ids": [
+          "yahoo",
+          "invest",
+          "sgx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Closing data reconcile",
+        "outcome": "A reliable completed-session baseline becomes available.",
+        "trigger": "SGX and an independent dated final record agree on index, turnover and breadth.",
+        "invalidation": "Disparate quotes or intraday timestamps persist.",
+        "horizon": "Next evening checkpoint and next SGX session",
+        "source_ids": [
+          "sgx",
+          "invest",
+          "yahoo"
+        ]
+      },
+      {
+        "name": "Licensing friction reaches issuer execution",
+        "outcome": "Some covered projects report delivery delays or higher compliance costs.",
+        "trigger": "An issuer or authority quantifies affected hardware, licences or commissioning dates.",
+        "invalidation": "Confirmed eligibility or approvals preserve project schedules.",
+        "horizon": "Next issuer and ministry disclosures",
+        "source_ids": [
+          "mddi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "18 November evening global watch: reconcile SGX final evidence",
+        "due_at": "2026-11-18T11:00:00Z",
+        "confirms": "A dated exchange final and matching independent report establish close and breadth.",
+        "contradicts": "Only intraday/delayed rows remain available.",
+        "source_ids": [
+          "sgx",
+          "yahoo",
+          "invest"
+        ]
+      },
+      {
+        "signal": "Next regular SGX cash opening, 19 November 09:00 SGT",
+        "due_at": "2026-11-19T01:00:00Z",
+        "confirms": "Verified bank, REIT and technology baskets corroborate broad participation.",
+        "contradicts": "A small number of index weights account for movement or data remain incomplete.",
+        "source_ids": [
+          "clock",
+          "holiday",
+          "mddi"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-18T10:01:39Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-18",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX",
+          "status": "verified-session",
+          "source_ids": [
+            "clock",
+            "holiday"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Weak intraday tone; completed closing sentiment remains unconfirmed.",
+        "indicators": "The 14:09 STI snapshot was negative; competing daily rows also indicate weakness. No verified closing breadth, turnover, volatility or fund-flow series.",
+        "source_ids": [
+          "sginvest",
+          "yahoo",
+          "invest"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Licensing policy is verified; local technology closing returns and issuer-level financial effects are not.",
+          "implication": "Covered hardware and end-user eligibility may affect execution; demand is distinct from licensed delivery.",
+          "watchpoint": "Check issuer licences, shipments and commissioning dates.",
+          "source_ids": [
+            "mddi"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX communication services closing basket, return or breadth.",
+          "implication": "Data traffic demand and hosting capacity are separate risks.",
+          "watchpoint": "Compare telecom and infrastructure disclosures.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX consumer discretionary closing basket, return or breadth.",
+          "implication": "Exports are not a direct measure of household spending.",
+          "watchpoint": "Check domestic sales and breadth in local retail.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX consumer staples closing basket, return or breadth.",
+          "implication": "The STI snapshot cannot establish defensive rotation.",
+          "watchpoint": "Compare several staples shares against the broad market.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX energy closing basket, return or breadth.",
+          "implication": "Freight and fuel can affect producers, refiners and buyers differently.",
+          "watchpoint": "Check dated crude and refined-product marks separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX financials closing basket, return or breadth.",
+          "implication": "Bank index weights can differ from broad market participation.",
+          "watchpoint": "Reconcile DBS, OCBC and UOB finals against closing breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX health care closing basket, return or breadth.",
+          "implication": "Export data do not establish local health-care equity performance.",
+          "watchpoint": "Check provider and pharmaceutical issuer disclosures separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX industrials closing basket, return or breadth.",
+          "implication": "Infrastructure and equipment exposure depends on actual orders and execution.",
+          "watchpoint": "Check signed orders, funded work and delivery schedules.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX materials closing basket, return or breadth.",
+          "implication": "Global cyclicals and input costs matter, but no local basket move can be inferred.",
+          "watchpoint": "Compare materials names against dated regional commodity data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX real estate closing basket, return or breadth.",
+          "implication": "Funding, occupancy and project timing may offset one another.",
+          "watchpoint": "Compare multiple REIT finals with dated rates and operating disclosures.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 18 November SGX utilities closing basket, return or breadth.",
+          "implication": "Data-centre demand depends on commissioned capacity and contracted offtake.",
+          "watchpoint": "Check power contracts and actual commissioning evidence.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Semiconductor licensing may change some regional project timelines.",
+          "trigger": "Country or operator evidence confirms covered shipments or licence delays.",
+          "invalidation": "Approvals and eligibility preserve delivery timelines.",
+          "source_ids": [
+            "mddi"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Local weakness may be relevant to global infrastructure sentiment, without establishing European cash direction.",
+          "trigger": "European supplier disclosures and cash breadth corroborate the same execution concern.",
+          "invalidation": "European data diverge or Singapore weakness remains concentrated.",
+          "source_ids": [
+            "mddi",
+            "yahoo",
+            "invest"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Hardware eligibility and delivery evidence can qualify interpretations of AI demand.",
+          "trigger": "US issuers quantify a relevant licensing or shipment effect.",
+          "invalidation": "Confirmed eligibility preserves deliveries and no measurable loss is established.",
+          "source_ids": [
+            "mddi"
           ]
         }
       ]

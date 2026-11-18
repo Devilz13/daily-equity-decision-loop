@@ -198,3 +198,9 @@ Prepared canonical Issue 066 with separate Singapore opening web report (normal 
 Base `43437ae09f03fa8c5860139675c243cdf6635e3f`. Issue 066 live marker and [run 44205435080](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44205435080) acceptance confirmed: key `66:2026-11-18:2026-11-18-v1`, message 85 at 08:09:31 SGT. No second SGX open alert.
 
 Prepared `europe/2026-11-18/open` for 15:00 SGT before 16:00 SGT cash open. ONS CPI actual not yet verified; Reuters Asia snapshot is separately dated and not European cash. Prior FTSE close conflicts and current European sector/rates/FX panel gaps remain. Verify exact live report and accepted receipt. Singapore close, Asia close and evening watch remain next due distinct products.
+
+## 18 November — Singapore close, evidence 2026-11-18T10:01:39Z
+
+Base `71871c42ad5352c36fdd4948614b6c8a93a0096a`. London opening report live marker and accepted receipt reconciled: `europe/2026-11-18/open`, message 86 at 15:00:15 SGT, [run 44255393837](https://github.com/Devilz13/daily-equity-decision-loop/actions/runs/44255393837). Issue 066 remains message 85; do not resend.
+
+Prepared `singapore/2026-11-18/close` for 18:16 SGT. Official regular clock and holiday gate checked; final STI rows conflict and no synchronized sector/closing breadth panel was obtained. Prior 17 November provisional close receives an append-only correction to later-corroborated 5,109.13 (−1.43%). No final 18 November print invented. Verify exact live marker, Actions job and guarded acceptance; prepared is not delivered. Asia close and the distinct all-sector/four-filer evening watch remain due at 19:00 SGT. Existing private debate, completed-week awards and source/terms gaps remain unfinished; no freshness keys advanced.
