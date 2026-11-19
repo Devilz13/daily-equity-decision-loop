@@ -44826,5 +44826,336 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-19-singapore-close",
+    "title": "Singapore close: vendor shows a modest rebound; final breadth unconfirmed",
+    "summary": "Investing.com labels the STI closed at 5,079.49 (+0.49%) on 19 November. A matching final record and closing breadth remain unavailable. A local bank payment trial is a proof of concept, with commercial impact unverified.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-19T10:01:53Z",
+    "updated_at": "2026-11-19T10:01:53Z",
+    "cutoff_at": "2026-11-19T10:01:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "clock",
+        "title": "SGX regular cash and Trade at Close rules",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-19T10:01:53Z"
+      },
+      {
+        "id": "holiday",
+        "title": "2026 Singapore public holiday calendar, checked 19 November",
+        "publisher": "Ministry of Manpower",
+        "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:01:53Z"
+      },
+      {
+        "id": "invest",
+        "title": "19 November closed-labelled STI daily row; vendor timestamp timezone unspecified",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/singapore-straits-time-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:01:53Z"
+      },
+      {
+        "id": "yahoo",
+        "title": "Earlier indexed 19 November daily row; direct page returned 429",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ESTI/history/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:01:53Z"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX live page returned a dynamic shell without retrievable final panel",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:01:53Z"
+      },
+      {
+        "id": "straitsx",
+        "title": "Tokenised deposit interoperability proof of concept, 19 November",
+        "publisher": "StraitsX",
+        "url": "https://www.straitsx.com/blog-post/straitsx-ocbc-and-standard-chartered-explore-interoperability-between-tokenised-deposits-networks",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:01:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX regular cash ends at 17:00 SGT, followed by the closing routine and Trade at Close ending 17:16. The guarded close target is 18:16 SGT. The official Singapore holiday calendar lists no 19 November holiday; no exceptional session clock was identified.",
+        "kind": "fact",
+        "source_ids": [
+          "clock",
+          "holiday"
+        ]
+      },
+      {
+        "text": "Investing.com now labels the STI closed at 5,079.49, up 24.60 points (+0.49%) from 18 November 5,054.89. Its header reads 04:15:29 without a verified timezone. The daily row reports 283.25M vendor volume; this is not verified whole-market closing turnover. No synchronized closing breadth or independent final confirmation was obtained.",
+        "kind": "fact",
+        "source_ids": [
+          "invest"
+        ]
+      },
+      {
+        "text": "An earlier Yahoo search-index daily row showed 5,073.86 with no volume, while its header remained intraday. It is retained as an earlier observation, not a competing certified final. Direct Yahoo returned 429; the SGX page exposed no retrievable final panel. No blocked route was bypassed.",
+        "kind": "fact",
+        "source_ids": [
+          "yahoo",
+          "sgx"
+        ]
+      },
+      {
+        "text": "In its 19 November announcement, StraitsX says it completed a proof of concept with OCBC and Standard Chartered under MAS BLOOM: institutional USD payments crossed separate tokenised-deposit networks outside conventional banking cutoffs, settling within minutes. These deposits remain claims on their issuing banks. This is a participant account of a trial, not verification of production adoption or bank earnings. The original was retrieved earlier in this checkpoint; subsequent direct access failed.",
+        "kind": "fact",
+        "source_ids": [
+          "straitsx"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The vendor-labelled close indicates a modest rebound; it does not establish broad participation.",
+        "transmission": "Large index weights can lift the STI while other stocks lag.",
+        "alternatives": "Feed timing, bank weights and unrelated issuer developments may explain the observations. No verified causal attribution or flow series.",
+        "confidence": "inference",
+        "source_ids": [
+          "invest",
+          "yahoo"
+        ]
+      },
+      {
+        "explanation": "The payment trial is directly relevant to Singapore banking infrastructure.",
+        "transmission": "Production adoption could reduce settlement friction, conditional on approvals and practical economics.",
+        "alternatives": "Compliance, integration and liquidity costs could offset benefits. No quantified commercial impact or causal link to today’s bank prices is established.",
+        "confidence": "inference",
+        "source_ids": [
+          "straitsx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Closing evidence reconciles",
+        "outcome": "A completed-session baseline and breadth can be used with confidence.",
+        "trigger": "A dated independent final and SGX figures match the vendor close and clarify turnover.",
+        "invalidation": "Only differing or untimed observations remain.",
+        "horizon": "19:00 SGT evening checkpoint",
+        "source_ids": [
+          "sgx",
+          "invest",
+          "yahoo"
+        ]
+      },
+      {
+        "name": "Index rebound lacks breadth",
+        "outcome": "Headline improvement overstates broad participation.",
+        "trigger": "Verified closing breadth or most sectors remain weak despite a positive STI.",
+        "invalidation": "Multiple independent sector baskets and broad advances confirm recovery.",
+        "horizon": "Next evening checkpoint and SGX session",
+        "source_ids": [
+          "invest",
+          "sgx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "19 November evening watch: final STI and closing breadth reconciliation",
+        "due_at": "2026-11-19T11:00:00Z",
+        "confirms": "Independent final evidence and exchange breadth corroborate the closed-labelled row.",
+        "contradicts": "Only unmatched vendor observations remain.",
+        "source_ids": [
+          "sgx",
+          "invest",
+          "yahoo"
+        ]
+      },
+      {
+        "signal": "20 November regular SGX cash opening, 09:00 SGT",
+        "due_at": "2026-11-20T01:00:00Z",
+        "confirms": "Current bank, REIT and telecom baskets corroborate broad participation.",
+        "contradicts": "Movement remains concentrated or current data are unavailable.",
+        "source_ids": [
+          "clock",
+          "holiday"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T10:01:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX",
+          "status": "verified-session",
+          "source_ids": [
+            "clock",
+            "holiday"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Modest vendor-labelled index rebound; breadth remains unconfirmed.",
+        "indicators": "Investing.com closed-labelled +0.49%; no verified closing breadth, whole-market turnover, volatility or fund flows. Earlier Yahoo daily observation is not a certified final.",
+        "source_ids": [
+          "invest",
+          "yahoo",
+          "sgx"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX information technology closing basket, return or breadth.",
+          "implication": "Bank settlement technology does not establish listed technology-sector earnings or performance.",
+          "watchpoint": "Check dated issuer revenue and actual deployment separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX communication services closing basket, return or breadth.",
+          "implication": "Data traffic demand and hosting capacity are separate risks.",
+          "watchpoint": "Compare telecom and infrastructure disclosures.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX consumer discretionary closing basket, return or breadth.",
+          "implication": "Exports are not a direct measure of household spending.",
+          "watchpoint": "Check domestic sales and breadth in local retail.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX consumer staples closing basket, return or breadth.",
+          "implication": "The STI snapshot cannot establish defensive rotation.",
+          "watchpoint": "Compare several staples shares against the broad market.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX energy closing basket, return or breadth.",
+          "implication": "Freight and fuel can affect producers, refiners and buyers differently.",
+          "watchpoint": "Check dated crude and refined-product marks separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Bank payment-network proof of concept reported; no verified financials closing basket or commercial impact.",
+          "implication": "A trial is distinct from production scale, realized savings or earnings.",
+          "watchpoint": "Check production approvals, settled volumes and costs; reconcile bank finals separately.",
+          "source_ids": [
+            "straitsx"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX health care closing basket, return or breadth.",
+          "implication": "Export data do not establish local health-care equity performance.",
+          "watchpoint": "Check provider and pharmaceutical issuer disclosures separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX industrials closing basket, return or breadth.",
+          "implication": "Infrastructure and equipment exposure depends on actual orders and execution.",
+          "watchpoint": "Check signed orders, funded work and delivery schedules.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX materials closing basket, return or breadth.",
+          "implication": "Global cyclicals and input costs matter, but no local basket move can be inferred.",
+          "watchpoint": "Compare materials names against dated regional commodity data.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX real estate closing basket, return or breadth.",
+          "implication": "Funding, occupancy and project timing may offset one another.",
+          "watchpoint": "Compare multiple REIT finals with dated rates and operating disclosures.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified synchronized 19 November SGX utilities closing basket, return or breadth.",
+          "implication": "Data-centre demand depends on commissioned capacity and contracted offtake.",
+          "watchpoint": "Check power contracts and actual commissioning evidence.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "A Singapore index rebound may accompany regional stabilization, without establishing a regional close.",
+          "trigger": "Independent completed regional closes and breadth corroborate improvement.",
+          "invalidation": "Regional benchmarks diverge or Singapore gains remain narrow.",
+          "source_ids": [
+            "invest"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Singapore’s vendor-labelled rebound does not establish European cash direction.",
+          "trigger": "Verified European cash breadth corroborates a wider recovery.",
+          "invalidation": "European performance diverges or only narrow index weights move.",
+          "source_ids": [
+            "invest"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Singapore’s completed-session vendor mark is context, not a US premarket or cash signal.",
+          "trigger": "Current US futures and subsequent cash breadth independently confirm recovery.",
+          "invalidation": "US evidence diverges or remains unavailable.",
+          "source_ids": [
+            "invest"
+          ]
+        }
+      ]
+    }
   }
 ]
