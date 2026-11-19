@@ -1,5 +1,7 @@
 # DEDL public coverage guide
 
+Current routing authority: `docs/DEDL_RUNBOOK.md` and `docs/MARKET_WATCH_DISPATCHER.md` (12 November DEDL Master schedule). The deterministic combined-selector reference is `docs/DEDL_DISPATCHER.md`. The 27 October task consolidation's historical tests and configuration are preserved in `docs/DEDL_SINGLE_TASK_TESTS.md`. Earlier dated notes below remain history, not instructions that supersede the current master.
+
 3 November 2026 morning reporting. [Issue048](https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/03/) retains extensive global/US/Europe/Asia/Singapore coverage, every desk,11sectors and five DATA INCOMPLETE market statuses. Actual cutoffs appear on the pages; preparation is not first live availability.
 
 ## Distinct session coverage

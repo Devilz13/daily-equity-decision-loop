@@ -1,6 +1,6 @@
-# Market Watch — one dispatcher
+# Market Watch — DEDL Master session branch
 
-Current routing (12 November 2026): one DEDL Master automation runs every day, including weekends. The full 08:00 SGT edition carries the Singapore pre-open briefing and Asia opening developments. The 19:00 SGT global watch covers all 11 sectors, the four REDL filers and dated watchpoints and events for the week. On weekends these are editorial briefings; issue session alerts only for verified open venues.
+Current routing (12 November 2026): one DEDL Master automation runs every day, including weekends. See `docs/DEDL_DISPATCHER.md` for the combined selector and historical consolidation, not an additional timer. The full 08:00 SGT edition carries the Singapore pre-open briefing and Asia opening developments. The 19:00 SGT global watch covers all 11 sectors, the four REDL filers and dated watchpoints and events for the week. On weekends these are editorial briefings; issue session alerts only for verified open venues.
 
 Market Watch Telegram targets are one hour before the regular cash open and one hour after the regular close. Use the existing four desk anchors: Tokyo opens and India NSE regular cash closes for regional Asia; SGX cash open and the end of Trade at Close for Singapore; LSE and NYSE for Europe and the US. The desk date is always local, including London/US closes delivered after midnight in Singapore. On partial days use an explicitly verified clock or mark the report web-only. Do not assume the regional basket moves in lockstep.
 
@@ -27,7 +27,7 @@ For regular EST/GMT weeks the master wakes at 01:00, 06:00, 07:00, 08:00, 15:00,
 
 For each real due window preserve the full existing format: all 11 sectors with cited observations or explicit gaps, observed sentiment proxies, evidenced causes versus inference, counterarguments, scenarios, watchpoints and conditional spillovers to the other three desks. Use only permitted free public/open-source information; no paid APIs, new accounts, bypasses, private methods/positions, tactical military information or trades. Follow runbook source/privacy gates. Share verified source retrieval within a run without advancing access times on unchecked sources.
 
-Run tests, build, link/artifact checks, immutable-base history and diff checks; review facts/privacy separately. Commit one coherent batch with an expected-head lease. On head movement, reconcile and re-deduplicate; never force push. Verify the actual Pages run and exact live report, not merely task completion. Session-only and maintenance work does not change `issues.json` or daily delivery revisions. Maintenance sends nothing.
+Run tests, build, link/artifact checks, immutable-base history and diff checks; review facts/privacy separately. Commit one coherent batch with an expected-head lease. On head movement, reconcile and re-deduplicate; never force push. Verify the actual Pages run and exact live report, not merely task completion. A session-only batch must not change `issues.json` or newsletter delivery revisions, or send Telegram messages. When the unified task also has a due daily edition, include both in one coherent batch; only that edition uses the existing guarded post-deploy delivery path. Maintenance sends nothing.
 
 ### Unattended publication
 
