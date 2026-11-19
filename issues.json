@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-18",
+  "latest": "2026-11-19",
   "issues": [
+    {
+      "date": "2026-11-19",
+      "number": 67,
+      "title": "US divergence, AI funding and Java risk at Asia’s open",
+      "status": "DATA INCOMPLETE · delayed morning edition",
+      "path": "issues/2026/11/19/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-19-v1",
+        "summary": "Delayed morning edition: the US cash close was divided. Released Fed minutes keep financing in focus; Anthropic pricing remains source-attributed. Tokyo is open, SGX cash starts 09:00 SGT. New Java warning verified; market image unavailable.",
+        "headlines": [
+          {
+            "title": "Java warning: match runtimes and patches",
+            "date": "18 Nov",
+            "context": "CSA and Oracle corroborate a Java vulnerability. No confirmed local victim or link to recent outages; use vendor applicability and patch guidance.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-166/"
+          },
+          {
+            "title": "Fed minutes: hold was not an all-clear",
+            "date": "Released 18 Nov",
+            "context": "October minutes record a 3.75–4.00% hold and discussion of further tightening. This is retrospective, not a new policy action.",
+            "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+          },
+          {
+            "title": "Anthropic: final IPO terms still need confirmation",
+            "date": "18–19 Nov",
+            "context": "Reuters cites US$83 pricing; issuer timetable remains conditional. Offering price, first trade and cash profitability are separate measures.",
+            "source": "https://ipo.anthropic.com/us/"
+          }
+        ],
+        "market_note": "18 Nov US cash: S&P 500 7,323.63 (−0.2%); Nasdaq 24,429.88 (+0.4%); Dow 50,198.17 (−1.1%). STI 5,054.89 (−1.1%), later closing report. Current SGX prices unverified. UK retail sales: 20 Nov 15:00 SGT.",
+        "event_updates": []
+      }
+    },
     {
       "date": "2026-11-18",
       "number": 66,

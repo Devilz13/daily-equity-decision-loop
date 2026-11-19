@@ -7,8 +7,8 @@
   },
   "offers": [
     {
-      "verified_at": "2026-11-09T16:01:06Z",
-      "review_due_at": "2026-11-10T16:01:06Z",
+      "verified_at": "2026-11-19T00:12:50Z",
+      "review_due_at": "2026-11-20T00:12:50Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -18,6 +18,10 @@
         {
           "at": "2026-11-09T16:01:06Z",
           "change": "Reverified current issuer promotion and the PDF updated 1 November. Application and approval windows, eligibility lookback, spend, PayLah!, exclusions and crediting schedule match the existing November record; the October campaign is historical."
+        },
+        {
+          "at": "2026-11-19T00:12:50Z",
+          "change": "19 November: official product and complete 1 November governing PDF rechecked. November–February application window, 14 March approval, S$800/60 days, CASH288, PayLah!, 12-month new-principal-card lookback, one gift, posted-spend/MCC exclusions, account standing, reversals and monthly crediting match. Product lists principal annual fee S$196.20 with first-year waiver, supplementary S$98.10, late fee S$100 above S$200 outstanding and finance charge 27.8% p.a. Fees are costs, not additional rewards. October record stays expired; no eligibility recommendation."
         }
       ],
       "id": "dbs-posb-cash288-nov2026",

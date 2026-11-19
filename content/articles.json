@@ -41034,7 +41034,7 @@
     ],
     "format": "market-close",
     "published_at": "2026-11-18T10:01:39Z",
-    "updated_at": "2026-11-18T10:01:39Z",
+    "updated_at": "2026-11-19T00:12:50Z",
     "cutoff_at": "2026-11-18T10:01:39Z",
     "status": "published",
     "sources": [
@@ -41109,6 +41109,15 @@
         "type": "secondary",
         "published_at": "2026-11-18",
         "accessed_at": "2026-11-18T10:01:39Z"
+      },
+      {
+        "id": "bt",
+        "title": "18 November Singapore closing report",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-closed-lower-wednesday-sti-down-1-1",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
       }
     ],
     "claims": [
@@ -41225,13 +41234,22 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-11-19T00:12:50Z",
+        "reason": "Later completed-session evidence resolves the earlier unconfirmed STI final.",
+        "change": "19 November morning review: The Business Times 18 November 18:00 SGT closing report gives STI 5,054.89, down 54.24 points (1.1% rounded), with 355 declines and 229 advances. This later source is not retroactive evidence known at the original cutoff. Original vendor observations remain dated; no alert is resent.",
+        "source_ids": [
+          "bt"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": false,
-      "reviewed_at": "2026-11-18T10:01:39Z"
+      "reviewed_at": "2026-11-19T00:12:50Z"
     },
     "material_reason": null,
     "market_read": {
@@ -43743,6 +43761,616 @@
           "source_ids": [
             "issuer",
             "ipo"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-19-java-runtime-patch-review",
+    "title": "Java warning: verify bundled runtimes and patches, without inferring an outage cause",
+    "summary": "CSA and Oracle identify CVE-2026-114938. Exposure requires matching the deployed runtime; neither source establishes a Singapore victim or a cause for recent outages.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-19T00:12:50Z",
+    "updated_at": "2026-11-19T00:12:50Z",
+    "cutoff_at": "2026-11-19T00:12:50Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "java",
+        "title": "Java security warning dated 18 November",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-166/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "oracle",
+        "title": "November Java risk matrix, affected versions and notes",
+        "publisher": "Oracle",
+        "url": "https://www.oracle.com/security-alerts/cspunov2026.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA’s 18 November notice and Oracle’s November matrix identify CVE-2026-114938 in specified Java/GraalVM releases, with CVSS 8.1. The warning concerns remote compromise; a demonstrated vulnerability is distinct from a confirmed attack.",
+        "kind": "fact",
+        "source_ids": [
+          "java",
+          "oracle"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Affected bundled runtimes can escape a simple application-name inventory.",
+        "transmission": "Operators should reconcile runtime versions and vendor fixes before planned service changes.",
+        "alternatives": "A system may be unaffected; coincident outages may have unrelated causes.",
+        "confidence": "inference",
+        "source_ids": [
+          "oracle"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Affected deployment",
+        "outcome": "Prioritize vendor-directed patching and monitoring.",
+        "trigger": "Inventory matches the vendor’s affected versions.",
+        "invalidation": "A supported vendor record confirms the deployed release is unaffected.",
+        "horizon": "19 November defensive review",
+        "source_ids": [
+          "oracle"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Next operator inventory and patch-status evidence",
+        "due_at": "2026-11-20T00:00:00Z",
+        "confirms": "Documented affected runtime and applied vendor fix.",
+        "contradicts": "Unmatched version or no affected installation.",
+        "source_ids": [
+          "oracle",
+          "java"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T00:12:50Z"
+    },
+    "material_reason": "New CERT and vendor-confirmed warning affects enterprise runtime dependencies."
+  },
+  {
+    "id": "2026-11-19-industrial-gateway-advisory",
+    "title": "Industrial gateway advisory: dated firmware risk, not a confirmed local disruption",
+    "summary": "CSA’s 18 November notice points to Advantech’s 27 October ECU-1251D advisory. Check installed firmware and maintenance controls; no specific Singapore deployment or attack is established.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-19T00:12:50Z",
+    "updated_at": "2026-11-19T00:12:50Z",
+    "cutoff_at": "2026-11-19T00:12:50Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "adv-csa",
+        "title": "18 November industrial gateway warning",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-165/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "adv",
+        "title": "ECU-1251D vendor advisory ACIRT-261001",
+        "publisher": "Advantech",
+        "url": "https://www.advantech.com/en-us/security-advisory",
+        "type": "primary",
+        "published_at": "2026-10-27",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA lists ECU-1251D EdgeLink versions before 2.8.5.0; Advantech’s advisory index dates ACIRT-261001 to 27 October. The disclosed risks concern service availability and unauthorized access. Vendor patch date and CSA reporting date differ.",
+        "kind": "fact",
+        "source_ids": [
+          "adv-csa",
+          "adv"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Affected industrial connectivity can impair monitoring or access control.",
+        "transmission": "Inventory and controlled patching matter where the product is deployed.",
+        "alternatives": "No evidence here identifies a local installation, exploitation or production interruption.",
+        "confidence": "inference",
+        "source_ids": [
+          "adv-csa"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Affected industrial installation",
+        "outcome": "A planned maintenance response may reduce exposure.",
+        "trigger": "Version and deployment are verified affected.",
+        "invalidation": "The installed version is fixed or the product is absent.",
+        "horizon": "19–20 November operator review",
+        "source_ids": [
+          "adv-csa",
+          "adv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Next vendor and operator maintenance confirmation",
+        "due_at": "2026-11-20T00:00:00Z",
+        "confirms": "Applicable firmware and controlled remediation are documented.",
+        "contradicts": "Inventory is unaffected or a new advisory changes applicability.",
+        "source_ids": [
+          "adv-csa",
+          "adv"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T00:12:50Z"
+    },
+    "material_reason": "New CSA notice with a dated vendor advisory for industrial infrastructure."
+  },
+  {
+    "id": "2026-11-19-singapore-open",
+    "title": "Singapore pre-open: verify breadth after a divided US close",
+    "summary": "Regular SGX cash opens at 09:00 SGT. Prior-session bank weakness and a new Java warning are dated context; no current Singapore sector opening return or synchronized futures panel is claimed.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-19T00:12:50Z",
+    "updated_at": "2026-11-19T00:12:50Z",
+    "cutoff_at": "2026-11-19T00:12:50Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "clock",
+        "title": "SGX normal cash and Trade at Close hours",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "holiday",
+        "title": "Singapore 2026 public holidays",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "sgx",
+        "title": "SGX trading page: shell only",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:07:31Z"
+      },
+      {
+        "id": "jpx",
+        "title": "JPX 2026 holiday calendar",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:07:31Z"
+      },
+      {
+        "id": "hours",
+        "title": "Tokyo regular cash hours",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      },
+      {
+        "id": "us",
+        "title": "18 November completed US cash: source-linked baseline",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T23:02:04Z"
+      },
+      {
+        "id": "bt",
+        "title": "18 November Singapore closing report",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/companies-markets/singapore-stocks-closed-lower-wednesday-sti-down-1-1",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "fed",
+        "title": "October 27–28 FOMC minutes, released 18 November",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "nv",
+        "title": "NVIDIA fiscal Q3 FY2027 results and Q4 outlook",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-19T00:07:31Z"
+      },
+      {
+        "id": "issuer",
+        "title": "Issuer IPO timetable and Q3 financial measures",
+        "publisher": "Anthropic",
+        "url": "https://ipo.anthropic.com/us/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:07:31Z"
+      },
+      {
+        "id": "ipo-news",
+        "title": "Source reports Anthropic pricing at US$83",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "java",
+        "title": "Java security warning dated 18 November",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-166/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "oracle",
+        "title": "November Java risk matrix, affected versions and notes",
+        "publisher": "Oracle",
+        "url": "https://www.oracle.com/security-alerts/cspunov2026.html",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      },
+      {
+        "id": "retail",
+        "title": "October UK retail sales: scheduled release",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T00:12:50Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "19 November is not a listed Singapore public holiday. The SGX rule document specifies regular cash 09:00–12:00 and 13:00–17:00 SGT, followed by the closing routine and Trade at Close to 17:16. The current SGX page returned a shell. Normal opening Telegram stays in the daily digest.",
+        "kind": "fact",
+        "source_ids": [
+          "clock",
+          "holiday",
+          "sgx"
+        ]
+      },
+      {
+        "text": "The dated US closing report shows divergent major indexes and explicitly qualified sector estimates. No verified 19 November Singapore cash print is available before its open.",
+        "kind": "fact",
+        "source_ids": [
+          "us"
+        ]
+      },
+      {
+        "text": "The Business Times’ completed 18 November Singapore report gives STI 5,054.89, down 1.1% rounded. That later evidence is appended to the prior report as a correction, without resending it.",
+        "kind": "fact",
+        "source_ids": [
+          "bt"
+        ]
+      },
+      {
+        "text": "Released October Fed minutes retain a 3.75–4.00% policy range and discussion of further tightening. Minutes are retrospective, not a new policy action.",
+        "kind": "fact",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "text": "Reuters attributes US$83 Anthropic IPO pricing to an unnamed source. The rechecked issuer page remains conditional about pricing and 19 November EST trading; no first trade or final issuer-confirmed offer total is asserted.",
+        "kind": "allegation",
+        "source_ids": [
+          "ipo-news",
+          "issuer"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Overnight index divergence does not establish broad demand improvement.",
+        "transmission": "Compare Singapore banks, REITs, hardware and defensives after local cash begins.",
+        "alternatives": "Local earnings, currency and rates can dominate the external lead.",
+        "confidence": "inference",
+        "source_ids": [
+          "us",
+          "bt"
+        ]
+      },
+      {
+        "explanation": "AI demand and financing scrutiny coexist.",
+        "transmission": "Delivered equipment, power and collections matter to local suppliers and landlords.",
+        "alternatives": "Extra-week comparisons, product mix and ordinary project timing can explain apparent changes.",
+        "confidence": "inference",
+        "source_ids": [
+          "nv",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Broader participation",
+        "outcome": "External resilience transmits beyond a few hardware names.",
+        "trigger": "Several local groups improve with verified turnover.",
+        "invalidation": "Banks and REITs diverge or the opening move fades.",
+        "horizon": "19 November Singapore session",
+        "source_ids": [
+          "us",
+          "bt"
+        ]
+      },
+      {
+        "name": "Funding and execution pressure",
+        "outcome": "Revenue optimism fails to support broader participation.",
+        "trigger": "Rates or project disclosures show tighter funding or delayed delivery.",
+        "invalidation": "Shipment and cash evidence improve without rising financing stress.",
+        "horizon": "19 November and next issuer evidence",
+        "source_ids": [
+          "fed",
+          "nv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "SGX regular cash open: 19 November 09:00 SGT",
+        "due_at": "2026-11-19T01:00:00Z",
+        "confirms": "Verified local cash participation across several groups.",
+        "contradicts": "No reliable panel or narrow gains only.",
+        "source_ids": [
+          "clock"
+        ]
+      },
+      {
+        "signal": "19 November expected Anthropic US trading day; first trade requires confirmation",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "Final documents and an actual exchange print.",
+        "contradicts": "Issuer remains conditional or listing opens later.",
+        "source_ids": [
+          "issuer",
+          "ipo-news"
+        ]
+      },
+      {
+        "signal": "UK October retail sales: 20 November 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Fresh demand data and coherent rates/sterling reaction.",
+        "contradicts": "A transient move or later release change.",
+        "source_ids": [
+          "retail"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T00:12:50Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX",
+          "status": "verified-session",
+          "source_ids": [
+            "clock",
+            "holiday"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Divided external lead; local opening sentiment unverified.",
+        "indicators": "Prior US cash divergence and Singapore closing weakness are dated observations; no live SGX breadth, turnover, volatility or futures panel.",
+        "source_ids": [
+          "us",
+          "bt"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Dated NVIDIA revenue and margin outlook are external context, not a Singapore technology-sector return.",
+          "implication": "Test orders, shipments, utilization and margins separately.",
+          "watchpoint": "After 09:00 SGT: Track hardware versus software breadth after earnings.",
+          "source_ids": [
+            "nv"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "After 09:00 SGT: Check platforms, advertising and telecom separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "After 09:00 SGT: Compare retailer participation with dated sales releases.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "After 09:00 SGT: Check defensive staples against broader participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Fuel buyers and producers may react differently; no same-time crude or group return.",
+          "watchpoint": "After 09:00 SGT: Compare producers and refiners with same-time crude.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Bank and insurer exposure varies with local yields, lending and currency movements.",
+          "watchpoint": "After 09:00 SGT: Compare lenders and insurers with yields and credit indicators.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "After 09:00 SGT: Check provider and drugmaker breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "After 09:00 SGT: Compare freight, machinery and aerospace.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Prior US trading and issuer news provide context, not this Asian group’s return.",
+          "watchpoint": "After 09:00 SGT: Compare miners and chemicals with dated input prices.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Local funding rates, occupancy or contracted load may matter more than a US chipmaker’s report.",
+          "watchpoint": "After 09:00 SGT: Check REIT breadth and financing rates.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 19 November Singapore cash-sector opening observation.",
+          "implication": "Local funding rates, occupancy or contracted load may matter more than a US chipmaker’s report.",
+          "watchpoint": "After 09:00 SGT: Check regulated utilities against yields and grid-investment guidance.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Supplier participation could corroborate hardware demand.",
+          "trigger": "Several venues and suppliers confirm shipments.",
+          "invalidation": "Only isolated names improve.",
+          "source_ids": [
+            "nv",
+            "us"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Funding and demand evidence may affect banks and infrastructure.",
+          "trigger": "Rates and local sector breadth agree.",
+          "invalidation": "Domestic data dominate or the move reverses.",
+          "source_ids": [
+            "fed"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Final IPO terms may clarify capital availability.",
+          "trigger": "Issuer and exchange confirm final terms and trading.",
+          "invalidation": "Terms remain conditional or delivery/financing evidence weakens.",
+          "source_ids": [
+            "issuer",
+            "ipo-news"
           ]
         }
       ]
