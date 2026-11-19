@@ -45157,5 +45157,996 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-19-asia-close",
+    "title": "Asia close: India and Japan gain; regional participation remains uneven",
+    "summary": "India’s reported benchmark gains and Nikkei’s confirmed rise do not establish a uniform Asian recovery. Indian IT lagged autos and banks. Singapore’s vendor-labelled rebound still lacks an independent final match; wider sector and breadth gaps remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-19T11:01:12Z",
+    "updated_at": "2026-11-19T11:01:12Z",
+    "cutoff_at": "2026-11-19T11:01:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nse",
+        "title": "Regular Indian equity market clock checked 19 November",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "holidays",
+        "title": "2026 capital-market holiday circular; no 19 November closure",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "jpx",
+        "title": "2026 market holiday calendar; no 19 November closure",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "nikkei",
+        "title": "19 November completed daily index observation; no constituent dataset copied",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/archives/data",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "india",
+        "title": "19 November Indian closing report retrieved through public search; direct article unavailable",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-set-open-lower-hawkish-fed-minutes-weigh-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "money",
+        "title": "19 November 15:30 IST closing update; sector classification and breadth universe are publisher-specific",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/markets/indian-indices/live-markets",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "nsequote",
+        "title": "Official index page exposes empty live fields; indexed snapshot 14:23 IST is not final",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/index-tracker/NIFTY%2050",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "region",
+        "title": "19 November rolling global report; original publication time is not individual quote time",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "invest",
+        "title": "19 November STI closed-labelled vendor observation, rechecked",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/singapore-straits-time-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "sg",
+        "title": "Singapore closing report, evidence 18:01:53 SGT; current exact live version checked",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "pricing",
+        "title": "18 November issuer IPO pricing announcement, rechecked 19 November",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "nv",
+        "title": "17 November fiscal Q3 results and Q4 outlook, rechecked",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "fedcal",
+        "title": "19–20 November speeches and discussions calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "retail",
+        "title": "October retail sales scheduled 20 November 07:00 GMT; not yet published",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "parl",
+        "title": "Order Paper checked: local HTML shell without agenda; web retrieval challenged",
+        "publisher": "Parliament of Singapore",
+        "url": "https://www.parliament.gov.sg/parliamentary-business/order-paper",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 067, evidence 08:12:50 SGT; reused without revision",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Altimeter Capital Management, LP exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Himalaya Capital Management LLC exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "TCI Fund Management Ltd exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Valley Forge Capital Management, LP exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NSE regular cash ends at 15:30 IST (18:00 SGT); the Asia closing alert target is 19:00 SGT. The official 2026 circular lists no 19 November holiday. JPX also lists no closure today; this does not certify every regional venue or exceptional halt.",
+        "kind": "fact",
+        "source_ids": [
+          "nse",
+          "holidays",
+          "jpx"
+        ]
+      },
+      {
+        "text": "Reuters reports Nifty 25,514.30 (+1.14%) and Sensex 83,021.75 (+1.21%); Moneycontrol’s 15:30 IST update agrees. Official final matching remains unavailable.",
+        "kind": "fact",
+        "source_ids": [
+          "india",
+          "money",
+          "nsequote"
+        ]
+      },
+      {
+        "text": "Nikkei’s archive gives 19 November close 59,444.21 versus 59,024.28 on 18 November: calculated gain 419.93 points, or 0.71%. A benchmark gain is not a full Japanese breadth or sector observation.",
+        "kind": "estimate",
+        "source_ids": [
+          "nikkei"
+        ]
+      },
+      {
+        "text": "Investing.com still labels STI 5,079.49 (+0.49%) closed. The header clock has no verified timezone; matching independent final, Singapore closing breadth and whole-market turnover remain unverified. The Singapore report retains its earlier cutoff and accepted delivery.",
+        "kind": "fact",
+        "source_ids": [
+          "invest",
+          "sg"
+        ]
+      },
+      {
+        "text": "Moneycontrol reports 2,183 advances, 1,861 declines and 175 unchanged shares at 15:30 IST. Its universe is not identified here as exchange-wide or pan-Asian; no comparable regional turnover, volatility or verified fund-flow panel was obtained.",
+        "kind": "fact",
+        "source_ids": [
+          "money"
+        ]
+      },
+      {
+        "text": "Sources are observations at different times: Reuters is a rolling story with original publication metadata, Moneycontrol labels its closing update 15:30 IST, and the official NSE page exposes empty current fields. The indexed NSE 14:23 IST mark is intraday; it is not promoted to final.",
+        "kind": "fact",
+        "source_ids": [
+          "nsequote",
+          "money",
+          "india"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "National benchmarks improved, but the available evidence does not support a uniform Asian recovery.",
+        "transmission": "Country weights, domestic spending and funding conditions can produce divergent participation.",
+        "alternatives": "Index concentration and different observation times can explain divergence without a single regional driver.",
+        "confidence": "inference",
+        "source_ids": [
+          "nikkei",
+          "money",
+          "invest"
+        ]
+      },
+      {
+        "explanation": "Sector participation is incomplete beyond the sourced Indian groups.",
+        "transmission": "A narrow improvement can fail to support suppliers and investment across the region.",
+        "alternatives": "Missing observations may conceal a broader recovery; absence of data is not evidence of sector weakness.",
+        "confidence": "inference",
+        "source_ids": [
+          "money",
+          "nsequote"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Participation broadens",
+        "outcome": "The improvement becomes less dependent on a few countries or groups.",
+        "trigger": "Independent regional sector and breadth records show wider gains.",
+        "invalidation": "Leadership stays concentrated or completed final records diverge.",
+        "horizon": "19–20 November cash sessions",
+        "source_ids": [
+          "money",
+          "nikkei",
+          "invest"
+        ]
+      },
+      {
+        "name": "Improvement reverses",
+        "outcome": "Headline gains fail to persist across the next cash session.",
+        "trigger": "Verified breadth deteriorates and financing-sensitive groups weaken.",
+        "invalidation": "Broad gains persist alongside stable funding and operating evidence.",
+        "horizon": "Next US session and 20 November Asia cash",
+        "source_ids": [
+          "money",
+          "invest"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US regular cash opening: assess breadth after uneven Asian participation",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "Current US breadth corroborates wider participation.",
+        "contradicts": "Gains remain concentrated or reverse.",
+        "source_ids": [
+          "money"
+        ]
+      },
+      {
+        "signal": "Barr AI discussion, 19 November 14:15 EST / 20 November 03:15 SGT",
+        "due_at": "2026-11-19T19:15:00Z",
+        "confirms": "Published remarks supply concrete productivity, financing or risk evidence.",
+        "contradicts": "General remarks do not establish business outcomes or a new policy decision.",
+        "source_ids": [
+          "fedcal"
+        ]
+      },
+      {
+        "signal": "UK October retail sales, 20 November 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Real volumes and category breadth corroborate demand resilience.",
+        "contradicts": "Nominal value rises while real volumes or breadth weaken.",
+        "source_ids": [
+          "retail"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T11:01:12Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "National Stock Exchange of India — cash closing anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "nse",
+            "holidays"
+          ]
+        },
+        {
+          "name": "Tokyo Stock Exchange — regional calendar check",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "nikkei"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Positive national benchmark closes with uneven sector participation; no synchronized regional sentiment panel.",
+        "indicators": "Indian publisher-specific breadth is positive; IT lags the reported auto and bank gains. No comparable regional volatility, volume or flow series.",
+        "source_ids": [
+          "money",
+          "nikkei"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: IT −1.1%; pan-Asia sector gap.",
+          "implication": "Separate software-service exposure from hardware and model-development demand.",
+          "watchpoint": "Check supplier shipments, margins and customer spending rather than one national basket.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia communication services closing return or breadth verified.",
+          "implication": "A national sub-index or single issuer does not establish the regional sector outcome.",
+          "watchpoint": "Compare dated constituent coverage and completed-session breadth across countries.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: autos +4.4%; pan-Asia sector gap.",
+          "implication": "Auto leadership need not describe wider discretionary consumption.",
+          "watchpoint": "Compare household demand and multiple retail and durable-goods baskets.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: FMCG +1.9%; pan-Asia sector gap.",
+          "implication": "National consumer leadership is not evidence of global defensive rotation.",
+          "watchpoint": "Check regional earnings, volume and margins.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia energy closing return or breadth verified.",
+          "implication": "A national sub-index or single issuer does not establish the regional sector outcome.",
+          "watchpoint": "Compare dated constituent coverage and completed-session breadth across countries.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: Nifty Bank +1.3%; pan-Asia sector gap.",
+          "implication": "Funding conditions, loan growth and local index weights can differ by country.",
+          "watchpoint": "Compare loan and deposit economics, credit quality and closing breadth.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia health care closing return or breadth verified.",
+          "implication": "A national sub-index or single issuer does not establish the regional sector outcome.",
+          "watchpoint": "Compare dated constituent coverage and completed-session breadth across countries.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia industrials closing return or breadth verified.",
+          "implication": "AI-related project announcements require funded execution and operating evidence.",
+          "watchpoint": "Check actual commissioning, financing, power/cooling availability and contracted utilization.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia materials closing return or breadth verified.",
+          "implication": "A national sub-index or single issuer does not establish the regional sector outcome.",
+          "watchpoint": "Compare dated constituent coverage and completed-session breadth across countries.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia real estate closing return or breadth verified.",
+          "implication": "AI-related project announcements require funded execution and operating evidence.",
+          "watchpoint": "Check actual commissioning, financing, power/cooling availability and contracted utilization.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia utilities closing return or breadth verified.",
+          "implication": "AI-related project announcements require funded execution and operating evidence.",
+          "watchpoint": "Check actual commissioning, financing, power/cooling availability and contracted utilization.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Regional gains could support local participation, subject to bank and REIT evidence.",
+          "trigger": "Verified local closing breadth and issuer economics corroborate improvement.",
+          "invalidation": "Local participation remains narrow or final data differ.",
+          "source_ids": [
+            "invest",
+            "sg"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Uneven Asia provides mixed context for European trading, without establishing a European close.",
+          "trigger": "European cash breadth and dated supplier data agree on broader demand.",
+          "invalidation": "European groups diverge or early gains reverse.",
+          "source_ids": [
+            "money",
+            "nikkei"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "National Asian gains are context for the US session, not evidence of US cash performance.",
+          "trigger": "Current US breadth and operating evidence confirm wider participation.",
+          "invalidation": "IPO enthusiasm fails to broaden or funding pressures dominate.",
+          "source_ids": [
+            "money"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-19-evening-global-watch",
+    "title": "Evening global watch: uneven Asia, AI funding test and dated policy catalysts",
+    "summary": "India and Japan gained, while broader Asian evidence remains uneven. Tonight’s AI listing tests demand, not realized cash returns. All 11 sectors and four exact SEC filers are covered; final-data and supplier gaps remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore",
+      "europe",
+      "us"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-19T11:01:12Z",
+    "updated_at": "2026-11-19T11:01:12Z",
+    "cutoff_at": "2026-11-19T11:01:12Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nse",
+        "title": "Regular Indian equity market clock checked 19 November",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "holidays",
+        "title": "2026 capital-market holiday circular; no 19 November closure",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "jpx",
+        "title": "2026 market holiday calendar; no 19 November closure",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "nikkei",
+        "title": "19 November completed daily index observation; no constituent dataset copied",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/archives/data",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "india",
+        "title": "19 November Indian closing report retrieved through public search; direct article unavailable",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-set-open-lower-hawkish-fed-minutes-weigh-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "money",
+        "title": "19 November 15:30 IST closing update; sector classification and breadth universe are publisher-specific",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/markets/indian-indices/live-markets",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "nsequote",
+        "title": "Official index page exposes empty live fields; indexed snapshot 14:23 IST is not final",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/index-tracker/NIFTY%2050",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "region",
+        "title": "19 November rolling global report; original publication time is not individual quote time",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "invest",
+        "title": "19 November STI closed-labelled vendor observation, rechecked",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/singapore-straits-time-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "sg",
+        "title": "Singapore closing report, evidence 18:01:53 SGT; current exact live version checked",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-singapore-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "pricing",
+        "title": "18 November issuer IPO pricing announcement, rechecked 19 November",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "nv",
+        "title": "17 November fiscal Q3 results and Q4 outlook, rechecked",
+        "publisher": "NVIDIA",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "fedcal",
+        "title": "19–20 November speeches and discussions calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "retail",
+        "title": "October retail sales scheduled 20 November 07:00 GMT; not yet published",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T11:01:12Z"
+      },
+      {
+        "id": "parl",
+        "title": "Order Paper checked: local HTML shell without agenda; web retrieval challenged",
+        "publisher": "Parliament of Singapore",
+        "url": "https://www.parliament.gov.sg/parliamentary-business/order-paper",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 067, evidence 08:12:50 SGT; reused without revision",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Altimeter Capital Management, LP exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Himalaya Capital Management LLC exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "TCI Fund Management Ltd exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Valley Forge Capital Management, LP exact submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-19T10:57:48Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters reports Nifty 25,514.30 (+1.14%) and Sensex 83,021.75 (+1.21%); Moneycontrol’s 15:30 IST update agrees. Official final matching remains unavailable.",
+        "kind": "fact",
+        "source_ids": [
+          "india",
+          "money",
+          "nsequote"
+        ]
+      },
+      {
+        "text": "Nikkei’s archive gives 19 November close 59,444.21 versus 59,024.28 on 18 November: calculated gain 419.93 points, or 0.71%. A benchmark gain is not a full Japanese breadth or sector observation.",
+        "kind": "estimate",
+        "source_ids": [
+          "nikkei"
+        ]
+      },
+      {
+        "text": "Investing.com still labels STI 5,079.49 (+0.49%) closed. The header clock has no verified timezone; matching independent final, Singapore closing breadth and whole-market turnover remain unverified. The Singapore report retains its earlier cutoff and accepted delivery.",
+        "kind": "fact",
+        "source_ids": [
+          "invest",
+          "sg"
+        ]
+      },
+      {
+        "text": "Reuters’ rolling 19 November global report described Asia ex-Japan −1.7%, early European technology gains and Nasdaq futures up nearly 1.7%. Quote times are not independently specified: these are mixed-time observations, not certified closes or current US cash performance.",
+        "kind": "fact",
+        "source_ids": [
+          "region"
+        ]
+      },
+      {
+        "text": "Anthropic’s 18 November issuer announcement sets Class A offer price US$83 and expected Nasdaq trading on 19 November as ANT; offering settlement is expected 20 November subject to conditions. Offered shares include issuer and selling-holder shares. Offer consideration is not revenue, net issuer cash received or a first traded valuation. No first trade is verified at this cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "text": "NVIDIA’s 17 November release remains the dated baseline: fiscal Q3 revenue US$115.8bn; GAAP gross margin 74.8%. Q4 revenue outlook US$130bn ±3% includes an extra week and assumes no China Data Center compute revenue; GAAP/non-GAAP margin outlook is 71–72%. These are forecasts, not deliveries or cash received. No independent supplier-wide operating panel is established.",
+        "kind": "fact",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "This week’s next verified clocks: Jefferson Economic Shocks discussion, 19 November 09:25 EST / 22:25 SGT; Barr AI discussion, 19 November 14:15 EST / 20 November 03:15 SGT; ONS October retail sales, 20 November 07:00 GMT / 15:00 SGT, still unpublished. IPO trading is expected 19 November; issuer settlement is conditional on 20 November. None is a result known in advance.",
+        "kind": "fact",
+        "source_ids": [
+          "fedcal",
+          "retail",
+          "pricing"
+        ]
+      },
+      {
+        "text": "Thursday Parliament review: the official Order Paper local HTML returned the agenda description without a current sitting agenda; web retrieval presented a JavaScript challenge. This remains a source gap, not evidence of no sitting, no bill or completed parliamentary coverage. No filler structured report or freshness advance.",
+        "kind": "fact",
+        "source_ids": [
+          "parl"
+        ]
+      },
+      {
+        "text": "Desk outcomes: Markets and World Watch updated here; morning global Cybersecurity and Forex evidence remains dated in Issue 067. Military is not due for its normal Thursday review; Wednesday’s published exercise report remains the baseline. No independently verified material Conflict escalation is added; weekly cap unchanged. Promotions: the morning DBS dual-source review remains completed, nine other live field audits unfinished. US, Singapore, global ex-US/ex-Singapore, direct REIT and funds/ETF coverage each remains DATA INCOMPLETE; no core-screen pass inferred. A guarded market-image attachment remains unavailable; original mobile-readable source-linked tables are used. Owner-only research and incomplete awards handoff stay separate.",
+        "kind": "fact",
+        "source_ids": [
+          "morning",
+          "sg"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "National benchmarks improved, but the available evidence does not support a uniform Asian recovery.",
+        "transmission": "Country weights, domestic spending and funding conditions can produce divergent participation.",
+        "alternatives": "Index concentration and different observation times can explain divergence without a single regional driver.",
+        "confidence": "inference",
+        "source_ids": [
+          "nikkei",
+          "money",
+          "invest"
+        ]
+      },
+      {
+        "explanation": "Sector participation is incomplete beyond the sourced Indian groups.",
+        "transmission": "A narrow improvement can fail to support suppliers and investment across the region.",
+        "alternatives": "Missing observations may conceal a broader recovery; absence of data is not evidence of sector weakness.",
+        "confidence": "inference",
+        "source_ids": [
+          "money",
+          "nsequote"
+        ]
+      },
+      {
+        "explanation": "IPO demand can test appetite for AI financing without establishing sustainable returns.",
+        "transmission": "Funding availability matters only if capital converts into productive capacity and cash.",
+        "alternatives": "A strong debut could reflect scarcity and positioning; operating costs, dilution and execution can still disappoint.",
+        "confidence": "inference",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Participation broadens",
+        "outcome": "The improvement becomes less dependent on a few countries or groups.",
+        "trigger": "Independent regional sector and breadth records show wider gains.",
+        "invalidation": "Leadership stays concentrated or completed final records diverge.",
+        "horizon": "19–20 November cash sessions",
+        "source_ids": [
+          "money",
+          "nikkei",
+          "invest"
+        ]
+      },
+      {
+        "name": "Improvement reverses",
+        "outcome": "Headline gains fail to persist across the next cash session.",
+        "trigger": "Verified breadth deteriorates and financing-sensitive groups weaken.",
+        "invalidation": "Broad gains persist alongside stable funding and operating evidence.",
+        "horizon": "Next US session and 20 November Asia cash",
+        "source_ids": [
+          "money",
+          "invest"
+        ]
+      },
+      {
+        "name": "AI funding converts into operations",
+        "outcome": "More investment becomes commissioned, utilized infrastructure and collected cash.",
+        "trigger": "HBM, foundry/packaging, racks, networking, power/grid, cooling and generation suppliers disclose actual delivery, utilization and payment evidence.",
+        "invalidation": "Financing strain, idle capacity or weaker margins break that chain.",
+        "horizon": "19–20 November sessions and next supplier disclosures",
+        "source_ids": [
+          "nv"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US cash session: assess actual IPO trading and market breadth, not offer pricing alone",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "Verified first-trade and subsequent price/volume evidence accompany broader participation.",
+        "contradicts": "No first trade is established, gains are narrow or reverse.",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "signal": "Barr AI discussion, 19 November 14:15 EST / 20 November 03:15 SGT",
+        "due_at": "2026-11-19T19:15:00Z",
+        "confirms": "Published remarks supply concrete productivity, financing or risk evidence.",
+        "contradicts": "General remarks do not establish business outcomes or a new policy decision.",
+        "source_ids": [
+          "fedcal"
+        ]
+      },
+      {
+        "signal": "UK October retail sales, 20 November 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Real volumes and category breadth corroborate demand resilience.",
+        "contradicts": "Nominal value rises while real volumes or breadth weaken.",
+        "source_ids": [
+          "retail"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T11:01:12Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-19",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: IT −1.1%; pan-Asia sector gap. No synchronized global sector closing panel.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia communication services closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: autos +4.4%; pan-Asia sector gap. No synchronized global sector closing panel.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: FMCG +1.9%; pan-Asia sector gap. No synchronized global sector closing panel.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia energy closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Moneycontrol, India 15:30 IST: Nifty Bank +1.3%; pan-Asia sector gap. No synchronized global sector closing panel.",
+          "source_ids": [
+            "money"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia health care closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia industrials closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia materials closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia real estate closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November pan-Asia utilities closing return or breadth verified. No synchronized global sector closing panel.",
+          "source_ids": []
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP: exact CIK and issuer name verified against the SEC index at 2026-11-19T10:57:48Z. Latest 13F is 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0001541617-26-000010; unchanged from the morning check. Latest other form remains the 16 November SCHEDULE 13G/A; no contents comparison is claimed. This is disclosure-index reconciliation, not a fresh holdings comparison, investor-library archive edit or proof of current trading/intent.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC: exact CIK and issuer name verified against the SEC index at 2026-11-19T10:57:48Z. Latest 13F is 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0002043585-26-000030; unchanged from the morning check. This is disclosure-index reconciliation, not a fresh holdings comparison, investor-library archive edit or proof of current trading/intent.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd: exact CIK and issuer name verified against the SEC index at 2026-11-19T10:57:48Z. Latest 13F is 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0001647251-26-000011; unchanged from the morning check. This is disclosure-index reconciliation, not a fresh holdings comparison, investor-library archive edit or proof of current trading/intent.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP: exact CIK and issuer name verified against the SEC index at 2026-11-19T10:57:48Z. Latest 13F is 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007; unchanged from the morning check. This is disclosure-index reconciliation, not a fresh holdings comparison, investor-library archive edit or proof of current trading/intent.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
   }
 ]
