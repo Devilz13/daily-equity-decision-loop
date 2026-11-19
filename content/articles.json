@@ -46967,5 +46967,433 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-19-us-close",
+    "title": "US close: broad losses outweigh a positive AI debut",
+    "summary": "US benchmarks fell sharply despite Anthropic’s positive reported debut. AP’s completed-session figures differ from Reuters’ preliminary values. All 11 provider-modelled sector returns declined; official-index matching and other market-data gaps remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-19T22:04:23Z",
+    "updated_at": "2026-11-19T22:04:23Z",
+    "cutoff_at": "2026-11-19T22:04:23Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Regular core hours and 2026 holiday/early-close calendar",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "apclose",
+        "title": "19 November completed index summary, published 21:50:52 UTC; public search excerpt, direct retrieval unavailable",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/2f178054aea79d282e5ccf8d62f26a28",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "apstory",
+        "title": "19 November updated closing story; original publication metadata is not quote time; public search excerpt",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/206c84045137824feabe052a29ff6140",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "r",
+        "title": "Reuters rolling report: explicitly preliminary closing figures; public search excerpt",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "sector",
+        "title": "19 November 16:10 EST price-only constituent-weighted estimates and methodology",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "claims",
+        "title": "19 November weekly unemployment claims; separate week-ending dates and revisions",
+        "publisher": "US Department of Labor",
+        "url": "https://www.dol.gov/ui/data.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "philly",
+        "title": "November regional manufacturing survey, released 19 November 08:30 EST; official search excerpt, direct retrieval unavailable",
+        "publisher": "Federal Reserve Bank of Philadelphia",
+        "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "pricing",
+        "title": "18 November issuer pricing; 20 November settlement still conditional",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "pre",
+        "title": "19 November pre-open report: older futures and issuer results retain their actual cutoff",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-us-open/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      },
+      {
+        "id": "london",
+        "title": "19 November London close, evidence 16:59:56 UTC; exact live marker rechecked",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-europe-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:02:30Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE regular 19 November cash ended at 16:00 EST, or 20 November 05:00 SGT, with no listed session exception. The closing-report target is 06:00 SGT. New York EST and London GMT were independently checked.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP completed-session figures: S&P 500 7,175.83 (−2.0%); Dow 49,097.06 (−2.2%); Nasdaq Composite 23,879.20 (−2.3%); Russell 2000 2,655.11 (−2.2%). Percentages are source-rounded. AP reports over 90% of S&P 500 stocks declined; this is not exchange-wide breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "apclose"
+        ]
+      },
+      {
+        "text": "Reuters explicitly preliminary figures: S&P 500 7,175.24; Nasdaq Composite 23,885.88; Dow 49,095.46. AP’s later completed summary is used here; official-final matching remains outstanding. The reports also differ on loss-streak wording, so no streak count is asserted. Reuters puts Anthropic’s first trade at US$111.50 shortly before noon.",
+        "kind": "fact",
+        "source_ids": [
+          "r"
+        ]
+      },
+      {
+        "text": "AP reports Anthropic closed at US$97.17, +17.1% versus its offer price; NVIDIA fell 3.3% and Palo Alto Networks rose 6.4%. Offer-to-close gain and the decline from the reported first trade describe different comparisons. The debut did not establish a broad cash-market recovery or realized operating returns.",
+        "kind": "fact",
+        "source_ids": [
+          "apstory"
+        ]
+      },
+      {
+        "text": "The issuer’s US$83 offer terms remain distinct from traded prices. Offering settlement is expected 20 November subject to conditions; issuer and selling-holder proceeds are separate. No completed settlement, net issuer cash receipt or exercised option is established at this cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "text": "Quantisnow’s 19 November 16:10 EST table uses full company market values and price changes without dividends. Its 496-company universe derives from June 30 fund holdings and may lag index changes. There are 38 rises and 457 falls; one company is outside those counts. These are model estimates, not official sector indexes, ETF returns or exchange-wide breadth.",
+        "kind": "fact",
+        "source_ids": [
+          "sector"
+        ]
+      },
+      {
+        "text": "DOL’s 19 November release: advance seasonally adjusted initial claims were 203,000 for the week ended 14 November, +1,000 versus the revised prior 202,000. Insured unemployment was 1,763,000 for the separate week ended 7 November, +70,000 from revised 1,693,000. Revisions and different reference weeks matter; no unverified consensus surprise or recession conclusion is inferred.",
+        "kind": "fact",
+        "source_ids": [
+          "claims"
+        ]
+      },
+      {
+        "text": "The Philadelphia Fed’s November survey, collected 9–16 November and released 19 November, puts general activity at 6.3 versus October 20.9; new orders −0.4. A positive activity diffusion index indicates less widespread expansion, not a measured national-output growth rate. Regional scope, price pressure and sample limitations qualify a broad slowdown narrative; direct-page access remains a gap.",
+        "kind": "fact",
+        "source_ids": [
+          "philly"
+        ]
+      },
+      {
+        "text": "Earlier futures, Walmart/Palo Alto earnings and London’s unresolved final remain dated in linked reports. They are not refreshed closing panels. No verified full closing turnover, complete rates/FX/commodity/volatility panel or after-hours basket is supplied. Public search excerpts were used where original AP and regional-survey retrieval failed; no access barrier was bypassed.",
+        "kind": "fact",
+        "source_ids": [
+          "pre",
+          "london"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A positive IPO debut can coexist with broad index losses.",
+        "transmission": "Trading demand for one new issue need not improve sector participation or company cash generation.",
+        "alternatives": "Reallocation, positioning and unrelated issuer news can contribute; the observed coincidence does not isolate a single cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "pricing",
+          "pre"
+        ]
+      },
+      {
+        "explanation": "The labour and regional manufacturing releases describe different populations and periods.",
+        "transmission": "Softer demand could affect earnings while price pressure still constrains financing conditions.",
+        "alternatives": "Claims remain a limited weekly measure and the regional activity index is still positive; these observations alone do not establish a national contraction.",
+        "confidence": "inference",
+        "source_ids": [
+          "claims",
+          "philly"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Participation stabilizes",
+        "outcome": "The next session’s improvement extends beyond a few issuers.",
+        "trigger": "Verified cash breadth and independent official sector returns corroborate gains.",
+        "invalidation": "Early gains reverse or participation remains concentrated.",
+        "horizon": "20 November US session and next Asia lead",
+        "source_ids": [
+          "pre",
+          "nyse"
+        ]
+      },
+      {
+        "name": "Demand softness persists",
+        "outcome": "Weaker orders and labour conditions constrain operating growth.",
+        "trigger": "Subsequent comparable official releases and issuer cash evidence confirm deterioration.",
+        "invalidation": "Revised data and broad operating results show resilient demand.",
+        "horizon": "Next official releases and issuer updates",
+        "source_ids": [
+          "claims",
+          "philly"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "20 November Asia pre-open target 07:00 SGT: verify current evidence rather than replay US futures",
+        "due_at": "2026-11-19T23:00:00Z",
+        "confirms": "Current local disclosures and subsequent participation corroborate transmission.",
+        "contradicts": "Local evidence diverges or current observations are unavailable.",
+        "source_ids": [
+          "pre",
+          "nyse"
+        ]
+      },
+      {
+        "signal": "Next US regular cash opening, 20 November 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-20T14:30:00Z",
+        "confirms": "Verified cash breadth and official final comparisons show stabilization.",
+        "contradicts": "Renewed broad weakness contradicts a narrow rebound.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "20 November expected offering settlement: verify completion notice separately",
+        "due_at": "2026-11-20T21:00:00Z",
+        "confirms": "A dated issuer or regulatory record confirms completed settlement.",
+        "contradicts": "Conditions remain pending or completion evidence is absent; this watch time is a review point, not a promised settlement hour.",
+        "source_ids": [
+          "pricing"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T22:04:23Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Broad completed-session decline; prior optimism did not establish cash participation.",
+        "indicators": "AP reports over 90% declines within its S&P 500 universe. Full exchange-wide breadth and verified fund-flow/volatility panels remain unavailable.",
+        "source_ids": [
+          "apclose"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Model estimate -2.07%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Model estimate -3.10%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Model estimate -3.18%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Model estimate -1.42%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Model estimate -0.71%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Model estimate -1.51%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Model estimate -2.06%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Model estimate -2.04%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "Model estimate -1.94%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Model estimate -1.74%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "Model estimate -1.19%.",
+          "implication": "Price return; excludes dividends.",
+          "watchpoint": "Match official sector final.",
+          "source_ids": [
+            "sector"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US weakness may affect the next Asian lead, conditional on local operating evidence.",
+          "trigger": "Local cash breadth and supplier disclosures corroborate the transmission.",
+          "invalidation": "Local participation and demand diverge.",
+          "source_ids": [
+            "pre",
+            "nyse"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Funding and external demand could affect local banks, REITs and suppliers differently.",
+          "trigger": "Local disclosures confirm measurable operating or financing changes.",
+          "invalidation": "No concrete local effect is established.",
+          "source_ids": [
+            "claims",
+            "philly"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Demand concerns may qualify the next European session, alongside domestic evidence.",
+          "trigger": "Comparable European activity and issuer evidence corroborate persistent weakness.",
+          "invalidation": "Domestic results and broader participation contradict the US lead.",
+          "source_ids": [
+            "philly",
+            "london"
+          ]
+        }
+      ]
+    }
   }
 ]
