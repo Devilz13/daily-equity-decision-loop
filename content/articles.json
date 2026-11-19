@@ -44375,5 +44375,456 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-19-europe-open",
+    "title": "London pre-open: confirmed IPO terms versus unproven market breadth",
+    "summary": "London regular cash opens at 08:00 GMT (16:00 SGT). Anthropic’s dated issuer announcement confirms US$83 pricing; that is not an actual first trade. Earlier Asian weakness and positive futures diverged. UK inflation and tomorrow’s retail sales frame the domestic demand test; current European sector data remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-19T07:10:59Z",
+    "updated_at": "2026-11-19T07:10:59Z",
+    "cutoff_at": "2026-11-19T07:10:59Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "LSE business-day calendar: no 19 November exception listed",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:09:32Z"
+      },
+      {
+        "id": "hours",
+        "title": "LSE regular cash hours 08:00–16:30 London time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/faqs/personal-investing",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:01:38Z"
+      },
+      {
+        "id": "pricing",
+        "title": "18 November issuer pricing announcement, newly verified this run",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T07:09:32Z"
+      },
+      {
+        "id": "landing",
+        "title": "IPO landing-page timetable remains older/conditional",
+        "publisher": "Anthropic",
+        "url": "https://ipo.anthropic.com/us/",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T07:01:38Z"
+      },
+      {
+        "id": "sec",
+        "title": "Anthropic CIK 2130357 submission history; final prospectus not retrieved",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T07:01:38Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October UK CPI: released 18 November, actuals rechecked",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T07:01:38Z"
+      },
+      {
+        "id": "retail",
+        "title": "UK October retail sales: 20 November 07:00 GMT scheduled",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:09:32Z"
+      },
+      {
+        "id": "asia",
+        "title": "19 November global snapshot; article first published 01:53 UTC, individual quote times unavailable",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:09:32Z"
+      },
+      {
+        "id": "bid",
+        "title": "19 November European preview, published 05:35 UTC; later Taiwan snapshot",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:09:32Z"
+      },
+      {
+        "id": "prior",
+        "title": "18 November London close: earlier vendor marks not verified final",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-18-europe-close/",
+        "type": "secondary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-18T17:04:53Z"
+      },
+      {
+        "id": "morning",
+        "title": "19 November canonical morning edition; evidence at 08:12:50 SGT",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:01:38Z"
+      },
+      {
+        "id": "nyse",
+        "title": "NYSE core hours and 2026 calendar checked",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T07:10:59Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "19 November is a regular weekday on the checked LSE calendar, with no listed exception. Regular cash hours are 08:00–16:30 London time. London is GMT; New York independently uses EST. The London opening target is 15:00 SGT, with cash open at 16:00 SGT. This report is delayed after the target but before cash opens.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "Anthropic’s original announcement is dated 18 November, newly verified here: US$83 per Class A share; 980,000,000 offered shares, comprising 956,351,354 issuer shares and 23,648,646 selling-holder shares. Issuer proceeds exclude selling holders. Trading is expected 19 November on Nasdaq as ANT; closing expected 20 November, subject to conditions. The 147,000,000-share underwriter option is additional and not assumed exercised.",
+        "kind": "fact",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "text": "Simple announced-share arithmetic: total gross consideration US$81.34bn; issuer-share gross US$79.377bn and selling-holder gross US$1.963bn, rounded. These are before fees, not net cash received, booked revenue or an actual traded valuation. No current first trade or completed offering settlement is established.",
+        "kind": "estimate",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "text": "The landing-page timetable remains conditional and older than the separate pricing announcement. The rechecked SEC submission index did not expose a final 424B4 in its retrieved recent forms; that absence does not invalidate the issuer announcement or prove that no final filing exists. The earlier morning edition records its own evidence cutoff, not this later verification.",
+        "kind": "fact",
+        "source_ids": [
+          "landing",
+          "sec",
+          "pricing",
+          "morning"
+        ]
+      },
+      {
+        "text": "Reuters’ 01:53 UTC article described European futures +0.3% and MSCI Asia ex-Japan −1.7%, with earlier Brent at US$92.11/barrel. Individual quote times are unavailable: dated external context, not live pre-London quotes or final Asian closes.",
+        "kind": "fact",
+        "source_ids": [
+          "asia"
+        ]
+      },
+      {
+        "text": "The later 05:35 UTC Reuters preview put Taiwan at −3.4% and Korea flat. Different snapshots must not be spliced into a synchronized panel or certified close.",
+        "kind": "fact",
+        "source_ids": [
+          "bid"
+        ]
+      },
+      {
+        "text": "ONS actual October CPI: 3.6% year on year versus 3.5% in September, and 0.5% month on month. CPIH was 3.7%; core CPI 2.8% and CPI services 3.7%. These are distinct measures; no consensus-surprise claim or verified simultaneous gilt/sterling reaction is supplied.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "text": "ONS schedules October retail sales for 20 November 07:00 GMT (15:00 SGT); its page says not yet published. No result is asserted in advance. A certified 18 November FTSE final, current FTSE-specific futures, synchronized European breadth, turnover, volatility, gilts and full sector panel remain unavailable here.",
+        "kind": "fact",
+        "source_ids": [
+          "retail",
+          "prior"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Confirmed offer terms improve factual certainty about financing, but not investment returns.",
+        "transmission": "For European equipment, data-centre and power exposures, trace funding to installations, utilization and supplier cash.",
+        "alternatives": "A successful offering can coexist with narrow demand, margin pressure or excessive capacity; domestic orders and FX may dominate.",
+        "confidence": "inference",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "explanation": "UK inflation detail differentiates goods, services and headline pressures.",
+        "transmission": "Test domestic banks, property, utilities, retail and sterling against the yield curve after cash begins.",
+        "alternatives": "Index composition, energy prices, company news or currency translation can produce different equity reactions without a common inflation cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "cpi",
+          "hours"
+        ]
+      },
+      {
+        "explanation": "External market snapshots show dispersion rather than one synchronized signal.",
+        "transmission": "Require observed European cash participation across several groups before calling a broad recovery.",
+        "alternatives": "Timing, local concentration and ordinary positioning could explain the divergence; futures are not cash flows.",
+        "confidence": "inference",
+        "source_ids": [
+          "asia",
+          "bid"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Funding confidence broadens into cash participation",
+        "outcome": "Several European groups improve alongside evidence of delivered demand.",
+        "trigger": "Verified breadth and supplier/customer disclosures corroborate financing expectations.",
+        "invalidation": "A narrow opening jump fades or commitments fail to convert into installations and cash.",
+        "horizon": "19 November first London cash hour and next issuer disclosures",
+        "source_ids": [
+          "pricing",
+          "hours"
+        ]
+      },
+      {
+        "name": "Rates and execution concerns dominate",
+        "outcome": "Domestic rate-sensitive groups and AI suppliers diverge despite successful pricing.",
+        "trigger": "Current yields, local breadth and documented cost or delivery pressures agree.",
+        "invalidation": "Broad cash participation improves and verified conversion evidence strengthens.",
+        "horizon": "19–20 November European trading",
+        "source_ids": [
+          "cpi",
+          "retail",
+          "pricing"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "19 November London cash open 08:00 GMT / 16:00 SGT",
+        "due_at": "2026-11-19T08:00:00Z",
+        "confirms": "Several sectors participate with verified prices, breadth and turnover.",
+        "contradicts": "Only isolated stocks move or the opening response fades.",
+        "source_ids": [
+          "hours"
+        ]
+      },
+      {
+        "signal": "19 November US regular open 09:30 EST / 22:30 SGT; ANT first trade may be later",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "An exchange print confirms trading; offering and traded prices remain distinct.",
+        "contradicts": "No actual first trade or a delay in listing.",
+        "source_ids": [
+          "pricing",
+          "nyse"
+        ]
+      },
+      {
+        "signal": "20 November October UK retail sales, 07:00 GMT / 15:00 SGT",
+        "due_at": "2026-11-20T07:00:00Z",
+        "confirms": "Volume/composition and subsequent rates/sterling evidence support a demand interpretation.",
+        "contradicts": "A transient reaction or conflicting components undermine it.",
+        "source_ids": [
+          "retail"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T07:10:59Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed external lead; current European cash participation unverified.",
+        "indicators": "Earlier futures gains and Asian weakness differ in time and universe. No current synchronized European sentiment or volatility panel.",
+        "source_ids": [
+          "asia",
+          "bid"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Confirmed AI offer pricing is financing context, not a European technology return or proof of supplier revenue.",
+          "implication": "Check equipment, memory, software and actual shipment/collection evidence separately.",
+          "watchpoint": "Compare chip equipment, memory and software participation.",
+          "source_ids": [
+            "pricing"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified current European communication services sector return or synchronized cash-opening basket.",
+          "implication": "Separate telecom and media; an unrelated US model developer is not European platform-sector breadth.",
+          "watchpoint": "Compare telecom operators with media and platforms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified current European consumer discretionary sector return or synchronized cash-opening basket.",
+          "implication": "Consumer demand and financing conditions can matter differently to retail, autos and travel.",
+          "watchpoint": "Check autos, retail and travel with real income and rates.",
+          "source_ids": [
+            "cpi",
+            "retail"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified current European consumer staples sector return or synchronized cash-opening basket.",
+          "implication": "Verify volumes, input costs and pricing instead of treating a defensive label as observed outperformance.",
+          "watchpoint": "Check defensive participation against the broad market.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified current European energy sector return or synchronized cash-opening basket.",
+          "implication": "Earlier crude is dated external context; producers, refiners and fuel users can differ. No current local group return.",
+          "watchpoint": "Compare producers and refiners with dated crude marks.",
+          "source_ids": [
+            "asia"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified current European financials sector return or synchronized cash-opening basket.",
+          "implication": "Funding costs, curve shape and credit quality need same-time observation.",
+          "watchpoint": "Compare banks and insurers against the curve.",
+          "source_ids": [
+            "cpi"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified current European health care sector return or synchronized cash-opening basket.",
+          "implication": "Separate drugs, devices and providers; confirm issuer or regulatory changes independently.",
+          "watchpoint": "Check pharmaceutical and provider breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified current European industrials sector return or synchronized cash-opening basket.",
+          "implication": "Financed data-centre plans need equipment deliveries and cash realization; logistics and aerospace have other drivers.",
+          "watchpoint": "Check equipment, logistics and aerospace participation.",
+          "source_ids": [
+            "pricing"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified current European materials sector return or synchronized cash-opening basket.",
+          "implication": "Check metals/input prices, currencies and volume separately; no sector return inferred from an Asian index.",
+          "watchpoint": "Compare miners and chemicals against dated metals and FX.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified current European real estate sector return or synchronized cash-opening basket.",
+          "implication": "Property, REIT funding and occupancy need local evidence; IPO proceeds are not contracted rental income.",
+          "watchpoint": "Check property and REIT breadth against financing rates.",
+          "source_ids": [
+            "cpi",
+            "pricing"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified current European utilities sector return or synchronized cash-opening basket.",
+          "implication": "Grid orders, allowed returns and financing costs matter; AI investment is not yet a delivered power connection.",
+          "watchpoint": "Compare regulated utilities with yields and power guidance.",
+          "source_ids": [
+            "pricing",
+            "cpi"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "European supplier demand may corroborate or challenge regional hardware expectations.",
+          "trigger": "Orders, deliveries and several supplier groups agree.",
+          "invalidation": "Only a few names improve or financing fails to translate into activity.",
+          "source_ids": [
+            "pricing"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "External funding and UK demand could affect local hardware, lenders and REITs differently.",
+          "trigger": "Local disclosures and same-time rates support a transmission channel.",
+          "invalidation": "Local operating results and funding terms diverge.",
+          "source_ids": [
+            "pricing",
+            "cpi"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "European cash participation can inform the next US session, but not settle ANT value.",
+          "trigger": "Several groups and an actual subsequent exchange print corroborate the outlook.",
+          "invalidation": "The opening move fades or no first trade is established.",
+          "source_ids": [
+            "hours",
+            "pricing"
+          ]
+        }
+      ]
+    }
   }
 ]
