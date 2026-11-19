@@ -47395,5 +47395,364 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-20-asia-open",
+    "title": "Asia pre-open: weak US lead meets Japan CPI and policy scrutiny",
+    "summary": "Tokyo cash opens at 08:00 SGT. Japan’s October national CPI is scheduled at 07:30 SGT and remains unpublished at this cutoff. Ueda’s 19 November testimony flags inflation risks and conditional further tightening; it is not a fresh rate decision. Asian cash direction remains unobserved.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-19T23:01:54Z",
+    "updated_at": "2026-11-19T23:01:54Z",
+    "cutoff_at": "2026-11-19T23:01:54Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "2026 JPX holiday calendar; 20 November regular date (standing page; date field is check date)",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      },
+      {
+        "id": "hours",
+        "title": "Tokyo regular cash opens 09:00 JST (standing page; date field is check date)",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      },
+      {
+        "id": "cpi",
+        "title": "2026 national and Tokyo CPI release-date schedule",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
+        "type": "primary",
+        "published_at": "2026-01-23",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      },
+      {
+        "id": "clock",
+        "title": "CPI release clock and current 2025 base; Q&A C-1 (standing page; date field is check date)",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/english/data/cpi/1585.html",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      },
+      {
+        "id": "boj",
+        "title": "19 November Ueda Senate testimony, original full text",
+        "publisher": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/mopo/diet/d_state/data/dst261119a.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      },
+      {
+        "id": "us",
+        "title": "Completed 19 November US close; original cutoff 20 November 06:04:23 SGT",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      },
+      {
+        "id": "rights",
+        "title": "Futures page rights notice only; quote data not used",
+        "publisher": "JPX-hosted QUICK page",
+        "url": "https://port.jpx.co.jp/jpxhp/main/index.aspx?disptype=day_through&f=e_future",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T23:01:54Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "JPX’s 2026 holiday list has no 20 November closure. Regular Tokyo cash opens at 09:00 JST / 08:00 SGT; this report serves the 07:00 SGT Asia pre-open target. The Japan anchor check does not certify every regional venue.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "hours"
+        ]
+      },
+      {
+        "text": "The Statistics Bureau schedules October nationwide CPI for 20 November. Its published release convention is 08:30 JST / 07:30 SGT. November Tokyo preliminary CPI is a separate 27 November release. No October result, consensus or surprise is asserted before publication; the current official base is 2025.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi",
+          "clock"
+        ]
+      },
+      {
+        "text": "In his 19 November testimony, Ueda described moderate recovery with some weakness and AI-supported exports. He flagged energy, import-price and wage pressures, with underlying inflation broadly consistent with the 2% target. He referred to last month’s decision to retain an overnight call-rate guideline around 1.25% and described further rate increases as conditional on economic, price and financial developments. This testimony is not a new policy-meeting decision.",
+        "kind": "fact",
+        "source_ids": [
+          "boj"
+        ]
+      },
+      {
+        "text": "The accepted 19 November US closing report, cutoff 20 November 06:04:23 SGT, records AP completed figures: S&P 500 7,175.83 (−2.0%), Dow 49,097.06 (−2.2%), Nasdaq 23,879.20 (−2.3%) and Russell 2000 2,655.11 (−2.2%). Reuters preliminary differences remain in that report. These are prior US observations, not current Asian cash or futures.",
+        "kind": "fact",
+        "source_ids": [
+          "us"
+        ]
+      },
+      {
+        "text": "No current 20 November Asian cash, synchronized regional sector, breadth, volume, volatility or independently confirmed FX/futures panel was obtained at cutoff. The JPX-hosted QUICK futures page states restrictions on onward provision; no quote from it is used. Prior US weakness cannot establish an Asian opening gap.",
+        "kind": "fact",
+        "source_ids": [
+          "hours",
+          "us",
+          "rights"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A broad negative US closing lead precedes Tokyo’s cash opening.",
+        "transmission": "Asian technology and cyclical exposures may face a weaker risk-appetite lead, subject to local demand, currency and valuation.",
+        "alternatives": "Japan CPI and domestic policy expectations can dominate; an isolated IPO gain does not establish broad supplier resilience.",
+        "confidence": "inference",
+        "source_ids": [
+          "us",
+          "cpi"
+        ]
+      },
+      {
+        "explanation": "Ueda’s testimony identifies domestic inflation risks while leaving policy adjustment conditional.",
+        "transmission": "Verified CPI composition and subsequent yen/rate moves could differentiate banks, exporters, consumers and property.",
+        "alternatives": "Energy effects and government measures can move headline inflation differently from underlying pressure; no directional FX or rate move has been observed here.",
+        "confidence": "inference",
+        "source_ids": [
+          "boj",
+          "cpi",
+          "clock"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Domestic evidence changes the external lead",
+        "outcome": "Sector participation diverges as Japan data and policy expectations receive more weight.",
+        "trigger": "Official CPI composition and subsequently verified cash breadth show a different pattern from the US close.",
+        "invalidation": "Data remain unavailable or local breadth simply follows the external decline.",
+        "horizon": "20 November CPI release and Tokyo cash session",
+        "source_ids": [
+          "cpi",
+          "boj",
+          "us"
+        ]
+      },
+      {
+        "name": "External weakness broadens into Asia",
+        "outcome": "Several regional sectors weaken together after cash opens.",
+        "trigger": "Dated local benchmarks, breadth and volume corroborate weakness beyond a few technology names.",
+        "invalidation": "Broad domestic participation improves or currency and issuer evidence offset the US lead.",
+        "horizon": "20 November opening session; no move assumed before cash",
+        "source_ids": [
+          "us",
+          "hours"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "20 November October national CPI: 08:30 JST / 07:30 SGT",
+        "due_at": "2026-11-19T23:30:00Z",
+        "confirms": "Original release establishes dated headline and underlying measures with the current base; compare composition before inferring policy impact.",
+        "contradicts": "Release is delayed or evidence is incomplete; retain the gap and do not invent a surprise.",
+        "source_ids": [
+          "cpi",
+          "clock",
+          "boj"
+        ]
+      },
+      {
+        "signal": "20 November Tokyo cash open: 09:00 JST / 08:00 SGT",
+        "due_at": "2026-11-20T00:00:00Z",
+        "confirms": "Verified breadth and several sectors corroborate or reject the external lead.",
+        "contradicts": "Only isolated prices are available or observations diverge.",
+        "source_ids": [
+          "hours",
+          "us"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T23:01:54Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Tokyo Stock Exchange — Asia opening anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Weak external lead; Asian cash risk appetite not yet observed.",
+        "indicators": "Prior US benchmarks declined broadly. Japan CPI is pending; no current Asian breadth, turnover, positioning, volatility or FX move is established.",
+        "source_ids": [
+          "us",
+          "cpi",
+          "clock"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian information technology cash-sector panel before Tokyo opens.",
+          "implication": "AI-supported exports in BoJ testimony do not prove current supplier margins, funded deliveries or cash conversion.",
+          "watchpoint": "Check memory, foundry/packaging, equipment and networking breadth against shipment evidence.",
+          "source_ids": [
+            "boj"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian communication services cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Compare platforms, media and telecom participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian consumer discretionary cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Compare autos, retailers and travel with local demand evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian consumer staples cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Check participation across several defensive names.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian energy cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Compare producers and refiners against dated crude and currency marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian financials cash-sector panel before Tokyo opens.",
+          "implication": "Conditional policy tightening may affect margins and funding differently; verify the curve and issuer exposure.",
+          "watchpoint": "Compare banks and insurers with local curves and credit evidence.",
+          "source_ids": [
+            "boj"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian health care cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Check providers and pharma separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian industrials cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Compare equipment, transport and aerospace participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian materials cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Compare miners and chemicals against dated metals and currencies.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian real estate cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Check property/REIT breadth, occupancy and funding terms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Asian utilities cash-sector panel before Tokyo opens.",
+          "implication": "Direction remains unverified; a prior US return cannot establish the regional sector’s move.",
+          "watchpoint": "Check contracted power demand and commissioned projects, not proposed capacity.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Japan data, currencies and the external lead may transmit unevenly to Singapore banks, exporters and rate-sensitive assets.",
+          "trigger": "Verified local cash breadth, currency/rate evidence and issuer exposure corroborate the proposed channel.",
+          "invalidation": "Domestic data or issuer evidence diverge; foreign price changes alone do not establish the transmission.",
+          "source_ids": [
+            "us",
+            "boj",
+            "cpi"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Verified Asian breadth and Japan rate expectations may qualify the later European opening lead.",
+          "trigger": "Verified local cash breadth, currency/rate evidence and issuer exposure corroborate the proposed channel.",
+          "invalidation": "Domestic data or issuer evidence diverge; foreign price changes alone do not establish the transmission.",
+          "source_ids": [
+            "us",
+            "boj",
+            "cpi"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian cash participation may test the prior US selloff before the next US session.",
+          "trigger": "Verified local cash breadth, currency/rate evidence and issuer exposure corroborate the proposed channel.",
+          "invalidation": "Domestic data or issuer evidence diverge; foreign price changes alone do not establish the transmission.",
+          "source_ids": [
+            "us",
+            "boj",
+            "cpi"
+          ]
+        }
+      ]
+    }
   }
 ]
