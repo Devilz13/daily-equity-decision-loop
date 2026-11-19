@@ -46148,5 +46148,383 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-19-us-open",
+    "title": "US pre-open: technology futures lead; earnings quality and cash breadth remain the tests",
+    "summary": "Earlier futures point to technology-led optimism ahead of Anthropic’s expected debut. Walmart raises its outlook; Palo Alto’s revenue growth contrasts with lower GAAP operating profit. Offer pricing, forecasts and premarket moves remain distinct from cash-market confirmation.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-19T13:05:51Z",
+    "updated_at": "2026-11-19T13:05:51Z",
+    "cutoff_at": "2026-11-19T13:05:51Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Regular NYSE core hours and 2026 holiday/early-close calendar checked",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T13:05:51Z"
+      },
+      {
+        "id": "futures",
+        "title": "Reuters rolling premarket article: explicit 07:18 EST futures snapshot; accessed through search",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/nasdaq-futures-jump-anthropics-record-ipo-pricing-fuels-hopes-strong-debut-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T13:05:51Z"
+      },
+      {
+        "id": "pricing",
+        "title": "18 November IPO pricing and conditional trading/settlement dates",
+        "publisher": "Anthropic",
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T13:05:51Z"
+      },
+      {
+        "id": "wmt",
+        "title": "19 November Q3 release: official PDF search excerpt; direct document retrieval failed",
+        "publisher": "Walmart",
+        "url": "https://stock.walmart.com/_assets/_584724612834b84e661f0caf26ece998/walmart/db/938/10001/earnings_release/Earnings_Release_%28FY27_Q3%29.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T13:05:51Z"
+      },
+      {
+        "id": "panw",
+        "title": "Fiscal Q1 2027 reported results and outlook, released 18 November",
+        "publisher": "Palo Alto Networks",
+        "url": "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-reports-fiscal-first-quarter-2027-financial",
+        "type": "primary",
+        "published_at": "2026-11-18",
+        "accessed_at": "2026-11-19T13:05:51Z"
+      },
+      {
+        "id": "fedcal",
+        "title": "November official speeches/discussions calendar",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T13:05:51Z"
+      },
+      {
+        "id": "eve",
+        "title": "19 November evening watch, evidence 19:01:12 SGT; exact current live marker verified",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-evening-global-watch/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T13:04:07Z"
+      },
+      {
+        "id": "asia",
+        "title": "19 November Asia close, evidence 19:01:12 SGT; exact current live marker verified",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-asia-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T13:04:07Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE lists no holiday or early close for 19 November. Regular core hours are 09:30–16:00 Eastern; New York independently uses EST and London GMT. The US pre-open target is 21:30 SGT, before regular cash opens 22:30 SGT.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters’ 07:18 EST (20:18 SGT) futures snapshot: Dow E-minis +0.58%, S&P 500 E-minis +1.16%, Nasdaq 100 E-minis +2.08%. These are earlier derivatives observations, not current cash returns. The rolling story’s initial publication time is not the quote time; no synchronized current cash breadth, turnover, volatility or complete rates/FX panel is verified.",
+        "kind": "fact",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "text": "Anthropic’s 18 November announcement prices Class A shares at US$83. Expected Nasdaq trading date is 19 November, symbol ANT; offering closing is expected 20 November, subject to conditions. Issuer and selling-holder shares are distinct, and the issuer receives no selling-holder proceeds. No actual first trade, option exercise or completed settlement is verified here. Offer consideration is not net issuer cash, revenue or an actual traded valuation.",
+        "kind": "fact",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "text": "Walmart’s 19 November official release excerpt reports Q3 revenue US$188.8bn, +5.2% reported or +4.5% constant currency, GAAP EPS US$0.62 and adjusted EPS US$0.65. FY27 adjusted EPS guidance is US$2.84–2.89; constant-currency sales growth guidance is 4.9–5.2%. The issuer says it raised its outlook and notes Flipkart event timing affects comparisons. Direct PDF retrieval failed, so the full adjustment reconciliation is not independently reviewed here; no consensus-surprise or organic-growth inference.",
+        "kind": "fact",
+        "source_ids": [
+          "wmt"
+        ]
+      },
+      {
+        "text": "Palo Alto’s 18 November release, quarter ended 31 October: revenue US$3.44bn (+39%); GAAP operating income US$96m versus US$309m; non-GAAP operating income US$1.1bn versus US$746m. Full-year revenue guidance is US$14.52–14.57bn. Adjusted measures exclude compensation, acquisition and other items; they are not interchangeable with GAAP. Revenue growth is not labelled organic. The announced Applied Compute transaction is an intent to acquire, not a completed integration.",
+        "kind": "fact",
+        "source_ids": [
+          "panw"
+        ]
+      },
+      {
+        "text": "The evening and Asia reports retain their own evidence times and uneven regional observations. They are not refreshed price panels for this US opening report. Prior source/sector and supplier-verification gaps remain; no new core-screen pass, ownership conclusion or trade is inferred.",
+        "kind": "fact",
+        "source_ids": [
+          "eve",
+          "asia"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Offer enthusiasm still needs operating and cash confirmation.",
+        "transmission": "A rebound could improve financing sentiment if earnings and cash conversion corroborate it.",
+        "alternatives": "Positioning, scarcity and short covering can drive early moves without durable operating improvement.",
+        "confidence": "inference",
+        "source_ids": [
+          "pricing"
+        ]
+      },
+      {
+        "explanation": "Palo Alto’s GAAP and adjusted operating-profit directions differ.",
+        "transmission": "Recurring exclusions matter to shareholder conversion.",
+        "alternatives": "Integration may support returns, or recurring costs may constrain them.",
+        "confidence": "inference",
+        "source_ids": [
+          "panw"
+        ]
+      },
+      {
+        "explanation": "Walmart’s reported and constant-currency growth measures differ.",
+        "transmission": "Currency and timing complicate demand comparisons.",
+        "alternatives": "Raised guidance does not establish broad consumer strength or a consensus surprise.",
+        "confidence": "inference",
+        "source_ids": [
+          "wmt"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Futures strength broadens into cash",
+        "outcome": "Participation extends beyond a narrow technology group.",
+        "trigger": "Verified cash breadth, sector returns and subsequent issuer evidence corroborate gains.",
+        "invalidation": "Early gains fade or participation remains concentrated.",
+        "horizon": "19 November US cash session",
+        "source_ids": [
+          "eve"
+        ]
+      },
+      {
+        "name": "Earnings quality constrains valuation",
+        "outcome": "Revenue optimism fails to convert into durable cash returns.",
+        "trigger": "Recurring adjustment costs, weak cash conversion or integration problems persist.",
+        "invalidation": "Operating costs normalize and realized cash corroborates growth.",
+        "horizon": "Next disclosures and cash-session interpretation",
+        "source_ids": [
+          "panw",
+          "wmt"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Jefferson Economic Shocks discussion, 19 November 09:25 EST / 22:25 SGT",
+        "due_at": "2026-11-19T14:25:00Z",
+        "confirms": "Published remarks provide concrete policy and economic evidence.",
+        "contradicts": "General discussion supplies no new policy decision or actionable economic result.",
+        "source_ids": [
+          "fedcal"
+        ]
+      },
+      {
+        "signal": "19 November US regular cash opening, 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-19T14:30:00Z",
+        "confirms": "Verified cash breadth confirms participation; any IPO first trade is checked separately.",
+        "contradicts": "Futures strength reverses or no first trade is yet established.",
+        "source_ids": [
+          "nyse",
+          "pricing"
+        ]
+      },
+      {
+        "signal": "Barr Artificial Intelligence discussion, 19 November 14:15 EST / 20 November 03:15 SGT",
+        "due_at": "2026-11-19T19:15:00Z",
+        "confirms": "Published remarks distinguish measured productivity and financing evidence from projections.",
+        "contradicts": "No measurable outcomes support the interpretation.",
+        "source_ids": [
+          "fedcal"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-19T13:05:51Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-19",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Earlier technology-led futures optimism; cash participation unconfirmed.",
+        "indicators": "Nasdaq contracts led the earlier dated derivatives snapshot. No synchronized current US cash breadth, volatility, turnover or positioning panel.",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Palo Alto issuer results verified; no current cash-sector return.",
+          "implication": "GAAP and adjusted operating economics differ; one software issuer does not establish hardware demand.",
+          "watchpoint": "Check recurring exclusions and cash conversion; independently verify HBM/memory, foundry/packaging, racks, networking, power/grid, cooling and generation deliveries.",
+          "source_ids": [
+            "panw"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US communication services cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare platforms, telecom and media participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US consumer discretionary cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare retail, autos and travel against dated issuer guidance.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Walmart official release excerpt provides a dated earnings update; cash-sector breadth absent.",
+          "implication": "Constant-currency and reported sales differ; full adjustment review remains incomplete.",
+          "watchpoint": "Check original reconciliation, comparison timing and wider consumer evidence.",
+          "source_ids": [
+            "wmt"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US energy cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare producers and refiners with same-time crude marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US financials cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare banks and insurers against the curve and credit evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US health care cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Check providers and drugmakers separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US industrials cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare machinery, aerospace and transport breadth.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US materials cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare metals and chemicals with dated currencies and inputs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US real estate cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Check multiple REITs against financing costs and operating evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 19 November US utilities cash-sector panel verified before the open.",
+          "implication": "Index futures and isolated issuer moves do not establish this sector’s cash direction.",
+          "watchpoint": "Compare regulated utilities, power demand and contracted offtake against yields.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US participation may qualify the next Asian lead, subject to local supplier evidence.",
+          "trigger": "Several unrelated cash groups and actual supplier operating data corroborate improvement.",
+          "invalidation": "Moves stay concentrated or local data diverge.",
+          "source_ids": [
+            "asia",
+            "pricing"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Funding sentiment may affect local infrastructure and rate-sensitive firms differently.",
+          "trigger": "Local project financing and operating disclosures corroborate a concrete change.",
+          "invalidation": "No measurable local transmission emerges.",
+          "source_ids": [
+            "eve",
+            "pricing"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US consumption and software results offer context without establishing European closing direction.",
+          "trigger": "European issuer and breadth evidence corroborates the same operating channel.",
+          "invalidation": "Domestic factors dominate or comparable figures disagree.",
+          "source_ids": [
+            "wmt",
+            "panw",
+            "eve"
+          ]
+        }
+      ]
+    }
   }
 ]
