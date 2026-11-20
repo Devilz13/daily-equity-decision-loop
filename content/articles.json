@@ -50585,5 +50585,400 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-20-us-close",
+    "title": "US close: AI-led losses deepen; sentiment improves but risks remain",
+    "summary": "US stocks finished sharply lower on 20 November, led by technology. New reporting describes accounting scrutiny at NVIDIA, without establishing wrongdoing. Michigan’s final survey improved. All 11 sector readings below are dated provider estimates, with official matching and cross-asset gaps explicit.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-20T22:08:14Z",
+    "updated_at": "2026-11-20T22:08:14Z",
+    "cutoff_at": "2026-11-20T22:08:14Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Regular core hours and official 2026 holiday/half-day exceptions",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "ap",
+        "title": "Completed 20 November index summary, published 21:30:16 UTC; original HTML and public search verified",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/c10b797a17c2acf37924d834efebe135",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "sector",
+        "title": "20 November 16:10 EST provider estimates and methodology",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "mich",
+        "title": "Final November consumer survey: interviews through 16 November, released 20 November",
+        "publisher": "University of Michigan Surveys of Consumers",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "nv",
+        "title": "20 November 19:13 UTC reporting citing two unnamed sources; SEC declined comment, no issuer reply at report time",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "ant",
+        "title": "20 November updated completed-session Anthropic report; original publication time is not quote time",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "fedgap",
+        "title": "20 November Cook speech; direct retrieval returned HTTP 403, contents unreviewed",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:08:14Z"
+      },
+      {
+        "id": "london",
+        "title": "20 November London close: original cutoff retained; live exact marker reconciled",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-20-europe-close/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T22:06:41Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE regular cash ended 20 November at 16:00 EST / 21 November 05:00 SGT. No holiday or early-close exception is listed for 20 November. The closing-report target is 06:00 SGT. New York EST and London GMT were checked independently; the desk date remains 20 November. Thanksgiving closure is 26 November and the following Friday’s cash close is 13:00 EST; those exceptions do not apply today.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP’s completed-session report: S&P 500 6,910.39 (−3.7%); Dow 48,147.33 (−1.9%); Nasdaq 22,617.73 (−5.3%); Russell 2000 2,581.79 (−2.8%). Weekly changes respectively: −8.6%, −8.0%, −10.0% and −7.5%. These are publisher-reported closes, not an independently certified exchange-final panel.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Quantisnow’s 20 November 16:10 EST estimates cover 496 companies: 123 higher, 370 lower, one positive sector. It uses uncapped full-market-value weighting, price returns without dividends and holdings dated 30 June 2026, which can lag index changes. This is not official sector-index or ETF performance.",
+        "kind": "fact",
+        "source_ids": [
+          "sector"
+        ]
+      },
+      {
+        "text": "Michigan’s final November sentiment index is 51.5 versus October 48.0; current conditions 49.4 and expectations 52.9. Year-ahead inflation expectations fell to 3.7% from 4.7%; long-run expectations eased to 3.3% from 3.5%. Interviews ran 20 October–16 November, so this is not a survey of Friday’s full selloff. The university describes post-election improvement but subdued overall sentiment, with different personal-finance outcomes by wealth and stockholdings. This is a household survey, not realized inflation, spending or a rate decision.",
+        "kind": "fact",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "text": "Reuters cites two unnamed sources saying SEC staff are examining potential NVIDIA accounting issues. SEC declined comment; NVIDIA had not responded at report time. Inquiry timing and exact issues were undetermined. This is attributed reporting, not proof of misconduct, a restatement or an enforcement outcome.",
+        "kind": "allegation",
+        "source_ids": [
+          "nv"
+        ]
+      },
+      {
+        "text": "Reuters reports Anthropic’s Friday close at US$88.91, −8.5% versus Thursday, distinct from the US$83 offering price. It also reports NVIDIA down about 14%, Meta nearly 6%, Amazon about 4% and Microsoft 3%. These company moves do not establish a whole-sector return, completed offering settlement or a quantified change in operating cash flow.",
+        "kind": "fact",
+        "source_ids": [
+          "ant"
+        ]
+      },
+      {
+        "text": "Cook’s scheduled speech has an official URL, but direct retrieval returned HTTP 403. Its contents were not reviewed and are not represented as a new policy decision. London’s earlier report retains its own cutoff and unresolved final-price matching; it is not current US cash evidence.",
+        "kind": "fact",
+        "source_ids": [
+          "fedgap",
+          "london"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Accounting scrutiny adds to uncertainty around AI financing and revenue quality, alongside the observed selloff.",
+        "transmission": "Disclosure uncertainty can increase required returns and financing costs for suppliers and customers. Any operating impact needs issuer cash-flow and delivery evidence.",
+        "confidence": "inference",
+        "alternatives": "Valuation compression, positioning and broader rates concerns may also explain losses. Reported scrutiny does not prove revenue was misstated or identify its exact scope.",
+        "source_ids": [
+          "nv",
+          "ant"
+        ]
+      },
+      {
+        "explanation": "The final household survey provides a counterweight to extrapolating market losses into universal consumer deterioration.",
+        "transmission": "Lower expected inflation and better confidence could support household demand, subject to actual spending and employment.",
+        "confidence": "inference",
+        "alternatives": "The interview window predates the completed selloff, respondents differ by wealth, and survey optimism need not become purchases.",
+        "source_ids": [
+          "mich"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Disclosure risk persists",
+        "outcome": "Financing scrutiny and weaker participation continue to pressure the AI supply chain.",
+        "trigger": "New primary disclosures identify a material accounting, funding or order-conversion problem.",
+        "invalidation": "Primary records resolve uncertainties and independently verified cash conversion and breadth stabilize.",
+        "horizon": "Next issuer/regulatory disclosures and 23 November US session",
+        "source_ids": [
+          "nv",
+          "ant",
+          "nyse"
+        ]
+      },
+      {
+        "name": "Demand resilience limits transmission",
+        "outcome": "Consumer and non-AI operating evidence diverges from falling equity valuations.",
+        "trigger": "Comparable official spending and issuer results corroborate the survey improvement.",
+        "invalidation": "Actual demand weakens or confidence reverses after the survey window.",
+        "horizon": "Next dated official releases and final December survey follow-up",
+        "source_ids": [
+          "mich"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Saturday full daily 21 November 08:00 SGT: reconcile new primary NVIDIA/financing evidence and cross-market finals",
+        "due_at": "2026-11-21T00:00:00Z",
+        "confirms": "Primary issuer or regulator evidence specifies scope, materiality and cash effects.",
+        "contradicts": "Only repeated anonymous-source reporting or unmatched quotes remain.",
+        "source_ids": [
+          "nv",
+          "london"
+        ]
+      },
+      {
+        "signal": "Next regular US cash opening, 23 November 09:30 EST / 22:30 SGT; pre-open alert target 21:30 SGT",
+        "due_at": "2026-11-23T14:30:00Z",
+        "confirms": "Fresh cash breadth and comparable official sector records establish participation.",
+        "contradicts": "Earlier provider estimates or futures cannot establish the next cash result.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "Michigan preliminary December release, 4 December 10:00 EST / 23:00 SGT",
+        "due_at": "2026-12-04T15:00:00Z",
+        "confirms": "New interviews establish whether confidence and inflation expectations persist.",
+        "contradicts": "Survey reversal or divergent actual spending weakens the resilience case.",
+        "source_ids": [
+          "mich"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T22:08:14Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Provider estimates indicate weak participation, led lower by technology.",
+        "indicators": "Model breadth and constituent estimates are dated above. Official sector matching, complete turnover/fund-flow, closing volatility, rates/FX/commodity and after-hours panels remain incomplete.",
+        "source_ids": [
+          "sector"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "Estimate −7.10%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "Estimate −2.94%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "Estimate −3.60%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "Estimate +0.83%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "Estimate −0.46%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "Estimate −1.89%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "Estimate −0.10%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "Estimate −2.99%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "Estimate −2.40%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "Estimate −1.12%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "Estimate −0.80%.",
+          "implication": "Price-only estimate.",
+          "watchpoint": "Verify official final.",
+          "source_ids": [
+            "sector"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "AI financing and disclosure uncertainty can affect Asian suppliers, conditional on actual customer and order exposure.",
+          "trigger": "Current local issuer revenue exposure, financing disclosures and cash participation independently corroborate transmission.",
+          "invalidation": "Country composition, domestic demand or issuer evidence diverges; foreign price moves alone are insufficient.",
+          "source_ids": [
+            "nv",
+            "mich"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Banks, REITs and technology suppliers have different funding and customer channels; a US selloff does not specify a Singapore return.",
+          "trigger": "Current local issuer revenue exposure, financing disclosures and cash participation independently corroborate transmission.",
+          "invalidation": "Country composition, domestic demand or issuer evidence diverges; foreign price moves alone are insufficient.",
+          "source_ids": [
+            "nv",
+            "mich"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Hardware and industrial suppliers may face valuation and demand scrutiny while domestic consumer evidence differs.",
+          "trigger": "Current local issuer revenue exposure, financing disclosures and cash participation independently corroborate transmission.",
+          "invalidation": "Country composition, domestic demand or issuer evidence diverges; foreign price moves alone are insufficient.",
+          "source_ids": [
+            "nv",
+            "mich"
+          ]
+        }
+      ]
+    }
   }
 ]
