@@ -46571,7 +46571,7 @@
     ],
     "format": "market-close",
     "published_at": "2026-11-19T16:59:56Z",
-    "updated_at": "2026-11-19T16:59:56Z",
+    "updated_at": "2026-11-20T17:00:40Z",
     "cutoff_at": "2026-11-19T16:59:56Z",
     "status": "published",
     "sources": [
@@ -46673,6 +46673,24 @@
         "type": "secondary",
         "published_at": "2026-11-19",
         "accessed_at": "2026-11-19T16:59:56Z"
+      },
+      {
+        "id": "later20-invest",
+        "title": "Later retrieved history: 19 November row 10,452.68 (−0.93%); exchange-final matching remains incomplete",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/uk-100-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
+      },
+      {
+        "id": "later20-ft",
+        "title": "Later retrieved history: 19 November row 10,452.68 (−0.93%); exchange-final matching remains incomplete",
+        "publisher": "FT market data",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
       }
     ],
     "claims": [
@@ -46806,13 +46824,23 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-11-20T17:00:40Z",
+        "reason": "Later vendor history resolves the earlier vendor-row discrepancy, without an official-final certificate.",
+        "change": "The later Investing.com and publicly indexed FT history rows both give 19 November 10,452.68 (−0.93%). This supersedes the unresolved numerical vendor baseline for subsequent comparisons. Original observations/cutoff remain historical; no claim this value was known then and no resend.",
+        "source_ids": [
+          "later20-invest",
+          "later20-ft"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": false,
-      "reviewed_at": "2026-11-19T16:59:56Z"
+      "reviewed_at": "2026-11-20T17:00:40Z"
     },
     "material_reason": null,
     "market_read": {
@@ -50150,6 +50178,409 @@
           "outcome": "Valley Forge Capital Management, LP: exact identity/index checked 2026-11-20T12:57:57Z. Latest original 13F-HR period 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007; unchanged from morning. No new 13F in the retrieved index does not prove no trading. Disclosure-index check, holdings comparison and investor-library archive work remain separate; no fresh line-item comparison claimed.",
           "source_ids": [
             "sec1697868"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-20-europe-close",
+    "title": "London close: final marks unresolved; retail rebound needs a timing check",
+    "summary": "London’s 20 November cash session has ended. Retrieved FTSE header and daily rows still disagree or carry intraday timestamps, so no matched official final is asserted. October retail volumes rebounded, with stockpiling a competing explanation. All 11 closing-sector gaps remain explicit.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-20T17:00:40Z",
+    "updated_at": "2026-11-20T17:00:40Z",
+    "cutoff_at": "2026-11-20T17:00:40Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Regular London cash hours 08:00–16:30",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/faqs/personal-investing",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
+      },
+      {
+        "id": "cal",
+        "title": "Official business-day exceptions checked for 20 November; no closure or half-day listed",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
+      },
+      {
+        "id": "index",
+        "title": "Official FTSE page retrieved without numerical current final",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/indices/ftse-100",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
+      },
+      {
+        "id": "invest",
+        "title": "20 November header 11:26:05 and daily row disagree; neither certified final",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/uk-100-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
+      },
+      {
+        "id": "ft",
+        "title": "Publicly indexed 20 November row explicitly as of 12:33 GMT, not final",
+        "publisher": "FT market data",
+        "url": "https://markets.ft.markitdigital.com/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T17:00:40Z"
+      },
+      {
+        "id": "nyse",
+        "title": "2026 holiday/early-close calendar and 09:30–16:00 ET core session",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "fed",
+        "title": "November official calendar; times Eastern",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "ons",
+        "title": "October retail volumes, first estimate with revisions; released 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "london",
+        "title": "20 November Reuters 12:05 GMT intraday observation, not cash open/final",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/uk/uk-stocks-fall-banks-energy-shares-drag-global-risk-off-mood-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "pre",
+        "title": "20 November US pre-open: earlier cutoff, exact live marker reconciled; not current cash results",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-20-us-open/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T16:59:26Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London regular cash ends at 16:30 GMT, or 21 November 00:30 SGT; the closing-report target is 01:30 SGT. No 20 November holiday or half-day exception appears on the checked official calendar. London GMT and New York EST are independent; this report retains London desk date 20 November.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "cal"
+        ]
+      },
+      {
+        "text": "The retrieved Investing.com header is 10,360.22 (−0.88%), labelled real-time at 11:26:05 with timezone unverified; its 20 November daily row is 10,370.79 (−0.78%). The FT indexed table is 10,362.60 (−0.86%) explicitly as of 12:33 GMT. These unmatched observations do not establish an official final or closing turnover. LSE’s retrieved page lacks a numerical current final.",
+        "kind": "fact",
+        "source_ids": [
+          "invest",
+          "ft",
+          "index"
+        ]
+      },
+      {
+        "text": "Reuters’ earlier 12:05 GMT snapshot reports FTSE 100 10,383.6 (−0.66%) and FTSE 250 −1.7%, with banks and energy among the drags. This is intraday context, not a completed-session sector return or closing attribution.",
+        "kind": "fact",
+        "source_ids": [
+          "london"
+        ]
+      },
+      {
+        "text": "ONS released October retail volumes at 07:00 GMT: monthly +0.7%, September revised to −0.6% from −0.4%, three-month +0.4% and annual +2.3%. Supermarkets reported stocking long-life food after government advice. This measures Great Britain retail goods, not all household services or GDP. Stockpiling and a timing shift are competing explanations to durable demand growth; monthly volumes are volatile.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      {
+        "text": "Later vendor history rows agree on a 19 November FTSE baseline of 10,452.68 (−0.93%). An append-only correction records this later evidence on the original report; it does not certify an exchange final or create an earlier observation. No old alert is resent.",
+        "kind": "fact",
+        "source_ids": [
+          "invest",
+          "ft"
+        ]
+      },
+      {
+        "text": "The earlier US pre-open report keeps its 13:01:25 UTC cutoff. It is not an observation of the still-running US cash session. The official Fed calendar lists Cook at 12:15 EST / 21 November 01:15 SGT, still ahead at this cutoff; a listing is not actual remarks or a policy decision. The US regular session closes at 16:00 EST / 21 November 05:00 SGT; DEDL’s close target is 06:00 SGT.",
+        "kind": "fact",
+        "source_ids": [
+          "pre",
+          "fed",
+          "nyse"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Unmatched prices and explicitly intraday timestamps limit any conclusion about the completed London session.",
+        "transmission": "Using a stale row as final would distort the next session’s baseline and apparent cross-market spillovers.",
+        "confidence": "inference",
+        "alternatives": "Feed timing and stale daily rows can explain disagreement without any exchange disruption.",
+        "source_ids": [
+          "invest",
+          "ft",
+          "index"
+        ]
+      },
+      {
+        "explanation": "The retail rebound contains a possible timing effect rather than established broad demand strength.",
+        "transmission": "UK customer demand can affect consumer suppliers; funding and currencies can independently affect Singapore and Asian businesses.",
+        "confidence": "inference",
+        "alternatives": "Stockpiling may reverse later, while income growth or wider category gains could instead support persistence. No current valuation or FX reaction is established.",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Final records reconcile",
+        "outcome": "A usable completed-session baseline replaces current quote ambiguity.",
+        "trigger": "A dated official final and a separate completed-session account agree.",
+        "invalidation": "Only unmatched or intraday records remain.",
+        "horizon": "21 November 08:00 SGT daily evidence pass",
+        "source_ids": [
+          "index",
+          "invest",
+          "ft"
+        ]
+      },
+      {
+        "name": "Retail rebound persists or reverses",
+        "outcome": "Subsequent category volumes distinguish durable demand from purchases brought forward.",
+        "trigger": "Later official volumes and multiple issuer disclosures corroborate persistent demand.",
+        "invalidation": "A stockpiling reversal or narrow category mix explains the headline rebound.",
+        "horizon": "Next official retail release and subsequent issuer updates; no date guessed",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Cook scheduled remarks, 20 November 12:15 EST / 21 November 01:15 SGT; check actual text at next due pass",
+        "due_at": "2026-11-20T17:15:00Z",
+        "confirms": "Published remarks establish what was actually said.",
+        "contradicts": "A calendar entry alone provides no speech content or policy decision.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "20 November US regular cash ends 16:00 EST / 21 November 05:00 SGT; closing-report target 06:00 SGT",
+        "due_at": "2026-11-20T22:00:00Z",
+        "confirms": "Dated completed-session prices and breadth provide a fresh independent comparison.",
+        "contradicts": "Earlier futures and London intraday values cannot substitute for US closing data.",
+        "source_ids": [
+          "nyse",
+          "pre"
+        ]
+      },
+      {
+        "signal": "Saturday canonical daily 21 November 08:00 SGT: reconcile London final and broader demand evidence",
+        "due_at": "2026-11-21T00:00:00Z",
+        "confirms": "Official final and dated follow-up evidence qualify the next baseline.",
+        "contradicts": "Unmatched rows or narrow retail categories leave the inference unresolved.",
+        "source_ids": [
+          "index",
+          "ons"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T17:00:40Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "cal"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Earlier weakness; completed-session magnitude and breadth unresolved.",
+        "indicators": "Vendor header and daily row conflict; FT row is explicitly intraday. No certified closing turnover, fund-flow, volatility, rates or FX panel. Public-finance release details remain unverified and are not used as a catalyst here.",
+        "source_ids": [
+          "invest",
+          "ft",
+          "index",
+          "london"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European information technology closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Check the complete reconciliation and subsequent cash conversion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European communication services closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Compare telecom, media and platforms separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European consumer discretionary closing return or breadth verified. Official retail volumes provide economic context, with stockpiling caveats.",
+          "implication": "Retail goods and services, nominal values and real volumes must remain distinct.",
+          "watchpoint": "Check subsequent real category volumes and several issuers before inferring persistent demand.",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European consumer staples closing return or breadth verified. Official retail volumes provide economic context, with stockpiling caveats.",
+          "implication": "Retail goods and services, nominal values and real volumes must remain distinct.",
+          "watchpoint": "Check subsequent real category volumes and several issuers before inferring persistent demand.",
+          "source_ids": [
+            "ons"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European energy closing return or breadth verified. Reuters named earlier intraday weakness, not a sector final.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Compare dated crude, refiners and producers; do not substitute an oil price for equity returns.",
+          "source_ids": [
+            "london"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European financials closing return or breadth verified. Reuters named earlier intraday weakness, not a sector final.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Compare banks and insurers with the yield curve.",
+          "source_ids": [
+            "london"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European health care closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Check pharma and provider participation separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European industrials closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Compare equipment, transport and aerospace beyond one issuer.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European materials closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Check miners and chemicals against dated metals and currencies.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European real estate closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Compare multiple REITs and property shares with financing costs.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November European utilities closing return or breadth verified.",
+          "implication": "A broad-index snapshot or one issuer cannot establish a completed sector return.",
+          "watchpoint": "Check comparable total returns and other utilities before attributing sector weakness.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "UK goods demand may affect Asian suppliers, subject to actual revenue exposure and later volumes.",
+          "trigger": "Dated local issuer demand, financing or cash breadth independently corroborates the transmission.",
+          "invalidation": "Local evidence diverges, currency effects dominate or moves remain concentrated.",
+          "source_ids": [
+            "ons",
+            "index"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Foreign demand and funding can affect Singapore suppliers and rate-sensitive firms differently; no automatic STI direction follows.",
+          "trigger": "Dated local issuer demand, financing or cash breadth independently corroborates the transmission.",
+          "invalidation": "Local evidence diverges, currency effects dominate or moves remain concentrated.",
+          "source_ids": [
+            "ons",
+            "index"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "London’s unresolved final offers limited context for the still-running US session; actual US breadth must establish its own result.",
+          "trigger": "Dated local issuer demand, financing or cash breadth independently corroborates the transmission.",
+          "invalidation": "Local evidence diverges, currency effects dominate or moves remain concentrated.",
+          "source_ids": [
+            "ons",
+            "index"
           ]
         }
       ]
