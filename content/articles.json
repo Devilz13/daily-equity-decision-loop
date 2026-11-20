@@ -48190,5 +48190,1969 @@
       "reviewed_at": "2026-11-20T00:03:53Z"
     },
     "material_reason": "New dated public evidence relevant to Singapore and regional infrastructure."
+  },
+  {
+    "id": "2026-11-20-us-open",
+    "title": "US pre-open: weaker futures, software perimeter changes and a sentiment test",
+    "summary": "US cash opens 22:30 SGT. Earlier futures were weaker; Intuit’s results, conditional Mailchimp sale and guidance need like-for-like comparison. Michigan final data are due 23:00 SGT. Cash-sector and synchronized cross-asset panels remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-20T13:01:25Z",
+    "updated_at": "2026-11-20T13:01:25Z",
+    "cutoff_at": "2026-11-20T13:01:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "2026 holiday/early-close calendar and 09:30–16:00 ET core session",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "futures",
+        "title": "20 November Reuters snapshot at 07:03 EST / 20:03 SGT; futures, not cash",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "intuit",
+        "title": "19 November original fiscal Q1 results, guidance and conditional Mailchimp sale",
+        "publisher": "Intuit",
+        "url": "https://investors.intuit.com/_assets/_d2e22f68d63e51dea352101f414a0724/intuit/news/2026-11-19_Intuit_Reports_First_Quarter_Results_and_Enters_1331.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "mich",
+        "title": "Preliminary November survey; final release scheduled 20 November 10:00 ET",
+        "publisher": "University of Michigan Surveys of Consumers",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "fed",
+        "title": "November official calendar; times Eastern",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "ons",
+        "title": "October retail volumes, first estimate with revisions; released 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "sg",
+        "title": "20 November completed Singapore closing report, published 18:41 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/singapore-stocks-fall-tandem-regional-downturn-sti-down-2-1",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "india",
+        "title": "20 November 16:10 IST Nifty quote and selected local sector indexes; live-blog entries retain older dates",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "priorus",
+        "title": "Completed 19 November US close; original evidence 20 November 06:04:23 SGT",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE’s checked 2026 calendar lists no 20 November holiday or early close. Regular cash opens 09:30 EST / 22:30 SGT and ends 16:00 EST / 21 November 05:00 SGT. The guarded opening target is 21:30 SGT. London GMT and New York EST were independently checked.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters at 07:03 EST / 20:03 SGT: Dow E-minis −0.10%, S&P 500 E-minis −0.74% and Nasdaq 100 E-minis −1.64%. These are earlier futures observations, not current cash, official sector returns or a guaranteed opening gap.",
+        "kind": "fact",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "text": "Intuit’s 19 November original fiscal Q1 FY2027 release, quarter ended 31 October: revenue US$4.4bn (+12%); GAAP operating income US$868m versus non-GAAP US$1.0bn. The agreed Mailchimp consideration is about US$3.68bn, comprising US$3.31bn cash and US$368m stock; rounding differs. Closing is expected early 2027, conditional on approvals. Proposed post-close buybacks are not executed repurchases. FY27 revenue guidance is US$23.081–23.365bn (+8–9%); the company reiterates operating-income/EPS guidance and says guidance excludes the pending disposal’s impact. Reported profit, adjustments, outlook and transaction perimeter must remain separate.",
+        "kind": "fact",
+        "source_ids": [
+          "intuit"
+        ]
+      },
+      {
+        "text": "Michigan’s current page still labels November results preliminary: sentiment 51.0 versus October 48.0; interviews 20 October–2 November. Final November release is scheduled today 10:00 EST / 23:00 SGT. No final result or unverified consensus surprise is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "text": "The Fed calendar lists Waller welcoming remarks at 08:25 EST / 21:25 SGT and Cook on the economy at 12:15 EST / 21 November 01:15 SGT. Scheduled remarks are not a new policy decision or evidence of what will be said.",
+        "kind": "fact",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "text": "UK ONS October retail volumes rose 0.7% month on month, after September was revised to −0.6% from −0.4%. Three-month volumes grew 0.4%. This is Great Britain retail goods, not household services or US spending.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      },
+      {
+        "text": "Current US cash breadth, all 11 sector aggregates, synchronized rates/FX/commodities, closing turnover and verified institutional flows remain gaps. Prior US cash retains its 19 November session date and original cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "priorus",
+          "futures"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Risk appetite is weak in the dated US futures observation and Singapore close, while country returns diverge.",
+        "transmission": "Funding conditions and customer demand may affect AI suppliers and rate-sensitive businesses; local weights and domestic demand can offset the channel.",
+        "alternatives": "Different clocks, benchmark composition and company guidance can explain dispersion without one common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      },
+      {
+        "explanation": "A software divestiture changes business perimeter as well as capital allocation.",
+        "transmission": "Sale proceeds, stock consideration and proposed buybacks affect owners only after conditions and execution; revenue guidance must be compared on a consistent perimeter.",
+        "alternatives": "Disposal does not by itself prove sector-wide AI displacement or destroy the remaining business model.",
+        "confidence": "inference",
+        "source_ids": [
+          "intuit"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms the weaker lead",
+        "outcome": "Weakness spreads across several cash-sector groups.",
+        "trigger": "Dated cash breadth and issuer evidence agree.",
+        "invalidation": "Participation improves or weakness remains isolated.",
+        "horizon": "20 November US regular session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "name": "Domestic evidence offsets the external lead",
+        "outcome": "Local participation diverges from foreign benchmarks.",
+        "trigger": "Independent local returns and demand evidence improve.",
+        "invalidation": "Apparent gains are stale, concentrated or contradicted by finals.",
+        "horizon": "20–23 November cash and issuer follow-ups",
+        "source_ids": [
+          "ons",
+          "india",
+          "sg"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US cash opens 20 November 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-20T14:30:00Z",
+        "confirms": "Verified cash breadth and several supplier groups confirm or reject the futures lead.",
+        "contradicts": "Only premarket prices or isolated stocks are available.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "Final November Michigan survey: 20 November 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-20T15:00:00Z",
+        "confirms": "Released final tables establish revisions and inflation expectations.",
+        "contradicts": "Only the preliminary survey remains; do not treat it as the final.",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "signal": "Cook speech: 20 November 12:15 EST / 21 November 01:15 SGT",
+        "due_at": "2026-11-20T17:15:00Z",
+        "confirms": "Actual published remarks provide policy/economic evidence.",
+        "contradicts": "A calendar listing alone is not a statement or rate decision.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T13:01:25Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated risk-off lead with divergent country outcomes; synchronized breadth incomplete.",
+        "indicators": "Futures, completed cash and London intraday are different observations. No complete live rates/FX/volatility/turnover panel.",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Intuit disclosed results, guidance and a conditional disposal; no US sector aggregate verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "intuit"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us communication services return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us consumer discretionary return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us consumer staples return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us energy return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us financials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us health care return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us industrials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us materials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us real estate return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November us utilities return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "europe",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-20-singapore-close",
+    "title": "Singapore close: broad declines — delayed web-only catch-up",
+    "summary": "Prepared after the 18:16 alert expired. The completed publisher account reports STI down 2.1% with broad declines; independent official final and full local-sector matching remain gaps. No Telegram catch-up is sent.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-20T13:01:25Z",
+    "updated_at": "2026-11-20T13:01:25Z",
+    "cutoff_at": "2026-11-20T13:01:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "2026 holiday/early-close calendar and 09:30–16:00 ET core session",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "futures",
+        "title": "20 November Reuters snapshot at 07:03 EST / 20:03 SGT; futures, not cash",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "intuit",
+        "title": "19 November original fiscal Q1 results, guidance and conditional Mailchimp sale",
+        "publisher": "Intuit",
+        "url": "https://investors.intuit.com/_assets/_d2e22f68d63e51dea352101f414a0724/intuit/news/2026-11-19_Intuit_Reports_First_Quarter_Results_and_Enters_1331.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "mich",
+        "title": "Preliminary November survey; final release scheduled 20 November 10:00 ET",
+        "publisher": "University of Michigan Surveys of Consumers",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "fed",
+        "title": "November official calendar; times Eastern",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "ons",
+        "title": "October retail volumes, first estimate with revisions; released 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "sg",
+        "title": "20 November completed Singapore closing report, published 18:41 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/singapore-stocks-fall-tandem-regional-downturn-sti-down-2-1",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "india",
+        "title": "20 November 16:10 IST Nifty quote and selected local sector indexes; live-blog entries retain older dates",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 068; original cutoff 08:06:13 SGT, unchanged daily key",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:58:00Z"
+      },
+      {
+        "id": "sgclock",
+        "title": "SGX hours and 20 November calendar verified in morning; reused without new source-access time",
+        "publisher": "DEDL source-linked Singapore opening report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-20-singapore-open/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T00:03:53Z"
+      },
+      {
+        "id": "invest",
+        "title": "Indexed 20 November STI row differs; public search observation, not certified final",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/indices/singapore-straits-time-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:57Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Web-only catch-up prepared after the original alert window expired. The live main at this run’s start had no matching report or durable accepted receipt for this desk/date/key. No earlier observations are invented and no expired Telegram alert is requested.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      },
+      {
+        "text": "The Business Times’ 18:41 SGT closing report gives STI 4,975.17, −104.32 points (−2.1%, rounded); 26 of 30 constituents fell, four were unchanged. Market losers/gainers were 493/163 and 1.4bn securities worth S$2.6bn traded. Benchmark and whole-market breadth are different universes; this is publisher reporting, not matched official final data.",
+        "kind": "fact",
+        "source_ids": [
+          "sg"
+        ]
+      },
+      {
+        "text": "The same report gives DBS −1.8%, OCBC −3.2% and UOB −2.0%. Their price moves do not establish a financial-sector aggregate or a change in bank earnings. An indexed Investing.com row retained a different observation; independent official final matching remains outstanding.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "invest"
+        ]
+      },
+      {
+        "text": "Normal SGX cash/Trade at Close clock and 20 November calendar were verified in this morning’s source-linked report. The 18:16 SGT alert target and its one-hour freshness guard have passed. No back-send.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclock"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Risk appetite is weak in the dated US futures observation and Singapore close, while country returns diverge.",
+        "transmission": "Funding conditions and customer demand may affect AI suppliers and rate-sensitive businesses; local weights and domestic demand can offset the channel.",
+        "alternatives": "Different clocks, benchmark composition and company guidance can explain dispersion without one common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms the weaker lead",
+        "outcome": "Weakness spreads across several cash-sector groups.",
+        "trigger": "Dated cash breadth and issuer evidence agree.",
+        "invalidation": "Participation improves or weakness remains isolated.",
+        "horizon": "20 November US regular session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "name": "Domestic evidence offsets the external lead",
+        "outcome": "Local participation diverges from foreign benchmarks.",
+        "trigger": "Independent local returns and demand evidence improve.",
+        "invalidation": "Apparent gains are stale, concentrated or contradicted by finals.",
+        "horizon": "20–23 November cash and issuer follow-ups",
+        "source_ids": [
+          "ons",
+          "india",
+          "sg"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US cash opens 20 November 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-20T14:30:00Z",
+        "confirms": "Verified cash breadth and several supplier groups confirm or reject the futures lead.",
+        "contradicts": "Only premarket prices or isolated stocks are available.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "Final November Michigan survey: 20 November 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-20T15:00:00Z",
+        "confirms": "Released final tables establish revisions and inflation expectations.",
+        "contradicts": "Only the preliminary survey remains; do not treat it as the final.",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "signal": "Cook speech: 20 November 12:15 EST / 21 November 01:15 SGT",
+        "due_at": "2026-11-20T17:15:00Z",
+        "confirms": "Actual published remarks provide policy/economic evidence.",
+        "contradicts": "A calendar listing alone is not a statement or rate decision.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T13:01:25Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX regular cash anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "sgclock"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated risk-off lead with divergent country outcomes; synchronized breadth incomplete.",
+        "indicators": "Futures, completed cash and London intraday are different observations. No complete live rates/FX/volatility/turnover panel.",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore information technology return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore communication services return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore consumer discretionary return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore consumer staples return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore energy return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "The closing publisher reports all three local banks lower; no sector aggregate established.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "sg"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore health care return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore industrials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore materials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore real estate return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November singapore utilities return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-20-asia-close",
+    "title": "Asia close: India diverges from regional weakness — delayed web-only catch-up",
+    "summary": "The 19:00 alert expired. A dated Indian publisher panel is positive while reported Japan, Korea and Singapore outcomes are sharply weaker. Country/sector universes and source discrepancies remain explicit; this is a current web catch-up, not an earlier call.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-20T13:01:25Z",
+    "updated_at": "2026-11-20T13:01:25Z",
+    "cutoff_at": "2026-11-20T13:01:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "2026 holiday/early-close calendar and 09:30–16:00 ET core session",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "futures",
+        "title": "20 November Reuters snapshot at 07:03 EST / 20:03 SGT; futures, not cash",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "intuit",
+        "title": "19 November original fiscal Q1 results, guidance and conditional Mailchimp sale",
+        "publisher": "Intuit",
+        "url": "https://investors.intuit.com/_assets/_d2e22f68d63e51dea352101f414a0724/intuit/news/2026-11-19_Intuit_Reports_First_Quarter_Results_and_Enters_1331.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "mich",
+        "title": "Preliminary November survey; final release scheduled 20 November 10:00 ET",
+        "publisher": "University of Michigan Surveys of Consumers",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "fed",
+        "title": "November official calendar; times Eastern",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "ons",
+        "title": "October retail volumes, first estimate with revisions; released 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "sg",
+        "title": "20 November completed Singapore closing report, published 18:41 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/singapore-stocks-fall-tandem-regional-downturn-sti-down-2-1",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "india",
+        "title": "20 November 16:10 IST Nifty quote and selected local sector indexes; live-blog entries retain older dates",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "nse",
+        "title": "Regular Indian equity cash ends 15:30 IST",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "nseholiday",
+        "title": "Official 2026 capital-market holiday circular; no 20 November closure",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "nsequote",
+        "title": "Official Nifty index page: current fields empty, no numeric final certified",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/index-tracker/NIFTY%2050",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 068; original cutoff 08:06:13 SGT, unchanged daily key",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:58:00Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Web-only catch-up prepared after the original alert window expired. The live main at this run’s start had no matching report or durable accepted receipt for this desk/date/key. No earlier observations are invented and no expired Telegram alert is requested.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      },
+      {
+        "text": "NSE’s normal equity cash ends 15:30 IST / 18:00 SGT. Its official 2026 capital-market circular lists no 20 November holiday. The regional closing target was 19:00 SGT; the one-hour alert window has expired. Other Asian venues have separate clocks.",
+        "kind": "fact",
+        "source_ids": [
+          "nse",
+          "nseholiday"
+        ]
+      },
+      {
+        "text": "Moneycontrol’s explicitly dated 20 November 16:10 IST panel reports Nifty 25,800.60, +286.30 (+1.12%). The official NSE index page exposes empty current fields; final exchange matching remains unavailable. Older live-blog entries on the same page are dated 19 November and are not current evidence.",
+        "kind": "fact",
+        "source_ids": [
+          "india",
+          "nsequote"
+        ]
+      },
+      {
+        "text": "The Singapore closing report describes Nikkei −5.1%, Kospi −5.2%, Hang Seng −1.9% and Malaysia KLCI −0.6%, rounded. These publisher-reported national returns differ sharply from the positive Indian observation; they do not define synchronized pan-Asia breadth. No raw index dataset is reproduced.",
+        "kind": "fact",
+        "source_ids": [
+          "sg"
+        ]
+      },
+      {
+        "text": "Selected Moneycontrol Indian sector indexes show IT +1.30%, Bank +2.49%, Auto +0.65%, Pharma +0.05% and FMCG −0.06%. These local classifications are not the 11 global sector groups or pan-Asian returns. Complete regional turnover, flows and sector-final matching remain gaps.",
+        "kind": "fact",
+        "source_ids": [
+          "india"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Risk appetite is weak in the dated US futures observation and Singapore close, while country returns diverge.",
+        "transmission": "Funding conditions and customer demand may affect AI suppliers and rate-sensitive businesses; local weights and domestic demand can offset the channel.",
+        "alternatives": "Different clocks, benchmark composition and company guidance can explain dispersion without one common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms the weaker lead",
+        "outcome": "Weakness spreads across several cash-sector groups.",
+        "trigger": "Dated cash breadth and issuer evidence agree.",
+        "invalidation": "Participation improves or weakness remains isolated.",
+        "horizon": "20 November US regular session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "name": "Domestic evidence offsets the external lead",
+        "outcome": "Local participation diverges from foreign benchmarks.",
+        "trigger": "Independent local returns and demand evidence improve.",
+        "invalidation": "Apparent gains are stale, concentrated or contradicted by finals.",
+        "horizon": "20–23 November cash and issuer follow-ups",
+        "source_ids": [
+          "ons",
+          "india",
+          "sg"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US cash opens 20 November 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-20T14:30:00Z",
+        "confirms": "Verified cash breadth and several supplier groups confirm or reject the futures lead.",
+        "contradicts": "Only premarket prices or isolated stocks are available.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "Final November Michigan survey: 20 November 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-20T15:00:00Z",
+        "confirms": "Released final tables establish revisions and inflation expectations.",
+        "contradicts": "Only the preliminary survey remains; do not treat it as the final.",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "signal": "Cook speech: 20 November 12:15 EST / 21 November 01:15 SGT",
+        "due_at": "2026-11-20T17:15:00Z",
+        "confirms": "Actual published remarks provide policy/economic evidence.",
+        "contradicts": "A calendar listing alone is not a statement or rate decision.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T13:01:25Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NSE regional closing anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "nse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated risk-off lead with divergent country outcomes; synchronized breadth incomplete.",
+        "indicators": "Futures, completed cash and London intraday are different observations. No complete live rates/FX/volatility/turnover panel.",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "India Nifty IT +1.30% in the dated publisher panel; pan-Asia aggregate unverified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November asia communication services return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "India Nifty Auto +0.65%; no comparable regional discretionary panel.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "India Nifty FMCG −0.06%; no synchronized regional staples panel.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November asia energy return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "India Nifty Bank +2.49%; not pan-Asia financial-sector breadth.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "India Nifty Pharma +0.05%; not all regional health care.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November asia industrials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November asia materials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November asia real estate return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November asia utilities return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-20-europe-open",
+    "title": "London session: retail rebound versus weaker equities — missed opening web catch-up",
+    "summary": "London’s opening window was missed. This honestly dated later-session report uses an intraday observation and released retail data; it is not an earlier pre-open alert or a certified close.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-20T13:01:25Z",
+    "updated_at": "2026-11-20T13:01:25Z",
+    "cutoff_at": "2026-11-20T13:01:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "2026 holiday/early-close calendar and 09:30–16:00 ET core session",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "futures",
+        "title": "20 November Reuters snapshot at 07:03 EST / 20:03 SGT; futures, not cash",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "intuit",
+        "title": "19 November original fiscal Q1 results, guidance and conditional Mailchimp sale",
+        "publisher": "Intuit",
+        "url": "https://investors.intuit.com/_assets/_d2e22f68d63e51dea352101f414a0724/intuit/news/2026-11-19_Intuit_Reports_First_Quarter_Results_and_Enters_1331.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "mich",
+        "title": "Preliminary November survey; final release scheduled 20 November 10:00 ET",
+        "publisher": "University of Michigan Surveys of Consumers",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "fed",
+        "title": "November official calendar; times Eastern",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "ons",
+        "title": "October retail volumes, first estimate with revisions; released 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "lse",
+        "title": "20 November regular weekday; no listed holiday/half-day exception",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "london",
+        "title": "20 November Reuters 12:05 GMT intraday observation, not cash open/final",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/uk/uk-stocks-fall-banks-energy-shares-drag-global-risk-off-mood-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "sg",
+        "title": "20 November completed Singapore closing report, published 18:41 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/singapore-stocks-fall-tandem-regional-downturn-sti-down-2-1",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "india",
+        "title": "20 November 16:10 IST Nifty quote and selected local sector indexes; live-blog entries retain older dates",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 068; original cutoff 08:06:13 SGT, unchanged daily key",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:58:00Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Web-only catch-up prepared after the original alert window expired. The live main at this run’s start had no matching report or durable accepted receipt for this desk/date/key. No earlier observations are invented and no expired Telegram alert is requested.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      },
+      {
+        "text": "LSE’s official calendar lists no 20 November closure or half-day. The 15:00 SGT pre-open target and 16:00 SGT regular opening have passed. This report is later-session context, not a reconstructed opening report or a London close.",
+        "kind": "fact",
+        "source_ids": [
+          "lse"
+        ]
+      },
+      {
+        "text": "Reuters at 12:05 GMT / 20:05 SGT reports FTSE 100 10,383.6 (−0.66%) and FTSE 250 −1.7%. These are intraday observations, not an official final, opening print or full sector panel.",
+        "kind": "fact",
+        "source_ids": [
+          "london"
+        ]
+      },
+      {
+        "text": "ONS released October retail volumes at 07:00 GMT: monthly +0.7%, with September revised to −0.6% from −0.4%; three-month +0.4% and annual +2.3%. Supermarkets reported stocking of long-life food after government advice. A temporary timing shift is a competing explanation to durable demand strength; monthly volumes are volatile.",
+        "kind": "fact",
+        "source_ids": [
+          "ons"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Risk appetite is weak in the dated US futures observation and Singapore close, while country returns diverge.",
+        "transmission": "Funding conditions and customer demand may affect AI suppliers and rate-sensitive businesses; local weights and domestic demand can offset the channel.",
+        "alternatives": "Different clocks, benchmark composition and company guidance can explain dispersion without one common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms the weaker lead",
+        "outcome": "Weakness spreads across several cash-sector groups.",
+        "trigger": "Dated cash breadth and issuer evidence agree.",
+        "invalidation": "Participation improves or weakness remains isolated.",
+        "horizon": "20 November US regular session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "name": "Domestic evidence offsets the external lead",
+        "outcome": "Local participation diverges from foreign benchmarks.",
+        "trigger": "Independent local returns and demand evidence improve.",
+        "invalidation": "Apparent gains are stale, concentrated or contradicted by finals.",
+        "horizon": "20–23 November cash and issuer follow-ups",
+        "source_ids": [
+          "ons",
+          "india",
+          "sg"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US cash opens 20 November 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-20T14:30:00Z",
+        "confirms": "Verified cash breadth and several supplier groups confirm or reject the futures lead.",
+        "contradicts": "Only premarket prices or isolated stocks are available.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "Final November Michigan survey: 20 November 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-20T15:00:00Z",
+        "confirms": "Released final tables establish revisions and inflation expectations.",
+        "contradicts": "Only the preliminary survey remains; do not treat it as the final.",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "signal": "Cook speech: 20 November 12:15 EST / 21 November 01:15 SGT",
+        "due_at": "2026-11-20T17:15:00Z",
+        "confirms": "Actual published remarks provide policy/economic evidence.",
+        "contradicts": "A calendar listing alone is not a statement or rate decision.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T13:01:25Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange regular cash anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "lse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated risk-off lead with divergent country outcomes; synchronized breadth incomplete.",
+        "indicators": "Futures, completed cash and London intraday are different observations. No complete live rates/FX/volatility/turnover panel.",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe information technology return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe communication services return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe consumer discretionary return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe consumer staples return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe energy return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe financials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe health care return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe industrials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe materials return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe real estate return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November europe utilities return or breadth verified.",
+          "implication": "Available company or country observations do not establish the whole sector return.",
+          "watchpoint": "Verify a dated same-universe cash and breadth panel before drawing a sector conclusion.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Local demand, currencies and funding may transmit a qualified lead to this desk.",
+          "trigger": "Dated local cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Local evidence diverges or only foreign price changes are available.",
+          "source_ids": [
+            "futures",
+            "sg",
+            "india"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-20-evening-global-watch",
+    "title": "Evening global watch: divergent Asia and weak US lead — delayed web-only edition",
+    "summary": "The 19:00 evening alert window has expired. This web-only watch covers all 11 sectors and four exact SEC filers, differentiating completed Asian observations, London intraday, earlier US futures and pending data. No outdated alert is sent.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore",
+      "europe",
+      "us"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-20T13:01:25Z",
+    "updated_at": "2026-11-20T13:01:25Z",
+    "cutoff_at": "2026-11-20T13:01:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "2026 holiday/early-close calendar and 09:30–16:00 ET core session",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "futures",
+        "title": "20 November Reuters snapshot at 07:03 EST / 20:03 SGT; futures, not cash",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "intuit",
+        "title": "19 November original fiscal Q1 results, guidance and conditional Mailchimp sale",
+        "publisher": "Intuit",
+        "url": "https://investors.intuit.com/_assets/_d2e22f68d63e51dea352101f414a0724/intuit/news/2026-11-19_Intuit_Reports_First_Quarter_Results_and_Enters_1331.pdf",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "mich",
+        "title": "Preliminary November survey; final release scheduled 20 November 10:00 ET",
+        "publisher": "University of Michigan Surveys of Consumers",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "fed",
+        "title": "November official calendar; times Eastern",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/2026-November.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "ons",
+        "title": "October retail volumes, first estimate with revisions; released 20 November 07:00 GMT",
+        "publisher": "ONS",
+        "url": "https://www.ons.gov.uk/businessindustryandtrade/retailindustry/bulletins/retailsales/october2026",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "sg",
+        "title": "20 November completed Singapore closing report, published 18:41 SGT",
+        "publisher": "The Business Times",
+        "url": "https://www.businesstimes.com.sg/singapore/singapore-stocks-fall-tandem-regional-downturn-sti-down-2-1",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "india",
+        "title": "20 November 16:10 IST Nifty quote and selected local sector indexes; live-blog entries retain older dates",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "nse",
+        "title": "Regular Indian equity cash ends 15:30 IST",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "nseholiday",
+        "title": "Official 2026 capital-market holiday circular; no 20 November closure",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "nsequote",
+        "title": "Official Nifty index page: current fields empty, no numeric final certified",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/index-tracker/NIFTY%2050",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 068; original cutoff 08:06:13 SGT, unchanged daily key",
+        "publisher": "DEDL source-linked edition",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T12:58:00Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Altimeter Capital Management, LP exact SEC submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Himalaya Capital Management LLC exact SEC submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-20T12:57:57Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "TCI Fund Management Ltd exact SEC submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-20T12:57:58Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Valley Forge Capital Management, LP exact SEC submission index",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-20T12:57:57Z"
+      },
+      {
+        "id": "london",
+        "title": "20 November Reuters 12:05 GMT intraday observation, not cash open/final",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/uk/uk-stocks-fall-banks-energy-shares-drag-global-risk-off-mood-2026-11-20/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T13:01:25Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The 19:00 SGT evening edition was not present on live main at this run’s start; no exact durable accepted receipt was found. This later web publication does not restore the missed alert or claim earlier observation.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      },
+      {
+        "text": "Dated Asian national returns diverge; the full evidence and discrepancies are in the new Asia and Singapore web catch-ups. London remains intraday, and the US cash session has not opened. A single global sector return cannot be inferred from these unlike observations.",
+        "kind": "fact",
+        "source_ids": [
+          "sg",
+          "india",
+          "london",
+          "nyse"
+        ]
+      },
+      {
+        "text": "This week’s dated catalysts: NVIDIA fiscal Q3 release on 17 November; Intuit results and conditional disposal on 19 November; Japan national October CPI and UK retail volumes on 20 November. Morning CPI and NVIDIA evidence retains its original cutoff. US Michigan final and Fed remarks remain upcoming at this report’s cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "morning",
+          "intuit",
+          "ons",
+          "mich",
+          "fed"
+        ]
+      },
+      {
+        "text": "Five independent lenses — US, Singapore, global ex-US/ex-Singapore, direct REIT and funds/ETFs — remain DATA INCOMPLETE: full current issuer, valuation, technical and risk inputs are not available. Alternative research is not a screen pass, position action or target range.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Risk appetite is weak in the dated US futures observation and Singapore close, while country returns diverge.",
+        "transmission": "Funding conditions and customer demand may affect AI suppliers and rate-sensitive businesses; local weights and domestic demand can offset the channel.",
+        "alternatives": "Different clocks, benchmark composition and company guidance can explain dispersion without one common cause.",
+        "confidence": "inference",
+        "source_ids": [
+          "futures",
+          "sg",
+          "india"
+        ]
+      },
+      {
+        "explanation": "A software divestiture changes business perimeter as well as capital allocation.",
+        "transmission": "Sale proceeds, stock consideration and proposed buybacks affect owners only after conditions and execution; revenue guidance must be compared on a consistent perimeter.",
+        "alternatives": "Disposal does not by itself prove sector-wide AI displacement or destroy the remaining business model.",
+        "confidence": "inference",
+        "source_ids": [
+          "intuit"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Breadth confirms the weaker lead",
+        "outcome": "Weakness spreads across several cash-sector groups.",
+        "trigger": "Dated cash breadth and issuer evidence agree.",
+        "invalidation": "Participation improves or weakness remains isolated.",
+        "horizon": "20 November US regular session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "name": "Domestic evidence offsets the external lead",
+        "outcome": "Local participation diverges from foreign benchmarks.",
+        "trigger": "Independent local returns and demand evidence improve.",
+        "invalidation": "Apparent gains are stale, concentrated or contradicted by finals.",
+        "horizon": "20–23 November cash and issuer follow-ups",
+        "source_ids": [
+          "ons",
+          "india",
+          "sg"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "US cash opens 20 November 09:30 EST / 22:30 SGT",
+        "due_at": "2026-11-20T14:30:00Z",
+        "confirms": "Verified cash breadth and several supplier groups confirm or reject the futures lead.",
+        "contradicts": "Only premarket prices or isolated stocks are available.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "Final November Michigan survey: 20 November 10:00 EST / 23:00 SGT",
+        "due_at": "2026-11-20T15:00:00Z",
+        "confirms": "Released final tables establish revisions and inflation expectations.",
+        "contradicts": "Only the preliminary survey remains; do not treat it as the final.",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "signal": "Cook speech: 20 November 12:15 EST / 21 November 01:15 SGT",
+        "due_at": "2026-11-20T17:15:00Z",
+        "confirms": "Actual published remarks provide policy/economic evidence.",
+        "contradicts": "A calendar listing alone is not a statement or rate decision.",
+        "source_ids": [
+          "fed"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T13:01:25Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-20",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "India Nifty IT +1.30% in the dated publisher panel; pan-Asia aggregate unverified.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November global communication services return or breadth verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "India Nifty Auto +0.65%; no comparable regional discretionary panel.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "India Nifty FMCG −0.06%; no synchronized regional staples panel.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November global energy return or breadth verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "India Nifty Bank +2.49%; not pan-Asia financial-sector breadth.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "India Nifty Pharma +0.05%; not all regional health care.",
+          "source_ids": [
+            "india"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November global industrials return or breadth verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November global materials return or breadth verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November global real estate return or breadth verified.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized 20 November global utilities return or breadth verified.",
+          "source_ids": []
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP: exact identity/index checked 2026-11-20T12:57:58Z. Latest original 13F-HR period 2026-09-30, filed 2026-11-16, accession 0001541617-26-000010; unchanged from morning. Altimeter’s separate Schedule 13G/A remains a different filing. No new 13F in the retrieved index does not prove no trading. Disclosure-index check, holdings comparison and investor-library archive work remain separate; no fresh line-item comparison claimed.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC: exact identity/index checked 2026-11-20T12:57:57Z. Latest original 13F-HR period 2026-09-30, filed 2026-11-16, accession 0002043585-26-000030; unchanged from morning. No new 13F in the retrieved index does not prove no trading. Disclosure-index check, holdings comparison and investor-library archive work remain separate; no fresh line-item comparison claimed.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd: exact identity/index checked 2026-11-20T12:57:58Z. Latest original 13F-HR period 2026-09-30, filed 2026-11-16, accession 0001647251-26-000011; unchanged from morning. No new 13F in the retrieved index does not prove no trading. Disclosure-index check, holdings comparison and investor-library archive work remain separate; no fresh line-item comparison claimed.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP: exact identity/index checked 2026-11-20T12:57:57Z. Latest original 13F-HR period 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007; unchanged from morning. No new 13F in the retrieved index does not prove no trading. Disclosure-index check, holdings comparison and investor-library archive work remain separate; no fresh line-item comparison claimed.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
   }
 ]
