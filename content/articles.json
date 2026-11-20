@@ -47754,5 +47754,441 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-20-singapore-open",
+    "title": "Singapore pre-open: test the weak US lead against local breadth and Japan data",
+    "summary": "SGX cash begins at 09:00 SGT. Japan CPI is released; current Singapore prices remain unavailable. The normal opening context is carried by the daily digest.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-20T00:03:53Z",
+    "updated_at": "2026-11-20T00:03:53Z",
+    "cutoff_at": "2026-11-20T00:03:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgclock",
+        "title": "SGX normal cash 09:00; Trade at Close ends 17:16",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-20T00:03:53Z"
+      },
+      {
+        "id": "holiday",
+        "title": "2026 public holidays; no 20 November holiday",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/employment-practices/public-holidays",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T00:03:53Z"
+      },
+      {
+        "id": "cpi",
+        "title": "October 2026 national CPI, original Japanese release, 2025 base",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-20T00:03:53Z"
+      },
+      {
+        "id": "2026-11-19-us-close",
+        "title": "Previously published report; evidence cutoff 2026-11-19T22:04:23Z",
+        "publisher": "DEDL source-linked report",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-19-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-19T22:04:23Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX’s normal cash session starts 09:00 SGT; regular Trade at Close ends 17:16. The 2026 public holiday list has no 20 November closure; the live SGX trading page exposed a browser-warning shell, so no current price or halt panel is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclock",
+          "holiday"
+        ]
+      },
+      {
+        "text": "Official October Japan CPI is 2.3% year on year overall, 2.2% excluding fresh food and 2.2% excluding fresh food and energy, on the 2025 base. This is newly released national data, not Tokyo preliminary CPI.",
+        "kind": "fact",
+        "source_ids": [
+          "cpi"
+        ]
+      },
+      {
+        "text": "The completed US close remains dated context, not a Singapore opening print. Current Singapore breadth, volume, FX/volatility and all 11 local sector observations remain incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "2026-11-19-us-close"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A weaker external lead meets a fresh Japanese inflation release.",
+        "transmission": "Singapore bank funding, exporters and rate-sensitive assets may react differently; actual local breadth and exposures must confirm the channel.",
+        "alternatives": "Local earnings, index weights and currencies may offset the foreign lead. A higher headline CPI does not prove uniform underlying acceleration.",
+        "confidence": "inference",
+        "source_ids": [
+          "cpi",
+          "2026-11-19-us-close"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Local breadth confirms external weakness",
+        "outcome": "Weakness appears across several domestic groups.",
+        "trigger": "Verified cash breadth and bank, industrial and REIT participation agree.",
+        "invalidation": "Local breadth improves or only a few foreign-sensitive names decline.",
+        "horizon": "20 November Singapore cash session",
+        "source_ids": [
+          "sgclock",
+          "2026-11-19-us-close"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "20 November Singapore regular cash opening",
+        "due_at": "2026-11-20T01:00:00Z",
+        "confirms": "Reliable local cash and breadth establish the actual opening response.",
+        "contradicts": "No synchronized reliable panel; retain incomplete status.",
+        "source_ids": [
+          "sgclock"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T00:03:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-20",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange — regular cash anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "sgclock",
+            "holiday"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Weak prior US lead; Singapore cash not yet observed.",
+        "indicators": "No current local breadth, turnover or executable FX panel.",
+        "source_ids": [
+          "2026-11-19-us-close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore information technology cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check memory, foundry/packaging, equipment and networking breadth against shipment evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore communication services cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare platforms, media and telecom participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore consumer discretionary cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare autos, retailers and travel with local demand evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore consumer staples cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check participation across several defensive names.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore energy cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare producers and refiners against dated crude and currency marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore financials cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare banks and insurers with local curves and credit evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore health care cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check providers and pharma separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore industrials cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare equipment, transport and aerospace participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore materials cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare miners and chemicals against dated metals and currencies.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore real estate cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check property/REIT breadth, occupancy and funding terms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 20 November Singapore utilities cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check contracted power demand and commissioned projects, not proposed capacity.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Verified Singapore participation could qualify the external lead; no cross-market causation assumed.",
+          "trigger": "Dated cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Domestic evidence diverges or only foreign prices are available.",
+          "source_ids": [
+            "2026-11-19-us-close"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Verified Singapore participation could qualify the external lead; no cross-market causation assumed.",
+          "trigger": "Dated cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Domestic evidence diverges or only foreign prices are available.",
+          "source_ids": [
+            "2026-11-19-us-close"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Verified Singapore participation could qualify the external lead; no cross-market causation assumed.",
+          "trigger": "Dated cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Domestic evidence diverges or only foreign prices are available.",
+          "source_ids": [
+            "2026-11-19-us-close"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-20-cidex-agentic-defence-exercise",
+    "title": "CIDeX tests agentic cyber defence: exercise evidence, not an incident",
+    "summary": "A new official exercise report supports the Friday strategic review; operational effectiveness remains unmeasured here.",
+    "channel": "military",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "short",
+    "published_at": "2026-11-20T00:03:53Z",
+    "updated_at": "2026-11-20T00:03:53Z",
+    "cutoff_at": "2026-11-20T00:03:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "mil",
+        "title": "CIDeX release 19 November; exercise 17–20 November",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/19nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T00:03:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MINDEF’s 19 November release says CIDeX runs 17–20 November in Singapore, with over 250 participants from DIS, CSA and 44 other organisations. It describes simulated AI-agent attacks, an agentic defensive-team trial and new aviation and healthcare testbeds. Exercise dates differ from the announcement date; these are simulations, not confirmed attacks on live services.",
+        "kind": "fact",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The official release describes a training and experimentation programme.",
+        "transmission": "Direct Singapore relevance is inter-agency learning for critical infrastructure. Regional shipping, energy, aviation and finance effects would require evidence of real service disruption or measurable resilience gains.",
+        "alternatives": "Exercise participation and a successful demonstration do not establish deployed autonomous defence, independent effectiveness or a causal link to recent outages.",
+        "confidence": "inference",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Trial yields measurable improvement",
+        "outcome": "Later independent or operator evidence supports a narrower resilience claim.",
+        "trigger": "A dated evaluation measures response quality and continuity.",
+        "invalidation": "Only demonstrations or partnership announcements are available.",
+        "horizon": "After the exercise ends 20 November; next Monday review 23 November",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23 November scheduled strategic review: seek public outcome evaluation",
+        "due_at": "2026-11-23T00:00:00Z",
+        "confirms": "Measured outcomes distinguish testbed performance from production resilience.",
+        "contradicts": "No public evaluation exists; retain the evidence gap.",
+        "source_ids": [
+          "mil"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-20T00:03:53Z"
+    },
+    "material_reason": "New dated public evidence relevant to Singapore and regional infrastructure."
+  },
+  {
+    "id": "2026-11-20-financial-vendor-cyber-disclosures",
+    "title": "Financial vendor disclosures: separate data exposure from payment outages",
+    "summary": "Company accounts reported by Reuters require careful scope and incident separation.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-20T00:03:53Z",
+    "updated_at": "2026-11-20T00:03:53Z",
+    "cutoff_at": "2026-11-20T00:03:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "cy",
+        "title": "Company statements reported 19 November; direct company notices not obtained",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/",
+        "type": "secondary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-20T00:03:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters on 19 November quotes JPMorgan on vendor marketing-data exposure and no connection to its earlier disruption. Visa says its systems and payments data were unaffected; Mastercard describes limited non-payment email exposure with no network impact. Direct notices and a confirmed Singapore victim were not obtained.",
+        "kind": "fact",
+        "source_ids": [
+          "cy"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Service-provider data handling can transmit risk across institutions.",
+        "transmission": "Potential Singapore relevance is targeted phishing or partner remediation if affected records and local exposure are confirmed. No leaked records are collected or linked.",
+        "alternatives": "Actor claims and unverified posted files do not establish scope, attribution, card compromise or common causation across outages.",
+        "confidence": "inference",
+        "source_ids": [
+          "cy"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Targeted local exposure is confirmed",
+        "outcome": "Relevant institutions provide specific notification and remediation.",
+        "trigger": "Original operator or regulator notices identify affected services or customers.",
+        "invalidation": "No local exposure is established, or a notice narrows the scope.",
+        "horizon": "20 November follow-up; do not infer a payment interruption",
+        "source_ids": [
+          "cy"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "20 November evening: original company/regulator notices and operational impact",
+        "due_at": "2026-11-20T11:00:00Z",
+        "confirms": "Direct notices establish precise scope and dates.",
+        "contradicts": "Only repeated syndicated claims appear; keep direct-source gap.",
+        "source_ids": [
+          "cy"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-20T00:03:53Z"
+    },
+    "material_reason": "New dated public evidence relevant to Singapore and regional infrastructure."
   }
 ]

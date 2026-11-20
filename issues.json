@@ -2,8 +2,47 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-19",
+  "latest": "2026-11-20",
   "issues": [
+    {
+      "date": "2026-11-20",
+      "number": 68,
+      "title": "Weak US breadth, Japan CPI and financial vendor risk",
+      "status": "DATA INCOMPLETE · delayed morning edition",
+      "path": "issues/2026/11/20/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-20-v1",
+        "summary": "Delayed morning edition: US stocks fell broadly. Japan CPI is released, with mixed underlying signals. New vendor disclosures need scope checks; Singapore tests agentic cyber defence. Tokyo cash has begun; SGX opens 09:00 SGT. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "Japan CPI: composition qualifies acceleration",
+            "date": "20 Nov · October data",
+            "context": "Official headline inflation is 2.3%; excluding fresh food and energy is 2.2%, below September’s 2.4%. Different measures can tell different stories.",
+            "source": "https://www.stat.go.jp/data/cpi/sokuhou/tsuki/pdf/zenkoku.pdf"
+          },
+          {
+            "title": "Financial vendor disclosures: verify scope",
+            "date": "19 Nov",
+            "context": "Separate company reporting, actor claims and real service impact. Original notices and confirmed Singapore exposure remain gaps; follow the sourced report.",
+            "source": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/"
+          },
+          {
+            "title": "CIDeX: testbed trial, not a live attack",
+            "date": "17–20 Nov · report 19 Nov",
+            "context": "Singapore’s exercise tests agentic defence. Demonstration and participation do not establish production effectiveness or explain unrelated outages.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/19nov26-nr/"
+          }
+        ],
+        "market_note": "19 Nov US cash: S&P 7,175.83 (−2.0%); Nasdaq 23,879.20 (−2.3%); Dow 49,097.06 (−2.2%). Prior vendor STI 5,079.49 (+0.49%); independent final/current SGX panel unverified. UK retail sales due today 15:00 SGT."
+      }
+    },
     {
       "date": "2026-11-19",
       "number": 67,

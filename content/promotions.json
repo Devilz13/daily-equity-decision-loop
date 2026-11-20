@@ -91,8 +91,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-03T00:18:03Z",
-      "review_due_at": "2026-11-04T00:18:03Z",
+      "verified_at": "2026-11-20T00:05:33Z",
+      "review_due_at": "2026-11-21T00:05:33Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -118,17 +118,21 @@
         {
           "at": "2026-11-03T00:18:03Z",
           "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
+        },
+        {
+          "at": "2026-11-20T00:05:33Z",
+          "change": "20 November: full original product/welcome PDF and fee schedule reviewed, including rendered annual-fee table. Direct channels, 12-month lookback/retention, 30-day approval, 60-day/Day-1 spend, one gift, reversals and exclusions verified. 365 November–December gift S$365, NXT S$300; INFINITY 1.6% base +14.4% bonus on first S$2,000, bonus cap S$288, no minimum. Card fees differ; no eligibility recommendation."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
-      "name": "OCBC 365 / NXT: S$300 welcome cashback",
+      "name": "OCBC 365 / NXT: S$365 / S$300 welcome cashback",
       "category": "Card sign-up",
       "cards": [
         "OCBC 365",
         "OCBC NXT"
       ],
       "apps": [],
-      "benefit": "S$300 cashback after S$800 qualifying spend within 60 days of approval (approval date is Day 1). Apply by 31 December 2026.",
+      "benefit": "For applications 1 November–31 December 2026: OCBC 365 welcome cashback S$365; NXT remains S$300. S$800 qualifying spend within 60 days from approval, approval date Day 1. October 365 applications had S$300; distinct dates must not be combined.",
       "eligibility": "New principal cardmembers with no OCBC credit card held in the previous 12 months. Apply directly via OCBC website, app or branch; approval within 30 days. Third-party applications excluded. One welcome gift; keep the card 12 months to avoid clawback. Insurance, wallet top-ups, fees and specified MCCs excluded; full terms control.",
       "source_url": "https://www.ocbc.com/personal-banking/cards/365-cashback-credit-card",
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-ocbc-cc-welcome-gift-promotion-oct-2026.pdf",
@@ -136,8 +140,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-03T00:18:03Z",
-      "review_due_at": "2026-11-04T00:18:03Z",
+      "verified_at": "2026-11-20T00:05:33Z",
+      "review_due_at": "2026-11-21T00:05:33Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -163,6 +167,10 @@
         {
           "at": "2026-11-03T00:18:03Z",
           "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
+        },
+        {
+          "at": "2026-11-20T00:05:33Z",
+          "change": "20 November: full original product/welcome PDF and fee schedule reviewed, including rendered annual-fee table. Direct channels, 12-month lookback/retention, 30-day approval, 60-day/Day-1 spend, one gift, reversals and exclusions verified. 365 November–December gift S$365, NXT S$300; INFINITY 1.6% base +14.4% bonus on first S$2,000, bonus cap S$288, no minimum. Card fees differ; no eligibility recommendation."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -216,8 +224,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-09T16:01:06Z",
-      "review_due_at": "2026-11-10T16:01:06Z",
+      "verified_at": "2026-11-20T00:03:53Z",
+      "review_due_at": "2026-11-21T00:03:53Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -243,6 +251,10 @@
         {
           "at": "2026-11-09T16:01:06Z",
           "change": "Reverified the issuer product page and current linked PDF. Clause 1 lists the rates, eligible markets and extension to 31 December 2027; the promotional cashback is a statement offset and not cash withdrawal. Clauses 3.1–3.2 use a narrower cross-reference to clause 1(a); verify unusual transactions with the issuer."
+        },
+        {
+          "at": "2026-11-20T00:03:53Z",
+          "change": "20 November: original product and full governing PDF compared. Eligibility, statement-month S$800, 10% categories/S$20+30+30 caps, 0.3% fallback, no annual fee from 1 July, FX administrative-fee waiver and retained 1% overseas-SGD processing fee checked as applicable. Separate FX promotion retains country/start-date differences, 31 December 2027 end, no min/cap, next-statement offset, exclusions and clause 1 versus 3.1 cross-reference caveat. No eligibility recommendation."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -297,8 +309,8 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-11-03T00:18:03Z",
-      "review_due_at": "2026-11-04T00:18:03Z",
+      "verified_at": "2026-11-20T00:03:53Z",
+      "review_due_at": "2026-11-21T00:03:53Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -316,6 +328,10 @@
         {
           "at": "2026-11-03T00:18:03Z",
           "change": "Original public product/terms checked 3 November. No observed text change in the reviewed terms. Eligibility, dates, caps, fees and exclusions retained. Expired October DBS record stays historical; the shared mutable URL now supplies the distinct November offer, not a renewed October application period."
+        },
+        {
+          "at": "2026-11-20T00:03:53Z",
+          "change": "20 November: original product and full governing PDF compared. Eligibility, statement-month S$800, 10% categories/S$20+30+30 caps, 0.3% fallback, no annual fee from 1 July, FX administrative-fee waiver and retained 1% overseas-SGD processing fee checked as applicable. Separate FX promotion retains country/start-date differences, 31 December 2027 end, no min/cap, next-statement offset, exclusions and clause 1 versus 3.1 cross-reference caveat. No eligibility recommendation."
         }
       ],
       "id": "uob-evol",
