@@ -50980,5 +50980,188 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-21-php-maintenance-security-update",
+    "title": "CSA issues new PHP alert; match the supported branch",
+    "summary": "CSA’s 20 November warning is corroborated by vendor security fixes. Match the deployed branch and test service continuity; this does not establish a Singapore compromise or explain unrelated outages.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-21T00:06:23Z",
+    "updated_at": "2026-11-21T00:06:23Z",
+    "cutoff_at": "2026-11-21T00:06:23Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "csa",
+        "title": "20 November PHP alert and affected maintenance branches",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-167/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T00:06:23Z"
+      },
+      {
+        "id": "php",
+        "title": "Vendor changelog: maintenance security fixes",
+        "publisher": "The PHP Group",
+        "url": "https://www.php.net/ChangeLog-8.php",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-21T00:06:23Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA’s 20 November alert lists critical PHP vulnerabilities and advises immediate updates. It identifies affected releases before 8.2.36, 8.3.37, 8.4.28 and 8.5.13 on the corresponding branches. Vendor records corroborate security fixes including session handling and use-after-free issues. Consult the complete applicability records; no exploit steps or blanket migration to a new major release are implied.",
+        "kind": "fact",
+        "source_ids": [
+          "csa",
+          "php"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Vulnerable web infrastructure can create service and data exposure.",
+        "transmission": "Singapore operators and suppliers should inventory deployed versions, apply vendor-supported fixes and verify application health.",
+        "confidence": "inference",
+        "alternatives": "A fixed or unaffected deployment may not share the risk; a vulnerability announcement does not prove an incident or a common cause for outages.",
+        "source_ids": [
+          "csa",
+          "php"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Affected deployment found",
+        "outcome": "Patch and operational validation receive priority.",
+        "trigger": "Inventory matches a vulnerable vendor-supported branch.",
+        "invalidation": "Installed release is fixed or applicability is ruled out.",
+        "horizon": "Next operator maintenance and incident review",
+        "source_ids": [
+          "csa",
+          "php"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Next daily source and operator-notice review, 22 November 08:00 SGT",
+        "due_at": "2026-11-22T00:00:00Z",
+        "confirms": "Vendor clarification or an original operator notice establishes changed applicability or real impact.",
+        "contradicts": "Only recycled warnings or uncorroborated incident claims appear.",
+        "source_ids": [
+          "csa",
+          "php"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-21T00:06:23Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-21-poland-airspace-incident",
+    "title": "Poland reports airspace incursions; intent and wider effects need evidence",
+    "summary": "Polish officials describe a 20 November airspace incident. Intent remains attributed; direct Singapore and Asian disruption is not established in this review.",
+    "channel": "conflict",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-21T00:06:23Z",
+    "updated_at": "2026-11-21T00:06:23Z",
+    "cutoff_at": "2026-11-21T00:06:23Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "pol",
+        "title": "20 November reported airspace incident; original official statements not retrieved",
+        "publisher": "Reuters via The Moscow Times",
+        "url": "https://www.themoscowtimes.com/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations-a94331",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T00:06:23Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Reuters reports Polish officials describing airspace incursions on 20 November and calling them deliberate provocation. Intent remains their assessment. A NATO secretary-general visit was reported for 21 November; its outcome is not yet established here. Original official statements were not retrieved; syndicated copies are one evidence chain.",
+        "kind": "allegation",
+        "source_ids": [
+          "pol"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "An unresolved border incident may affect security risk perceptions.",
+        "transmission": "Potential Asian channels are aviation routing, insurance, energy, logistics and market risk premia, conditional on actual notices and prices. No direct Singapore disruption is established here.",
+        "confidence": "uncertain",
+        "alternatives": "Misnavigation, debris or limited spillover may differ from deliberate escalation; political attribution does not settle technical intent.",
+        "source_ids": [
+          "pol"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Incident remains contained",
+        "outcome": "Investigation and diplomacy proceed without a verified broader disruption.",
+        "trigger": "Original findings and transport notices show contained effects.",
+        "invalidation": "Confirmed further incursions or official restrictions establish wider effects.",
+        "horizon": "21–22 November official statements and next daily review",
+        "source_ids": [
+          "pol"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "21 November reported diplomatic visit: review actual official outcome, not the planned event alone",
+        "due_at": "2026-11-21T11:00:00Z",
+        "confirms": "Published official statements clarify findings and any implemented measures.",
+        "contradicts": "Only planned meetings or repeated attribution remain; this is a review time, not an asserted meeting hour.",
+        "source_ids": [
+          "pol"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-21T00:06:23Z"
+    },
+    "material_reason": "A reported incursion involving a NATO member warrants a strategic security review; no wider-war conclusion follows from this report alone."
   }
 ]

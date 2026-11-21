@@ -2,8 +2,47 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-20",
+  "latest": "2026-11-21",
   "issues": [
+    {
+      "date": "2026-11-21",
+      "number": 69,
+      "title": "AI selloff, PHP patch urgency and Poland’s reported incursions",
+      "status": "DATA INCOMPLETE · delayed morning edition",
+      "path": "issues/2026/11/21/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-21-v1",
+        "summary": "Delayed Saturday edition: US stocks fell sharply; new PHP fixes need operator attention. Poland reports airspace incursions, with intent and wider effects unresolved. Weekend context for Singapore and Asia; no new cash opening is asserted. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "AI financing and disclosure risk",
+            "date": "20 Nov · completed US session",
+            "context": "New NVIDIA inquiry reporting is an allegation, not proof of wrongdoing. Test revenue quality, financing exposure and actual cash conversion.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-20-us-close/"
+          },
+          {
+            "title": "PHP: match the supported branch",
+            "date": "CSA alert · 20 Nov",
+            "context": "CSA and vendor records support urgent applicable fixes. A vulnerability warning does not establish an attack or explain unrelated outages.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-167/"
+          },
+          {
+            "title": "Poland: reported incident, unresolved intent",
+            "date": "Event/report · 20 Nov",
+            "context": "Polish officials report airspace incursions. Their attribution of deliberate provocation remains an assessment; wider effects need evidence.",
+            "source": "https://www.themoscowtimes.com/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations-a94331"
+          }
+        ],
+        "market_note": "20 Nov US reported closes: S&P 6,910.39 (−3.7%); Nasdaq 22,617.73 (−5.3%); Dow 48,147.33 (−1.9%). Sector estimates retain their 16:10 EST clock. ECB reference fix is dated 20 Nov; no live weekend FX, SGX or Asian opening quote is claimed."
+      }
+    },
     {
       "date": "2026-11-20",
       "number": 68,
