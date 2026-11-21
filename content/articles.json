@@ -51163,5 +51163,500 @@
       "reviewed_at": "2026-11-21T00:06:23Z"
     },
     "material_reason": "A reported incursion involving a NATO member warrants a strategic security review; no wider-war conclusion follows from this report alone."
+  },
+  {
+    "id": "2026-11-21-evening-global-watch",
+    "title": "Evening global watch: dated US weakness, disclosure tests and holiday-week catalysts",
+    "summary": "Weekend watch: later US sector figures remain weak, with provider-method caveats. Four exact SEC filer indexes show no newer 13F. Test AI disclosure risk against operating cash and Wednesday’s BEA releases. Japan’s Monday closure and US Thanksgiving/half-day require separate clocks; no weekend cash session is invented.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore",
+      "europe",
+      "us"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-21T11:00:12Z",
+    "updated_at": "2026-11-21T11:00:12Z",
+    "cutoff_at": "2026-11-21T10:58:43Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ap",
+        "title": "20 November completed US cash figures; original HTML rechecked",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/c10b797a17c2acf37924d834efebe135",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T10:57:57Z"
+      },
+      {
+        "id": "sector",
+        "title": "Later 20 November provider closing table; public web retrieval preceded separate direct HTTP 403",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "mich",
+        "title": "Final November consumer survey; original refreshed",
+        "publisher": "University of Michigan",
+        "url": "https://www.sca.isr.umich.edu/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "bea",
+        "title": "Release-schedule snapshot; page modified 20 November",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official holiday and regular/half-day hours, checked 21 November",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Saturday closure and 23 November cash-market holiday, checked 21 November",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "nse",
+        "title": "Regular normal/odd-lot cash hours; not a current price panel",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "nseholiday",
+        "title": "Official calendar page snapshot; dynamic fields limit exception verification",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.in/resources/exchange-communication-holidays",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "lse",
+        "title": "Weekday operation and published holiday exceptions, checked 21 November",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-21T10:58:18Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue 069; exact live key rechecked, original 08:06 cutoff preserved",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/21/",
+        "type": "secondary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-21T10:57:53Z"
+      },
+      {
+        "id": "usclose",
+        "title": "Prior US closing report; original cutoff 20 November 22:08:14 UTC retained",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-20-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T10:57:54Z"
+      },
+      {
+        "id": "pol",
+        "title": "20 November reported airspace incident; original official statements not retrieved",
+        "publisher": "Reuters via The Moscow Times",
+        "url": "https://www.themoscowtimes.com/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations-a94331",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T00:06:23Z"
+      },
+      {
+        "id": "csa",
+        "title": "20 November PHP alert and affected maintenance branches",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-167/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T00:06:23Z"
+      },
+      {
+        "id": "php",
+        "title": "Vendor changelog: maintenance security fixes",
+        "publisher": "The PHP Group",
+        "url": "https://www.php.net/ChangeLog-8.php",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-21T00:06:23Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Exact current filer submission index; identity and latest 13F checked",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-21T10:57:21Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Exact current filer submission index; identity and latest 13F checked",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-21T10:57:21Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "Exact current filer submission index; identity and latest 13F checked",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-21T10:57:22Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Exact current filer submission index; identity and latest 13F checked",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-21T10:57:21Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Saturday weekend edition, evidence through 21 November 18:58:43 SGT. This is the distinct 19:00 global watch, not a second morning digest or a live cash close. JPX expressly closes on Saturdays/Sundays; London operates on weekdays. Normal Singapore/Asia weekend session alerts are not requested; the NSE page supplies regular cash hours but its dynamic exception calendar is not fully exposed. No unscheduled open or Saturday cash print is asserted. London GMT and New York EST are checked independently. Sunday’s full seven-day calendar review remains due.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "lse",
+          "nse",
+          "nseholiday",
+          "nyse"
+        ]
+      },
+      {
+        "text": "Rechecked AP completed 20 November US figures: S&P 500 6,910.39 (−3.7%), Dow 48,147.33 (−1.9%), Nasdaq 22,617.73 (−5.3%), Russell 2000 2,581.79 (−2.8%). These are publisher-reported closes, not newly traded Saturday prices or independently certified exchange finals.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Later provider snapshot: 496 constituents, 122 rising and 371 falling, one sector positive. Its 20 November closing table differs from the earlier 16:10 EST estimates retained in the morning and US report. The provider labels the table a close but expressly disclaims official index data. Full-market-value weights, price-only returns and 30 June holdings differ from index/ETF methods. These are US observations, not a global sector panel. Separate direct retrieval returned 403 after the public web read; no retry or alternate access followed.",
+        "kind": "fact",
+        "source_ids": [
+          "sector",
+          "usclose"
+        ]
+      },
+      {
+        "text": "Final Michigan sentiment remains 51.5 versus October 48.0. Interviews ended 16 November, before Friday’s completed selloff; improved expectations do not establish realized spending or a post-selloff response.",
+        "kind": "fact",
+        "source_ids": [
+          "mich"
+        ]
+      },
+      {
+        "text": "New BEA calendar checkpoint: 25 November 08:30 EST / 21:30 SGT lists Q3 GDP second estimate/corporate profits and October personal income/outlays. Scheduled data are not published outcomes. NYSE lists Thanksgiving closure on 26 November and 13:00 EST cash close on 27 November (28 November 02:00 SGT). JPX lists 23 November Labor Thanksgiving Day closure. Other regional exceptions still require Sunday’s desk-by-desk check.",
+        "kind": "fact",
+        "source_ids": [
+          "bea",
+          "nyse",
+          "jpx"
+        ]
+      },
+      {
+        "text": "AI disclosure risk remains the dated anonymous-source NVIDIA reporting in the prior US report; no new primary regulatory outcome, restatement or proven wrongdoing is established here. Deliveries, acceptance, financing commitments and collected cash remain different tests. Quantified HBM, packaging, racks, networking, energized power and cooling follow-through remain incomplete; no beneficiary or screen pass is invented.",
+        "kind": "fact",
+        "source_ids": [
+          "usclose",
+          "morning"
+        ]
+      },
+      {
+        "text": "Poland’s 20 November airspace incident and intent assessment retain their attributed morning source chain and original access time. A reported diplomatic visit is not a verified result. No new primary investigation outcome or direct Singapore/Asia aviation, shipping or energy disruption is established in this review. Contained spillover or error remain alternatives to deliberate escalation; original findings and implemented notices are the next evidence. No tactical detail is published.",
+        "kind": "fact",
+        "source_ids": [
+          "pol"
+        ]
+      },
+      {
+        "text": "Cybersecurity retains the morning CSA/PHP fixes with their original source clocks; no new victim or unrelated-outage cause is inferred. Military Saturday routine review is not due; Parliament’s optional Saturday agenda remains unavailable, not a claim of no business. Completed card reviews and remaining product/bonus-term access gaps are recorded in the later public handoff; earlier-cutoff Issue 069 is unchanged.",
+        "kind": "fact",
+        "source_ids": [
+          "csa",
+          "php",
+          "morning"
+        ]
+      },
+      {
+        "text": "Five independent lanes remain DATA INCOMPLETE / research-watch: US, Singapore, global ex-US/ex-Singapore, direct REITs and funds/ETFs. Missing current valuation, technical, debt/cash-flow, share-class/fee and risk inputs prevent screen or portfolio actions. Owner-only completed-week work remains private; public award status is checked-incomplete, not a qualified lead or screen pass. No new weekly scan, private debate, holdings, target range or trade appears here.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Weak US technology and broad constituent participation are consistent with a repricing of AI financing and disclosure risk.",
+        "transmission": "Valuation and funding costs can reach Asian hardware suppliers, Singapore banks/REITs and European industrial firms only through evidenced customer or financing exposure.",
+        "alternatives": "Index concentration, positioning, rates or product mix can explain price changes without proving weaker orders or misstated revenue. A provider snapshot is not a causal estimate.",
+        "confidence": "inference",
+        "source_ids": [
+          "sector",
+          "usclose"
+        ]
+      },
+      {
+        "explanation": "The coming BEA releases can distinguish financial-market stress from realized household and business activity.",
+        "transmission": "Comparable real spending, inflation and profits can alter discount rates and demand assumptions across currencies and sectors.",
+        "alternatives": "Revisions, nominal versus real measures and different reference periods may produce conflicting signals; one release cannot determine policy.",
+        "confidence": "inference",
+        "source_ids": [
+          "bea",
+          "mich"
+        ]
+      },
+      {
+        "explanation": "Security uncertainty can affect risk premiums without a verified local operating interruption.",
+        "transmission": "Singapore/Asia effects are conditional through shipping insurance, energy, aviation, supply chains or cyber exposure.",
+        "alternatives": "Contained spillover, error or effective safeguards can prevent wider disruption. Statements of intent do not prove a new operating loss.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "pol"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence diverges from the selloff",
+        "outcome": "Demand and cash conversion prove more resilient than valuation moves imply.",
+        "trigger": "Original issuer records and comparable spending/profit data show stable collections and deliveries.",
+        "invalidation": "Primary disclosures quantify lost orders, financing stress or collection deterioration.",
+        "horizon": "23–27 November and next original issuer disclosures",
+        "source_ids": [
+          "bea",
+          "usclose"
+        ]
+      },
+      {
+        "name": "Risk repricing broadens",
+        "outcome": "Funding scrutiny spreads beyond technology into suppliers and refinancing-sensitive assets.",
+        "trigger": "Comparable cash breadth and original debt/customer evidence confirm transmission.",
+        "invalidation": "Broader participation improves without deterioration in operating records.",
+        "horizon": "Next verified open-market sessions; holiday-adjusted week",
+        "source_ids": [
+          "nyse",
+          "sector",
+          "jpx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "Sunday 22 Nov 08:00 SGT: full coming-seven-day calendars and five-day outlook; verify all desk exceptions",
+        "due_at": "2026-11-22T00:00:00Z",
+        "confirms": "Original exchange calendars and dated release notices agree.",
+        "contradicts": "Unverified dates remain gaps; a generic weekday selector is insufficient.",
+        "source_ids": [
+          "jpx",
+          "nyse",
+          "bea"
+        ]
+      },
+      {
+        "signal": "Monday 23 Nov: Japan cash closed; next regular US opening 09:30 EST / 22:30 SGT, pre-open target 21:30 SGT",
+        "due_at": "2026-11-23T14:30:00Z",
+        "confirms": "Fresh cash breadth and issuer cash/delivery records corroborate transmission.",
+        "contradicts": "Stale provider rows, futures or narrow rebounds cannot establish global recovery.",
+        "source_ids": [
+          "jpx",
+          "nyse",
+          "usclose"
+        ]
+      },
+      {
+        "signal": "Wednesday 25 Nov 08:30 EST / 21:30 SGT: BEA GDP/profits and October income/outlays",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Comparable real spending, inflation and profits support demand resilience.",
+        "contradicts": "Weak actual demand or revisions invalidate survey extrapolation.",
+        "source_ids": [
+          "bea",
+          "mich"
+        ]
+      },
+      {
+        "signal": "Thursday 26 Nov: NYSE Thanksgiving closure; Friday 27 Nov 13:00 EST / Saturday 28 Nov 02:00 SGT early cash close",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Original holiday/half-day clock is used; closing-summary target is 03:00 SGT on 28 Nov.",
+        "contradicts": "A normal 06:00 SGT wake is too late for that alert window; honestly dated web-only catch-up may be required.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-21T11:00:12Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-21",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −7.15%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −3.05%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −3.76%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: +0.77%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −0.46%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −1.77%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −0.17%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −2.97%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −2.37%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −1.11%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "reviewed",
+          "finding": "20 Nov US provider: −0.79%; global panel unverified.",
+          "source_ids": [
+            "sector"
+          ]
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP (CIK 1541617): latest 13F-HR is for 2026-09-30, filed 2026-11-16, accession 0001541617-26-000010. No newer 13F in this refreshed index; unchanged since the morning. Separate latest Schedule 13G/A remains 16 November, accession 0001541617-26-000011; this is not a new 13F. No new line-item comparison or investor-library archive completion is claimed. A disclosure check is not evidence of no trading.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC (CIK 1709323): latest 13F-HR is for 2026-09-30, filed 2026-11-16, accession 0002043585-26-000030. No newer 13F in this refreshed index; unchanged since the morning. No new line-item comparison or investor-library archive completion is claimed. A disclosure check is not evidence of no trading.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd (CIK 1647251): latest 13F-HR is for 2026-09-30, filed 2026-11-16, accession 0001647251-26-000011. No newer 13F in this refreshed index; unchanged since the morning. No new line-item comparison or investor-library archive completion is claimed. A disclosure check is not evidence of no trading.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP (CIK 1697868): latest 13F-HR is for 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007. No newer 13F in this refreshed index; unchanged since the morning. No new line-item comparison or investor-library archive completion is claimed. A disclosure check is not evidence of no trading.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
   }
 ]
