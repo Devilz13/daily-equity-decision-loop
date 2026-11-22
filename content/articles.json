@@ -51658,5 +51658,422 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-22-baltic-vessel-rescue",
+    "title": "Baltic vessel fire: rescue confirmed, attribution and wider trade effects unresolved",
+    "summary": "A new official rescue update confirms a ship fire and evacuation. Wider security and commercial consequences require separate evidence.",
+    "channel": "conflict",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-22T00:10:20Z",
+    "updated_at": "2026-11-22T00:10:20Z",
+    "cutoff_at": "2026-11-22T00:06:47Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ship",
+        "title": "21 November 20:42 Finnish statement; fire and rescue update",
+        "publisher": "Finnish Border Guard via ePressi",
+        "url": "https://www.epressi.com/tiedotteet/turvallisuus/rajavartiolaitos-jatkaa-pelastustoiminnan-johtamista-suomenlahdella..html",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-22T00:04:55Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The Finnish Border Guard’s 21 November evening update says the Sparta II fire was continuing and the crew had been evacuated. It reported no known danger to surrounding maritime traffic and planned another update on 22 November. Earlier and later updates are different observation times.",
+        "kind": "fact",
+        "source_ids": [
+          "ship"
+        ]
+      },
+      {
+        "text": "This rescue statement does not establish responsibility for the incident. A local safety restriction is not evidence that a regional shipping route has closed. Direct Singapore/Asia operating losses, cargo exposure and insurance changes remain unverified.",
+        "kind": "fact",
+        "source_ids": [
+          "ship"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A maritime fire requires rescue and environmental preparedness; geopolitical attribution is a separate question.",
+        "transmission": "Singapore/Asia exposure would require evidenced cargo, insurance, shipping-service or energy links, followed by actual costs or delays.",
+        "alternatives": "A contained casualty with effective response may have little broader commercial effect. The official report of no known traffic danger is a counterweight to escalation headlines.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "ship"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Contained rescue operation",
+        "outcome": "Commercial transmission remains limited.",
+        "trigger": "The next authority update confirms control without wider traffic or pollution consequences.",
+        "invalidation": "Original notices establish wider restrictions or verified environmental harm.",
+        "horizon": "22 November official update",
+        "source_ids": [
+          "ship"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "22 November: next Finnish Border Guard rescue/environmental update; release time unannounced",
+        "due_at": "2026-11-22T12:00:00Z",
+        "confirms": "Official findings, implemented restrictions and verified commercial exposure.",
+        "contradicts": "Reposted attribution or general risk rhetoric without operating evidence.",
+        "source_ids": [
+          "ship"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-22T00:10:20Z"
+    },
+    "material_reason": "New vessel casualty/rescue in the Baltic with environmental and transport relevance; strategic-only, no tactical assets, coordinates or targeting information."
+  },
+  {
+    "id": "2026-11-22-us-database-reporting",
+    "title": "US database reporting: scope and outage links remain unconfirmed",
+    "summary": "AP reports a suspected database intrusion; official confirmation and extent remain unavailable.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cyber-frontier"
+    ],
+    "format": "material-update",
+    "published_at": "2026-11-22T00:10:20Z",
+    "updated_at": "2026-11-22T00:10:20Z",
+    "cutoff_at": "2026-11-22T00:06:47Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "apcyber",
+        "title": "21 November AP reporting; original HTML read, official comment absent",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/d066cff87a64a564db0a00172c124972",
+        "type": "secondary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-22T00:05:01Z"
+      },
+      {
+        "id": "csa",
+        "title": "13 November advisory; 20 November page update, refreshed today",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/advisories/ad-2026-017/",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "AP cites an unnamed source on an apparent NCIC breach under FBI investigation; the bureau declined comment. Scope was unclear, with no immediate indication of a link to other outages. This remains attributed reporting.",
+        "kind": "allegation",
+        "source_ids": [
+          "apcyber"
+        ]
+      },
+      {
+        "text": "CSA’s dated domestic advisory describes opportunistic risks and emphasizes patching, strong authentication, least privilege, vendor oversight and recovery testing. It does not verify the reported US event.",
+        "kind": "fact",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A suspected sensitive-data incident warrants separate tests of access, extraction and operational interruption.",
+        "transmission": "Singapore/Asia exposure is conditional on verified shared vendors or affected data and business dependencies; none is established here.",
+        "alternatives": "Remediation and unrelated maintenance can cause outages without a common attacker. Investigation is not proof of full database exfiltration.",
+        "confidence": "uncertain",
+        "source_ids": [
+          "apcyber",
+          "csa"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Scope becomes verifiable",
+        "outcome": "Affected organizations can identify actual access, data and continuity risks.",
+        "trigger": "An original agency or operator disclosure specifies affected systems and consequences.",
+        "invalidation": "Only repeated unnamed-source reporting remains available.",
+        "horizon": "Next official agency/operator disclosure",
+        "source_ids": [
+          "apcyber",
+          "csa"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23 November review: original agency/affected-operator disclosures; this is a review date, not a promised release",
+        "due_at": "2026-11-23T00:00:00Z",
+        "confirms": "Specific corroborated impact and response boundaries.",
+        "contradicts": "No original notice or evidence linking otherwise unrelated incidents.",
+        "source_ids": [
+          "apcyber",
+          "csa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-22T00:10:20Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-22-week-ahead-outlook",
+    "title": "Week ahead: Singapore data, regional holidays and a shortened US week",
+    "summary": "A sourced five-day outlook separates scheduled releases from outcomes and per-desk holiday exceptions. Unverified event times remain explicit gaps.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "weekend-review",
+    "published_at": "2026-11-22T00:10:20Z",
+    "updated_at": "2026-11-22T00:10:20Z",
+    "cutoff_at": "2026-11-22T00:06:47Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "singstat",
+        "title": "Current official release calendar; search-index entries and dated calendar checked",
+        "publisher": "Singapore Department of Statistics",
+        "url": "https://www.singstat.gov.sg/data-tools-services/advance-release-calendar",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 November announcement: 24 November 08:00 SGT Economic Survey",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "bea",
+        "title": "25 November scheduled GDP/profits and personal income/outlays; modified 20 November",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "jpcpi",
+        "title": "Official schedule dated 23 January; November Tokyo preliminary on 27 November",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+        "type": "primary",
+        "published_at": "2026-01-23",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official cash-market closure: weekends and 23 November holiday",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "nse",
+        "title": "Official capital-market 2026 holiday circular; 24 November closure",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-22T00:04:55Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official regular hours, Thanksgiving closure and 27 November early cash close",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "lse",
+        "title": "Official weekday operation and holiday exceptions",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Official trading landing page currently exposes browser-warning shell",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "mom",
+        "title": "Gazetted 2026 holidays; no holiday listed 23–27 November",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "23 November Singapore CPI; 24 November Economic Survey at 08:00 SGT; 26 November industrial production; 27 November services/household releases appear in the official calendar. Unconfirmed hours and “not later than” deadlines must not be treated as guaranteed release times.",
+        "kind": "fact",
+        "source_ids": [
+          "singstat",
+          "sggdp"
+        ]
+      },
+      {
+        "text": "25 November 08:30 EST: BEA GDP second estimate/corporate profits and October personal income/outlays. 27 November: Tokyo preliminary November CPI, distinct from national CPI.",
+        "kind": "fact",
+        "source_ids": [
+          "bea",
+          "jpcpi"
+        ]
+      },
+      {
+        "text": "JPX holiday 23 November; NSE capital-market holiday 24 November. NYSE closed 26 November and cash closes 13:00 EST on 27 November. London has no holiday listed in this week. SGX reader is incomplete; the linked Singapore gazetted calendar lists no 23–27 November holiday, which is planning evidence rather than a current exchange notice.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "nse",
+          "nyse",
+          "lse",
+          "sgx",
+          "mom"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Different regional closures and data windows change what can be compared at a checkpoint.",
+        "transmission": "Calendar-adjusted evidence helps separate closed-market context, actual cash participation and policy expectations.",
+        "alternatives": "Unexpected exchange notices, revisions or unscheduled events can override the plan; a scheduled event alone says nothing about its direction.",
+        "confidence": "inference",
+        "source_ids": [
+          "nyse",
+          "jpx",
+          "nse",
+          "bea"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Data distinguish operating demand from valuation stress",
+        "outcome": "Revisions and real activity either corroborate or challenge the latest market interpretation.",
+        "trigger": "Like-period released prices, real spending, profits and local sector details agree.",
+        "invalidation": "Mixed periods, weak breadth or inconsistent operating data undermine the interpretation.",
+        "horizon": "23–27 November",
+        "source_ids": [
+          "singstat",
+          "bea",
+          "sggdp"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23 Nov: Singapore CPI scheduled; Japanese holiday",
+        "due_at": "2026-11-23T05:00:00Z",
+        "confirms": "Official release and component data; date verified, hour is a review checkpoint only.",
+        "contradicts": "Unverified figures or a national-Asia calendar assumption.",
+        "source_ids": [
+          "singstat",
+          "jpx"
+        ]
+      },
+      {
+        "signal": "24 Nov 08:00 SGT: Singapore Q3 Economic Survey; NSE holiday",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Original release, revisions and sector detail.",
+        "contradicts": "Preliminary estimates or mixed periods presented as final.",
+        "source_ids": [
+          "sggdp",
+          "nse"
+        ]
+      },
+      {
+        "signal": "25 Nov 08:30 EST / 21:30 SGT: BEA GDP/profits and income/outlays",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Comparable inflation, real spending and profits strengthen the demand interpretation.",
+        "contradicts": "Revisions or divergent measures weaken a simple narrative.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "27 Nov 13:00 EST / 28 Nov 02:00 SGT: NYSE early close",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Use verified special cash clock; closing-summary target is 03:00 SGT.",
+        "contradicts": "Normal 06:00 SGT timing misses the fresh-alert window; use honestly dated web-only catch-up if needed.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-22T00:10:20Z"
+    },
+    "material_reason": null
   }
 ]

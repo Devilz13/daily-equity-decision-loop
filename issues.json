@@ -5,6 +5,102 @@
   "latest": "2026-11-21",
   "issues": [
     {
+      "date": "2026-11-22",
+      "number": 70,
+      "title": "Maritime risk, cyber verification and a holiday-shortened week",
+      "status": "DATA INCOMPLETE · delayed Sunday edition",
+      "path": "issues/2026/11/22/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-22-v1",
+        "summary": "Delayed Sunday edition: a Baltic rescue update, qualified cyber reporting and a sourced five-day outlook. Japan, India and US holiday clocks differ. Singapore CPI/GDP and Wednesday’s US data test operating demand. No weekend cash opening is invented. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "Baltic rescue: operations versus attribution",
+            "date": "21 Nov · official update",
+            "context": "Authorities report a continuing fire and evacuation, with no known surrounding traffic danger. Wider trade effects need separate evidence.",
+            "source": "https://www.epressi.com/tiedotteet/turvallisuus/rajavartiolaitos-jatkaa-pelastustoiminnan-johtamista-suomenlahdella..html"
+          },
+          {
+            "title": "Sensitive-data reporting needs scope checks",
+            "date": "21 Nov · AP report",
+            "context": "The linked review preserves attribution and the official-confirmation gap; unrelated outages are not joined into one campaign.",
+            "source": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-22-us-database-reporting/"
+          },
+          {
+            "title": "Singapore data and different holiday clocks",
+            "date": "23–27 Nov · scheduled",
+            "context": "CPI Monday, GDP Tuesday and industrial output Thursday; regional closures differ. Scheduled releases are not outcomes.",
+            "source": "https://www.singstat.gov.sg/data-tools-services/advance-release-calendar"
+          }
+        ],
+        "market_note": "Dated 20 Nov US closes remain context; no new Sunday cash or live FX is claimed. ECB reference marks still date to 20 Nov. All five market lanes stay DATA INCOMPLETE.",
+        "event_updates": [
+          {
+            "name": "US GDP/profits and income/outlays",
+            "date": "25 Nov · 21:30 SGT",
+            "update": "BEA lists both releases at 08:30 EST. Compare revisions, real spending, inflation and profits; outcomes are not yet published.",
+            "source": "https://www.bea.gov/news/schedule"
+          },
+          {
+            "name": "US holiday and early cash close",
+            "date": "26–27 Nov · US dates",
+            "update": "Thanksgiving closed; Friday cash ends 13:00 EST / Saturday 02:00 SGT. The special summary target is 03:00 SGT.",
+            "source": "https://www.nyse.com/trade/hours-calendars"
+          }
+        ],
+        "week_ahead": {
+          "days": [
+            {
+              "day": "Monday",
+              "date": "2026-11-23",
+              "items": [
+                "Singapore October CPI scheduled; time unverified",
+                "Japan cash closed: Labor Thanksgiving Day"
+              ]
+            },
+            {
+              "day": "Tuesday",
+              "date": "2026-11-24",
+              "items": [
+                "Singapore Q3 Economic Survey at 08:00 SGT",
+                "NSE cash closed: Guru Nanak holiday"
+              ]
+            },
+            {
+              "day": "Wednesday",
+              "date": "2026-11-25",
+              "items": [
+                "US GDP/profits and October income/outlays at 21:30 SGT"
+              ]
+            },
+            {
+              "day": "Thursday",
+              "date": "2026-11-26",
+              "items": [
+                "Singapore October industrial output scheduled; time unverified",
+                "NYSE Thanksgiving closure"
+              ]
+            },
+            {
+              "day": "Friday",
+              "date": "2026-11-27",
+              "items": [
+                "Tokyo November preliminary CPI scheduled; time unverified",
+                "NYSE early cash close: Saturday 02:00 SGT"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-11-21",
       "number": 69,
       "title": "AI selloff, PHP patch urgency and Poland’s reported incursions",

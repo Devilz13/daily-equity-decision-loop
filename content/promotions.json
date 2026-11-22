@@ -236,8 +236,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-20T00:03:53Z",
-      "review_due_at": "2026-11-21T00:03:53Z",
+      "verified_at": "2026-11-22T00:06:47Z",
+      "review_due_at": "2026-11-23T00:06:47Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -267,6 +267,10 @@
         {
           "at": "2026-11-20T00:03:53Z",
           "change": "20 November: original product and full governing PDF compared. Eligibility, statement-month S$800, 10% categories/S$20+30+30 caps, 0.3% fallback, no annual fee from 1 July, FX administrative-fee waiver and retained 1% overseas-SGD processing fee checked as applicable. Separate FX promotion retains country/start-date differences, 31 December 2027 end, no min/cap, next-statement offset, exclusions and clause 1 versus 3.1 cross-reference caveat. No eligibility recommendation."
+        },
+        {
+          "at": "2026-11-22T00:06:47Z",
+          "change": "22 November: original product access recovered and full base/FX governing PDFs reviewed. Eligibility, S$800 statement-month threshold, S$20/30/30 caps, fallback, exclusions, refunds, account standing and statement-offset fulfilment checked. No annual fee from 1 July; FX administrative-fee waiver differs from retained 1% overseas-SGD fee. FX country/start-date differences and 31 December 2027 end retained. Promotion principal-card-only scope clarified; clause 1 versus 3.1 cross-reference conflict remains, no personal suitability claim."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -277,7 +281,7 @@
       ],
       "apps": [],
       "benefit": "0.5% cashback on eligible FX spend processed in China and defined European countries from 26 March 2026; 1% on other eligible FX spend from 16 March 2026. Australia receives 0.5% from 1 January 2027. All stated windows end 31 December 2027; no minimum spend or cashback cap under the linked terms.",
-      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas SGD transactions do not qualify. Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs are excluded. The linked PDF now extends through 31 December 2027; country, processing and transaction exclusions control. The promotional reward offsets card transactions and is not withdrawable cash. Clause 1 and the product page specify the rates; clauses 3.1–3.2 refer to clause 1(a). Check unusual transactions with UOB.",
+      "eligibility": "Singapore-issued EVOL card; payment must be processed outside Singapore in foreign currency. Overseas SGD transactions do not qualify. Shell/SPC, wallet top-ups, cash advances, fees, instalments and listed MCCs are excluded. The linked PDF now extends through 31 December 2027; country, processing and transaction exclusions control. The promotional reward offsets card transactions and is not withdrawable cash. Clause 1 and the product page specify the rates; clauses 3.1–3.2 refer to clause 1(a). Check unusual transactions with UOB. Governing Transactions definition covers principal cardmember only; do not assume supplementary FX spend earns the promotion.",
       "source_url": "https://www.uob.com.sg/personal/cards/cashback/evol-card/index.page",
       "terms_url": "https://www.uob.com.sg/assets/web-resources/personal/pdf/cards/cashback/evol-card/governing-uob-evol-card-tnc-cmpg202601.pdf",
       "starts_at": "2026-03-16T00:00:00+08:00",
@@ -321,8 +325,8 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-11-20T00:03:53Z",
-      "review_due_at": "2026-11-21T00:03:53Z",
+      "verified_at": "2026-11-22T00:06:47Z",
+      "review_due_at": "2026-11-23T00:06:47Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -344,6 +348,10 @@
         {
           "at": "2026-11-20T00:03:53Z",
           "change": "20 November: original product and full governing PDF compared. Eligibility, statement-month S$800, 10% categories/S$20+30+30 caps, 0.3% fallback, no annual fee from 1 July, FX administrative-fee waiver and retained 1% overseas-SGD processing fee checked as applicable. Separate FX promotion retains country/start-date differences, 31 December 2027 end, no min/cap, next-statement offset, exclusions and clause 1 versus 3.1 cross-reference caveat. No eligibility recommendation."
+        },
+        {
+          "at": "2026-11-22T00:06:47Z",
+          "change": "22 November: original product access recovered and full base/FX governing PDFs reviewed. Eligibility, S$800 statement-month threshold, S$20/30/30 caps, fallback, exclusions, refunds, account standing and statement-offset fulfilment checked. No annual fee from 1 July; FX administrative-fee waiver differs from retained 1% overseas-SGD fee. FX country/start-date differences and 31 December 2027 end retained. Promotion principal-card-only scope clarified; clause 1 versus 3.1 cross-reference conflict remains, no personal suitability claim."
         }
       ],
       "id": "uob-evol",
