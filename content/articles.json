@@ -55390,5 +55390,436 @@
       "reviewed_at": "2026-11-23T13:00:30Z"
     },
     "material_reason": null
+  },
+  {
+    "id": "2026-11-23-europe-close",
+    "title": "London close: earlier gains and survey divergence; final panel unverified",
+    "summary": "London’s regular closing phase has passed. The retrieved FTSE table still carries a 15:26 GMT observation, so it is not certified as the final close. Original eurozone PMI confirms steady headline growth with widening country differences. All 11 current sector finals remain incomplete; US trading is still underway.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-23T17:01:03Z",
+    "updated_at": "2026-11-23T17:01:03Z",
+    "cutoff_at": "2026-11-23T17:01:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Official current business-day calendar; no 23 November closure/half-day listed; undated page metadata is observation date",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T17:01:03Z"
+      },
+      {
+        "id": "hours",
+        "title": "Undated page; metadata date is observation date. Business parameters spreadsheet: SETS opening 08:00, closing auction starts 16:30 London time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/content/dam/lse/en_us/documents/technical-library/millennium-exchange-and-tradecho-business-parameters.xlsx",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:01:17Z"
+      },
+      {
+        "id": "ftse",
+        "title": "Delayed provider historical table: header clock 23 November15:26GMT, not final despite column label",
+        "publisher": "Investors Chronicle / LSEG data",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T17:01:03Z"
+      },
+      {
+        "id": "pmi",
+        "title": "Original23November eurozone flash-PMI commentary; survey interpretation, not realized GDP or rates decision",
+        "publisher": "S&P Global",
+        "url": "https://www.spglobal.com/content/dam/spglobal/mi/en/documents/news-insights/research/2026/11/6327993_6327969_0.1.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T16:59:02Z"
+      },
+      {
+        "id": "ukpmi",
+        "title": "ITV/PA23November10:33GMT report: indexed excerpt only; original UK tables not verified",
+        "publisher": "ITV News / PA",
+        "url": "https://www.itv.com/news/2026-11-23/ai-data-centre-build-out-fuels-manufacturing-growth-spurt-survey-finds",
+        "type": "secondary",
+        "published_at": "2026-11-23T10:33:00Z",
+        "accessed_at": "2026-11-23T17:01:03Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official regular cash09:30–16:00ET andThanksgiving26November/27Novemberearlyclose; metadata date denotes current observation",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T13:00:30Z"
+      },
+      {
+        "id": "fed",
+        "title": "13November original advisory: Williams23November16:00ESTremarks andQ&A scheduled",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://www.newyorkfed.org/newsevents/mediaadvisory/2026/1113-2026",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-23T13:00:30Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 November announcement: 24 November 08:00 SGT Economic Survey",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "drax-gap",
+        "title": "23November issuer trading-update page returned403; no retry or verified full guidance",
+        "publisher": "Drax",
+        "url": "https://www.drax.com/financial-news/trading-update-and-cmd-with-earnings-upgrades/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T17:01:03Z"
+      },
+      {
+        "id": "crest-gap",
+        "title": "23November issuer RNS reprint returned403; full terms/outcomes unverified, no retry",
+        "publisher": "Crest Nicholson / RNS reprint",
+        "url": "https://www.lse.co.uk/rns/CRST/trading-and-balance-sheet-update-uuz0wr1ixx08zy4.html",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T17:01:03Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London’s regular SETS closing auction starts16:30GMT /24November00:30SGT, with the published standard uncrossing phase around16:35GMT. The guarded closing-summary target is01:30SGT, using23Novemberdesk-local date. No holiday or half-day is listed for23November. Live halt/exception and auction-result verification remains incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "The retrieved provider page displays FTSE100 at10,464.35, up118.01points/1.14%, with a15:26GMT clock and at least15minutes delay. Although today’s historical row is headed Close, its clock predates the auction. It is retained as an intraday observation, not certified final; complete constituent breadth, volume and synchronized sector finals remain unverified.",
+        "kind": "fact",
+        "source_ids": [
+          "ftse"
+        ]
+      },
+      {
+        "text": "S&P Global’s original eurozone commentary reports November flash composite PMI unchanged at51.7. It describes stronger German manufacturing alongside a deeper French downturn and slower growth elsewhere. Its approximate0.3%quarterly GDP signal and policy discussion are survey-based interpretations, not realized GDP or an ECBdecision.",
+        "kind": "fact",
+        "source_ids": [
+          "pmi"
+        ]
+      },
+      {
+        "text": "ITV’s indexed23November report gives UK flash composite PMI52.3. This is secondary indexed reporting; the full original UK tables remain unverified. No surprise-versus-consensus claim is made, given conflicting third-party comparisons.",
+        "kind": "fact",
+        "source_ids": [
+          "ukpmi"
+        ]
+      },
+      {
+        "text": "Drax’s issuer page and the Crest Nicholson RNS reprint returned403. Their indexed guidance leads are not promoted to completed original checks, certified results or closing share-price explanations. No retry or access workaround was used.",
+        "kind": "fact",
+        "source_ids": [
+          "drax-gap",
+          "crest-gap"
+        ]
+      },
+      {
+        "text": "US cash is still in its23November session at this London-closing review; no US final is claimed. Williams’ original advisory schedules remarks at16:00EST /24November05:00SGT. The USclose-summary target is06:00SGT. The24November08:00SGT Singapore Economic Survey and25NovemberBEA releases remain dated watchpoints, not outcomes.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "fed",
+          "sggdp",
+          "bea"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Earlier index gains and a steady aggregate survey can coexist with weak underlying countries and industries.",
+        "transmission": "Export orders, financing costs, household spending and supplier cash conversion determine whether surveyed activity translates into earnings.",
+        "confidence": "inference",
+        "alternatives": "Concentrated index weights, position covering or lower discount rates may support prices without broad demand improvement.",
+        "source_ids": [
+          "ftse",
+          "pmi"
+        ]
+      },
+      {
+        "explanation": "The survey publisher describes demand pressure from borrowing costs despite resilience in selected manufacturing activity.",
+        "transmission": "Funding-sensitive property, construction and services can diverge from equipment suppliers.",
+        "confidence": "uncertain",
+        "alternatives": "Country mix, temporary order timing and different observation periods can explain divergence; no single cause is established for the closing market.",
+        "source_ids": [
+          "pmi"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Broad operating improvement confirms earlier gains",
+        "outcome": "Actual demand and cash generation broaden beyond selected winners.",
+        "trigger": "Original orders, margins and independent final breadth support improvement.",
+        "invalidation": "Reconciled finals remain concentrated or operating evidence weakens.",
+        "horizon": "23November final-data reconciliation and24–25November releases",
+        "source_ids": [
+          "ftse",
+          "pmi",
+          "sggdp",
+          "bea"
+        ]
+      },
+      {
+        "name": "Survey divergence persists",
+        "outcome": "Headline resilience masks weaker demand in rate-sensitive businesses.",
+        "trigger": "Country/industry detail and issuer collections remain uneven.",
+        "invalidation": "Independent broad orders and cash evidence improve together.",
+        "horizon": "Next original survey and issuer follow-ups",
+        "source_ids": [
+          "pmi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24November01:30SGT London closing-summary target for23Novemberdesk-local session; reconcile final auction/index panels",
+        "due_at": "2026-11-23T17:30:00Z",
+        "confirms": "A dated post-auction final and comparable breadth become verifiable.",
+        "contradicts": "A delayed intraday header or Close-column label is mistaken for a final.",
+        "source_ids": [
+          "hours",
+          "ftse"
+        ]
+      },
+      {
+        "signal": "23November16:00EST /24November05:00SGT Williams remarks scheduled",
+        "due_at": "2026-11-23T21:00:00Z",
+        "confirms": "Actual published remarks establish policy/economic evidence.",
+        "contradicts": "The advisory or commentary is treated as a decision.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "24November06:00SGT USclose-summary target for23Novemberlocal session",
+        "due_at": "2026-11-23T22:00:00Z",
+        "confirms": "Verified final cash prices,breadth and source clocks qualify the closing read.",
+        "contradicts": "Earlier futures or intraday values substitute for finals.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "24November08:00SGT Singapore Q3 Economic Survey",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Original revisions and sector tables support the demand interpretation.",
+        "contradicts": "The preliminary estimate is mistaken for the final release.",
+        "source_ids": [
+          "sggdp"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T17:01:03Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London SETS cash closing anchor; continental venues not separately certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Earlier FTSE gains are visible, but final participation and current risk appetite are uncertified.",
+        "indicators": "15:26GMT provider snapshot only; no synchronized final sector, breadth, turnover, volatility, rates, FX or commodities panel.",
+        "source_ids": [
+          "ftse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European information technology final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare software and semiconductor demand with realized deliveries and cash.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European communication services final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Check media, platform and telecom participation independently.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European consumer discretionary final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Separate household volumes, prices and financing sensitivity.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European consumer staples final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare pricing power and input costs against volumes.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European energy final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Distinguish energy producers, refiners and dated commodity marks.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European financials final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare banks and insurers against curves, credit and original funding records.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European health care final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Check providers and pharmaceuticals separately; no common return inferred.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European industrials final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Test equipment orders against cash conversion; survey manufacturing strength is not a sector price return.",
+          "source_ids": [
+            "ftse",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European materials final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare metals, chemicals and construction demand across countries.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European real estate final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Check occupancy, collections and refinancing separately from discount rates.",
+          "source_ids": [
+            "ftse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November European utilities final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Verify Drax’s original full guidance when access is permitted; no completed review is claimed from the blocked page.",
+          "source_ids": [
+            "ftse",
+            "drax-gap"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "European demand and financing evidence could qualify the ongoing USsession; no USclose is known.",
+          "trigger": "Original local orders,breadth and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Country composition, domestic demand or financing conditions produce divergence.",
+          "source_ids": [
+            "pmi",
+            "nyse"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "Asian suppliers may face uneven European customer demand; country and industry exposures require verification.",
+          "trigger": "Original local orders,breadth and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Country composition, domestic demand or financing conditions produce divergence.",
+          "source_ids": [
+            "pmi"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "European demand and funding could affect Singapore suppliers; GDP and issuer cash evidence must test actual exposure.",
+          "trigger": "Original local orders,breadth and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Country composition, domestic demand or financing conditions produce divergence.",
+          "source_ids": [
+            "pmi",
+            "sggdp"
+          ]
+        }
+      ]
+    }
   }
 ]
