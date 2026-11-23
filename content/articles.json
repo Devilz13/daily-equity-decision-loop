@@ -53493,5 +53493,438 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-23-singapore-close",
+    "title": "Singapore close: disputed index marks, company evidence kept separate",
+    "summary": "Singapore’s regular cash and Trade at Close phases have ended. Public index marks disagree, so no final STI level, breadth or 11-sector return panel is certified. Original UOB and Marco Polo Marine disclosures provide distinct company evidence; neither establishes the sector’s price direction. Research/watch status remains.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-23T10:02:36Z",
+    "updated_at": "2026-11-23T10:02:36Z",
+    "cutoff_at": "2026-11-23T10:02:36Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgclock",
+        "title": "Normal cash hours and Trade at Close; dated primary rule PDF",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-22T23:59:18Z"
+      },
+      {
+        "id": "mom",
+        "title": "Gazetted public holidays; no 23 November holiday",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-22T23:59:20Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Current trading reader: browser-warning shell, not a verified price or halt panel; date denotes observation",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      },
+      {
+        "id": "quotes",
+        "title": "Historical reader: different current-header and daily-row values; timezone of displayed header clock unverified",
+        "publisher": "Investing.com",
+        "url": "https://ca.investing.com/indices/singapore-straits-time-historical-data",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      },
+      {
+        "id": "yahoo",
+        "title": "Search extract only: 23 November historical close differs; page returned429, no retry",
+        "publisher": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5ESTI/history/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      },
+      {
+        "id": "sginvestors",
+        "title": "Robot-check/JavaScript screen, no verified market panel; date denotes observation",
+        "publisher": "SGinvestors.io",
+        "url": "https://sginvestors.io/market/sgx-market-information/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      },
+      {
+        "id": "uob",
+        "title": "20 November original MoU: proposed technology innovation centre, subject to planning and approvals",
+        "publisher": "UOB",
+        "url": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-guangzhou-mou.page",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:09Z"
+      },
+      {
+        "id": "mpm",
+        "title": "20 November original FY2026 profit guidance; preliminary unaudited review",
+        "publisher": "Marco Polo Marine / SGX",
+        "url": "https://links.sgx.com/FileOpen/MPML%20-%20Profit%20Guidance%20FY2026.ashx?App=Announcement&FileID=912164",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:10Z"
+      },
+      {
+        "id": "cna",
+        "title": "23 November 13:00 SGT, updated 13:19: October inflation report; full text read, original tables inaccessible",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/october-core-inflation-price-pressures-2027-6573951",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:02:26Z"
+      },
+      {
+        "id": "pmi-news",
+        "title": "23 November09:08:19UTC Reuters report; search extract read, original PMI tables not verified",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/euro-zone-growth-holds-steady-frances-deepening-downturn-clouds-outlook-pmi-2026-11-23/",
+        "type": "secondary",
+        "published_at": "2026-11-23T09:08:19Z",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The verified regular SGX schedule ends continuous cash at17:00SGT, followed by closing phases and Trade at Close ending17:16SGT. Today is not a gazetted public holiday. The 18:16SGT alert target follows that final phase; live halt/exception notices remain inaccessible in the current reader.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclock",
+          "mom",
+          "sgx"
+        ]
+      },
+      {
+        "text": "Public quote observations do not reconcile: the Investing.com header displayed4,953.81 (−0.43%) while its23November daily row showed4,949.11 (−0.52%). A Yahoo search extract showed4,931.62; its page returned429. These are disputed provider observations, not certified final index levels, executable quotes or sector/breadth evidence. No value is selected as the official close.",
+        "kind": "fact",
+        "source_ids": [
+          "quotes",
+          "yahoo"
+        ]
+      },
+      {
+        "text": "UOB’s20November announcement describes an MoU for a proposed Guangzhou technology innovation centre. Planning, assessment and necessary approvals remain ahead; strategy, architecture and critical capabilities stay anchored in Singapore. This is an issuer’s planned capability development, not delivered capacity, new earnings or evidence of today’s share-price cause.",
+        "kind": "fact",
+        "source_ids": [
+          "uob"
+        ]
+      },
+      {
+        "text": "Marco Polo Marine’s20November preliminary unaudited guidance expects lower FY2026 net profit after tax thanFY2025, principally reflecting an absent prior-year disposal gain and a smaller vessel-impairment reversal. Full results are due on or before29November2026. Recurring operating profit and cash conversion still need the results; lower reported NPAT alone does not establish weaker vessel demand.",
+        "kind": "fact",
+        "source_ids": [
+          "mpm"
+        ]
+      },
+      {
+        "text": "The earlier CNA report attributes October core inflation1.5%year-on-year versus September2.0%, and headline1.9%versus2.2%, to official figures. Original-table reconciliation remains incomplete, with prior SingStat403/MASmaintenance gaps retained; this report does not advance that source’s access clock. No monetary-policy change is inferred.",
+        "kind": "fact",
+        "source_ids": [
+          "cna"
+        ]
+      },
+      {
+        "text": "Reuters’09:08UTC search extract reports November eurozone composite PMI unchanged at51.7, with diverging Germany/France performance. This is secondary survey context after the London opening, not a verified original table, Singapore demand print or European cash close.",
+        "kind": "fact",
+        "source_ids": [
+          "pmi-news"
+        ]
+      },
+      {
+        "text": "SGX’s browser-warning shell and SGinvestors’ robot-check screen expose no usable current breadth or synchronized sector panel. Do not infer 11 sector outcomes from one index or the two issuer disclosures.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "sginvestors"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Current verified information supports company-specific questions rather than a single certified Singapore market direction.",
+        "transmission": "Technology investment can affect execution costs and future capability; marine earnings comparisons depend on recurring operations and non-recurring accounting items.",
+        "confidence": "inference",
+        "alternatives": "Broad global risk repricing, index concentration or data timing may explain observed provider moves independently of these announcements.",
+        "source_ids": [
+          "uob",
+          "mpm",
+          "quotes"
+        ]
+      },
+      {
+        "explanation": "Reported disinflation could relieve household and business costs, but that is not proof of a demand recovery.",
+        "transmission": "Persistence, imported input costs and pricing power determine whether easing prices improve real spending or margins.",
+        "confidence": "uncertain",
+        "alternatives": "Regulated tariffs and base effects can lower annual inflation even when costs remain elevated or volumes weaken.",
+        "source_ids": [
+          "cna"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Recurring operations withstand the headline",
+        "outcome": "Company operating trends are firmer than a lower statutory comparison suggests.",
+        "trigger": "The marine results reconcile recurring profit, vessel utilization and cash conversion independently of gains and reversals.",
+        "invalidation": "Recurring margins or collections weaken alongside reported earnings.",
+        "horizon": "FY2026 results on or before29November2026",
+        "source_ids": [
+          "mpm"
+        ]
+      },
+      {
+        "name": "An apparent index recovery lacks participation",
+        "outcome": "An improved index mark fails to establish broad market stabilization.",
+        "trigger": "Reconciled final index and constituent/sector breadth disagree, or gains are concentrated.",
+        "invalidation": "Independent dated final panels show broad participation with coherent volumes.",
+        "horizon": "23November final-data reconciliation and24November Singapore opening",
+        "source_ids": [
+          "quotes",
+          "sgx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23November18:16SGT guarded closing-summary target; reconcile final marks before drawing direction",
+        "due_at": "2026-11-23T10:16:00Z",
+        "confirms": "A coherent final index, constituent breadth and same-universe sector data can be verified.",
+        "contradicts": "Provider headers and daily rows remain inconsistent or lack clear clocks.",
+        "source_ids": [
+          "sgclock",
+          "quotes"
+        ]
+      },
+      {
+        "signal": "24November Singapore opening review: test participation against verified final data",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Actual local prices, issuer evidence and breadth support a persistent change.",
+        "contradicts": "Only foreign futures or the disputed23November marks are available.",
+        "source_ids": [
+          "sgclock",
+          "quotes"
+        ]
+      },
+      {
+        "signal": "Marco Polo Marine FY2026 results promised on or before29November; date-only deadline, no release hour verified",
+        "due_at": "2026-11-29T15:59:59Z",
+        "confirms": "Original statements reconcile recurring earnings, gains/reversals and cash flow.",
+        "contradicts": "Only preliminary guidance remains or operating deterioration offsets accounting explanations.",
+        "source_ids": [
+          "mpm"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T10:02:36Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX regular cash through closing phases/Trade at Close; live halt panel unavailable",
+          "status": "verified-session",
+          "source_ids": [
+            "sgclock",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Direction and breadth uncertified because current final-data observations conflict.",
+        "indicators": "Provider header/daily-row disagreement is a data-quality observation. Company announcements and consumer-price data are not sentiment breadth; current volume, volatility, rates and FX panels remain incomplete.",
+        "source_ids": [
+          "quotes",
+          "yahoo",
+          "sgx"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore information technology final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Compare electronics and software participation against actual orders and current cash breadth.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore communication services final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Check telecom, platform and media participation; do not equate an isolated issuer with the group.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore consumer discretionary final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Compare sales volumes and financing sensitivity with margins; disinflation alone is not demand strength.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore consumer staples final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Check unit volumes, input costs and pricing power with dated issuer evidence.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore energy final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Separate producers, refiners and service firms; no current commodity or sector final is certified.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore financials final return or breadth panel. UOB’s20November MoU is a company plan, not a sector return.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "UOB’s proposed centre needs approvals, operating milestones and cost evidence; no new profit is assumed.",
+          "source_ids": [
+            "sgx",
+            "quotes",
+            "uob"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore health care final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Check providers and pharmaceuticals separately; CPI healthcare categories are not equity returns.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore industrials final return or breadth panel. Marco Polo Marine’s preliminary guidance needs recurring-earnings reconciliation.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Reconcile marine recurring operations and collections against statutory profit, disposal gains and impairment reversals.",
+          "source_ids": [
+            "sgx",
+            "quotes",
+            "mpm"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore materials final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Verify metals and chemicals demand, prices and breadth before drawing a sector conclusion.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore real estate final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Check occupancy, rental cash flows, financing and property valuations separately.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified23November Singapore utilities final return or breadth panel.",
+          "implication": "Research/watch only; no sector direction, core-screen pass or portfolio action inferred.",
+          "watchpoint": "Separate regulated tariffs, power demand, leverage and commissioned capacity; do not infer equity performance from CPI.",
+          "source_ids": [
+            "sgx",
+            "quotes"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Singapore company demand and investment may transmit to regional suppliers, conditional on delivery and actual orders.",
+          "trigger": "Issuer operating milestones and independent local breadth corroborate the channel.",
+          "invalidation": "Plans are delayed, costs offset benefits or domestic evidence diverges.",
+          "source_ids": [
+            "uob",
+            "mpm"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "European survey demand and Singapore supplier evidence may interact through trade; one survey does not establish local corporate earnings.",
+          "trigger": "Original orders, export exposure and issuer results corroborate transmission.",
+          "invalidation": "Country dispersion or company-specific accounting dominates.",
+          "source_ids": [
+            "pmi-news",
+            "mpm"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "AI investment and funding sentiment could affect Singapore suppliers, but no US opening outcome is known.",
+          "trigger": "Later US cash breadth and actual supplier deliveries corroborate demand.",
+          "invalidation": "Foreign sentiment diverges or commitments fail to become revenue and cash.",
+          "source_ids": [
+            "uob",
+            "quotes"
+          ]
+        }
+      ]
+    }
   }
 ]
