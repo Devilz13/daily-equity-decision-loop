@@ -54913,5 +54913,482 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-23-us-open",
+    "title": "US pre-open: futures rebound needs cash breadth; cybersecurity deal remains conditional",
+    "summary": "US cash opens22:30SGT; the guarded alert target is21:30. A20:01SGT indexed futures snapshot shows a rebound, not a cash recovery. Original filings confirm a proposed CrowdStrike–Zscaler all-stock transaction, still conditional. All11 current cash-sector panels remain incomplete; PMI and scheduled Williams remarks are next tests.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-23T13:00:30Z",
+    "updated_at": "2026-11-23T13:00:30Z",
+    "cutoff_at": "2026-11-23T13:00:30Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Official regular cash09:30–16:00ET andThanksgiving26November/27Novemberearlyclose; metadata date denotes current observation",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T13:00:30Z"
+      },
+      {
+        "id": "futures",
+        "title": "Reuters indexed report: snapshot07:01EST /20:01SGT; article body401, not retried",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T13:00:30Z"
+      },
+      {
+        "id": "deal",
+        "title": "Original23November joint issuer release filed as SECexhibit; announcement is not regulatory approval",
+        "publisher": "CrowdStrike and Zscaler / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130801/tm2630454d2_ex99-1.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T12:58:53Z"
+      },
+      {
+        "id": "fed",
+        "title": "13November original advisory: Williams23November16:00ESTremarks andQ&A scheduled",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://www.newyorkfed.org/newsevents/mediaadvisory/2026/1113-2026",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-23T13:00:30Z"
+      },
+      {
+        "id": "pmi-calendar",
+        "title": "Undated page; metadata date is observation date. November/December release calendar: search-index times only; direct PDF returned 403, not a full original read",
+        "publisher": "S&P Global",
+        "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "evening",
+        "title": "Today’s evening watch: source-linked regional context, original19:00:06SGTcutoff retained",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-23-evening-global-watch/",
+        "type": "secondary",
+        "published_at": "2026-11-23T11:00:06Z",
+        "accessed_at": "2026-11-23T12:04:37Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE lists regular cash09:30–16:00EST on23November:22:30SGT opening and24November05:00SGT close. The pre-open target is21:30SGT; subsequent close-summary target is06:00SGT. LondonGMT and NewYorkEST are independent.26November is closed and27November ends13:00EST; do not use a normal closing alert on that half-day.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters’ indexed07:01EST /20:01SGTsnapshot shows Dow,S&P500 andNasdaq100futures up2.01%,2.77% and3.43%, respectively. These are futures, not cash-sector returns, and the snapshot has not been refreshed. Article-body access returned401 and was not retried. A rebound alone does not demonstrate sustainable demand or broad participation.",
+        "kind": "fact",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "text": "The original23November issuer exhibit confirms a proposed CrowdStrike acquisition of Zscaler: fixed exchange ratio1.135CrowdStrike shares perZscaler share. The stated approximatelyUS$43.9billion enterprise value uses20NovemberCrowdStrike closing price, so it is not fixed cash consideration. Closing remains conditional; a separate Cybersecurity report retains terms and execution risks.",
+        "kind": "fact",
+        "source_ids": [
+          "deal"
+        ]
+      },
+      {
+        "text": "US flashNovemberPMI is scheduled23November14:45UTC /22:45SGT in the previously retrieved provider-calendar search extract; direct calendar403 and original-table verification remain gaps. Williams’ original advisory schedules remarks23November16:00EST /24November05:00SGT, with text andQ&A expected. Neither event is a known outcome at this pre-open cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "pmi-calendar",
+          "fed"
+        ]
+      },
+      {
+        "text": "Current synchronized sector breadth, volume, rates, FX, volatility and commodity panels are incomplete. Earlier Asia/Singapore final-price reconciliation remains open. No NVIDIAmanagement, investigation or export-policy allegation is repeated as an established fact without original verification; an equity-price move is not delivery/revenue/cash evidence.",
+        "kind": "fact",
+        "source_ids": [
+          "evening",
+          "futures"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The dated futures snapshot indicates improved risk appetite versus Friday’s retreat, without establishing an enduring operating recovery.",
+        "transmission": "Lower required risk premiums could support valuation; durable improvement still requires orders, cash conversion and funding evidence.",
+        "confidence": "inference",
+        "alternatives": "Position covering, concentrated technology moves or thin premarket liquidity could produce a bounce without stronger fundamentals.",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "explanation": "The acquisition is a confirmed agreement, while projected integration benefits remain prospective.",
+        "transmission": "Product overlap, procurement and integration choices could affect enterprise cybersecurity budgets and supplier competition.",
+        "confidence": "uncertain",
+        "alternatives": "Approvals, delay, dilution or execution costs could offset potential benefits; no immediate product migration or security improvement is established.",
+        "source_ids": [
+          "deal"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash participation confirms the futures rebound",
+        "outcome": "Several independent cash groups strengthen beyond a narrow technology bounce.",
+        "trigger": "Verified opening breadth, turnover and multiple issuer demand observations agree.",
+        "invalidation": "Participation is concentrated, quotes are stale or cash diverges from futures.",
+        "horizon": "23November US cash session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "name": "Improved sentiment fails the operating test",
+        "outcome": "Valuation recovery outruns realized demand or cash generation.",
+        "trigger": "Orders, margins, funding or collections weaken despite rising prices.",
+        "invalidation": "Original results and broad participation corroborate resilient operations.",
+        "horizon": "23–25November releases and next issuer disclosures",
+        "source_ids": [
+          "bea",
+          "deal"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23November09:30EST /22:30SGT UScash opens; verify real participation",
+        "due_at": "2026-11-23T14:30:00Z",
+        "confirms": "Current cash breadth and sector observations confirm the futures lead.",
+        "contradicts": "Only futures, old quotes or a handful of stocks are available.",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      },
+      {
+        "signal": "23November09:45EST /22:45SGT USflashPMI per earlier calendar extract; verify original release",
+        "due_at": "2026-11-23T14:45:00Z",
+        "confirms": "Actual output, orders, employment and price details qualify demand.",
+        "contradicts": "A schedule or forecast is treated as released data.",
+        "source_ids": [
+          "pmi-calendar"
+        ]
+      },
+      {
+        "signal": "23November16:00EST /24November05:00SGT Williams remarks scheduled",
+        "due_at": "2026-11-23T21:00:00Z",
+        "confirms": "Published actual remarks establish the policy/economic assessment.",
+        "contradicts": "An advisory is mistaken for a statement or decision.",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "signal": "24November06:00SGT USclose-summary target for23Novemberlocal session",
+        "due_at": "2026-11-23T22:00:00Z",
+        "confirms": "Verified final prices,breadth and source clocks support the closing report.",
+        "contradicts": "Premarket or intraday observations are substituted for finals.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T13:00:30Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash anchor; no23Novembercalendar exception listed",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated futures rebound; current cash recovery unproven.",
+        "indicators": "07:01EST indexed futures snapshot only; no synchronized cash-sector breadth or current risk-panel certification.",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No23November UScash information technology return/breadth panel before the official open. The cybersecurity agreement is company evidence, not a technology-sector return.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Compare semiconductors, software and infrastructure; financing commitments are not shipped demand.",
+          "source_ids": [
+            "nyse",
+            "deal"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No23November UScash communication services return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check platforms, telecom and media separately; technology futures are not group breadth.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No23November UScash consumer discretionary return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Verify consumer volumes, margins and financing sensitivity.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No23November UScash consumer staples return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Separate defensive participation from input-cost and pricing-power evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No23November UScash energy return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check producers/refiners and dated oil marks; no commodity-driven equity cause is certified.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No23November UScash financials return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Compare banks and insurers with verified curves, credit and funding.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No23November UScash health care return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check providers and pharmaceuticals separately, using original issuer/regulatory evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No23November UScash industrials return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Test transport, equipment and aerospace orders and cash conversion.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No23November UScash materials return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Compare metals, chemicals and construction demand with consistent price clocks.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No23November UScash real estate return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check occupancy, rent collections and refinancing, not yields alone.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No23November UScash utilities return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Separate contracted power demand from proposed capacity and financing costs.",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "UScustomer demand and funding could affect Asian suppliers, conditional on actual orders.",
+          "trigger": "Original local demand, price breadth and issuer cash evidence corroborate transmission.",
+          "invalidation": "Domestic conditions diverge or only foreign futures are available.",
+          "source_ids": [
+            "futures",
+            "deal"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Enterprise cybersecurity procurement and supplier demand could affect Singapore users and firms; exposure is not confirmed.",
+          "trigger": "Original local demand, price breadth and issuer cash evidence corroborate transmission.",
+          "invalidation": "Domestic conditions diverge or only foreign futures are available.",
+          "source_ids": [
+            "deal",
+            "evening"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "USrisk appetite could qualify Europe’s ongoing session; it is not a European close.",
+          "trigger": "Original local demand, price breadth and issuer cash evidence corroborate transmission.",
+          "invalidation": "Domestic conditions diverge or only foreign futures are available.",
+          "source_ids": [
+            "futures",
+            "evening"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-23-crowdstrike-zscaler-agreement",
+    "title": "Cybersecurity: CrowdStrike–Zscaler agreement is conditional, not completed integration",
+    "summary": "The original23November filing confirms a fixed-share proposed acquisition. Singapore/Asia implications depend on real customer exposure, approvals and implementation; no immediate service change or verified security improvement follows from signing.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "us",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity",
+      "agentic-agents"
+    ],
+    "format": "short",
+    "published_at": "2026-11-23T13:00:30Z",
+    "updated_at": "2026-11-23T13:00:30Z",
+    "cutoff_at": "2026-11-23T13:00:30Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "deal",
+        "title": "Original23November joint issuer release filed as SECexhibit; announcement is not regulatory approval",
+        "publisher": "CrowdStrike and Zscaler / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130801/tm2630454d2_ex99-1.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T12:58:53Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The23November joint release filed with SEC states an all-stock agreement at1.135CrowdStrike shares perZscaler share. ApproximateUS$43.9billion enterprise value is based on20NovemberCrowdStrikeclose. Expected closing is in the second half ofCrowdStrikefiscal2028, subject to Zscaler shareholder approval, regulatory approvals and customary conditions; the companies operate independently until closing.",
+        "kind": "fact",
+        "source_ids": [
+          "deal"
+        ]
+      },
+      {
+        "text": "Management describes potential platform consolidation and synergies. These are forward-looking issuer expectations, not independently verified customer savings, realized revenue or proven protection. No immediate Singapore/Asia customer, outage, contract migration or operational improvement is confirmed by this announcement.",
+        "kind": "fact",
+        "source_ids": [
+          "deal"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Signing establishes a conditional transaction; it does not establish delivered integration.",
+        "transmission": "Singapore/Asia users could face future procurement, compatibility and concentration decisions if they use the products; exposure requires confirmation.",
+        "confidence": "uncertain",
+        "alternatives": "Independent operation, delayed approvals, migration costs and execution risk can offset promised simplification.",
+        "source_ids": [
+          "deal"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Integration delivers measurable customer value",
+        "outcome": "Actual service compatibility and economics improve after approved implementation.",
+        "trigger": "Disclosed milestones and independent customer evidence corroborate benefits.",
+        "invalidation": "Delays, reliability issues or costs outweigh realized benefits.",
+        "horizon": "Approval and implementation milestones; dates not independently fixed",
+        "source_ids": [
+          "deal"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24Novemberdaily source review: registration/proxy filings, approval milestones and actual product notices; review point, not promised filing",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "New original records establish changed terms or implemented customer effects.",
+        "contradicts": "Only the same announcement or marketing claims are repeated.",
+        "source_ids": [
+          "deal"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T13:00:30Z"
+    },
+    "material_reason": null
   }
 ]
