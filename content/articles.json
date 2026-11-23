@@ -56243,5 +56243,465 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-24-asia-open",
+    "title": "Asia pre-open: Japan returns; market-support measures face a cash test",
+    "summary": "Japan’s cash opening is due after its holiday; India’s NSE is closed today. Overnight US recovery is context, not an Asian opening print. Original Korean and Taiwan measures change market mechanics from 24 November, but actual buying and durable earnings improvement are not established. Singapore’s 08:00 economic release is next.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-23T23:09:54Z",
+    "updated_at": "2026-11-23T23:09:54Z",
+    "cutoff_at": "2026-11-23T23:09:01Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "Official2026holiday calendar:23 Novemberclosed;24 Novembernot listed; undated metadata is observation date",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-23T23:06:56Z",
+        "accessed_at": "2026-11-23T23:06:56Z"
+      },
+      {
+        "id": "jpxhours",
+        "title": "Official domestic-stock hours09:00 JSTopen;08:00 JSTorder acceptance differs from cash trading; undated metadata is observation date",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-23T23:06:56Z",
+        "accessed_at": "2026-11-23T23:06:56Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "CircularNSE/CMTR/71775:24 November 2026capital-market holiday",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "final",
+        "title": "23 Novemberfinal major-index scorecard freshly reread; US cash observations only",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/fcdf1bad36b4f81c90cbb0f33a2c5704",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:04Z"
+      },
+      {
+        "id": "fed",
+        "title": "23 Novemberpublished Williams speech summary; actual remarks, not a policy decision",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://tellerwindow.newyorkfed.org/2026/11/23/key-takeaways-from-president-williamss-speech-on-the-economic-outlook-and-monetary-policy-28/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "korea",
+        "title": "23 NovemberFSCdecision:buyback daily order-limit easing24 November 2026–23 February 2027",
+        "publisher": "Financial Services Commission, Republic of Korea",
+        "url": "https://www.fsc.go.kr/eng/pr010101/88191",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "koreaplan",
+        "title": "22 Novemberemergency meeting:prepare stabilization-fund activation as conditions warrant",
+        "publisher": "Ministry of Finance and Economy, Republic of Korea",
+        "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6530",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-23T23:07:31Z"
+      },
+      {
+        "id": "twse",
+        "title": "23 Novemberoriginal Chinese notice:24 Novembermaintenance-ratio and transition measures; DEDL translation",
+        "publisher": "Taiwan Stock Exchange",
+        "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6a19afd9c01a2073bb7af0594.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 Novemberofficial announcement:24 November 08:00 SGTEconomic Survey, not the outcome",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-23T23:06:58Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Original Form8-K: board action22 November, release and signature23 November",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "JPX’s calendar lists23 NovemberLabor Thanksgiving Day, but not24 November. Regular TSE cash opens09:00 JST /08:00 SGT; order acceptance from08:00 JST is not cash trading. This Asia-opening report uses24 Novemberdesk-local date and the07:00 SGTtarget, with an actual later evidence cutoff. Unscheduled halt/operational exceptions remain unverified.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "jpxhours"
+        ]
+      },
+      {
+        "text": "OfficialNSE capital-market circularNSE/CMTR/71775 lists24 November as Prakash Gurpurb Sri Guru Nanak Dev holiday. Japan’s expected opening does not certify all Asian exchanges; the regional basket is partial. The normal NSE-anchored19:00cash-close alert must not imply an Indian cash session today. The distinct evening global watch remains due.",
+        "kind": "fact",
+        "source_ids": [
+          "nsecal",
+          "jpx"
+        ]
+      },
+      {
+        "text": "Freshly reread APfinal scorecard for23 November: S&P 500 7,237.17(+4.7%), Nasdaq Composite 24,089.56(+6.5%) and Dow 49,595.31(+3.0%). These are prior US cash closes. Current Asian cash prices, full 11-sector return/breadth panels, turnover, synchronized futures, FX, bond and commodity observations remain unverified.",
+        "kind": "fact",
+        "source_ids": [
+          "final"
+        ]
+      },
+      {
+        "text": "Korea’s 22 November emergency meeting called for preparations so the stabilization fund can be activated as conditions warrant. The 23 NovemberFSCdecision eases listed-company daily treasury-stock buyback order limits from 24 November 2026 through 23 February 2027. Preparation and permitted buyback capacity are distinct from executed fund purchases or completed corporate repurchases.",
+        "kind": "fact",
+        "source_ids": [
+          "korea",
+          "koreaplan"
+        ]
+      },
+      {
+        "text": "TWSE’s original 23 Novembernotice lowers the minimum margin-account collateral-maintenance ratio from 130%to 120% effective24 November. Below 120% after-close account calculations trigger a margin call, with two business days after notice to make up the difference. Previously notified sub-130% accounts have their calls cancelled under the transition, without collateral disposal. This translation describes the notice’s scope, not a general guarantee against liquidation or investment losses.",
+        "kind": "fact",
+        "source_ids": [
+          "twse"
+        ]
+      },
+      {
+        "text": "The verified NVIDIA filing carried from the06:00review dates board reinstatement22 November and public release/signature23 November. It does not verify resolution of governance concerns or stronger supplier cash flow. The originalNY Fed summary likewise combines resilience with above-target inflation; neither corporate action nor one official’s remarks constitute a new FOMC decision.",
+        "kind": "fact",
+        "source_ids": [
+          "nvda",
+          "fed"
+        ]
+      },
+      {
+        "text": "The 17 Novemberofficial announcement schedules Singapore’s third-quarter Economic Survey for24 November 08:00 SGT, covering overall and sectoral activity and related economic detail. No result is claimed before release. The 08:00canonical daily edition independently remains due; this session report does not replace it.",
+        "kind": "fact",
+        "source_ids": [
+          "sggdp"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Easing margin-call pressure and allowing more buyback capacity can change near-term market supply and demand.",
+        "transmission": "Reduced forced-sale pressure or subsequent corporate purchases could support liquidity; neither automatically raises underlying revenue or cash generation.",
+        "confidence": "inference",
+        "alternatives": "A rebound can be driven by covering, overseas sentiment or temporary liquidity effects; persistent leverage and weak fundamentals may remain.",
+        "source_ids": [
+          "korea",
+          "koreaplan",
+          "twse"
+        ]
+      },
+      {
+        "explanation": "Japan’s first cash session after its holiday must absorb multiple dated overseas developments.",
+        "transmission": "AI-linked valuations, financing conditions and currency translation may transmit the US recovery differently across Asian suppliers and domestic businesses.",
+        "confidence": "inference",
+        "alternatives": "Country composition, accumulated holiday news, company exposure and local funding can overwhelm the overseas signal.",
+        "source_ids": [
+          "jpx",
+          "final",
+          "nvda",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Liquidity support broadens participation",
+        "outcome": "More orderly dealing allows operating evidence to be assessed across a wider market.",
+        "trigger": "Verified cash breadth and actual announced/executed purchases accompany improving orders and collections.",
+        "invalidation": "Gains stay concentrated or funding and forced-sale stress persist despite the measures.",
+        "horizon": "24 Novembercash session and subsequent official/issuer updates",
+        "source_ids": [
+          "korea",
+          "koreaplan",
+          "twse",
+          "jpxhours"
+        ]
+      },
+      {
+        "name": "Relief is temporary",
+        "outcome": "A sentiment-driven opening fails to establish lasting demand or financing improvement.",
+        "trigger": "Local breadth, supplier orders or funding conditions diverge from the US rebound.",
+        "invalidation": "Sustained broad participation and independently verified earnings/cash improvement emerge.",
+        "horizon": "24 Novemberopening follow-through and next original disclosures",
+        "source_ids": [
+          "final",
+          "nvda",
+          "fed",
+          "sggdp"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November 09:00 JST /08:00 SGT Japan cash open; no pre-openTelegram after this instant",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "A dated actual opening and breadth panel become verifiable.",
+        "contradicts": "Order acceptance or prior US prices are substituted for today’s cash opening.",
+        "source_ids": [
+          "jpx",
+          "jpxhours"
+        ]
+      },
+      {
+        "signal": "24 NovemberKorea buyback-limit easing and Taiwan maintenance-ratio transition begin",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Official implementation and actual issuer/activity records clarify the liquidity channel.",
+        "contradicts": "Rule permission or fund preparation is treated as purchases already executed.",
+        "source_ids": [
+          "korea",
+          "koreaplan",
+          "twse"
+        ]
+      },
+      {
+        "signal": "24 November 08:00 SGT Singapore Economic Survey and daily edition",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Original released tables clarify revisions and sectoral demand.",
+        "contradicts": "A scheduled release or advance estimate is presented as the new outcome.",
+        "source_ids": [
+          "sggdp"
+        ]
+      },
+      {
+        "signal": "24 November 19:00 SGT evening global watch; NSEcashholiday retained",
+        "due_at": "2026-11-24T11:00:00Z",
+        "confirms": "Current global sector/filing evidence and a dated India-closure outcome are recorded.",
+        "contradicts": "A fictional Indian closing price or expired alert substitutes for the editorial briefing.",
+        "source_ids": [
+          "nsecal"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T23:09:54Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-24",
+      "calendar_status": "partial",
+      "telegram_clock": {
+        "cash_at": "2026-11-24T00:00:00Z",
+        "source_id": "jpxhours"
+      },
+      "exchanges": [
+        {
+          "name": "TSE Japan cash opening anchor09:00 JST; no24 Novemberholiday listed",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "jpxhours"
+          ]
+        },
+        {
+          "name": "NSE capital-market segment; verified 24 November holiday",
+          "status": "closed",
+          "source_ids": [
+            "nsecal"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Overnight recovery offers conditional relief; Asian cash confirmation is pending.",
+        "indicators": "Prior US final indexes only; no synchronized current Asia sector, breadth, volume, volatility, rates, FX or commodities panel.",
+        "source_ids": [
+          "final",
+          "fed"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Prior US technology-sensitive sentiment is context; no current Asian sector return or breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Test actual semiconductor, packaging, memory, rack and network orders/deliveries against financing and cash conversion.",
+          "source_ids": [
+            "final",
+            "nvda"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Current regional communication-services opening returns and participation are unverified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Compare advertising, subscriptions and operating cash evidence with the initial sentiment move.",
+          "source_ids": [
+            "final"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current regional consumer-discretionary opening or household-spending panel is verified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Test demand, affordability and inventory conversion independently of technology stocks.",
+          "source_ids": [
+            "final",
+            "sggdp"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current regional consumer-staples opening price/volume panel is verified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Check volumes, pricing and input-cost recovery in original operating updates.",
+          "source_ids": [
+            "sggdp"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Current regional energy prices, opening returns and commodity quotes are unverified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Distinguish physical supply, financing and cash sensitivity from broad risk appetite.",
+          "source_ids": [
+            "fed"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Official Korean buyback-rule and Taiwan margin changes are verified; current financial-sector prices and execution are not.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Verify actual purchases, collateral pressure and credit quality before calling liquidity stress resolved.",
+          "source_ids": [
+            "korea",
+            "koreaplan",
+            "twse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Current health-care opening returns, breadth and material issuer outcomes are not verified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Use original regulatory, reimbursement and trial disclosures; a broad rally is insufficient.",
+          "source_ids": [
+            "final"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Current industrials opening returns and order/turnover breadth are unverified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Compare equipment and logistics orders with delivered capacity and collections.",
+          "source_ids": [
+            "sggdp",
+            "nvda"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Current materials opening returns and physical-demand/price panel are unverified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Test inventories, volumes and realized margins against changes in construction and manufacturing.",
+          "source_ids": [
+            "sggdp"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "Current real-estate opening prices, refinancing and occupancy changes are unverified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Separate liquidity relief from underlying rent collections and refinancing costs.",
+          "source_ids": [
+            "fed",
+            "twse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "Current utilities opening returns, capacity delivery and financing changes are unverified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Separate AI-related power expectations from funded projects, commissioning, tariffs and cash.",
+          "source_ids": [
+            "nvda",
+            "fed"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Regional electronics and financing conditions may affect local suppliers; Singapore’s release provides a separate domestic test.",
+          "trigger": "Local breadth, orders, funding and original issuer disclosures confirm the specific transmission.",
+          "invalidation": "Local demand, currency, financing or company exposure produces divergence.",
+          "source_ids": [
+            "nvda",
+            "korea",
+            "twse",
+            "sggdp"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian equipment demand and funding conditions can affect European suppliers; support measures alone do not establish orders.",
+          "trigger": "Local breadth, orders, funding and original issuer disclosures confirm the specific transmission.",
+          "invalidation": "Local demand, currency, financing or company exposure produces divergence.",
+          "source_ids": [
+            "korea",
+            "koreaplan",
+            "twse",
+            "nvda"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Actual Asian supplier deliveries and customer financing may test whether the US valuation rebound is supported by operating evidence.",
+          "trigger": "Local breadth, orders, funding and original issuer disclosures confirm the specific transmission.",
+          "invalidation": "Local demand, currency, financing or company exposure produces divergence.",
+          "source_ids": [
+            "nvda",
+            "final",
+            "fed"
+          ]
+        }
+      ]
+    }
   }
 ]
