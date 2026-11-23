@@ -55821,5 +55821,427 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-23-us-close",
+    "title": "US close: sharp rebound; operating and inflation tests remain",
+    "summary": "Final broad indexes confirm a sharp Monday rebound. NVIDIA’s original filing establishes the management change; the latest US survey still shows growth, while Williams stresses persistent inflation. Complete sector finals and breadth remain unverified. Asia transmission is conditional, with Singapore’s 08:00 release next.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-23T22:04:57Z",
+    "updated_at": "2026-11-23T22:04:57Z",
+    "cutoff_at": "2026-11-23T22:04:57Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Official cash hours and Thanksgiving exceptions; undated page metadata denotes observation date",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:03:50Z"
+      },
+      {
+        "id": "final",
+        "title": "23 November final major-index scorecard",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/fcdf1bad36b4f81c90cbb0f33a2c5704",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:13Z"
+      },
+      {
+        "id": "market",
+        "title": "23 November updated closing report; first-publication time is not the final-data clock",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/49ba1beba78fa4ed2bd5898029f79c91",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:13Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Original Form8-K: board action22November, release and signature23November",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "pmi",
+        "title": "Original November flash US PMI commentary; survey estimates are not realized GDP",
+        "publisher": "S&P Global",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/us-flash-pmi-indicates-still-elevated-but-cooling-business-activity-growth-and-price-pressures",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "fed",
+        "title": "Official summary of Williams23November remarks, replacing advisory-only evidence",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://tellerwindow.newyorkfed.org/2026/11/23/key-takeaways-from-president-williamss-speech-on-the-economic-outlook-and-monetary-policy-28/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 November announcement: 24 November 08:00 SGT Economic Survey",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The23November US regular cash session ended16:00EST /24November05:00SGT. This06:00SGT closing-summary checkpoint uses23Novemberdesk-local date. Thursday26November is closed and Friday27November closes13:00EST; that half-day summary target is28November03:00SGT, with an existing fixed-wake freshness gap. No special-window alert should be back-sent after expiry.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP’s final scorecard: S&P500 7,237.17 (+4.7%); Dow49,595.31 (+3.0%); Nasdaq Composite24,089.56 (+6.5%); Russell2000 2,669.66 (+3.4%). These are closing observations, replacing earlier intraday context. Full constituent breadth, volume and comparable11-sector final returns remain unverified.",
+        "kind": "fact",
+        "source_ids": [
+          "final"
+        ]
+      },
+      {
+        "text": "AP’s updated closing account reports NVIDIA+31.5%. It associates the rebound with Huang’s return, while noting futures had already improved before the announcement. The chronology does not establish one exclusive market cause or certify resolution of governance concerns.",
+        "kind": "fact",
+        "source_ids": [
+          "market"
+        ]
+      },
+      {
+        "text": "NVIDIA’s original8-K states the board reinstated Jen-HsunHuang as President,CEO and a director effective immediately on22November2026. The press release and filing signature are dated23November; ColetteKress continues asEVP/CFO. This establishes corporate action, not exoneration, export-policy relief, improved orders or cash generation. The previously blocked issuer IR page was not retried or bypassed.",
+        "kind": "fact",
+        "source_ids": [
+          "nvda"
+        ]
+      },
+      {
+        "text": "S&P Global reports November flash US composite output PMI54.6 versus55.9 in October, the slowest expansion sinceJuly. New-order growth cooled; manufacturing supplier delays lengthened. Price pressure eased but remained elevated. This is an early survey, with possible revision and sampling effects, not realizedGDP or a central-bank decision.",
+        "kind": "fact",
+        "source_ids": [
+          "pmi"
+        ]
+      },
+      {
+        "text": "The NewYorkFed’s published summary of Williams’23November remarks describes resilient demand and a stable labor market alongside inflation above target. His message retains the need to bring inflation sustainably to2%. Actual remarks now replace the earlier scheduled-advisory gap; they do not constitute a new FOMCdecision.",
+        "kind": "fact",
+        "source_ids": [
+          "fed"
+        ]
+      },
+      {
+        "text": "Singapore’s announced24November08:00SGT Economic Survey and25NovemberBEA releases remain upcoming checkpoints. Today’s08:00 canonical edition is not yet due; the23Novemberedition and earlier accepted session messages are reused. No current holdings, valuation screen or portfolio action is established by this closing report.",
+        "kind": "fact",
+        "source_ids": [
+          "sggdp",
+          "bea"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A company-specific management catalyst coincided with an unusually strong recovery.",
+        "transmission": "Changes in perceived governance risk and discount rates can affect AI-linked valuations and suppliers before operating results change.",
+        "confidence": "inference",
+        "alternatives": "Pre-existing futures gains, position covering and portfolio rebalancing can also contribute; the management event alone cannot explain all returns.",
+        "source_ids": [
+          "market",
+          "nvda"
+        ]
+      },
+      {
+        "explanation": "Survey expansion and persistent inflation can coexist.",
+        "transmission": "Demand supports revenue opportunities while financing, input constraints and cash conversion can limit margins.",
+        "confidence": "inference",
+        "alternatives": "Survey mix, seasonal effects and eventual revisions could change the apparent strength; no synchronized rates or FX final is verified.",
+        "source_ids": [
+          "pmi",
+          "fed"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating follow-through broadens",
+        "outcome": "Orders and cash evidence validate more of the valuation recovery.",
+        "trigger": "Independent final breadth and subsequent original supplier/customer disclosures improve together.",
+        "invalidation": "The rebound remains concentrated while orders, collections or margins weaken.",
+        "horizon": "24–25November official releases and subsequent issuer evidence",
+        "source_ids": [
+          "nvda",
+          "pmi",
+          "sggdp",
+          "bea"
+        ]
+      },
+      {
+        "name": "Rebound outruns fundamentals",
+        "outcome": "Valuation recovery remains fragile under persistent inflation and uneven demand.",
+        "trigger": "Funding stays restrictive or original operating evidence fails to confirm the expected recovery.",
+        "invalidation": "Broader sustained demand and cash generation emerge with easing price pressure.",
+        "horizon": "Next official data and issuer follow-ups",
+        "source_ids": [
+          "pmi",
+          "fed"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24November07:00SGT Asia pre-open calendar and current-source check",
+        "due_at": "2026-11-23T23:00:00Z",
+        "confirms": "Current exchange clocks and local evidence support a live opening scenario.",
+        "contradicts": "An earlier US rebound is treated as an automatic Asian outcome.",
+        "source_ids": [
+          "nyse",
+          "pmi"
+        ]
+      },
+      {
+        "signal": "24November08:00SGT Singapore Economic Survey",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Original revised sector tables support the local demand interpretation.",
+        "contradicts": "A preliminary estimate or scheduled announcement is presented as the released result.",
+        "source_ids": [
+          "sggdp"
+        ]
+      },
+      {
+        "signal": "25NovemberBEA releases: verify official calendar time and original results",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Actual published tables clarify demand and inflation.",
+        "contradicts": "Consensus or survey projections substitute for the official outcome.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "27NovemberNYSEhalf-day:28November03:00SGT summary target,04:00expiry",
+        "due_at": "2026-11-27T19:00:00Z",
+        "confirms": "A reviewed report is available inside the verified special freshness window.",
+        "contradicts": "The05:00fixed wake attempts an expired Telegram alert; use honestly dated web-only catch-up instead.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T22:04:57Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash anchor; live halt exceptions not independently certified",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Sharp broad-index rebound; sustainable operating follow-through remains a scenario.",
+        "indicators": "Final major indexes available; complete sector returns, constituent breadth, volume, volatility, rates, FX and commodities panel incomplete.",
+        "source_ids": [
+          "final"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Separate original governance confirmation from chip demand, export access, delivered capacity and cash.",
+          "source_ids": [
+            "final",
+            "nvda"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Compare advertising, subscriptions and network cash evidence; headline risk appetite is insufficient.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Test household demand, credit affordability and realized margins.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Check pricing, mix and input-cost recovery against volumes.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Verify energy prices and issuer cash sensitivity; no synchronized commodity final certified.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Compare funding costs, credit quality and loan growth rather than assume a rate benefit.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Use issuer approvals, reimbursement and trial evidence; no broad sector catalyst established.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Test actual equipment orders, delivery constraints and collections.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Compare physical demand, prices and inventory rather than a headline index.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Check refinancing, occupancy and cash distribution coverage.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November US final sector return and breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Separate demand for power capacity from financing, tariffs and realized returns.",
+          "source_ids": [
+            "final",
+            "pmi"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "AI supplier sentiment could improve, but delivered capacity, demand and cash determine actual exposure.",
+          "trigger": "Original local prices, orders and issuer evidence confirm the specific channel.",
+          "invalidation": "Domestic demand, currency or financing conditions diverge; a US move alone is insufficient.",
+          "source_ids": [
+            "pmi",
+            "fed",
+            "nvda"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Financing, electronics demand and power infrastructure can transmit US changes; the08:00local survey tests actual growth.",
+          "trigger": "Original local prices, orders and issuer evidence confirm the specific channel.",
+          "invalidation": "Domestic demand, currency or financing conditions diverge; a US move alone is insufficient.",
+          "source_ids": [
+            "pmi",
+            "fed",
+            "nvda",
+            "sggdp"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Supplier orders and discount rates may respond, while domestic demand and funding can produce divergence.",
+          "trigger": "Original local prices, orders and issuer evidence confirm the specific channel.",
+          "invalidation": "Domestic demand, currency or financing conditions diverge; a US move alone is insufficient.",
+          "source_ids": [
+            "pmi",
+            "fed",
+            "nvda"
+          ]
+        }
+      ]
+    }
   }
 ]
