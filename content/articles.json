@@ -53106,5 +53106,392 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-23-europe-open",
+    "title": "London pre-open: PMI test after Friday’s risk retreat",
+    "summary": "Delayed from the 15:00 SGT target, before London cash opens at 16:00. Friday’s risk retreat is dated context, not a Monday opening print. November flash PMIs are still ahead. Singapore inflation easing is reported by CNA; original-table reconciliation remains open. All 11 current European sector panels remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-23T07:03:55Z",
+    "updated_at": "2026-11-23T07:03:55Z",
+    "cutoff_at": "2026-11-23T07:03:55Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Undated page; metadata date is observation date. Official business days: no 23 November holiday/half-day exception listed",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "hours",
+        "title": "Undated page; metadata date is observation date. Business parameters spreadsheet: SETS opening 08:00, closing auction starts 16:30 London time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/content/dam/lse/en_us/documents/technical-library/millennium-exchange-and-tradecho-business-parameters.xlsx",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:01:17Z"
+      },
+      {
+        "id": "lse-data",
+        "title": "Undated page; metadata date is observation date. Public equity reader: navigation visible, no current price/breadth panel exposed",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/market-data/equity",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "uob",
+        "title": "23 November bank commentary; selected market observations explicitly refer to Friday 20 November",
+        "publisher": "UOB Global Economics & Markets Research",
+        "url": "https://www.uobgroup.com/assets/web-resources/research/pdf/MO_261123.pdf",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:01:22Z"
+      },
+      {
+        "id": "pmi",
+        "title": "19 November original preview: November flash surveys on 23 November, Japan on 24 November",
+        "publisher": "S&P Global",
+        "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/five-things-to-watch-in-the-november-flash-pmis",
+        "type": "primary",
+        "published_at": "2026-11-19",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "pmi-calendar",
+        "title": "Undated page; metadata date is observation date. November/December release calendar: search-index times only; direct PDF returned 403, not a full original read",
+        "publisher": "S&P Global",
+        "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "cna",
+        "title": "23 November 13:00 SGT, updated 13:19: October inflation report; full text read, original tables inaccessible",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/october-core-inflation-price-pressures-2027-6573951",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:02:26Z"
+      },
+      {
+        "id": "mas",
+        "title": "October release dated 23 November in search index; direct reader returned Maintenance, not release tables",
+        "publisher": "Monetary Authority of Singapore",
+        "url": "https://www.mas.gov.sg/news/consumer-price-developments/2026/consumer-price-developments-in-october-2026",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:01:18Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London is on GMT; the official regular SETS opening is 08:00 GMT / 16:00 SGT. No 23 November closure or half-day appears in the exchange calendar. This report is prepared after the 15:00 SGT alert target but before cash open; it does not certify live halts or opening prices.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "UOB’s 23 November note reports Friday 20 November S&P 500 about 6,910 (−3.7%), Nasdaq about 22,618 (−5.3%), VIX 35.89 and US 10-year Treasury yield 4.95%. These bank-reported prior-session observations are not synchronized Monday prices.",
+        "kind": "fact",
+        "source_ids": [
+          "uob"
+        ]
+      },
+      {
+        "text": "S&P Global’s original preview dates November flash surveys for Europe, UK and US to 23 November. Its calendar search extract lists France 08:15, Germany 08:30, eurozone 09:00, UK 09:30 and US 14:45 UTC (16:15, 16:30, 17:00, 17:30 and 22:45 SGT). Direct calendar access returned 403; times are provisional discovery evidence, not verified release outcomes.",
+        "kind": "fact",
+        "source_ids": [
+          "pmi",
+          "pmi-calendar"
+        ]
+      },
+      {
+        "text": "CNA reports October Singapore core inflation at 1.5% year-on-year versus September 2.0%, and headline at 1.9% versus 2.2%. This is secondary reporting of official figures, not a completed original-table check: SingStat returned 403 and MAS returned a maintenance page. CNA attributes easing partly to electricity and services; it also reports upside import-cost risks.",
+        "kind": "fact",
+        "source_ids": [
+          "cna",
+          "mas"
+        ]
+      },
+      {
+        "text": "The public LSE equity reader exposed navigation but no usable current price/breadth table. All 11 sector rows therefore retain DATA INCOMPLETE; a foreign index, inflation category or isolated issuer is not a European sector return. Fresh futures, sterling, gilt, volatility and turnover panels remain gaps.",
+        "kind": "fact",
+        "source_ids": [
+          "lse-data"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The dated cross-asset combination supports a prior risk-retreat interpretation; it does not establish Monday’s direction or a unique cause.",
+        "transmission": "Higher uncertainty could restrain investment and financing; PMI activity, orders and pricing evidence can test the demand channel.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, index concentration and lower discount rates could produce a rebound even if the prior decline looked broad.",
+        "source_ids": [
+          "uob",
+          "pmi"
+        ]
+      },
+      {
+        "explanation": "Reported Singapore disinflation could reduce some domestic cost pressure.",
+        "transmission": "Conditional relief to household spending and business input costs depends on persistence and local pricing power; no European market effect is established.",
+        "confidence": "uncertain",
+        "alternatives": "A regulated-tariff adjustment or base effects may explain easing while imported costs remain firm; a lower annual rate is not general price deflation.",
+        "source_ids": [
+          "cna"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Demand evidence stabilizes",
+        "outcome": "Cash participation broadens beyond a few large companies.",
+        "trigger": "Released activity and order evidence holds up, with easing prices and corroborating breadth.",
+        "invalidation": "Stronger prices coincide with weaker orders, or apparent gains are concentrated.",
+        "horizon": "23 November Europe cash session and PMI releases",
+        "source_ids": [
+          "pmi",
+          "lse"
+        ]
+      },
+      {
+        "name": "Friday’s retreat persists",
+        "outcome": "Several European cash sectors weaken alongside tighter funding conditions.",
+        "trigger": "Current breadth, issuer demand and rates corroborate weaker risk appetite.",
+        "invalidation": "Rates ease and multiple cyclical and defensive groups recover together.",
+        "horizon": "23 November London open through close",
+        "source_ids": [
+          "uob",
+          "hours"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23 November London SETS cash opens 08:00 GMT / 16:00 SGT; verify actual breadth and prices",
+        "due_at": "2026-11-23T08:00:00Z",
+        "confirms": "Dated cash participation establishes whether the prior lead persists.",
+        "contradicts": "Only Friday prices, futures or a single issuer are available.",
+        "source_ids": [
+          "hours",
+          "lse-data"
+        ]
+      },
+      {
+        "signal": "23 November eurozone flash PMI: calendar extract 09:00 UTC / 17:00 SGT; reconfirm published release",
+        "due_at": "2026-11-23T09:00:00Z",
+        "confirms": "Original released tables distinguish activity, orders and price pressure.",
+        "contradicts": "A calendar or forecast is mistaken for a result.",
+        "source_ids": [
+          "pmi",
+          "pmi-calendar"
+        ]
+      },
+      {
+        "signal": "23 November UK flash PMI: calendar extract 09:30 GMT / 17:30 SGT; reconfirm published release",
+        "due_at": "2026-11-23T09:30:00Z",
+        "confirms": "Actual activity, employment and pricing data support or reject resilience.",
+        "contradicts": "No original release, or headline strength masks weaker orders.",
+        "source_ids": [
+          "pmi",
+          "pmi-calendar"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T07:03:55Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London Stock Exchange SETS cash anchor; continental venues not individually certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Prior-session risk retreat; current European pre-open breadth unverified.",
+        "indicators": "Friday bank-reported equity, volatility and bond observations retain their dates. No current synchronized European sentiment panel.",
+        "source_ids": [
+          "uob",
+          "lse-data"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European information technology cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Compare software and semiconductor breadth with issuer orders; AI investment commitments are not delivered revenue.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European communication services cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Compare media, telecom and platform participation; do not infer the group from technology stocks.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European consumer discretionary cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Test household demand against margins, financing costs and released PMI evidence.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European consumer staples cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Compare pricing power and input costs; lower inflation can coexist with weak volumes.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European energy cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Verify current crude and producer/refiner dispersion; Friday settlements are not today’s price.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European financials cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Compare banks and insurers with dated curves, credit and funding; falling yields can help borrowers but pressure margins.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European health care cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Check separate pharmaceutical and provider demand, costs and issuer evidence.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European industrials cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Test orders and production against PMI components and company backlog quality.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European materials cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Compare metals, chemicals and construction demand against original orders and current prices.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European real estate cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Check funding costs, rents, occupancy and refinancing; lower yields alone do not establish cash-flow improvement.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November European utilities cash-sector return or breadth at this pre-open cutoff.",
+          "implication": "Research/watch only; no sector direction or investment action is inferred.",
+          "watchpoint": "Separate power prices, regulated tariffs, financing and commissioned demand from proposals.",
+          "source_ids": [
+            "lse-data"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "us",
+          "scenario": "European demand and funding evidence could qualify the US risk lead.",
+          "trigger": "Original PMI releases and European breadth corroborate company demand before US cash opens.",
+          "invalidation": "Country composition or domestic US evidence produces divergence.",
+          "source_ids": [
+            "pmi",
+            "uob"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "European customer demand and reported local inflation could affect exporters, consumers and funding conditions.",
+          "trigger": "Verified orders, local breadth and original inflation tables corroborate a specific channel.",
+          "invalidation": "A tariff/base effect or local company evidence offsets the external narrative.",
+          "source_ids": [
+            "pmi",
+            "cna",
+            "mas"
+          ]
+        },
+        {
+          "market": "asia",
+          "scenario": "European demand could affect Asian suppliers; regional venues and clocks remain distinct.",
+          "trigger": "Actual export orders and issuer delivery evidence corroborate the channel.",
+          "invalidation": "Domestic demand offsets exports or index concentration explains the move.",
+          "source_ids": [
+            "pmi"
+          ]
+        }
+      ]
+    }
   }
 ]
