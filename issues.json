@@ -5,6 +5,46 @@
   "latest": "2026-11-21",
   "issues": [
     {
+      "date": "2026-11-23",
+      "number": 71,
+      "title": "Singapore inflation watch, dated cyber evidence and regional continuity",
+      "status": "DATA INCOMPLETE · delayed Monday edition",
+      "path": "issues/2026/11/23/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-23-v1",
+        "delivery_notice": "Delayed edition: apologies for missing the 08:00 target. This is today’s full canonical briefing; source cutoffs and actual delivery are recorded separately.",
+        "summary": "Singapore CPI is scheduled today; no result is claimed. Japan cash is closed. Later Baltic rescue evidence narrows immediate-risk claims, while dated cyber guidance needs an exposure test. All five market lanes remain DATA INCOMPLETE. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "Baltic response moves to towing",
+            "date": "22 Nov · later official update",
+            "context": "The authority reports no observed fuel or hazardous-material leak. A later readiness stand-down does not settle attribution or all environmental risk.",
+            "source": "https://www.epressi.com/tiedotteet/turvallisuus/pelastustoiminta-jatkuu-sparta-ii-aluksen-hinauksella.html"
+          },
+          {
+            "title": "Agentic warning: old date, current review",
+            "date": "13 Nov · FBI FLASH",
+            "context": "Newly reviewed original guidance is not a new incident. Singapore exposure depends on actual affected systems and supplier links.",
+            "source": "https://www.ic3.gov/CSA/2026/261113.pdf"
+          },
+          {
+            "title": "Singapore–Brunei institutional review",
+            "date": "21 Nov · source event",
+            "context": "Monday’s strategic review separates bilateral continuity from any claim of a new deployment or measured commercial gain.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/21nov26-nr/"
+          }
+        ],
+        "market_note": "SGX normal cash opens 09:00 SGT; current halt/price panel remains unverified. Japan cash is holiday-closed. Friday US sector observations and the ECB 20 Nov fix retain their dates. No local opening print or portfolio action is inferred."
+      }
+    },
+    {
       "date": "2026-11-22",
       "number": 70,
       "title": "Maritime risk, cyber verification and a holiday-shortened week",

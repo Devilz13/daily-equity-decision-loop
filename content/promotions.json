@@ -91,8 +91,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-21T00:21:31Z",
-      "review_due_at": "2026-11-22T00:21:31Z",
+      "verified_at": "2026-11-23T00:04:17Z",
+      "review_due_at": "2026-11-24T00:04:17Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -126,6 +126,10 @@
         {
           "at": "2026-11-21T00:21:31Z",
           "change": "21 November: current 365 product and full 12 November welcome PDF rechecked; shared welcome terms cover NXT. November–December 365 S$365/NXT S$300, S$800/60 days/approval Day 1, direct channels, 12-month lookback/retention, 30-day approval, one gift, transaction-date Singapore clock, exclusions/refunds and fulfilment retained. 365 principal fee S$196.20 with first two years waived; separate NXT fee/product recertification is not implied."
+        },
+        {
+          "at": "2026-11-23T00:04:17Z",
+          "change": "23 November: original product/full welcome terms rechecked. 365 S$365 and NXT S$300, S$800/60 days, direct channels, approval/lookback/retention, exclusions, one gift and fulfilment retained. NXT separate product/fee scope not implied."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -144,8 +148,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-21T00:21:31Z",
-      "review_due_at": "2026-11-22T00:21:31Z",
+      "verified_at": "2026-11-23T00:04:17Z",
+      "review_due_at": "2026-11-24T00:04:17Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -179,6 +183,10 @@
         {
           "at": "2026-11-21T00:21:31Z",
           "change": "21 November: current INFINITY product and full 12 November welcome PDF rechecked. 1.6% base +14.4% bonus on first S$2,000/60 days, S$288 bonus cap/no minimum, direct applications, 12-month lookback/retention, 30-day approval, one gift, transaction-date Singapore clock, exclusions/refunds and fulfilment retained. Principal annual fee S$196.20, first year waived. Clarified eligibility without reference to the now-different 365 gift amount."
+        },
+        {
+          "at": "2026-11-23T00:04:17Z",
+          "change": "23 November: original product/full welcome terms rechecked. 1.6% base plus14.4% bonus/firstS$2,000, S$288 bonus cap/no minimum; eligibility, refunds, standing, 60-day spend and fulfilment retained."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -196,8 +204,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-21T00:21:31Z",
-      "review_due_at": "2026-11-22T00:21:31Z",
+      "verified_at": "2026-11-23T00:04:17Z",
+      "review_due_at": "2026-11-24T00:04:17Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -219,6 +227,10 @@
         {
           "at": "2026-11-21T00:21:31Z",
           "change": "21 November: current product, full welcome PDF and base agreement checked. Online/new-principal/12-month lookback, 30-day approval, S$800 minimum, opening month plus two calendar months, 1.6% base +6.4% bonus/first S$4,000/S$256 bonus cap, exclusions, refunds, one gift, account standing and three-month fulfilment retained. Product annual principal fee S$196.20 incl. GST. Governing spend window controls over product shorthand. Separate Citi Plus bonus programme is not recertified."
+        },
+        {
+          "at": "2026-11-23T00:04:17Z",
+          "change": "23 November: original product/full welcome terms and base cashback clauses checked. Eligibility, S$800 minimum, 6.4% bonus/S$256 cap, opening month plus two months, exclusions and fulfilment retained; separate bonus programme not recertified."
         }
       ],
       "id": "citi-cashback-plus-welcome-mar2027",
@@ -368,8 +380,8 @@
       "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
     },
     {
-      "verified_at": "2026-11-21T00:21:31Z",
-      "review_due_at": "2026-11-22T00:21:31Z",
+      "verified_at": "2026-11-23T00:04:17Z",
+      "review_due_at": "2026-11-24T00:04:17Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -391,6 +403,10 @@
         {
           "at": "2026-11-21T00:21:31Z",
           "change": "21 November: current product, full 1 November programme, 4 November exclusions and issuer fee schedule reviewed. Corrected omitted advertising-platform exceptions: 1% full payment or 0.5% instalments, no minimum/cap under clauses 2C/2D, specified merchants only and no mobile-wallet payments. S$800/S$160 applies to clause 2A categories; base remains 0.25%. Annual principal S$196.20, first two years waived, later S$10,000 annual-spend waiver; refunds/posting and merchant exclusions govern. No personal eligibility inference."
+        },
+        {
+          "at": "2026-11-23T00:04:17Z",
+          "change": "23 November: original product, full programme and4November exclusions checked. Category6%/S$800/S$160, Watsons transition, 0.25%base, advertising exceptions, posting/refunds, fee waivers and eligibility retained. No suitability claim."
         }
       ],
       "id": "ocbc-365",
@@ -407,8 +423,8 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
     },
     {
-      "verified_at": "2026-11-21T00:21:31Z",
-      "review_due_at": "2026-11-22T00:21:31Z",
+      "verified_at": "2026-11-23T00:04:17Z",
+      "review_due_at": "2026-11-24T00:04:17Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -430,6 +446,10 @@
         {
           "at": "2026-11-21T00:21:31Z",
           "change": "21 November: current product, full programme, 4 November exclusions and fee schedule reviewed. Base 1.6%, no minimum/cap, following-month principal-account credit and reversals retained. Principal annual fee S$196.20, first year waived, later S$10,000 eligible annual spend for automatic waiver. Exclusions include hospital/medical-equipment and specified property/cleaning/parking MCCs and PAY+EARN; utilities exception for 365 does not apply to INFINITY. FX fees can exceed reward."
+        },
+        {
+          "at": "2026-11-23T00:04:17Z",
+          "change": "23 November: original product, full programme and4November exclusions checked. Base1.6% without minimum/cap, posted transactions/refunds, principal-account credit, fees/waivers and exclusions retained. FX costs can exceed rewards."
         }
       ],
       "id": "ocbc-infinity",

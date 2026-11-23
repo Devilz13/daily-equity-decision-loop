@@ -51677,7 +51677,7 @@
     ],
     "format": "material-update",
     "published_at": "2026-11-22T00:10:20Z",
-    "updated_at": "2026-11-22T00:10:20Z",
+    "updated_at": "2026-11-23T00:04:17Z",
     "cutoff_at": "2026-11-22T00:06:47Z",
     "status": "published",
     "sources": [
@@ -51689,6 +51689,24 @@
         "type": "primary",
         "published_at": "2026-11-21",
         "accessed_at": "2026-11-22T00:04:55Z"
+      },
+      {
+        "id": "helsinki",
+        "title": "22 November 19:38:48 EET preparedness stand-down",
+        "publisher": "Helsinki Rescue Department via STT Info",
+        "url": "https://api.sttinfo.fi/tiedote/72525266/sparta-ii-alukseen-liittyva-pelastustoimen-varautumistehtava-suomenlahdella-on-paattynyt?lang=fi&publisherId=69817736",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T23:59:19Z"
+      },
+      {
+        "id": "ship-later",
+        "title": "22 November 17:28 EET towing update",
+        "publisher": "Finnish Border Guard via ePressi",
+        "url": "https://www.epressi.com/tiedotteet/turvallisuus/pelastustoiminta-jatkuu-sparta-ii-aluksen-hinauksella.html",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T23:59:18Z"
       }
     ],
     "claims": [
@@ -51741,13 +51759,23 @@
         ]
       }
     ],
-    "corrections": [],
+    "corrections": [
+      {
+        "at": "2026-11-23T00:04:17Z",
+        "reason": "Later original rescue statements became available after the original cutoff.",
+        "change": "22 November 17:28 EET: towing began, with the authority reporting no observed fuel/hazardous-material leak. At 19:38:48 EET Helsinki’s rescue department said precautionary oil-response readiness had ended and normal readiness resumed. These later scopes do not prove all environmental risk ended or establish incident attribution. Original cutoff/publication preserved; no tactical details added.",
+        "source_ids": [
+          "ship-later",
+          "helsinki"
+        ]
+      }
+    ],
     "review": {
       "evidence_checked": true,
       "privacy_checked": true,
       "public_safe": true,
       "strategic_only": true,
-      "reviewed_at": "2026-11-22T00:10:20Z"
+      "reviewed_at": "2026-11-23T00:04:17Z"
     },
     "material_reason": "New vessel casualty/rescue in the Baltic with environmental and transport relevance; strategic-only, no tactical assets, coordinates or targeting information."
   },
@@ -52579,6 +52607,501 @@
           "outcome": "Valley Forge Capital Management, LP (CIK 1697868): latest 13F-HR period 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007. No newer 13F in this fresh index; unchanged since the morning. No fresh line-item comparison or archive completion is claimed. No new filing is not evidence of no trading.",
           "source_ids": [
             "sec1697868"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-23-brunei-defence-review",
+    "title": "Singapore–Brunei review: institutional continuity, not an escalation signal",
+    "summary": "Monday review of a dated bilateral event; no new operational outcome is inferred.",
+    "channel": "military",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "short",
+    "published_at": "2026-11-23T00:04:17Z",
+    "updated_at": "2026-11-23T00:04:17Z",
+    "cutoff_at": "2026-11-23T00:04:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "brunei",
+        "title": "21 November defence-relations commemoration; Monday review",
+        "publisher": "MINDEF",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/21nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-21",
+        "accessed_at": "2026-11-23T00:04:17Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MINDEF dates the anniversary closing dinner to 21 November. It describes continuing bilateral cooperation. A commemoration is not evidence of a fresh threat or deployment.",
+        "kind": "fact",
+        "source_ids": [
+          "brunei"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Institutional engagement can support continuity.",
+        "transmission": "Singapore relevance is direct through its bilateral relationship; wider commercial benefits remain conditional.",
+        "alternatives": "Ceremonial continuity alone measures neither readiness nor deterrence.",
+        "confidence": "inference",
+        "source_ids": [
+          "brunei"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence determines the operating effect",
+        "outcome": "A dated primary outcome can strengthen or weaken the interpretation.",
+        "trigger": "New comparable operating evidence supports the stated transmission.",
+        "invalidation": "Only ceremony, recycled reporting or unmatched observations remain.",
+        "horizon": "Next original update",
+        "source_ids": [
+          "brunei"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "25 November review: original bilateral follow-through; review date only",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Documented commitments and outcomes.",
+        "contradicts": "Only ceremonial repetition.",
+        "source_ids": [
+          "brunei"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-23T00:04:17Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-23-agentic-cyber-warning-review",
+    "title": "Agentic cyber risk: a dated FBI warning, with Singapore exposure still conditional",
+    "summary": "The original 13 November warning is newly reviewed here; it is not a new 23 November incident.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cyber-frontier"
+    ],
+    "format": "short",
+    "published_at": "2026-11-23T00:04:17Z",
+    "updated_at": "2026-11-23T00:04:17Z",
+    "cutoff_at": "2026-11-23T00:04:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "fbi",
+        "title": "13 November FLASH; original dated warning, not a fresh incident",
+        "publisher": "FBI IC3",
+        "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+        "type": "primary",
+        "published_at": "2026-11-13",
+        "accessed_at": "2026-11-23T00:00:22Z"
+      },
+      {
+        "id": "csa",
+        "title": "Current official alert register; newest visible entry 20 November",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T00:04:17Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The FBI’s 13 November FLASH describes malicious use of an agentic testing framework across sectors. This is the bureau’s dated assessment; no local victim, new attack or unrelated-outage linkage is established here.",
+        "kind": "fact",
+        "source_ids": [
+          "fbi"
+        ]
+      },
+      {
+        "text": "The current CSA index still shows 20 November PHP as its newest visible alert. This bounded check is not a complete global incident census.",
+        "kind": "fact",
+        "source_ids": [
+          "csa"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Automation can compress defenders’ response windows.",
+        "transmission": "Singapore exposure is conditional on vulnerable services and supplier trust.",
+        "alternatives": "An alert is not a measured attack rate or proof that all outages share a cause.",
+        "source_ids": [
+          "fbi"
+        ],
+        "confidence": "inference"
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence determines the operating effect",
+        "outcome": "A dated primary outcome can strengthen or weaken the interpretation.",
+        "trigger": "New comparable operating evidence supports the stated transmission.",
+        "invalidation": "Only ceremony, recycled reporting or unmatched observations remain.",
+        "horizon": "Next original update",
+        "source_ids": [
+          "fbi"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November review: operator notices and defensive follow-through",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Verified affected services and remediation.",
+        "contradicts": "Uncorroborated general claims.",
+        "source_ids": [
+          "fbi",
+          "csa"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T00:04:17Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-23-singapore-open",
+    "title": "Singapore pre-open: a local inflation checkpoint while Japan cash is closed",
+    "summary": "Normal SGX cash opening is 09:00 SGT. Singapore CPI is scheduled today; Japan cash is closed. No current cash print is claimed. The opening context travels in the daily digest.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-23T00:04:17Z",
+    "updated_at": "2026-11-23T00:04:17Z",
+    "cutoff_at": "2026-11-23T00:04:17Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgclock",
+        "title": "Normal cash hours and Trade at Close; dated primary rule PDF",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-22T23:59:18Z"
+      },
+      {
+        "id": "mom",
+        "title": "Gazetted public holidays; no 23 November holiday",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-22T23:59:20Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Current trading reader: browser-warning shell",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T23:59:17Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-23T00:04:17Z"
+      },
+      {
+        "id": "singstat",
+        "title": "Current official release calendar; search-index entries and dated calendar checked",
+        "publisher": "Singapore Department of Statistics",
+        "url": "https://www.singstat.gov.sg/data-tools-services/advance-release-calendar",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-23T00:04:17Z"
+      },
+      {
+        "id": "sector",
+        "title": "Later 20 November provider closing table; public web retrieval preceded separate direct HTTP 403",
+        "publisher": "Quantisnow",
+        "url": "https://www.quantisnow.com/sector-performance",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:26Z"
+      },
+      {
+        "id": "usclose",
+        "title": "Prior US closing report; original cutoff 20 November 22:08:14 UTC retained",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-20-us-close/",
+        "type": "secondary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-21T10:57:54Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The dated SGX rule PDF specifies normal 09:00 cash opening and Trade at Close ending 17:16; MOM lists no 23 November public holiday. The current SGX reader remains a browser-warning shell, so live halt/price status is not certified.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclock",
+          "mom",
+          "sgx"
+        ]
+      },
+      {
+        "text": "JPX lists 23 November Labor Thanksgiving Day closure. Singapore October CPI is scheduled today; no release figure or independently verified release hour is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "singstat"
+        ]
+      },
+      {
+        "text": "Friday US observations remain dated context, not Singapore opening returns. Current Singapore breadth, turnover and all eleven sector panels are incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "sector",
+          "usclose"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Local data and a closed Japanese anchor can produce a different regional pattern from the prior US lead.",
+        "transmission": "Banks, REIT financing and domestic consumer margins require actual local participation and comparable inflation components.",
+        "alternatives": "Index weights, domestic earnings and currencies may offset external risk; a calendar event alone has no directional implication.",
+        "confidence": "inference",
+        "source_ids": [
+          "singstat",
+          "jpx",
+          "usclose"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Local breadth confirms external weakness",
+        "outcome": "Weakness appears across several domestic groups.",
+        "trigger": "Verified cash breadth and bank, industrial and REIT participation agree.",
+        "invalidation": "Local breadth improves or only a few foreign-sensitive names decline.",
+        "horizon": "23 November Singapore cash session",
+        "source_ids": [
+          "sgclock",
+          "usclose"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23 November normal SGX cash opening; verify actual venue/issuer notices",
+        "due_at": "2026-11-23T01:00:00Z",
+        "confirms": "Dated cash breadth and volume establish participation.",
+        "contradicts": "Stale foreign marks do not establish a local opening.",
+        "source_ids": [
+          "sgclock"
+        ]
+      },
+      {
+        "signal": "23 November CPI scheduled; 13:00 SGT is a review checkpoint, release hour unverified",
+        "due_at": "2026-11-23T05:00:00Z",
+        "confirms": "Original released figures and comparable components.",
+        "contradicts": "Calendar or consensus is not an outcome.",
+        "source_ids": [
+          "singstat"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T00:04:17Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-23",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "Singapore Exchange — regular cash anchor",
+          "status": "verified-session",
+          "source_ids": [
+            "sgclock",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated weak US lead; local cash not yet observed.",
+        "indicators": "No current local breadth, turnover or executable FX panel.",
+        "source_ids": [
+          "usclose"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore information technology cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check memory, foundry/packaging, equipment and networking breadth against shipment evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore communication services cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare platforms, media and telecom participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore consumer discretionary cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare autos, retailers and travel with local demand evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore consumer staples cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check participation across several defensive names.",
+          "source_ids": []
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore energy cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare producers and refiners against dated crude and currency marks.",
+          "source_ids": []
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore financials cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare banks and insurers with local curves and credit evidence.",
+          "source_ids": []
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore health care cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check providers and pharma separately.",
+          "source_ids": []
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore industrials cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare equipment, transport and aerospace participation.",
+          "source_ids": []
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore materials cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Compare miners and chemicals against dated metals and currencies.",
+          "source_ids": []
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore real estate cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check property/REIT breadth, occupancy and funding terms.",
+          "source_ids": []
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified 23 November Singapore utilities cash-sector panel before cash opens.",
+          "implication": "Prior US observations do not establish the Singapore sector return.",
+          "watchpoint": "Check contracted power demand and commissioned projects, not proposed capacity.",
+          "source_ids": []
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Verified Singapore participation could qualify the external lead; no cross-market causation assumed.",
+          "trigger": "Dated cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Domestic evidence diverges or only foreign prices are available.",
+          "source_ids": [
+            "usclose"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Verified Singapore participation could qualify the external lead; no cross-market causation assumed.",
+          "trigger": "Dated cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Domestic evidence diverges or only foreign prices are available.",
+          "source_ids": [
+            "usclose"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Verified Singapore participation could qualify the external lead; no cross-market causation assumed.",
+          "trigger": "Dated cash breadth and issuer evidence corroborate the channel.",
+          "invalidation": "Domestic evidence diverges or only foreign prices are available.",
+          "source_ids": [
+            "usclose"
           ]
         }
       ]
