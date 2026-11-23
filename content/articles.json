@@ -53926,5 +53926,992 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-23-asia-close",
+    "title": "Asia close: India anchor, Japan holiday and unreconciled price panels",
+    "summary": "NSE’s regular cash session has ended; Japan cash was holiday-closed. Indexed reporting describes Indian financial-led weakness, but exact final prices and all 11 regional sector panels remain unverified. Singapore’s later provider mark remains unreconciled. Company evidence and accounting effects are kept separate from market direction.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-23T11:00:06Z",
+    "updated_at": "2026-11-23T11:00:06Z",
+    "cutoff_at": "2026-11-23T11:00:06Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nseclock",
+        "title": "Official equity hours updated11November: normal cash09:15–15:30IST; later closing session is distinct",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-23T10:57:46Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "12December2025 circularNSE/CMTR/71775:24November holiday;23November not listed",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T10:57:41Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "india-news",
+        "title": "23November Reuters search extract; no synchronized final-index verification",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T11:00:06Z"
+      },
+      {
+        "id": "india-gap",
+        "title": "Current public reader returned403; no retry or data recovered",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:57:46Z"
+      },
+      {
+        "id": "sg-later",
+        "title": "Provider labels closed at18:37SGT; not independently reconciled official final",
+        "publisher": "Live Index",
+        "url": "https://liveindex.org/sti",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T11:00:06Z"
+      },
+      {
+        "id": "uob",
+        "title": "20 November original MoU: proposed technology innovation centre, subject to planning and approvals",
+        "publisher": "UOB",
+        "url": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-guangzhou-mou.page",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:09Z"
+      },
+      {
+        "id": "mpm",
+        "title": "20 November original FY2026 profit guidance; preliminary unaudited review",
+        "publisher": "Marco Polo Marine / SGX",
+        "url": "https://links.sgx.com/FileOpen/MPML%20-%20Profit%20Guidance%20FY2026.ashx?App=Announcement&FileID=912164",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:10Z"
+      },
+      {
+        "id": "cna",
+        "title": "23 November 13:00 SGT, updated 13:19: October inflation report; full text read, original tables inaccessible",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/october-core-inflation-price-pressures-2027-6573951",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:02:26Z"
+      },
+      {
+        "id": "pmi-news",
+        "title": "23 November09:08:19UTC Reuters report; search extract read, original PMI tables not verified",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/euro-zone-growth-holds-steady-frances-deepening-downturn-clouds-outlook-pmi-2026-11-23/",
+        "type": "secondary",
+        "published_at": "2026-11-23T09:08:19Z",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      },
+      {
+        "id": "pmi-calendar",
+        "title": "Undated page; metadata date is observation date. November/December release calendar: search-index times only; direct PDF returned 403, not a full original read",
+        "publisher": "S&P Global",
+        "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 November announcement: 24 November 08:00 SGT Economic Survey",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "jpcpi",
+        "title": "Official schedule dated 23 January; November Tokyo preliminary on 27 November",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+        "type": "primary",
+        "published_at": "2026-01-23",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Current official core hours and2026Thanksgiving exceptions; observation date metadata",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:57:40Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The Asia closing anchor is NSE normal cash at15:30IST /18:00SGT, followed by the19:00SGT summary target. The official calendar lists24November as a holiday, not23November. Japan cash is closed23November for Labor Thanksgiving Day; regional coverage is partial and other Asian venues are not certified by the India clock.",
+        "kind": "fact",
+        "source_ids": [
+          "nseclock",
+          "nsecal",
+          "jpx"
+        ]
+      },
+      {
+        "text": "Reuters’ indexed report describes Indian benchmark declines led by financials; attributed profit-taking is a competing explanation, not independently demonstrated causation. No exact closing index, turnover or complete sector panel is certified. The current Moneycontrol reader returned403 and the attempted official23November index CSV returned404; neither supplies missing finals.",
+        "kind": "fact",
+        "source_ids": [
+          "india-news",
+          "india-gap",
+          "nseclock"
+        ]
+      },
+      {
+        "text": "A later Live Index page labels STI4,953.81 (−0.43%) as closed with an18:37SGT clock. This is one provider observation; earlier cross-provider and header/row conflicts are not resolved by selecting it. No synchronized Singapore or regional sector/breadth panel is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "sg-later"
+        ]
+      },
+      {
+        "text": "UOB’s20November MoU remains a proposed technology centre subject to planning and approvals. Marco Polo Marine’s20November preliminary guidance points to lowerFY2026 reported profit partly because prior-year gains and impairment reversals differ. Neither issuer record proves a market-wide price cause or recurring earnings outcome.",
+        "kind": "fact",
+        "source_ids": [
+          "uob",
+          "mpm"
+        ]
+      },
+      {
+        "text": "The earlier CNA report attributes Singapore October core inflation1.5% and headline1.9% year-on-year to official figures; original-table reconciliation remains incomplete. The earlier Reuters eurozone survey extract reports November composite51.7. These source clocks are retained, not new original-table checks; lower inflation and resilient surveys do not prove stronger corporate cash flow.",
+        "kind": "fact",
+        "source_ids": [
+          "cna",
+          "pmi-news"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Company accounting comparisons and a proposed capability investment are distinct from the regional price narrative.",
+        "transmission": "Recurring demand, financing costs and cash conversion determine whether supplier and bank fundamentals strengthen.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, concentration, holiday liquidity or mismatched quote clocks can explain price observations without one common macro cause.",
+        "source_ids": [
+          "uob",
+          "mpm",
+          "india-news"
+        ]
+      },
+      {
+        "explanation": "A more stable index mark would be encouraging only if broader participation confirms it.",
+        "transmission": "Broad demand and funding improvement could transmit across Asian suppliers and European/US customers.",
+        "confidence": "uncertain",
+        "alternatives": "A concentrated rebound or tariff/base effect can coexist with weak orders and margins.",
+        "source_ids": [
+          "sg-later",
+          "cna"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence withstands risk repricing",
+        "outcome": "Recurring earnings and cash collections prove firmer than market anxiety implies.",
+        "trigger": "Original issuer reports reconcile orders, delivery and cash conversion with sustainable margins.",
+        "invalidation": "Actual cancellations, funding stress or collection deterioration emerge.",
+        "horizon": "23–29November original releases and next local sessions",
+        "source_ids": [
+          "mpm",
+          "sggdp",
+          "bea"
+        ]
+      },
+      {
+        "name": "Headline stabilization lacks breadth",
+        "outcome": "Index improvement fails to establish a broad recovery.",
+        "trigger": "Reconciled constituent and sector panels show concentration or weakening turnover.",
+        "invalidation": "Multiple independent dated cash panels confirm broad improvement.",
+        "horizon": "Next verified regional cash sessions, holiday adjusted",
+        "source_ids": [
+          "sg-later",
+          "nsecal"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23November US flash PMI: earlier calendar search extract14:45UTC /22:45SGT; reconfirm original release, not a known result",
+        "due_at": "2026-11-23T14:45:00Z",
+        "confirms": "Original activity, orders and pricing tables qualify demand.",
+        "contradicts": "A schedule, expectation or secondary extract is mistaken for released data.",
+        "source_ids": [
+          "pmi-calendar"
+        ]
+      },
+      {
+        "signal": "24November08:00SGT Singapore Q3 Economic Survey; India NSEholiday",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Original revisions and sector detail corroborate real demand.",
+        "contradicts": "Advance estimates are presented as the final release.",
+        "source_ids": [
+          "sggdp",
+          "nsecal"
+        ]
+      },
+      {
+        "signal": "25November08:30EST /21:30SGT BEA GDP/profits and income/outlays",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Comparable real spending, inflation and profits support demand quality.",
+        "contradicts": "Revisions or nominal/real differences undermine a simple narrative.",
+        "source_ids": [
+          "bea"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T11:00:06Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-23",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "NSE normal cash anchor; subsequent closing session distinct",
+          "status": "verified-session",
+          "source_ids": [
+            "nseclock",
+            "nsecal"
+          ]
+        },
+        {
+          "name": "JPX cash holiday",
+          "status": "closed",
+          "source_ids": [
+            "jpx"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Secondary reporting indicates Indian financial-led weakness; broad regional risk appetite remains unverified.",
+        "indicators": "No synchronized final prices, constituent breadth, turnover, volatility or rates/FX panel. A later Singapore provider mark does not repair earlier inconsistencies.",
+        "source_ids": [
+          "india-news",
+          "sg-later"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional information technology final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Test semiconductor and software orders against deliveries and cash; no regional final return panel.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional communication services final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Compare platforms, media and telecom across open venues; no common price direction certified.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional consumer discretionary final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Check unit demand and financing sensitivity; inflation easing is not stronger consumption.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional consumer staples final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Compare volumes, pricing and input costs separately.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional energy final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Verify producer/refiner dispersion and dated commodity marks; do not infer from foreign futures.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional financials final return/breadth panel verified. Reuters’ extract describes Indian financial-led weakness, not a full regional outcome.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Separate India’s reported bank weakness from other countries and UOB’s proposed investment.",
+          "source_ids": [
+            "india-news"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional health care final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Separate providers and pharmaceuticals; consumer health-price categories are not equity returns.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional industrials final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Reconcile marine operating earnings and cash against prior gains and impairment reversals.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional materials final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Test metals, chemicals and construction demand with comparable dated data.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional real estate final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Check occupancy, rents, valuations and refinancing independently.",
+          "source_ids": [
+            "india-gap"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized23November regional utilities final return/breadth panel verified.",
+          "implication": "Research/watch only; country or company evidence is not a sector-screen pass.",
+          "watchpoint": "Separate tariffs, actual power demand, leverage and commissioned capacity.",
+          "source_ids": [
+            "india-gap"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Regional customer demand and funding could qualify the Singapore lead; disputed local prices remain unresolved.",
+          "trigger": "Original local breadth and issuer demand/cash evidence corroborate the specific channel.",
+          "invalidation": "Domestic conditions diverge, price moves are concentrated or only foreign observations are available.",
+          "source_ids": [
+            "sg-later",
+            "uob"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian supplier and European customer evidence could interact through trade; survey resilience need not become orders.",
+          "trigger": "Original local breadth and issuer demand/cash evidence corroborate the specific channel.",
+          "invalidation": "Domestic conditions diverge, price moves are concentrated or only foreign observations are available.",
+          "source_ids": [
+            "pmi-news",
+            "mpm"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "US cash has not opened; Asian evidence may qualify later supplier/funding sentiment without predicting the opening.",
+          "trigger": "Original local breadth and issuer demand/cash evidence corroborate the specific channel.",
+          "invalidation": "Domestic conditions diverge, price moves are concentrated or only foreign observations are available.",
+          "source_ids": [
+            "nyse",
+            "uob"
+          ]
+        }
+      ],
+      "telegram_clock": {
+        "cash_at": "2026-11-23T10:00:00Z",
+        "source_id": "nseclock"
+      }
+    }
+  },
+  {
+    "id": "2026-11-23-evening-global-watch",
+    "title": "Evening global watch: disclosure continuity, partial Asia close and the next data tests",
+    "summary": "Asia closes with Japan shut and unreconciled regional price panels. Four fresh SEC index checks show no newer13F. Planned technology investment, recurring marine earnings and reported disinflation need separate tests. All11 current global-sector panels remain incomplete; the holiday-adjusted week and opposing scenarios are retained.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "us",
+      "europe",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-23T11:00:06Z",
+    "updated_at": "2026-11-23T11:00:06Z",
+    "cutoff_at": "2026-11-23T11:00:06Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nseclock",
+        "title": "Official equity hours updated11November: normal cash09:15–15:30IST; later closing session is distinct",
+        "publisher": "NSE",
+        "url": "https://www.nseindia.com/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-11",
+        "accessed_at": "2026-11-23T10:57:46Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "12December2025 circularNSE/CMTR/71775:24November holiday;23November not listed",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T10:57:41Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "JPX",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "india-news",
+        "title": "23November Reuters search extract; no synchronized final-index verification",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/india/indian-shares-set-open-higher-foreign-inflows-ai-selloff-persists-2026-11-23/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T11:00:06Z"
+      },
+      {
+        "id": "india-gap",
+        "title": "Current public reader returned403; no retry or data recovered",
+        "publisher": "Moneycontrol",
+        "url": "https://www.moneycontrol.com/mc/indianindices/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:57:46Z"
+      },
+      {
+        "id": "sg-later",
+        "title": "Provider labels closed at18:37SGT; not independently reconciled official final",
+        "publisher": "Live Index",
+        "url": "https://liveindex.org/sti",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T11:00:06Z"
+      },
+      {
+        "id": "uob",
+        "title": "20 November original MoU: proposed technology innovation centre, subject to planning and approvals",
+        "publisher": "UOB",
+        "url": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-guangzhou-mou.page",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:09Z"
+      },
+      {
+        "id": "mpm",
+        "title": "20 November original FY2026 profit guidance; preliminary unaudited review",
+        "publisher": "Marco Polo Marine / SGX",
+        "url": "https://links.sgx.com/FileOpen/MPML%20-%20Profit%20Guidance%20FY2026.ashx?App=Announcement&FileID=912164",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:10Z"
+      },
+      {
+        "id": "cna",
+        "title": "23 November 13:00 SGT, updated 13:19: October inflation report; full text read, original tables inaccessible",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/october-core-inflation-price-pressures-2027-6573951",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:02:26Z"
+      },
+      {
+        "id": "pmi-news",
+        "title": "23 November09:08:19UTC Reuters report; search extract read, original PMI tables not verified",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/europe/euro-zone-growth-holds-steady-frances-deepening-downturn-clouds-outlook-pmi-2026-11-23/",
+        "type": "secondary",
+        "published_at": "2026-11-23T09:08:19Z",
+        "accessed_at": "2026-11-23T10:02:36Z"
+      },
+      {
+        "id": "pmi-calendar",
+        "title": "Undated page; metadata date is observation date. November/December release calendar: search-index times only; direct PDF returned 403, not a full original read",
+        "publisher": "S&P Global",
+        "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T07:03:55Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 November announcement: 24 November 08:00 SGT Economic Survey",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "jpcpi",
+        "title": "Official schedule dated 23 January; November Tokyo preliminary on 27 November",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+        "type": "primary",
+        "published_at": "2026-01-23",
+        "accessed_at": "2026-11-22T00:06:47Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Current official core hours and2026Thanksgiving exceptions; observation date metadata",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:57:40Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Fresh original SEC submissions index; filer identity and latest13F verified",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-23T10:57:43Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Fresh original SEC submissions index; filer identity and latest13F verified",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-23T10:57:43Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "Fresh original SEC submissions index; filer identity and latest13F verified",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-23T10:57:43Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Fresh original SEC submissions index; filer identity and latest13F verified",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-23T10:57:43Z"
+      },
+      {
+        "id": "morning",
+        "title": "Canonical Issue071 and linked dated desk outcomes; earlier exact live-page check retained",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/issues/2026/11/23/",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T10:04:26Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The Asia closing anchor is NSE normal cash at15:30IST /18:00SGT, followed by the19:00SGT summary target. The official calendar lists24November as a holiday, not23November. Japan cash is closed23November for Labor Thanksgiving Day; regional coverage is partial and other Asian venues are not certified by the India clock.",
+        "kind": "fact",
+        "source_ids": [
+          "nseclock",
+          "nsecal",
+          "jpx"
+        ]
+      },
+      {
+        "text": "Reuters’ indexed report describes Indian benchmark declines led by financials; attributed profit-taking is a competing explanation, not independently demonstrated causation. No exact closing index, turnover or complete sector panel is certified. The current Moneycontrol reader returned403 and the attempted official23November index CSV returned404; neither supplies missing finals.",
+        "kind": "fact",
+        "source_ids": [
+          "india-news",
+          "india-gap",
+          "nseclock"
+        ]
+      },
+      {
+        "text": "A later Live Index page labels STI4,953.81 (−0.43%) as closed with an18:37SGT clock. This is one provider observation; earlier cross-provider and header/row conflicts are not resolved by selecting it. No synchronized Singapore or regional sector/breadth panel is certified.",
+        "kind": "fact",
+        "source_ids": [
+          "sg-later"
+        ]
+      },
+      {
+        "text": "UOB’s20November MoU remains a proposed technology centre subject to planning and approvals. Marco Polo Marine’s20November preliminary guidance points to lowerFY2026 reported profit partly because prior-year gains and impairment reversals differ. Neither issuer record proves a market-wide price cause or recurring earnings outcome.",
+        "kind": "fact",
+        "source_ids": [
+          "uob",
+          "mpm"
+        ]
+      },
+      {
+        "text": "The earlier CNA report attributes Singapore October core inflation1.5% and headline1.9% year-on-year to official figures; original-table reconciliation remains incomplete. The earlier Reuters eurozone survey extract reports November composite51.7. These source clocks are retained, not new original-table checks; lower inflation and resilient surveys do not prove stronger corporate cash flow.",
+        "kind": "fact",
+        "source_ids": [
+          "cna",
+          "pmi-news"
+        ]
+      },
+      {
+        "text": "US, Singapore, global ex-US/ex-Singapore, directREIT and funds/ETF research statuses remain independently DATA INCOMPLETE. No current complete sector panel, verified holdings/risk inputs or basis for allocation/action labels. Market image unavailable through the safe attachment route; text coverage continues.",
+        "kind": "fact",
+        "source_ids": [
+          "sg-later",
+          "india-gap"
+        ]
+      },
+      {
+        "text": "Today’s canonical edition and linked Monday defence/cyber reviews remain the desk record. No new military/conflict event or attribution is established by this checkpoint; no extra report is created to fill a quota. NVIDIA delivery, financing and supplier bottleneck verification remains incomplete. Scheduled Parliament and weekly owner-only work are not replaced by this evening report.",
+        "kind": "fact",
+        "source_ids": [
+          "morning"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Company accounting comparisons and a proposed capability investment are distinct from the regional price narrative.",
+        "transmission": "Recurring demand, financing costs and cash conversion determine whether supplier and bank fundamentals strengthen.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, concentration, holiday liquidity or mismatched quote clocks can explain price observations without one common macro cause.",
+        "source_ids": [
+          "uob",
+          "mpm",
+          "india-news"
+        ]
+      },
+      {
+        "explanation": "A more stable index mark would be encouraging only if broader participation confirms it.",
+        "transmission": "Broad demand and funding improvement could transmit across Asian suppliers and European/US customers.",
+        "confidence": "uncertain",
+        "alternatives": "A concentrated rebound or tariff/base effect can coexist with weak orders and margins.",
+        "source_ids": [
+          "sg-later",
+          "cna"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence withstands risk repricing",
+        "outcome": "Recurring earnings and cash collections prove firmer than market anxiety implies.",
+        "trigger": "Original issuer reports reconcile orders, delivery and cash conversion with sustainable margins.",
+        "invalidation": "Actual cancellations, funding stress or collection deterioration emerge.",
+        "horizon": "23–29November original releases and next local sessions",
+        "source_ids": [
+          "mpm",
+          "sggdp",
+          "bea"
+        ]
+      },
+      {
+        "name": "Headline stabilization lacks breadth",
+        "outcome": "Index improvement fails to establish a broad recovery.",
+        "trigger": "Reconciled constituent and sector panels show concentration or weakening turnover.",
+        "invalidation": "Multiple independent dated cash panels confirm broad improvement.",
+        "horizon": "Next verified regional cash sessions, holiday adjusted",
+        "source_ids": [
+          "sg-later",
+          "nsecal"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "23November US flash PMI: earlier calendar search extract14:45UTC /22:45SGT; reconfirm original release, not a known result",
+        "due_at": "2026-11-23T14:45:00Z",
+        "confirms": "Original activity, orders and pricing tables qualify demand.",
+        "contradicts": "A schedule, expectation or secondary extract is mistaken for released data.",
+        "source_ids": [
+          "pmi-calendar"
+        ]
+      },
+      {
+        "signal": "24November08:00SGT Singapore Q3 Economic Survey; India NSEholiday",
+        "due_at": "2026-11-24T00:00:00Z",
+        "confirms": "Original revisions and sector detail corroborate real demand.",
+        "contradicts": "Advance estimates are presented as the final release.",
+        "source_ids": [
+          "sggdp",
+          "nsecal"
+        ]
+      },
+      {
+        "signal": "25November08:30EST /21:30SGT BEA GDP/profits and income/outlays",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Comparable real spending, inflation and profits support demand quality.",
+        "contradicts": "Revisions or nominal/real differences undermine a simple narrative.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "26November NYSEThanksgiving closure; date-only event,00:00SGT is a review point",
+        "due_at": "2026-11-25T16:00:00Z",
+        "confirms": "No regular US cash alert is invented on the holiday.",
+        "contradicts": "A futures print is treated as an open stock exchange.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "27November Tokyo preliminaryNovemberCPI; hour unverified,07:00SGT is a review checkpoint only",
+        "due_at": "2026-11-26T23:00:00Z",
+        "confirms": "Original release and components establish actual inflation.",
+        "contradicts": "A calendar entry is mistaken for data.",
+        "source_ids": [
+          "jpcpi"
+        ]
+      },
+      {
+        "signal": "27November13:00EST /28November02:00SGT NYSEearly close; summary target03:00SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified special clock governs freshness; fixed-wake catch-up is web-only if expired.",
+        "contradicts": "Normal06:00SGT timing is used as a fresh closing alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "Marco Polo Marine fullFY2026 results on or before29November; hour unverified, end-of-daySGT review bound",
+        "due_at": "2026-11-29T15:59:59Z",
+        "confirms": "Recurring profit and cash reconcile accounting comparisons.",
+        "contradicts": "Only preliminary guidance remains or underlying operations weaken.",
+        "source_ids": [
+          "mpm"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-23T11:00:06Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-23",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Test semiconductor and software orders against deliveries and cash; no regional final return panel.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Compare platforms, media and telecom across open venues; no common price direction certified.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Check unit demand and financing sensitivity; inflation easing is not stronger consumption.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Compare volumes, pricing and input costs separately.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Verify producer/refiner dispersion and dated commodity marks; do not infer from foreign futures.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Separate India’s reported bank weakness from other countries and UOB’s proposed investment.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Separate providers and pharmaceuticals; consumer health-price categories are not equity returns.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Reconcile marine operating earnings and cash against prior gains and impairment reversals.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Test metals, chemicals and construction demand with comparable dated data.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Check occupancy, rents, valuations and refinancing independently.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "Current23November global cash-sector return and comparable breadth remain incomplete. Separate tariffs, actual power demand, leverage and commissioned capacity.",
+          "source_ids": [
+            "india-gap",
+            "sg-later"
+          ]
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP (CIK1541617): latest 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0001541617-26-000010. Fresh23November18:57:43SGT index check finds no newer13F; unchanged from morning. No new line-item comparison, archive completion or evidence of current trading is claimed. Separate13G/A16November accession0001541617-26-000011 is not a new13F.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC (CIK1709323): latest 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0002043585-26-000030. Fresh23November18:57:43SGT index check finds no newer13F; unchanged from morning. No new line-item comparison, archive completion or evidence of current trading is claimed.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd (CIK1647251): latest 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0001647251-26-000011. Fresh23November18:57:43SGT index check finds no newer13F; unchanged from morning. No new line-item comparison, archive completion or evidence of current trading is claimed.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP (CIK1697868): latest 13F-HR, period 2026-09-30, filed 2026-11-16, accession 0001697868-26-000007. Fresh23November18:57:43SGT index check finds no newer13F; unchanged from morning. No new line-item comparison, archive completion or evidence of current trading is claimed.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
   }
 ]
