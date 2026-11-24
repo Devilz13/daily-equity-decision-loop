@@ -91,8 +91,8 @@
       "expires_at": "2026-11-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-23T00:04:17Z",
-      "review_due_at": "2026-11-24T00:04:17Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -130,6 +130,10 @@
         {
           "at": "2026-11-23T00:04:17Z",
           "change": "23 November: original product/full welcome terms rechecked. 365 S$365 and NXT S$300, S$800/60 days, direct channels, approval/lookback/retention, exclusions, one gift and fulfilment retained. NXT separate product/fee scope not implied."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "ocbc-365-nxt-cash300-q42026",
@@ -148,8 +152,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-23T00:04:17Z",
-      "review_due_at": "2026-11-24T00:04:17Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -187,6 +191,10 @@
         {
           "at": "2026-11-23T00:04:17Z",
           "change": "23 November: original product/full welcome terms rechecked. 1.6% base plus14.4% bonus/firstS$2,000, S$288 bonus cap/no minimum; eligibility, refunds, standing, 60-day spend and fulfilment retained."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "ocbc-infinity-welcome-q42026",
@@ -204,8 +212,8 @@
       "expires_at": "2027-01-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-23T00:04:17Z",
-      "review_due_at": "2026-11-24T00:04:17Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -231,6 +239,10 @@
         {
           "at": "2026-11-23T00:04:17Z",
           "change": "23 November: original product/full welcome terms and base cashback clauses checked. Eligibility, S$800 minimum, 6.4% bonus/S$256 cap, opening month plus two months, exclusions and fulfilment retained; separate bonus programme not recertified."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "citi-cashback-plus-welcome-mar2027",
@@ -248,8 +260,8 @@
       "expires_at": "2027-04-01T00:00:00+08:00"
     },
     {
-      "verified_at": "2026-11-22T00:06:47Z",
-      "review_due_at": "2026-11-23T00:06:47Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -283,6 +295,10 @@
         {
           "at": "2026-11-22T00:06:47Z",
           "change": "22 November: original product access recovered and full base/FX governing PDFs reviewed. Eligibility, S$800 statement-month threshold, S$20/30/30 caps, fallback, exclusions, refunds, account standing and statement-offset fulfilment checked. No annual fee from 1 July; FX administrative-fee waiver differs from retained 1% overseas-SGD fee. FX country/start-date differences and 31 December 2027 end retained. Promotion principal-card-only scope clarified; clause 1 versus 3.1 cross-reference conflict remains, no personal suitability claim."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "uob-evol-fx-cashback-2026",
@@ -337,8 +353,8 @@
       "terms_url": "https://www.dbs.com.sg/iwov-resources/media/pdf/cards/promotions/dbs-yuu-cards/dbs-yuu-card-promotion-tncs.pdf"
     },
     {
-      "verified_at": "2026-11-22T00:06:47Z",
-      "review_due_at": "2026-11-23T00:06:47Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -364,6 +380,10 @@
         {
           "at": "2026-11-22T00:06:47Z",
           "change": "22 November: original product access recovered and full base/FX governing PDFs reviewed. Eligibility, S$800 statement-month threshold, S$20/30/30 caps, fallback, exclusions, refunds, account standing and statement-offset fulfilment checked. No annual fee from 1 July; FX administrative-fee waiver differs from retained 1% overseas-SGD fee. FX country/start-date differences and 31 December 2027 end retained. Promotion principal-card-only scope clarified; clause 1 versus 3.1 cross-reference conflict remains, no personal suitability claim."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "uob-evol",
@@ -380,8 +400,8 @@
       "terms_url": "https://www.uob.com.sg/assets/pdfs/uob-evol-terms-and-conditions.pdf"
     },
     {
-      "verified_at": "2026-11-23T00:04:17Z",
-      "review_due_at": "2026-11-24T00:04:17Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -407,6 +427,10 @@
         {
           "at": "2026-11-23T00:04:17Z",
           "change": "23 November: original product, full programme and4November exclusions checked. Category6%/S$800/S$160, Watsons transition, 0.25%base, advertising exceptions, posting/refunds, fee waivers and eligibility retained. No suitability claim."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "ocbc-365",
@@ -423,8 +447,8 @@
       "terms_url": "https://www.ocbc.com/iwov-resources/sg/ocbc/personal/pdf/cards/tncs-governing-365-cc-cashback-programme.pdf"
     },
     {
-      "verified_at": "2026-11-23T00:04:17Z",
-      "review_due_at": "2026-11-24T00:04:17Z",
+      "verified_at": "2026-11-24T00:08:35Z",
+      "review_due_at": "2026-11-25T00:08:35Z",
       "reviewed_public": true,
       "corrections": [
         {
@@ -450,6 +474,10 @@
         {
           "at": "2026-11-23T00:04:17Z",
           "change": "23 November: original product, full programme and4November exclusions checked. Base1.6% without minimum/cap, posted transactions/refunds, principal-account credit, fees/waivers and exclusions retained. FX costs can exceed rewards."
+        },
+        {
+          "at": "2026-11-24T00:08:35Z",
+          "change": "24 November: original issuer product and applicable full governing terms rechecked, including exclusions, dates, eligibility, spend/caps, fees, refunds and fulfilment. Recorded substantive terms retained. OCBC365/INFINITY initial fee-waiver differences, Citi opening-month-plus-two-calendar-months rule and separate underlying bonus gap, UOB statement-month caps/FX-country dates/overseas-SGDfee and clause1-versus3.1 cross-reference caveat remain explicit. No eligibility or suitability recommendation."
         }
       ],
       "id": "ocbc-infinity",

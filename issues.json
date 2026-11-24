@@ -5,6 +5,46 @@
   "latest": "2026-11-21",
   "issues": [
     {
+      "date": "2026-11-24",
+      "number": 72,
+      "title": "Inflation relief, implementation tests and dated global risks",
+      "status": "DATA INCOMPLETE · delayed Tuesday edition",
+      "path": "issues/2026/11/24/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-24-v1",
+        "delivery_notice": "Delayed edition: apologies for missing the 08:00 target. This is today’s full canonical briefing; actual cutoffs and delivery are separately recorded.",
+        "summary": "Original Singapore CPI confirms easing; the newly due GDP outcome remains unverified. Overseas recovery and support measures need cash and operating tests. Dated Libya and LaLiga evidence separates claims from confirmed scope. All five market lanes remain DATA INCOMPLETE. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "Singapore inflation: original tables checked",
+            "date": "23 Nov · October data",
+            "context": "Core 1.5% y/y and all-items 1.9%; lower inflation is not a new policy decision. Today’s GDP outcome is unverified in retrieved official material.",
+            "source": "https://isomer-user-content.by.gov.sg/1004/40ab86ad-b08f-4acf-9021-0651391e8ddf/Consumer%20Price%20Developments%20in%20October%202026.pdf"
+          },
+          {
+            "title": "Libya maritime attack: attribution limits",
+            "date": "22 Nov · claims 23 Nov",
+            "context": "Independent damage reporting and Ukrainian responsibility claims differ. Direct Singapore disruption is unverified; commercial spillover remains conditional.",
+            "source": "https://abcnews.com/International/ukrainian-naval-drones-sank-russias-merkury-warship-libya/story?id=138369738"
+          },
+          {
+            "title": "LaLiga: occurrence precedes disclosure",
+            "date": "14–16 Nov · notice 23 Nov",
+            "context": "Operator reports personal-data extraction and containment; full scope and Singapore exposure remain unverified. Read the original notice.",
+            "source": "https://www.laliga.com/es-GB/noticias/laliga-ha-sido-victima-de-un-ciberataque-que-ha-afectado-a-datos-personales-de-aficionados"
+          }
+        ],
+        "market_note": "SGX normal cash opens 09:00 SGT; no current opening print or complete sector panel is certified. Japan’s opening has arrived; NSE cash is holiday-closed. The 23 Nov ECB fix is a dated reference, not live FX. No portfolio action is inferred."
+      }
+    },
+    {
       "date": "2026-11-23",
       "number": 71,
       "title": "Singapore inflation watch, dated cyber evidence and regional continuity",

@@ -56703,5 +56703,866 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-24-singapore-open",
+    "title": "Singapore pre-open: CPI easing and cooperation pledges need operating confirmation",
+    "summary": "Original October CPI tables confirm slower inflation. Singapore–China agreements add implementation watchpoints. The newly due GDP outcome remains unverified in retrieved official material. SGX normal cash opens09:00 SGT; current opening prices and sector breadth are incomplete. This web report shares the morning digest.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-24T00:08:35Z",
+    "updated_at": "2026-11-24T00:08:35Z",
+    "cutoff_at": "2026-11-24T00:08:35Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "cpipdf",
+        "title": "23 November original October CPI tables and outlook",
+        "publisher": "MAS / METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/40ab86ad-b08f-4acf-9021-0651391e8ddf/Consumer%20Price%20Developments%20in%20October%202026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:40Z"
+      },
+      {
+        "id": "meti",
+        "title": "Newsroom retrieved after08:00: latest visible release23 November; GDP outcome not found in retrieved index; undated page metadata denotes observation time",
+        "publisher": "METI Singapore",
+        "url": "https://www.meti.gov.sg/newsroom/",
+        "type": "primary",
+        "published_at": "2026-11-24T00:02:04Z",
+        "accessed_at": "2026-11-24T00:02:04Z"
+      },
+      {
+        "id": "pmo",
+        "title": "23 November JCBC official outcomes and listed agreements",
+        "publisher": "Prime Minister’s Office Singapore",
+        "url": "https://www.pmo.gov.sg/newsroom/22nd-joint-council-for-bilateral-cooperation-in-singapore/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:02:03Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Current trading page returns browser-support shell, not live halt/price data; undated page metadata denotes observation time",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-24T00:02:03Z",
+        "accessed_at": "2026-11-24T00:02:03Z"
+      },
+      {
+        "id": "sgclock",
+        "title": "Dated primary normal trading phases and17:16 Trade at Close",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-24T00:02:56Z"
+      },
+      {
+        "id": "mom",
+        "title": "Gazetted2026public holidays; no 24 Novemberholiday listed",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-24T00:02:03Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official2026holiday calendar:23 Novemberclosed;24 Novembernot listed; undated metadata is observation date",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-23T23:06:56Z",
+        "accessed_at": "2026-11-23T23:06:56Z"
+      },
+      {
+        "id": "jpxhours",
+        "title": "Official domestic-stock hours09:00 JSTopen;08:00 JSTorder acceptance differs from cash trading; undated metadata is observation date",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2026-11-23T23:06:56Z",
+        "accessed_at": "2026-11-23T23:06:56Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "CircularNSE/CMTR/71775:24 November 2026capital-market holiday",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "final",
+        "title": "23 Novemberfinal major-index scorecard freshly reread; US cash observations only",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/fcdf1bad36b4f81c90cbb0f33a2c5704",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:04Z"
+      },
+      {
+        "id": "fed",
+        "title": "23 Novemberpublished Williams speech summary; actual remarks, not a policy decision",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://tellerwindow.newyorkfed.org/2026/11/23/key-takeaways-from-president-williamss-speech-on-the-economic-outlook-and-monetary-policy-28/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "korea",
+        "title": "23 NovemberFSCdecision:buyback daily order-limit easing24 November 2026–23 February 2027",
+        "publisher": "Financial Services Commission, Republic of Korea",
+        "url": "https://www.fsc.go.kr/eng/pr010101/88191",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "koreaplan",
+        "title": "22 Novemberemergency meeting:prepare stabilization-fund activation as conditions warrant",
+        "publisher": "Ministry of Finance and Economy, Republic of Korea",
+        "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6530",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-23T23:07:31Z"
+      },
+      {
+        "id": "twse",
+        "title": "23 Novemberoriginal Chinese notice:24 Novembermaintenance-ratio and transition measures; DEDL translation",
+        "publisher": "Taiwan Stock Exchange",
+        "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6a19afd9c01a2073bb7af0594.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "sggdp",
+        "title": "17 Novemberofficial announcement:24 November 08:00 SGTEconomic Survey, not the outcome",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/eef28ab0-c2b3-4650-99ff-f00f5a26ed72/Press%20Announcement%203Q2026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-17",
+        "accessed_at": "2026-11-23T23:06:58Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Original Form8-K: board action22 November, release and signature23 November",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MAS/METI’s23 Novemberrelease gives October core inflation1.5%y/y, down from2.0%; all-items1.9%, down from2.2%. Core prices were unchanged m/m; all-items fell0.3%. Lower services and electricity/gas inflation contributed. These are October observations, not November price data.",
+        "kind": "fact",
+        "source_ids": [
+          "cpipdf"
+        ]
+      },
+      {
+        "text": "The official outlook retains upside energy/food risks and sees possible inflation pickup in early2027. Slower inflation is not a new MAS policy decision or proof of lower financing costs.",
+        "kind": "fact",
+        "source_ids": [
+          "cpipdf"
+        ]
+      },
+      {
+        "text": "The17 Novemberannouncement scheduled the Economic Survey for24 November 08:00 SGT. At08:02 SGT the retrieved METI newsroom still showed23 NovemberCPI as its newest visible item; the SingStat national-accounts reader returned403 and was not retried. Today’s GDP result and2027growth range remain unverified; forecasts and October advance estimates are not substituted.",
+        "kind": "fact",
+        "source_ids": [
+          "meti",
+          "sggdp"
+        ]
+      },
+      {
+        "text": "SGX’s dated normal rules specify09:00 SGT cash opening and17:16 Trade at Close end. MOM lists no 24 Novemberholiday; the currentSGX page is a browser shell. No live halt certification or opening print is claimed. Japan’s calendar points to an08:00 SGT opening already reached; India’s NSE capital market is holiday-closed.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclock",
+          "sgx",
+          "mom",
+          "jpx",
+          "jpxhours",
+          "nsecal"
+        ]
+      },
+      {
+        "text": "PMO reports29 MOUs and agreements announced at the23 NovemberJCBC, including financial and digital connectivity. These are official cooperation outcomes, not quantified booked revenue or implemented transaction volumes.",
+        "kind": "fact",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Lower inflation may support household purchasing power.",
+        "transmission": "Actual volumes, tariffs and margins determine business benefits; financing conditions have a separate policy channel.",
+        "confidence": "inference",
+        "alternatives": "Base effects, subsidies and uneven price components can explain the aggregate easing without broad demand acceleration.",
+        "source_ids": [
+          "cpipdf"
+        ]
+      },
+      {
+        "explanation": "Cross-border cooperation creates potential channels for finance and logistics.",
+        "transmission": "Implemented links and commercial use must precede measurable revenue or efficiency gains.",
+        "confidence": "inference",
+        "alternatives": "Execution, regulation, adoption and external demand may limit commercial effects.",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Domestic demand confirms relief",
+        "outcome": "Operating volumes and cash follow the better price picture.",
+        "trigger": "Original activity tables and issuer collections improve.",
+        "invalidation": "Weak demand, costs or financing offset the apparent relief.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "cpipdf",
+          "sggdp"
+        ]
+      },
+      {
+        "name": "Announcements precede delivery",
+        "outcome": "Implementation takes longer than the headline implies.",
+        "trigger": "Formal agreements lack realized usage or milestones.",
+        "invalidation": "Verified adoption and operating results establish measurable benefits.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November 09:00 SGT Singapore cash open",
+        "due_at": "2026-11-24T01:00:00Z",
+        "confirms": "Dated actual prices and breadth become verifiable.",
+        "contradicts": "An earlier US final or order-acceptance indication is presented as cash.",
+        "source_ids": [
+          "sgclock"
+        ]
+      },
+      {
+        "signal": "24 NovemberGDP outcome follow-up",
+        "due_at": "2026-11-24T11:00:00Z",
+        "confirms": "Original released tables and forecast text can be read.",
+        "contradicts": "A calendar entry, forecast or stale estimate substitutes for the release.",
+        "source_ids": [
+          "meti",
+          "sggdp"
+        ]
+      },
+      {
+        "signal": "24 November 18:16 SGT Singapore closing summary",
+        "due_at": "2026-11-24T10:16:00Z",
+        "confirms": "Verified closing-phase evidence is available.",
+        "contradicts": "An expired or unsynchronized observation is back-sent.",
+        "source_ids": [
+          "sgclock"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T00:08:35Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-24",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX normal cash anchor; current halt/exception panel incomplete",
+          "status": "verified-session",
+          "source_ids": [
+            "sgclock",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Overnight US recovery and lower dated local inflation offer conditional support; SG cash confirmation is pending.",
+        "indicators": "Prior US closing indexes only; current local prices, breadth, turnover, rates and live FX incomplete.",
+        "source_ids": [
+          "final",
+          "cpipdf"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Separate AI sentiment from delivered capacity, export access, supplier financing and cash.",
+          "source_ids": [
+            "nvda",
+            "final"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Compare subscriptions, advertising and network investment with actual demand.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Test household volumes and credit affordability against lower inflation.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Distinguish sales volumes from pricing and input-cost changes.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Separate lagged regulated tariffs from current fuel and shipping costs.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Verify actual payment-link adoption, funding costs and credit outcomes.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Distinguish healthcare price/subsidy effects from issuer margins and approvals.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Test actual trade, logistics and capital-equipment orders.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Compare physical demand, inventories and input costs.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Check occupancy, rent collections, refinancing and distribution coverage.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current 24 November Singapore cash opening return/breadth panel verified.",
+          "implication": "Research/watch; no complete current valuation and risk screen.",
+          "watchpoint": "Distinguish tariffs, fuel costs, funded capacity and commissioning.",
+          "source_ids": [
+            "cpipdf",
+            "pmo"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Cross-border financial/logistics cooperation could support activity if implemented.",
+          "trigger": "Original local orders, activity and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Currency, funding, domestic demand or execution causes divergence.",
+          "source_ids": [
+            "pmo",
+            "cpipdf"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Supplier demand and shipping costs matter more than the announcement count.",
+          "trigger": "Original local orders, activity and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Currency, funding, domestic demand or execution causes divergence.",
+          "source_ids": [
+            "pmo",
+            "cpipdf"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Actual Asian deliveries and spending test technology-related expectations.",
+          "trigger": "Original local orders, activity and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Currency, funding, domestic demand or execution causes divergence.",
+          "source_ids": [
+            "pmo",
+            "cpipdf"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-24-singapore-china-jcbc-review",
+    "title": "Singapore–China JCBC: agreements are implementation leads",
+    "summary": "The23 Novemberofficial readout identifies29announcedMOUs and agreements. Financial connectivity, digital trade and supply-chain cooperation offer specific follow-up channels; announcement count is not a revenue measure.",
+    "channel": "markets",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "short",
+    "published_at": "2026-11-24T00:08:35Z",
+    "updated_at": "2026-11-24T00:08:35Z",
+    "cutoff_at": "2026-11-24T00:08:35Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "pmo",
+        "title": "23 NovemberJCBC official readout",
+        "publisher": "PMO Singapore",
+        "url": "https://www.pmo.gov.sg/newsroom/22nd-joint-council-for-bilateral-cooperation-in-singapore/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:02:03Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "PMO reports the23 NovemberJCBC and related steering meetings in Singapore and29announcedMOUs/agreements. The published list includes digital trade, financial-market cooperation and food-supply accreditation.",
+        "kind": "fact",
+        "source_ids": [
+          "pmo"
+        ]
+      },
+      {
+        "text": "The readout discusses exploring fast-payment links and support for market access and cooperation; it does not establish a common implementation date, quantified new transaction volumes or booked issuer earnings.",
+        "kind": "fact",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Institutional cooperation may reduce frictions over time.",
+        "transmission": "Actual implementation, commercial use and regulatory steps determine effects on trade, payments and suppliers.",
+        "confidence": "inference",
+        "alternatives": "Some commitments renew existing arrangements, and adoption may be slow or offset by weaker demand.",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Adoption becomes measurable",
+        "outcome": "Commercial benefits become testable.",
+        "trigger": "Named agencies and companies publish milestones and usage.",
+        "invalidation": "No operating evidence follows the announcements.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24–25 Novemberimplementation follow-up",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Original operational notices specify scope and timing.",
+        "contradicts": "A memorandum is described as already generating earnings.",
+        "source_ids": [
+          "pmo"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T00:08:35Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-24-laliga-data-notice-review",
+    "title": "LaLiga disclosure: incident dates precede announcement",
+    "summary": "LaLiga’s 23 Novemberoperator notice describes personal-data extraction during14–16 November. Its containment and service-scope statements are attributed to the operator. Singapore relevance depends on actual users and suppliers; no local exposure or attribution is verified.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-24T00:08:35Z",
+    "updated_at": "2026-11-24T00:08:35Z",
+    "cutoff_at": "2026-11-24T00:08:35Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "laliga",
+        "title": "23 Novemberoriginal Spanish operator notice; DEDL translation",
+        "publisher": "LaLiga",
+        "url": "https://www.laliga.com/es-GB/noticias/laliga-ha-sido-victima-de-un-ciberataque-que-ha-afectado-a-datos-personales-de-aficionados",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:45Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "LaLiga says unauthorized access and personal-data extraction affected one fan-services platform during14–16 November. It says it contained the attack on16 November, notified Spain’s data-protection authority and police, and was still assessing scope. These are operator statements; the disclosure date is23 November.",
+        "kind": "fact",
+        "source_ids": [
+          "laliga"
+        ]
+      },
+      {
+        "text": "LaLiga says other systems and competition operation were unaffected. No affected-user count, independently verified attribution or Singapore exposure is established in the reviewed notice.",
+        "kind": "fact",
+        "source_ids": [
+          "laliga"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A shared digital platform can create notification and trust costs beyond its operator.",
+        "transmission": "Actual affected accounts and supplier relationships determine local exposure; public disclosure can also prompt phishing.",
+        "confidence": "inference",
+        "alternatives": "The event may remain narrowly contained, and the reviewed notice does not establish wider operational disruption.",
+        "source_ids": [
+          "laliga"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Scope remains limited",
+        "outcome": "Remediation stays focused on the affected service.",
+        "trigger": "Operator and regulator follow-ups identify bounded exposure.",
+        "invalidation": "Additional services or material disruption are confirmed.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "laliga"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24–25 Novemberoperator/regulator scope follow-up",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Dated counts, affected services and independently supported recovery details emerge.",
+        "contradicts": "Containment claims are treated as final scope or proof of no later effects.",
+        "source_ids": [
+          "laliga"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T00:08:35Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-24-singapore-japan-defence-visit",
+    "title": "Singapore–Japan defence visit: planned meetings, outcomes pending",
+    "summary": "MINDEF’s23 Novemberannouncement schedules an introductory visit for24–25 November. The review separates planned institutional cooperation from completed agreements, deployments or commercial gains.",
+    "channel": "military",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "short",
+    "published_at": "2026-11-24T00:08:35Z",
+    "updated_at": "2026-11-24T00:08:35Z",
+    "cutoff_at": "2026-11-24T00:08:35Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "mindef",
+        "title": "23 Novemberoriginal announcement of24–25 Novembervisit",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:02:04Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "MINDEF announced that Defence Minister Chan Chun Sing would visit Japan on24–25 November and meet his counterpart and other senior officials. The stated agenda is bilateral defence cooperation and regional/international security discussion.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef"
+        ]
+      },
+      {
+        "text": "The announcement links the visit to the60thanniversary of diplomatic relations and the2026strategic partnership. It establishes plans, not completed agreements or new deployments.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Regular ministerial contact may support institutional continuity.",
+        "transmission": "Any economic effect would require later verified policy, security or commercial changes.",
+        "confidence": "inference",
+        "alternatives": "The visit can remain ceremonial or produce limited operational change; no direct market gain is measured.",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Substantive cooperation is announced",
+        "outcome": "Specific future policy steps become assessable.",
+        "trigger": "Both governments publish matching scope and dates.",
+        "invalidation": "Readouts remain general or differ materially.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "25 Novemberend-of-visit readouts",
+        "due_at": "2026-11-25T12:00:00Z",
+        "confirms": "Original statements identify actual agreed outcomes.",
+        "contradicts": "Planned meetings are described as already completed or as procurement revenue.",
+        "source_ids": [
+          "mindef"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-24T00:08:35Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-24-libya-maritime-incident-review",
+    "title": "Libya maritime attack: damage reporting and responsibility claims differ",
+    "summary": "The reviewed22 Novemberincident near Benghazi has independent damage reporting and23 November Ukrainian claims of responsibility. Full loss, attribution and wider disruption remain separate questions. No verified Singapore-linked shipping or energy interruption is established.",
+    "channel": "conflict",
+    "regions": [
+      "global",
+      "europe",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [],
+    "format": "material-update",
+    "published_at": "2026-11-24T00:08:35Z",
+    "updated_at": "2026-11-24T00:08:35Z",
+    "cutoff_at": "2026-11-24T00:08:35Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ukraine",
+        "title": "23 November 20:38local presidential address; party statement",
+        "publisher": "President of Ukraine",
+        "url": "https://www.president.gov.ua/en/news/raketi-dlya-petriotiv-potribni-tut-v-ukrayini-mi-duzhe-ochik-107457",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:02:55Z"
+      },
+      {
+        "id": "libya",
+        "title": "23 NovemberABCreport and independent satellite-image description",
+        "publisher": "ABC News",
+        "url": "https://abcnews.com/International/ukrainian-naval-drones-sank-russias-merkury-warship-libya/story?id=138369738",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:40Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "ABC’s23 Novemberreport dates the incident to22 November and describes a satellite image showing the Russian corvette capsized. It reports an eastern Libyanauthority investigation. The observation supports serious damage; it does not by itself settle all responsibility or wider effects.",
+        "kind": "fact",
+        "source_ids": [
+          "libya"
+        ]
+      },
+      {
+        "text": "Ukraine’s 23 Novemberpresidential address claims responsibility for attacks on a Russian warship and cargo vessel. This is a belligerent’s account. Its claims of full destruction and strategic benefit are not treated as independent findings.",
+        "kind": "allegation",
+        "source_ids": [
+          "ukraine"
+        ]
+      },
+      {
+        "text": "The originalUNSMILstatement endpoint returned403; it was not retried or mirrored. No verified civilian shipping closure, energy-supply interruption or direct Singapore exposure was obtained in the permitted reviewed material.",
+        "kind": "fact",
+        "source_ids": [
+          "libya"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Conflict activity outside the principal European theatre could affect maritime risk perceptions.",
+        "transmission": "Insurance, port access, shipping and energy flows are conditional channels to Asia; actual disruption must be separately verified.",
+        "confidence": "inference",
+        "alternatives": "The incident may remain localized to military-linked vessels, without material commercial flow effects.",
+        "source_ids": [
+          "libya",
+          "ukraine"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Effects remain localized",
+        "outcome": "Commercial routes and energy flows show no confirmed material interruption.",
+        "trigger": "Port/operator records and independently verified traffic continue.",
+        "invalidation": "Named civilian operators report sustained disruption or losses.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "libya"
+        ]
+      },
+      {
+        "name": "Regional spillover becomes measurable",
+        "outcome": "A documented operational interruption changes logistics costs.",
+        "trigger": "Official restrictions and operator impacts align in time and scope.",
+        "invalidation": "Only rhetoric or unverified claims support the feared impact.",
+        "horizon": "24–25 November and next original updates",
+        "source_ids": [
+          "libya",
+          "ukraine"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24–25 Novemberindependent damage/investigation and commercial-operator updates",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Dated independent findings and named operational effects clarify scope.",
+        "contradicts": "Party claims or coincident price moves are treated as proven attribution or causation.",
+        "source_ids": [
+          "libya",
+          "ukraine"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-24T00:08:35Z"
+    },
+    "material_reason": "A newly reviewed cross-border maritime attack and independent damage evidence warrant strategic follow-up; one event, not multiple quota entries."
   }
 ]
