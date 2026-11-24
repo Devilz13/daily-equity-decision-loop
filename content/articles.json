@@ -60496,5 +60496,490 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-25-asia-open",
+    "title": "Asia pre-open: divergent US lead before Japan’s services-price release",
+    "summary": "Tokyo cash opens08:00SGT; no25November JPX holiday is listed. Overnight US indexes diverged and Dell’s results arrived after cash closed. BOJ services prices and loan-rate statistics are scheduled07:50SGT; outcomes remain unknown. All11 current Asian sector panels are incomplete; supplier cash and funding remain tests.",
+    "channel": "markets",
+    "regions": [
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-24T23:03:21Z",
+    "updated_at": "2026-11-24T23:03:21Z",
+    "cutoff_at": "2026-11-24T23:03:21Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "jpx",
+        "title": "Fresh official2026 market-holiday calendar; no25Novemberclosure listed; undated metadata is observation time",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+        "type": "primary",
+        "published_at": "2026-11-24T23:01:46Z",
+        "accessed_at": "2026-11-24T23:01:46Z"
+      },
+      {
+        "id": "jpxhours",
+        "title": "Official cash09:00JSTopen differs from08:00JSTorder acceptance",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+        "type": "primary",
+        "published_at": "2024-11-04",
+        "accessed_at": "2026-11-24T23:01:46Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "Original capital-market2026holiday circular:24Novemberclosed,25Novembernot listed",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-24T23:01:46Z"
+      },
+      {
+        "id": "boj",
+        "title": "Original current release schedule updated20November:25November08:50JSTSPPI/loan rates and14:00JSTcore-CPI indicators",
+        "publisher": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-24T23:01:46Z"
+      },
+      {
+        "id": "ap",
+        "title": "AP final scorecard published21:19:48UTC, after16:00ESTcashclose; independent complete sector panels not supplied",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/6cc4e580290aadf304ee316d6d46dd81",
+        "type": "secondary",
+        "published_at": "2026-11-24T21:19:48Z",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "dell",
+        "title": "Original24November16:05ESTafter-close results and financial/non-GAAP/cash reconciliations reviewed; no full call transcript claimed",
+        "publisher": "Dell Technologies",
+        "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+        "type": "primary",
+        "published_at": "2026-11-24T21:05:00Z",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "bea",
+        "title": "Fresh official25Novemberrelease schedule; scheduled events are not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Fresh official hours/holidays; undated metadata is observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-24T22:02:00Z",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "gdppdf",
+        "title": "24 November original release, growth tables and annexes; observed after morning cutoff",
+        "publisher": "MTI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/86e12e7e-e71d-418e-af1a-ce66d00962a6/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T07:02:49Z"
+      },
+      {
+        "id": "cpipdf",
+        "title": "23 November original October CPI tables and outlook",
+        "publisher": "MAS / MTI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/40ab86ad-b08f-4acf-9021-0651391e8ddf/Consumer%20Price%20Developments%20in%20October%202026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:40Z"
+      },
+      {
+        "id": "korea",
+        "title": "23 NovemberFSCdecision:buyback daily order-limit easing24 November 2026–23 February 2027",
+        "publisher": "Financial Services Commission, Republic of Korea",
+        "url": "https://www.fsc.go.kr/eng/pr010101/88191",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "koreaplan",
+        "title": "22 Novemberemergency meeting:prepare stabilization-fund activation as conditions warrant",
+        "publisher": "Ministry of Finance and Economy, Republic of Korea",
+        "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6530",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-23T23:07:31Z"
+      },
+      {
+        "id": "twse",
+        "title": "23 November original Chinese notice:24 Novembermaintenance-ratio and transition measures; DEDL translation",
+        "publisher": "Taiwan Stock Exchange",
+        "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6a19afd9c01a2073bb7af0594.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Japan’s official calendar lists no25November holiday. Tokyo cash opens09:00JST /08:00SGT; order acceptance from08:00JST /07:00SGT is not cash trading. The pre-open target is07:00SGT and its deadline is08:00SGT. Asia is staggered: other venues are not synchronized to Tokyo, and current halt/unscheduled exceptions across the basket remain unverified. NSE’s original calendar lists24Novemberclosed but not25November; yesterday’s closure is not carried forward as today’s holiday.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "jpxhours",
+          "nsecal"
+        ]
+      },
+      {
+        "text": "The BOJ’s original schedule lists25November08:50JST /07:50SGT for October Services Producer Price Index and September average contract loan/discount rates. Core-CPI indicators are scheduled14:00JST /13:00SGT. Tomorrow’s Tamura speech is scheduled26November10:00JST /09:00SGT. These are schedules, not results or a monetary-policy decision; there is no original release outcome at this cutoff.",
+        "kind": "fact",
+        "source_ids": [
+          "boj"
+        ]
+      },
+      {
+        "text": "The verified24November US cash close provides dated overnight context: S&P5007,201.09(−0.5%), Dow50,018.70(+0.9%) and Nasdaq23,733.54(−1.5%), per AP. The indices diverged; they do not establish current Asian opening direction, sector participation or flows. The accepted closing report is reused, not resent.",
+        "kind": "fact",
+        "source_ids": [
+          "ap",
+          "nyse"
+        ]
+      },
+      {
+        "text": "Dell’s original24November16:05EST release came after US cash closed: quarter-ended30October revenue US$54.937bn and operating cash US$4.459bn. Its cash reconciliation distinguishes US$3.474bn non-GAAP FCF from US$4.288bn adjusted FCF. Backlog is not delivered revenue or collected cash. These already checked source clocks are retained; no fresh after-hours price or full call-transcript review is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "dell"
+        ]
+      },
+      {
+        "text": "Earlier original Singapore GDP/CPI releases and Korean/Taiwan support measures retain their dates and scopes. Revised real output and easing consumer inflation do not certify local issuer margins. Buyback-rule easing, fund preparation and collateral changes are not proof of executed purchases, stronger demand or resolved liquidity stress.",
+        "kind": "fact",
+        "source_ids": [
+          "gdppdf",
+          "cpipdf",
+          "korea",
+          "koreaplan",
+          "twse"
+        ]
+      },
+      {
+        "text": "No current25November Asian cash-sector/breadth/turnover panel is certified before the Tokyo open. Synchronized FX,yield,volatility and commodity observations remain incomplete. Allfive independent market lanes retain DATA INCOMPLETE/research-watch status. The safe market-image attachment route remains unavailable; no portfolio action or screen pass is inferred.",
+        "kind": "fact",
+        "source_ids": [
+          "jpxhours"
+        ]
+      },
+      {
+        "text": "BEA’s25November08:30EST /21:30SGT GDP/profits and October income/outlays remain forthcoming. NYSE26NovemberThanksgiving cash closure and27November13:00EST early close are independent of Asian trading calendars. Preserve special freshness clocks and use web-only catch-up if the fixed wake misses a special window.",
+        "kind": "fact",
+        "source_ids": [
+          "bea",
+          "nyse"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The overnight lead is mixed rather than a uniform recovery signal.",
+        "transmission": "Index composition, customer demand, financing and discount rates can affect Asian exposures differently.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment or concentrated US price moves may explain divergence without a matching change in Asian operating demand.",
+        "source_ids": [
+          "ap",
+          "dell"
+        ]
+      },
+      {
+        "explanation": "Japan’s services prices and loan-rate series can qualify domestic margin and funding pressure.",
+        "transmission": "Persistent service costs or financing changes may transmit differently to lenders, consumers and rate-sensitive businesses.",
+        "confidence": "uncertain",
+        "alternatives": "Composition, seasonality and differing reference months can limit a simple inflation/rate interpretation; a scheduled release is not a policy decision.",
+        "source_ids": [
+          "boj"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence supports broader Asian participation",
+        "outcome": "Opening participation extends beyond a few supplier names.",
+        "trigger": "Verified current breadth and original orders, deliveries and cash corroborate improvement.",
+        "invalidation": "Price strength is concentrated or financing/collections deteriorate.",
+        "horizon": "25November local cash sessions and subsequent original results",
+        "source_ids": [
+          "jpxhours",
+          "dell"
+        ]
+      },
+      {
+        "name": "Domestic data qualifies the overseas narrative",
+        "outcome": "Cost or funding conditions produce different country and sector outcomes.",
+        "trigger": "Actual original BOJ releases and local issuer evidence differ from the broad US lead.",
+        "invalidation": "Comparable independent data and broad participation converge.",
+        "horizon": "25November07:50SGT data and later core-CPI indicators",
+        "source_ids": [
+          "boj",
+          "ap"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "25November07:50SGT /08:50JST BOJOctoberSPPI andSeptemberloan rates scheduled",
+        "due_at": "2026-11-24T23:50:00Z",
+        "confirms": "Original release tables establish actual periods and revisions.",
+        "contradicts": "A forecast or schedule is treated as a known result.",
+        "source_ids": [
+          "boj"
+        ]
+      },
+      {
+        "signal": "25November08:00SGT /09:00JST Tokyo cash opens; pre-open deadline",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Verified cash breadth tests overnight context.",
+        "contradicts": "Order acceptance or old futures is treated as current cash participation.",
+        "source_ids": [
+          "jpxhours"
+        ]
+      },
+      {
+        "signal": "25November13:00SGT /14:00JST BOJcore-CPI indicators scheduled",
+        "due_at": "2026-11-25T05:00:00Z",
+        "confirms": "Original details qualify underlying price pressure.",
+        "contradicts": "The indicators are mistaken for TokyoCPI or a policy decision.",
+        "source_ids": [
+          "boj"
+        ]
+      },
+      {
+        "signal": "25November21:30SGT /08:30EST BEA GDP/profits andincome/outlays scheduled",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original comparable real/nominal periods and revisions establish the result.",
+        "contradicts": "Forecasts or mixed periods create a false surprise.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "26November09:00SGT /10:00JST Tamura speech scheduled",
+        "due_at": "2026-11-26T01:00:00Z",
+        "confirms": "Actual published remarks establish the policy/economic assessment.",
+        "contradicts": "The advisory is presented as a new decision.",
+        "source_ids": [
+          "boj"
+        ]
+      },
+      {
+        "signal": "27November13:00EST /28November02:00SGT NYSEearly cash close; summary03:00,expiry04:00SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified special clock governs freshness; missed window receives web-only catch-up.",
+        "contradicts": "Normal06:00SGT timing produces an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T23:03:21Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "asia",
+      "session_date": "2026-11-25",
+      "calendar_status": "partial",
+      "exchanges": [
+        {
+          "name": "TSEJapan cash09:00JSTopening anchor; no25Novemberholiday listed",
+          "status": "verified-session",
+          "source_ids": [
+            "jpx",
+            "jpxhours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Mixed overnight US lead; current Asian cash confirmation pending.",
+        "indicators": "Prior completed US session only; no current synchronized Asian sector/breadth/volume or risk panels.",
+        "source_ids": [
+          "ap",
+          "nyse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian information technology opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Test delivered supplier demand, customer financing and cash; overseas results do not establish regional sector participation.",
+          "source_ids": [
+            "jpxhours",
+            "dell"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian communication services opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Compare advertising, subscriptions and operating cash evidence with the initial sentiment move.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian consumer discretionary opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Test demand, affordability and inventory conversion independently of technology stocks.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian consumer staples opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Check volumes, pricing and input-cost recovery in original operating updates.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian energy opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Distinguish physical supply, financing and cash sensitivity from broad risk appetite.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian financials opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Read actual BOJloan rates and verify executed support rather than regulatory capacity alone.",
+          "source_ids": [
+            "jpxhours",
+            "boj",
+            "korea",
+            "twse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian health care opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Use original regulatory, reimbursement and trial disclosures; a broad rally is insufficient.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian industrials opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Compare equipment and logistics orders with delivered capacity and collections.",
+          "source_ids": [
+            "jpxhours",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian materials opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Test inventories, volumes and realized margins against changes in construction and manufacturing.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian real estate opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Verify rent collections, refinancing and occupancy separately from support measures.",
+          "source_ids": [
+            "jpxhours",
+            "boj"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current25November Asian utilities opening return/breadth panel is certified.",
+          "implication": "Research/watch; no verified current holdings or completed valuation/risk screen supports a portfolio label.",
+          "watchpoint": "Separate AI-related power expectations from funded projects, commissioning, tariffs and cash.",
+          "source_ids": [
+            "jpxhours"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "singapore",
+          "scenario": "Supplier demand and funding may transmit regionally, but national output is not issuer revenue or cash.",
+          "trigger": "Original local demand, issuer cash, funding and verified participation corroborate exposure.",
+          "invalidation": "Local conditions diverge or only a foreign headline is available.",
+          "source_ids": [
+            "dell",
+            "gdppdf"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Asian orders and financing may affect equipment and other exporters; actual exposure requires local evidence.",
+          "trigger": "Original local demand, issuer cash, funding and verified participation corroborate exposure.",
+          "invalidation": "Local conditions diverge or only a foreign headline is available.",
+          "source_ids": [
+            "dell",
+            "boj"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Asian delivery and customer funding could qualify overseas demand assumptions before USmacro data.",
+          "trigger": "Original local demand, issuer cash, funding and verified participation corroborate exposure.",
+          "invalidation": "Local conditions diverge or only a foreign headline is available.",
+          "source_ids": [
+            "dell",
+            "bea"
+          ]
+        }
+      ],
+      "telegram_clock": {
+        "cash_at": "2026-11-25T00:00:00Z",
+        "source_id": "jpxhours"
+      }
+    }
   }
 ]
