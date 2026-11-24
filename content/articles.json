@@ -60125,5 +60125,376 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-24-us-close",
+    "title": "US close: index divergence and a new server-results cash test",
+    "summary": "The 24 November cash session ended with the Dow higher and S&P500/Nasdaq lower. AP reports most stocks rose outside technology; complete11-sector final panels remain unverified. Dell’s after-close original results distinguish cash and adjusted measures. BEA data are still upcoming; no portfolio action is inferred.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-24T22:04:03Z",
+    "updated_at": "2026-11-24T22:04:03Z",
+    "cutoff_at": "2026-11-24T22:04:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ap",
+        "title": "AP final scorecard published21:19:48UTC, after16:00ESTcashclose; independent complete sector panels not supplied",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/6cc4e580290aadf304ee316d6d46dd81",
+        "type": "secondary",
+        "published_at": "2026-11-24T21:19:48Z",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "dell",
+        "title": "Original24November16:05ESTafter-close results and financial/non-GAAP/cash reconciliations reviewed; no full call transcript claimed",
+        "publisher": "Dell Technologies",
+        "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+        "type": "primary",
+        "published_at": "2026-11-24T21:05:00Z",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Fresh official hours/holidays; undated metadata is observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-24T22:02:00Z",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      },
+      {
+        "id": "bea",
+        "title": "Fresh official25Novemberrelease schedule; scheduled events are not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T22:02:00Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE’s24 November regular cash session ended16:00EST /25 November05:00SGT. The closing-summary target is06:00SGT, expiry07:00SGT. NewYorkEST andLondonGMT remain independent.26 NovemberThanksgiving is closed;27 Novembercash ends13:00EST /28 November02:00SGT, with summary03:00SGT and expiry04:00SGT. A missed special window uses web-only catch-up, not an expired alert.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP’s final24 November scorecard, published16:19:48EST, gives S&P5007,201.09, down36.08(0.5%); Dow50,018.70, up423.39(0.9%); Nasdaq23,733.54, down356.02(1.5%); Russell2000 2,684.94, up15.29(0.6%). It reports most stocks rose outside technology. These final cash observations differ from premarket futures; they do not supply a synchronized11-sector or quantitative breadth panel.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Dell’s after-close release covers the quarter ended30 October2026: revenue US$54.937bn; GAAP dilutedEPS US$8.82, adjusted US$9.45. Operating cash US$4.459bn minus US$0.985bn capital/software spending reconciles to US$3.474bn free cash flow; adding US$0.661bn financing-receivable and US$0.153bn lease adjustments produces US$4.288bn adjusted FCF. Both FCF measures are non-GAAP. Management’s US$132.3bn AI backlog is not revenue or cash; FY27 US$202bn revenue guidance is a forecast. The release came16:05EST, after cash closed.",
+        "kind": "fact",
+        "source_ids": [
+          "dell"
+        ]
+      },
+      {
+        "text": "A price reaction before release cannot be attributed to subsequently published financial results. After-hours trading and the earnings call are separate observation periods; neither a complete transcript nor a verified after-hours price/volume panel is claimed here. Customer financing, collections, delivery and capacity remain tests of the demand narrative.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "dell"
+        ]
+      },
+      {
+        "text": "BEA’s official schedule lists25 November08:30EST /21:30SGT GDP second estimate/corporate profits forQ3 and October personal income/outlays. Revisions, real activity, nominal income and inflation must be compared on consistent periods; no outcome is known at this cutoff. The safe market-image attachment route remains unavailable.",
+        "kind": "fact",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "text": "All11 current US final-sector return/breadth/turnover panels remain incomplete. Synchronized yield,FX,volatility and commodity panels are not certified. The five independent market lanes retain their existing DATA INCOMPLETE/research-watch status; index outcomes do not resolve a company or portfolio screen.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "ap"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Opposite major-index directions can reflect concentration and composition rather than a single uniform market stance.",
+        "transmission": "Different sector weights and funding sensitivities can transmit the same news differently.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, valuation changes or company-specific events may dominate; a final price alone does not establish the cause.",
+        "source_ids": [
+          "ap",
+          "nyse"
+        ]
+      },
+      {
+        "explanation": "The investment narrative still needs a cash-conversion and funding test.",
+        "transmission": "Delivery, receivables, customer financing and usable capacity determine how demand becomes cash.",
+        "confidence": "inference",
+        "alternatives": "Order timing, concentration, adjustments or financing requirements can weaken a headline-growth interpretation.",
+        "source_ids": [
+          "dell"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence supports broader participation",
+        "outcome": "Demand and collected cash strengthen across independently observed businesses.",
+        "trigger": "Subsequent original results and comparable breadth corroborate improvement.",
+        "invalidation": "Participation narrows or collections and funding deteriorate.",
+        "horizon": "25November releases and next original issuer follow-ups",
+        "source_ids": [
+          "bea",
+          "dell"
+        ]
+      },
+      {
+        "name": "Index divergence persists",
+        "outcome": "Aggregate prices conceal materially different business conditions.",
+        "trigger": "Verified sector breadth and company cash continue to diverge.",
+        "invalidation": "Independent broad operating and market evidence converge.",
+        "horizon": "25November next US session",
+        "source_ids": [
+          "nyse",
+          "ap"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "25November06:00SGT closing-summary for24NovemberNewYork session; expiry07:00SGT",
+        "due_at": "2026-11-24T22:00:00Z",
+        "confirms": "Exactlive report and key/messageID establish publication and acceptance.",
+        "contradicts": "Completed workflow alone is treated as delivery.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "25November21:30SGT BEA GDP/profits and income/outlays; USpre-open target coincides",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original releases establish comparable periods and actual revisions.",
+        "contradicts": "A forecast or first estimate is treated as the new release.",
+        "source_ids": [
+          "bea",
+          "nyse"
+        ]
+      },
+      {
+        "signal": "25November22:30SGT next regular US cash opening",
+        "due_at": "2026-11-25T14:30:00Z",
+        "confirms": "Verified fresh breadth tests continued divergence.",
+        "contradicts": "Old futures or single issuers substitute for sector participation.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "26NovemberNYSEThanksgiving closure;00:00SGT review bound, not a market event",
+        "due_at": "2026-11-25T16:00:00Z",
+        "confirms": "Holiday calendar prevents a fictional regular cash alert.",
+        "contradicts": "Futures activity substitutes for an open cash exchange.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "27November13:00EST /28November02:00SGT early cash close; summary03:00,expiry04:00SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Special clock governs freshness; missed window receives web-only catch-up.",
+        "contradicts": "Normal06:00SGT summary time produces an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T22:04:03Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-24",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash anchor; live halt exceptions not independently certified",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Final major indexes diverged; uniform risk appetite is not established.",
+        "indicators": "Final cash scorecard available; current complete sector, quantified breadth/volume and synchronized risk panels incomplete.",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US information technology final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Keep cash-session pricing separate from after-close disclosures; test deliveries, financing and collections.",
+          "source_ids": [
+            "nyse",
+            "dell"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US communication services final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Compare advertising, subscriptions and network cash evidence; headline risk appetite is insufficient.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US consumer discretionary final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Test household demand, credit affordability and realized margins.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US consumer staples final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Check pricing, mix and input-cost recovery against volumes.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US energy final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Verify energy prices and issuer cash sensitivity; no synchronized commodity final certified.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US financials final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Compare funding costs, credit quality and loan growth rather than assume a rate benefit.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US health care final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Use issuer approvals, reimbursement and trial evidence; no broad sector catalyst established.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US industrials final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Test actual equipment orders, delivery constraints and collections.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US materials final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Compare physical demand, prices and inventory rather than a headline index.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US real estate final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Check refinancing, occupancy and cash distribution coverage.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized24November US utilities final sector return/breadth panel verified.",
+          "implication": "Research/watch; headline-index performance does not certify a sector outcome.",
+          "watchpoint": "Separate demand for power capacity from financing, tariffs and realized returns.",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US customer demand and financing can affect Asian suppliers; specific delivered exposure requires verification.",
+          "trigger": "Original local issuer demand, cash and verified price/volume corroborate the channel.",
+          "invalidation": "Local conditions diverge or only a foreign headline is available.",
+          "source_ids": [
+            "dell"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Electronics, logistics and power projects may transmit customer demand, conditional on actual orders and funding.",
+          "trigger": "Original local issuer demand, cash and verified price/volume corroborate the channel.",
+          "invalidation": "Local conditions diverge or only a foreign headline is available.",
+          "source_ids": [
+            "dell",
+            "bea"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Funding and supplier demand may transmit changes, while domestic conditions can diverge.",
+          "trigger": "Original local issuer demand, cash and verified price/volume corroborate the channel.",
+          "invalidation": "Local conditions diverge or only a foreign headline is available.",
+          "source_ids": [
+            "bea",
+            "dell"
+          ]
+        }
+      ]
+    }
   }
 ]

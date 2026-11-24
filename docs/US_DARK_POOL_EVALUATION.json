@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "source_url": "https://darkpoolheatmap.com/heatmap",
+  "evaluation_target_completed_us_sessions": 20,
+  "started_at": "2026-11-24T22:02:00Z",
+  "completed_session_keys_checked": [
+    "2026-11-24"
+  ],
+  "completed_sessions_checked": 1,
+  "sessions_with_reproducible_observations": 0,
+  "status": "observational-in-progress",
+  "counting_rule": "Count each completed New York cash-session date once across pre/post records. Access failures remain untestable attempts, not observed signals or performance samples. Never backfill unobserved pre-open history.",
+  "review_after_completed_sessions": 20,
+  "outcome_counts": {
+    "useful": 0,
+    "misleading": 0,
+    "redundant": 0,
+    "untestable": 1
+  },
+  "records": [
+    {
+      "checked_at": "2026-11-24T22:02:00Z",
+      "market_session_date": "2026-11-24",
+      "period": "post",
+      "source_url": "https://darkpoolheatmap.com/heatmap",
+      "source_health": "unavailable",
+      "data_status": "DATA UNAVAILABLE",
+      "access_observations": [
+        "Public web reader exposed page title and date/sort controls, without timestamped rows or values.",
+        "Direct public HTTP retrieval returned403; no retry, browser takeover, undocumented endpoint or mirror used."
+      ],
+      "displayed_observation_timestamps": [],
+      "release_lag": {
+        "provider_described_minutes": 15,
+        "independently_verified": false,
+        "scope": "Provider description supplied in owner brief; actual session/as-of/lag not verified in the accessible output."
+      },
+      "data_coverage_rights": "Dynamic programmatic access, historical baselines, source licensing and redistribution permission unconfirmed; no licensed/reproducible session inputs available. No raw feed or heatmap redistributed.",
+      "sector_or_ticker": null,
+      "normalized_activity_ratio": null,
+      "price_volume_context": "Normal briefing uses independently sourced final index observations and original issuer disclosure. No matched ticker-level print, baseline or volume comparison is available.",
+      "print_condition_review": "Late,average-price,closing-cross,FormT and corrections cannot be identified without observable timestamped prints.",
+      "alternative_explanation": "Any later observable concentration could reflect ATS/non-ATS mix, mechanical crosses, reporting delay or corrections; identity and buyer/seller direction are not inferred.",
+      "subsequent_test_horizon": "Next independently observable comparable-session record; do not invent a retrospective cluster or outcome.",
+      "independent_checks_beyond_heatmap": [],
+      "independently_changed_conclusion": false,
+      "outcome": "untestable",
+      "telegram_context_published": false,
+      "baseline_comparison": "Unavailable inputs prevent incremental comparison; no predictive accuracy, false-positive rate or instrument signal computed."
+    }
+  ],
+  "method_limits": [
+    "Off-exchange reports mix ATS and non-ATS broker-dealer activity; no institutional identity or direction follows from a print.",
+    "FINRA weekly aggregates, if subsequently used with documented permission and release dates, are not live session prints.",
+    "Retain useful,misleading,redundant anduntestable comparisons; assess precision/usefulness,noise,false positives,lag andaccess stability after20completed sessions, without treating missing inputs as zeros.",
+    "No separate Telegram delivery key, scheduler, message, revision or rerun for this evaluation."
+  ]
+}
