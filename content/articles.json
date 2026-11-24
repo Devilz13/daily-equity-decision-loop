@@ -59664,5 +59664,466 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-24-europe-close",
+    "title": "London close: acquisition commitments and operating cash; final index panel unverified",
+    "summary": "London’s regular closing phases have passed; final index and all 11 sector panels remain unverified. Original Sanofi and Insmed disclosures confirm an acquisition agreement, with approvals pending. Earlier Compass cash and ifo survey evidence retain their source clocks. US cash is still trading.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-24T17:03:29Z",
+    "updated_at": "2026-11-24T17:03:29Z",
+    "cutoff_at": "2026-11-24T17:03:29Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Fresh official business-day calendar; no 24 November closure listed; undated metadata is observation time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-24T17:01:21Z",
+        "accessed_at": "2026-11-24T17:01:21Z"
+      },
+      {
+        "id": "hours",
+        "title": "Original SETS business-parameters workbook: 16:30 closing auction call, standard 16:35 uncrossing subject to extensions",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/content/dam/lse/en_us/documents/technical-library/millennium-exchange-and-tradecho-business-parameters.xlsx",
+        "type": "primary",
+        "published_at": "2026-11-24T17:01:44Z",
+        "accessed_at": "2026-11-24T17:01:44Z"
+      },
+      {
+        "id": "sanofi",
+        "title": "Original 24 November proposed acquisition announcement, including funding, timing and conditions",
+        "publisher": "Sanofi",
+        "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-11-24-06-30-00-3409002",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T17:01:44Z"
+      },
+      {
+        "id": "merger",
+        "title": "Original Insmed Form8-K; entry23 November, disclosed24 November; Item1.01 terms/conditions reviewed, not full annex/proxy completion",
+        "publisher": "Insmed / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126045364/ef20086426_8-k.htm",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T17:01:44Z"
+      },
+      {
+        "id": "ftse-gap",
+        "title": "Historical-data reader returned403; failed check time is record time, no final-price certification",
+        "publisher": "Investors Chronicle / provider data",
+        "url": "https://markets.investorschronicle.co.uk/data/indices/tearsheet/historical?s=FTSE%3AFSI",
+        "type": "secondary",
+        "published_at": "2026-11-24T17:01:21Z",
+        "accessed_at": "2026-11-24T17:01:21Z"
+      },
+      {
+        "id": "compasspdf",
+        "title": "24 November FY2026 original results: selected business review and financial/non-GAAP reconciliations checked",
+        "publisher": "Compass Group",
+        "url": "https://www.compass-group.com/dam/Investors/Results-presentations/2026/Compass%20Group%20FY26%20Press%20Release.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T11:03:09Z"
+      },
+      {
+        "id": "consult",
+        "title": "24 November original shareholder-consultation announcement, full two pages checked",
+        "publisher": "Compass Group",
+        "url": "https://www.compass-group.com/dam/Investors/Results-presentations/2026/Compass%20Group%20PLC%20PR%20-%20Shareholder%20consulation%20regarding%20a%20proposed%20move%20of%20primary%20stock%20market%20listing%20to%20the%20US.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T11:03:09Z"
+      },
+      {
+        "id": "ifoseries",
+        "title": "Original current-results series now displays November 90.6/October 90.1; home reader still showed older October text",
+        "publisher": "ifo Institute",
+        "url": "https://www.ifo.de/en/survey/ifo-business-climate-index-germany",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T11:03:54Z"
+      },
+      {
+        "id": "dell",
+        "title": "10 November original announcement: 24 November 15:30 CST call; release before call, exact release minute unspecified",
+        "publisher": "Dell Technologies",
+        "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1661/dell-technologies-to-hold-conference-call-nov-24-to-discuss-third-quarter-fiscal-2027-financial-results",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "bea",
+        "title": "Fresh official release schedule; 25 November events are not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Fresh official regular hours and Thanksgiving/early-close calendar; undated metadata is observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-24T13:02:02Z",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "London’s SETS closing auction starts 16:30 GMT /25 November 00:30 SGT for the 24 November local session, with standard uncrossing around16:35 GMT subject to extensions. The official calendar lists no 24 November closure or half-day. The closing-summary target is01:30 SGT; expiry02:30 SGT. Calendar completion does not verify a final auction price or every continental venue.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "The historical-data reader returned403 at this check and was not retried or accessed through a mirror. Search-index rows and midday commentary have no independently verified final-observation clock, so no FTSE closing level, volume or return is certified. All11 European sector finals, constituent breadth and synchronized rates/FX/volatility/commodity panels remain incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "ftse-gap",
+          "hours"
+        ]
+      },
+      {
+        "text": "Sanofi’s original24 November announcement describes US$175 per Insmed share in cash, approximately US$41.0bn total equity value (issuer-stated euro equivalent €37.6bn). This is equity consideration, not booked revenue, enterprise value or completed payment. Sanofi describes debt plus cash-on-hand funding and committed financing. Expected closing in H1 2027 and business-EPS accretion by end2028 are issuer projections;2026 guidance is stated unchanged.",
+        "kind": "fact",
+        "source_ids": [
+          "sanofi"
+        ]
+      },
+      {
+        "text": "Insmed’s Form8-K states the agreement was entered23 November and announced24 November. Closing needs an affirmative vote of more than two-thirds of all votes entitled to be cast, antitrust/foreign-investment clearances and other conditions. The merger has no financing condition, although the lenders’ commitments have their own conditions. Signing, board approval and financing commitments do not establish regulatory clearance or completion.",
+        "kind": "fact",
+        "source_ids": [
+          "merger"
+        ]
+      },
+      {
+        "text": "The strategic rationale is broader respiratory/immunology exposure, while pipeline and commercial benefits remain prospective. The Sanofi announcement distinguishes commercial medicines from TPIP, which is investigational and not approved in any jurisdiction. No Singapore approval, reimbursement, patient access change or local economic benefit is verified here. This is transaction research, not medical advice or a company-screen pass.",
+        "kind": "fact",
+        "source_ids": [
+          "sanofi"
+        ]
+      },
+      {
+        "text": "Earlier original CompassFY2026 tables distinguish statutory and underlying earnings and free cash flow; its US-listing announcement is a consultation, not an approved completed move. The original November ifo series improved to90.6 from90.1 while describing a recovery without breadth. These already checked sources retain their19:03–19:04 SGT access clocks; neither a survey nor one issuer establishes Europe-wide sector returns.",
+        "kind": "fact",
+        "source_ids": [
+          "compasspdf",
+          "consult",
+          "ifoseries"
+        ]
+      },
+      {
+        "text": "US cash remains in the24 November NewYork session at this cutoff; no US final is claimed. Dell’s fiscalQ3call is scheduled25 November05:30 SGT, with resultsbeforecall but no exact release minute in the notice. US closing-summary target is06:00 SGT. BEA’s25 November08:30EST /21:30SGT releases remain upcoming. NYSE Thanksgiving26 Novemberclosure and27 November13:00EST early cash close retain their verified exception clocks.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "dell",
+          "bea"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A signed acquisition is a capital-allocation commitment; clinical and commercial value is still conditional.",
+        "transmission": "Funding costs, integration, approvals, reimbursement and realized sales determine future shareholder cash.",
+        "confidence": "inference",
+        "alternatives": "A high purchase price, debt burden, development setbacks or delayed approvals can offset strategic fit; no closing share-price causation is certified.",
+        "source_ids": [
+          "sanofi",
+          "merger"
+        ]
+      },
+      {
+        "explanation": "Issuer cash conversion and survey breadth provide different operating tests.",
+        "transmission": "Orders, collections and financing transmit into earnings differently across countries and sectors.",
+        "confidence": "inference",
+        "alternatives": "Currency adjustments, acquisitions, concentrated demand and temporary sentiment can make headlines stronger than broad operating conditions.",
+        "source_ids": [
+          "compasspdf",
+          "ifoseries"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Commitments translate into operating value",
+        "outcome": "Approval and execution evidence substantiate the strategic case.",
+        "trigger": "Subsequent original vote/regulatory disclosures and operating cash corroborate progress.",
+        "invalidation": "Conditions fail, funding costs rise materially or realized economics weaken.",
+        "horizon": "25 November follow-up review, then issuer-stated H1 2027 closing outlook",
+        "source_ids": [
+          "sanofi",
+          "merger"
+        ]
+      },
+      {
+        "name": "Headline resilience conceals uneven operations",
+        "outcome": "Strong selected issuers do not extend to broad demand or sector participation.",
+        "trigger": "Cash conversion, survey details and verified breadth remain narrow.",
+        "invalidation": "Independent current operating and final-market evidence broadens.",
+        "horizon": "24 November final-data reconciliation and25 November original releases",
+        "source_ids": [
+          "compasspdf",
+          "ifoseries",
+          "bea"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "25 November01:30 SGT London summary for24 Novemberlocal session; final-panel reconciliation",
+        "due_at": "2026-11-24T17:30:00Z",
+        "confirms": "A dated post-auction final and comparable breadth become verifiable.",
+        "contradicts": "Column labels, old data or calendar completion are mistaken for final evidence.",
+        "source_ids": [
+          "hours",
+          "ftse-gap"
+        ]
+      },
+      {
+        "signal": "25 November05:30 SGT Dellcall; resultsbeforecall, exact release minute unspecified",
+        "due_at": "2026-11-24T21:30:00Z",
+        "confirms": "Original financial statements distinguish orders, revenue, margins and cash.",
+        "contradicts": "The scheduled call or backlog is treated as a released result.",
+        "source_ids": [
+          "dell"
+        ]
+      },
+      {
+        "signal": "25 November06:00 SGT USclose-summary for24 NovemberNewYork session",
+        "due_at": "2026-11-24T22:00:00Z",
+        "confirms": "Verified final cash sources support the closing read.",
+        "contradicts": "Current intraday or earlier futures marks substitute for finals.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "25 November21:30 SGT BEA GDP/profits and October income/outlays",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original comparable periods clarify activity, earnings and inflation.",
+        "contradicts": "Forecasts or different periods support a false simple comparison.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "Sanofi–Insmed next original approval/proxy follow-up;25 November19:00 SGT is a review bound, not a vote date",
+        "due_at": "2026-11-25T11:00:00Z",
+        "confirms": "Original proxy and authority decisions establish actual progress.",
+        "contradicts": "Signing or financing commitments are treated as final approval.",
+        "source_ids": [
+          "merger",
+          "sanofi"
+        ]
+      },
+      {
+        "signal": "27 November13:00 EST /28 November02:00 SGT NYSE early cash close; summary03:00,expiry04:00SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Special clock governs freshness and a missed window uses web-only catch-up.",
+        "contradicts": "Normal06:00 SGT timing sends an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T17:03:29Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-24",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London SETS cash closing anchor; continental venues not separately certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Current final-market risk appetite remains unverified; operating and acquisition evidence is available.",
+        "indicators": "No certified closing index or synchronized sector/breadth/turnover/rates/FX/volatility panel; the historical reader is403.",
+        "source_ids": [
+          "ftse-gap",
+          "hours"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European information technology final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare software and semiconductor demand with realized deliveries and cash.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European communication services final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Check media, platform and telecom participation independently.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European consumer discretionary final return/breadth panel verified. Compass’s results do not certify a whole sector.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Separate household volumes, prices and financing sensitivity.",
+          "source_ids": [
+            "ftse-gap",
+            "compasspdf"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European consumer staples final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare pricing power and input costs against volumes.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European energy final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Distinguish energy producers, refiners and dated commodity marks.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European financials final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare banks and insurers against curves, credit and original funding records.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European health care final return/breadth panel verified. The signed acquisition is company evidence, not a sector-wide closing outcome.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Verify approval, funding and realized commercial cash; pipeline assets are not approved revenue.",
+          "source_ids": [
+            "ftse-gap",
+            "sanofi",
+            "merger"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European industrials final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Test equipment orders against cash conversion; survey manufacturing strength is not a sector price return.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European materials final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Compare metals, chemicals and construction demand across countries.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European real estate final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Check occupancy, collections and refinancing separately from discount rates.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No synchronized24 November European utilities final return/breadth panel verified.",
+          "implication": "Research/watch only; one country,index or issuer cannot establish the sector outcome.",
+          "watchpoint": "Verify Drax’s original full guidance when access is permitted; no completed review is claimed from the blocked page.",
+          "source_ids": [
+            "ftse-gap"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Respiratory distribution and supplier exposure is conditional; no new local approval or supply change is verified.",
+          "trigger": "Original local disclosure, demand and cash evidence establish exposure.",
+          "invalidation": "Only foreign headlines or index commentary are available, or domestic conditions diverge.",
+          "source_ids": [
+            "sanofi"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Potential procurement, distribution and financing effects require specific local exposure evidence; none is certified here.",
+          "trigger": "Original local disclosure, demand and cash evidence establish exposure.",
+          "invalidation": "Only foreign headlines or index commentary are available, or domestic conditions diverge.",
+          "source_ids": [
+            "sanofi",
+            "merger"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "The proposed acquisition connects a French buyer and US target while the US cash session remains underway; it does not certify a US closing outcome.",
+          "trigger": "Original local disclosure, demand and cash evidence establish exposure.",
+          "invalidation": "Only foreign headlines or index commentary are available, or domestic conditions diverge.",
+          "source_ids": [
+            "merger",
+            "nyse"
+          ]
+        }
+      ]
+    }
   }
 ]
