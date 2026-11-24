@@ -57564,5 +57564,577 @@
       "reviewed_at": "2026-11-24T00:08:35Z"
     },
     "material_reason": "A newly reviewed cross-border maritime attack and independent damage evidence warrant strategic follow-up; one event, not multiple quota entries."
+  },
+  {
+    "id": "2026-11-24-europe-open",
+    "title": "London pre-open: issuer events and operating breadth tests",
+    "summary": "London’s normal cash opening is still ahead. Issuer calendars create dated watchpoints, but full results and current sector prices are not certified. Singapore’s original GDP release is now verified; its uneven sector mix cautions against treating headline growth or overseas recovery as broad earnings confirmation.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-24T07:04:25Z",
+    "updated_at": "2026-11-24T07:04:25Z",
+    "cutoff_at": "2026-11-24T07:04:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Official calendar freshly read: no 24 Novemberclosure or half-day listed; undated metadata is observation time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-24T07:01:40Z",
+        "accessed_at": "2026-11-24T07:01:40Z"
+      },
+      {
+        "id": "hours",
+        "title": "Original business-parameters workbook: SETS08:00 opening,16:30 closing-auction start; undated metadata is observation time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/content/dam/lse/en_us/documents/technical-library/millennium-exchange-and-tradecho-business-parameters.xlsx",
+        "type": "primary",
+        "published_at": "2026-11-24T07:01:40Z",
+        "accessed_at": "2026-11-24T07:01:40Z"
+      },
+      {
+        "id": "lse-data",
+        "title": "Current public equity reader exposes navigation but no synchronized current price/breadth panel; observation-time metadata",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/market-data/equity",
+        "type": "primary",
+        "published_at": "2026-11-24T07:01:40Z",
+        "accessed_at": "2026-11-24T07:01:40Z"
+      },
+      {
+        "id": "compass",
+        "title": "Issuer advertises24 November 09:00 GMTresults event; no full current result tables verified; undated observation-time metadata",
+        "publisher": "Compass Group",
+        "url": "https://www.compass-group.com/en/investors.html",
+        "type": "primary",
+        "published_at": "2026-11-24T07:02:13Z",
+        "accessed_at": "2026-11-24T07:02:13Z"
+      },
+      {
+        "id": "kingfisher",
+        "title": "Direct investor reader returned403; only previously retrieved indexed calendar lead, not full results",
+        "publisher": "Kingfisher",
+        "url": "https://www.kingfisher.com/investors",
+        "type": "primary",
+        "published_at": "2026-11-24T07:04:25Z",
+        "accessed_at": "2026-11-24T07:04:25Z"
+      },
+      {
+        "id": "lmp",
+        "title": "Direct calendar reader returned403; previously indexed presentation lead only, no result verification",
+        "publisher": "LondonMetric",
+        "url": "https://www.londonmetric.com/investors/financial-calendar",
+        "type": "primary",
+        "published_at": "2026-11-24T07:04:25Z",
+        "accessed_at": "2026-11-24T07:04:25Z"
+      },
+      {
+        "id": "gdppdf",
+        "title": "24 Novemberoriginal third-quarter release and annexes, relevant sector annexes checked",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/86e12e7e-e71d-418e-af1a-ce66d00962a6/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T07:02:49Z"
+      },
+      {
+        "id": "pmi",
+        "title": "Original23 November eurozone flash-PMI commentary; survey interpretation, not realized GDP or rates decision",
+        "publisher": "S&P Global",
+        "url": "https://www.spglobal.com/content/dam/spglobal/mi/en/documents/news-insights/research/2026/11/6327993_6327969_0.1.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T16:59:02Z"
+      },
+      {
+        "id": "final",
+        "title": "23 November final major-index scorecard",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/fcdf1bad36b4f81c90cbb0f33a2c5704",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:13Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Original Form8-K: board action22 November, release and signature23 November",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "fed",
+        "title": "Official summary of Williams23 November remarks, replacing advisory-only evidence",
+        "publisher": "Federal Reserve Bank of New York",
+        "url": "https://tellerwindow.newyorkfed.org/2026/11/23/key-takeaways-from-president-williamss-speech-on-the-economic-outlook-and-monetary-policy-28/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "CircularNSE/CMTR/71775:24 November 2026capital-market holiday",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "cpipdf",
+        "title": "23 November original October CPI tables and outlook",
+        "publisher": "MAS / METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/40ab86ad-b08f-4acf-9021-0651391e8ddf/Consumer%20Price%20Developments%20in%20October%202026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:40Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The LSE calendar lists no 24 Novemberclosure or half-day. Its original business-parameters workbook gives the SETS opening at08:00 GMT /16:00 SGT and closing-auction start16:30 GMT. The guarded pre-open target is15:00 SGT; this report retains its actual later cutoff. London GMT and New York EST are independently checked. Live halt/exception verification remains incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "The freshly retrieved official equity reader does not expose a current synchronized index, constituent breadth or 11-sector opening panel. No today cash opening, current futures move, live FX/rates/commodity panel or institutional flow is invented. Prior US final observations retain their23 Novembercash date.",
+        "kind": "fact",
+        "source_ids": [
+          "lse-data",
+          "final"
+        ]
+      },
+      {
+        "text": "Compass’s issuer page advertises its 24 Novemberresults event at09:00 GMT /17:00 SGT and lists Full Year Results 2026. No full current result tables, guidance or share-price reaction were verified. Kingfisher’s investor reader and LondonMetric’s calendar reader returned403; indexed calendar leads are not completed original results checks. Neither page was retried or routed around.",
+        "kind": "fact",
+        "source_ids": [
+          "compass",
+          "kingfisher",
+          "lmp"
+        ]
+      },
+      {
+        "text": "METI’s original 24 Novemberrelease now verifies Singapore Q3 real GDP growth 6.1%y/y, revised from the5.4%advance estimate; Q2 is6.4%in the updated series. Seasonally adjusted q/q growth is1.5%. Its 2026forecast is around 6.0%; the 2027range is2.5–4.5%. Forecasts are not realized outcomes. A separate structured follow-up resolves the morning’s original-data gap without changing or resending Issue 072.",
+        "kind": "fact",
+        "source_ids": [
+          "gdppdf"
+        ]
+      },
+      {
+        "text": "The previously reviewed original eurozone flash PMI remained51.7 on23 November with country divergence. The NYFed’s actual Williams summary retains inflation concerns alongside resilience; neither is a new ECB/FOMC decision. The25 November BEA calendar and future issuer disclosures remain dated tests.",
+        "kind": "fact",
+        "source_ids": [
+          "pmi",
+          "fed",
+          "bea"
+        ]
+      },
+      {
+        "text": "Today’s NSE capital-market holiday is retained; it does not cancel the separate19:00 SGT evening editorial watch. The morning Singapore CPI evidence and original NVIDIA corporate-action filing keep their earlier retrieval clocks. No current holdings, complete valuation/risk screen or portfolio action is established.",
+        "kind": "fact",
+        "source_ids": [
+          "nsecal",
+          "cpipdf",
+          "nvda"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Supplier demand and financing conditions can transmit overseas economic changes to European businesses.",
+        "transmission": "Orders, delivery capacity, cash collection and discount rates determine actual earnings effects.",
+        "confidence": "inference",
+        "alternatives": "Headline GDP and index rebounds may be concentrated, while domestic demand or input costs move differently.",
+        "source_ids": [
+          "gdppdf",
+          "pmi",
+          "fed"
+        ]
+      },
+      {
+        "explanation": "Scheduled issuer events can change expectations once actual results are public and checked.",
+        "transmission": "Margins, cash conversion, leverage and guidance matter more than an event appearing on a calendar.",
+        "confidence": "inference",
+        "alternatives": "Calendar dates can change and early headlines can omit accounting or currency adjustments; no price cause is established here.",
+        "source_ids": [
+          "compass"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence broadens",
+        "outcome": "The opening narrative receives wider fundamental support.",
+        "trigger": "Original issuer results and later cash breadth improve together.",
+        "invalidation": "Gains remain narrow or collections and margins weaken.",
+        "horizon": "24–25 November and next original issuer updates",
+        "source_ids": [
+          "compass",
+          "gdppdf",
+          "pmi"
+        ]
+      },
+      {
+        "name": "Headline relief outruns delivery",
+        "outcome": "Volatility persists despite stronger aggregate narratives.",
+        "trigger": "Funding or demand diverges from expectations.",
+        "invalidation": "Independent broad earnings and cash evidence improve sustainably.",
+        "horizon": "24–25 November and next original issuer updates",
+        "source_ids": [
+          "gdppdf",
+          "fed"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November 08:00 GMT /16:00 SGT London cash open",
+        "due_at": "2026-11-24T08:00:00Z",
+        "confirms": "Actual auction/opening and breadth evidence become available.",
+        "contradicts": "Earlier futures, calendar text or prior-session marks substitute for cash.",
+        "source_ids": [
+          "hours",
+          "lse-data"
+        ]
+      },
+      {
+        "signal": "24 November 09:00 GMT Compass advertised results event",
+        "due_at": "2026-11-24T09:00:00Z",
+        "confirms": "Original complete results and reconciliation can be read.",
+        "contradicts": "An event listing is treated as earnings or guidance already verified.",
+        "source_ids": [
+          "compass"
+        ]
+      },
+      {
+        "signal": "24 November evening review of operating breadth and SingaporeGDP transmission",
+        "due_at": "2026-11-24T11:00:00Z",
+        "confirms": "Original issuer follow-through tests sector concentration and domestic demand.",
+        "contradicts": "A national-accounts sector is equated to a global equity-sector return.",
+        "source_ids": [
+          "gdppdf",
+          "pmi"
+        ]
+      },
+      {
+        "signal": "25 November BEA scheduled release checkpoint",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original tables clarify actual activity and prices.",
+        "contradicts": "Consensus or survey estimates substitute for results.",
+        "source_ids": [
+          "bea"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T07:04:25Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-24",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London SETS opening anchor; other European venues not separately calendar-certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Overnight recovery is dated context; current European opening participation remains unverified.",
+        "indicators": "No synchronized current futures, sector, breadth, turnover, rates, FX, volatility or commodity panel verified.",
+        "source_ids": [
+          "lse-data",
+          "final"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "AI-related sentiment still needs European supplier operating evidence.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Test actual semiconductor, packaging, networking and customer financing rather than governance-related price relief.",
+          "source_ids": [
+            "nvda",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current communications-services price/breadth panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Check actual advertising, subscription and digital-service cash demand.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "Scheduled retail-related leads are not verified results or sector direction.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Compare volumes, margins, consumer funding and guidance after original release checks.",
+          "source_ids": [
+            "kingfisher",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current staples price/breadth panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Separate contracted demand, food/input costs and cash conversion from calendar events.",
+          "source_ids": [
+            "compass",
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized energy prices, physical-flow effects or sector returns verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Use independently verified supply and issuer cash sensitivity; forecasts are not shipments.",
+          "source_ids": [
+            "gdppdf",
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "Current financials returns and breadth remain incomplete.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Test fee income, credit quality, funding costs and cash evidence; do not infer a policy change.",
+          "source_ids": [
+            "fed",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current health-care issuer outcome or sector panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Check original approvals, demand, reimbursement and accounting periods.",
+          "source_ids": [
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current industrials sector-return/breadth panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Compare equipment and services orders with deliveries, margins and collections.",
+          "source_ids": [
+            "compass",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current materials pricing, volume or sector panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Compare physical demand and inventory with manufacturing surveys.",
+          "source_ids": [
+            "pmi",
+            "lse-data"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "LondonMetric full original calendar/result reader is blocked; no current property sector panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Verify rental cash, refinancing, occupancy and reported-versus-adjusted results when permitted originals are available.",
+          "source_ids": [
+            "lmp"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current utility-sector or synchronized power/funding panel verified.",
+          "implication": "Research/watch; neither one issuer nor a national-accounts sector certifies current European equity-sector direction.",
+          "watchpoint": "Distinguish funded grid/generation capacity, regulated returns and commissioning from AI demand forecasts.",
+          "source_ids": [
+            "gdppdf",
+            "lse-data"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "European supplier demand and financing can affect Asian production, but actual orders and deliveries must confirm it.",
+          "trigger": "Original local orders, funding and issuer cash evidence corroborate the channel.",
+          "invalidation": "Domestic demand, currency or execution effects produce divergence.",
+          "source_ids": [
+            "gdppdf",
+            "pmi",
+            "fed"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "The new GDP release offers a domestic operating test; European demand or funding changes remain conditional transmission.",
+          "trigger": "Original local orders, funding and issuer cash evidence corroborate the channel.",
+          "invalidation": "Domestic demand, currency or execution effects produce divergence.",
+          "source_ids": [
+            "gdppdf",
+            "pmi",
+            "fed"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Actual European and Asian operating breadth can test whether the US recovery is supported beyond valuations.",
+          "trigger": "Original local orders, funding and issuer cash evidence corroborate the channel.",
+          "invalidation": "Domestic demand, currency or execution effects produce divergence.",
+          "source_ids": [
+            "gdppdf",
+            "pmi",
+            "fed"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-24-singapore-gdp-follow-up",
+    "title": "Singapore GDP follow-up: revision verified, sector mix remains uneven",
+    "summary": "The24 Novemberoriginal release is now read, resolving the morning’s evidence gap. Stronger aggregate growth coexists with weaker consumer-facing and sequential sector results. Forward ranges remain forecasts; this follow-up does not resend the daily digest.",
+    "channel": "markets",
+    "regions": [
+      "singapore",
+      "asia"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "short",
+    "published_at": "2026-11-24T07:04:25Z",
+    "updated_at": "2026-11-24T07:04:25Z",
+    "cutoff_at": "2026-11-24T07:04:25Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "gdppdf",
+        "title": "24 Novemberoriginal release, growth tables and annexes; observed after morning cutoff",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/86e12e7e-e71d-418e-af1a-ce66d00962a6/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T07:02:49Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The original release gives Q3 real GDP 6.1%y/y versus advance 5.4%, with updated Q2 growth6.4%. Seasonally adjusted q/q growth is1.5% versus1.8%. The 2026forecast rises to around 6.0% from 4.5–5.5%; 2027is projected2.5–4.5%.",
+        "kind": "fact",
+        "source_ids": [
+          "gdppdf"
+        ]
+      },
+      {
+        "text": "Manufacturing is+8.5%y/y but−0.2%q/q SA; finance/insurance+3.8%y/y but−3.0%q/q SA. Retail trade−2.7%y/y and food/beverage services−2.1%y/y show uneven domestic demand. These GDP categories are not equity-sector returns.",
+        "kind": "fact",
+        "source_ids": [
+          "gdppdf"
+        ]
+      },
+      {
+        "text": "This is a later original-data observation. It does not imply the release was read before Issue 072’s08:08:35 SGT evidence cutoff, and it does not retrospectively replace that edition or its accepted digest.",
+        "kind": "fact",
+        "source_ids": [
+          "gdppdf"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Aggregate growth can coexist with weak sequential and consumer-facing activity.",
+        "transmission": "Issuer exposure, margins, financing and cash collection determine whether national output supports a specific business.",
+        "confidence": "inference",
+        "alternatives": "Base effects, industry mix and later revisions can change interpretation; stronger real output is not the same as profit growth.",
+        "source_ids": [
+          "gdppdf"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Growth broadens into business cash",
+        "outcome": "More firms show sustainable operating benefits.",
+        "trigger": "Original demand, margins and collections improve across exposures.",
+        "invalidation": "Headline growth remains concentrated or cash conversion deteriorates.",
+        "horizon": "24–25 November and next original issuer updates",
+        "source_ids": [
+          "gdppdf"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24–25 Novemberissuer and release follow-through",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Specific operating evidence confirms or contradicts concentration and household-demand risks.",
+        "contradicts": "A macro forecast is used as booked company earnings or an action label.",
+        "source_ids": [
+          "gdppdf"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T07:04:25Z"
+    },
+    "material_reason": null
   }
 ]
