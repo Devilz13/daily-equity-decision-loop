@@ -58136,5 +58136,466 @@
       "reviewed_at": "2026-11-24T07:04:25Z"
     },
     "material_reason": null
+  },
+  {
+    "id": "2026-11-24-singapore-close",
+    "title": "Singapore close: final-panel gap and export-demand tests",
+    "summary": "Singapore’s normal closing phases have passed. A retrieved commentary labels an index close before Trade at Close ended, so its final is not certified. Fresh secondary export reporting adds demand context, with original agency tables still unverified. All 11 current sector panels remain incomplete; the 18:16 guarded target is separate from the 19:00 evening watch.",
+    "channel": "markets",
+    "regions": [
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-24T10:04:29Z",
+    "updated_at": "2026-11-24T10:04:29Z",
+    "cutoff_at": "2026-11-24T10:04:29Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "sgclock",
+        "title": "Original normal cash and Trade at Close phases freshly read",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-24T10:01:47Z"
+      },
+      {
+        "id": "mom",
+        "title": "Official2026holiday list; no24 Novemberholiday",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-24T10:01:45Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Public reader returns browser-support shell; current final price/halt panel not exposed; undated metadata denotes observation",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-24T10:01:46Z",
+        "accessed_at": "2026-11-24T10:01:46Z"
+      },
+      {
+        "id": "liveindex",
+        "title": "Quote reader returned403; failed-retrieval record time is cutoff, not a successful price check",
+        "publisher": "Live Index",
+        "url": "https://liveindex.org/sti",
+        "type": "primary",
+        "published_at": "2026-11-24T10:04:29Z",
+        "accessed_at": "2026-11-24T10:04:29Z"
+      },
+      {
+        "id": "closelead",
+        "title": "24 November 14:25 IST commentary labels a close before17:16 SGT Trade at Close end; final not certified",
+        "publisher": "Business Upturn",
+        "url": "https://businessupturn.com/asia/southeast-asia/singapore/singapore-stocks-edge-up-as-sti-closes-near-days-low/",
+        "type": "secondary",
+        "published_at": "2026-11-24T08:55:00Z",
+        "accessed_at": "2026-11-24T10:02:42Z"
+      },
+      {
+        "id": "nodx",
+        "title": "24 November 10:47 SGT CNA report read in full; agency statistics reported secondarily, original tables not reconciled",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/nodx-q3-electronics-ai-2026-forecast-upgrade-6576701",
+        "type": "secondary",
+        "published_at": "2026-11-24T02:47:00Z",
+        "accessed_at": "2026-11-24T10:02:41Z"
+      },
+      {
+        "id": "enterprise",
+        "title": "Original agency media reader returned403; record time is cutoff, not completed table verification",
+        "publisher": "Enterprise Singapore",
+        "url": "https://www.enterprisesg.gov.sg/media-centre/media-releases",
+        "type": "primary",
+        "published_at": "2026-11-24T10:04:29Z",
+        "accessed_at": "2026-11-24T10:04:29Z"
+      },
+      {
+        "id": "gdppdf",
+        "title": "24 Novemberoriginal release, growth tables and annexes; observed after morning cutoff",
+        "publisher": "METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/86e12e7e-e71d-418e-af1a-ce66d00962a6/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T07:02:49Z"
+      },
+      {
+        "id": "cpipdf",
+        "title": "23 November original October CPI tables and outlook",
+        "publisher": "MAS / METI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/40ab86ad-b08f-4acf-9021-0651391e8ddf/Consumer%20Price%20Developments%20in%20October%202026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:40Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "CircularNSE/CMTR/71775:24 November 2026capital-market holiday",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "final",
+        "title": "23 Novemberfinal major-index scorecard freshly reread; US cash observations only",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/fcdf1bad36b4f81c90cbb0f33a2c5704",
+        "type": "secondary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:04Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Original Form8-K: board action22 November, release and signature23 November",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "bea",
+        "title": "Official calendar freshly checked 22 November evening; scheduled evidence, not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-22T10:57:28Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "SGX’s original normal-day rules set continuous afternoon trading through17:00 SGT, closing routine through17:06 and Trade at Close through17:16. MOM lists no24 Novemberholiday. The normal phases have passed at this review; current halts and exceptional-session data remain unverified. The closing-summary target is18:16 SGT and expiry19:16 SGT.",
+        "kind": "fact",
+        "source_ids": [
+          "sgclock",
+          "mom",
+          "sgx"
+        ]
+      },
+      {
+        "text": "The retrieved Business Upturn commentary labels STI 4,963.67(+0.20%) as a24 Novemberclose, but its stated publication time14:25 IST equals16:55 SGT, before Trade at Close ended. No later source clock or independently reconciled official final was verified. This remains an uncertified early-labelled observation, not a certified final or sector/breadth result.",
+        "kind": "fact",
+        "source_ids": [
+          "closelead",
+          "sgclock"
+        ]
+      },
+      {
+        "text": "The direct quote reader returned403 and was not retried or routed around. The official trading reader remains a browser shell. Full final index reconciliation, all 11current sector returns, breadth, turnover and synchronized FX/rates/commodities therefore remain incomplete. No opening observation, CFD quote or previous-day mark substitutes for a final.",
+        "kind": "fact",
+        "source_ids": [
+          "liveindex",
+          "sgx"
+        ]
+      },
+      {
+        "text": "CNA’s24 November 10:47 SGT report attributes Q3 NODX growth 45.8%y/y to EnterpriseSG, with electronics and specialised machinery contributions and lumpy ship/boat structures affected by base effects. It reports 2026 NODX forecast 30–32% versus 14–16% previously and 2027 forecast 5–7%. These are secondary reported statistics and forecasts, not certified original-table comparisons or company booked revenue. The original agency reader returned403; no retry.",
+        "kind": "fact",
+        "source_ids": [
+          "nodx",
+          "enterprise"
+        ]
+      },
+      {
+        "text": "The separate originalGDP follow-up remains verified with its actual15:04 SGT cutoff. National-accounts output and current export reporting measure different aggregates and periods; neither certifies sector equity returns or issuer earnings. Earlier original CPI and NVIDIA filing evidence keep their source clocks, with no new policy, governance-resolution or portfolio-action inference.",
+        "kind": "fact",
+        "source_ids": [
+          "gdppdf",
+          "cpipdf",
+          "nvda"
+        ]
+      },
+      {
+        "text": "NSE’s24 Novembercapital-market holiday is retained. No Indian regular cash-close alert is due, while the separate19:00 SGT global evening watch remains due. US and London windows retain their own local dates and independently checked EST/GMT clocks;25 November BEA releases remain scheduled evidence.",
+        "kind": "fact",
+        "source_ids": [
+          "nsecal",
+          "bea"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "AI-related export demand could support exposed equipment and electronics suppliers.",
+        "transmission": "Actual product mix, deliveries, margins and cash collection determine issuer benefit; broad export value is not revenue for a specific company.",
+        "confidence": "inference",
+        "alternatives": "Base effects, lumpy shipments, pricing and concentration can inflate headline growth without broad operating improvement.",
+        "source_ids": [
+          "nodx",
+          "gdppdf"
+        ]
+      },
+      {
+        "explanation": "Overnight market relief and local macro news can coexist with weaker domestic activity.",
+        "transmission": "Funding, consumer demand, currency effects and sector weights can produce different outcomes across Singapore businesses.",
+        "confidence": "inference",
+        "alternatives": "Position covering or a few large constituents could move the index without improving broad breadth; no exclusive closing-price cause is established.",
+        "source_ids": [
+          "gdppdf",
+          "final",
+          "nvda"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Demand translates into cash",
+        "outcome": "More exposed suppliers show sustainable operating benefits.",
+        "trigger": "Original orders, delivery data, margins and collections support the reported trade trend.",
+        "invalidation": "Lumpy exports, weak cash conversion or financing costs dominate.",
+        "horizon": "24 November evening and25 Novemberoriginal follow-ups",
+        "source_ids": [
+          "nodx",
+          "gdppdf"
+        ]
+      },
+      {
+        "name": "Macro strength stays concentrated",
+        "outcome": "Aggregate export strength does not establish broad equity-sector improvement.",
+        "trigger": "Consumer-facing weakness or narrow participation persists.",
+        "invalidation": "Verified broad operating and market participation improve together.",
+        "horizon": "24 November evening and25 Novemberoriginal follow-ups",
+        "source_ids": [
+          "gdppdf",
+          "nodx",
+          "sgx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November 18:16 SGT guarded Singapore closing-summary target",
+        "due_at": "2026-11-24T10:16:00Z",
+        "confirms": "Exact live marker and fresh reviewed report qualify before a single guarded send.",
+        "contradicts": "An unverified final or a completed workflow is mistaken for Telegram acceptance.",
+        "source_ids": [
+          "sgclock"
+        ]
+      },
+      {
+        "signal": "24 November 19:00 SGT distinct global evening watch",
+        "due_at": "2026-11-24T11:00:00Z",
+        "confirms": "Fresh sector/REDL evidence and holiday outcomes are recorded separately.",
+        "contradicts": "India’s closure suppresses the editorial product or creates a fictional cash close.",
+        "source_ids": [
+          "nsecal"
+        ]
+      },
+      {
+        "signal": "25 Novemberoriginal trade/issuer evidence and calendar follow-up",
+        "due_at": "2026-11-25T00:00:00Z",
+        "confirms": "Permitted original tables and actual business cash data clarify concentration and base effects.",
+        "contradicts": "Secondary reported forecasts are treated as booked revenue or guaranteed demand.",
+        "source_ids": [
+          "nodx",
+          "gdppdf"
+        ]
+      },
+      {
+        "signal": "25 November BEA scheduled releases",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original released tables clarify activity and prices.",
+        "contradicts": "Survey expectations substitute for actual outcomes.",
+        "source_ids": [
+          "bea"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T10:04:29Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "singapore",
+      "session_date": "2026-11-24",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "SGX normal cash anchor; current halt/exception panel incomplete",
+          "status": "verified-session",
+          "source_ids": [
+            "sgclock",
+            "mom"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "A certified current final and broad participation panel remain unavailable; research/watch only.",
+        "indicators": "Uncertified early-labelled commentary, dated overnight context and reported trade data; no synchronized current breadth, turnover, volatility, FX or rates panel.",
+        "source_ids": [
+          "closelead",
+          "sgx",
+          "nodx"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "New reported electronics/export demand is operating context, not a current technology-sector return.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Verify supplier deliveries, advanced-packaging/memory availability, margins and cash conversion; financing and overbuild remain counterarguments.",
+          "source_ids": [
+            "nodx",
+            "nvda"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current communications-services final/breadth panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Test actual subscription, advertising and digital-service demand in original issuer results.",
+          "source_ids": [
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current discretionary final/breadth panel verified; earlier GDP showed uneven consumer activity.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Separate domestic volumes, outbound spending, credit affordability and inventory conversion.",
+          "source_ids": [
+            "gdppdf",
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current staples final/breadth panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Compare volumes, input costs, pricing and collections rather than aggregate exports.",
+          "source_ids": [
+            "sgx",
+            "cpipdf"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No current energy-sector final or synchronized physical-flow/price panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Check actual fuel supply, contracts and cash sensitivity; forecasts are not shipments.",
+          "source_ids": [
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No current financials final/breadth panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Compare credit quality, fee income, funding and capital with actual issuer disclosures.",
+          "source_ids": [
+            "gdppdf",
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current healthcare-sector final or material issuer-outcome panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Use original approval, reimbursement and trial evidence; macro growth is insufficient.",
+          "source_ids": [
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "Reported specialised machinery and lumpy ship/boat exports are not a sector final or guaranteed recurring orders.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Reconcile actual new orders, backlog, delivery timing, funding and collections; separate base effects.",
+          "source_ids": [
+            "nodx"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current materials-sector final or physical price/volume panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Compare inventories, realised pricing and customer demand with production evidence.",
+          "source_ids": [
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current property/REIT final, occupancy or refinancing change verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Keep national real-estate output separate from listed trust rental cash, debt and valuation.",
+          "source_ids": [
+            "gdppdf",
+            "sgx"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current utilities-sector final or new capacity/financing panel verified.",
+          "implication": "Research/watch; incomplete evidence cannot become a core-screen pass or portfolio action.",
+          "watchpoint": "Distinguish regulated tariffs, fuel costs, funded projects and commissioning from AI demand projections.",
+          "source_ids": [
+            "cpipdf",
+            "sgx"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Singapore trade demand could affect regional supply chains if actual deliveries and cash confirm it.",
+          "trigger": "Original local orders, funding and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Currency, demand, concentration or execution produces divergence.",
+          "source_ids": [
+            "nodx",
+            "gdppdf"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "Equipment demand and shipping/funding conditions can transmit across suppliers; headline exports alone cannot establish profit effects.",
+          "trigger": "Original local orders, funding and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Currency, demand, concentration or execution produces divergence.",
+          "source_ids": [
+            "nodx",
+            "gdppdf"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Actual Asian supplier cash and customer demand can test whether overseas technology-related expectations are sustainable.",
+          "trigger": "Original local orders, funding and issuer cash evidence corroborate the specific channel.",
+          "invalidation": "Currency, demand, concentration or execution produces divergence.",
+          "source_ids": [
+            "nodx",
+            "gdppdf"
+          ]
+        }
+      ]
+    }
   }
 ]
