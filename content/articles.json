@@ -59247,5 +59247,422 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-24-us-open",
+    "title": "US pre-open: weaker futures, verified analog-chip cash and an upcoming server test",
+    "summary": "US cash opens 22:30 SGT; the guarded alert target is 21:30. AP’s updated premarket report describes weaker futures, not cash-sector returns. Original Analog Devices results separate GAAP earnings, adjusted measures and cash; Dell’s call is still upcoming. All 11 current cash-sector panels remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-24T13:03:53Z",
+    "updated_at": "2026-11-24T13:03:53Z",
+    "cutoff_at": "2026-11-24T13:03:53Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Fresh official regular hours and Thanksgiving/early-close calendar; undated metadata is observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-24T13:02:02Z",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "adi",
+        "title": "Original 24 November earnings exhibit; financial tables and GAAP/non-GAAP/cash reconciliations checked",
+        "publisher": "Analog Devices / SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000087/adiq426exhibit991.htm",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "dell",
+        "title": "10 November original announcement: 24 November 15:30 CST call; release before call, exact release minute unspecified",
+        "publisher": "Dell Technologies",
+        "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1661/dell-technologies-to-hold-conference-call-nov-24-to-discuss-third-quarter-fiscal-2027-financial-results",
+        "type": "primary",
+        "published_at": "2026-11-10",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "ap",
+        "title": "Original AP report: published 03:31:26Z, updated 12:55:26Z; quote observation clock not independently certified",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/feec0e25b9994b1c86b16329cf770192",
+        "type": "secondary",
+        "published_at": "2026-11-24T03:31:26Z",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "bea",
+        "title": "Fresh official release schedule; 25 November events are not outcomes",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      },
+      {
+        "id": "evening",
+        "title": "Today’s distinct evening watch; underlying source clocks unchanged",
+        "publisher": "DEDL",
+        "url": "https://devilz13.github.io/daily-equity-decision-loop/reports/2026-11-24-evening-global-watch/",
+        "type": "secondary",
+        "published_at": "2026-11-24T11:06:09Z",
+        "accessed_at": "2026-11-24T13:02:02Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE’s calendar has no 24 November holiday or half-day. Regular cash opens 09:30 EST /22:30 SGT and closes 16:00 EST /25 November 05:00 SGT. The pre-open target is 21:30 SGT and its deadline is cash open; the close-summary target is 25 November 06:00 SGT. London remains GMT independently of New York EST. Thanksgiving closes cash on 26 November; 27 November cash ends 13:00 EST.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP’s report, updated 24 November 12:55:26 UTC /20:55:26 SGT, describes S&P 500 futures down 1.03%, Nasdaq futures down 1.7% and Dow futures down 0.54%. These are reported premarket futures observations, not today’s cash returns or a synchronized exchange-certified panel. The report’s update time is not an independently verified quote timestamp. Its early first-publication clock is not assigned to later-added earnings material.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "Analog Devices’ original 24 November exhibit reports the quarter ended 31 October 2026: revenue US$4,373m, up 42% year on year; GAAP diluted EPS US$3.40 versus adjusted US$4.06. Acquisition and tax adjustments explain differences. Full-year operating cash US$6,186m less capital expenditure US$733m reconciles to non-GAAP free cash flow US$5,453m. Quarterly cash figures are not substituted for annual cash.",
+        "kind": "fact",
+        "source_ids": [
+          "adi"
+        ]
+      },
+      {
+        "text": "ADI’s fiscal Q1 2027 revenue outlook is US$4.4bn ±US$150m; reported EPS US$3.02 ±US$0.20 and adjusted EPS US$3.82 ±US$0.20 are forecasts. Management attributes over two-thirds of fiscal 2026 growth to non-AI-centric opportunities; this is management’s attribution, not independently measured industry breadth. The earnings call is scheduled 10:00 EST /23:00 SGT today; no call outcome is claimed.",
+        "kind": "fact",
+        "source_ids": [
+          "adi"
+        ]
+      },
+      {
+        "text": "Dell’s original 10 November notice schedules its fiscal Q3 2027 call for 24 November 15:30 CST /16:30 EST /25 November 05:30 SGT. Results will be issued before the call; the notice does not specify their exact minute. That is a forthcoming disclosure, not verified current-quarter orders, shipments, margin or cash. The result should test the server-demand narrative against delivery, working capital and funding.",
+        "kind": "fact",
+        "source_ids": [
+          "dell"
+        ]
+      },
+      {
+        "text": "BEA’s fresh schedule lists 25 November 08:30 EST /21:30 SGT GDP second estimate/corporate profits for Q3 and October personal income/outlays. Forecasts and this schedule do not establish released GDP or inflation. Thanksgiving and the next day’s early cash close require different session clocks.",
+        "kind": "fact",
+        "source_ids": [
+          "bea",
+          "nyse"
+        ]
+      },
+      {
+        "text": "The 19:06:09 SGT evening report already records exact outcomes for all four REDL filers and dated regional context. Its 19:10:25 SGT accepted alert will be reused, not resent. Singapore’s final-price panel remains uncertified; India’s 24 November capital-market holiday remains a closure exception. No new observation is manufactured for these finished windows.",
+        "kind": "fact",
+        "source_ids": [
+          "evening"
+        ]
+      },
+      {
+        "text": "All 11 US current cash-sector price/breadth/turnover panels remain unverified before the official opening. Synchronized yields, FX, volatility and commodity panels are incomplete. One chip issuer’s results and futures sentiment do not establish a sector-screen pass, a causal market explanation or portfolio action. The safe market-image attachment route remains unavailable.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse",
+          "adi",
+          "ap"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Weaker reported futures indicate a less positive premarket tone after the previous rally, without establishing the cash-session outcome.",
+        "transmission": "A higher required risk premium could weigh on valuations and financing-sensitive businesses.",
+        "confidence": "inference",
+        "alternatives": "Position adjustment, concentrated moves or thinner premarket liquidity may explain the pullback without a new deterioration in operating demand.",
+        "source_ids": [
+          "ap",
+          "nyse"
+        ]
+      },
+      {
+        "explanation": "Issuer cash is a stronger operating test than a broad AI narrative.",
+        "transmission": "Demand must translate into deliveries, margins and collections across suppliers and customers.",
+        "confidence": "inference",
+        "alternatives": "Inventory cycles, acquisition effects or a few strong customers can limit generalisation; backlog and forecasts are not revenue or cash.",
+        "source_ids": [
+          "adi",
+          "dell"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash breadth confirms the weaker futures tone",
+        "outcome": "Weakness extends beyond a few concentrated growth exposures.",
+        "trigger": "Current post-open breadth, turnover and several independent sector panels agree.",
+        "invalidation": "Cash participation differs materially or the dated futures snapshot reverses.",
+        "horizon": "24 November US cash session",
+        "source_ids": [
+          "ap",
+          "nyse"
+        ]
+      },
+      {
+        "name": "Operating results resist the sentiment setback",
+        "outcome": "Evidence of demand and collections improves despite volatile prices.",
+        "trigger": "Original upcoming results and cash reconciliations substantiate broad deliveries and margins.",
+        "invalidation": "Working capital, funding needs or concentration undermine headline growth.",
+        "horizon": "24–25 November issuer and macro disclosures",
+        "source_ids": [
+          "dell",
+          "bea"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November 09:30 EST /22:30 SGT US cash opening; pre-open alert deadline",
+        "due_at": "2026-11-24T14:30:00Z",
+        "confirms": "Verified cash participation tests the reported futures tone.",
+        "contradicts": "A stale futures quote is treated as a current cash-sector outcome.",
+        "source_ids": [
+          "nyse",
+          "ap"
+        ]
+      },
+      {
+        "signal": "24 November 10:00 EST /23:00 SGT ADI earnings call scheduled",
+        "due_at": "2026-11-24T15:00:00Z",
+        "confirms": "Published actual remarks clarify end-market and cash assumptions.",
+        "contradicts": "The schedule is mistaken for new management guidance.",
+        "source_ids": [
+          "adi"
+        ]
+      },
+      {
+        "signal": "24 November 16:30 EST /25 November 05:30 SGT Dell call; result release before call, exact minute unspecified",
+        "due_at": "2026-11-24T21:30:00Z",
+        "confirms": "Original results reconcile orders, delivered revenue, margins and cash.",
+        "contradicts": "A backlog, forecast or scheduled event is treated as a realized result.",
+        "source_ids": [
+          "dell"
+        ]
+      },
+      {
+        "signal": "25 November 06:00 SGT closing-summary target for 24 November New York session",
+        "due_at": "2026-11-24T22:00:00Z",
+        "confirms": "Verified final prices and sources support the closing read.",
+        "contradicts": "Intraday, premarket or old marks are substituted for finals.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "25 November 08:30 EST /21:30 SGT BEA GDP/profits and income/outlays scheduled",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original releases distinguish revised real activity, nominal income and inflation periods.",
+        "contradicts": "Forecasts or incomparable periods support a false result.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "27 November 13:00 EST /28 November 02:00 SGT early cash close; summary03:00, expiry04:00 SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified special clock governs freshness; a missed window receives web-only catch-up.",
+        "contradicts": "Normal 06:00 summary timing sends an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T13:03:53Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-24",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "NYSE regular cash anchor; no 24 November calendar exception listed",
+          "status": "verified-session",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Reported premarket futures weaker; cash breadth remains unverified.",
+        "indicators": "AP updated20:55:26 SGT, quote clock not independently certified; no synchronized sector/rates/FX/volatility panel.",
+        "source_ids": [
+          "ap",
+          "nyse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash information technology return/breadth panel before the official open. ADI results are issuer evidence; Dell’s disclosure is still forthcoming.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Compare semiconductors, software and infrastructure; financing commitments are not shipped demand.",
+          "source_ids": [
+            "nyse",
+            "adi",
+            "dell"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash communication services return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check platforms, telecom and media separately; Nasdaq futures are not group breadth.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash consumer discretionary return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Verify consumer volumes, margins and financing sensitivity.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash consumer staples return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Separate defensive participation from input-cost and pricing-power evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash energy return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check producers/refiners and dated oil marks; no commodity-driven equity cause is certified.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash financials return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Compare banks and insurers with verified curves, credit and funding.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash health care return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check providers and pharmaceuticals separately, using original issuer/regulatory evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash industrials return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Test transport, equipment and aerospace orders and cash conversion.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash materials return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Compare metals, chemicals and construction demand with consistent price clocks.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash real estate return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Check occupancy, rent collections and refinancing, not yields alone.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No 24 November current US cash utilities return/breadth panel before the official open.",
+          "implication": "Research/watch only; no sector pass or portfolio action inferred.",
+          "watchpoint": "Separate contracted power demand from proposed capacity and financing costs.",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US chip and server demand could affect Asian suppliers; actual orders, delivery and customer funding must corroborate the link.",
+          "trigger": "Original local demand, issuer cash and verified market participation corroborate transmission.",
+          "invalidation": "Local demand diverges or only foreign futures are available.",
+          "source_ids": [
+            "adi",
+            "dell"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Supplier, data-centre and financing exposure could transmit US demand; GDP and export growth alone do not verify an issuer cash benefit.",
+          "trigger": "Original local demand, issuer cash and verified market participation corroborate transmission.",
+          "invalidation": "Local demand diverges or only foreign futures are available.",
+          "source_ids": [
+            "dell",
+            "evening"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "US risk appetite could qualify London’s ongoing session; it is not a verified European final.",
+          "trigger": "Original local demand, issuer cash and verified market participation corroborate transmission.",
+          "invalidation": "Local demand diverges or only foreign futures are available.",
+          "source_ids": [
+            "ap",
+            "evening"
+          ]
+        }
+      ]
+    }
   }
 ]
