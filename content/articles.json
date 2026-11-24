@@ -58597,5 +58597,655 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-24-evening-global-watch",
+    "title": "Evening global watch: operating cash, survey breadth and holiday clocks",
+    "summary": "India’s cash anchor is holiday-closed; the evening editorial watch remains due. Four fresh SEC indexes show no newer 13F. Original Compass results distinguish statutory, underlying and cash measures; its US listing is only a consultation. Germany’s survey improves without broad recovery confirmation. All 11 current global sector panels remain incomplete.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "us",
+      "europe",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-24T11:06:09Z",
+    "updated_at": "2026-11-24T11:06:09Z",
+    "cutoff_at": "2026-11-24T11:06:09Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "compasspdf",
+        "title": "24 November FY2026 original results: selected business review and financial/non-GAAP reconciliations checked",
+        "publisher": "Compass Group",
+        "url": "https://www.compass-group.com/dam/Investors/Results-presentations/2026/Compass%20Group%20FY26%20Press%20Release.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T11:03:09Z"
+      },
+      {
+        "id": "consult",
+        "title": "24 November original shareholder-consultation announcement, full two pages checked",
+        "publisher": "Compass Group",
+        "url": "https://www.compass-group.com/dam/Investors/Results-presentations/2026/Compass%20Group%20PLC%20PR%20-%20Shareholder%20consulation%20regarding%20a%20proposed%20move%20of%20primary%20stock%20market%20listing%20to%20the%20US.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T11:03:09Z"
+      },
+      {
+        "id": "ifoseries",
+        "title": "Original current-results series now displays November 90.6/October 90.1; home reader still showed older October text",
+        "publisher": "ifo Institute",
+        "url": "https://www.ifo.de/en/survey/ifo-business-climate-index-germany",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T11:03:54Z"
+      },
+      {
+        "id": "bea",
+        "title": "Fresh official release schedule; dates/times are events, not results",
+        "publisher": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T11:02:13Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Fresh official holiday/early-close and core-hours calendar; undated metadata is observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-24T11:02:14Z",
+        "accessed_at": "2026-11-24T11:02:14Z"
+      },
+      {
+        "id": "jpcpi",
+        "title": "Official 2026 CPI schedule: 27 November Tokyo preliminary release; exact hour not verified here",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+        "type": "primary",
+        "published_at": "2026-01-23",
+        "accessed_at": "2026-11-24T11:02:13Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Fresh exact filer identity and recent submission index; not archive/line-item completion",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-24T11:02:12Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Fresh exact filer identity and recent submission index; not archive/line-item completion",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-24T11:02:12Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "Fresh exact filer identity and recent submission index; not archive/line-item completion",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-24T11:02:12Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Fresh exact filer identity and recent submission index; not archive/line-item completion",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-24T11:02:12Z"
+      },
+      {
+        "id": "sgclock",
+        "title": "Original normal cash and Trade at Close phases freshly read",
+        "publisher": "SGX",
+        "url": "https://rulebook.sgx.com/sites/default/files/net_file_store/SGX_Mainboard_Rules_June_3_2019.pdf",
+        "type": "primary",
+        "published_at": "2019-06-03",
+        "accessed_at": "2026-11-24T10:01:47Z"
+      },
+      {
+        "id": "mom",
+        "title": "Official2026holiday list; no 24 Novemberholiday",
+        "publisher": "MOM",
+        "url": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026",
+        "type": "primary",
+        "published_at": "2025-06-16",
+        "accessed_at": "2026-11-24T10:01:45Z"
+      },
+      {
+        "id": "sgx",
+        "title": "Public reader returns browser-support shell; current final price/halt panel not exposed; undated metadata denotes observation",
+        "publisher": "SGX",
+        "url": "https://www.sgx.com/securities/trading",
+        "type": "primary",
+        "published_at": "2026-11-24T10:01:46Z",
+        "accessed_at": "2026-11-24T10:01:46Z"
+      },
+      {
+        "id": "liveindex",
+        "title": "Quote reader returned403; failed-retrieval record time is cutoff, not a successful price check",
+        "publisher": "Live Index",
+        "url": "https://liveindex.org/sti",
+        "type": "primary",
+        "published_at": "2026-11-24T10:04:29Z",
+        "accessed_at": "2026-11-24T10:04:29Z"
+      },
+      {
+        "id": "closelead",
+        "title": "24 November 14:25 IST commentary labels a close before17:16 SGT Trade at Close end; final not certified",
+        "publisher": "Business Upturn",
+        "url": "https://businessupturn.com/asia/southeast-asia/singapore/singapore-stocks-edge-up-as-sti-closes-near-days-low/",
+        "type": "secondary",
+        "published_at": "2026-11-24T08:55:00Z",
+        "accessed_at": "2026-11-24T10:02:42Z"
+      },
+      {
+        "id": "nodx",
+        "title": "24 November 10:47 SGT CNA report read in full; agency statistics reported secondarily, original tables not reconciled",
+        "publisher": "CNA",
+        "url": "https://www.channelnewsasia.com/singapore/nodx-q3-electronics-ai-2026-forecast-upgrade-6576701",
+        "type": "secondary",
+        "published_at": "2026-11-24T02:47:00Z",
+        "accessed_at": "2026-11-24T10:02:41Z"
+      },
+      {
+        "id": "enterprise",
+        "title": "Original agency media reader returned403; record time is cutoff, not completed table verification",
+        "publisher": "Enterprise Singapore",
+        "url": "https://www.enterprisesg.gov.sg/media-centre/media-releases",
+        "type": "primary",
+        "published_at": "2026-11-24T10:04:29Z",
+        "accessed_at": "2026-11-24T10:04:29Z"
+      },
+      {
+        "id": "gdppdf",
+        "title": "24 November original release, growth tables and annexes; observed after morning cutoff",
+        "publisher": "MTI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/86e12e7e-e71d-418e-af1a-ce66d00962a6/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-24T07:02:49Z"
+      },
+      {
+        "id": "cpipdf",
+        "title": "23 November original October CPI tables and outlook",
+        "publisher": "MAS / MTI Singapore",
+        "url": "https://isomer-user-content.by.gov.sg/1004/40ab86ad-b08f-4acf-9021-0651391e8ddf/Consumer%20Price%20Developments%20in%20October%202026.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:40Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Original Form8-K: board action22 November, release and signature23 November",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T22:01:07Z"
+      },
+      {
+        "id": "nsecal",
+        "title": "CircularNSE/CMTR/71775:24 November 2026 capital-market holiday",
+        "publisher": "NSE",
+        "url": "https://archives.nseindia.com/content/circulars/CMTR71775.pdf",
+        "type": "primary",
+        "published_at": "2025-12-12",
+        "accessed_at": "2026-11-23T23:06:57Z"
+      },
+      {
+        "id": "korea",
+        "title": "23 NovemberFSCdecision:buyback daily order-limit easing24 November 2026–23 February 2027",
+        "publisher": "Financial Services Commission, Republic of Korea",
+        "url": "https://www.fsc.go.kr/eng/pr010101/88191",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "koreaplan",
+        "title": "22 Novemberemergency meeting:prepare stabilization-fund activation as conditions warrant",
+        "publisher": "Ministry of Finance and Economy, Republic of Korea",
+        "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6530",
+        "type": "primary",
+        "published_at": "2026-11-22",
+        "accessed_at": "2026-11-23T23:07:31Z"
+      },
+      {
+        "id": "twse",
+        "title": "23 November original Chinese notice:24 Novembermaintenance-ratio and transition measures; DEDL translation",
+        "publisher": "Taiwan Stock Exchange",
+        "url": "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6a19afd9c01a2073bb7af0594.pdf",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-23T23:07:28Z"
+      },
+      {
+        "id": "mpm",
+        "title": "20 November original FY2026 profit guidance; preliminary unaudited review",
+        "publisher": "Marco Polo Marine / SGX",
+        "url": "https://links.sgx.com/FileOpen/MPML%20-%20Profit%20Guidance%20FY2026.ashx?App=Announcement&FileID=912164",
+        "type": "primary",
+        "published_at": "2026-11-20",
+        "accessed_at": "2026-11-23T10:01:10Z"
+      },
+      {
+        "id": "mindef",
+        "title": "23 November original announcement of24–25 Novembervisit",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/23nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:02:04Z"
+      },
+      {
+        "id": "laliga",
+        "title": "23 November original Spanish operator notice; DEDL translation",
+        "publisher": "LaLiga",
+        "url": "https://www.laliga.com/es-GB/noticias/laliga-ha-sido-victima-de-un-ciberataque-que-ha-afectado-a-datos-personales-de-aficionados",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-24T00:03:45Z"
+      },
+      {
+        "id": "lse",
+        "title": "Official calendar freshly read: no 24 Novemberclosure or half-day listed; undated metadata is observation time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-24T07:01:40Z",
+        "accessed_at": "2026-11-24T07:01:40Z"
+      },
+      {
+        "id": "hours",
+        "title": "Original business-parameters workbook: SETS08:00 opening,16:30 closing-auction start; undated metadata is observation time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/content/dam/lse/en_us/documents/technical-library/millennium-exchange-and-tradecho-business-parameters.xlsx",
+        "type": "primary",
+        "published_at": "2026-11-24T07:01:40Z",
+        "accessed_at": "2026-11-24T07:01:40Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "India’s NSE capital market is closed on24 November under circular NSE/CMTR/71775. No normal Indian cash-close observation or session alert is manufactured. Japan/Singapore opening reports, the London pre-open and Singapore close are already published; the distinct evening product remains due.",
+        "kind": "fact",
+        "source_ids": [
+          "nsecal",
+          "sgclock"
+        ]
+      },
+      {
+        "text": "The latest Singapore closing report remains source-limited: its early-labelled commentary predates the normal closing phases, while official/current final-sector panels are unverified. No new certified final, global breadth, turnover, synchronized yields, FX, commodities or proprietary flows are claimed tonight. Earlier GDP/CPI originals and secondarily reported exports keep their actual periods and source clocks.",
+        "kind": "fact",
+        "source_ids": [
+          "sgx",
+          "closelead",
+          "gdppdf",
+          "cpipdf",
+          "nodx"
+        ]
+      },
+      {
+        "text": "Compass’s 24 November original FY2026 release covers the year ended 30 September 2026 in US dollars: statutory operating profit US$3,348m versus US$2,964m; underlying operating profit US$3,746m versus US$3,357m on the constant-currency comparative basis. The measures are not interchangeable. Underlying figures are alternative performance measures.",
+        "kind": "fact",
+        "source_ids": [
+          "compasspdf"
+        ]
+      },
+      {
+        "text": "Its note 14 reconciliation gives free cash flow US$1,834m versus US$1,865m and underlying free cash flow US$2,020m versus US$1,975m, after US$186m versus US$110m of adjusting-item cash payments. Net debt rose to US$8.0bn from US$6.4bn. This is a cash/debt countercheck to the stronger underlying profit headline, not a complete investment screen.",
+        "kind": "fact",
+        "source_ids": [
+          "compasspdf"
+        ]
+      },
+      {
+        "text": "Compass announced a shareholder consultation about a proposed US primary listing while retaining a secondary UK listing. It would seek formal shareholder approval if supported, with a transition expected in 2028 only if approved. The proposal is not a completed move or automatic increase in operating cash. The earlier scheduled-results gap is now resolved for the selected original disclosures.",
+        "kind": "fact",
+        "source_ids": [
+          "consult"
+        ]
+      },
+      {
+        "text": "The original ifo current-results series now gives November business climate 90.6 versus October 90.1. It says current conditions and expectations improved while recovery lacks breadth. The direct home reader still showed older October 90.2 text; the current-results series is used and secondary consensus/component discrepancies are not imported. This is a survey, not released GDP or an ECB decision.",
+        "kind": "fact",
+        "source_ids": [
+          "ifoseries"
+        ]
+      },
+      {
+        "text": "At the fresh SEC check, Altimeter CIK 1541617 remains latest 13F 16 November, accession 0001541617-26-000010; Himalaya CIK 1709323 accession 0002043585-26-000030; TCI CIK 1647251 accession 0001647251-26-000011; Valley Forge CIK 1697868 accession 0001697868-26-000007. All four report 30 September 2026 holdings. Altimeter’s separate 16 November 13G/A 0001541617-26-000011 is not a newer 13F.",
+        "kind": "fact",
+        "source_ids": [
+          "sec1541617",
+          "sec1709323",
+          "sec1647251",
+          "sec1697868"
+        ]
+      },
+      {
+        "text": "These four exact submission-index checks establish disclosure continuity, not unchanged portfolios, daily buying, new line-item comparisons or archive completion. The investors’ public records are studied for long-horizon decision examples, with delayed-reporting, omitted-exposure and survivorship limits. No new filing is not proof of no trade.",
+        "kind": "fact",
+        "source_ids": [
+          "sec1541617",
+          "sec1709323",
+          "sec1647251",
+          "sec1697868"
+        ]
+      },
+      {
+        "text": "Original BEA schedule freshly reconfirms 25 November 08:30 EST GDP second estimate/corporate profits and October income/outlays. NYSE 26 November is closed;27 November cash ends 13:00 EST. Japan’s official schedule gives27 November for Tokyo’s preliminary November CPI, but an exact release hour is not certified here. Schedules are not outcomes.",
+        "kind": "fact",
+        "source_ids": [
+          "bea",
+          "nyse",
+          "jpcpi"
+        ]
+      },
+      {
+        "text": "Today’s previously published strategic military and cybersecurity reports retain their source dates and scopes. Singapore–Japan 24–25 November meetings were planned in a 23 November announcement; LaLiga’s 23 Novembernotice describes 14–16 November occurrence. No new agreement, deployment, local cyber exposure or repeated conflict event is inferred tonight. Five independent market lanes—US, Singapore, global ex-US/ex-Singapore, direct REITs and funds/ETFs—remain DATA INCOMPLETE/research-watch. The safe market-image attachment route remains unavailable.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef",
+          "laliga",
+          "gdppdf"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Reported underlying profit improvement and cash generation can diverge.",
+        "transmission": "Acquisition costs, capital expenditure, working capital, financing and distributions determine how operating growth changes balance-sheet capacity.",
+        "confidence": "inference",
+        "alternatives": "Currency presentation, adjustments and business mix can explain part of the headline comparison; a listing change alone does not create customer cash.",
+        "source_ids": [
+          "compasspdf",
+          "consult"
+        ]
+      },
+      {
+        "explanation": "Better survey sentiment and stronger Asian headline output need not establish broad operating recovery.",
+        "transmission": "Supplier orders, financing costs and realised margins transmit differently across countries and industries.",
+        "confidence": "inference",
+        "alternatives": "Concentration, base effects, lumpy shipments, domestic weakness or temporary liquidity support may explain apparent strength.",
+        "source_ids": [
+          "ifoseries",
+          "gdppdf",
+          "nodx",
+          "korea",
+          "twse"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence broadens",
+        "outcome": "Demand translates into more sustainable issuer cash across exposures.",
+        "trigger": "Original order, margin and collection evidence improves beyond a few sectors.",
+        "invalidation": "Net debt, collections or underlying consumer activity deteriorate.",
+        "horizon": "24–29 November original data and issuer follow-through",
+        "source_ids": [
+          "compasspdf",
+          "gdppdf",
+          "ifoseries"
+        ]
+      },
+      {
+        "name": "Headline recovery stays concentrated",
+        "outcome": "Aggregate growth and adjusted profit overstate broad progress.",
+        "trigger": "Survey breadth, cash conversion and verified participation remain narrow.",
+        "invalidation": "Independent widespread operating and cash improvement emerges.",
+        "horizon": "24–29 November original data and issuer follow-through",
+        "source_ids": [
+          "compasspdf",
+          "ifoseries",
+          "nodx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "24 November 21:30 SGT US pre-open target;22:30 SGT cash open deadline",
+        "due_at": "2026-11-24T13:30:00Z",
+        "confirms": "Reviewed fresh context and exact live marker qualify before cash opens.",
+        "contradicts": "A delayed pre-open message is sent after the cash opening or old evidence is relabelled current.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "25 November 01:30 SGT London closing summary for 24 November local session",
+        "due_at": "2026-11-24T17:30:00Z",
+        "confirms": "Verified post-auction prices and breadth qualify a closing read.",
+        "contradicts": "An earlier index table or calendar completion is mistaken for final evidence.",
+        "source_ids": [
+          "hours",
+          "lse"
+        ]
+      },
+      {
+        "signal": "25 November 06:00 SGT US closing summary for 24 November local session",
+        "due_at": "2026-11-24T22:00:00Z",
+        "confirms": "Actual final cash evidence is distinguished from intraday/futures.",
+        "contradicts": "A completed workflow is treated as delivery without key/messageID.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "25 November 08:30 EST /21:30 SGT BEA GDP/profits and income/outlays",
+        "due_at": "2026-11-25T13:30:00Z",
+        "confirms": "Original comparable real/nominal periods clarify activity, earnings and inflation.",
+        "contradicts": "Forecasts, revisions or mismatched periods support a false simple comparison.",
+        "source_ids": [
+          "bea"
+        ]
+      },
+      {
+        "signal": "26 November NYSE Thanksgiving closure;00:00 SGT is a review point, not market time",
+        "due_at": "2026-11-25T16:00:00Z",
+        "confirms": "The holiday outcome prevents a fictional regular US cash alert.",
+        "contradicts": "A futures quote substitutes for an open cash exchange.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "27 November Tokyo preliminary November CPI;07:00 SGT review point only, release hour unverified",
+        "due_at": "2026-11-26T23:00:00Z",
+        "confirms": "Original release clock and components establish the evidence.",
+        "contradicts": "The review point is presented as a verified release hour.",
+        "source_ids": [
+          "jpcpi"
+        ]
+      },
+      {
+        "signal": "27 November 13:00 EST /28 November 02:00 SGT NYSE early cash close;summary03:00,expiry04:00 SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified special clock governs freshness; missed fixed-wake window uses honestly dated web-only catch-up.",
+        "contradicts": "Normal06:00 SGT timing is used for an expired closing alert or the schedule is changed here.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "Marco Polo Marine FY2026 results on or before29 November; end-of-day review bound, exact hour unverified",
+        "due_at": "2026-11-29T15:59:59Z",
+        "confirms": "Original full results reconcile recurring earnings, accounting effects and cash.",
+        "contradicts": "Preliminary guidance is treated as audited results or guaranteed recurring profit.",
+        "source_ids": [
+          "mpm"
+        ]
+      },
+      {
+        "signal": "Compass consultation and subsequent operating disclosure follow-up; review bound only",
+        "due_at": "2026-11-25T11:00:00Z",
+        "confirms": "Formal shareholder process and cash/debt evidence distinguish proposals from outcomes.",
+        "contradicts": "A proposed venue change is presented as approved or as a profit guarantee.",
+        "source_ids": [
+          "consult",
+          "compasspdf"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-24T11:06:09Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-24",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "AI/output demand is context; current global-sector prices and breadth are not verified. Test orders, deliveries, memory/packaging, financing and cash; governance-related price relief is insufficient.",
+          "source_ids": [
+            "nvda",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No synchronized current global return/breadth panel verified. Test subscription, advertising and digital-service margins and cash rather than an aggregate technology narrative.",
+          "source_ids": [
+            "gdppdf",
+            "ifoseries"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current global sector panel verified. Separate service/retail volumes, pricing, consumer funding and geographical mix; one catering issuer cannot establish the sector outcome.",
+          "source_ids": [
+            "compasspdf",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current global sector panel verified. Compare product volumes, pricing and input costs; lower consumer inflation does not automatically raise business margins.",
+          "source_ids": [
+            "cpipdf"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No synchronized current sector, commodity or commercial-flow panel verified. Conditional geopolitical/supply channels are distinct from confirmed disruption or shipments.",
+          "source_ids": [
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No current global sector panel verified. Exact 13F indexes are disclosure evidence, not sector direction; test credit quality, funding, fee income and balance-sheet risk.",
+          "source_ids": [
+            "sec1541617",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current global sector/issuer outcome panel verified. Distinguish official prices/subsidies from approvals, reimbursement, operating cash and earnings.",
+          "source_ids": [
+            "cpipdf"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current global sector panel verified. Exported machinery and lumpy marine shipments need orders/backlog/funding/cash checks, not a recurring-revenue assumption.",
+          "source_ids": [
+            "nodx",
+            "mpm"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current global sector panel verified. Survey/output strength is not physical price or margin confirmation; compare inventories, customer demand and realised cash.",
+          "source_ids": [
+            "ifoseries",
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current global property/REIT panel verified. Keep national output distinct from rent collections, occupancy, refinancing and valuation; prior blocked issuer readers remain gaps.",
+          "source_ids": [
+            "gdppdf"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current global utilities/power/funding panel verified. Separate tariffs, energy inputs, funded grid/generation projects and commissioning from forecast AI demand.",
+          "source_ids": [
+            "cpipdf",
+            "gdppdf"
+          ]
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP; latest 13F filed 2026-11-16, holdings-as-of 2026-09-30, accession 0001541617-26-000010. No newer 13F in this fresh exact index; no new line-item comparison, archive completion or daily-trade inference.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC; latest 13F filed 2026-11-16, holdings-as-of 2026-09-30, accession 0002043585-26-000030. No newer 13F in this fresh exact index; no new line-item comparison, archive completion or daily-trade inference.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd; latest 13F filed 2026-11-16, holdings-as-of 2026-09-30, accession 0001647251-26-000011. No newer 13F in this fresh exact index; no new line-item comparison, archive completion or daily-trade inference.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP; latest 13F filed 2026-11-16, holdings-as-of 2026-09-30, accession 0001697868-26-000007. No newer 13F in this fresh exact index; no new line-item comparison, archive completion or daily-trade inference.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
   }
 ]
