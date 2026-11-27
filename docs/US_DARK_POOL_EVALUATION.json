@@ -15,7 +15,7 @@
     "useful": 0,
     "misleading": 0,
     "redundant": 0,
-    "untestable": 1
+    "untestable": 2
   },
   "records": [
     {
@@ -47,6 +47,35 @@
       "outcome": "untestable",
       "telegram_context_published": false,
       "baseline_comparison": "Unavailable inputs prevent incremental comparison; no predictive accuracy, false-positive rate or instrument signal computed."
+    },
+    {
+      "checked_at": "2026-11-27T13:01:26Z",
+      "market_session_date": "2026-11-27",
+      "period": "pre",
+      "source_url": "https://darkpoolheatmap.com/heatmap",
+      "source_health": "unavailable",
+      "data_status": "DATA UNAVAILABLE",
+      "access_observations": [
+        "Direct permitted public retrieval403. No retry, undocumented endpoint, protected asset or alternative route."
+      ],
+      "displayed_observation_timestamps": [],
+      "release_lag": {
+        "provider_described_minutes": 15,
+        "independently_verified": false,
+        "scope": "Provider description supplied in owner brief; actual session/as-of/lag not verified in the accessible output."
+      },
+      "data_coverage_rights": "Dynamic programmatic access, historical baselines, source licensing and redistribution permission unconfirmed; no licensed/reproducible session inputs available. No raw feed or heatmap redistributed.",
+      "sector_or_ticker": null,
+      "normalized_activity_ratio": null,
+      "price_volume_context": "Prior completed session is25November;26NovemberNYSEcashclosed. No reproducible dated prior-session/overnight prints or matched ticker baseline available.",
+      "print_condition_review": "Late,average-price,closing-cross,FormT and corrections cannot be identified without observable timestamped prints.",
+      "alternative_explanation": "Any later observable concentration could reflect ATS/non-ATS mix, mechanical crosses, reporting delay or corrections; identity and buyer/seller direction are not inferred.",
+      "subsequent_test_horizon": "27November shortened cashsession; no prediction or outcome measurable without observations.",
+      "independent_checks_beyond_heatmap": [],
+      "independently_changed_conclusion": false,
+      "outcome": "untestable",
+      "telegram_context_published": false,
+      "baseline_comparison": "Unavailable inputs prevent incremental comparison; no predictive accuracy, false-positive rate or instrument signal computed."
     }
   ],
   "method_limits": [
@@ -54,5 +83,6 @@
     "FINRA weekly aggregates, if subsequently used with documented permission and release dates, are not live session prints.",
     "Retain useful,misleading,redundant anduntestable comparisons; assess precision/usefulness,noise,false positives,lag andaccess stability after20completed sessions, without treating missing inputs as zeros.",
     "No separate Telegram delivery key, scheduler, message, revision or rerun for this evaluation."
-  ]
+  ],
+  "unobserved_windows_note": "25Novemberpre/post and26Novemberholiday were not observed by this evaluation in repository state. No retrospective records or zeros inserted.27Novemberpre is not a completed27November session; completed-session count remains1."
 }

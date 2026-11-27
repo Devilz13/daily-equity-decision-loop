@@ -60981,5 +60981,850 @@
         "source_id": "jpxhours"
       }
     }
+  },
+  {
+    "id": "2026-11-27-enterprise-cyber-advisories",
+    "title": "Enterprise cyber: exposure and patching, without a claimed local breach",
+    "summary": "CSA’s27November VMware alert and26November Cisco Expressway exploitation warning warrant an inventory and patch-status review. Neither establishes that a Singapore organisation is compromised. Global discovery coverage remains incomplete.",
+    "channel": "cybersecurity",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-27T13:06:30Z",
+    "updated_at": "2026-11-27T13:06:30Z",
+    "cutoff_at": "2026-11-27T13:06:30Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "vmware",
+        "title": "Original27November alert; affected-product/patching scope, not a confirmed Singapore incident",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-171/",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "cisco",
+        "title": "Original26November alert reporting active exploitation; local exposure not established",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-170/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "csa",
+        "title": "Public index/schedule reader; scope and limits explicitly identified",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/",
+        "type": "primary",
+        "published_at": "2026-11-27T13:01:26Z",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA’s27November alert reports critical VMware product vulnerabilities and available updates. The26November Cisco Expressway alert reports active exploitation and urges updating affected systems. The advisories are distinct records; publication dates are not first-exploitation dates, and no local victim or loss estimate is established here.",
+        "kind": "fact",
+        "source_ids": [
+          "vmware",
+          "cisco"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Operational exposure depends on the deployed product and patch state.",
+        "transmission": "Affected enterprise services can face interruption, recovery and supplier costs.",
+        "confidence": "uncertain",
+        "alternatives": "Unaffected versions, completed remediation or absent deployment can eliminate the specific exposure; one alert is not evidence of a breach.",
+        "source_ids": [
+          "vmware",
+          "cisco"
+        ]
+      }
+    ],
+    "scenarios": [],
+    "watchpoints": [
+      {
+        "signal": "28November08:00SGT next original advisory and inventory-evidence review",
+        "due_at": "2026-11-28T00:00:00Z",
+        "confirms": "Original vendor/authority updates or confirmed affected deployment establish material change.",
+        "contradicts": "An old alert or generic headline is relabelled as a new local incident.",
+        "source_ids": [
+          "vmware",
+          "cisco"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-27T13:06:30Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-27-regional-defence-review",
+    "title": "Regional defence: completed dialogue and exercise versus future commitments",
+    "summary": "A25November Japan–Singapore joint statement confirms the meeting and prospective cooperation. A26November release describes an exercise held20–26November. These are dated institutional developments, not evidence of a new conflict or direct commercial disruption.",
+    "channel": "military",
+    "regions": [
+      "global",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "regional-military"
+    ],
+    "format": "short",
+    "published_at": "2026-11-27T13:06:30Z",
+    "updated_at": "2026-11-27T13:06:30Z",
+    "cutoff_at": "2026-11-27T13:06:30Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "japanmeeting",
+        "title": "Original25November joint statement; meeting date25November, prospective cooperation separated",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
+        "type": "primary",
+        "published_at": "2026-11-25",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "exercise",
+        "title": "Original26November announcement of20–26November exercise; strategic-only summary",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "The25November joint statement confirms that the defence ministers met that day and discussed bilateral cooperation and regional security. It records intentions for regular maritime exercises, consideration of rescue cooperation, technology exchanges and a future industry event. Discussions and intentions are not delivered equipment, signed procurement revenue or executed future activity.",
+        "kind": "fact",
+        "source_ids": [
+          "japanmeeting"
+        ]
+      },
+      {
+        "text": "The26November MINDEF release describes the annual Singapore–Indonesia exercise held20–26November. Its occurrence predates this review. This is an exercise and institutional relationship record, not confirmation of hostile operations or measured shipping disruption.",
+        "kind": "fact",
+        "source_ids": [
+          "exercise"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Institutional cooperation can improve coordination over time.",
+        "transmission": "Direct Singapore relevance is defence relationships and preparedness; shipping, energy, aviation, cyber, supply-chain and market effects remain conditional on separate disruption evidence.",
+        "confidence": "uncertain",
+        "alternatives": "Routine relationship maintenance can explain the announcements without indicating a changed immediate threat.",
+        "source_ids": [
+          "japanmeeting",
+          "exercise"
+        ]
+      }
+    ],
+    "scenarios": [],
+    "watchpoints": [
+      {
+        "signal": "30November08:00SGT scheduled military follow-up; review point only",
+        "due_at": "2026-11-30T00:00:00Z",
+        "confirms": "Original implementation or materially changed security evidence substantiates progress.",
+        "contradicts": "A proposal is treated as completed procurement or conflict.",
+        "source_ids": [
+          "japanmeeting",
+          "exercise"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-27T13:06:30Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-27-evening-global-watch",
+    "title": "Delayed evening watch: inflation, cyber exposure and implementation tests",
+    "summary": "Web-only catch-up after the19:00target and20:00alert expiry. Original Tokyo inflation, CSA enterprise advisories and regional defence statements are verified now. All11 current global sector panels remain incomplete. Four exact REDL checks show no newer13F; no earlier observation or evening send is invented.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "us",
+      "europe",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-27T13:06:30Z",
+    "updated_at": "2026-11-27T13:06:30Z",
+    "cutoff_at": "2026-11-27T13:06:30Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "tokyo",
+        "title": "Original27November statistical newsletter; Tokyo November preliminary2025-base CPI; DEDL translation",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/info/mail/pdf/20261127_no1921.pdf",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "vmware",
+        "title": "Original27November alert; affected-product/patching scope, not a confirmed Singapore incident",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-171/",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "cisco",
+        "title": "Original26November alert reporting active exploitation; local exposure not established",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-170/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "japanmeeting",
+        "title": "Original25November joint statement; meeting date25November, prospective cooperation separated",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/",
+        "type": "primary",
+        "published_at": "2026-11-25",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "exercise",
+        "title": "Original26November announcement of20–26November exercise; strategic-only summary",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/26nov26-nr/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official regular open,26Novemberholiday and27November13:00ESTearly cash close; undated metadata denotes observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-27T13:01:26Z",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "boj",
+        "title": "Public index/schedule reader; scope and limits explicitly identified",
+        "publisher": "BOJ",
+        "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+        "type": "primary",
+        "published_at": "2026-11-27T13:01:26Z",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Exact filer identity and current recent-submission index; no new line-item/archive comparison",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Exact filer identity and current recent-submission index; no new line-item/archive comparison",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "Exact filer identity and current recent-submission index; no new line-item/archive comparison",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Exact filer identity and current recent-submission index; no new line-item/archive comparison",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "This evening product is first reviewed now, after its27November19:00SGT target and20:00expiry. It is a web-only catch-up; no earlier checkpoint or Telegram acceptance is asserted. Current global price,breadth and volume panels remain incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Japan’s27November official newsletter gives Tokyo preliminary November CPI: headline2.8%y/y, excluding fresh food2.9%, excluding fresh food and energy2.5%, on2025base. It is Tokyo, preliminary and year-on-year; not nationwide final inflation or a BOJpolicy decision.",
+        "kind": "fact",
+        "source_ids": [
+          "tokyo"
+        ]
+      },
+      {
+        "text": "CSA’s27November VMware and26November Cisco records distinguish critical product exposure from a confirmed local breach. The defence records distinguish25Novembertalks and20–26Novemberexercise from future implementation or hostile operations.",
+        "kind": "fact",
+        "source_ids": [
+          "vmware",
+          "cisco",
+          "japanmeeting",
+          "exercise"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Holiday-return sentiment can move faster than operating evidence.",
+        "transmission": "Discount rates, financing requirements and customer demand affect exposures differently.",
+        "confidence": "inference",
+        "alternatives": "Thin trading, positioning or concentrated moves could explain a rebound without broader recovery.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash participation confirms the lead",
+        "outcome": "Several independent groups strengthen.",
+        "trigger": "Fresh cash breadth and price/volume corroborate the earlier context.",
+        "invalidation": "Participation remains narrow or old quotes dominate.",
+        "horizon": "27November shortened cash session",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "27November22:30SGT NYSEcashopen; pre-open alert deadline",
+        "due_at": "2026-11-27T14:30:00Z",
+        "confirms": "Fresh cash evidence qualifies the earlier futures lead.",
+        "contradicts": "A late pre-open alert is sent after cash opens.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "28November02:00SGT early cashclose; summary03:00,expiry04:00SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified special-window finals support a timely closing read.",
+        "contradicts": "The normal06:00summary clock sends an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "30November BOJUeda speech scheduled10:05JST /09:05SGT; verify current schedule",
+        "due_at": "2026-11-30T01:05:00Z",
+        "confirms": "Actual published remarks establish the assessment.",
+        "contradicts": "An advisory is treated as a policy decision.",
+        "source_ids": [
+          "boj"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-27T13:06:30Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-27",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No current27November global information technology return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current27November global communication services return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current27November global consumer discretionary return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current27November global consumer staples return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No current27November global energy return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No current27November global financials return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current27November global health care return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current27November global industrials return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current27November global materials return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current27November global real estate return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current27November global utilities return/breadth/turnover panel is certified. Test original demand, funding, margins and cash independently of headlines.",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP; latest 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0001541617-26-000010. No newer13F in this exact fresh index; no archive-completion or daily-trading inference.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC; latest 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0002043585-26-000030. No newer13F in this exact fresh index; no archive-completion or daily-trading inference.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd; latest 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0001647251-26-000011. No newer13F in this exact fresh index; no archive-completion or daily-trading inference.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP; latest 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0001697868-26-000007. No newer13F in this exact fresh index; no archive-completion or daily-trading inference.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "2026-11-27-us-open",
+    "title": "US pre-open: holiday-return sentiment and a verified early cash close",
+    "summary": "US cash opens22:30SGT and ends28November02:00SGT on today’s verified half-day. Dated indexed futures coverage points to a rebound but is not a current cash-sector panel. All11 current US sector panels remain incomplete; the early close changes the freshness window.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-open",
+    "published_at": "2026-11-27T13:06:30Z",
+    "updated_at": "2026-11-27T13:06:30Z",
+    "cutoff_at": "2026-11-27T13:06:30Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Official regular open,26Novemberholiday and27November13:00ESTearly cash close; undated metadata denotes observation time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-27T13:01:26Z",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "futures",
+        "title": "Reuters search-index report only,27November07:34UTC publication; no refreshed quote clock or complete article read claimed",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/",
+        "type": "secondary",
+        "published_at": "2026-11-27T07:34:00Z",
+        "accessed_at": "2026-11-27T13:06:30Z"
+      },
+      {
+        "id": "tokyo",
+        "title": "Original27November statistical newsletter; Tokyo November preliminary2025-base CPI; DEDL translation",
+        "publisher": "Statistics Bureau of Japan",
+        "url": "https://www.stat.go.jp/info/mail/pdf/20261127_no1921.pdf",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "ecb",
+        "title": "Fresh XML still dated26November; reference rates, not executable or current intraday quotes",
+        "publisher": "ECB",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-27T13:01:26Z"
+      },
+      {
+        "id": "nvidiaindex",
+        "title": "Fresh submission-index check; not a new full filing/insider comparison",
+        "publisher": "NVIDIA / SEC",
+        "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-27T13:02:25Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE’s official calendar confirms27Novembercash opens09:30EST /22:30SGT and ends13:00EST /28November02:00SGT. The pre-open target is21:30SGT, deadline22:30SGT. The closing-summary target is28November03:00SGT, expiry04:00SGT. No03:00fixed wake exists; preserve the existing schedule and use honestly dated web-only catch-up if that special window is missed. Eligible options have a separate13:15ESTclock.26Novembercash was closed.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "Reuters’27November07:34UTC search-index report describes stronger futures after Thanksgiving. It is dated, incomplete indexed coverage, not a freshly synchronized quote panel. No percentage, current cash return or policy probability is certified from it here. A rebound alone does not establish improved operating demand or sustainable cash generation.",
+        "kind": "fact",
+        "source_ids": [
+          "futures"
+        ]
+      },
+      {
+        "text": "Today’s official Tokyo preliminary November CPI is a local inflation observation, not US inflation or a central-bank decision. The fresh ECB XML remains dated26November and is a reference, not live FX. Current synchronized US breadth,turnover,yields,FX,volatility and commodities remain incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "tokyo",
+          "ecb"
+        ]
+      },
+      {
+        "text": "The fresh NVIDIA recent-submission index has no post23November8-K in the retrieved list. This limited index check does not certify all material news, current credit ratings, a full insider review or an unchanged business thesis. Funding, delivered capacity, memory/packaging, power and collections remain evidence tests, not inferred completed outcomes.",
+        "kind": "fact",
+        "source_ids": [
+          "nvidiaindex"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Holiday-return sentiment can move faster than operating evidence.",
+        "transmission": "Discount rates, financing requirements and customer demand affect exposures differently.",
+        "confidence": "inference",
+        "alternatives": "Thin trading, positioning or concentrated moves could explain a rebound without broader recovery.",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Cash participation confirms the lead",
+        "outcome": "Several independent groups strengthen.",
+        "trigger": "Fresh cash breadth and price/volume corroborate the earlier context.",
+        "invalidation": "Participation remains narrow or old quotes dominate.",
+        "horizon": "27November shortened cash session",
+        "source_ids": [
+          "nyse",
+          "futures"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "27November22:30SGT NYSEcashopen; pre-open alert deadline",
+        "due_at": "2026-11-27T14:30:00Z",
+        "confirms": "Fresh cash evidence qualifies the earlier futures lead.",
+        "contradicts": "A late pre-open alert is sent after cash opens.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "28November02:00SGT early cashclose; summary03:00,expiry04:00SGT",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified special-window finals support a timely closing read.",
+        "contradicts": "The normal06:00summary clock sends an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-27T13:06:30Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-27",
+      "calendar_status": "early-close",
+      "exchanges": [
+        {
+          "name": "NYSE regular09:30ESTopening and verified13:00ESTearly cash close",
+          "status": "early-close",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Dated indexed holiday-return optimism; current cash confirmation unavailable.",
+        "indicators": "No synchronized current price/volume/breadth or risk-panel certification.",
+        "source_ids": [
+          "futures",
+          "nyse"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No current27November US information technology cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Compare semiconductors, software and infrastructure; financing commitments are not shipped demand.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No current27November US communication services cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Check platforms, telecom and media separately; Nasdaq futures are not group breadth.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No current27November US consumer discretionary cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Verify consumer volumes, margins and financing sensitivity.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No current27November US consumer staples cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Separate defensive participation from input-cost and pricing-power evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No current27November US energy cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Check producers/refiners and dated oil marks; no commodity-driven equity cause is certified.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No current27November US financials cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Compare banks and insurers with verified curves, credit and funding.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No current27November US health care cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Check providers and pharmaceuticals separately, using original issuer/regulatory evidence.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No current27November US industrials cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Test transport, equipment and aerospace orders and cash conversion.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No current27November US materials cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Compare metals, chemicals and construction demand with consistent price clocks.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No current27November US real estate cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Check occupancy, rent collections and refinancing, not yields alone.",
+          "source_ids": [
+            "nyse"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No current27November US utilities cash-sector return/breadth panel before the official open.",
+          "implication": "Research/watch; no completed screen or portfolio action inferred.",
+          "watchpoint": "Separate contracted power demand from proposed capacity and financing costs.",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "Customer financing and supplier demand can transmit overseas sentiment conditionally.",
+          "trigger": "Original local demand, cash and verified participation corroborate exposure.",
+          "invalidation": "Local conditions diverge or only foreign sentiment is available.",
+          "source_ids": [
+            "nyse",
+            "futures"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "Trade, electronics and financing exposure requires specific issuer evidence.",
+          "trigger": "Original local demand, cash and verified participation corroborate exposure.",
+          "invalidation": "Local conditions diverge or only foreign sentiment is available.",
+          "source_ids": [
+            "nyse",
+            "futures"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "USopening sentiment may qualify an ongoing European session; it is not a European final.",
+          "trigger": "Original local demand, cash and verified participation corroborate exposure.",
+          "invalidation": "Local conditions diverge or only foreign sentiment is available.",
+          "source_ids": [
+            "nyse",
+            "futures"
+          ]
+        }
+      ],
+      "telegram_clock": {
+        "cash_at": "2026-11-27T14:30:00Z",
+        "source_id": "nyse"
+      }
+    }
   }
 ]

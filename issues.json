@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-21",
+  "latest": "2026-11-27",
   "issues": [
+    {
+      "date": "2026-11-27",
+      "number": 73,
+      "title": "Inflation definitions, enterprise exposure and a shortened US session",
+      "status": "DATA INCOMPLETE · delayed current Friday edition",
+      "path": "issues/2026/11/27/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-27-v1",
+        "delivery_notice": "Delayed current edition: apologies for missing the08:00target. Actual research cutoffs are shown; earlier observations and missed editions are not invented.",
+        "summary": "Tokyo’s preliminary inflation, CSA enterprise warnings and completed regional defence discussions require different evidence tests. Today’s US cash session ends early. Allfive market lanes remain DATA INCOMPLETE. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "Tokyo inflation: preliminary and local",
+            "date": "27Nov · November preliminary",
+            "context": "Headline2.8%,ex-fresh-food2.9%,ex-fresh-food/energy2.5%y/y. These are Tokyo preliminary indices, not nationwide final inflation or a policy decision.",
+            "source": "https://www.stat.go.jp/info/mail/pdf/20261127_no1921.pdf"
+          },
+          {
+            "title": "Enterprise cyber: establish actual exposure",
+            "date": "26–27Nov · CSA notices",
+            "context": "Cisco exploitation warning and critical VMware advisories call for deployment/patch checks. No Singapore compromise or measured loss is established.",
+            "source": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-171/"
+          },
+          {
+            "title": "Defence dialogue: agreement versus execution",
+            "date": "25Nov · joint statement",
+            "context": "Completed talks and prospective cooperation are verified; equipment delivery, procurement cash and direct commercial disruption are not implied.",
+            "source": "https://www.mindef.gov.sg/news-and-events/latest-releases/25nov26-fs/"
+          }
+        ],
+        "market_note": "NYSE cash opens22:30SGT and ends28Nov02:00SGT; summary03:00,expiry04:00. Earlier missed sessions remain gaps. Current synchronized sector/risk panels are incomplete; reference FX is dated26Nov. No portfolio action is inferred."
+      }
+    },
     {
       "date": "2026-11-24",
       "number": 72,
