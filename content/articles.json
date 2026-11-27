@@ -61826,5 +61826,393 @@
         "source_id": "nyse"
       }
     }
+  },
+  {
+    "id": "2026-11-27-europe-close",
+    "title": "London close: inflation expectations rise as business sentiment softens",
+    "summary": "London’s regular closing phases have passed. Original ECB and European Commission surveys give mixed demand and inflation signals; they are not policy decisions or market returns. Final index, sector and breadth panels remain unverified. US cash is still trading toward its shortened-session close.",
+    "channel": "markets",
+    "regions": [
+      "europe"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-27T17:05:13Z",
+    "updated_at": "2026-11-27T17:05:13Z",
+    "cutoff_at": "2026-11-27T17:05:13Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "lse",
+        "title": "Official calendar: no 27 November closure or half-day listed; undated publication metadata uses check time",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
+        "type": "primary",
+        "published_at": "2026-11-27T17:02:59Z",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "hours",
+        "title": "Original SETS workbook:16:30 closing call, standard16:35 uncrossing subject to extensions; clock is not final-price evidence",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/content/dam/lse/en_us/documents/technical-library/millennium-exchange-and-tradecho-business-parameters.xlsx",
+        "type": "primary",
+        "published_at": "2026-11-27T17:02:59Z",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "ces",
+        "title": "October2026 consumer survey; original full release checked, published27November",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "ec",
+        "title": "November2026 business/consumer survey: original summary and revision note checked; EU/euro-area definitions retained",
+        "publisher": "European Commission",
+        "url": "https://economy-finance.ec.europa.eu/document/download/00980c76-91e9-4843-85b2-51ef1e599368_en?filename=bcs_2026_11_en.pdf",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "fx",
+        "title": "Official27November reference XML; same-base EUR rates, not live or executable quotes",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "ecbcal",
+        "title": "Original weekly calendar updated27November; scheduled engagements are not outcomes",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official27November early cash-close and separate options clock; undated metadata is check time",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-27T17:02:59Z",
+        "accessed_at": "2026-11-27T17:02:59Z"
+      },
+      {
+        "id": "quote-gap",
+        "title": "Official public equity reader HTTP200 at17:03:50UTC but no reproducible dated final-price panel; no private endpoints used",
+        "publisher": "London Stock Exchange",
+        "url": "https://www.londonstockexchange.com/en/market-data/equity?lang=en",
+        "type": "primary",
+        "published_at": "2026-11-27T17:03:50Z",
+        "accessed_at": "2026-11-27T17:03:50Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "For the27November London-local session, SETS closing auction call starts16:30GMT /28November00:30SGT; standard uncrossing is around16:35GMT subject to extensions. No closure or half-day is listed. Summarytarget01:30SGT, expiry02:30SGT. This verifies the London anchor, not all continental venues or final auction prices.",
+        "kind": "fact",
+        "source_ids": [
+          "lse",
+          "hours"
+        ]
+      },
+      {
+        "text": "The original ECB27November release covers October consumer responses, with fieldwork1October–2November. Median one-year inflation expectations rose3.1% to3.5%; three-year expectations2.9% to3.0%; five-year expectations stayed2.5%. These are survey expectations, not measured inflation or an ECB decision.",
+        "kind": "fact",
+        "source_ids": [
+          "ces"
+        ]
+      },
+      {
+        "text": "The European Commission’s27November November survey gives EU ESI96.0,down0.5points, and euro-area95.8,down0.7points. Employment expectations also fell: EU97.9,down0.6; euro-area96.8,down1.3. All are below the100long-term average. EU industry/construction weakened while consumer/retail confidence improved. Past data were revised; compare the current release’s own comparable series.",
+        "kind": "fact",
+        "source_ids": [
+          "ec"
+        ]
+      },
+      {
+        "text": "The27November ECB reference quotes one euro at USD1.0957,GBP0.83504 and SGD1.4132. The XML supplies a date, not a live executable bid/ask or a certified exact fix minute. Intraday commentary and the official dynamic-equity reader do not establish final FTSE/STOXX levels. Final sector returns, breadth,turnover,yields,volatility and commodity settlements remain incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "fx",
+          "quote-gap"
+        ]
+      },
+      {
+        "text": "NYSE27Novembercash ends13:00EST /28November02:00SGT, so US cash is still trading at this cutoff. The summarytarget is03:00SGT, expiry04:00SGT; eligible options use13:15EST separately. No US closing result is inferred from London’s completion.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Higher expected inflation alongside weaker broad business confidence creates competing pressures.",
+        "transmission": "Household purchasing power, pricing and financing costs can affect European revenue and margins differently.",
+        "confidence": "inference",
+        "alternatives": "Survey responses can lag actual spending; selected firms can outperform broad demand and a market rebound can reflect positioning. No observed price move is causally assigned.",
+        "source_ids": [
+          "ces",
+          "ec"
+        ]
+      },
+      {
+        "explanation": "A common reference-currency snapshot helps separate translation from operating performance.",
+        "transmission": "EUR/GBP/SGD translation matters for cross-border receipts, import costs and distributions.",
+        "confidence": "inference",
+        "alternatives": "Hedges, invoice currencies and contract timing can offset headline FX; reference rates cannot establish actual realized costs.",
+        "source_ids": [
+          "fx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Demand resilience outweighs survey weakness",
+        "outcome": "Operating orders and cash stabilize despite softer confidence.",
+        "trigger": "Subsequent original issuer results and verified final breadth broaden beyond isolated winners.",
+        "invalidation": "New orders, cash collections or hiring deteriorate.",
+        "horizon": "30November European reopening and next original operating releases",
+        "source_ids": [
+          "ec",
+          "quote-gap"
+        ]
+      },
+      {
+        "name": "Inflation pressure constrains recovery",
+        "outcome": "Pricing and financing costs limit household demand and valuation support.",
+        "trigger": "Realized inflation and dated policy evidence corroborate elevated expectations.",
+        "invalidation": "Actual disinflation and improving operating cash outweigh the survey signal.",
+        "horizon": "30November policy communication and subsequent official inflation releases",
+        "source_ids": [
+          "ces",
+          "ecbcal"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "28November01:30SGT London summary; final-market panel reconciliation",
+        "due_at": "2026-11-27T17:30:00Z",
+        "confirms": "Dated post-auction prices and breadth establish comparable final observations.",
+        "contradicts": "Calendar completion or an early intraday report is mistaken for final pricing.",
+        "source_ids": [
+          "hours",
+          "quote-gap"
+        ]
+      },
+      {
+        "signal": "28November02:00SGT US early cash close; summary03:00,expiry04:00",
+        "due_at": "2026-11-27T18:00:00Z",
+        "confirms": "Verified early-session finals qualify cross-market comparisons.",
+        "contradicts": "The normal06:00SGT summary sends an expired alert.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "30November15:30CET /22:30SGT Lagarde ECON hearing, scheduled",
+        "due_at": "2026-11-30T14:30:00Z",
+        "confirms": "Published remarks distinguish actual policy communication from expectations.",
+        "contradicts": "A calendar engagement is treated as an enacted policy change.",
+        "source_ids": [
+          "ecbcal"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-27T17:05:13Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "europe",
+      "session_date": "2026-11-27",
+      "calendar_status": "regular",
+      "exchanges": [
+        {
+          "name": "London SETS closing anchor; continental venue clocks not independently certified",
+          "status": "verified-session",
+          "source_ids": [
+            "lse",
+            "hours"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Survey evidence is mixed; final-market risk appetite remains unverified.",
+        "indicators": "Inflation expectations versus broader business confidence; no synchronized final index/breadth/turnover/rates/volatility panel.",
+        "source_ids": [
+          "ces",
+          "ec",
+          "quote-gap"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Information Technology.",
+          "implication": "Orders and cash can differ from an AI-led price rebound.",
+          "watchpoint": "IT supplier orders, packaging and cash collections at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Communication Services.",
+          "implication": "Industry-wide pricing cannot be inferred from one platform.",
+          "watchpoint": "Advertising, telecom service demand and recurring collections at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Consumer Discretionary.",
+          "implication": "Consumer confidence improvement is not a sector return.",
+          "watchpoint": "Household demand, retailer margin and inventory conversion at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap",
+            "ec"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Consumer Staples.",
+          "implication": "Pricing power needs realized margin evidence.",
+          "watchpoint": "Essential-goods pricing versus volume and input costs at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Energy.",
+          "implication": "No current settlement or net margin is certified.",
+          "watchpoint": "Dated energy settlements and corporate realized pricing at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Financials.",
+          "implication": "Expected inflation alone does not establish bank earnings.",
+          "watchpoint": "Bank lending, provisions, capital and funding conditions at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Health Care.",
+          "implication": "No sector-wide operating or final-price outcome is established.",
+          "watchpoint": "Regulatory decisions, trial outcomes and realized funding at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Industrials.",
+          "implication": "Weak survey signals need comparison with realized orders.",
+          "watchpoint": "Current orders, production and export demand at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap",
+            "ec"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Materials.",
+          "implication": "An intraday miners lead cannot establish final sector performance.",
+          "watchpoint": "End-demand, inventories and dated metal settlements at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Real Estate.",
+          "implication": "Survey mortgage expectations are not commercial property funding terms.",
+          "watchpoint": "Refinancing, occupancy and cash distributions at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No verified27November European final return/breadth panel for Utilities.",
+          "implication": "Committed investment is not delivered capacity or revenue.",
+          "watchpoint": "Regulated returns, grid execution and funding at30November reopening or the next original disclosure.",
+          "source_ids": [
+            "quote-gap"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "European demand and financing conditions can transmit through export orders.",
+          "trigger": "Original Asian supplier disclosures and30November cash evidence confirm a link.",
+          "invalidation": "Local demand, hedging or different revenue exposures offset it.",
+          "source_ids": [
+            "ec",
+            "fx"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "European-currency receipts and funding may affect Singapore-linked issuers and property exposure.",
+          "trigger": "Verified issuer exposures, lease currencies and refinancing disclosures establish materiality.",
+          "invalidation": "Hedging and local cash flows dominate. No portfolio holding is assumed.",
+          "source_ids": [
+            "fx",
+            "ec"
+          ]
+        },
+        {
+          "market": "us",
+          "scenario": "Europe’s survey split is context for the still-open shortened US session.",
+          "trigger": "Verified US early-close prices, issuer evidence and breadth corroborate a cross-market move.",
+          "invalidation": "Independent US news or thin holiday participation explain divergence.",
+          "source_ids": [
+            "nyse",
+            "ces",
+            "ec"
+          ]
+        }
+      ]
+    }
   }
 ]
