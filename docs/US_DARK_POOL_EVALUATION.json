@@ -4,9 +4,10 @@
   "evaluation_target_completed_us_sessions": 20,
   "started_at": "2026-11-24T22:02:00Z",
   "completed_session_keys_checked": [
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-27"
   ],
-  "completed_sessions_checked": 1,
+  "completed_sessions_checked": 2,
   "sessions_with_reproducible_observations": 0,
   "status": "observational-in-progress",
   "counting_rule": "Count each completed New York cash-session date once across pre/post records. Access failures remain untestable attempts, not observed signals or performance samples. Never backfill unobserved pre-open history.",
@@ -15,7 +16,7 @@
     "useful": 0,
     "misleading": 0,
     "redundant": 0,
-    "untestable": 2
+    "untestable": 3
   },
   "records": [
     {
@@ -76,6 +77,42 @@
       "outcome": "untestable",
       "telegram_context_published": false,
       "baseline_comparison": "Unavailable inputs prevent incremental comparison; no predictive accuracy, false-positive rate or instrument signal computed."
+    },
+    {
+      "checked_at": "2026-11-27T21:04:41Z",
+      "market_session_date": "2026-11-27",
+      "period": "post",
+      "source_url": "https://darkpoolheatmap.com/heatmap",
+      "source_health": "unavailable",
+      "data_status": "DATA UNAVAILABLE",
+      "access_observations": [
+        "Permitted direct public HTTP200, replacing the previous403 access outcome; visible page contains sector/date/sort controls but no ticker print rows, price/volume values or as-of timestamps.",
+        "No undocumented endpoint, browser session, protected screenshot, raw feed or historical snapshot used."
+      ],
+      "displayed_observation_timestamps": [],
+      "release_lag": {
+        "provider_described_minutes": 15,
+        "independently_verified": false,
+        "scope": "Provider-described15minute delay remains unverified; HTTP200 page controls do not establish session coverage, as-of or lag."
+      },
+      "data_coverage_rights": "Dynamic programmatic access, historical baselines, source licensing and redistribution permission unconfirmed; no licensed/reproducible session inputs available. No raw feed or heatmap redistributed.",
+      "sector_or_ticker": null,
+      "normalized_activity_ratio": null,
+      "price_volume_context": "Normal web-only catch-up uses AP18:45:52UTC final index table and a separate dated secondary table; no matched ticker-level print, normalized baseline or volume context is observable.",
+      "print_condition_review": "Late,average-price,closing-cross,FormT and corrections cannot be identified without observable timestamped prints.",
+      "alternative_explanation": "Any later observable concentration could reflect ATS/non-ATS mix, mechanical crosses, reporting delay or corrections; identity and buyer/seller direction are not inferred.",
+      "subsequent_test_horizon": "30November next completed comparable US session; no retrospective cluster or predictive result inferred.",
+      "independent_checks_beyond_heatmap": [],
+      "independently_changed_conclusion": false,
+      "outcome": "untestable",
+      "telegram_context_published": false,
+      "baseline_comparison": "Untestable versus price/news baseline: no reproducible print observation, no independent heatmap contribution, no instrument signal.",
+      "supplemental_source_health": {
+        "url": "https://www.finra.org/rules-guidance/rulebooks/finra-rules/6110",
+        "checked_at": "2026-11-27T21:05:40Z",
+        "status": "observable-rule-text-only",
+        "scope": "Rule6110 covers ATS andnon-ATS weekly aggregates: Tier1noearlierthantwoweeks,otherNMSnoearlierthanfourweeksafterweekend. No session print dataset retrieved."
+      }
     }
   ],
   "method_limits": [
@@ -84,5 +121,5 @@
     "Retain useful,misleading,redundant anduntestable comparisons; assess precision/usefulness,noise,false positives,lag andaccess stability after20completed sessions, without treating missing inputs as zeros.",
     "No separate Telegram delivery key, scheduler, message, revision or rerun for this evaluation."
   ],
-  "unobserved_windows_note": "25Novemberpre/post and26Novemberholiday were not observed by this evaluation in repository state. No retrospective records or zeros inserted.27Novemberpre is not a completed27November session; completed-session count remains1."
+  "unobserved_windows_note": "25Novemberpre/post remain unobserved;26NovemberNYSEholiday is not a completed cash session.27Novemberpost checked after the shortened session, so unique completed dates checked are24and27November. Two completed dates checked do not mean two usable samples; all three recorded attempts are untestable."
 }

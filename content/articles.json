@@ -62214,5 +62214,358 @@
         }
       ]
     }
+  },
+  {
+    "id": "2026-11-27-us-close",
+    "title": "US early-close catch-up: a broad index rebound, with sector and volume limits",
+    "summary": "Web-only catch-up after the shortened27November session: attributed final index data show a rebound, but full sector participation, volume, rates and volatility remain incomplete. The03:00SGT alert target and04:00expiry have passed; no closing Telegram alert will be sent.",
+    "channel": "markets",
+    "regions": [
+      "us"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "market-close",
+    "published_at": "2026-11-27T21:07:03Z",
+    "updated_at": "2026-11-27T21:07:03Z",
+    "cutoff_at": "2026-11-27T21:07:03Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nyse",
+        "title": "Original holiday/hours page:27November13:00EST early cash close; separate eligible-options and late-session clocks",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-27T21:04:41Z",
+        "accessed_at": "2026-11-27T21:04:41Z"
+      },
+      {
+        "id": "ap",
+        "title": "Original final-index table, page metadata18:45:52UTC27November; full table checked after the alert expiry",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/04dab6079cf7f3dfe7285a3cc1f240a2",
+        "type": "secondary",
+        "published_at": "2026-11-27T18:45:52Z",
+        "accessed_at": "2026-11-27T21:04:41Z"
+      },
+      {
+        "id": "independent-close",
+        "title": "Dated27November table agrees on four final index levels; provider describes Yahoo Finance lineage, not exchange certification",
+        "publisher": "Portfolio Terminal",
+        "url": "https://portfolio-terminal.com/markets/stock-market-close",
+        "type": "secondary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T21:05:32Z"
+      },
+      {
+        "id": "fx",
+        "title": "27November official reference XML; dated EUR-base rates, not live bid/ask or synchronized US close",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T21:04:41Z"
+      },
+      {
+        "id": "vertex-gap",
+        "title": "Original investor-relations reader returned503; no retry, issuer drug-decision outcome unverified",
+        "publisher": "Vertex Pharmaceuticals",
+        "url": "https://ir.vrtx.com/news-releases",
+        "type": "primary",
+        "published_at": "2026-11-27T21:04:41Z",
+        "accessed_at": "2026-11-27T21:04:41Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "NYSE’s27Novemberearly cash close was13:00EST /28November02:00SGT; eligible options13:15EST are separate. Closing-summarytarget03:00SGT andexpiry04:00SGT were missed. This report uses its actual later cutoff, is web-only and does not recreate an earlier observation or send an outdated alert. Late trading on specified NYSE-affiliated equity venues continues until17:00EST and is not the cash-session close.",
+        "kind": "fact",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "text": "AP’s27November18:45:52UTC table reports S&P5007,297.49,up114.71points(1.6%); Dow50,774.94,up591.99(1.2%); Nasdaq24,129.50,up543.70(2.3%); Russell20002,750.30,up46.24(1.7%). These are attributed final cash-index observations, not futures or after-hours quotes.",
+        "kind": "fact",
+        "source_ids": [
+          "ap"
+        ]
+      },
+      {
+        "text": "The independently retrieved dated market page agrees on all four levels and displays more precise percentage changes: S&P1.60%,Dow1.18%,Nasdaq2.31%,Russell1.71%. Its stated Yahoo Finance lineage is a secondary check, not a claim of separate exchange certification. Earlier indexed preliminary headlines differed; the later AP table and matching dated page govern this attributed read.",
+        "kind": "fact",
+        "source_ids": [
+          "independent-close",
+          "ap"
+        ]
+      },
+      {
+        "text": "Four rising broad indexes support a positive index-level session assessment. They do not establish all11sector returns, constituent breadth, turnover, a validated volume baseline or improved business cash generation. Synchronized Treasury yields, volatility, commodity settlements and final sector panels remain incomplete.",
+        "kind": "fact",
+        "source_ids": [
+          "ap",
+          "independent-close"
+        ]
+      },
+      {
+        "text": "The fresh ECB XML is dated27November: one euro equals USD1.0957,GBP0.83504 and SGD1.4132. This reference is neither an executable quote nor a synchronized13:00EST US closing snapshot. Translation, hedging and issuer exposure must be verified separately.",
+        "kind": "fact",
+        "source_ids": [
+          "fx"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "The verified index rebound is an outcome; bargain-hunting, position adjustments and changing expectations are competing explanations.",
+        "transmission": "Prices and discount rates can move before issuer orders, margins or collections change.",
+        "confidence": "inference",
+        "alternatives": "Holiday participation, concentrated index weights or short covering can mimic broad fundamental improvement; no specific flow, actor or causal contribution is certified.",
+        "source_ids": [
+          "ap",
+          "independent-close",
+          "nyse"
+        ]
+      },
+      {
+        "explanation": "Different observation clocks constrain cross-asset conclusions.",
+        "transmission": "FX translation and financing assumptions affect international cash flows and valuations.",
+        "confidence": "inference",
+        "alternatives": "Hedges and invoice timing can offset a dated currency reference; non-synchronized marks can create a false correlation.",
+        "source_ids": [
+          "fx",
+          "nyse"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Rebound gains operating confirmation",
+        "outcome": "Current pricing is supported by broader participation and realizable issuer demand.",
+        "trigger": "Next regular session breadth and original orders, margins and cash disclosures improve together.",
+        "invalidation": "Participation narrows, cash conversion weakens or funding costs offset growth.",
+        "horizon": "30November next regular US cash session and subsequent issuer releases",
+        "source_ids": [
+          "nyse",
+          "independent-close"
+        ]
+      },
+      {
+        "name": "Price recovery exceeds business evidence",
+        "outcome": "A strong index day does not resolve valuation, financing or execution concerns.",
+        "trigger": "Issuer evidence fails to corroborate price expectations or normal-session breadth weakens.",
+        "invalidation": "Dated operating results and sustainable broad participation independently strengthen.",
+        "horizon": "30November normal-session verification and next operating disclosures",
+        "source_ids": [
+          "ap",
+          "independent-close"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "28November08:00SGT daily follow-up; completed-week UBER/USAspending branches remain pending",
+        "due_at": "2026-11-28T00:00:00Z",
+        "confirms": "Current edition preserves completed-week research with original evidence and gaps.",
+        "contradicts": "The late close catch-up is mistaken for the canonical daily edition or a completed weekly screen.",
+        "source_ids": [
+          "nyse"
+        ]
+      },
+      {
+        "signal": "30November09:30EST /22:30SGT next regular US cash open; pre-open target21:30SGT",
+        "due_at": "2026-11-30T14:30:00Z",
+        "confirms": "Fresh comparable breadth, volume and operating evidence qualify the rebound.",
+        "contradicts": "Friday’s shortened session is represented as Monday’s current flows.",
+        "source_ids": [
+          "nyse"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-27T21:07:03Z"
+    },
+    "material_reason": null,
+    "market_read": {
+      "market": "us",
+      "session_date": "2026-11-27",
+      "calendar_status": "early-close",
+      "exchanges": [
+        {
+          "name": "NYSE27November13:00EST early cash close; options and late trading separately timed",
+          "status": "early-close",
+          "source_ids": [
+            "nyse"
+          ]
+        }
+      ],
+      "sentiment": {
+        "assessment": "Positive index-level session; broader risk appetite and operating confirmation incomplete.",
+        "indicators": "Four attributed closing indexes rose; no certified constituent breadth, volume baseline, synchronized yields or volatility panel.",
+        "source_ids": [
+          "ap",
+          "independent-close"
+        ]
+      },
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Information Technology return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "An index rebound cannot certify semiconductor or software economics.",
+          "watchpoint": "AI/software demand, delivered capacity, funding and cash collections at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Communication Services return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "One large constituent cannot establish communications-wide demand.",
+          "watchpoint": "Advertising, telecom collections and platform spending at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Consumer Discretionary return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "Holiday shopping narratives need actual comparable sales and cash.",
+          "watchpoint": "Consumer units, promotions, inventory and realized margins at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Consumer Staples return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "Defensive demand or pricing strength needs issuer evidence.",
+          "watchpoint": "Essential-goods volume, pricing and costs at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Energy return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "No energy-sector return or commodity settlement is inferred.",
+          "watchpoint": "Dated oil/gas settlements and realized margins at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Financials return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "A higher broad index does not certify bank earnings or loan quality.",
+          "watchpoint": "Lending, capital, funding and credit losses at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Health Care return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "Vertex discovery reporting remains unconfirmed after original IR503; no drug decision or decline percentage asserted.",
+          "watchpoint": "Original regulatory decisions, drug economics and financing at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close",
+            "vertex-gap"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Industrials return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "Commitments are not realized revenue or cash.",
+          "watchpoint": "Orders, backlog conversion and export demand at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Materials return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "A miners headline cannot establish materials-wide final performance.",
+          "watchpoint": "Dated metals, inventories and customer orders at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Real Estate return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "Rate sensitivity is conditional; no holdings or allocation is assumed.",
+          "watchpoint": "Refinancing, occupancy and cash distributions at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "No reproducible27November final US Utilities return/breadth/volume panel verified in the retrieved sources.",
+          "implication": "Planned investment is not completed operating capacity.",
+          "watchpoint": "Grid delivery, regulated returns and financing at30November regular-session follow-up or the next original disclosure.",
+          "source_ids": [
+            "independent-close"
+          ]
+        }
+      ],
+      "spillovers": [
+        {
+          "market": "asia",
+          "scenario": "US pricing can influence Monday Asian sentiment, but exporter demand requires actual orders.",
+          "trigger": "30November cash participation and original Asian supplier disclosures confirm transmission.",
+          "invalidation": "Regional demand, exchange rates or local policy dominate.",
+          "source_ids": [
+            "independent-close",
+            "fx"
+          ]
+        },
+        {
+          "market": "singapore",
+          "scenario": "US sentiment and currency translation can affect Singapore-listed issuers and funds differently.",
+          "trigger": "Verified revenue currencies, hedging and financing exposures establish a link.",
+          "invalidation": "Local fundamentals offset the global price signal. No portfolio action is inferred.",
+          "source_ids": [
+            "fx",
+            "independent-close"
+          ]
+        },
+        {
+          "market": "europe",
+          "scenario": "The US rebound is dated context for30November European reopening.",
+          "trigger": "Fresh European breadth, rates and original operating evidence corroborate a durable move.",
+          "invalidation": "Local inflation, funding or demand evidence leads to divergence.",
+          "source_ids": [
+            "fx",
+            "independent-close"
+          ]
+        }
+      ],
+      "telegram_clock": {
+        "cash_at": "2026-11-27T18:00:00Z",
+        "source_id": "nyse"
+      }
+    }
   }
 ]
