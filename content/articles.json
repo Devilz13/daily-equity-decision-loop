@@ -62745,5 +62745,566 @@
       "reviewed_at": "2026-11-28T00:08:18Z"
     },
     "material_reason": null
+  },
+  {
+    "id": "2026-11-28-evening-global-watch",
+    "title": "Evening watch: inflation, cyber implementation and next week’s evidence",
+    "summary": "Saturday evening watch, delayed after the 19:00 SGT target. Friday’s US index rebound remains dated context; the ECB survey tests household purchasing power. NCS’s cyber programme is an announced MOU, not contracted revenue. All 11 sector panels retain explicit gaps; four exact REDL indexes show no newer 13F. Next: BOJ remarks and dated US labour releases.",
+    "channel": "markets",
+    "regions": [
+      "global",
+      "us",
+      "europe",
+      "asia",
+      "singapore"
+    ],
+    "lenses": [
+      "dedl",
+      "redl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "evening-brief",
+    "published_at": "2026-11-28T11:07:36Z",
+    "updated_at": "2026-11-28T11:07:36Z",
+    "cutoff_at": "2026-11-28T11:07:36Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "ecb",
+        "title": "27 November October consumer survey; observed anew, not a new inflation release",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "fx",
+        "title": "Reference XML still dated 27 November; not executable weekend quotes",
+        "publisher": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "ncs",
+        "title": "27 November company announcement about 23 November event and programme MOU; not quantified orders",
+        "publisher": "NCS",
+        "url": "https://www.ncs.co/en-sg/about-us/newsroom/ncs-mobilises-global-ai-and-cyber-specialists-to-help-cisos-stay-ahead-of-escalating-ai-powered-cyber-threats/",
+        "type": "primary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-28T11:05:46Z"
+      },
+      {
+        "id": "csa",
+        "title": "Fresh alert-index scope; latest visible alert 27 November",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:06Z",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "csa-nginx",
+        "title": "26 November original exploitation/update warning, non-operational summary",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-168/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-28T11:05:46Z"
+      },
+      {
+        "id": "csa-f5",
+        "title": "26 November original critical-product-risk/update notice",
+        "publisher": "Cyber Security Agency of Singapore",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-169/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-28T11:05:46Z"
+      },
+      {
+        "id": "boj",
+        "title": "Current release schedule updated 27 November; times Japan Standard Time",
+        "publisher": "Bank of Japan",
+        "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:06Z",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "bls",
+        "title": "December calendar; scheduled reference months and Eastern Time, subject to revision",
+        "publisher": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:46Z",
+        "accessed_at": "2026-11-28T11:05:46Z"
+      },
+      {
+        "id": "jpx",
+        "title": "Official Saturday/Sunday cash-market holiday rule; derivatives night sessions distinct",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:06Z",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "nse",
+        "title": "Official equities timing page; Saturday/Sunday exclusions",
+        "publisher": "National Stock Exchange of India",
+        "url": "https://www.nseindia.com/static/market-data/market-timings",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:06Z",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "nyse",
+        "title": "Official holiday and hours page; 27 November shortened cash session distinct from late venues",
+        "publisher": "NYSE",
+        "url": "https://www.nyse.com/trade/hours-calendars",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:06Z",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "mindef",
+        "title": "Fresh public index check; latest visible releases 26 November; not a comprehensive global scan",
+        "publisher": "MINDEF Singapore",
+        "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:06Z",
+        "accessed_at": "2026-11-28T11:05:06Z"
+      },
+      {
+        "id": "parliament",
+        "title": "HTTP 200 reader exposes Order Paper explanation but no dated sitting agenda",
+        "publisher": "Parliament of Singapore",
+        "url": "https://www.parliament.gov.sg/parliamentary-business/order-paper",
+        "type": "primary",
+        "published_at": "2026-11-28T11:05:11Z",
+        "accessed_at": "2026-11-28T11:05:11Z"
+      },
+      {
+        "id": "nvda",
+        "title": "Fresh exact NVIDIA submissions index; latest indexed 8-K filed 23 November, report date 22 November",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001045810.json",
+        "type": "primary",
+        "published_at": "2026-11-23",
+        "accessed_at": "2026-11-28T11:05:11Z"
+      },
+      {
+        "id": "sec1541617",
+        "title": "Exact filer identity and recent disclosure index; holdings comparison/archive work separate",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001541617.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-28T11:05:12Z"
+      },
+      {
+        "id": "sec1709323",
+        "title": "Exact filer identity and recent disclosure index; holdings comparison/archive work separate",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001709323.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-28T11:05:12Z"
+      },
+      {
+        "id": "sec1647251",
+        "title": "Exact filer identity and recent disclosure index; holdings comparison/archive work separate",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001647251.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-28T11:05:14Z"
+      },
+      {
+        "id": "sec1697868",
+        "title": "Exact filer identity and recent disclosure index; holdings comparison/archive work separate",
+        "publisher": "SEC EDGAR",
+        "url": "https://data.sec.gov/submissions/CIK0001697868.json",
+        "type": "primary",
+        "published_at": "2026-11-16",
+        "accessed_at": "2026-11-28T11:05:15Z"
+      },
+      {
+        "id": "gdp",
+        "title": "24November original GDP release; selected summary/sector context checked",
+        "publisher": "METI",
+        "url": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-28T00:03:59Z"
+      },
+      {
+        "id": "ap",
+        "title": "Original final-index table, page metadata18:45:52UTC27November; full table checked after the alert expiry",
+        "publisher": "Associated Press",
+        "url": "https://apnews.com/article/04dab6079cf7f3dfe7285a3cc1f240a2",
+        "type": "secondary",
+        "published_at": "2026-11-27T18:45:52Z",
+        "accessed_at": "2026-11-27T21:04:41Z"
+      },
+      {
+        "id": "independent-close",
+        "title": "Dated27November table agrees on four final index levels; provider describes Yahoo Finance lineage, not exchange certification",
+        "publisher": "Portfolio Terminal",
+        "url": "https://portfolio-terminal.com/markets/stock-market-close",
+        "type": "secondary",
+        "published_at": "2026-11-27",
+        "accessed_at": "2026-11-27T21:05:32Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Saturday evening global watch, 28 November 2026. First reviewed after the 19:00 SGT target; the evidence cutoff shown above is the actual current review time. This is the distinct evening product, not a replacement or resend of Issue 074. Markets being closed does not cancel this editorial edition. No Saturday cash prints or prior checkpoint observations are invented.",
+        "kind": "fact",
+        "source_ids": [
+          "jpx",
+          "nse",
+          "nyse"
+        ]
+      },
+      {
+        "text": "Five independent market statuses: US — DATA INCOMPLETE; Singapore — DATA INCOMPLETE; global ex-US/ex-Singapore — DATA INCOMPLETE; direct REITs — DATA INCOMPLETE; funds/ETFs — DATA INCOMPLETE. Friday index-level evidence does not complete sector, constituent breadth, volume, valuation, balance-sheet or fund-specific screens. Research/watch only; no screen pass, action label or target range follows from this report.",
+        "kind": "fact",
+        "source_ids": [
+          "ap",
+          "independent-close",
+          "ecb"
+        ]
+      },
+      {
+        "text": "Latest completed US cash session, 27 November: the previously checked AP final table gives S&P 500 7,297.49 (+1.6%), Dow 50,774.94 (+1.2%), Nasdaq 24,129.50 (+2.3%), Russell 2000 2,750.30 (+1.7%). The dated secondary table agrees on levels. These observations retain their original 28 November 05:04/05:05 SGT retrieval times; they were not freshly observed this evening. Four rising indexes are a positive sentiment proxy, not proof of broad constituent participation or a durable earnings turn. Synchronized yields, volatility, commodity settlements and sector turnover remain unavailable in this bounded review.",
+        "kind": "fact",
+        "source_ids": [
+          "ap",
+          "independent-close"
+        ]
+      },
+      {
+        "text": "The 27 November ECB release concerns the October consumer-survey wave, with fieldwork 1 October–2 November. Median one-year inflation expectations rose from 3.1% to 3.5%; three-year expectations rose from 2.9% to 3.0%; five-year expectations stayed 2.5%. Expected nominal income growth fell from 1.1% to 0.6%, while expected nominal spending growth remained 3.7%. These are survey expectations, not realized CPI, income, spending or an ECB decision. The countercase is mixed: expected economic growth improved from −1.5% to −1.3%, and expected unemployment fell from 11.3% to 11.0%.",
+        "kind": "fact",
+        "source_ids": [
+          "ecb"
+        ]
+      },
+      {
+        "text": "Forex check this evening: the ECB XML remains dated 27 November, with EUR/USD 1.0957, EUR/GBP 0.83504, EUR/SGD 1.4132 and EUR/JPY 174.81. These reference observations are not live Saturday spreads, executable orders or a synchronized US cash-close snapshot. No new weekend price change is inferred from a new retrieval time. Rates and currency translation are conditional transmission channels for Singapore import costs and overseas earnings; issuer hedges and pricing power require separate evidence.",
+        "kind": "fact",
+        "source_ids": [
+          "fx"
+        ]
+      },
+      {
+        "text": "Singapore opening context retained from the morning review: the original 24 November release puts Q3 real GDP at +6.1% year-on-year, revised from the +5.4% advance estimate, and +1.5% quarter-on-quarter seasonally adjusted. Its around-6.0% 2026 and 2.5–4.5% 2027 growth forecasts are not realized annual outcomes. This source retains the morning retrieval time. The aggregate revision does not establish uniform listed-company profits, cash conversion or a direct REIT/fund pass.",
+        "kind": "fact",
+        "source_ids": [
+          "gdp"
+        ]
+      },
+      {
+        "text": "Newly checked company evidence: NCS published its announcement on 27 November about a 23 November Singapore AI/cyber event. It says it signed an MOU with Palo Alto Networks for a joint Frontier AI Cyber Defence programme. This establishes a company-reported event and proposed collaboration, not a deployed joint programme, measured rise in attack incidence or independently demonstrated effectiveness. No contract value, booked revenue, incremental cash flow or customer adoption is verified here. Singapore impact is a potential enterprise-capability channel; subsequent deployment evidence is the test.",
+        "kind": "fact",
+        "source_ids": [
+          "ncs"
+        ]
+      },
+      {
+        "text": "Cybersecurity follow-up: the fresh CSA index still has 27 November VMware as its latest visible alert, followed by 26 November Cisco and F5 notices. The freshly reread 26 November NGINX notice reports exploitation and recommends updates; the separate BIG-IP notice identifies critical product exposure and updates. These establish dated advisory scope, not a confirmed new Singapore victim, quantified business loss or the cause of any listed-security move. The morning enterprise-edge structured report remains the detailed local desk report; this evening check does not rewrite its first-publication date.",
+        "kind": "fact",
+        "source_ids": [
+          "csa",
+          "csa-nginx",
+          "csa-f5"
+        ]
+      },
+      {
+        "text": "NVIDIA bottleneck review: the exact submissions index still lists the 23 November 8-K with 22 November report date; an index check is not a full filing or fresh demand comparison. No newly corroborated HBM/memory, foundry/packaging, rack/networking, power/grid, cooling or generation order/revenue evidence is established in this bounded pass. The regional shipment headline encountered in the morning remains unconfirmed; the original access failure was not retried or routed around. Financing, export conditions and deployment execution remain tests, not assumed sales or shipment bans.",
+        "kind": "fact",
+        "source_ids": [
+          "nvda"
+        ]
+      },
+      {
+        "text": "Dated desk outcomes: World Watch is incorporated through the ECB survey and verified forward calendars; Markets publishes this evening structured watch. Military routine review is not due Saturday: the current MINDEF index shows no newer visible release than 26 November, with the 20–26 November exercise and 25 November Japan meeting already reviewed. Those are exercises/talks, not hostile operations or measured shipping disruption. Parliament’s optional substantive Saturday review yields an HTTP 200 shell without a dated sitting agenda; the earlier review gap remains open. No new qualifying conflict escalation is verified here; this Singapore week remains one structured conflict report out of the five-report cap. These bounded source outcomes do not establish that nothing occurred globally.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef",
+          "parliament",
+          "ecb",
+          "csa"
+        ]
+      },
+      {
+        "text": "Conditional strategic transmission remains security, shipping, energy, aviation, cyber, supply chains and markets. This review establishes no new direct Singapore disruption. A competing explanation for higher risk premia or transport costs would be ordinary seasonality, financing or capacity constraints; any later event claim needs original event date, independent confirmation and operator evidence before attribution. No tactical military or exploit detail is republished.",
+        "kind": "fact",
+        "source_ids": [
+          "mindef",
+          "csa"
+        ]
+      },
+      {
+        "text": "Week 23–29 November evidence timeline: Singapore GDP was released 24 November; the F5 advisories are dated 26 November; ECB consumer expectations and the NCS announcement were released 27 November; NCS’s event occurred 23 November. The current review is 28 November. These distinct event/report/check dates prevent older releases being presented as Saturday events. Sunday’s fuller five-day outlook remains due 29 November. The following watchpoints are forward schedules, not predictions of their outcomes.",
+        "kind": "fact",
+        "source_ids": [
+          "gdp",
+          "csa-nginx",
+          "csa-f5",
+          "ecb",
+          "ncs",
+          "boj",
+          "bls"
+        ]
+      },
+      {
+        "text": "Editorial limits carried forward: Promotions & Cards full product-and-governing-terms reconciliations remain incomplete from the morning record; no expiry, eligibility, spend, cap, fee or exclusion check is falsely advanced tonight. The public source register is reused, with prior access failures retained rather than retried. The original market-image attachment gap remains: this text-first report uses original tables and no copied market asset. Owner portfolio/watchlist material, the completed private weekly review and private rankings remain outside public files. There is no extra universe scan or award-window replay in this evening release.",
+        "kind": "fact",
+        "source_ids": [
+          "csa",
+          "gdp"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "A positive shortened US index session and firmer inflation expectations need not signal stronger company cash generation.",
+        "transmission": "Household purchasing power, discount rates, FX translation and financing needs can affect sectors in different directions.",
+        "confidence": "inference",
+        "alternatives": "Holiday positioning or a concentrated index move could explain sentiment; better employment expectations could partly offset weak expected income.",
+        "source_ids": [
+          "ap",
+          "ecb",
+          "fx"
+        ]
+      },
+      {
+        "explanation": "An AI/cyber programme may create enterprise capability and later commercial opportunity, but an MOU does not quantify demand.",
+        "transmission": "Customer adoption, deployment milestones and service resilience could connect the announcement to operating performance.",
+        "confidence": "inference",
+        "alternatives": "Marketing, existing relationships or unconverted pilots could leave revenue, cash and system effectiveness unchanged.",
+        "source_ids": [
+          "ncs",
+          "csa"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Operating evidence broadens the rebound",
+        "outcome": "A broader recovery interpretation becomes better supported, without an automatic security recommendation.",
+        "trigger": "Next completed cash sessions provide independent sector breadth/volume, and issuer releases corroborate customer demand and cash conversion.",
+        "invalidation": "Narrow participation, fading demand, weaker margins or financing pressure persist.",
+        "horizon": "30 November–4 December 2026, subject to verified venue calendars",
+        "source_ids": [
+          "ap",
+          "ecb",
+          "boj",
+          "bls"
+        ]
+      },
+      {
+        "name": "Inflation pressure outlasts household income support",
+        "outcome": "Real purchasing-power and financing risks deserve more attention in issuer research.",
+        "trigger": "Subsequent realized wage, employment, price and spending releases corroborate the survey concern.",
+        "invalidation": "Real income and realized demand improve while inflation moderates; a survey alone is insufficient.",
+        "horizon": "Next official releases; 1 and 4 December labour events are partial tests",
+        "source_ids": [
+          "ecb",
+          "bls"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "30 November BOJ Governor Ueda speech scheduled 10:05 JST / 09:05 SGT; check actual text",
+        "due_at": "2026-11-30T01:05:00Z",
+        "confirms": "Published remarks provide the current assessment of wages, prices and activity.",
+        "contradicts": "Schedule changes or actual language differ; a speech listing is not a policy decision.",
+        "source_ids": [
+          "boj"
+        ]
+      },
+      {
+        "signal": "1 December BLS October JOLTS scheduled 10:00 EST / 23:00 SGT",
+        "due_at": "2026-12-01T15:00:00Z",
+        "confirms": "The actual release, revisions and reference month help test labour demand.",
+        "contradicts": "A changed schedule or conflicting hires/separations weakens a headline-only interpretation.",
+        "source_ids": [
+          "bls"
+        ]
+      },
+      {
+        "signal": "4 December BLS November Employment Situation scheduled 08:30 EST / 21:30 SGT",
+        "due_at": "2026-12-04T13:30:00Z",
+        "confirms": "Jobs, wages, unemployment and revisions jointly test the demand/inflation balance.",
+        "contradicts": "Revisions, participation or wages contradict the initial payroll headline; do not invent a forecast.",
+        "source_ids": [
+          "bls"
+        ]
+      },
+      {
+        "signal": "29 November Sunday calendar and evidence review; not a market-open assertion",
+        "due_at": "2026-11-29T00:00:00Z",
+        "confirms": "Official coming-week venue and release calendars support the full five-day outlook.",
+        "contradicts": "Unverified days or exceptional hours remain labelled gaps rather than filled estimates.",
+        "source_ids": [
+          "jpx",
+          "nse",
+          "nyse",
+          "boj",
+          "bls"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": true,
+      "reviewed_at": "2026-11-28T11:07:36Z"
+    },
+    "material_reason": null,
+    "evening_brief": {
+      "date": "2026-11-28",
+      "sectors": [
+        {
+          "sector": "Information Technology",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. The company-reported NCS/Palo Alto programme and CSA advisories bear on implementation and resilience, not verified incremental orders. NVIDIA’s index check closes no fresh bottleneck/demand comparison. Require revenue, utilization, margins and funding evidence; supplier capacity or security headlines alone can mislead.",
+          "source_ids": [
+            "ncs",
+            "csa",
+            "nvda"
+          ]
+        },
+        {
+          "sector": "Communication Services",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. Operational exposure to enterprise-edge/virtualisation risk is plausible, but affected listed operators, customer outages, remediation cost and current sector turnover are unverified. Advertising, subscriber demand and execution can dominate a technology theme.",
+          "source_ids": [
+            "csa",
+            "ncs"
+          ]
+        },
+        {
+          "sector": "Consumer Discretionary",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. ECB households expect weaker nominal income growth while spending growth expectations are unchanged; this is a dated euro-area survey, not verified retailer receipts or Singapore household spending. Test margins and realized sales against promotion effects.",
+          "source_ids": [
+            "ecb",
+            "gdp"
+          ]
+        },
+        {
+          "sector": "Consumer Staples",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. The survey’s higher inflation expectations may coexist with stable spending intentions; pricing power, mix and input-cost pass-through differ by issuer. No current staples return/volume panel or company margin update is certified.",
+          "source_ids": [
+            "ecb"
+          ]
+        },
+        {
+          "sector": "Energy",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. Current oil/gas settlements, inventories, freight and company cash-cost observations are missing. Inflation expectations are not a new energy-supply disruption. Demand weakness, capacity and currency can offset a security-risk narrative.",
+          "source_ids": [
+            "ecb",
+            "fx"
+          ]
+        },
+        {
+          "sector": "Financials",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. The ECB survey indicates tighter perceived and expected access to credit, while expected unemployment improves. Bank credit losses, deposit costs, loan volumes and capital returns must confirm any transmission. Singapore GDP is aggregate context, not a bank earnings upgrade.",
+          "source_ids": [
+            "ecb",
+            "gdp"
+          ]
+        },
+        {
+          "sector": "Health Care",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. No new verified issuer decision, reimbursement change, funded award or current sector trading panel is established tonight. Provider systems may face enterprise-security exposure, but a generic advisory does not establish patient-service interruption or issuer revenue.",
+          "source_ids": [
+            "csa",
+            "ecb"
+          ]
+        },
+        {
+          "sector": "Industrials",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. Singapore’s revised GDP is macro context; no new dated order, backlog conversion, transport throughput or funding evidence is verified this evening. Programme announcements and strategic cooperation must translate into deployments and cash; financing and working capital can absorb apparent growth.",
+          "source_ids": [
+            "gdp",
+            "ncs",
+            "mindef"
+          ]
+        },
+        {
+          "sector": "Materials",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. No synchronized commodity prices, China/end-user demand, inventory or company cost/volume panel is available. FX translation and demand sensitivity are conditional; a strong broad index is insufficient evidence of a materials cycle turn.",
+          "source_ids": [
+            "fx",
+            "ap"
+          ]
+        },
+        {
+          "sector": "Real Estate",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. ECB home-price growth expectations eased from 3.5% to 3.3%; expected mortgage rates remained 4.9% versus July. These euro-area household expectations are neither Singapore REIT borrowing costs nor realized property values. Debt maturities, hedges, occupancy and distributions require issuer evidence.",
+          "source_ids": [
+            "ecb"
+          ]
+        },
+        {
+          "sector": "Utilities",
+          "status": "data-incomplete",
+          "finding": "DATA INCOMPLETE: no synchronized current global sector return/breadth/volume panel. No new contracted power capacity, grid interconnection, tariff decision or funded generation/cooling delivery is verified. AI demand creates a possible capital-spending channel, with approvals, utilization and financing as contrary constraints. No current utility valuation/sector-volume conclusion follows.",
+          "source_ids": [
+            "nvda",
+            "ncs"
+          ]
+        }
+      ],
+      "redl": [
+        {
+          "cik": "1541617",
+          "outcome": "Altimeter Capital Management, LP; exact CIK 1541617. Latest indexed 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0001541617-26-000010. No newer 13F in the fresh recent-submission index. Line-item disclosure comparison and full historical archive reconciliation are not completed by this check; no filing is not proof of no trade, and delayed holdings are not daily buying.",
+          "source_ids": [
+            "sec1541617"
+          ]
+        },
+        {
+          "cik": "1709323",
+          "outcome": "Himalaya Capital Management LLC; exact CIK 1709323. Latest indexed 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0002043585-26-000030. No newer 13F in the fresh recent-submission index. Line-item disclosure comparison and full historical archive reconciliation are not completed by this check; no filing is not proof of no trade, and delayed holdings are not daily buying.",
+          "source_ids": [
+            "sec1709323"
+          ]
+        },
+        {
+          "cik": "1647251",
+          "outcome": "TCI Fund Management Ltd; exact CIK 1647251. Latest indexed 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0001647251-26-000011. No newer 13F in the fresh recent-submission index. Line-item disclosure comparison and full historical archive reconciliation are not completed by this check; no filing is not proof of no trade, and delayed holdings are not daily buying.",
+          "source_ids": [
+            "sec1647251"
+          ]
+        },
+        {
+          "cik": "1697868",
+          "outcome": "Valley Forge Capital Management, LP; exact CIK 1697868. Latest indexed 13F-HR filed 2026-11-16, holdings as of 2026-09-30, accession 0001697868-26-000007. No newer 13F in the fresh recent-submission index. Line-item disclosure comparison and full historical archive reconciliation are not completed by this check; no filing is not proof of no trade, and delayed holdings are not daily buying.",
+          "source_ids": [
+            "sec1697868"
+          ]
+        }
+      ]
+    }
   }
 ]
