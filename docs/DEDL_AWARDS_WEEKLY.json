@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "completed_week_key": "US-AWARDS-WEEK-END-2026-11-27",
+  "status": "checked-incomplete",
+  "checked_at": "2026-11-28T00:04:12Z",
+  "action_date_start": "2026-11-23",
+  "action_date_end": "2026-11-27",
+  "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_transaction/",
+  "request": {
+    "filters": {
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "time_period": [
+        {
+          "start_date": "2026-11-23",
+          "end_date": "2026-11-27"
+        }
+      ]
+    },
+    "fields": [
+      "Award ID",
+      "Mod",
+      "Recipient Name",
+      "Action Date",
+      "Transaction Amount",
+      "Awarding Agency",
+      "Awarding Sub Agency",
+      "Award Type"
+    ],
+    "page": 1,
+    "limit": 100,
+    "sort": "Transaction Amount",
+    "order": "desc"
+  },
+  "fetched_actions": 100,
+  "last_returned_transaction_amount": 4311060.0,
+  "above_floor_actions": [
+    {
+      "Award ID": "89303924FEM400054",
+      "Mod": "P00062",
+      "Recipient Name": "CENTRAL PLATEAU CLEANUP COMPANY, LLC",
+      "Action Date": "2026-11-23",
+      "Transaction Amount": 101808889.24,
+      "Awarding Agency": "Department of Energy",
+      "Awarding Sub Agency": "Department of Energy",
+      "Award Type": "DELIVERY ORDER",
+      "generated_internal_id": "CONT_AWD_89303924FEM400054_8900_89303320DEM000030_8900",
+      "internal_id": 292037750
+    },
+    {
+      "Award ID": "75FCMC26C0015",
+      "Mod": "P00003",
+      "Recipient Name": "HEALTHEDGE SOFTWARE, INC.",
+      "Action Date": "2026-11-24",
+      "Transaction Amount": 90575403.24,
+      "Awarding Agency": "Department of Health and Human Services",
+      "Awarding Sub Agency": "Centers for Medicare and Medicaid Services",
+      "Award Type": "DEFINITIVE CONTRACT",
+      "generated_internal_id": "CONT_AWD_75FCMC26C0015_7530_-NONE-_-NONE-",
+      "internal_id": 358871635
+    },
+    {
+      "Award ID": "36C10X27K0129",
+      "Mod": "0",
+      "Recipient Name": "MEDLINE INDUSTRIES, LP",
+      "Action Date": "2026-11-24",
+      "Transaction Amount": 87139505.65,
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Award Type": "DELIVERY ORDER",
+      "generated_internal_id": "CONT_AWD_36C10X27K0129_3600_36C10X23D0032_3600",
+      "internal_id": 367366227
+    },
+    {
+      "Award ID": "DEAC0908SR22470",
+      "Mod": "1170",
+      "Recipient Name": "SAVANNAH RIVER NUCLEAR SOLUTIONS LLC",
+      "Action Date": "2026-11-25",
+      "Transaction Amount": 74908453.18,
+      "Awarding Agency": "Department of Energy",
+      "Awarding Sub Agency": "Department of Energy",
+      "Award Type": "DEFINITIVE CONTRACT",
+      "generated_internal_id": "CONT_AWD_DEAC0908SR22470_8900_-NONE-_-NONE-",
+      "internal_id": 295476437
+    },
+    {
+      "Award ID": "70B02C26F00000258",
+      "Mod": "P00004",
+      "Recipient Name": "ADVANCED TECHNOLOGY SYSTEMS COMPANY, INC. (OF VIRGINIA)",
+      "Action Date": "2026-11-25",
+      "Transaction Amount": 51289213.11,
+      "Awarding Agency": "Department of Homeland Security",
+      "Awarding Sub Agency": "U.S. Customs and Border Protection",
+      "Award Type": "DELIVERY ORDER",
+      "generated_internal_id": "CONT_AWD_70B02C26F00000258_7014_70B02C23D00000024_7014",
+      "internal_id": 358871293
+    },
+    {
+      "Award ID": "80NM0026F7025",
+      "Mod": "P00010",
+      "Recipient Name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+      "Action Date": "2026-11-24",
+      "Transaction Amount": 50000000.0,
+      "Awarding Agency": "National Aeronautics and Space Administration",
+      "Awarding Sub Agency": "National Aeronautics and Space Administration",
+      "Award Type": "DELIVERY ORDER",
+      "generated_internal_id": "CONT_AWD_80NM0026F7025_8000_80NM0018D0004_8000",
+      "internal_id": 357468540
+    },
+    {
+      "Award ID": "140RR027C0003",
+      "Mod": "0",
+      "Recipient Name": "NW CONSTRUCTION, INC",
+      "Action Date": "2026-11-23",
+      "Transaction Amount": 49123167.0,
+      "Awarding Agency": "Department of the Interior",
+      "Awarding Sub Agency": "Departmental Offices",
+      "Award Type": "DEFINITIVE CONTRACT",
+      "generated_internal_id": "CONT_AWD_140RR027C0003_1406_-NONE-_-NONE-",
+      "internal_id": 367352617
+    },
+    {
+      "Award ID": "36C10B24F0305",
+      "Mod": "P00010",
+      "Recipient Name": "VETERANS EZ INFO INC.",
+      "Action Date": "2026-11-24",
+      "Transaction Amount": 43426332.8,
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Award Type": "DELIVERY ORDER",
+      "generated_internal_id": "CONT_AWD_36C10B24F0305_3600_47QTCA22D009N_4732",
+      "internal_id": 279970560
+    },
+    {
+      "Award ID": "36C10B25C0022",
+      "Mod": "P00005",
+      "Recipient Name": "DOCUMENT STORAGE SYSTEMS, INC.",
+      "Action Date": "2026-11-24",
+      "Transaction Amount": 41805537.03,
+      "Awarding Agency": "Department of Veterans Affairs",
+      "Awarding Sub Agency": "Department of Veterans Affairs",
+      "Award Type": "DEFINITIVE CONTRACT",
+      "generated_internal_id": "CONT_AWD_36C10B25C0022_3600_-NONE-_-NONE-",
+      "internal_id": 279970769
+    }
+  ],
+  "qualified_leads": [],
+  "screen_complete": false,
+  "limits": [
+    "New action obligations, not ceiling/options/revenue; no aggregation with lifetime obligations.",
+    "Reporting completeness,listed-parent/market-cap/revenue/backlog/pricing checks remain incomplete; no full90daywindow certification.",
+    "Small-cap research exception remains separate from normal core screen."
+  ]
+}

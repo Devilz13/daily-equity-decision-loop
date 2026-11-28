@@ -62567,5 +62567,183 @@
         "source_id": "nyse"
       }
     }
+  },
+  {
+    "id": "2026-11-28-singapore-growth-review",
+    "title": "Singapore growth: dated revision closes a verification gap",
+    "summary": "The24November original confirms Q3 growth and revised forecasts. This is a newly checked older release, not a new28November economic event; quarter outcomes and annual projections remain separate.",
+    "channel": "markets",
+    "regions": [
+      "singapore",
+      "global"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "markets"
+    ],
+    "format": "short",
+    "published_at": "2026-11-28T00:08:18Z",
+    "updated_at": "2026-11-28T00:08:18Z",
+    "cutoff_at": "2026-11-28T00:08:18Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "gdp",
+        "title": "24November original GDP release; selected summary/sector context checked",
+        "publisher": "METI",
+        "url": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf",
+        "type": "primary",
+        "published_at": "2026-11-24",
+        "accessed_at": "2026-11-28T00:03:59Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Singapore Q3 real GDP grew6.1%year-on-year, revised from the5.4%advance estimate, and1.5%quarter-on-quarter seasonally adjusted. Q2 comparisons are6.4%year-on-year and1.8%seasonally adjusted quarter-on-quarter. The24November release forecasts around6.0%growth in2026 and2.5–4.5%in2027; forecasts are not realized annual growth.",
+        "kind": "fact",
+        "source_ids": [
+          "gdp"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Observed exposure and economic consequences require different evidence.",
+        "transmission": "Operations, supplier delivery, costs and financing can transmit into cash flows.",
+        "confidence": "inference",
+        "alternatives": "A dated disclosure or index movement alone cannot establish a company-level loss or durable benefit.",
+        "source_ids": [
+          "gdp"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence becomes operationally material",
+        "outcome": "Original operating or exposure data establish an economically relevant change.",
+        "trigger": "Dated follow-up corroborates scope and realized effects.",
+        "invalidation": "Exposure is absent or offset and observed outcomes fail to follow.",
+        "horizon": "30November business-day follow-up and next original disclosures",
+        "source_ids": [
+          "gdp"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "30November original operating/exposure follow-up; review bound, not a promised release",
+        "due_at": "2026-11-30T00:00:00Z",
+        "confirms": "Comparable original evidence supports the transmission case.",
+        "contradicts": "A forecast, announcement or exposure warning is presented as a realized outcome.",
+        "source_ids": [
+          "gdp"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-28T00:08:18Z"
+    },
+    "material_reason": null
+  },
+  {
+    "id": "2026-11-28-enterprise-edge-review",
+    "title": "Enterprise edge: older F5 advisories newly checked, exposure still matters",
+    "summary": "Original26November CSA notices distinguish an active-exploitation warning for NGINX from critical BIG-IP vulnerabilities. This28November review is not a new incident announcement; no Singapore victim or measured commercial loss is established.",
+    "channel": "cybersecurity",
+    "regions": [
+      "singapore",
+      "global"
+    ],
+    "lenses": [
+      "dedl"
+    ],
+    "topics": [
+      "cybersecurity"
+    ],
+    "format": "short",
+    "published_at": "2026-11-28T00:08:18Z",
+    "updated_at": "2026-11-28T00:08:18Z",
+    "cutoff_at": "2026-11-28T00:08:18Z",
+    "status": "published",
+    "sources": [
+      {
+        "id": "nginx",
+        "title": "26November original NGINX notice; non-operational exposure/update scope reviewed",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-168/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-28T00:05:09Z"
+      },
+      {
+        "id": "f5",
+        "title": "26November original BIG-IP notice; non-operational product-risk scope reviewed",
+        "publisher": "CSA",
+        "url": "https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-169/",
+        "type": "primary",
+        "published_at": "2026-11-26",
+        "accessed_at": "2026-11-28T00:05:09Z"
+      }
+    ],
+    "claims": [
+      {
+        "text": "CSA’s26November NGINX notice reports active exploitation and available updates. Its separate26November BIG-IP notice identifies critical vulnerabilities and recommends updates; that notice does not itself establish a Singapore incident. Organisations should check actual product exposure and follow vendor/CERT guidance. No exploit instructions, victim list or measured loss are supplied here.",
+        "kind": "fact",
+        "source_ids": [
+          "nginx",
+          "f5"
+        ]
+      }
+    ],
+    "causation": [
+      {
+        "explanation": "Observed exposure and economic consequences require different evidence.",
+        "transmission": "Operations, supplier delivery, costs and financing can transmit into cash flows.",
+        "confidence": "inference",
+        "alternatives": "A dated disclosure or index movement alone cannot establish a company-level loss or durable benefit.",
+        "source_ids": [
+          "nginx"
+        ]
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Evidence becomes operationally material",
+        "outcome": "Original operating or exposure data establish an economically relevant change.",
+        "trigger": "Dated follow-up corroborates scope and realized effects.",
+        "invalidation": "Exposure is absent or offset and observed outcomes fail to follow.",
+        "horizon": "30November business-day follow-up and next original disclosures",
+        "source_ids": [
+          "nginx"
+        ]
+      }
+    ],
+    "watchpoints": [
+      {
+        "signal": "30November original operating/exposure follow-up; review bound, not a promised release",
+        "due_at": "2026-11-30T00:00:00Z",
+        "confirms": "Comparable original evidence supports the transmission case.",
+        "contradicts": "A forecast, announcement or exposure warning is presented as a realized outcome.",
+        "source_ids": [
+          "nginx"
+        ]
+      }
+    ],
+    "corrections": [],
+    "review": {
+      "evidence_checked": true,
+      "privacy_checked": true,
+      "public_safe": true,
+      "strategic_only": false,
+      "reviewed_at": "2026-11-28T00:08:18Z"
+    },
+    "material_reason": null
   }
 ]

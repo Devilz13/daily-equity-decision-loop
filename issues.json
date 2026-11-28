@@ -2,8 +2,48 @@
   "schema_version": "1.0",
   "timezone": "Asia/Singapore",
   "publication_time": "08:00",
-  "latest": "2026-11-27",
+  "latest": "2026-11-28",
   "issues": [
+    {
+      "date": "2026-11-28",
+      "number": 74,
+      "title": "Rebound evidence, Singapore’s growth revision and enterprise resilience",
+      "status": "DATA INCOMPLETE · Saturday full edition",
+      "path": "issues/2026/11/28/",
+      "markets": [
+        "Global",
+        "US",
+        "Singapore",
+        "Direct REIT",
+        "Funds / ETFs"
+      ],
+      "telegram": {
+        "delivery_revision": "2026-11-28-v1",
+        "delivery_notice": "Delayed Saturday edition: apologies for missing the08:00target. Research uses its actual cutoff; expired alerts and missed editions are not back-sent.",
+        "summary": "US final indexes rebounded; Singapore’s older GDP release now closes a carried verification gap. Europe’s consumer expectations and business confidence point in different directions. Enterprise exposure still needs evidence. All five market lanes remain DATA INCOMPLETE. Market image unavailable.",
+        "headlines": [
+          {
+            "title": "US rebound: index outcome versus operating proof",
+            "date": "27Nov · early cash close",
+            "context": "The completed session rose across four broad indexes. Final sector breadth and volume remain incomplete; the expired closing alert stays web-only.",
+            "source": "https://apnews.com/article/04dab6079cf7f3dfe7285a3cc1f240a2"
+          },
+          {
+            "title": "Singapore GDP: original revision now checked",
+            "date": "24Nov · Q3 GDP release",
+            "context": "Q3 grew6.1%y/y and1.5%q/q seasonally adjusted. Around6.0%for2026 and2.5–4.5%for2027 are forecasts, not realized annual growth.",
+            "source": "https://isomer-user-content.by.gov.sg/1004/e37dff42-ee1b-4f51-884e-746da0a0ab2e/PR_3Q26.pdf"
+          },
+          {
+            "title": "European inflation expectations require a demand test",
+            "date": "27Nov · October CES",
+            "context": "One-year expected inflation rose3.1%to3.5%. It is a household survey, not measured CPI or an ECB rate decision; business confidence is a separate series.",
+            "source": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html"
+          }
+        ],
+        "market_note": "Saturday JPX cash is closed; no fictional SGX opening print. US27Novclose is published web-only after expiry. FX references are dated27Nov, not live weekend quotes. Sector, valuation and portfolio-risk inputs remain incomplete."
+      }
+    },
     {
       "date": "2026-11-27",
       "number": 73,
